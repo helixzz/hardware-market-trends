@@ -50,9 +50,10 @@
    - 日报写全量规格位，缺样本填 `NA`
 
 2. **企业级 NVMe SSD**
-   - 从可见企业级现货/B2B 页面抓取大容量 U.2 NVMe 报价
-   - 先覆盖 PCIe4 TLC / PCIe4 QLC 的部分可见容量位
-   - 对缺少公开现货页面的规格保留空位，不硬编
+   - 从可见企业级现货/B2B 页面抓取 U.2 NVMe 报价
+   - 当前优先解析 DiscTech 容量页里的 JSON-LD `ItemList`，只纳入能明确识别为企业级 Gen4/Gen5 的条目
+   - 自动剔除 Gen3、Mixed Use、以及与目标口径不符的页面样本，避免把旧盘/非目标盘误写进 tracking-table
+   - 当前已能稳定覆盖 PCIe4 TLC 的 1.92TB / 3.84TB / 7.68TB / 15.36TB；对缺少公开现货页面的规格保留空位，不硬编
 
 3. **长期追踪**
    - 对固定代表列取中位价
@@ -93,6 +94,31 @@
 ```bash
 scripts/daily-hardware-market-check.sh
 ```
+
+### 市场要闻早报
+
+生成“市场要闻”早报：
+
+```bash
+scripts/daily-market-news-digest.sh
+```
+
+如已准备好外部中文改写器（可选），可通过环境变量接入批量重写；脚本会把 JSON 任务通过 stdin 传给该命令，要求其输出等长 JSON 数组：
+
+```bash
+export MARKET_NEWS_REWRITER_CMD='python3 /path/to/your_rewriter.py'
+scripts/daily-market-news-digest.sh
+```
+
+约束与策略：
+- 最多 10 条
+- 单条摘要不超过 140 字
+- 全部摘要总长不超过 2000 字
+- 默认先按英文公开 RSS 聚合抓取，再做中文晨报式压缩
+- 若外部改写器不可用、返回非 JSON、超时或失败，会自动回退到本地规则压缩，不影响日报生成
+
+输出位置：
+- `daily-news/daily-news-digest-YYYY-MM-DD.md`
 
 或指定日期回填：
 
