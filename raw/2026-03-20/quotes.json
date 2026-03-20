@@ -1,0 +1,302 @@
+{
+  "date": "2026-03-20",
+  "generated_at": "2026-03-20T11:49:40.733531",
+  "usd_to_cny": 7.2,
+  "vat_rate": 0.13,
+  "run_notes": [
+    "corewave-6400: OK (2 quotes)",
+    "corewave-5600: OK (19 quotes)",
+    "ssd-pcie4-tlc-15.36: OK (5 quotes)",
+    "ssd-pcie4-qlc-30.72: OK (0 quotes)",
+    "ssd-pcie4-qlc-61.44: OK (0 quotes)",
+    "ssd-pcie4-qlc-122.88: OK (0 quotes)"
+  ],
+  "quotes": [
+    {
+      "category": "DDR5-6400",
+      "spec": "64GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-6400-ecc-rdimm-server-ram-price/",
+      "price_usd": 2152.0,
+      "price_cny_tax": 17509,
+      "excerpt": "AD089130 Dell 64GB DDR5-6400 RDIMM $2,152.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "64GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-6400-ecc-rdimm-server-ram-price/",
+      "price_usd": 2152.0,
+      "price_cny_tax": 17509,
+      "excerpt": "SNPN66RPC/64G Dell 64GB DDR5-6400 RDIMM $2,152.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "256GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 8696.0,
+      "price_cny_tax": 70751,
+      "excerpt": "SNPT025XC/256G Dell 256GB DDR5-5600 RDIMM $8,696.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "256GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 8696.0,
+      "price_cny_tax": 70751,
+      "excerpt": "AD053381 Dell 256GB DDR5-5600 RDIMM $8,696.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 4095.0,
+      "price_cny_tax": 33317,
+      "excerpt": "AC828668 Dell 96GB DDR5-5600 RDIMM $4,095.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 4095.0,
+      "price_cny_tax": 33317,
+      "excerpt": "SNPFFX9NC/96G Dell 96GB DDR5-5600 RDIMM $4,095.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 2446.0,
+      "price_cny_tax": 19901,
+      "excerpt": "AC830718 Dell 64GB DDR5-5600 RDIMM $2,446.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 2446.0,
+      "price_cny_tax": 19901,
+      "excerpt": "SNP58F8NC/64G Dell 64GB DDR5-5600 RDIMM $2,446.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 1196.0,
+      "price_cny_tax": 9731,
+      "excerpt": "AC830717 Dell 32GB DDR5-5600 RDIMM $1,196.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 1196.0,
+      "price_cny_tax": 9731,
+      "excerpt": "SNPP8XPWC/32G Dell 32GB DDR5-5600 RDIMM $1,196.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 739.0,
+      "price_cny_tax": 6013,
+      "excerpt": "AC830716 Dell 16GB DDR5-5600 RDIMM $739.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "brand": "Dell",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 739.0,
+      "price_cny_tax": 6013,
+      "excerpt": "SNP5DR48C/16G Dell 16GB DDR5-5600 RDIMM $739.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "256GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 8696.0,
+      "price_cny_tax": 70751,
+      "excerpt": "P64710-B21 HPE 256GB DDR5-5600 RDIMM $8,696.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "128GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 4783.0,
+      "price_cny_tax": 38914,
+      "excerpt": "P69976-B21 HPE 128GB DDR5-5600 RDIMM $4,783.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 4095.0,
+      "price_cny_tax": 33317,
+      "excerpt": "P64708-B21 HPE 96GB DDR5-5600 RDIMM $4,095.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 2446.0,
+      "price_cny_tax": 19901,
+      "excerpt": "P64707-B21 HPE 64GB DDR5-5600 RDIMM $2,446.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 2446.0,
+      "price_cny_tax": 19901,
+      "excerpt": "P70079-H21 HPE 64GB DDR5-5600 RDIMM $2,446.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 1196.0,
+      "price_cny_tax": 9731,
+      "excerpt": "P64706-B21 HPE 32GB DDR5-5600 RDIMM $1,196.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 1196.0,
+      "price_cny_tax": 9731,
+      "excerpt": "P70077-H21 HPE 32GB DDR5-5600 RDIMM $1,196.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 739.0,
+      "price_cny_tax": 6013,
+      "excerpt": "P64705-B21 HPE 16GB DDR5-5600 RDIMM $739.00",
+      "notes": ""
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "brand": "HPE",
+      "source": "CoreWaveLabs",
+      "url": "https://corewavelabs.com/ddr5-5600-ecc-rdimm-server-ram-price/",
+      "price_usd": 739.0,
+      "price_cny_tax": 6013,
+      "excerpt": "P70075-H21 HPE 16GB DDR5-5600 RDIMM $739.00",
+      "notes": ""
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "brand": "Mixed/OEM",
+      "source": "DiscTech",
+      "url": "https://www.disctech.com/data-storage/internal-storage/ssd-solid-state-drives/capacity/15-36TB/interface-types/NVMe-U.2",
+      "price_usd": 3840.0,
+      "price_cny_tax": 31242,
+      "excerpt": "15.36TB listing $3,840.00",
+      "notes": ""
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "brand": "Mixed/OEM",
+      "source": "DiscTech",
+      "url": "https://www.disctech.com/data-storage/internal-storage/ssd-solid-state-drives/capacity/15-36TB/interface-types/NVMe-U.2",
+      "price_usd": 5376.0,
+      "price_cny_tax": 43739,
+      "excerpt": "15.36TB listing $5,376.00",
+      "notes": ""
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "brand": "Mixed/OEM",
+      "source": "DiscTech",
+      "url": "https://www.disctech.com/data-storage/internal-storage/ssd-solid-state-drives/capacity/15-36TB/interface-types/NVMe-U.2",
+      "price_usd": 5376.0,
+      "price_cny_tax": 43739,
+      "excerpt": "15.36TB listing $5,376.00",
+      "notes": ""
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "brand": "Mixed/OEM",
+      "source": "DiscTech",
+      "url": "https://www.disctech.com/data-storage/internal-storage/ssd-solid-state-drives/capacity/15-36TB/interface-types/NVMe-U.2",
+      "price_usd": 5200.0,
+      "price_cny_tax": 42307,
+      "excerpt": "15.36TB listing $5,200.00",
+      "notes": ""
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "brand": "Mixed/OEM",
+      "source": "DiscTech",
+      "url": "https://www.disctech.com/data-storage/internal-storage/ssd-solid-state-drives/capacity/15-36TB/interface-types/NVMe-U.2",
+      "price_usd": 3999.0,
+      "price_cny_tax": 32536,
+      "excerpt": "15.36TB listing $3,999.00",
+      "notes": ""
+    }
+  ]
+}
