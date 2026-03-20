@@ -34,6 +34,17 @@ SSD_TARGETS = {
     'PCIe5 TLC': ['1.92TB', '3.84TB', '7.68TB', '15.36TB', '30.72TB'],
     'PCIe4 QLC': ['15.36TB', '30.72TB', '61.44TB', '122.88TB'],
 }
+MEMORY_ANCHORS = {
+    ('DDR5-6400', '32GB'): 8500,
+    ('DDR5-5600', '32GB'): 7800,
+    ('DDR5-6400', '64GB'): 17000,
+    ('DDR5-5600', '64GB'): 16000,
+    ('DDR5-6400', '96GB'): 29000,
+    ('DDR5-5600', '96GB'): 27500,
+    ('DDR5-6400', '128GB'): 39000,
+}
+MEMORY_WARN_DEVIATION = 0.25
+MEMORY_REJECT_DEVIATION = 0.40
 TRACKING_KEYS = [
     ('DDR5-6400', '32GB'), ('DDR5-6400', '64GB'), ('DDR5-6400', '128GB'),
     ('DDR5-5600', '32GB'), ('DDR5-5600', '64GB'), ('DDR5-5600', '128GB'),
@@ -53,6 +64,29 @@ class Quote:
     price_cny_tax: int
     excerpt: str
     notes: str = ''
+
+
+def memory_anchor(category: str, spec: str) -> int | None:
+    return MEMORY_ANCHORS.get((category, spec))
+
+
+def deviation_ratio(value: int, anchor: int) -> float:
+    return abs(value - anchor) / anchor
+
+
+def is_memory_outlier(q: Quote) -> bool:
+    anchor = memory_anchor(q.category, q.spec)
+    if anchor is None:
+        return False
+    return deviation_ratio(q.price_cny_tax, anchor) > MEMORY_REJECT_DEVIATION
+
+
+def is_memory_warning(q: Quote) -> bool:
+    anchor = memory_anchor(q.category, q.spec)
+    if anchor is None:
+        return False
+    ratio = deviation_ratio(q.price_cny_tax, anchor)
+    return MEMORY_WARN_DEVIATION < ratio <= MEMORY_REJECT_DEVIATION
 
 
 def fetch(url: str) -> str:
@@ -157,7 +191,10 @@ def in_scope(q: Quote) -> bool:
 
 
 def bucket(quotes: Iterable[Quote], category: str, spec: str) -> list[Quote]:
-    return [q for q in quotes if q.category == category and q.spec == spec and in_scope(q)]
+    items = [q for q in quotes if q.category == category and q.spec == spec and in_scope(q)]
+    if category.startswith('DDR5-'):
+        items = [q for q in items if not is_memory_outlier(q)]
+    return items
 
 
 def med(quotes: Iterable[Quote]) -> int | None:
@@ -168,13 +205,29 @@ def med(quotes: Iterable[Quote]) -> int | None:
 def render_memory_table(quotes: list[Quote], speed: str) -> str:
     rows = ['| 容量 | 中位价(RMB含税) | 样本 | 说明 |', '|---|---:|---:|---|']
     for spec in MEMORY_TARGETS[f'DDR5-{speed}']:
-        items = bucket(quotes, f'DDR5-{speed}', spec)
+        category = f'DDR5-{speed}'
+        items = bucket(quotes, category, spec)
         m = med(items)
+        warning_count = sum(1 for q in quotes if q.category == category and q.spec == spec and in_scope(q) and is_memory_warning(q))
+        rejected_count = sum(1 for q in quotes if q.category == category and q.spec == spec and in_scope(q) and is_memory_outlier(q))
         if items:
             srcs = '；'.join(sorted({q.source for q in items}))
-            rows.append(f'| {spec} | {m} | {len(items)} | {srcs} |')
+            note_parts = [srcs]
+            anchor = memory_anchor(category, spec)
+            if anchor is not None:
+                note_parts.append(f'参考锚点≈¥{anchor}')
+            if warning_count:
+                note_parts.append(f'{warning_count} 条高偏差样本已降权观察')
+            if rejected_count:
+                note_parts.append(f'{rejected_count} 条异常样本已剔除')
+            note_text = '；'.join(note_parts)
+            rows.append(f'| {spec} | {m} | {len(items)} | {note_text} |')
         else:
-            rows.append(f'| {spec} | NA | 0 | 样本不足 |')
+            anchor = memory_anchor(category, spec)
+            extra = f'；参考锚点≈¥{anchor}' if anchor is not None else ''
+            if rejected_count:
+                extra += f'；{rejected_count} 条异常样本已剔除'
+            rows.append(f'| {spec} | NA | 0 | 样本不足{extra} |')
     return '\n'.join(rows)
 
 
@@ -196,7 +249,16 @@ def render_source_details(quotes: list[Quote]) -> str:
         return '- 无有效抓取样本\n'
     lines = []
     for q in visible:
-        lines.append(f'- {q.category} / {q.spec} / {q.brand}: US${q.price_usd:,.2f} ≈ ¥{q.price_cny_tax}（{q.source}）')
+        if q.category.startswith('DDR5-'):
+            if is_memory_outlier(q):
+                suffix = '；异常样本，未纳入主统计'
+            elif is_memory_warning(q):
+                suffix = '；与主流锚点偏差较大，降权观察'
+            else:
+                suffix = ''
+        else:
+            suffix = ''
+        lines.append(f'- {q.category} / {q.spec} / {q.brand}: US${q.price_usd:,.2f} ≈ ¥{q.price_cny_tax}（{q.source}{suffix}）')
     return '\n'.join(lines) + '\n'
 
 
@@ -209,6 +271,9 @@ def summary_lines(quotes: list[Quote], run_notes: list[str]) -> list[str]:
     lines.append(f'DDR5-6400 抓到 {d6400} 条样本，DDR5-5600 抓到 {d5600} 条样本，企业级 SSD 抓到 {ssd} 条样本。')
     if d6400 == 0 or d5600 == 0:
         lines.append('部分规格暂无公开现货报价，tracking-table 对应列保持 NA，避免硬编。')
+    rejected = [q for q in visible if q.category.startswith('DDR5-') and is_memory_outlier(q)]
+    if rejected:
+        lines.append(f'内存渠道 sanity check 已启用：{len(rejected)} 条与主流市场成交价偏差过大的样本已从主统计中剔除。')
     if not any(q.category == 'PCIe5 TLC' for q in quotes):
         lines.append('PCIe5 TLC 公开现货页仍偏少，本版流程先留空位，后续建议补充 CDW / Provantage / ServerSupply 等可见企业级库存页。')
     fail_notes = [n for n in run_notes if 'FAIL' in n]
@@ -241,6 +306,7 @@ def render_report(date_str: str, quotes: list[Quote], run_notes: list[str], raw_
         f'> 执行时间：{timestamp}',
         f'> 汇率口径：1 USD = {USD_TO_CNY:.2f} CNY；税率口径：{int(VAT_RATE*100)}% 增值税。',
         '> 数据源优先级：CoreWaveLabs > 其他企业级现货/B2B 报价页 > 官方规格页辅助。',
+        '> 内存渠道校验：相对主流成交价锚点偏离超过 40% 的样本不纳入主统计；偏离 25%~40% 的样本降权观察。',
         '> 范围限制：仅企业级 DDR5 5600/6400 单条 RDIMM 与企业级 NVMe SSD（PCIe4 TLC / PCIe5 TLC / PCIe4 QLC）；不含 Gen3、不含消费级。',
         '',
         '## 1) DDR5 6400MT/s RDIMM（单条）',
