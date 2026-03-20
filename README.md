@@ -120,6 +120,10 @@ scripts/daily-market-news-digest.sh
 输出位置：
 - `daily-news/daily-news-digest-YYYY-MM-DD.md`
 
+补充说明：
+- 早报正文会优先输出更像中文晨报的一句话摘要，而不是简单拼接英文标题。
+- 若未配置外部改写器，仍会使用本地规则做中文压缩与事件归纳；效果不如大模型改写，但能稳定产出。
+
 或指定日期回填：
 
 ```bash
