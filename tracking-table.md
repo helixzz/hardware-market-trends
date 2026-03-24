@@ -10,3 +10,4 @@
 | 2026-03-21 | NA | 17509 | NA | 9731 | 19901 | 38914 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
 | 2026-03-22 | NA | 17509 | NA | 9731 | 19901 | 38914 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
 | 2026-03-23 | NA | 17509 | NA | 9731 | 19901 | 38914 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
+| 2026-03-24 | NA | 19014 | NA | 10170 | 18574 | 32276 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
