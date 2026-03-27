@@ -14,3 +14,4 @@
 | 2026-03-25 | NA | 19014 | NA | 10170 | 18574 | 32276 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
 | 2026-03-26 | NA | 19014 | NA | 10170 | 18574 | 32276 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
 | 2026-03-27 | NA | 19901 | NA | 10390 | 18574 | 32276 | 16264 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
+| 2026-03-28 | NA | 19901 | NA | 10390 | 18574 | 32276 | 18705 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
