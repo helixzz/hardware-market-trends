@@ -19,3 +19,4 @@
 | 2026-03-30 | NA | NA | NA | NA | NA | NA | 18705 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
 | 2026-03-31 | NA | NA | NA | NA | NA | NA | 18705 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
 | 2026-04-01 | NA | NA | NA | NA | NA | NA | 18705 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
+| 2026-04-02 | NA | NA | NA | NA | NA | NA | 18705 | 18094 | 43739 | NA | NA | NA | NA | NA | NA | NA | NA | NA | 自动抓取；锚点sanity check；PCIe4 TLC:4，PCIe5 TLC:0，PCIe4 QLC:0 |
