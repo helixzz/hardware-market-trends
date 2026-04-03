@@ -10,6 +10,12 @@ MAX_RETRIES=3
 
 cd "$REPO"
 
+# 先准备历史趋势上下文，供研究任务或生成器参考
+if [ -x "$REPO/scripts/prepare-market-context.sh" ]; then
+  "$REPO/scripts/prepare-market-context.sh"
+  echo
+fi
+
 # 如果日报已存在，跳过生成，只处理 git
 if [ -f "$REPORT_FILE" ]; then
   echo "Report already exists: $REPORT_FILE"

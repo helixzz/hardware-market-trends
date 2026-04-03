@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "updatedBy": "Sisyphus",
+  "categories": {
+    "DDR5-6400": {
+      "scope": "enterprise rdimm ecc single-stick",
+      "primarySources": [
+        "CoreWaveLabs"
+      ],
+      "backupSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT",
+        "Provantage",
+        "CDW",
+        "Connection",
+        "Tech-America",
+        "Saitech",
+        "Exxact",
+        "Wiredzone"
+      ],
+      "validationSources": [
+        "Micron official",
+        "Kingston Server Premier official",
+        "Samsung enterprise memory official",
+        "SK hynix enterprise memory official"
+      ],
+      "targetFamilies": [
+        "Micron DDR5-6400 RDIMM",
+        "Kingston Server Premier DDR5-6400 RDIMM",
+        "Samsung DDR5-6400 RDIMM",
+        "SK hynix DDR5-6400 RDIMM"
+      ]
+    },
+    "DDR5-5600": {
+      "scope": "enterprise rdimm ecc single-stick",
+      "primarySources": [
+        "CoreWaveLabs"
+      ],
+      "backupSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT",
+        "Provantage",
+        "CDW",
+        "Connection",
+        "Tech-America",
+        "Saitech",
+        "Exxact",
+        "Wiredzone"
+      ],
+      "validationSources": [
+        "Micron official",
+        "Kingston Server Premier official",
+        "Samsung enterprise memory official",
+        "SK hynix enterprise memory official"
+      ],
+      "targetFamilies": [
+        "Micron DDR5-5600 RDIMM",
+        "Kingston Server Premier DDR5-5600 RDIMM",
+        "Samsung DDR5-5600 RDIMM",
+        "SK hynix DDR5-5600 RDIMM"
+      ]
+    },
+    "PCIe4 TLC": {
+      "scope": "enterprise nvme gen4 tlc ri",
+      "primarySources": [
+        "DiscTech"
+      ],
+      "backupSources": [
+        "Provantage",
+        "CDW",
+        "Connection",
+        "Tech-America",
+        "ShopBLT",
+        "Zones",
+        "Exxact",
+        "Wiredzone",
+        "ServerSupply"
+      ],
+      "validationSources": [
+        "Solidigm official",
+        "Samsung enterprise SSD official",
+        "Micron enterprise SSD official",
+        "Kioxia enterprise SSD official"
+      ],
+      "targetFamilies": [
+        "Micron 7450",
+        "Micron 7500",
+        "Samsung PM9A3",
+        "Solidigm D7-P5520",
+        "Solidigm D7-P5620"
+      ]
+    },
+    "PCIe5 TLC": {
+      "scope": "enterprise nvme gen5 tlc ri",
+      "primarySources": [],
+      "backupSources": [
+        "Provantage",
+        "CDW",
+        "Connection",
+        "Tech-America",
+        "ShopBLT",
+        "Exxact",
+        "Wiredzone"
+      ],
+      "validationSources": [
+        "Micron official",
+        "Kioxia official",
+        "Samsung official",
+        "Solidigm official",
+        "Kingston official"
+      ],
+      "targetFamilies": [
+        "Micron 9550",
+        "Micron 9650",
+        "Kioxia CM7",
+        "Samsung PM1743",
+        "Samsung PM1743a",
+        "Solidigm D7-PS1010",
+        "Kingston DC3000ME"
+      ]
+    },
+    "PCIe4 QLC": {
+      "scope": "enterprise nvme gen4 qlc vri",
+      "primarySources": [],
+      "backupSources": [
+        "Provantage",
+        "CDW",
+        "Connection",
+        "Tech-America",
+        "ShopBLT",
+        "ServerSupply"
+      ],
+      "validationSources": [
+        "Solidigm official",
+        "Micron official"
+      ],
+      "targetFamilies": [
+        "Solidigm D5-P5316",
+        "Solidigm D5-P5336",
+        "Micron 6500 ION"
+      ]
+    }
+  }
+}

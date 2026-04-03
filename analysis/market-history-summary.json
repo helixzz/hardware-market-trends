@@ -1,0 +1,367 @@
+{
+  "generatedAt": "2026-04-03T00:14:16.889563",
+  "trackingRows": 16,
+  "categories": {
+    "DDR5-6400": {
+      "category": "DDR5-6400",
+      "latestDate": "2026-04-02",
+      "latestCoverage": {
+        "filled": 0,
+        "total": 3
+      },
+      "averageCoverage14d": 0.71,
+      "trend": "unknown",
+      "latestValues": {
+        "DDR5-6400 32GB": null,
+        "DDR5-6400 64GB": null,
+        "DDR5-6400 128GB": null
+      },
+      "previousValues": {
+        "DDR5-6400 32GB": null,
+        "DDR5-6400 64GB": null,
+        "DDR5-6400 128GB": null
+      },
+      "rollingMedians14d": {
+        "DDR5-6400 64GB": 19014
+      },
+      "missingColumns": [
+        "DDR5-6400 32GB",
+        "DDR5-6400 64GB",
+        "DDR5-6400 128GB"
+      ],
+      "columns": {
+        "DDR5-6400 32GB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "DDR5-6400 64GB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": 19014,
+          "lastSeenDate": "2026-03-29",
+          "consecutiveMissingDays": 4
+        },
+        "DDR5-6400 128GB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        }
+      }
+    },
+    "DDR5-5600": {
+      "category": "DDR5-5600",
+      "latestDate": "2026-04-02",
+      "latestCoverage": {
+        "filled": 0,
+        "total": 3
+      },
+      "averageCoverage14d": 2.14,
+      "trend": "unknown",
+      "latestValues": {
+        "DDR5-5600 32GB": null,
+        "DDR5-5600 64GB": null,
+        "DDR5-5600 128GB": null
+      },
+      "previousValues": {
+        "DDR5-5600 32GB": null,
+        "DDR5-5600 64GB": null,
+        "DDR5-5600 128GB": null
+      },
+      "rollingMedians14d": {
+        "DDR5-5600 32GB": 10170,
+        "DDR5-5600 64GB": 18574,
+        "DDR5-5600 128GB": 32276
+      },
+      "missingColumns": [
+        "DDR5-5600 32GB",
+        "DDR5-5600 64GB",
+        "DDR5-5600 128GB"
+      ],
+      "columns": {
+        "DDR5-5600 32GB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": 10170,
+          "lastSeenDate": "2026-03-29",
+          "consecutiveMissingDays": 4
+        },
+        "DDR5-5600 64GB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": 18574,
+          "lastSeenDate": "2026-03-29",
+          "consecutiveMissingDays": 4
+        },
+        "DDR5-5600 128GB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": 32276,
+          "lastSeenDate": "2026-03-29",
+          "consecutiveMissingDays": 4
+        }
+      }
+    },
+    "PCIe4 TLC": {
+      "category": "PCIe4 TLC",
+      "latestDate": "2026-04-02",
+      "latestCoverage": {
+        "filled": 3,
+        "total": 4
+      },
+      "averageCoverage14d": 3.0,
+      "trend": "flat_or_mixed",
+      "latestValues": {
+        "PCIe4 TLC 3.84TB": 18705,
+        "PCIe4 TLC 7.68TB": 18094,
+        "PCIe4 TLC 15.36TB": 43739,
+        "PCIe4 TLC 30.72TB": null
+      },
+      "previousValues": {
+        "PCIe4 TLC 3.84TB": 18705,
+        "PCIe4 TLC 7.68TB": 18094,
+        "PCIe4 TLC 15.36TB": 43739,
+        "PCIe4 TLC 30.72TB": null
+      },
+      "rollingMedians14d": {
+        "PCIe4 TLC 3.84TB": 16264,
+        "PCIe4 TLC 7.68TB": 18094,
+        "PCIe4 TLC 15.36TB": 43739
+      },
+      "missingColumns": [
+        "PCIe4 TLC 30.72TB"
+      ],
+      "columns": {
+        "PCIe4 TLC 3.84TB": {
+          "latestValue": 18705,
+          "previousValue": 18705,
+          "rollingMedian14d": 16264,
+          "lastSeenDate": "2026-04-02",
+          "consecutiveMissingDays": 0
+        },
+        "PCIe4 TLC 7.68TB": {
+          "latestValue": 18094,
+          "previousValue": 18094,
+          "rollingMedian14d": 18094,
+          "lastSeenDate": "2026-04-02",
+          "consecutiveMissingDays": 0
+        },
+        "PCIe4 TLC 15.36TB": {
+          "latestValue": 43739,
+          "previousValue": 43739,
+          "rollingMedian14d": 43739,
+          "lastSeenDate": "2026-04-02",
+          "consecutiveMissingDays": 0
+        },
+        "PCIe4 TLC 30.72TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        }
+      }
+    },
+    "PCIe5 TLC": {
+      "category": "PCIe5 TLC",
+      "latestDate": "2026-04-02",
+      "latestCoverage": {
+        "filled": 0,
+        "total": 4
+      },
+      "averageCoverage14d": 0.0,
+      "trend": "unknown",
+      "latestValues": {
+        "PCIe5 TLC 3.84TB": null,
+        "PCIe5 TLC 7.68TB": null,
+        "PCIe5 TLC 15.36TB": null,
+        "PCIe5 TLC 30.72TB": null
+      },
+      "previousValues": {
+        "PCIe5 TLC 3.84TB": null,
+        "PCIe5 TLC 7.68TB": null,
+        "PCIe5 TLC 15.36TB": null,
+        "PCIe5 TLC 30.72TB": null
+      },
+      "rollingMedians14d": {},
+      "missingColumns": [
+        "PCIe5 TLC 3.84TB",
+        "PCIe5 TLC 7.68TB",
+        "PCIe5 TLC 15.36TB",
+        "PCIe5 TLC 30.72TB"
+      ],
+      "columns": {
+        "PCIe5 TLC 3.84TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "PCIe5 TLC 7.68TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "PCIe5 TLC 15.36TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "PCIe5 TLC 30.72TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        }
+      }
+    },
+    "PCIe4 QLC": {
+      "category": "PCIe4 QLC",
+      "latestDate": "2026-04-02",
+      "latestCoverage": {
+        "filled": 0,
+        "total": 4
+      },
+      "averageCoverage14d": 0.0,
+      "trend": "unknown",
+      "latestValues": {
+        "PCIe4 QLC 15.36TB": null,
+        "PCIe4 QLC 30.72TB": null,
+        "PCIe4 QLC 61.44TB": null,
+        "PCIe4 QLC 122.88TB": null
+      },
+      "previousValues": {
+        "PCIe4 QLC 15.36TB": null,
+        "PCIe4 QLC 30.72TB": null,
+        "PCIe4 QLC 61.44TB": null,
+        "PCIe4 QLC 122.88TB": null
+      },
+      "rollingMedians14d": {},
+      "missingColumns": [
+        "PCIe4 QLC 15.36TB",
+        "PCIe4 QLC 30.72TB",
+        "PCIe4 QLC 61.44TB",
+        "PCIe4 QLC 122.88TB"
+      ],
+      "columns": {
+        "PCIe4 QLC 15.36TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "PCIe4 QLC 30.72TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "PCIe4 QLC 61.44TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        },
+        "PCIe4 QLC 122.88TB": {
+          "latestValue": null,
+          "previousValue": null,
+          "rollingMedian14d": null,
+          "lastSeenDate": null,
+          "consecutiveMissingDays": 14
+        }
+      }
+    }
+  },
+  "recentRunNotes": {
+    "2026-03-27": [
+      "corewave-6400: OK (1 quotes; categories=DDR5-6400)",
+      "corewave-5600: OK (11 quotes; categories=DDR5-5600)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ],
+    "2026-03-28": [
+      "corewave-6400: OK (1 quotes; categories=DDR5-6400)",
+      "corewave-5600: OK (11 quotes; categories=DDR5-5600)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ],
+    "2026-03-29": [
+      "corewave-6400: OK (1 quotes; categories=DDR5-6400)",
+      "corewave-5600: OK (11 quotes; categories=DDR5-5600)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ],
+    "2026-03-30": [
+      "corewave-6400: OK (0 quotes; categories=none)",
+      "corewave-5600: OK (0 quotes; categories=none)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ],
+    "2026-03-31": [
+      "corewave-6400: OK (0 quotes; categories=none)",
+      "corewave-5600: OK (0 quotes; categories=none)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ],
+    "2026-04-01": [
+      "corewave-6400: OK (0 quotes; categories=none)",
+      "corewave-5600: OK (0 quotes; categories=none)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ],
+    "2026-04-02": [
+      "corewave-6400: OK (0 quotes; categories=none)",
+      "corewave-5600: OK (0 quotes; categories=none)",
+      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
+      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
+      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
+      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
+      "disctech-30.72TB: OK (0 quotes; categories=none)",
+      "disctech-61.44TB: OK (0 quotes; categories=none)",
+      "disctech-122.88TB: OK (0 quotes; categories=none)"
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "date": "2026-04-05",
+  "generatedAt": "2026-04-03T00:57:45.354112",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 1,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 1,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 1,
+      "total": 4
+    }
+  },
+  "attemptedSources": [
+    "CoreWaveLabs",
+    "DiscTech",
+    "Provantage"
+  ],
+  "newSourcesTried": [],
+  "newSourcesWithUsefulData": [],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "usefulSources": [
+        "Provantage"
+      ],
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    "DDR5-5600": {
+      "usefulSources": [
+        "Provantage"
+      ],
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    "PCIe4 TLC": {
+      "usefulSources": [
+        "DiscTech"
+      ],
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    "PCIe5 TLC": {
+      "usefulSources": [
+        "Provantage"
+      ],
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    "PCIe4 QLC": {
+      "usefulSources": [
+        "Provantage"
+      ],
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    }
+  },
+  "keyChangesVsYesterday": [
+    "关键代表列相对昨日未见显著价格变化，当前更大的问题仍是覆盖率与来源集中度。"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "unknown",
+    "DDR5-5600": "unknown",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "unknown",
+    "PCIe4 QLC": "unknown"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "价格信号有限且来源集中，适合分批采购而不是一次性重仓。"
+    },
+    "DDR5-5600": {
+      "recommendation": "urgent_only",
+      "reason": "覆盖率偏低，且样本不足以支撑常规采购判断，仅建议应急采购。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "split_buy",
+      "reason": "价格信号有限且来源集中，适合分批采购而不是一次性重仓。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "覆盖率偏低，且样本不足以支撑常规采购判断，仅建议应急采购。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "覆盖率偏低，且样本不足以支撑常规采购判断，仅建议应急采购。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "仅发现明显偏离主流锚点的样本，未写入主表。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "128GB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "no_public_sample",
+      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "reasonCode": "outlier_only",
+      "note": "仅发现明显偏离主流锚点的样本，未写入主表。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "128GB",
+      "reasonCode": "no_public_sample",
+      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Memory.net",
+        "ShopBLT"
+      ]
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "当前来源下未看到符合口径的公开报价。",
+      "suggestedSources": [
+        "Provantage",
+        "CDW",
+        "Connection"
+      ]
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": null,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": null,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": null,
+    "DDR5-5600 128GB": null,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": null,
+    "PCIe5 TLC 3.84TB": null,
+    "PCIe5 TLC 7.68TB": 193826,
+    "PCIe5 TLC 15.36TB": null,
+    "PCIe5 TLC 30.72TB": null,
+    "PCIe4 QLC 15.36TB": null,
+    "PCIe4 QLC 30.72TB": null,
+    "PCIe4 QLC 61.44TB": 162534,
+    "PCIe4 QLC 122.88TB": null
+  }
+}

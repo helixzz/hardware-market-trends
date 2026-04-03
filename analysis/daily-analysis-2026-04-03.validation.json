@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-04-03T00:41:15.501595",
+  "passed": true,
+  "checks": {
+    "hasCoverage": true,
+    "hasTrendJudgement": true,
+    "hasProcurementView": true,
+    "hasAttemptedSources": true,
+    "gapReasonCodesValid": true,
+    "recommendationsValid": true
+  },
+  "warnings": [
+    "DDR5-6400 当前覆盖率为 0，结论仅可视为缺口报告。",
+    "DDR5-5600 当前覆盖率为 0，结论仅可视为缺口报告。",
+    "PCIe5 TLC 当前覆盖率为 0，结论仅可视为缺口报告。",
+    "PCIe4 QLC 当前覆盖率为 0，结论仅可视为缺口报告。"
+  ]
+}
