@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T00:41:15.501595",
+  "generatedAt": "2026-04-03T09:00:00+08:00",
   "passed": true,
   "checks": {
     "hasCoverage": true,
@@ -10,9 +10,8 @@
     "recommendationsValid": true
   },
   "warnings": [
-    "DDR5-6400 当前覆盖率为 0，结论仅可视为缺口报告。",
-    "DDR5-5600 当前覆盖率为 0，结论仅可视为缺口报告。",
-    "PCIe5 TLC 当前覆盖率为 0，结论仅可视为缺口报告。",
-    "PCIe4 QLC 当前覆盖率为 0，结论仅可视为缺口报告。"
+    "DDR5-5600 当前覆盖率为 0/5；结论主要来自 outlier_only 与 parser_gap 归因。",
+    "PCIe5 TLC 当前主表覆盖率为 0/5；今日已确认存在公开价，但尚未形成可写入主值的稳定口径。",
+    "PCIe4 QLC 当前覆盖率为 1/4；除 61.44TB 外仍属结构性缺口。"
   ]
 }

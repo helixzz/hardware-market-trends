@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-03T00:41:15.497995",
+  "generated_at": "2026-04-03T09:00:00+08:00",
   "usd_to_cny": 7.2,
   "vat_rate": 0.13,
   "run_notes": [
@@ -12,7 +12,14 @@
     "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
     "disctech-30.72TB: OK (0 quotes; categories=none)",
     "disctech-61.44TB: OK (0 quotes; categories=none)",
-    "disctech-122.88TB: OK (0 quotes; categories=none)"
+    "disctech-122.88TB: OK (0 quotes; categories=none)",
+    "manual-provantage-ddr5: OK (public quotes found for DDR5-6400 32/64/96GB and DDR5-5600 32/64/128GB; most 5600 samples remain high-risk/outlier)",
+    "manual-provantage-pcie5: OK (public PM1743 U.2 quotes found for 1.92/3.84/7.68/15.36TB; 1.92/3.84/7.68 are 3DWPD OEM FRU, 15.36TB is extreme high special-order sample)",
+    "manual-provantage-qlc: OK (public D5-P5336 61.44TB quote found)",
+    "manual-provantage-pcie4-tlc: OK (PM9A3 3.84TB OEM/distribution public quote found but far above DiscTech secondary-market channel)",
+    "manual-cdw: SPEC_ONLY (Micron 9550 / PM1743 / PM9A3 / D5-P5336 listings accessible but no public price)",
+    "manual-serversupply: PARSER_GAP (price-visible results observed via search snippets for Micron DDR5 / PM1743 / D7-P5510, direct page extraction still blocked)",
+    "manual-shopblt-zones-exxact-techamerica: MIXED (listing/lead-time/no-direct-result; no new public price extracted)"
   ],
   "quotes": [
     {
@@ -179,6 +186,138 @@
       "price_cny_tax": 43739,
       "excerpt": "Dell 15.36TB NVME SSD PCIe 4.0 Gen4 U.3 D4CJG 0D4CJG Samsung MZWLR15THBLA-00AD3 Enterprise Solid State Drive | Dell D4CJG Samsung MZWLR15THBLA-00AD3 15.36TB PCIe U.3 SFF 2.5 inch NVME Enterprise Solid State Drive - Brand New OEM",
       "notes": "JSON-LD itemList parsed and interface/gen filtered"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "brand": "Micron",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=DDR5+6400+RDIMM+32GB+ECC",
+      "price_usd": 1329.12,
+      "price_cny_tax": 10814,
+      "excerpt": "DDR5 Rdimm 32GB 2RX8 6400 / Micron Part# MTC20F2085S1RC64BR / $1,329.12 / 7 In Stock",
+      "notes": "manual web_fetch; public price; anchor deviation about +27%; accepted as high-but-usable public sample"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "64GB",
+      "brand": "Micron",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=DDR5+6400+RDIMM+64GB+ECC+2RX4",
+      "price_usd": 2287.16,
+      "price_cny_tax": 18608,
+      "excerpt": "DDR5 Rdimm 64GB 2RX4 6400 / Crucial Technology Part# MTC40F2046S1RC64BR / $2,287.16 / 2 In Stock",
+      "notes": "manual web_fetch; public price; accepted representative 64GB DDR5-6400 sample"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "brand": "Micron",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=DDR5+6400+RDIMM+96GB+ECC",
+      "price_usd": 4605.5,
+      "price_cny_tax": 37470,
+      "excerpt": "DDR5 Rdimm 96GB 2RX4 6400 CL52 / Micron Part# MTC40F204WS1RC64BR / $4,605.50 / 4 In Stock",
+      "notes": "manual web_fetch; public price; anchor deviation about +29%; downgrade/observe only"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "Micron",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=DDR5+5600+RDIMM+32GB+ECC",
+      "price_usd": 1566.03,
+      "price_cny_tax": 12741,
+      "excerpt": "DDR5 Rdimm 32GB 2RX8 5600 CL46 / Micron Part# MTC20F2085S1RC56BR / $1,566.03 / Special Order",
+      "notes": "manual web_fetch; public price; outlier_only versus 32GB 5600 anchor"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "Micron",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=DDR5+5600+RDIMM+64GB+ECC+2RX4",
+      "price_usd": 2685.35,
+      "price_cny_tax": 21848,
+      "excerpt": "DDR5 Rdimm 64GB 2RX4 5600 CL46 / Micron Part# MTC40F2046S1RC56BR / $2,685.35 / Special Order",
+      "notes": "manual web_fetch; public price; high-risk sample, conflicts with lower ServerSupply snippet"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "128GB",
+      "brand": "Micron",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=DDR5+5600+RDIMM+128GB+ECC+2RX4",
+      "price_usd": 5727.68,
+      "price_cny_tax": 46600,
+      "excerpt": "DDR5 Rdimm 128GB 2RX4 5600 / Micron Part# MTC40F2047S1RC56BR / $5,727.68 / 13 In Stock",
+      "notes": "manual web_fetch; public price; above late-March reference, keep as outlier_only until one more direct corroboration"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "3.84TB",
+      "brand": "Samsung/Lenovo",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=PM9A3+3.84TB+U.2",
+      "price_usd": 8960.53,
+      "price_cny_tax": 72903,
+      "excerpt": "Lenovo 4XB7A90101 / PM9A3 3.84TB Ri NVMe / $8,960.53 / Special Order",
+      "notes": "manual web_fetch; public OEM/distribution price; outlier_only versus secondary-market public samples"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "brand": "Solidigm",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=Solidigm+D5-P5336+61.44TB",
+      "price_usd": 19977.14,
+      "price_cny_tax": 162534,
+      "excerpt": "Solidigm D5-P5336 61.44TB 2.5 inch PCIe 4.0 x4 QLC / $19,977.14 / 1 In Stock",
+      "notes": "manual web_fetch; public price; first in-scope QLC 61.44TB sample restored"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "brand": "Samsung/Lenovo",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=PM1743+U.2",
+      "price_usd": 7656.1,
+      "price_cny_tax": 62290,
+      "excerpt": "Lenovo 4XB7A82366 / PM1743 1.92TB U.2 PCIe 5.0 x4 / $7,656.10 / Special Order",
+      "notes": "manual web_fetch; public price; out_of_scope for main track because 3 DWPD OEM FRU sample"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "brand": "Samsung/Lenovo",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=PM1743+U.2",
+      "price_usd": 11583.44,
+      "price_cny_tax": 94243,
+      "excerpt": "Lenovo 4XB7A82367 / PM1743 3.84TB U.2 PCIe 5.0 x4 / $11,583.44 / Special Order",
+      "notes": "manual web_fetch; public price; out_of_scope for main track because 3 DWPD OEM FRU sample"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "brand": "Samsung/Lenovo",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=PM1743+U.2",
+      "price_usd": 23823.24,
+      "price_cny_tax": 193826,
+      "excerpt": "Lenovo 4XB7A82368 / PM1743 7.68TB U.2 PCIe 5.0 x4 / $23,823.24 / Special Order",
+      "notes": "manual web_fetch; public price; out_of_scope for main track because 3 DWPD OEM FRU sample"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "brand": "Samsung/Lenovo",
+      "source": "Provantage",
+      "url": "https://www.provantage.com/service/searchsvcs?QUERY=PM1743+U.2",
+      "price_usd": 44170.46,
+      "price_cny_tax": 359371,
+      "excerpt": "Lenovo 4XB7A82369 / PM1743 15.36TB U.2 PCIe 5.0 x4 / $44,170.46 / Special Order",
+      "notes": "manual web_fetch; public in-scope 1 DWPD sample, but only special-order OEM FRU and extreme outlier_only"
     }
   ]
 }

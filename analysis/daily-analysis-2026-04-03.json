@@ -1,9 +1,9 @@
 {
   "date": "2026-04-03",
-  "generatedAt": "2026-04-03T00:41:15.501366",
+  "generatedAt": "2026-04-03T09:00:00+08:00",
   "coverage": {
     "DDR5-6400": {
-      "filled": 0,
+      "filled": 3,
       "total": 5
     },
     "DDR5-5600": {
@@ -19,90 +19,182 @@
       "total": 5
     },
     "PCIe4 QLC": {
-      "filled": 0,
+      "filled": 1,
       "total": 4
     }
   },
   "attemptedSources": [
     "CoreWaveLabs",
-    "DiscTech"
+    "DiscTech",
+    "Provantage",
+    "CDW",
+    "ServerSupply",
+    "ShopBLT",
+    "Exxact",
+    "Zones",
+    "Tech-America",
+    "Samsung official",
+    "Solidigm official"
   ],
-  "newSourcesTried": [],
-  "newSourcesWithUsefulData": [],
+  "newSourcesTried": [
+    "Provantage",
+    "CDW",
+    "ServerSupply",
+    "ShopBLT",
+    "Exxact",
+    "Zones",
+    "Tech-America",
+    "Samsung official",
+    "Solidigm official"
+  ],
+  "newSourcesWithUsefulData": [
+    "Provantage"
+  ],
   "sourceAttemptSummary": {
     "DDR5-6400": {
-      "usefulSources": [],
-      "suggestedSources": [
+      "tried": [
+        "CoreWaveLabs",
+        "Provantage",
         "ServerSupply",
-        "Memory.net",
+        "CDW",
         "ShopBLT"
-      ]
+      ],
+      "publicPriceSources": [
+        "Provantage"
+      ],
+      "specOrRFQSources": [
+        "CDW",
+        "ShopBLT"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "notes": "Provantage 恢复 32/64/96GB Micron 公开价；ServerSupply 搜索摘要显示也有公开价，但直连提取失败。"
     },
     "DDR5-5600": {
-      "usefulSources": [],
-      "suggestedSources": [
+      "tried": [
+        "CoreWaveLabs",
+        "Provantage",
         "ServerSupply",
-        "Memory.net",
+        "CDW",
         "ShopBLT"
-      ]
+      ],
+      "publicPriceSources": [
+        "Provantage"
+      ],
+      "specOrRFQSources": [
+        "CDW",
+        "ShopBLT"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "notes": "Provantage 有 32/64/128GB 公开价，但大多明显偏离锚点；ServerSupply 64/128GB 价格摘要存在但直连提取失败。"
     },
     "PCIe4 TLC": {
-      "usefulSources": [
-        "DiscTech"
-      ],
-      "suggestedSources": [
+      "tried": [
+        "DiscTech",
         "Provantage",
+        "ServerSupply",
         "CDW",
-        "Connection"
-      ]
+        "Zones",
+        "Samsung official"
+      ],
+      "publicPriceSources": [
+        "DiscTech",
+        "Provantage"
+      ],
+      "specOrRFQSources": [
+        "CDW",
+        "Zones",
+        "Samsung official"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "notes": "DiscTech 仍是主流低位可见价；Provantage PM9A3、ServerSupply D7-P5510 显示 OEM/新品/翻新渠道价差巨大。"
     },
     "PCIe5 TLC": {
-      "usefulSources": [],
-      "suggestedSources": [
+      "tried": [
         "Provantage",
+        "ServerSupply",
         "CDW",
+        "Samsung official",
         "Connection"
-      ]
+      ],
+      "publicPriceSources": [
+        "Provantage"
+      ],
+      "specOrRFQSources": [
+        "CDW",
+        "Samsung official",
+        "Connection"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "notes": "Provantage 抓到 PM1743 U.2 公开价，但 1.92/3.84/7.68TB 为 3DWPD OEM FRU，15.36TB 虽 1DWPD 但报价极高。"
     },
     "PCIe4 QLC": {
-      "usefulSources": [],
-      "suggestedSources": [
+      "tried": [
         "Provantage",
         "CDW",
+        "Solidigm official",
+        "Tech-America",
         "Connection"
-      ]
+      ],
+      "publicPriceSources": [
+        "Provantage"
+      ],
+      "specOrRFQSources": [
+        "CDW",
+        "Solidigm official"
+      ],
+      "parserGapSources": [],
+      "notes": "Provantage 恢复 Solidigm D5-P5336 61.44TB 公开价；122.88TB 仍只有官方规格能力说明，无公开分销价。"
     }
   },
+  "historicalContext": {
+    "window": "2026-03-27 to 2026-04-02",
+    "observations": [
+      "DDR5 自 2026-03-30 起主表几乎断流，04-02 时 DDR5-6400/5600 覆盖率都跌到 0/5。",
+      "PCIe4 TLC 过去 7 天代表列几乎完全不动，3.84TB=18705、7.68TB=18094、15.36TB=43739，存在 stale_repeated_sample 风险。",
+      "PCIe5 TLC 与 PCIe4 QLC 在 7-14 天窗口长期缺样本，属于结构性缺口，需要优先补备源而不能只看旧主源。"
+    ]
+  },
   "keyChangesVsYesterday": [
-    "关键代表列相对昨日未见显著价格变化，当前更大的问题仍是覆盖率与来源集中度。"
+    "DDR5-6400 恢复 Provantage 公共样本：32GB/64GB/96GB 可见，其中 64GB ¥18608，低于 3/29 最后一次主表值 ¥19901。",
+    "PCIe4 QLC 恢复首个在口径样本：Solidigm D5-P5336 61.44TB 公共价 ¥162534。",
+    "PCIe5 TLC 不再是单纯 no_public_sample：Provantage 抓到 PM1743 U.2 公开价，但目前主要是 3DWPD/OEM FRU 或极端高价样本，仍不能直接写入主表。",
+    "ServerSupply 侧证表明 DDR5/PCIe5/PCIe4 TLC 存在 price-visible 页面，因此部分缺口应从 no_public_sample 改判为 parser_gap 或 outlier_only。"
   ],
   "trendJudgement": {
-    "DDR5-6400": "unknown",
-    "DDR5-5600": "unknown",
+    "DDR5-6400": "down",
+    "DDR5-5600": "volatility_expanded",
     "PCIe4 TLC": "flat_or_mixed",
-    "PCIe5 TLC": "unknown",
+    "PCIe5 TLC": "volatility_expanded",
     "PCIe4 QLC": "unknown"
   },
   "procurementView": {
     "DDR5-6400": {
-      "recommendation": "insufficient_evidence",
-      "reason": "连续缺样本，无法形成可信趋势。"
+      "recommendation": "split_buy",
+      "reason": "64GB 主样本较 3/29 回落约 6.5%，32/64/96GB 公共可见性改善，但仍高度依赖 Provantage 单源，建议分批买而不是一次性放量。"
     },
     "DDR5-5600": {
-      "recommendation": "insufficient_evidence",
-      "reason": "连续缺样本，无法形成可信趋势。"
+      "recommendation": "wait",
+      "reason": "当前公开样本不是缺失，而是明显高于锚点或跨源分裂严重（如 64GB Provantage 与 ServerSupply 摘要价差过大），更像波动扩大而非稳定回落。"
     },
     "PCIe4 TLC": {
       "recommendation": "split_buy",
-      "reason": "价格信号有限且来源集中，适合分批采购而不是一次性重仓。"
+      "reason": "主表价格连续多日持平，但样本主要来自 DiscTech；OEM 新品渠道价格显著更高，说明并非真正宽松行情，宜分批采购并优先核验成色/条件。"
     },
     "PCIe5 TLC": {
-      "recommendation": "insufficient_evidence",
-      "reason": "连续缺样本，无法形成可信趋势。"
+      "recommendation": "urgent_only",
+      "reason": "虽已发现公开价，但当前以 3DWPD OEM FRU 或超高 special-order 报价为主，价格体系远未稳定，仅在刚需时采购。"
     },
     "PCIe4 QLC": {
       "recommendation": "insufficient_evidence",
-      "reason": "连续缺样本，无法形成可信趋势。"
+      "reason": "仅恢复 61.44TB 单点公开样本，15.36/30.72/122.88TB 仍无可用主值，无法形成可信区间。"
     }
   },
   "gaps": [
@@ -110,73 +202,40 @@
       "category": "DDR5-6400",
       "spec": "16GB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "今天扩展到 Provantage/ServerSupply/CDW/ShopBLT 仍未找到合格公开价。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
-      ]
-    },
-    {
-      "category": "DDR5-6400",
-      "spec": "32GB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
-      ]
-    },
-    {
-      "category": "DDR5-6400",
-      "spec": "64GB",
-      "reasonCode": "no_public_sample",
-      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
-      "suggestedSources": [
-        "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
-      ]
-    },
-    {
-      "category": "DDR5-6400",
-      "spec": "96GB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "ShopBLT",
+        "Memory.net"
       ]
     },
     {
       "category": "DDR5-6400",
       "spec": "128GB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "outlier_only",
+      "note": "ServerSupply 摘要价约 ¥53698，明显高于 128GB 6400 参考锚点 ¥39000；Provantage 只见无价列表。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "Connection",
+        "Exxact"
       ]
     },
     {
       "category": "DDR5-5600",
       "spec": "16GB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "多源扩展后仍无符合口径公开价。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "ShopBLT",
+        "Memory.net"
       ]
     },
     {
       "category": "DDR5-5600",
       "spec": "32GB",
-      "reasonCode": "no_public_sample",
-      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "reasonCode": "outlier_only",
+      "note": "Provantage Micron 公开价约 ¥12741，较锚点 ¥7800 高约 63%，不能直接写入主表。",
       "suggestedSources": [
         "ServerSupply",
         "Memory.net",
@@ -186,8 +245,8 @@
     {
       "category": "DDR5-5600",
       "spec": "64GB",
-      "reasonCode": "no_public_sample",
-      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "reasonCode": "outlier_only",
+      "note": "Provantage 约 ¥21848，ServerSupply 摘要约 ¥14246，跨源分裂过大，暂不写主值。",
       "suggestedSources": [
         "ServerSupply",
         "Memory.net",
@@ -197,139 +256,128 @@
     {
       "category": "DDR5-5600",
       "spec": "96GB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "outlier_only",
+      "note": "仅见 AddOn/Axiom 等高价兼容条目，缺少可信主流成交样本。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "Connection",
+        "Tech-America"
       ]
     },
     {
       "category": "DDR5-5600",
       "spec": "128GB",
-      "reasonCode": "no_public_sample",
-      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "reasonCode": "outlier_only",
+      "note": "Provantage/ServerSupply 两家都给出高价，但相对 3/29 历史主值跳升 30%+，仍需再确认一条直接公开价。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "Connection",
+        "Exxact"
       ]
     },
     {
       "category": "PCIe4 TLC",
       "spec": "30.72TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "DiscTech/Provantage/ServerSupply/CDW/Zones 今天都未给出合格公开价。",
       "suggestedSources": [
         "Provantage",
-        "CDW",
-        "Connection"
+        "ServerSupply",
+        "CDW"
       ]
     },
     {
       "category": "PCIe5 TLC",
       "spec": "1.92TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "out_of_scope",
+      "note": "Provantage 仅见 PM1743 3DWPD OEM FRU 公开价，不符合主跟踪的 1DWPD 口径。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
+        "Connection",
+        "Wiredzone"
       ]
     },
     {
       "category": "PCIe5 TLC",
       "spec": "3.84TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "out_of_scope",
+      "note": "Provantage 公共样本为 3DWPD Lenovo FRU；ServerSupply 摘要虽有价格，但仍是同类 OEM 口径。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
+        "Connection",
+        "Wiredzone"
       ]
     },
     {
       "category": "PCIe5 TLC",
       "spec": "7.68TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "out_of_scope",
+      "note": "当前公共样本仍以 3DWPD PM1743 OEM FRU 为主，不写主表。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
+        "Connection",
+        "Wiredzone"
       ]
     },
     {
       "category": "PCIe5 TLC",
       "spec": "15.36TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "outlier_only",
+      "note": "Provantage 1DWPD PM1743 U.2 公开价约 ¥359371，属于极端 special-order 高价，不能代表主流成交。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
+        "Connection",
+        "Wiredzone"
       ]
     },
     {
       "category": "PCIe5 TLC",
       "spec": "30.72TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "Provantage/CDW/Connection/ServerSupply 均未获得合格公开价。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
+        "Connection",
+        "Wiredzone"
       ]
     },
     {
       "category": "PCIe4 QLC",
       "spec": "15.36TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "今天扩展 Provantage/CDW/官方页仍未找到合格公开价。",
       "suggestedSources": [
         "Provantage",
-        "CDW",
-        "Connection"
+        "ServerSupply",
+        "CDW"
       ]
     },
     {
       "category": "PCIe4 QLC",
       "spec": "30.72TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "多源扩展仍无合格公开价。",
       "suggestedSources": [
         "Provantage",
-        "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe4 QLC",
-      "spec": "61.44TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
-        "Connection"
+        "ServerSupply",
+        "CDW"
       ]
     },
     {
       "category": "PCIe4 QLC",
       "spec": "122.88TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "Solidigm 官方页仅给到规格能力与上限容量，CDW 也未公开显示价格。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
+        "Connection",
+        "Tech-America"
       ]
     }
   ],
   "trackingValues": {
-    "DDR5-6400 32GB": null,
-    "DDR5-6400 64GB": null,
+    "DDR5-6400 32GB": 10814,
+    "DDR5-6400 64GB": 18608,
     "DDR5-6400 128GB": null,
     "DDR5-5600 32GB": null,
     "DDR5-5600 64GB": null,
@@ -344,7 +392,7 @@
     "PCIe5 TLC 30.72TB": null,
     "PCIe4 QLC 15.36TB": null,
     "PCIe4 QLC 30.72TB": null,
-    "PCIe4 QLC 61.44TB": null,
+    "PCIe4 QLC 61.44TB": 162534,
     "PCIe4 QLC 122.88TB": null
   }
 }
