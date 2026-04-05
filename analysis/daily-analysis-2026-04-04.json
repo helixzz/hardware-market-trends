@@ -1,13 +1,13 @@
 {
   "date": "2026-04-04",
-  "generatedAt": "2026-04-03T00:53:55.559747",
+  "generatedAt": "2026-04-04T09:17:57+08:00",
   "coverage": {
     "DDR5-6400": {
       "filled": 3,
       "total": 5
     },
     "DDR5-5600": {
-      "filled": 1,
+      "filled": 0,
       "total": 5
     },
     "PCIe4 TLC": {
@@ -15,152 +15,205 @@
       "total": 5
     },
     "PCIe5 TLC": {
-      "filled": 0,
+      "filled": 3,
       "total": 5
     },
     "PCIe4 QLC": {
-      "filled": 1,
+      "filled": 4,
       "total": 4
     }
   },
   "attemptedSources": [
     "CoreWaveLabs",
-    "DiscTech"
+    "DiscTech",
+    "Provantage",
+    "CDW",
+    "ServerSupply",
+    "Connection",
+    "ShopBLT",
+    "Wiredzone",
+    "Samsung",
+    "Solidigm",
+    "Memory.net"
   ],
-  "newSourcesTried": [],
-  "newSourcesWithUsefulData": [],
+  "newSourcesTried": [
+    "CDW",
+    "Connection",
+    "ShopBLT",
+    "Wiredzone"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW"
+  ],
   "sourceAttemptSummary": {
     "DDR5-6400": {
-      "usefulSources": [
-        "Provantage"
+      "publicPriceSources": [
+        "Provantage",
+        "CDW"
       ],
-      "suggestedSources": [
+      "specOrRFQSources": [
+        "CDW (64GB page price=0)"
+      ],
+      "parserGapSources": [
         "ServerSupply",
-        "Memory.net",
+        "Connection",
         "ShopBLT"
+      ],
+      "noDirectSampleSources": [
+        "Memory.net"
       ]
     },
     "DDR5-5600": {
-      "usefulSources": [
-        "Provantage"
+      "publicPriceSources": [
+        "Provantage",
+        "CDW"
       ],
-      "suggestedSources": [
+      "specOrRFQSources": [],
+      "parserGapSources": [
         "ServerSupply",
-        "Memory.net",
         "ShopBLT"
+      ],
+      "noDirectSampleSources": [
+        "Memory.net"
       ]
     },
     "PCIe4 TLC": {
-      "usefulSources": [
+      "publicPriceSources": [
         "DiscTech"
       ],
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
-        "Connection"
+      "specOrRFQSources": [
+        "Wiredzone"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "noDirectSampleSources": [
+        "CDW (no additional in-scope public 30.72TB found)"
       ]
     },
     "PCIe5 TLC": {
-      "usefulSources": [],
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
-        "Connection"
+      "publicPriceSources": [
+        "CDW"
+      ],
+      "specOrRFQSources": [
+        "Samsung",
+        "CDW (1.92/30.72 pages price=0)"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "noDirectSampleSources": [
+        "Provantage (public prices mostly 3DWPD/OEM special-order, not main-track)"
       ]
     },
     "PCIe4 QLC": {
-      "usefulSources": [
+      "publicPriceSources": [
+        "CDW",
         "Provantage"
       ],
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
-        "Connection"
-      ]
+      "specOrRFQSources": [
+        "Solidigm"
+      ],
+      "parserGapSources": [
+        "ShopBLT"
+      ],
+      "noDirectSampleSources": []
     }
   },
+  "historyReview": {
+    "window": "2026-03-22..2026-04-04",
+    "notes": [
+      "近 7-14 天代表列长期最稳定的是 PCIe4 TLC，几乎完全由 DiscTech 单源支撑，存在 stale source concentration 风险。",
+      "DDR5-6400/5600 在 3/30-4/02 出现明显样本塌缩，4/03 才由 Provantage 暂时救回，但 5600 继续被高价渠道主导。",
+      "PCIe5 TLC 与 PCIe4 QLC 在 4/03 前长期近乎空白，主要缺口是 no_public_sample 与 parser_gap 叠加。",
+      "仓库里存在未来日期 2026-04-05 产物；本次分析已在 market-history-summary 生成阶段用 cutoff 排除，避免污染今日趋势判断。"
+    ]
+  },
   "keyChangesVsYesterday": [
-    "关键代表列相对昨日未见显著价格变化，当前更大的问题仍是覆盖率与来源集中度。"
+    "CDW 今天恢复了 PCIe5 TLC 3.84TB / 7.68TB / 15.36TB 公开价，主流公开价带显著低于昨日仅能看到的 Provantage OEM 特单价。",
+    "CDW 今天补出了 PCIe4 QLC 15.36TB / 30.72TB / 122.88TB 公开价，QLC 关键追踪列从 1/4 提升到 4/4。",
+    "DDR5-5600 64GB / 128GB 再获 CDW 高价旁证，说明高价并非 Provantage 单点误报，仍只能按 outlier_only 处理。",
+    "DDR5-6400 32GB 今日新增样本仍偏高，昨日可用但低置信的单一样本未得到第二来源确认，样本质量比昨日更差。"
   ],
   "trendJudgement": {
-    "DDR5-6400": "unknown",
-    "DDR5-5600": "unknown",
-    "PCIe4 TLC": "flat_or_mixed",
+    "DDR5-6400": "volatility_expand",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
     "PCIe5 TLC": "unknown",
     "PCIe4 QLC": "unknown"
   },
   "procurementView": {
     "DDR5-6400": {
       "recommendation": "split_buy",
-      "reason": "价格信号有限且来源集中，适合分批采购而不是一次性重仓。"
+      "reason": "64GB 仍贴近近 7-14 日主区间，但 32GB fresh sample 回到高价/陈旧状态，适合分批而非一次性重仓。"
     },
     "DDR5-5600": {
-      "recommendation": "urgent_only",
-      "reason": "覆盖率偏低，且样本不足以支撑常规采购判断，仅建议应急采购。"
+      "recommendation": "wait",
+      "reason": "Provantage 与 CDW 的 64GB/128GB 公开价都显著高于锚点和 3 月末水平，当前更像高价渠道占优，不适合常规采购。"
     },
     "PCIe4 TLC": {
       "recommendation": "split_buy",
-      "reason": "价格信号有限且来源集中，适合分批采购而不是一次性重仓。"
+      "reason": "DiscTech 二级市场价格连续稳定，但来源仍高度单一；如果要买，分批锁量比一次性买入更稳妥。"
     },
     "PCIe5 TLC": {
-      "recommendation": "insufficient_evidence",
-      "reason": "连续缺样本，无法形成可信趋势。"
+      "recommendation": "split_buy",
+      "reason": "CDW 终于给出 3.84/7.68/15.36TB 公开价，价格明显优于昨日能见到的 OEM 特单，但历史序列仍太短，适合先小批试单。"
     },
     "PCIe4 QLC": {
-      "recommendation": "urgent_only",
-      "reason": "覆盖率偏低，且样本不足以支撑常规采购判断，仅建议应急采购。"
+      "recommendation": "split_buy",
+      "reason": "今日覆盖率大幅提升且 61.44TB 获得 CDW/Provantage 交叉验证，但大部分容量仍缺少多日历史，适合先分批确认真实成交带。"
     }
   },
   "gaps": [
     {
       "category": "DDR5-6400",
       "spec": "32GB",
-      "reasonCode": "outlier_only",
-      "note": "仅发现明显偏离主流锚点的样本，未写入主表。",
+      "reasonCode": "stale_repeated_sample",
+      "note": "今日 fresh public sample 主要来自 CDW 高价渠道（≈¥12.6k）；昨日 Provantage 的低权可用样本未获第二来源复核，不宜继续写入主值。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "Connection",
+        "Memory.net"
       ]
     },
     {
       "category": "DDR5-6400",
       "spec": "128GB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "今天在 Provantage/CDW/ServerSupply/ShopBLT/Memory.net 都未恢复可用公开价。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "Connection",
+        "Memory.net"
       ]
     },
     {
       "category": "DDR5-5600",
       "spec": "32GB",
-      "reasonCode": "no_public_sample",
-      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "reasonCode": "outlier_only",
+      "note": "今天公开能见的主要是 AddOn/Axiom/兼容件高价渠道，均明显偏离 32GB 5600 锚点。",
       "suggestedSources": [
         "ServerSupply",
         "Memory.net",
-        "ShopBLT"
+        "Connection"
       ]
     },
     {
       "category": "DDR5-5600",
       "spec": "64GB",
       "reasonCode": "outlier_only",
-      "note": "仅发现明显偏离主流锚点的样本，未写入主表。",
+      "note": "Provantage Micron（≈¥21.8k）与 CDW Micron（≈¥23.2k）都高于 64GB 5600 锚点，不能写入主表。",
       "suggestedSources": [
         "ServerSupply",
         "Memory.net",
-        "ShopBLT"
+        "Connection"
       ]
     },
     {
       "category": "DDR5-5600",
       "spec": "96GB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "今日未找到可验证的 96GB 5600 单条公开价，仍是长期缺样本位。",
       "suggestedSources": [
         "ServerSupply",
         "Memory.net",
@@ -170,66 +223,33 @@
     {
       "category": "DDR5-5600",
       "spec": "128GB",
-      "reasonCode": "no_public_sample",
-      "note": "最近已连续缺样本 4 天，上次可见于 2026-03-29。",
+      "reasonCode": "outlier_only",
+      "note": "Provantage Micron（≈¥46.6k）与 CDW Micron（≈¥54.6k）双边确认高价，但仍明显偏离主流锚点，只能旁证。",
       "suggestedSources": [
         "ServerSupply",
-        "Memory.net",
-        "ShopBLT"
+        "Connection",
+        "Memory.net"
       ]
     },
     {
       "category": "PCIe4 TLC",
       "spec": "30.72TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "DiscTech / Wiredzone / ServerSupply 仍未恢复可用公开现货价。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
+        "Provantage",
         "Connection"
       ]
     },
     {
       "category": "PCIe5 TLC",
       "spec": "1.92TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "reasonCode": "out_of_scope",
+      "note": "Provantage 今天能见到的 1.92TB PM1743 是 3DWPD OEM FRU；CDW 对应页面存在但 product_price=0，故主轨仍为空。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe5 TLC",
-      "spec": "3.84TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
         "Provantage",
-        "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe5 TLC",
-      "spec": "7.68TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe5 TLC",
-      "spec": "15.36TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
         "Connection"
       ]
     },
@@ -237,43 +257,10 @@
       "category": "PCIe5 TLC",
       "spec": "30.72TB",
       "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
+      "note": "CDW 的 Micron 9550 PRO 30.72TB 页面存在但无公开价；其余来源也未恢复可用公开现货价。",
       "suggestedSources": [
-        "Provantage",
         "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe4 QLC",
-      "spec": "15.36TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
         "Provantage",
-        "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe4 QLC",
-      "spec": "30.72TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
-        "Connection"
-      ]
-    },
-    {
-      "category": "PCIe4 QLC",
-      "spec": "122.88TB",
-      "reasonCode": "no_public_sample",
-      "note": "当前来源下未看到符合口径的公开报价。",
-      "suggestedSources": [
-        "Provantage",
-        "CDW",
         "Connection"
       ]
     }
@@ -289,13 +276,13 @@
     "PCIe4 TLC 7.68TB": 18094,
     "PCIe4 TLC 15.36TB": 43739,
     "PCIe4 TLC 30.72TB": null,
-    "PCIe5 TLC 3.84TB": null,
-    "PCIe5 TLC 7.68TB": null,
-    "PCIe5 TLC 15.36TB": null,
+    "PCIe5 TLC 3.84TB": 22830,
+    "PCIe5 TLC 7.68TB": 30408,
+    "PCIe5 TLC 15.36TB": 61016,
     "PCIe5 TLC 30.72TB": null,
-    "PCIe4 QLC 15.36TB": null,
-    "PCIe4 QLC 30.72TB": null,
+    "PCIe4 QLC 15.36TB": 45675,
+    "PCIe4 QLC 30.72TB": 102143,
     "PCIe4 QLC 61.44TB": 162534,
-    "PCIe4 QLC 122.88TB": null
+    "PCIe4 QLC 122.88TB": 405742
   }
 }

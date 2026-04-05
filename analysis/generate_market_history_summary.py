@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
@@ -12,6 +13,7 @@ TRACKING_PATH = ROOT / 'tracking-table.md'
 RAW_DIR = ROOT / 'raw'
 ANALYSIS_DIR = ROOT / 'analysis'
 OUTPUT_PATH = ANALYSIS_DIR / 'market-history-summary.json'
+CUTOFF_DATE = os.environ.get('MARKET_HISTORY_CUTOFF_DATE')
 
 CATEGORY_MAP = {
     'DDR5-6400': ['DDR5-6400 32GB', 'DDR5-6400 64GB', 'DDR5-6400 128GB'],
@@ -29,6 +31,15 @@ def parse_date(value: str | None) -> str | None:
     return stripped or None
 
 
+def within_cutoff(value: str | None) -> bool:
+    if not CUTOFF_DATE:
+        return True
+    parsed = parse_date(value)
+    if not parsed:
+        return False
+    return parsed <= CUTOFF_DATE
+
+
 def parse_tracking_table() -> list[dict[str, str]]:
     if not TRACKING_PATH.exists():
         return []
@@ -44,7 +55,10 @@ def parse_tracking_table() -> list[dict[str, str]]:
         cells = [cell.strip() for cell in line.strip('|').split('|')]
         if len(cells) != len(headers):
             continue
-        rows.append(dict(zip(headers, cells)))
+        row = dict(zip(headers, cells))
+        if not within_cutoff(row.get('Date')):
+            continue
+        rows.append(row)
     return rows
 
 
@@ -149,7 +163,10 @@ def latest_raw_run_notes() -> dict[str, list[str]]:
     if not RAW_DIR.exists():
         return notes
 
-    latest_dirs = sorted(path for path in RAW_DIR.iterdir() if path.is_dir())[-7:]
+    candidate_dirs = sorted(path for path in RAW_DIR.iterdir() if path.is_dir())
+    if CUTOFF_DATE:
+        candidate_dirs = [path for path in candidate_dirs if within_cutoff(path.name)]
+    latest_dirs = candidate_dirs[-7:]
     for day_dir in latest_dirs:
         quotes_path = day_dir / 'quotes.json'
         if not quotes_path.exists():
@@ -167,6 +184,7 @@ def main() -> int:
     rows = parse_tracking_table()
     summary = {
         'generatedAt': datetime.now().isoformat(),
+        'cutoffDate': CUTOFF_DATE,
         'trackingRows': len(rows),
         'categories': {
             category: category_summary(rows, category, cols)
