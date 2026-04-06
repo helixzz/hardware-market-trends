@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T00:57:45.354576",
+  "generatedAt": "2026-04-05T09:02:00+08:00",
   "passed": true,
   "checks": {
     "hasCoverage": true,
@@ -9,5 +9,7 @@
     "gapReasonCodesValid": true,
     "recommendationsValid": true
   },
-  "warnings": []
+  "warnings": [
+    "DDR5-5600 当前覆盖率为 0，结论主要作为缺口与高价渠道报告解读。"
+  ]
 }
