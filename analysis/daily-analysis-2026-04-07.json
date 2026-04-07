@@ -1,0 +1,118 @@
+{
+  "date": "2026-04-07",
+  "generatedAt": "2026-04-07T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 2, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 3, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["Newegg", "TechAtlantix", "ServerOrbit", "ServerSupply", "Micro Center", "SHI", "Edge Electronics", "Ma Labs"],
+  "newSourcesWithUsefulData": ["Newegg", "TechAtlantix", "ServerOrbit", "ServerSupply"],
+  "keyChangesVsYesterday": [
+    "DDR5-5600 出现低价信号：Newegg Samsung 32GB ≈￥6,470-7,120，ServerSupply 64GB ≈￥15,480",
+    "PCIe5 TLC 下跌确认：3.84TB Saitech ≈￥17,258，7.68TB TechAtlantix ≈￥19,792",
+    "PCIe4 TLC 多源验证：Newegg/ServerSupply PM9A3 3.84TB 样本与 DiscTech 基本一致",
+    "DDR5-5600 32GB 从 no_public_sample 升级为 outlier_only（低价/高价撕裂）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "down",
+    "PCIe4 QLC": "flat"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB 稳定在主流区间，32GB/128GB 已恢复但仍偏单源；样本稀疏风险仍存"
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "出现低价样本但需验证，当前高价渠道仍占优；样本撕裂严重"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "多日稳定，今日新增 Newegg/ServerSupply 多源验证；3.84/7.68/15.36TB 是五大类里证据最稳定的"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "价格下行确认，多源交叉验证；但不适合 all-in，建议分批锁量"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "覆盖率完整，61.44TB 出现 Provantage 低价样本待验证；122.88TB 仍单源"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Newegg/Newegg 低价样本 (￥6,470-7,120) vs 高价样本撕裂，需更多来源确认主流成交价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "连续 15 天无公开价；值得重点补源"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日仍未找到公开现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "连续 15 天无公开价；值得重点补源"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "128GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "仍偏 Saitech 单源，需第二来源验证"
+    }
+  ],
+  "sourceMatrix": {
+    "DDR5-6400": {
+      "attempted": ["CoreWaveLabs", "Provantage", "CDW", "ServerSupply", "Memory.net", "Saitech", "Connection", "Tech-America", "Insight", "Newegg", "Micro Center", "Micron Official"],
+      "publicPriceAvailable": ["Provantage", "Newegg"],
+      "specOnly": ["Micron Official"],
+      "parserGap": ["ServerSupply", "Connection", "Tech-America", "Insight"],
+      "noDirectSample": ["CoreWaveLabs", "Memory.net"]
+    },
+    "DDR5-5600": {
+      "attempted": ["Provantage", "CDW", "ServerSupply", "Newegg", "Micro Center", "OEMPCWorld", "Memory.net"],
+      "publicPriceAvailable": ["Provantage", "CDW", "ServerSupply", "Newegg", "Micro Center"],
+      "outlierOnly": ["OEMPCWorld"],
+      "noDirectSample": ["Memory.net"]
+    },
+    "PCIe4 TLC": {
+      "attempted": ["DiscTech", "ServerSupply", "Newegg", "Saitech", "Provantage", "Wiredzone", "Samsung Official"],
+      "publicPriceAvailable": ["DiscTech", "ServerSupply", "Newegg", "Saitech"],
+      "specOnly": ["Wiredzone", "Samsung Official"]
+    },
+    "PCIe5 TLC": {
+      "attempted": ["CDW", "Saitech", "SHI", "Hyperscalers", "TechAtlantix", "ServerOrbit", "Micron Official", "Samsung Official", "Kioxia Official"],
+      "publicPriceAvailable": ["CDW", "Saitech", "TechAtlantix", "ServerOrbit"],
+      "specOnly": ["Micron Official", "Samsung Official", "Kioxia Official"],
+      "parserGap": ["SHI"]
+    },
+    "PCIe4 QLC": {
+      "attempted": ["CDW", "Provantage", "Newegg", "ServerSupply", "Antonline", "Solidigm Official"],
+      "publicPriceAvailable": ["CDW", "Provantage", "Newegg"],
+      "specOnly": ["Solidigm Official"]
+    }
+  },
+  "validationNotes": [
+    "DDR5-5600 32GB Newegg ≈$899-989 低于锚点 7,800 元约 17%，仍在合理区间下沿",
+    "DDR5-5600 64GB ServerSupply ≈$2,150 低于锚点 16,000 元约 3%，可信度较高",
+    "PCIe5 TLC 3.84TB Saitech ≈$2,397 显著低于前日 CDW ￥22,830 基准约 20%",
+    "PCIe5 TLC 7.68TB TechAtlantix ≈$2,749 显著低于前日 CDW ￥30,408 基准约 8%",
+    "PCIe4 QLC 61.44TB Provantage ≈$18,428 显著低于 CDW ￥162,534 基准约 18%，需验证"
+  ]
+}

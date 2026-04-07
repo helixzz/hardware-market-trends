@@ -1,0 +1,288 @@
+{
+  "date": "2026-04-07",
+  "generatedAt": "2026-04-07T09:00:00+08:00",
+  "exchangeRate": 7.20,
+  "taxRate": 0.13,
+  "run_notes": [
+    "history-precheck: completed (reviewed daily-2026-04-04..2026-04-06, tracking-table, market-history-summary; focused on 7-14 day coverage patterns and gap persistence)",
+    "Manual multi-source research: Newegg / TechAtlantix / ServerOrbit / ServerSupply / Micro Center / SHI / Edge Electronics / Ma Labs attempted",
+    "DDR5-5600 new low-price signals discovered: Newegg Samsung 32GB ≈$899-989, ServerSupply 64GB ≈$2,150",
+    "PCIe5 TLC down-trend confirmed: Saitech 3.84TB ≈$2,397, TechAtlantix 7.68TB ≈$2,749",
+    "PCIe4 TLC multi-source validation: Newegg/ServerSupply PM9A3 3.84TB samples align with DiscTech band",
+    "PCIe4 QLC 61.44TB: Provantage ≈$18,428 low sample observed, verification needed",
+    "DDR5-6400 status: Provantage + Newegg A-Tech both show ≈$2,194-2,287 range for 64GB, flat vs yesterday",
+    "Gaps persist: DDR5-5600 32GB (outlier_only), PCIe4 TLC 30.72TB (no_public_sample, 15 days), PCIe5 TLC 30.72TB (no_public_sample, 15 days)"
+  ],
+  "sourcesAttempted": [
+    "corewave-6400",
+    "corewave-5600",
+    "disctech-pcie4",
+    "provantage-ddr5",
+    "provantage-pcie5",
+    "provantage-qlc",
+    "cdw-ddr5",
+    "cdw-pcie5",
+    "cdw-qlc",
+    "newegg-ddr5",
+    "newegg-pcie4",
+    "newegg-pcie5",
+    "newegg-qlc",
+    "serversupply-ddr5",
+    "serversupply-pcie4",
+    "serversupply-pcie5",
+    "serversupply-qlc",
+    "esaitech-pcie4",
+    "esaitech-pcie5",
+    "esaitech-qlc",
+    "hyperscalers-pcie5",
+    "techatlantix-pcie5",
+    "serverorbit-pcie5",
+    "shi-pcie5",
+    "micron-official",
+    "samsung-official",
+    "kioxia-official",
+    "solidigm-official"
+  ],
+  "quotes": [
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "brand": "Micron",
+      "partNumber": "MTC20F2085S1RC64BR",
+      "source": "Provantage",
+      "priceUSD": 1329.12,
+      "priceCNY": 10814,
+      "note": "延续昨日，高位窄带"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "64GB",
+      "brand": "Micron",
+      "partNumber": "MTC40F2046S1RC64BR",
+      "source": "Provantage",
+      "priceUSD": 2287.16,
+      "priceCNY": 18608,
+      "note": "延续昨日，稳定"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "64GB",
+      "brand": "A-Tech",
+      "partNumber": "AT-64GD5-6400R",
+      "source": "Newegg",
+      "priceUSD": 2194.49,
+      "priceCNY": 15800,
+      "note": "低价旁证，非企业级主品牌"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "128GB",
+      "brand": "Micron",
+      "partNumber": null,
+      "source": "Saitech",
+      "priceUSD": 6475.00,
+      "priceCNY": 46660,
+      "note": "昨日恢复，今日无新样本验证"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "Samsung",
+      "partNumber": "M321R4GA0PB0-CWM",
+      "source": "Newegg",
+      "priceUSD": 899.00,
+      "priceCNY": 6470,
+      "note": "低价信号，显著低于锚点"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "brand": "Samsung",
+      "partNumber": "M321R4GA0PB0-CWM",
+      "source": "Newegg",
+      "priceUSD": 989.00,
+      "priceCNY": 7120,
+      "note": "低价信号，低于锚点"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "Micron",
+      "partNumber": "MTC40F2046S1RC56BG1R",
+      "source": "ServerSupply",
+      "priceUSD": 2150.00,
+      "priceCNY": 15480,
+      "note": "低价信号，显著低于主流"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "64GB",
+      "brand": "Micron",
+      "partNumber": "MTC40F2046S1RC56BR",
+      "source": "Provantage",
+      "priceUSD": 2682.00,
+      "priceCNY": 19168,
+      "note": "延续昨日，主流价位"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "128GB",
+      "brand": "Micron",
+      "partNumber": "MTC40F2047S1RC56BR",
+      "source": "Provantage",
+      "priceUSD": 5727.68,
+      "priceCNY": 46600,
+      "note": "延续昨日"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "3.84TB",
+      "brand": "Samsung",
+      "partNumber": "MZ1L23T8HBLA-00A07",
+      "source": "DiscTech",
+      "priceUSD": 2597.92,
+      "priceCNY": 18705,
+      "note": "延续昨日，稳定"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "3.84TB",
+      "brand": "Samsung",
+      "partNumber": "MZ1L23T8HBLA",
+      "source": "Newegg",
+      "priceUSD": 1999.00,
+      "priceCNY": 14393,
+      "note": "低价样本，与 DiscTech 二级市场可交叉验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "3.84TB",
+      "brand": "Samsung",
+      "partNumber": "MZ1L23T8HBLA",
+      "source": "ServerSupply",
+      "priceUSD": 3000.00,
+      "priceCNY": 21600,
+      "note": "Brand New In Stock"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "brand": "Dell",
+      "partNumber": "6VCHT",
+      "source": "DiscTech",
+      "priceUSD": 2512.92,
+      "priceCNY": 18094,
+      "note": "延续昨日"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "brand": "Dell",
+      "partNumber": null,
+      "source": "DiscTech",
+      "priceUSD": 6074.86,
+      "priceCNY": 43739,
+      "note": "延续昨日"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "brand": "Micron",
+      "partNumber": "MTFDLBT3T8THA-1BK1JABYYR",
+      "source": "Saitech",
+      "priceUSD": 2397.00,
+      "priceCNY": 17258,
+      "note": "下跌确认，显著低于 CDW ￥22,830"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "brand": "Samsung",
+      "partNumber": "PM1743",
+      "source": "CDW",
+      "priceUSD": 2539.17,
+      "priceCNY": 18265,
+      "note": "延续昨日下移后价位"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "brand": "Samsung",
+      "partNumber": "MZWLO7T6HBLA-00B07",
+      "source": "TechAtlantix",
+      "priceUSD": 2749.00,
+      "priceCNY": 19792,
+      "note": "下跌确认，多源验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "brand": "Samsung",
+      "partNumber": "PM1743",
+      "source": "CDW",
+      "priceUSD": 3857.92,
+      "priceCNY": 27817,
+      "note": "延续昨日下移后价位"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "brand": "Samsung",
+      "partNumber": "PM1743",
+      "source": "CDW",
+      "priceUSD": 7528.06,
+      "priceCNY": 54292,
+      "note": "延续昨日下移后价位"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "brand": "Solidigm",
+      "partNumber": "D5-P5336",
+      "source": "CDW",
+      "priceUSD": 6343.75,
+      "priceCNY": 45675,
+      "note": "延续昨日"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "brand": "Solidigm",
+      "partNumber": "D5-P5336",
+      "source": "CDW",
+      "priceUSD": 11802.92,
+      "priceCNY": 84981,
+      "note": "延续昨日下修后价位"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "brand": "Solidigm",
+      "partNumber": "SBFPF2BV614T001",
+      "source": "Provantage",
+      "priceUSD": 18428.00,
+      "priceCNY": 132681,
+      "note": "低价样本，显著低于 CDW ￥162,534，需验证"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "brand": "Solidigm",
+      "partNumber": "D5-P5336",
+      "source": "CDW",
+      "priceUSD": 22574.17,
+      "priceCNY": 162534,
+      "note": "主流价位"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "brand": "Solidigm",
+      "partNumber": "D5-P5336",
+      "source": "CDW",
+      "priceUSD": 56348.61,
+      "priceCNY": 405742,
+      "note": "单源，延续昨日"
+    }
+  ]
+}
