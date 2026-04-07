@@ -1,0 +1,287 @@
+{
+  "date": "2026-04-06",
+  "generatedAt": "2026-04-06T09:18:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 5,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "attemptedSources": [
+    "CoreWaveLabs",
+    "DiscTech",
+    "Provantage",
+    "CDW",
+    "Saitech",
+    "Hyperscalers",
+    "OEMPCWorld",
+    "ServerSupply",
+    "Connection",
+    "Tech-America",
+    "Insight",
+    "SHI",
+    "Memory4Less",
+    "Memory.net",
+    "Micron official",
+    "Samsung official",
+    "Kioxia official",
+    "Solidigm official"
+  ],
+  "newSourcesTried": [
+    "Saitech",
+    "Hyperscalers",
+    "OEMPCWorld",
+    "SHI"
+  ],
+  "newSourcesWithUsefulData": [
+    "Saitech",
+    "Hyperscalers",
+    "OEMPCWorld"
+  ],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "publicPriceSources": [
+        "Provantage",
+        "Saitech",
+        "CDW"
+      ],
+      "specOrRFQSources": [
+        "Micron official"
+      ],
+      "parserGapSources": [
+        "ServerSupply",
+        "Connection",
+        "Insight",
+        "Tech-America",
+        "Memory4Less"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs",
+        "Memory.net"
+      ]
+    },
+    "DDR5-5600": {
+      "publicPriceSources": [
+        "Provantage",
+        "Saitech",
+        "CDW",
+        "OEMPCWorld"
+      ],
+      "specOrRFQSources": [
+        "Micron official"
+      ],
+      "parserGapSources": [
+        "ServerSupply",
+        "Connection",
+        "Insight",
+        "Tech-America",
+        "Memory4Less"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs",
+        "Memory.net"
+      ]
+    },
+    "PCIe4 TLC": {
+      "publicPriceSources": [
+        "DiscTech"
+      ],
+      "specOrRFQSources": [
+        "Samsung official",
+        "Micron official"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs",
+        "Saitech"
+      ]
+    },
+    "PCIe5 TLC": {
+      "publicPriceSources": [
+        "CDW",
+        "Saitech",
+        "Hyperscalers"
+      ],
+      "specOrRFQSources": [
+        "Micron official",
+        "Samsung official",
+        "Kioxia official"
+      ],
+      "parserGapSources": [
+        "ServerSupply",
+        "Insight",
+        "Tech-America",
+        "SHI"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs"
+      ]
+    },
+    "PCIe4 QLC": {
+      "publicPriceSources": [
+        "CDW",
+        "Provantage",
+        "Saitech"
+      ],
+      "specOrRFQSources": [
+        "Solidigm official"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs"
+      ]
+    }
+  },
+  "historyReview": {
+    "window": "2026-03-23..2026-04-05",
+    "notes": [
+      "DDR5 在 3/30-4/05 经历了明显样本塌缩，其中 5600 系列连续 7 天缺主值，是本轮补源优先级最高的空位。",
+      "PCIe4 TLC 近 7-14 天最稳，但稳定高度依赖 DiscTech 单源，存在 stale source concentration 风险。",
+      "PCIe5 TLC 与 PCIe4 QLC 在 4/04-4/05 主要靠 CDW/Provantage 重新站稳，今天要验证是否能从“刚恢复”走向“多源确认”。",
+      "analysis/market-history-summary.json 显示 DDR5-6400 128GB 与 PCIe5/PCIe4 30.72TB 等位点连续缺失天数偏高，因此今天优先补 Saitech / Hyperscalers / OEMPCWorld。"
+    ]
+  },
+  "keyChangesVsYesterday": [
+    "DDR5-6400 从 3/5 提升到 5/5：Saitech 今天补出 64/96/128GB，128GB 首次出现可写入主表的 exact public quote。",
+    "DDR5-5600 从 0/5 提升到 3/5：64GB exact quote 回到≈¥19k 带，128GB fresh public cluster 落在≈¥46.0-46.6k，但 32GB 仍在高价/清仓两端撕裂。",
+    "PCIe5 TLC 新增 Saitech + Hyperscalers；在排除 Hyperscalers 的明显异常值后，3.84TB/15.36TB 公共价带较昨日 CDW-only 代表值下移。",
+    "PCIe4 QLC 新增 Saitech 全容量 public quotes；30.72TB 代表值从昨日≈¥102k 下修到≈¥85k，61.44TB 仍基本稳定在≈¥161-163k。"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "volatility_expand",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "down",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB 仍稳定在≈¥18.6k 主带，32GB/128GB 今天恢复公开样本但覆盖刚修复，适合按项目节奏分批锁量而非一次性重仓。"
+    },
+    "DDR5-5600": {
+      "recommendation": "urgent_only",
+      "reason": "64GB/128GB 虽然恢复 public quotes，但 32GB 仍只有 outlier-only，且 128GB 明显高于 3 月低位，常规采购应保持克制，仅应急单先下。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "3.84/7.68/15.36TB 连续多日持平且证据最稳定，若采购目标集中在这三档，当前是五类里最适合直接执行的窗口。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "Saitech 把 3.84TB/15.36TB public floor 明显拉低，但 1.92/30.72TB 仍空白、Hyperscalers 又出现页面异常价，适合先锁部分需求再观察一两天。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB 今天出现更低 public band，15.36/61.44TB 也有多源互证；但 122.88TB 仍偏单源，拆单比一次性满配更稳。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今天 Provantage / Saitech / OEMPCWorld 都没恢复明确的 16GB 5600 exact public quote。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Connection",
+        "Memory.net"
+      ]
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Saitech exact quote≈¥10870 明显高于 32GB 5600 anchor，OEMPCWorld 又给出≈¥2281 的清仓式低价，尚无稳定主流 public cluster。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Connection",
+        "Memory.net"
+      ]
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "DiscTech / Saitech / official validation 今天仍未恢复符合 read-intensive PCIe4 TLC 口径的公开交易价。",
+      "suggestedSources": [
+        "CDW",
+        "Provantage",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今天仍未拿到 1.92TB 1DWPD 主轨 public quote，补源结果仍停留在规格页或其它容量。",
+      "suggestedSources": [
+        "CDW",
+        "Provantage",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "Micron / Kioxia 官方页可以确认产品线存在，但今天仍无公开交易价。",
+      "suggestedSources": [
+        "CDW",
+        "Provantage",
+        "Connection"
+      ]
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW 仍是最干净主样本；Saitech 新出现的低价单点太激进，尚不足以改写主带。",
+      "suggestedSources": [
+        "Provantage",
+        "ServerSupply",
+        "ShopBLT"
+      ]
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": 10814,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 46660,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": 19168,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": null,
+    "PCIe5 TLC 3.84TB": 18265,
+    "PCIe5 TLC 7.68TB": 27817,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": null,
+    "PCIe4 QLC 15.36TB": 45675,
+    "PCIe4 QLC 30.72TB": 84981,
+    "PCIe4 QLC 61.44TB": 162534,
+    "PCIe4 QLC 122.88TB": 405742
+  }
+}
