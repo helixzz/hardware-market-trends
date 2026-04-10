@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-04-07T09:07:07.180381",
+  "generatedAt": "2026-04-09T09:23:48.410913",
   "cutoffDate": null,
-  "trackingRows": 21,
+  "trackingRows": 22,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-04-07",
+      "latestDate": "2026-04-09",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
-      "averageCoverage14d": 1.07,
+      "averageCoverage14d": 1.21,
       "trend": "flat_or_mixed",
       "latestValues": {
         "DDR5-6400 32GB": 10814,
@@ -23,7 +23,7 @@
         "DDR5-6400 128GB": 46660
       },
       "rollingMedians14d": {
-        "DDR5-6400 64GB": 18811,
+        "DDR5-6400 64GB": 18608,
         "DDR5-6400 32GB": 10814,
         "DDR5-6400 128GB": 46660
       },
@@ -33,33 +33,33 @@
           "latestValue": 10814,
           "previousValue": 10814,
           "rollingMedian14d": 10814,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
-          "rollingMedian14d": 18811,
-          "lastSeenDate": "2026-04-07",
+          "rollingMedian14d": 18608,
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 128GB": {
           "latestValue": 46660,
           "previousValue": 46660,
           "rollingMedian14d": 46660,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         }
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-04-07",
+      "latestDate": "2026-04-09",
       "latestCoverage": {
         "filled": 2,
         "total": 3
       },
-      "averageCoverage14d": 1.36,
+      "averageCoverage14d": 1.29,
       "trend": "flat_or_mixed",
       "latestValues": {
         "DDR5-5600 32GB": null,
@@ -85,38 +85,38 @@
           "previousValue": null,
           "rollingMedian14d": 10390,
           "lastSeenDate": "2026-03-29",
-          "consecutiveMissingDays": 9
+          "consecutiveMissingDays": 10
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
           "previousValue": 19168,
           "rollingMedian14d": 18574,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "DDR5-5600 128GB": {
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 32276,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-04-07",
+      "latestDate": "2026-04-09",
       "latestCoverage": {
-        "filled": 3,
+        "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 3.0,
+      "averageCoverage14d": 3.07,
       "trend": "flat_or_mixed",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
         "PCIe4 TLC 15.36TB": 43739,
-        "PCIe4 TLC 30.72TB": null
+        "PCIe4 TLC 30.72TB": 113896
       },
       "previousValues": {
         "PCIe4 TLC 3.84TB": 18705,
@@ -127,56 +127,55 @@
       "rollingMedians14d": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
-        "PCIe4 TLC 15.36TB": 43739
+        "PCIe4 TLC 15.36TB": 43739,
+        "PCIe4 TLC 30.72TB": 113896
       },
-      "missingColumns": [
-        "PCIe4 TLC 30.72TB"
-      ],
+      "missingColumns": [],
       "columns": {
         "PCIe4 TLC 3.84TB": {
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 18094,
           "previousValue": 18094,
           "rollingMedian14d": 18094,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 15.36TB": {
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 30.72TB": {
-          "latestValue": null,
+          "latestValue": 113896,
           "previousValue": null,
-          "rollingMedian14d": null,
-          "lastSeenDate": null,
-          "consecutiveMissingDays": 14
+          "rollingMedian14d": 113896,
+          "lastSeenDate": "2026-04-09",
+          "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-04-07",
+      "latestDate": "2026-04-09",
       "latestCoverage": {
-        "filled": 3,
+        "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 0.86,
+      "averageCoverage14d": 1.14,
       "trend": "flat_or_mixed",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
         "PCIe5 TLC 15.36TB": 54292,
-        "PCIe5 TLC 30.72TB": null
+        "PCIe5 TLC 30.72TB": 68269
       },
       "previousValues": {
         "PCIe5 TLC 3.84TB": 18265,
@@ -185,58 +184,57 @@
         "PCIe5 TLC 30.72TB": null
       },
       "rollingMedians14d": {
-        "PCIe5 TLC 3.84TB": 20547,
-        "PCIe5 TLC 7.68TB": 29112,
-        "PCIe5 TLC 15.36TB": 57654
+        "PCIe5 TLC 3.84TB": 18265,
+        "PCIe5 TLC 7.68TB": 27817,
+        "PCIe5 TLC 15.36TB": 54292,
+        "PCIe5 TLC 30.72TB": 68269
       },
-      "missingColumns": [
-        "PCIe5 TLC 30.72TB"
-      ],
+      "missingColumns": [],
       "columns": {
         "PCIe5 TLC 3.84TB": {
           "latestValue": 18265,
           "previousValue": 18265,
-          "rollingMedian14d": 20547,
-          "lastSeenDate": "2026-04-07",
+          "rollingMedian14d": 18265,
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 27817,
           "previousValue": 27817,
-          "rollingMedian14d": 29112,
-          "lastSeenDate": "2026-04-07",
+          "rollingMedian14d": 27817,
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 15.36TB": {
           "latestValue": 54292,
           "previousValue": 54292,
-          "rollingMedian14d": 57654,
-          "lastSeenDate": "2026-04-07",
+          "rollingMedian14d": 54292,
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 30.72TB": {
-          "latestValue": null,
+          "latestValue": 68269,
           "previousValue": null,
-          "rollingMedian14d": null,
-          "lastSeenDate": null,
-          "consecutiveMissingDays": 14
+          "rollingMedian14d": 68269,
+          "lastSeenDate": "2026-04-09",
+          "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-04-07",
+      "latestDate": "2026-04-09",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 1.21,
+      "averageCoverage14d": 1.5,
       "trend": "flat_or_mixed",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 45675,
         "PCIe4 QLC 30.72TB": 84981,
         "PCIe4 QLC 61.44TB": 162534,
-        "PCIe4 QLC 122.88TB": 405742
+        "PCIe4 QLC 122.88TB": 332925
       },
       "previousValues": {
         "PCIe4 QLC 15.36TB": 45675,
@@ -247,7 +245,7 @@
       "rollingMedians14d": {
         "PCIe4 QLC 61.44TB": 162534,
         "PCIe4 QLC 15.36TB": 45675,
-        "PCIe4 QLC 30.72TB": 93562,
+        "PCIe4 QLC 30.72TB": 84981,
         "PCIe4 QLC 122.88TB": 405742
       },
       "missingColumns": [],
@@ -256,45 +254,34 @@
           "latestValue": 45675,
           "previousValue": 45675,
           "rollingMedian14d": 45675,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
           "latestValue": 84981,
           "previousValue": 84981,
-          "rollingMedian14d": 93562,
-          "lastSeenDate": "2026-04-07",
+          "rollingMedian14d": 84981,
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 61.44TB": {
           "latestValue": 162534,
           "previousValue": 162534,
           "rollingMedian14d": 162534,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 122.88TB": {
-          "latestValue": 405742,
+          "latestValue": 332925,
           "previousValue": 405742,
           "rollingMedian14d": 405742,
-          "lastSeenDate": "2026-04-07",
+          "lastSeenDate": "2026-04-09",
           "consecutiveMissingDays": 0
         }
       }
     }
   },
   "recentRunNotes": {
-    "2026-04-01": [
-      "corewave-6400: OK (0 quotes; categories=none)",
-      "corewave-5600: OK (0 quotes; categories=none)",
-      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
-      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
-      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
-      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
-      "disctech-30.72TB: OK (0 quotes; categories=none)",
-      "disctech-61.44TB: OK (0 quotes; categories=none)",
-      "disctech-122.88TB: OK (0 quotes; categories=none)"
-    ],
     "2026-04-02": [
       "corewave-6400: OK (0 quotes; categories=none)",
       "corewave-5600: OK (0 quotes; categories=none)",
@@ -394,6 +381,18 @@
       "PCIe4 QLC 61.44TB: Provantage ≈$18,428 low sample observed, verification needed",
       "DDR5-6400 status: Provantage + Newegg A-Tech both show ≈$2,194-2,287 range for 64GB, flat vs yesterday",
       "Gaps persist: DDR5-5600 32GB (outlier_only), PCIe4 TLC 30.72TB (no_public_sample, 15 days), PCIe5 TLC 30.72TB (no_public_sample, 15 days)"
+    ],
+    "2026-04-09": [
+      "history-precheck: completed (reviewed daily-2026-04-05..2026-04-07, tracking-table, raw/2026-04-05..2026-04-07/quotes.json, market-history-summary; noted missing 2026-04-08 artifact and re-used latest available day for vs-yesterday comparison)",
+      "disctech-pcie4: OK (3.84/7.68/15.36TB direct prices remain $2,299 / $1,999 / $5,376; category core band still flat)",
+      "cdw-ddr5-direct: OK (32/64/128GB 5600 exact product_price recovered at $1,637.99 / $2,847 / $6,712.99; confirms premium high cluster remains visible)",
+      "ddr5-6400-multi: MIXED (Provantage 64GB still $2,287.16; Newegg 64GB around $2,400; exact 128GB today still mostly quote/login pages plus out-of-stock or suffix-mismatch outliers)",
+      "pcie4-tlc-30.72: MAJOR_SIGNAL (CDW $14,939.99 direct + Newegg $13,999 + Saitech $12,395 + DigiKey $17,494.94; first usable multi-source public band after long no_public_sample run)",
+      "pcie5-tlc-30.72: MAJOR_SIGNAL (Kioxia CM7-R lower-band public at Provantage $8,391 and Wiredzone embedded $9,404; Micron 9550 premium band at A5 IT $14,613.11 / SHI $17,794 creates strong family split)",
+      "pcie4-qlc-122.88: REPRICED (CDW direct remains $49,869.99, but Newegg $40,919.99 plus Tech-America $40,869-$41,578 turns prior CDW-only high watermark into premium outlier)",
+      "ddr5-5600-32: OUTLIER_ONLY (Newegg Samsung $989.99 vs CDW $1,637.99 / Provantage $1,594.29 / ServerSupply $2,000 / CompSource $1,374.19; cross-brand and channel split still too wide for a clean main value)",
+      "wiredzone-pcie5: PARSER_GAP (UI still renders Email For Price, but embedded structured data exposes $9,404 for KCMYXRUG30T7)",
+      "saitech-multi: PARSER_GAP (many product pages now land on quote-first pages; search snippets still reveal prices, but direct page text often omits them)"
     ]
   }
 }

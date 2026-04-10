@@ -1,0 +1,275 @@
+{
+  "date": "2026-04-09",
+  "generatedAt": "2026-04-09T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 2,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 5,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "attemptedSources": [
+    "Provantage",
+    "Newegg",
+    "Saitech",
+    "CDW",
+    "Connection",
+    "Memory4Less",
+    "Walmart",
+    "ServerSupply",
+    "CompSource",
+    "Micro Center",
+    "DiscTech",
+    "Digikey",
+    "Wiredzone",
+    "SHI",
+    "A5 IT",
+    "TechAtlantix",
+    "Tech-America",
+    "Micron official",
+    "Kioxia official",
+    "Samsung official",
+    "Solidigm official",
+    "CoreWaveLabs",
+    "Memory.net"
+  ],
+  "newSourcesTried": [
+    "Digikey",
+    "SHI",
+    "A5 IT",
+    "Tech-America",
+    "Walmart",
+    "Wiredzone"
+  ],
+  "newSourcesWithUsefulData": [
+    "Digikey",
+    "SHI",
+    "A5 IT",
+    "Tech-America",
+    "Walmart"
+  ],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "publicPriceSources": [
+        "Provantage",
+        "Newegg"
+      ],
+      "specOrRFQSources": [
+        "Saitech",
+        "Connection",
+        "Memory4Less",
+        "Micron official"
+      ],
+      "parserGapSources": [
+        "ServerSupply"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs",
+        "Memory.net"
+      ],
+      "outlierOnlySources": [
+        "Walmart"
+      ]
+    },
+    "DDR5-5600": {
+      "publicPriceSources": [
+        "CDW",
+        "Provantage",
+        "Newegg",
+        "ServerSupply",
+        "CompSource"
+      ],
+      "specOrRFQSources": [
+        "Micro Center"
+      ],
+      "parserGapSources": [],
+      "noDirectSampleSources": [
+        "Memory.net"
+      ],
+      "outlierOnlySources": [
+        "OEMPCWorld"
+      ]
+    },
+    "PCIe4 TLC": {
+      "publicPriceSources": [
+        "DiscTech",
+        "CDW",
+        "Newegg",
+        "Digikey"
+      ],
+      "specOrRFQSources": [
+        "Micron official"
+      ],
+      "parserGapSources": [
+        "Saitech",
+        "Wiredzone"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs"
+      ],
+      "outlierOnlySources": []
+    },
+    "PCIe5 TLC": {
+      "publicPriceSources": [
+        "CDW",
+        "Provantage",
+        "A5 IT",
+        "SHI"
+      ],
+      "specOrRFQSources": [
+        "Micron official",
+        "Kioxia official",
+        "Samsung official"
+      ],
+      "parserGapSources": [
+        "Wiredzone",
+        "SHI direct page"
+      ],
+      "noDirectSampleSources": [
+        "CoreWaveLabs"
+      ],
+      "outlierOnlySources": [
+        "TechAtlantix"
+      ]
+    },
+    "PCIe4 QLC": {
+      "publicPriceSources": [
+        "CDW",
+        "Newegg",
+        "Tech-America"
+      ],
+      "specOrRFQSources": [
+        "Solidigm official",
+        "Saitech"
+      ],
+      "parserGapSources": [
+        "Saitech"
+      ],
+      "noDirectSampleSources": [
+        "Provantage 122.88TB"
+      ],
+      "outlierOnlySources": []
+    }
+  },
+  "historyReview": {
+    "window": "2026-03-27..2026-04-07",
+    "notes": [
+      "最近 7-14 天最明显的缺口是 DDR5-5600 32GB、PCIe4 TLC 30.72TB、PCIe5 TLC 30.72TB，以及高容量 QLC 122.88TB 过度依赖单一高价源。",
+      "DDR5 赛道在 3/30-4/05 出现样本塌缩；4/06-4/07 虽修复 64GB/128GB，但 32GB 尤其 5600 仍持续分裂。",
+      "PCIe4 TLC 在 DiscTech 三个基准位上长期稳定，但这种稳定存在明显 stale_repeated_sample 风险；今天优先验证 30.72TB 是否真的无公开价。",
+      "4/08 缺日报，因此今天相对变化以 4/07 为上一份可比日报。"
+    ]
+  },
+  "keyChangesVsYesterday": [
+    "相对上一份日报 2026-04-07，PCIe4 TLC 30.72TB 从 NA 变为有公共价带：CDW / Newegg / Saitech / DigiKey 都给出公开样本，tracking-table 首次可写入主值。",
+    "PCIe5 TLC 30.72TB 从长期 no_public_sample 变为可见的双层价格结构：Kioxia CM7-R 约 ¥68k-76k，Micron 9550 约 ¥119k-145k。",
+    "PCIe4 QLC 122.88TB 不再只剩 CDW 高水位：Newegg + Tech-America 新增低-40k USD 群，代表值由 ¥405,742 下修至 ¥332,925。",
+    "DDR5-5600 32GB 仍无法写主值，但今天已经能明确不是“没样本”，而是低价 Samsung 零售样本与高价 B2B 分销样本并存。"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "down",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB 主带仍稳定；32GB/128GB 虽非空，但 128GB 新鲜度不足、32GB 次源仍偏弱，适合按项目节奏分批而非一次性重仓。"
+    },
+    "DDR5-5600": {
+      "recommendation": "insufficient_evidence",
+      "reason": "32GB 低价 Samsung 样本与高价分销样本继续严重分裂；64GB/128GB 虽可见但仍偏高，跨品牌主流成交带 today 仍不够干净。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "3.84/7.68/15.36TB 持续稳定，30.72TB 今日也恢复公共价带；这是五大类里当前覆盖最完整且最可执行的一类。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "3.84/7.68/15.36TB 的下移趋势仍在，30.72TB 也首次恢复可见公共价，但不同产品家族间仍存在明显高低两层价格结构。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36/30.72/61.44TB 相对稳定，122.88TB 新出现低-40k USD 多源簇；适合分批吃进，而不是盯着单一高价源整单下。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Newegg Samsung ≈¥8.1k 与 CDW/Provantage/ServerSupply/CompSource ≈¥11.2k-16.3k 同时存在，今天仍无法提炼成干净单一代表价。",
+      "suggestedSources": [
+        "Micro Center",
+        "ServerSupply direct",
+        "Memory.net"
+      ]
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今天补了 SHI / A5 IT / Provantage / Wiredzone / TechAtlantix 之后，30.72TB 有价了，但 1.92TB 仍未恢复公开现货价。",
+      "suggestedSources": [
+        "CDW",
+        "Provantage",
+        "Tech-America"
+      ]
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "128GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "今天仍主要看到 Saitech quote-first、Connection login/call、Memory4Less call-for-price，以及 Walmart/related CDW 的异常点；主值可保留，但新鲜度偏弱。",
+      "suggestedSources": [
+        "ServerSupply",
+        "Connection",
+        "Memory4Less"
+      ]
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": 10814,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 46660,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": 19168,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": 113896,
+    "PCIe5 TLC 3.84TB": 18265,
+    "PCIe5 TLC 7.68TB": 27817,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": 68269,
+    "PCIe4 QLC 15.36TB": 45675,
+    "PCIe4 QLC 30.72TB": 84981,
+    "PCIe4 QLC 61.44TB": 162534,
+    "PCIe4 QLC 122.88TB": 332925
+  },
+  "validationNotes": [
+    "DiscTech 3.84/7.68/15.36TB 今天直抓仍分别为 $2,299 / $1,999 / $5,376，说明 PCIe4 TLC 核心带确实没动。",
+    "CDW DDR5-5600 32GB 直抓 product_price=1637.99，证明高价样本不是搜索幻觉。",
+    "CDW 6500 ION 30.72TB 直抓 product_price=14939.99，Newegg / Saitech / DigiKey 共同说明 PCIe4 TLC 30.72TB 已从 no_public_sample 转为可交易公共价带。",
+    "Wiredzone CM7-R 30.72TB 页面 UI 仍是 Email For Price，但源码 embedded price=9404.0；因此今天把它计作 parser_gap corroboration，而不是最干净主样本。",
+    "Newegg SBFPF2BV0P12001 $40,919.99 与 Tech-America $40,869-$41,578 已形成 122.88TB 新低位簇，CDW $49,869.99 更适合视作 premium-channel high watermark。"
+  ]
+}
