@@ -1,65 +1,65 @@
 {
-  "generatedAt": "2026-04-10T09:21:03.173329",
+  "generatedAt": "2026-04-12T09:13:18.452515",
   "cutoffDate": null,
-  "trackingRows": 23,
+  "trackingRows": 25,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-04-10",
+      "latestDate": "2026-04-12",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
-      "averageCoverage14d": 1.36,
+      "averageCoverage14d": 1.64,
       "trend": "flat_or_mixed",
       "latestValues": {
-        "DDR5-6400 32GB": 10814,
+        "DDR5-6400 32GB": 11133,
         "DDR5-6400 64GB": 18608,
         "DDR5-6400 128GB": 52651
       },
       "previousValues": {
-        "DDR5-6400 32GB": 10814,
+        "DDR5-6400 32GB": 11133,
         "DDR5-6400 64GB": 18608,
-        "DDR5-6400 128GB": 46660
+        "DDR5-6400 128GB": 52651
       },
       "rollingMedians14d": {
         "DDR5-6400 64GB": 18608,
         "DDR5-6400 32GB": 10814,
-        "DDR5-6400 128GB": 46660
+        "DDR5-6400 128GB": 49655
       },
       "missingColumns": [],
       "columns": {
         "DDR5-6400 32GB": {
-          "latestValue": 10814,
-          "previousValue": 10814,
+          "latestValue": 11133,
+          "previousValue": 11133,
           "rollingMedian14d": 10814,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
-          "previousValue": 46660,
-          "rollingMedian14d": 46660,
-          "lastSeenDate": "2026-04-10",
+          "previousValue": 52651,
+          "rollingMedian14d": 49655,
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         }
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-04-10",
+      "latestDate": "2026-04-12",
       "latestCoverage": {
         "filled": 2,
         "total": 3
       },
-      "averageCoverage14d": 1.21,
+      "averageCoverage14d": 1.07,
       "trend": "flat_or_mixed",
       "latestValues": {
         "DDR5-5600 32GB": null,
@@ -85,32 +85,32 @@
           "previousValue": null,
           "rollingMedian14d": 10390,
           "lastSeenDate": "2026-03-29",
-          "consecutiveMissingDays": 11
+          "consecutiveMissingDays": 13
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
           "previousValue": 19168,
           "rollingMedian14d": 19168,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "DDR5-5600 128GB": {
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-04-10",
+      "latestDate": "2026-04-12",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 3.14,
+      "averageCoverage14d": 3.29,
       "trend": "flat_or_mixed",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
@@ -136,40 +136,40 @@
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 18094,
           "previousValue": 18094,
           "rollingMedian14d": 18094,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 15.36TB": {
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 30.72TB": {
           "latestValue": 113896,
           "previousValue": 113896,
           "rollingMedian14d": 113896,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-04-10",
+      "latestDate": "2026-04-12",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 1.43,
+      "averageCoverage14d": 2.0,
       "trend": "flat_or_mixed",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
@@ -195,133 +195,93 @@
           "latestValue": 18265,
           "previousValue": 18265,
           "rollingMedian14d": 18265,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 27817,
           "previousValue": 27817,
           "rollingMedian14d": 27817,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 15.36TB": {
           "latestValue": 54292,
           "previousValue": 54292,
           "rollingMedian14d": 54292,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 30.72TB": {
           "latestValue": 68269,
           "previousValue": 68269,
           "rollingMedian14d": 68269,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-04-10",
+      "latestDate": "2026-04-12",
       "latestCoverage": {
-        "filled": 3,
+        "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 1.71,
-      "trend": "flat_or_mixed",
+      "averageCoverage14d": 2.29,
+      "trend": "up",
       "latestValues": {
-        "PCIe4 QLC 15.36TB": 45675,
-        "PCIe4 QLC 30.72TB": 71601,
-        "PCIe4 QLC 61.44TB": null,
+        "PCIe4 QLC 15.36TB": 41982,
+        "PCIe4 QLC 30.72TB": 83963,
+        "PCIe4 QLC 61.44TB": 199324,
         "PCIe4 QLC 122.88TB": 332925
       },
       "previousValues": {
         "PCIe4 QLC 15.36TB": 45675,
-        "PCIe4 QLC 30.72TB": 84981,
-        "PCIe4 QLC 61.44TB": 162534,
+        "PCIe4 QLC 30.72TB": 71601,
+        "PCIe4 QLC 61.44TB": 199055,
         "PCIe4 QLC 122.88TB": 332925
       },
       "rollingMedians14d": {
         "PCIe4 QLC 61.44TB": 162534,
         "PCIe4 QLC 15.36TB": 45675,
         "PCIe4 QLC 30.72TB": 84981,
-        "PCIe4 QLC 122.88TB": 405742
+        "PCIe4 QLC 122.88TB": 369333
       },
-      "missingColumns": [
-        "PCIe4 QLC 61.44TB"
-      ],
+      "missingColumns": [],
       "columns": {
         "PCIe4 QLC 15.36TB": {
-          "latestValue": 45675,
+          "latestValue": 41982,
           "previousValue": 45675,
           "rollingMedian14d": 45675,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
-          "latestValue": 71601,
-          "previousValue": 84981,
+          "latestValue": 83963,
+          "previousValue": 71601,
           "rollingMedian14d": 84981,
-          "lastSeenDate": "2026-04-10",
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 61.44TB": {
-          "latestValue": null,
-          "previousValue": 162534,
+          "latestValue": 199324,
+          "previousValue": 199055,
           "rollingMedian14d": 162534,
-          "lastSeenDate": "2026-04-09",
-          "consecutiveMissingDays": 1
+          "lastSeenDate": "2026-04-12",
+          "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 122.88TB": {
           "latestValue": 332925,
           "previousValue": 332925,
-          "rollingMedian14d": 405742,
-          "lastSeenDate": "2026-04-10",
+          "rollingMedian14d": 369333,
+          "lastSeenDate": "2026-04-12",
           "consecutiveMissingDays": 0
         }
       }
     }
   },
   "recentRunNotes": {
-    "2026-04-03": [
-      "corewave-6400: OK (0 quotes; categories=none)",
-      "corewave-5600: OK (0 quotes; categories=none)",
-      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
-      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
-      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
-      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
-      "disctech-30.72TB: OK (0 quotes; categories=none)",
-      "disctech-61.44TB: OK (0 quotes; categories=none)",
-      "disctech-122.88TB: OK (0 quotes; categories=none)",
-      "manual-provantage-ddr5: OK (public quotes found for DDR5-6400 32/64/96GB and DDR5-5600 32/64/128GB; most 5600 samples remain high-risk/outlier)",
-      "manual-provantage-pcie5: OK (public PM1743 U.2 quotes found for 1.92/3.84/7.68/15.36TB; 1.92/3.84/7.68 are 3DWPD OEM FRU, 15.36TB is extreme high special-order sample)",
-      "manual-provantage-qlc: OK (public D5-P5336 61.44TB quote found)",
-      "manual-provantage-pcie4-tlc: OK (PM9A3 3.84TB OEM/distribution public quote found but far above DiscTech secondary-market channel)",
-      "manual-cdw: SPEC_ONLY (Micron 9550 / PM1743 / PM9A3 / D5-P5336 listings accessible but no public price)",
-      "manual-serversupply: PARSER_GAP (price-visible results observed via search snippets for Micron DDR5 / PM1743 / D7-P5510, direct page extraction still blocked)",
-      "manual-shopblt-zones-exxact-techamerica: MIXED (listing/lead-time/no-direct-result; no new public price extracted)"
-    ],
-    "2026-04-04": [
-      "history-precheck: completed (reviewed recent dailies / tracking-table / raw quotes / market-history-summary; excluded future-dated 2026-04-05 artifact from trend context via cutoff regeneration)",
-      "corewave-6400: OK (0 quotes; categories=none)",
-      "corewave-5600: OK (0 quotes; categories=none)",
-      "disctech-1.92TB: OK (3 quotes; categories=PCIe4 TLC)",
-      "disctech-3.84TB: OK (9 quotes; categories=PCIe4 TLC)",
-      "disctech-7.68TB: OK (2 quotes; categories=PCIe4 TLC)",
-      "disctech-15.36TB: OK (1 quotes; categories=PCIe4 TLC)",
-      "provantage-ddr5: MIXED (6400 64/96 public usable; 5600 public but high-channel/outlier_only; 32GB 6400 fresh visible mostly as high-channel listings)",
-      "cdw-ddr5: MIXED (32GB 6400 / 64GB 5600 / 128GB 5600 public; 64GB 6400 page exists but product_price=0)",
-      "cdw-pcie5: OK (public prices recovered for 3.84/7.68/15.36TB; 1.92/30.72 only zero-price/spec pages)",
-      "cdw-qlc: OK (public prices recovered for 15.36/30.72/61.44/122.88TB; some duplicate SKUs remain zero-price or premium-channel outliers)",
-      "serversupply-multi: PARSER_GAP (direct pages blocked by Cloudflare; search still confirms listings exist)",
-      "connection-ddr5: PARSER_GAP (Akamai access denied on direct product page)",
-      "shopblt-multi: PARSER_GAP (Cloudflare interstitial / just-a-moment)",
-      "wiredzone-pcie4: SPEC_ONLY (product page reachable but only email-for-price / RFQ)",
-      "samsung-pm1743: SPEC_ONLY (official spec page, no public transaction price)",
-      "solidigm-p5336: SPEC_ONLY (official spec page, no public transaction price)",
-      "memory-net-ddr5: NO_PUBLIC_SAMPLE (no exact part hits found for target Micron RDIMM parts)"
-    ],
     "2026-04-05": [
       "history-precheck: completed (reviewed recent dailies / tracking-table / raw quotes / market-history-summary; detected and replaced stale 2026-04-05 artifact)",
       "corewave-6400: OK (0 quotes; categories=none)",
@@ -395,6 +355,30 @@
       "pcie4-qlc-30.72: REPRICED (Wiredzone embedded $8,491 + Newegg $9,109.99 point to a lower band than yesterday)",
       "pcie4-qlc-61.44: OUTLIER_ONLY (today public signals split between ≈$7.6k-$8.0k low-side snippets and Newegg $29,995 high-side retail)",
       "pcie4-qlc-122.88: LOW_CLUSTER_PERSISTS (Wiredzone $19,051 + DirectMacro $19,750 continue to exist, but remain too far below Newegg/CDW premium band to overwrite representative value)"
+    ],
+    "2026-04-11": [
+      "history-precheck: completed (reviewed daily-2026-04-07, daily-2026-04-09, daily-2026-04-10, tracking-table.md, raw/2026-04-07|04-09|04-10/quotes.json, analysis/market-history-summary.json; focused on 7-14 day coverage drift, stale anchors, and missing-slot causes)",
+      "provantage-ddr5: OK (6400 32GB exact $1,368.37 and 64GB exact $2,287.16 refreshed; 5600 32GB high-cluster exact $1,566.03 and 64GB exact $2,292.76 refreshed; 128GB 5600 exact $5,727.68 still public)",
+      "computerdealsdirect-ddr5-128: OK (MTC40F2047S1RC64BR exact public $6,529.68 remains visible)",
+      "memory4less-ddr5-128: MIXED (web search/search-grounding and direct page disagree; direct fetch today leans quote/block, treated as parser_gap/RFQ not clean public anchor)",
+      "cdw-ddr5-5600: MIXED (32GB $1,637.99 and 64GB $2,847 still public; 128GB page reverted to product_price=0)",
+      "disctech-pcie4: OK (1.92/3.84/7.68/15.36TB direct prices remain $1,199 / $2,299 / $1,999 / $5,376)",
+      "pcie4-tlc-30.72: VERIFIED (CDW $14,939.99 + Zones $13,977.99 keep the lower public band alive; SHI $32,496 shows higher-tier distribution premium)",
+      "hyperscalers-pcie5: MIXED (1.92TB $750.50 public RRP recovered; 3.84TB $1,288 and 15.36TB $4,410 low-side RRP still visible; 7.68TB page still shows implausible $2.27 bug)",
+      "pcie5-30.72: COVERAGE_WORSENED (Provantage Kioxia low-band anchor no longer returns a product result; AAAWave shows $4,198 while Wiredzone shows $16,819 and Micron high-band stays at $14.6k-$19.79k)",
+      "pcie4-qlc-61.44: RESTORED (CDW direct $24,465.99 + ServerSupply $29,500 + Newegg $29,995 + Connection $20,504.26 rebuild a usable public high-side band; Avanti $7,630 remains outlier_only)"
+    ],
+    "2026-04-12": [
+      "history-precheck: completed (reviewed daily-2026-04-09..2026-04-11, tracking-table.md, raw/2026-04-09..2026-04-11/quotes.json, analysis/market-history-summary.json; focused on 7-14 day coverage, stale anchors, source concentration, and long-missing slots)",
+      "ddr5-6400: MIXED (64GB exact Provantage anchor still public at $2,287.16; 128GB exact ComputerDealsDirect anchor still public at $6,529.68; 32GB shifted toward Tech-America/Connection/Memory4Less login-or-quote mix, with only search-grounded public low-side visible today)",
+      "ddr5-5600-32: OUTLIER_ONLY (A-Tech direct $950.39 / Newegg low-side vs Provantage/CDW $1.57k-$1.67k high-side; Memory.net confirms RFQ-only rather than public checkout price)",
+      "ddr5-5600-64-128: OK (Provantage exact anchors remain public; ServerSupply/DirectDial/Tech-America/Newegg continue to corroborate the mid-$2.3k and mid-$5.2k-$6.1k bands)",
+      "pcie4-tlc-30.72: MIXED (CDW still public at $14,939.99 and SHI still public at $32,496, but Avanti/Orange/CompuDevices surfaced a much lower $4.2k-$6.2k cluster that is too far below the established band and treated as outlier_only)",
+      "pcie5-tlc-1.92-15.36: MIXED (Hyperscalers low-side RRP pages still visible for 1.92/3.84/15.36TB; 7.68TB page bug persists, so that site remains a mixed source rather than a clean repricing anchor)",
+      "pcie5-tlc-30.72: VOLATILITY_EXPAND (Provantage lower-band Kioxia anchor no longer reproducible; AAAWave shows $4,198 low-side while Howard $15,035.99 and A5 IT $14,613.11 keep Micron high-band alive; family split and channel split both widened)",
+      "pcie4-qlc: REPRICED (CDW reverted 15.36/30.72/61.44TB pages to product_price=0 today, but Newegg/Connection/Mouser now provide fresh public prices; 15.36TB moved down to a clean low-$5.2k band, 30.72TB moved up to a clean low-$10.3k band, 61.44TB kept a usable public high-side band, and 122.88TB stayed in the low-$40k cluster)",
+      "memory-net-ddr5: SPEC_ONLY (product page reachable via search grounding and updated 2026-04-10, but still Request For Quote / Arriving Soon, not a public transaction price)",
+      "shopblt-multi: NO_USEFUL_SAMPLE (today search attempts did not recover clean public price for target DDR5 / PCIe5 / QLC parts)"
     ]
   }
 }

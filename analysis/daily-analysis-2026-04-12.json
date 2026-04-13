@@ -1,0 +1,188 @@
+{
+  "date": "2026-04-12",
+  "generatedAt": "2026-04-12T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 2, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 5, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "attemptedSources": [
+    "Provantage",
+    "ComputerDealsDirect",
+    "Tech-America",
+    "Connection",
+    "Memory4Less",
+    "A-Tech Memory",
+    "Memory.net",
+    "CDW",
+    "ServerSupply",
+    "DirectDial",
+    "Newegg",
+    "DiscTech",
+    "SHI",
+    "DigiKey",
+    "Avanti",
+    "Orange Hardwares",
+    "CompuDevices",
+    "Hyperscalers",
+    "AAAWave",
+    "Howard Computers",
+    "A5 IT",
+    "Wiredzone",
+    "Mouser",
+    "PCNation",
+    "ShopBLT"
+  ],
+  "newSourcesTried": [
+    "A-Tech Memory",
+    "Memory.net",
+    "Howard Computers",
+    "Mouser",
+    "Orange Hardwares",
+    "CompuDevices",
+    "PCNation"
+  ],
+  "newSourcesWithUsefulData": [
+    "A-Tech Memory",
+    "Howard Computers",
+    "Mouser",
+    "Orange Hardwares",
+    "CompuDevices"
+  ],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "publicPriceSources": ["Provantage", "ComputerDealsDirect", "Tech-America", "Saitech"],
+      "specOrRFQSources": ["Memory4Less"],
+      "parserGapSources": ["Connection", "Newegg"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Saitech 128GB out-of-stock lower-side sample"]
+    },
+    "DDR5-5600": {
+      "publicPriceSources": ["Provantage", "CDW", "A-Tech Memory", "ServerSupply", "DirectDial", "Tech-America", "Newegg"],
+      "specOrRFQSources": ["Memory.net"],
+      "parserGapSources": ["ServerSupply direct", "DirectDial direct", "Tech-America direct", "Newegg direct"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["A-Tech/Newegg low cluster vs Provantage/CDW high cluster"]
+    },
+    "PCIe4 TLC": {
+      "publicPriceSources": ["DiscTech", "CDW", "SHI", "Avanti", "Orange Hardwares", "CompuDevices"],
+      "specOrRFQSources": ["Connection", "DigiKey partial"],
+      "parserGapSources": ["Connection direct"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Avanti", "Orange Hardwares", "CompuDevices"]
+    },
+    "PCIe5 TLC": {
+      "publicPriceSources": ["Hyperscalers", "AAAWave", "Howard Computers", "A5 IT", "SHI", "Saitech", "ServerSupply"],
+      "specOrRFQSources": ["CDW", "Wiredzone"],
+      "parserGapSources": ["Connection direct", "ServerSupply direct"],
+      "noDirectSampleSources": ["Provantage exact 30.72 low-band anchor no longer reproducible"],
+      "outlierOnlySources": ["Hyperscalers 7.68TB $2.27 bug", "AAAWave 30.72TB low-side cluster"]
+    },
+    "PCIe4 QLC": {
+      "publicPriceSources": ["Newegg", "Connection", "Mouser", "Tech-America", "CDW 122.88 only", "Avanti"],
+      "specOrRFQSources": ["Wiredzone"],
+      "parserGapSources": ["Connection direct", "Mouser direct", "CDW 15.36/30.72/61.44 zero-price pages"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Avanti 61.44TB", "DirectMacro 122.88TB"]
+    }
+  },
+  "historyReview": {
+    "window": "2026-03-29..2026-04-11",
+    "notes": [
+      "DDR5-5600 32GB remains the longest-running structural split: public prices exist every day, but they still do not converge into a trustworthy single market band.",
+      "PCIe4 TLC core slots stayed stable for 7-14 days, but 30.72TB still needs protection against false low-channel repricing because new low clusters keep surfacing outside the established CDW/SHI/DigiKey band.",
+      "PCIe5 TLC recovered nominal 5/5 coverage yesterday, but the real unresolved issue is 30.72TB anchor decay: the prior Kioxia low-band stopped repeating cleanly, while new low and high clusters diverged further.",
+      "PCIe4 QLC had heavy sample churn over the last week; today the category no longer depends on CDW, but the clean public band now differs by capacity, so the category is improving in breadth rather than in uniformity."
+    ]
+  },
+  "keyChangesVsYesterday": [
+    "DDR5-5600 32GB gained a fresh low-side public source from A-Tech Memory at $950.39, but high-side Provantage/CDW pricing remains intact, so the slot stays outlier_only rather than recovering a representative value.",
+    "PCIe5 TLC 30.72TB widened again: the old Provantage Kioxia low-band anchor was not reproducible today, AAAWave showed $4,198, while Howard Computers and A5 IT kept Micron high-band pricing around $14.6k-$15.0k.",
+    "PCIe4 QLC decoupled further from CDW: CDW reverted 15.36/30.72/61.44TB pages to product_price=0, but Newegg/Connection/Mouser provided fresh public prices; 15.36TB repriced lower while 30.72TB repriced higher.",
+    "DDR5-6400 remained broadly flat: 64GB exact Provantage and 128GB exact ComputerDealsDirect anchors stayed intact, while 32GB only added a search-grounded Tech-America low-side hint instead of a clean new exact page."
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB and 128GB anchors remain stable enough to buy against, but 32GB today leaned more on search-grounded/public-low-side evidence than on a fresh exact anchor, so full-size commitment is still unnecessary."
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB still has a cleanly observable two-layer market and 64GB/128GB are visible but not cheap; coverage exists, yet the category is not offering an attractive, unified buy signal."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "The core 3.84/7.68/15.36TB band remains the most stable in the whole sheet and 30.72TB still has a public, repeatable distribution band despite low-channel outliers."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "1.92TB and some lower-capacity PM1743 public prices remain usable, but 30.72TB now clearly requires family-by-family and channel-by-channel buying rather than a single market quote."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "The category gained broader public confirmation outside CDW, but the direction is mixed by capacity: 15.36TB eased, 30.72TB rose, 61.44TB stayed high-side, and 122.88TB remained in the low-$40k cluster."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Today again showed a persistent low cluster (A-Tech / Newegg) and a persistent high cluster (Provantage / CDW), so the slot still cannot support a single trustworthy representative value."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "Multi-source checks still did not recover a clean enterprise single-stick public price today."
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "The slot remains dependent on older or quote-first clues; today did not recover a fresh clean public quote."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "The previously preferred lower-band anchor did not repeat cleanly today; the new low-side AAAWave signal is too isolated and conflicts sharply with same-day premium Micron public prices."
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": 11133,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 52651,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": 19168,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": 113896,
+    "PCIe5 TLC 3.84TB": 18265,
+    "PCIe5 TLC 7.68TB": 27817,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": 68269,
+    "PCIe4 QLC 15.36TB": 41982,
+    "PCIe4 QLC 30.72TB": 83963,
+    "PCIe4 QLC 61.44TB": 199324,
+    "PCIe4 QLC 122.88TB": 332925
+  },
+  "validationNotes": [
+    "Provantage still works well for direct DDR5 HTML price extraction, but only for some exact parts; the 6400 32GB slot lost the easy exact public anchor today.",
+    "Memory.net is important as a coverage source, but today it stayed firmly in spec_or_rfq rather than public-price territory.",
+    "CDW continues to oscillate between real public pricing and product_price=0 pages; zero-price pages were treated as coverage deterioration rather than market repricing.",
+    "AAAWave is a real public source for KCMYXRUG30T7 today, but its 30.72TB price is too isolated versus the same-day premium family band to overwrite the representative value alone.",
+    "Mouser and Connection materially improved QLC breadth today, especially for 15.36/30.72/61.44TB, even though direct page access and stock posture remain inconsistent."
+  ]
+}

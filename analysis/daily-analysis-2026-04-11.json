@@ -1,0 +1,167 @@
+{
+  "date": "2026-04-11",
+  "generatedAt": "2026-04-11T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 2, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 5, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "attemptedSources": [
+    "Provantage",
+    "ComputerDealsDirect",
+    "Walmart",
+    "Memory4Less",
+    "Newegg",
+    "CDW",
+    "ServerSupply",
+    "DiscTech",
+    "Zones",
+    "SHI",
+    "SabrePC",
+    "Hyperscalers",
+    "AAAWave",
+    "Wiredzone",
+    "A5 IT",
+    "Connection",
+    "Avanti"
+  ],
+  "newSourcesTried": ["AAAWave", "Avanti", "Zones", "SabrePC"],
+  "newSourcesWithUsefulData": ["AAAWave", "Avanti", "Zones"],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "publicPriceSources": ["Provantage", "ComputerDealsDirect"],
+      "specOrRFQSources": ["Memory4Less"],
+      "parserGapSources": ["Newegg"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Walmart"]
+    },
+    "DDR5-5600": {
+      "publicPriceSources": ["Provantage", "CDW", "ServerSupply", "Newegg"],
+      "specOrRFQSources": [],
+      "parserGapSources": ["ServerSupply direct", "Newegg direct"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Newegg lower-band marketplace cluster"]
+    },
+    "PCIe4 TLC": {
+      "publicPriceSources": ["DiscTech", "CDW", "Zones", "SHI"],
+      "specOrRFQSources": ["SabrePC"],
+      "parserGapSources": ["Zones direct page", "SHI direct landing"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["SHI 30.72TB high-side distribution quote"]
+    },
+    "PCIe5 TLC": {
+      "publicPriceSources": ["Hyperscalers", "AAAWave", "Wiredzone", "A5 IT", "ServerSupply"],
+      "specOrRFQSources": ["CDW", "Provantage"],
+      "parserGapSources": ["Wiredzone partial token/view drift"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Hyperscalers 7.68TB $2.27 bug", "AAAWave 30.72TB low-side cluster"]
+    },
+    "PCIe4 QLC": {
+      "publicPriceSources": ["CDW", "Newegg", "ServerSupply", "Connection", "Avanti"],
+      "specOrRFQSources": [],
+      "parserGapSources": ["ServerSupply direct", "Connection direct"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["Avanti 61.44TB low-side cluster"]
+    }
+  },
+  "historyReview": {
+    "window": "2026-03-29..2026-04-10",
+    "notes": [
+      "近 7-14 天最核心的问题仍是 DDR5-5600 32GB 的结构性分裂，以及 PCIe5 30.72TB 低带锚点不稳定。",
+      "PCIe4 TLC 30.72TB 已连续多天摆脱历史 NA，但仍需防止被单一高价分销样本带偏。",
+      "PCIe4 QLC 61.44TB 在 4/10 跌回 NA，今天优先验证是否能被多源高侧公共价重新恢复。",
+      "昨天之前 PCIe5 1.92TB 仍是长期空位，今天重点补这条缺口。"
+    ]
+  },
+  "keyChangesVsYesterday": [
+    "PCIe5 TLC 1.92TB 今天拿到 Hyperscalers 公开 RRP $750.50，覆盖率从 4/5 升到 5/5。",
+    "PCIe5 TLC 30.72TB 的低带恶化：Provantage 昨日锚点今天不再可见，新的 AAAWave $4,198 与 Wiredzone $16,819 / A5 IT $14,613.11 / ServerSupply $19,790 严重冲突。",
+    "PCIe4 QLC 61.44TB 从 NA 恢复：CDW $24,465.99 + ServerSupply $29,500 + Newegg $29,995 + Connection $20,504.26 形成可用高侧公共带。",
+    "DDR5-6400 32GB 通过 Provantage 直抓小幅上修到约 ¥11.1k。",
+    "DDR5-5600 128GB 主带仍在，但 CDW 128GB 页面退回 product_price=0，公开覆盖变差。"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB 仍稳，32GB 小涨，128GB 继续停在高位带；适合分批锁量，不适合一次性重仓。"
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB 继续高低双层撕裂，64GB/128GB 虽可见但并不便宜，且公开覆盖仍在收缩。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "1.92/3.84/7.68/15.36TB 继续稳定，30.72TB 也被 Zones/CDW/SHI 再次复核；这是当前最可执行的一条采购线。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "1.92TB 恢复可见是积极信号，但 30.72TB 的低带锚点今天明显恶化，必须按容量和产品家族拆单。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB 恢复主值是质量改善，但低价簇与高侧公共带仍明显分层，适合拆量执行。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "今天依旧存在 Newegg 低带与 Provantage/CDW/ServerSupply 高带的双层结构，不能强写主值。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今天多源调研仍未拿到 clean 企业级单条公开价。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "今天没有恢复到可直接纳入主轨的 clean public sample。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "近几天更多是旧 clue / quote-first 影子，今天仍无新 clean public quote。"
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": 11133,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 52651,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": 19168,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": 113896,
+    "PCIe5 TLC 3.84TB": 18265,
+    "PCIe5 TLC 7.68TB": 27817,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": 68269,
+    "PCIe4 QLC 15.36TB": 45675,
+    "PCIe4 QLC 30.72TB": 71601,
+    "PCIe4 QLC 61.44TB": 199055,
+    "PCIe4 QLC 122.88TB": 332925
+  },
+  "validationNotes": [
+    "Provantage 今天仍可通过原始 HTML 直抓 DDR5 精确价；适合做 DDR5 主锚点校验。",
+    "CDW 今天对 DDR5-5600 128GB 与部分 PCIe5/QLC 页面出现 product_price=0，必须视为公开覆盖收缩，不是价格归零。",
+    "Hyperscalers 1.92/3.84/15.36TB 仍有公开 RRP，但 7.68TB 继续保留 $2.27 bug，因此该站只能作 mixed source。",
+    "AAAWave 30.72TB Kioxia 低价与 Wiredzone/A5 IT/ServerSupply 同日高带差距过大，今天不能直接覆写 30.72TB 代表值。",
+    "PCIe4 QLC 61.44TB 今天可以恢复主值，但恢复的是高侧公共带，不是低价簇迁移。"
+  ]
+}
