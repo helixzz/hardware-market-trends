@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-15",
+  "generatedAt": "2026-04-15T12:53:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["ShopBLT", "Micro Center", "Insight", "SabrePC", "PCNation"],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "按 2026-04-13 作为最近有效对比日：各类别覆盖率整体维持不变",
+    "PCIe5 TLC 30.72TB 继续无法从 stale_repeated_sample 状态恢复，tracking 主值维持 NA",
+    "DDR5-6400 与 DDR5-5600 的补样没有进一步推进，但也未明显恶化",
+    "PCIe4 TLC 与 PCIe4 QLC 主轨价格继续稳定，无新的 clean repricing"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB/128GB 仍有稳定主带，96GB 保持可见，但 32GB 缺 fresh exact anchor，不适合一次性重仓"
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB 长期处于 outlier_only，64GB/128GB 虽有价但不便宜，96GB 仍偏单源"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "覆盖最完整、价格最稳、代表值连续多日未失真，是当前最可执行采购线"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB 旧低带锚点持续失真，仅剩分裂样本，不适合常规稳定采购，只建议刚需单"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "主流高带继续成立，但高容量位低簇噪声仍大，适合分批而非一次性押注极低价"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源补查后仍无 clean enterprise single-stick public quote"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源补查后仍无 clean enterprise single-stick public quote"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "A-Tech/Newegg 低带与 Provantage/CDW 高带继续并存，无法写入单一代表值"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "旧 Kioxia 低带锚点连续失真，今天仍只有 sold-out 低簇与 Micron 高带并存"
+    }
+  ]
+}
