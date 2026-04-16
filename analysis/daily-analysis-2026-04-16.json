@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-16",
+  "generatedAt": "2026-04-16T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "historyReview": {
+    "window": "2026-04-02..2026-04-15",
+    "notes": [
+      "DDR5-6400 spent the last 7-14 days anchored by stable 64GB and 128GB values, while 32GB remained weak on exact public anchors and 16GB stayed absent.",
+      "DDR5-5600 remained structurally split at 32GB across low retail and high distributor bands; this is a persistent outlier_only problem, not a no_public_sample problem.",
+      "PCIe4 TLC has been the steadiest category over the last 7-14 days, with the main task being validation rather than repricing discovery.",
+      "PCIe5 TLC nominal coverage stayed decent, but the important underlying issue remains 30.72TB anchor decay: the old lower-band signal has not returned cleanly since 2026-04-13.",
+      "PCIe4 QLC stayed fully covered, but high-capacity low clusters remained noisy; stable premium public bands still exist for 61.44TB and 122.88TB."
+    ]
+  },
+  "attemptedSources": [
+    "Provantage",
+    "Tech-America",
+    "Newegg",
+    "ComputerDealsDirect",
+    "Saitech",
+    "ShopBLT",
+    "ServerSupply",
+    "Wiredzone",
+    "A-Tech Memory",
+    "CDW",
+    "Memory.net",
+    "Micro Center",
+    "DiscTech",
+    "SHI",
+    "SabrePC",
+    "Hyperscalers",
+    "AAAWave",
+    "A5 IT",
+    "Insight",
+    "Connection",
+    "DirectMacro",
+    "Mouser",
+    "PCNation"
+  ],
+  "newSourcesTried": [
+    "CDW Kingston 32GB DDR5-5600 page",
+    "Mouser P5336 series page"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW Kingston 32GB DDR5-5600 page"
+  ],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "publicPriceSources": ["Provantage", "Tech-America", "Newegg", "ComputerDealsDirect"],
+      "specOrRFQSources": ["Saitech", "Wiredzone"],
+      "parserGapSources": ["ShopBLT"],
+      "noDirectSampleSources": ["16GB exact comparable part still not recovered"],
+      "outlierOnlySources": []
+    },
+    "DDR5-5600": {
+      "publicPriceSources": ["A-Tech Memory", "Provantage", "CDW", "Newegg", "Saitech", "ServerSupply"],
+      "specOrRFQSources": ["Memory.net"],
+      "parserGapSources": ["ShopBLT", "Micro Center"],
+      "noDirectSampleSources": ["16GB exact comparable part still not recovered"],
+      "outlierOnlySources": ["A-Tech/Newegg/CDW Kingston low cluster vs Provantage/CDW Micron high cluster for 32GB"]
+    },
+    "PCIe4 TLC": {
+      "publicPriceSources": ["DiscTech", "CDW", "SHI"],
+      "specOrRFQSources": ["SabrePC"],
+      "parserGapSources": [],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": []
+    },
+    "PCIe5 TLC": {
+      "publicPriceSources": ["Hyperscalers", "CDW", "AAAWave", "Newegg", "A5 IT", "Tech-America", "SHI"],
+      "specOrRFQSources": ["Wiredzone", "Insight"],
+      "parserGapSources": ["ShopBLT", "Hyperscalers 7.68TB bug page"],
+      "noDirectSampleSources": ["Provantage KCMYXRUG30T7 exact public tile still missing"],
+      "outlierOnlySources": ["AAAWave 30.72TB sold-out low cluster"]
+    },
+    "PCIe4 QLC": {
+      "publicPriceSources": ["Newegg", "Connection", "CDW", "DirectMacro"],
+      "specOrRFQSources": ["Wiredzone"],
+      "parserGapSources": ["Mouser", "PCNation"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["DirectMacro 122.88TB low cluster"]
+    }
+  },
+  "keyChangesVsYesterday": [
+    "DDR5-5600 32GB gained another low-side public sample: CDW now shows Kingston KTL-TS556D8-32G at $895.99, reinforcing that the slot is still outlier_only rather than no_public_sample.",
+    "No tracked representative value changed versus 2026-04-15; the current market state is stability in main bands plus persistent structural splits in DDR5-5600 32GB and PCIe5 TLC 30.72TB.",
+    "Mouser remained inaccessible for high-capacity Solidigm P5336 checks, so this source continues to strengthen parser_gap classification rather than adding pricing evidence."
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB and 128GB remain stable, 96GB is still visible after the 2026-04-13 recovery, but 32GB still lacks a clean exact anchor and 16GB remains absent."
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB remains structurally split across low retail and high distributor bands, and the new CDW Kingston low-side sample reinforces fragmentation rather than convergence."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "This remains the most stable and fully covered category, with no evidence of band breakdown or stale representative values."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "Lower capacities remain observable, but 30.72TB still lacks a trustworthy single representative band because the old lower anchor remains stale while reproducible Micron high-band quotes persist."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Main premium public bands remain stable, but high-capacity low clusters are still too noisy to justify a one-shot bottom-call."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Today's multi-source checks still did not recover a clean enterprise single-stick public quote."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Today's multi-source checks still did not recover a clean enterprise single-stick public quote."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "A-Tech, Newegg, and CDW Kingston form a low cluster near $896-$990, while Provantage/CDW Micron remain in a much higher distributor band."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "The previously preferred lower-band anchor still did not repeat cleanly; current evidence remains split between a sold-out low cluster and reproducible Micron high-band quotes."
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": 11133,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 52651,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": 19168,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": 113896,
+    "PCIe5 TLC 3.84TB": 18265,
+    "PCIe5 TLC 7.68TB": 27817,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": null,
+    "PCIe4 QLC 15.36TB": 41982,
+    "PCIe4 QLC 30.72TB": 83963,
+    "PCIe4 QLC 61.44TB": 199324,
+    "PCIe4 QLC 122.88TB": 332925
+  },
+  "validationNotes": [
+    "CDW Kingston 32GB DDR5-5600 is useful not because it solves the category, but because it further proves the 32GB slot is structurally split.",
+    "Mouser remains a parser/access problem for QLC supplementation, so repeated failures there should not be misread as no_public_sample.",
+    "No script output was used as a substitute for research judgement; representative values were kept unchanged because no new clean evidence justified a rewrite."
+  ]
+}
