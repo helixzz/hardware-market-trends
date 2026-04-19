@@ -1,6 +1,6 @@
 {
   "date": "2026-04-19",
-  "generatedAt": "2026-04-19T00:10:00+08:00",
+  "generatedAt": "2026-04-19T09:00:00+08:00",
   "coverage": {
     "DDR5-6400": {"filled": 4, "total": 5},
     "DDR5-5600": {"filled": 3, "total": 5},
@@ -8,93 +8,13 @@
     "PCIe5 TLC": {"filled": 4, "total": 5},
     "PCIe4 QLC": {"filled": 4, "total": 4}
   },
-  "historyReview": {
-    "window": "2026-04-05..2026-04-17",
-    "notes": [
-      "DDR5-6400 stayed anchored by 32GB/64GB/128GB tracked values across the review window, with 96GB repaired but still not central to tracking and 16GB still absent.",
-      "DDR5-5600 remained structurally split at 32GB for the full review window; this is persistently outlier_only rather than no_public_sample.",
-      "PCIe4 TLC remained the steadiest and most executable category over the last 7-14 days, with public distribution coverage holding after the 30.72TB recovery.",
-      "PCIe5 TLC kept decent nominal coverage, but the key unresolved problem remains 30.72TB anchor decay: the old lower-band reference has not returned cleanly since 2026-04-13.",
-      "PCIe4 QLC stayed fully covered, but supplementation still depends partly on classifying Mouser, PCNation and Wiredzone correctly as parser-gap or RFQ sources instead of treating them as true no-price evidence."
-    ]
-  },
-  "attemptedSources": [
-    "Provantage",
-    "Tech-America",
-    "Newegg",
-    "ComputerDealsDirect",
-    "Saitech",
-    "ShopBLT",
-    "ServerSupply",
-    "Wiredzone",
-    "A-Tech Memory",
-    "CDW",
-    "Memory.net",
-    "Micro Center",
-    "DiscTech",
-    "SHI",
-    "SabrePC",
-    "Connection",
-    "Hyperscalers",
-    "AAAWave",
-    "A5 IT",
-    "Insight",
-    "Howard Computers",
-    "DirectMacro",
-    "Mouser",
-    "PCNation"
-  ],
-  "newSourcesTried": [
-    "Mouser P5336 122.88TB search-side price recap",
-    "Howard Computers PCIe5 30.72TB high-band corroboration",
-    "Micro Center and ShopBLT parser-gap recheck"
-  ],
-  "newSourcesWithUsefulData": [
-    "Mouser P5336 122.88TB search-side price recap",
-    "Howard Computers PCIe5 30.72TB high-band corroboration"
-  ],
-  "sourceAttemptSummary": {
-    "DDR5-6400": {
-      "publicPriceSources": ["Provantage", "Tech-America", "Newegg", "ComputerDealsDirect"],
-      "specOrRFQSources": ["Saitech", "Wiredzone"],
-      "parserGapSources": ["ShopBLT"],
-      "noDirectSampleSources": ["16GB exact comparable part still not recovered"],
-      "outlierOnlySources": []
-    },
-    "DDR5-5600": {
-      "publicPriceSources": ["A-Tech Memory", "Provantage", "CDW", "Newegg", "Saitech", "ServerSupply"],
-      "specOrRFQSources": ["Memory.net"],
-      "parserGapSources": ["ShopBLT", "Micro Center"],
-      "noDirectSampleSources": ["16GB exact comparable part still not recovered"],
-      "outlierOnlySources": ["A-Tech/Newegg/CDW Kingston low cluster vs Provantage/CDW Micron high cluster for 32GB"]
-    },
-    "PCIe4 TLC": {
-      "publicPriceSources": ["DiscTech", "CDW", "SHI"],
-      "specOrRFQSources": ["SabrePC", "Connection"],
-      "parserGapSources": [],
-      "noDirectSampleSources": [],
-      "outlierOnlySources": []
-    },
-    "PCIe5 TLC": {
-      "publicPriceSources": ["Hyperscalers", "CDW", "AAAWave", "Newegg", "A5 IT", "Tech-America", "SHI", "Howard Computers"],
-      "specOrRFQSources": ["Wiredzone", "Insight"],
-      "parserGapSources": ["ShopBLT", "Hyperscalers 7.68TB bug page"],
-      "noDirectSampleSources": ["Provantage Kioxia 30.72TB lower-band exact public tile still missing"],
-      "outlierOnlySources": ["AAAWave 30.72TB sold-out low cluster"]
-    },
-    "PCIe4 QLC": {
-      "publicPriceSources": ["Newegg", "Connection", "CDW", "DirectMacro"],
-      "specOrRFQSources": ["Wiredzone"],
-      "parserGapSources": ["Mouser", "PCNation"],
-      "noDirectSampleSources": [],
-      "outlierOnlySources": ["DirectMacro 122.88TB low cluster"]
-    }
-  },
+  "newSourcesTried": ["ShopBLT", "Micro Center", "Memory.net", "Wiredzone", "Connection"],
+  "newSourcesWithUsefulData": [],
   "keyChangesVsYesterday": [
-    "No tracked representative value changed versus 2026-04-17; the market still looks like stable main bands plus unresolved structural splits.",
-    "DDR5-5600 32GB was rechecked and remains clearly outlier_only rather than no_public_sample: low retail pages and high distributor pages both remain visible.",
-    "PCIe5 TLC 30.72TB still failed to recover the older lower-band anchor cleanly, so stale_repeated_sample remains the right explanation.",
-    "Mouser search-side evidence again suggests a visible QLC price exists, but direct extraction remains unreliable, so parser_gap is still the correct classification rather than no public market pricing."
+    "没有任何 tracking 主值被新证据推翻，4/17 的主轨判断继续成立",
+    "DDR5-5600 32GB 再次被补样确认属于 outlier_only，而不是 no_public_sample",
+    "PCIe5 TLC 30.72TB 继续维持 stale_repeated_sample，Provantage 旧低位锚点仍未恢复",
+    "Mouser、PCNation、Wiredzone、Memory.net 的缺口进一步被确认主要来自 parser_gap / RFQ，而非市场无公开价"
   ],
   "trendJudgement": {
     "DDR5-6400": "flat",
@@ -106,23 +26,23 @@
   "procurementView": {
     "DDR5-6400": {
       "recommendation": "split_buy",
-      "reason": "64GB and 128GB remain stable, but 32GB still lacks a stronger clean exact public anchor and 16GB is still absent."
+      "reason": "64GB/128GB 主带稳定，96GB 可见但不够宽，32GB 仍缺更强 clean exact anchor。"
     },
     "DDR5-5600": {
       "recommendation": "wait",
-      "reason": "32GB remains structurally split across low retail and high distributor bands, while 64GB and 128GB remain visible but are not at attractive low levels."
+      "reason": "32GB 持续分层撕裂，64GB/128GB 并不便宜，96GB 仍偏单源。"
     },
     "PCIe4 TLC": {
       "recommendation": "buy_now",
-      "reason": "This remains the most stable and fully covered category, with repeatable public distribution bands and no new sign of anchor decay."
+      "reason": "五类中覆盖最完整、代表值最稳定、近 7-14 天失真最少。"
     },
     "PCIe5 TLC": {
       "recommendation": "urgent_only",
-      "reason": "Lower capacities remain observable, but 30.72TB still lacks a trustworthy single representative public band because the old lower anchor remains stale while reproducible Micron high-band quotes persist."
+      "reason": "30.72TB 旧低位锚点持续失真，现有样本分裂为 sold-out 低簇与可复核 Micron 高簇。"
     },
     "PCIe4 QLC": {
       "recommendation": "split_buy",
-      "reason": "Main premium public bands remain usable, but high-capacity low clusters are still too noisy to justify a one-shot bottom-call."
+      "reason": "主流高价带仍成立，但高容量位低簇噪声持续存在，不适合一次性押底价。"
     }
   },
   "gaps": [
@@ -130,51 +50,31 @@
       "category": "DDR5-6400",
       "spec": "16GB",
       "reasonCode": "no_public_sample",
-      "note": "Today's multi-source checks still did not recover a clean enterprise single-stick public quote."
+      "note": "多源补查后仍未找到 clean enterprise RDIMM 单条公开价。"
     },
     {
       "category": "DDR5-5600",
       "spec": "16GB",
       "reasonCode": "no_public_sample",
-      "note": "Today's multi-source checks still did not recover a clean enterprise single-stick public quote."
+      "note": "多源补查后仍未找到 clean enterprise RDIMM 单条公开价。"
     },
     {
       "category": "DDR5-5600",
       "spec": "32GB",
       "reasonCode": "outlier_only",
-      "note": "Low-side public pages remain far below the higher distributor band, so the slot still cannot support a single representative tracking value."
+      "note": "低零售带与高分销带继续并存，无法稳定落单一主值。"
     },
     {
       "category": "PCIe5 TLC",
       "spec": "30.72TB",
       "reasonCode": "stale_repeated_sample",
-      "note": "The previously preferred lower-band anchor still did not repeat cleanly; current evidence remains split between a sold-out low cluster and reproducible Micron high-band quotes."
+      "note": "Provantage 旧低位锚点仍不可复现，AAAWave 低价为 sold-out 低簇，Micron 高价带继续可复核。"
     },
     {
       "category": "PCIe4 QLC",
-      "spec": "122.88TB supplemental Mouser path",
+      "spec": "61.44TB/122.88TB Mouser",
       "reasonCode": "parser_gap",
-      "note": "Search-side pricing remains visible, but the direct page still is not reliably extractable in today's workflow, so this stays a parser problem rather than a no-price problem."
+      "note": "搜索侧能证明价格存在，但站内直取仍不稳定，不能当 clean primary sample。"
     }
-  ],
-  "trackingValues": {
-    "DDR5-6400 32GB": 11133,
-    "DDR5-6400 64GB": 18608,
-    "DDR5-6400 128GB": 52651,
-    "DDR5-5600 32GB": null,
-    "DDR5-5600 64GB": 19168,
-    "DDR5-5600 128GB": 46600,
-    "PCIe4 TLC 3.84TB": 18705,
-    "PCIe4 TLC 7.68TB": 18094,
-    "PCIe4 TLC 15.36TB": 43739,
-    "PCIe4 TLC 30.72TB": 113896,
-    "PCIe5 TLC 3.84TB": 18265,
-    "PCIe5 TLC 7.68TB": 27817,
-    "PCIe5 TLC 15.36TB": 54292,
-    "PCIe5 TLC 30.72TB": null,
-    "PCIe4 QLC 15.36TB": 41982,
-    "PCIe4 QLC 30.72TB": 83963,
-    "PCIe4 QLC 61.44TB": 199324,
-    "PCIe4 QLC 122.88TB": 332925
-  }
+  ]
 }
