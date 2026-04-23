@@ -1,0 +1,185 @@
+{
+  "date": "2026-04-23",
+  "generatedAt": "2026-04-23T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "historyReview": {
+    "window": "2026-04-09..2026-04-22",
+    "notes": [
+      "DDR5-6400 remained anchored by 64GB and 128GB over the last 7-14 days, with 96GB repaired but 32GB still lacking a stronger fresh exact public anchor.",
+      "DDR5-5600 stayed structurally split at 32GB across low-retail and high-distributor bands; this is still outlier_only rather than no_public_sample.",
+      "PCIe4 TLC remained the cleanest and most executable category, with the 30.72TB public band holding after its earlier recovery.",
+      "PCIe5 TLC nominal coverage remained acceptable, but 30.72TB still failed to recover the older lower-band anchor cleanly and continues to show stale/family split behaviour.",
+      "PCIe4 QLC stayed fully covered, while supplementation for high-capacity slots still leaned on parser-gap and anti-bot classification at Mouser, PCNation, and some Newegg direct pages."
+    ]
+  },
+  "attemptedSources": [
+    "Provantage",
+    "CDW",
+    "Tech-America",
+    "Newegg",
+    "ComputerDealsDirect",
+    "Saitech",
+    "ShopBLT",
+    "ServerSupply",
+    "Wiredzone",
+    "Exxact",
+    "A-Tech Memory",
+    "Memory.net",
+    "Micro Center",
+    "Connection",
+    "OEMPCWorld",
+    "DiscTech",
+    "SHI",
+    "SabrePC",
+    "B&H",
+    "Hyperscalers",
+    "AAAWave",
+    "A5 IT",
+    "Insight",
+    "Howard Computers",
+    "CTSPoint",
+    "DirectMacro",
+    "Mouser",
+    "PCNation"
+  ],
+  "newSourcesTried": [
+    "ComputerDealsDirect 128GB old direct link recheck",
+    "AAAWave 30.72TB old direct link recheck",
+    "PCNation P5336 direct link recheck"
+  ],
+  "newSourcesWithUsefulData": [
+    "ComputerDealsDirect 128GB old direct link recheck",
+    "AAAWave 30.72TB old direct link recheck",
+    "PCNation P5336 direct link recheck"
+  ],
+  "sourceAttemptSummary": {
+    "DDR5-6400": {
+      "publicPriceSources": ["Provantage", "Tech-America", "Newegg"],
+      "specOrRFQSources": ["Saitech", "Wiredzone", "Exxact"],
+      "parserGapSources": ["ShopBLT"],
+      "noDirectSampleSources": ["16GB exact comparable part still not recovered"],
+      "outlierOnlySources": []
+    },
+    "DDR5-5600": {
+      "publicPriceSources": ["A-Tech Memory", "Provantage", "CDW", "Newegg", "Saitech", "ServerSupply", "Connection"],
+      "specOrRFQSources": ["Memory.net", "Exxact"],
+      "parserGapSources": ["ShopBLT", "Micro Center", "Newegg direct anti-bot page"],
+      "noDirectSampleSources": ["16GB exact comparable part still not recovered"],
+      "outlierOnlySources": ["A-Tech/Newegg/CDW Kingston low cluster vs Provantage/CDW/Connection high cluster for 32GB"]
+    },
+    "PCIe4 TLC": {
+      "publicPriceSources": ["DiscTech", "CDW", "SHI"],
+      "specOrRFQSources": ["SabrePC", "Connection", "B&H"],
+      "parserGapSources": [],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": []
+    },
+    "PCIe5 TLC": {
+      "publicPriceSources": ["Hyperscalers", "CDW", "Tech-America", "Howard Computers"],
+      "specOrRFQSources": ["Wiredzone", "Insight", "Exxact", "CTSPoint"],
+      "parserGapSources": ["ShopBLT", "Newegg anti-bot page", "Hyperscalers bug page"],
+      "noDirectSampleSources": ["Provantage/SHI lower-band exact 30.72TB public anchor still missing"],
+      "outlierOnlySources": ["historical AAAWave sold-out low cluster for 30.72TB"]
+    },
+    "PCIe4 QLC": {
+      "publicPriceSources": ["Connection", "CDW", "DirectMacro"],
+      "specOrRFQSources": ["Wiredzone", "B&H"],
+      "parserGapSources": ["Mouser", "PCNation", "Newegg anti-bot page"],
+      "noDirectSampleSources": [],
+      "outlierOnlySources": ["DirectMacro 122.88TB low cluster"]
+    }
+  },
+  "keyChangesVsYesterday": [
+    "No tracked representative value changed versus 2026-04-22; the market still looks like stable main bands plus unresolved structural splits.",
+    "ComputerDealsDirect's old DDR5-6400 128GB direct page now returns 404, which weakens that legacy supplementation path without yet invalidating the tracked representative value.",
+    "AAAWave's old PCIe5 TLC 30.72TB direct page now returns 404 and A5 IT search no longer gives a cleaner replacement anchor, so the slot remains stale_repeated_sample rather than recovering.",
+    "Mouser again returned denied content and PCNation again returned Cloudflare gating, which further confirms parser_gap for PCIe4 QLC high-capacity supplementation rather than true no-public-sample absence."
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB and 128GB remain stable, 96GB remains visible after the repair, but 32GB still lacks a stronger clean exact anchor and 16GB is still absent."
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB remains structurally split across low retail and high distributor bands, while 64GB and 128GB remain visible but not at attractive low levels."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "This remains the most stable and fully covered category, with repeatable public distribution bands and no new sign of anchor decay."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "Lower capacities remain observable, but 30.72TB still lacks a trustworthy single representative public band because the old lower anchor remains stale while cleaner replacements did not materialize today."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Main premium public bands remain usable, but high-capacity low clusters and parser-gated supplementation remain too noisy to justify a one-shot bottom-call."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Today's multi-source checks still did not recover a clean enterprise single-stick public quote."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Today's multi-source checks still did not recover a clean enterprise single-stick public quote."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Low-side public pages remain far below the higher distributor band, and today's checks still did not produce a unified representative public band."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "The previously preferred lower-band anchor still did not repeat cleanly; today even legacy supplementation pages degraded further instead of recovering."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB/122.88TB Mouser+PCNation supplementation",
+      "reasonCode": "parser_gap",
+      "note": "The pages again returned denied or Cloudflare-gated content, confirming access/parser failure rather than true absence of public market pricing."
+    }
+  ],
+  "trackingValues": {
+    "DDR5-6400 32GB": 11133,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 52651,
+    "DDR5-5600 32GB": null,
+    "DDR5-5600 64GB": 19168,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 18094,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": 113896,
+    "PCIe5 TLC 3.84TB": 18265,
+    "PCIe5 TLC 7.68TB": 27817,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": null,
+    "PCIe4 QLC 15.36TB": 41982,
+    "PCIe4 QLC 30.72TB": 83963,
+    "PCIe4 QLC 61.44TB": 199324,
+    "PCIe4 QLC 122.88TB": 332925
+  }
+}
