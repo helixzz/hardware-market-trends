@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-24T09:00:00+08:00",
+  "generatedAt": "2026-04-25T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 34,
+  "trackingRows": 35,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-04-24",
+      "latestDate": "2026-04-25",
       "latestCoverage": {
         "filled": 3,
         "total": 3
@@ -54,7 +54,7 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-04-24",
+      "latestDate": "2026-04-25",
       "latestCoverage": {
         "filled": 2,
         "total": 3
@@ -104,7 +104,7 @@
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-04-24",
+      "latestDate": "2026-04-25",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -163,7 +163,7 @@
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-04-24",
+      "latestDate": "2026-04-25",
       "latestCoverage": {
         "filled": 3,
         "total": 4
@@ -224,7 +224,7 @@
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-04-24",
+      "latestDate": "2026-04-25",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -318,6 +318,15 @@
       "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; new checks mostly clarified parser-gap/spec-only boundaries rather than adding a cleaner replacement anchor)",
       "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)",
       "source-clarification: today's useful new evidence came mainly from Tech-America, Memory.net, Insight, and Connection access-structure classification rather than fresh representative repricing"
+    ],
+    "2026-04-25": [
+      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on persistent gap labels, stale-vs-parser-gap explanations, and source concentration)",
+      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
+      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 96GB still narrow and 64/128 remain visible but not cheap)",
+      "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
+      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; SHI high-band/public-search evidence and RFQ/spec-only sources only improved classification, not repricing)",
+      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)",
+      "source-clarification: today's useful new evidence came mainly from SHI 30.72TB and Memory.net DDR5 RFQ rechecks rather than fresh representative repricing"
     ]
   }
 }
