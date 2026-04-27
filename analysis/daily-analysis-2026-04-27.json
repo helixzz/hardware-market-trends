@@ -1,0 +1,90 @@
+{
+  "date": "2026-04-27",
+  "generatedAt": "2026-04-27T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Provantage",
+    "CDW",
+    "Mouser",
+    "Wiredzone",
+    "Tech-America",
+    "SHI",
+    "Connection",
+    "Memory.net",
+    "ShopBLT",
+    "Exxact"
+  ],
+  "newSourcesWithUsefulData": [
+    "Provantage",
+    "Wiredzone"
+  ],
+  "keyChangesVsYesterday": [
+    "所有 tracking 主值未变化，今日没有出现足以改写主轨的 clean repricing",
+    "PCIe5 TLC 30.72TB 的 Provantage 低位锚今日直接 no-result，Wiredzone 公开价转向高位 $16,746，继续支持 stale_repeated_sample",
+    "Mouser P5336 系列页今日再次返回 Access Denied，继续归类为 parser_gap 而不是 no_public_sample"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB/128GB 主带稳定，但 32GB clean anchor 偏弱、16GB 无公开样本，适合按项目节奏分批执行"
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB 持续 low-retail/high-distributor 双层撕裂，64GB/128GB 虽可见但不处于明显低位"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "覆盖最完整、代表价最稳定、近 7-14 天失真最少，仍是当前最适合常规采购的一类"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB clean lower-band anchor 继续缺失，旧低位锚衰退且高位 Micron 带仍在，不适合作常规重仓采购线"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "主带仍成立，但高容量位长期伴随低簇噪声与 parser-gated 补源位，适合分批执行"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多日补源后仍无可用公开报价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多日补源后仍无可用公开报价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "低零售簇与高分销簇长期并存，无法收敛为单一代表价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "旧 lower-band 锚点未恢复；今日 Provantage no-result，Wiredzone 仅给出更高公开价"
+    }
+  ],
+  "limitations": [
+    "raw/2026-04-22..2026-04-26/quotes.json 当前不存在，最近 raw quotes 复核只能完成到 2026-04-13；4/22-4/26 段改用 daily + tracking-table + history summary 交叉复核"
+  ]
+}
