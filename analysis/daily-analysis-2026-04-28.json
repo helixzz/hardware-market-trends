@@ -1,0 +1,146 @@
+{
+  "date": "2026-04-28",
+  "generatedAt": "2026-04-28T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 5, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "TrendForce",
+    "TweakTown",
+    "ADATA Industrial MarketWatch",
+    "Tom's Hardware DDR5 Price Index",
+    "Astute Group",
+    "BuySellRAM",
+    "CoreWaveLabs direct page",
+    "DiscTech direct page",
+    "Server Part Deals",
+    "Wiredzone KCMYXRUG30T7 (recheck)",
+    "Memory.net (blocked 403)",
+    "TechAtlantix QLC cross-check"
+  ],
+  "newSourcesWithUsefulData": [
+    "TrendForce (NAND Q2 +70-75% QoQ forecast)",
+    "TweakTown (DRAM +63%, NAND +75% QoQ)",
+    "ADATA Industrial MarketWatch (NAND demand bottleneck confirmed)",
+    "Tom's Hardware (DDR5 multi-source validation)",
+    "Astute Group (Samsung NAND +100% Q1 detail)",
+    "DiscTech direct (7.68TB $3,295, 15.36TB $9,542 — tracking deviation discovered)",
+    "Server Part Deals (7.68TB Out of Stock confirming supply tightness)"
+  ],
+  "keyChangesVsYesterday": [
+    "MACRO BREAKTHROUGH: Q2 NAND forecast +70-75% QoQ confirmed by TrendForce/TweakTown/ADATA (triple-sourced); DRAM +30-50% quarterly sustained",
+    "PCIe4 TLC tracking vs live market deviation discovered: DiscTech 7.68TB $3,295 vs tracking ¥18,094 (48% gap), 15.36TB $9,542 vs tracking ¥43,739 (77% gap)",
+    "PCIe5 TLC 30.72TB observability degraded further: Wiredzone from $16,746 yesterday to Email For Price today",
+    "Memory.net now 403 blocked (was accessible for spec/RFQ before)",
+    "Procurement urgency upgraded across all SSD categories driven by NAND super-cycle confirmation",
+    "All tracking values formally unchanged but this is explicitly flagged as potential tracking lag, not market stability"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat",
+    "DDR5-5600": "volatility_expand",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "64GB/128GB 主带稳定可执行；DRAM 缺口至 2027Q4，季度 +30-50%，提前锁定长单可能优于等待。32GB clean anchor 偏弱，16GB 无公开样本",
+      "risk": "上行压力积蓄中，当前 'flat' 表象下市场实际在收紧"
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "32GB low-retail/high-distributor 双层撕裂未收敛，Newegg $750-$1,500 广谱持续；64/128GB 不处于明显低位；如需执行优先用 6400 替代",
+      "risk": "结构性分裂，强行采购可能踩在高位站岗"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "覆盖最完整、品类最干净，但 NAND Q2 +70-75% QoQ 超级周期意味着当前窗口期可能很短。⚠️ tracking 值可能已滞后——采购以实时渠道报价为准",
+      "risk": "tracking 偏离 48-77% 提示价格可能已在实际走高；Q2 全面反映涨幅后成本剧增"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB clean lower-band anchor 继续缺失，Wiredzone 退至纯 RFQ，Provantage no-result。小容量位（3.84/7.68TB）如有刚需可按实时报价锁定",
+      "risk": "不要用单一报价当市场均衡价；但 NAND 超级周期下等待代价也在增加"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "主带可执行，但需加速执行计划中批次。NAND 超级周期下分批但不延期；premium 带可能在 Q2 被剧烈推高",
+      "risk": "高容量位低簇噪声与 parser-gap 补源过多，不适合一次性押底价；DirectMacro 低簇仍 outlier_only"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源补样后仍无可用公开报价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源补样后仍无可用公开报价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "低零售簇 ($750-$900) 与高分销簇 ($1,350-$1,500+) 长期并存，Newegg 广谱持续确认"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "旧 lower-band 锚点未恢复且观测性恶化——Wiredzone 退至 Email For Price，Provantage no-result，CDW 有页无价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "Mouser/PCNation/Connection 高容量补源位",
+      "reasonCode": "parser_gap",
+      "note": "Mouser Access Denied, PCNation Cloudflare, Connection 搜索层/拦截页—页面存在但无法稳定提取"
+    },
+    {
+      "category": "DDR5 (both speeds)",
+      "spec": "Memory.net all",
+      "reasonCode": "parser_gap",
+      "note": "今日 403 blocked，此前为 spec/RFQ"
+    }
+  ],
+  "limitations": [
+    "raw/2026-04-22..2026-04-28 quotes.json 缺失（区间扩大至 7 天），该段 raw sample 无法按结构化方式复核，已用 daily + tracking + history summary 交叉补位",
+    "PCIe4 TLC tracking 值与 DiscTech 实时公开价之间存在显著偏离（7.68TB 48%, 15.36TB 77%），tracking 值可能需要校准但今天的任务是标记问题而非改写历史值",
+    "PCIe5 TLC 30.72TB 的公开定价可观测性继续退化，当前分类 stale_repeated_sample 可能低估了差距——它正在从 stale 向 no_public_sample 演变",
+    "NAND 超级周期的 forecast（+70-75% QoQ）来自 TrendForce/TweakTown/ADATA 三个独立来源，可信度高，但仍是预测而非已实现价格"
+  ],
+  "macroFlags": [
+    {
+      "signal": "NAND Q2 contract price forecast",
+      "value": "+70-75% QoQ",
+      "sources": ["TrendForce", "TweakTown", "ADATA Industrial MarketWatch"],
+      "impact": "所有 SSD 品类采购紧迫度升级，buy_now 窗口期可能以周计"
+    },
+    {
+      "signal": "DRAM Q2 contract price forecast",
+      "value": "+30-50% QoQ (up to +63% per TweakTown)",
+      "sources": ["TrendForce", "TweakTown", "Astute Group", "Tom's Hardware"],
+      "impact": "DDR5 上行压力积蓄，HBM 挤占产能导致 DDR5 缺口至 2027Q4"
+    },
+    {
+      "signal": "Enterprise SSD ASP Q1 actual",
+      "value": "+70%+ QoQ",
+      "sources": ["BuySellRAM", "Tom's Hardware"],
+      "impact": "Q1 已实现涨幅证实超级周期，Q2 可能更强"
+    },
+    {
+      "signal": "Samsung NAND Q1 price hike",
+      "value": "up to +100%",
+      "sources": ["Astute Group", "BuySellRAM"],
+      "impact": "最大原厂 Q1 已翻倍，Q2 趋势难逆转"
+    }
+  ]
+}
