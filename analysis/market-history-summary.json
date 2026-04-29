@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-28T09:00:00+08:00",
+  "generatedAt": "2026-04-29T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 38,
+  "trackingRows": 39,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-04-28",
+      "latestDate": "2026-04-29",
       "latestCoverage": {"filled": 4, "total": 5},
       "averageCoverage14d": 2.86,
       "trend": "flat",
@@ -26,14 +26,14 @@
       },
       "missingColumns": [],
       "columns": {
-        "DDR5-6400 32GB": {"latestValue": 11133, "previousValue": 11133, "rollingMedian14d": 11133, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "DDR5-6400 64GB": {"latestValue": 18608, "previousValue": 18608, "rollingMedian14d": 18608, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "DDR5-6400 128GB": {"latestValue": 52651, "previousValue": 52651, "rollingMedian14d": 52651, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0}
+        "DDR5-6400 32GB": {"latestValue": 11133, "previousValue": 11133, "rollingMedian14d": 11133, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "DDR5-6400 64GB": {"latestValue": 18608, "previousValue": 18608, "rollingMedian14d": 18608, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "DDR5-6400 128GB": {"latestValue": 52651, "previousValue": 52651, "rollingMedian14d": 52651, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-04-28",
+      "latestDate": "2026-04-29",
       "latestCoverage": {"filled": 3, "total": 5},
       "averageCoverage14d": 1.86,
       "trend": "volatility_expand",
@@ -53,16 +53,16 @@
       },
       "missingColumns": ["DDR5-5600 32GB"],
       "columns": {
-        "DDR5-5600 32GB": {"latestValue": null, "previousValue": null, "rollingMedian14d": null, "lastSeenDate": null, "consecutiveMissingDays": 26},
-        "DDR5-5600 64GB": {"latestValue": 19168, "previousValue": 19168, "rollingMedian14d": 19168, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "DDR5-5600 128GB": {"latestValue": 46600, "previousValue": 46600, "rollingMedian14d": 46600, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0}
+        "DDR5-5600 32GB": {"latestValue": null, "previousValue": null, "rollingMedian14d": null, "lastSeenDate": null, "consecutiveMissingDays": 27},
+        "DDR5-5600 64GB": {"latestValue": 19168, "previousValue": 19168, "rollingMedian14d": 19168, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "DDR5-5600 128GB": {"latestValue": 46600, "previousValue": 46600, "rollingMedian14d": 46600, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-04-28",
+      "latestDate": "2026-04-29",
       "latestCoverage": {"filled": 5, "total": 5},
-      "averageCoverage14d": 4.07,
+      "averageCoverage14d": 4.14,
       "trend": "flat",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
@@ -83,17 +83,17 @@
         "PCIe4 TLC 30.72TB": 113896
       },
       "missingColumns": [],
-      "trackingWarning": "⚠️ 2026-04-28：DiscTech 实时公开价与 tracking 值显著偏离——7.68TB $3,295 (¥26,810) vs tracking ¥18,094 (48%)、15.36TB $9,542 (¥77,644) vs tracking ¥43,739 (77%)。3.84TB ¥18,705 与 7.68TB ¥18,094 的反常价差提示历史锚定点可能需要重校。NAND Q2 forecast +70-75% QoQ 已确认（TrendForce/TweakTown/ADATA 三源一致），tracking 值可能已滞后于实时市场。",
+      "trackingWarning": "⚠️ CRITICAL (escalated 2026-04-29): DiscTech live prices 7.68TB $3,295/15.36TB $9,542 deviate from tracking ¥18,094/¥43,739 by 48-77%. DropReference confirmed enterprise 30TB SSD went from $3,062 (Q2 2025) to $17,500 (Q1 2026) = +472%. Tracking values likely represent 2025 Q3-Q4 anchors, ~2 quarters behind current market. NAND Q2 +70-75% QoQ triple-sourced (TrendForce/TweakTown/DropReference). RECALIBRATION URGENTLY NEEDED — do not use tracking values for procurement.",
       "columns": {
-        "PCIe4 TLC 3.84TB": {"latestValue": 18705, "previousValue": 18705, "rollingMedian14d": 18705, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe4 TLC 7.68TB": {"latestValue": 18094, "previousValue": 18094, "rollingMedian14d": 18094, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe4 TLC 15.36TB": {"latestValue": 43739, "previousValue": 43739, "rollingMedian14d": 43739, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe4 TLC 30.72TB": {"latestValue": 113896, "previousValue": 113896, "rollingMedian14d": 113896, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0}
+        "PCIe4 TLC 3.84TB": {"latestValue": 18705, "previousValue": 18705, "rollingMedian14d": 18705, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 TLC 7.68TB": {"latestValue": 18094, "previousValue": 18094, "rollingMedian14d": 18094, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 TLC 15.36TB": {"latestValue": 43739, "previousValue": 43739, "rollingMedian14d": 43739, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 TLC 30.72TB": {"latestValue": 113896, "previousValue": 113896, "rollingMedian14d": 113896, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-04-28",
+      "latestDate": "2026-04-29",
       "latestCoverage": {"filled": 4, "total": 5},
       "averageCoverage14d": 3.43,
       "trend": "volatility_expand",
@@ -117,15 +117,15 @@
       },
       "missingColumns": ["PCIe5 TLC 30.72TB"],
       "columns": {
-        "PCIe5 TLC 3.84TB": {"latestValue": 18265, "previousValue": 18265, "rollingMedian14d": 18265, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe5 TLC 7.68TB": {"latestValue": 27817, "previousValue": 27817, "rollingMedian14d": 27817, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe5 TLC 15.36TB": {"latestValue": 54292, "previousValue": 54292, "rollingMedian14d": 54292, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe5 TLC 30.72TB": {"latestValue": null, "previousValue": null, "rollingMedian14d": 68269, "lastSeenDate": "2026-04-12", "consecutiveMissingDays": 12}
+        "PCIe5 TLC 3.84TB": {"latestValue": 18265, "previousValue": 18265, "rollingMedian14d": 18265, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe5 TLC 7.68TB": {"latestValue": 27817, "previousValue": 27817, "rollingMedian14d": 27817, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe5 TLC 15.36TB": {"latestValue": 54292, "previousValue": 54292, "rollingMedian14d": 54292, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe5 TLC 30.72TB": {"latestValue": null, "previousValue": null, "rollingMedian14d": 68269, "lastSeenDate": "2026-04-12", "consecutiveMissingDays": 13}
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-04-28",
+      "latestDate": "2026-04-29",
       "latestCoverage": {"filled": 4, "total": 4},
       "averageCoverage14d": 3.71,
       "trend": "flat_or_mixed",
@@ -149,28 +149,44 @@
       },
       "missingColumns": [],
       "columns": {
-        "PCIe4 QLC 15.36TB": {"latestValue": 41982, "previousValue": 41982, "rollingMedian14d": 41982, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe4 QLC 30.72TB": {"latestValue": 83963, "previousValue": 83963, "rollingMedian14d": 83963, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe4 QLC 61.44TB": {"latestValue": 199324, "previousValue": 199324, "rollingMedian14d": 199324, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0},
-        "PCIe4 QLC 122.88TB": {"latestValue": 332925, "previousValue": 332925, "rollingMedian14d": 332925, "lastSeenDate": "2026-04-28", "consecutiveMissingDays": 0}
+        "PCIe4 QLC 15.36TB": {"latestValue": 41982, "previousValue": 41982, "rollingMedian14d": 41982, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 QLC 30.72TB": {"latestValue": 83963, "previousValue": 83963, "rollingMedian14d": 83963, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 QLC 61.44TB": {"latestValue": 199324, "previousValue": 199324, "rollingMedian14d": 199324, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 QLC 122.88TB": {"latestValue": 332925, "previousValue": 332925, "rollingMedian14d": 332925, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
       }
     }
   },
   "recentRunNotes": {
+    "2026-04-22": [
+      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on coverage durability, stale-vs-parser-gap explanations, and unresolved structural splits)",
+      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
+      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; CDW Kingston $895.99 continues to confirm; 64/128 remain visible but not cheap)",
+      "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
+      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; Newegg anti-bot / Mouser denied / ShopBLT continue to show access-structure issues + sample split coexistence)",
+      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
+    ],
+    "2026-04-23": [
+      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on persistent gap labels, stale-vs-parser-gap explanations, and source concentration)",
+      "ddr5-6400: FLAT (64/128 anchors unchanged; ComputerDealsDirect 128GB old direct link 404; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
+      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 64/128 remain visible but not cheap; 96GB still narrow)",
+      "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
+      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; AAAWave old page 404 / A5 IT search page no cleaner new anchor / Newegg anti-bot / Mouser denied persist)",
+      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
+    ],
     "2026-04-24": [
       "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on coverage durability, stale-vs-parser-gap explanations, and unresolved structural splits)",
-      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor and 16GB remains no_public_sample)",
-      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 96GB still narrow and 64/128 remain visible but not cheap)",
+      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB added Provantage visible public price but insufficient to rewrite main value; 16GB remains no_public_sample)",
+      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; Connection/Memory.net/Tech-America more parser_gap or RFQ; 64/128 remain visible but not cheap)",
       "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; new checks mostly clarified parser-gap/spec-only boundaries rather than adding a cleaner replacement anchor)",
+      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; Insight/Tech-America/SHI mainly strengthen parser-gap/spec-only explanations)",
       "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
     ],
     "2026-04-25": [
       "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on persistent gap labels, stale-vs-parser-gap explanations, and source concentration)",
       "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
-      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 96GB still narrow and 64/128 remain visible but not cheap)",
+      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 64/128 remain visible but not cheap; 96GB still narrow)",
       "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; SHI high-band/public-search evidence and RFQ/spec-only sources only improved classification, not repricing)",
+      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; SHI/CDW search layer + Tech-America/Insight/ShopBLT/Wiredzone/CTSPoint mainly strengthen parser-gap/spec-only/RFQ boundary)",
       "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
     ],
     "2026-04-26": [
@@ -178,8 +194,8 @@
       "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
       "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 64/128 visible but not cheap; 96GB still narrow)",
       "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; today strengthened parser-gap/spec-only/stale boundary rather than repricing)",
-      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection remain parser_gap while DirectMacro low cluster remains outlier_only)"
+      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; today used SHI/Tech-America/Insight/Connection etc. to strengthen parser-gap/spec-only/stale boundary rather than recovering clean anchor)",
+      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
     ],
     "2026-04-27": [
       "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/history-summary and all available recent raw quotes; raw/2026-04-22..2026-04-26 quotes files are missing and were explicitly treated as a workspace gap)",
@@ -197,6 +213,15 @@
       "pcie4-tlc: FLAT (⚠️ TRACKING LAG WARNING — DiscTech live prices for 7.68TB $3,295/15.36TB $9,542 deviate from tracking ¥18,094/¥43,739 by 48-77%; NAND super-cycle likely already lifting real-time prices while tracking anchors remain on historical bases; procurement urgency upgraded to buy_now-immediate)",
       "pcie5-tlc: STALE_GAP_WORSENED (30.72TB observability degrading — Wiredzone now Email For Price only vs $16,746 yesterday; Provantage no-result; CDW product pages without prices; this is evolving from stale_repeated_sample toward no_public_sample)",
       "pcie4-qlc: FLAT_OR_MIXED (premium band holds but market spread 3-4x on same SKU; NAND super-cycle adds urgency — split_buy recommendation upgraded to 'urgent'; Mouser/PCNation/Connection remain parser_gap; DirectMacro low cluster outlier_only)"
+    ],
+    "2026-04-29": [
+      "EVIDENCE DENSITY ESCALATION: DropReference enterprise 30TB SSD $3,062→$17,500 (+472%) trajectory added as most significant new evidence; TrendForce full abstract confirming AI-driven Q2 memory contract price increases; Samsung Q2 +30% independently verified (BuySellRAM). NAND super-cycle now multi-angle confirmed.",
+      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/history-summary with emphasis on tracking-lag magnitude, PCIe5 30.72TB structural degradation, and DDR5-5600 32GB crack convergence)",
+      "ddr5-6400: FLAT (64GB tracking anchor validated by Newegg A-Tech $2,194.49 <4% deviation; Samsung +30% Q2 confirmed; upward pressure accumulating beneath flat surface; 32GB still lacks clean exact anchor; 16GB no_public_sample)",
+      "ddr5-5600: CRACK_NARROWING (32GB low-end $750 samples disappeared from Newegg; market converging to $1,400-$1,600; first real structural improvement signal in weeks; 64GB/128GB tracking potentially at high end of visible range — 64GB ¥19,168 at top of $1,700-$2,300, 128GB ¥46,600 near top of $3,300-$5,100)",
+      "pcie4-tlc: FLAT (⚠️ TRACKING LAG QUANTIFIED — DropReference data confirms ~2 quarters behind real-time market; 30.72TB tracking ≈$13,903 vs current ~$17K-$20K+; recalibration HIGH priority; buy_now urgency reinforced)",
+      "pcie5-tlc: STRUCTURAL_GAP_CONFIRMED (30.72TB 3rd day Provantage no-result + Wiredzone Email For Price — upgraded from temporary to structural; small/medium capacity public bands exist but 5-8x spread useless for procurement reference; urgent_only maintained)",
+      "pcie4-qlc: FLAT_OR_MIXED (premium band holds; ServerSupply D5-P5316 30.72TB $12,999 provides +27% upward corroboration vs tracking; split_buy urgency reinforced by NAND super-cycle; Mouser/PCNation/Connection remain parser_gap; DirectMacro low cluster outlier_only)"
     ]
   }
 }
