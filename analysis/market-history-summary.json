@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-04-29T09:00:00+08:00",
+  "generatedAt": "2026-04-30T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 39,
+  "trackingRows": 40,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-04-29",
+      "latestDate": "2026-04-30",
       "latestCoverage": {"filled": 4, "total": 5},
       "averageCoverage14d": 2.86,
       "trend": "flat",
+      "sourceHealthNote": "CoreWaveLabs 6400 filter page not displaying 6400 products — possible stock depletion or maintenance",
       "latestValues": {
         "DDR5-6400 32GB": 11133,
         "DDR5-6400 64GB": 18608,
@@ -27,16 +28,17 @@
       "missingColumns": [],
       "columns": {
         "DDR5-6400 32GB": {"latestValue": 11133, "previousValue": 11133, "rollingMedian14d": 11133, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "DDR5-6400 64GB": {"latestValue": 18608, "previousValue": 18608, "rollingMedian14d": 18608, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "DDR5-6400 64GB": {"latestValue": 18608, "previousValue": 18608, "rollingMedian14d": 18608, "lastSeenDate": "2026-04-30", "consecutiveMissingDays": 0, "validationNote": "A-Tech Newegg $2,106.71-$2,194.49 dual anchor deviation 2.8-7.3% from tracking"},
         "DDR5-6400 128GB": {"latestValue": 52651, "previousValue": 52651, "rollingMedian14d": 52651, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-04-29",
+      "latestDate": "2026-04-30",
       "latestCoverage": {"filled": 3, "total": 5},
       "averageCoverage14d": 1.86,
       "trend": "volatility_expand",
+      "crackNarrowingNote": "⚠️ Yesterday's (4/29) crack narrowing signal UNCONFIRMED today. Newegg $894-$990 low-end samples reappeared. Crack persists at $894-$1,595 (1.8x). Needs 48h+ stable convergence.",
       "latestValues": {
         "DDR5-5600 32GB": null,
         "DDR5-5600 64GB": 19168,
@@ -53,17 +55,19 @@
       },
       "missingColumns": ["DDR5-5600 32GB"],
       "columns": {
-        "DDR5-5600 32GB": {"latestValue": null, "previousValue": null, "rollingMedian14d": null, "lastSeenDate": null, "consecutiveMissingDays": 27},
-        "DDR5-5600 64GB": {"latestValue": 19168, "previousValue": 19168, "rollingMedian14d": 19168, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "DDR5-5600 128GB": {"latestValue": 46600, "previousValue": 46600, "rollingMedian14d": 46600, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
+        "DDR5-5600 32GB": {"latestValue": null, "previousValue": null, "rollingMedian14d": null, "lastSeenDate": null, "consecutiveMissingDays": 28, "visibleRange": "$894-$1,595 (Newegg low to ServerSupply high)"},
+        "DDR5-5600 64GB": {"latestValue": 19168, "previousValue": 19168, "rollingMedian14d": 19168, "lastSeenDate": "2026-04-30", "consecutiveMissingDays": 0, "highEndWarning": "Tracking ¥19,168 at top of visible $1,700-$2,300 range"},
+        "DDR5-5600 128GB": {"latestValue": 46600, "previousValue": 46600, "rollingMedian14d": 46600, "lastSeenDate": "2026-04-30", "consecutiveMissingDays": 0, "highEndWarning": "Tracking ¥46,600 near top of visible $3,300-$5,100 range"}
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-04-29",
-      "latestCoverage": {"filled": 5, "total": 5},
-      "averageCoverage14d": 4.14,
+      "latestDate": "2026-04-30",
+      "latestCoverage": {"filled": 4, "total": 5},
+      "averageCoverage14d": 4.00,
       "trend": "flat",
+      "trackingWarning": "⚠️ CRITICAL ESCALATION 2026-04-30: DiscTech primary source degraded (multiple URLs 404); CDW Samsung PM9A3 now Call for Quote 4-6wk lead; ServerSupply Cloudflare 403. VDURA 30TB TLC $17,500 confirms tracking ~30-50% behind real-time. Gartner NAND +234% full-year 2026. DO NOT USE TRACKING VALUES FOR PROCUREMENT — use real-time channel quotes only.",
+      "primarySourceStatus": "DiscTech OFFLINE — /enterprise-ssd/ and /categories/enterprise-ssd/ both 404 as of 2026-04-30",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -83,20 +87,20 @@
         "PCIe4 TLC 30.72TB": 113896
       },
       "missingColumns": [],
-      "trackingWarning": "⚠️ CRITICAL (escalated 2026-04-29): DiscTech live prices 7.68TB $3,295/15.36TB $9,542 deviate from tracking ¥18,094/¥43,739 by 48-77%. DropReference confirmed enterprise 30TB SSD went from $3,062 (Q2 2025) to $17,500 (Q1 2026) = +472%. Tracking values likely represent 2025 Q3-Q4 anchors, ~2 quarters behind current market. NAND Q2 +70-75% QoQ triple-sourced (TrendForce/TweakTown/DropReference). RECALIBRATION URGENTLY NEEDED — do not use tracking values for procurement.",
       "columns": {
         "PCIe4 TLC 3.84TB": {"latestValue": 18705, "previousValue": 18705, "rollingMedian14d": 18705, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "PCIe4 TLC 7.68TB": {"latestValue": 18094, "previousValue": 18094, "rollingMedian14d": 18094, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 TLC 7.68TB": {"latestValue": 18094, "previousValue": 18094, "rollingMedian14d": 18094, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0, "anomalyNote": "3.84-7.68TB inverse price gap persists — indicates mixed historical anchor periods"},
         "PCIe4 TLC 15.36TB": {"latestValue": 43739, "previousValue": 43739, "rollingMedian14d": 43739, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "PCIe4 TLC 30.72TB": {"latestValue": 113896, "previousValue": 113896, "rollingMedian14d": 113896, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
+        "PCIe4 TLC 30.72TB": {"latestValue": 113896, "previousValue": 113896, "rollingMedian14d": 113896, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0, "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026) ≈ ¥143,325 — tracking ~20% behind even after VDURA revision"}
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-04-29",
-      "latestCoverage": {"filled": 4, "total": 5},
-      "averageCoverage14d": 3.43,
+      "latestDate": "2026-04-30",
+      "latestCoverage": {"filled": 3, "total": 5},
+      "averageCoverage14d": 3.29,
       "trend": "volatility_expand",
+      "structuralGapNote": "30.72TB structural gap confirmed DAY 4: Wiredzone Email For Price direct page verified (not cached); CDW Micron 9550 Pro product pages without pricing. Old lower-band anchor irrecoverable. Public pricing window effectively closed.",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
@@ -120,15 +124,16 @@
         "PCIe5 TLC 3.84TB": {"latestValue": 18265, "previousValue": 18265, "rollingMedian14d": 18265, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
         "PCIe5 TLC 7.68TB": {"latestValue": 27817, "previousValue": 27817, "rollingMedian14d": 27817, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
         "PCIe5 TLC 15.36TB": {"latestValue": 54292, "previousValue": 54292, "rollingMedian14d": 54292, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "PCIe5 TLC 30.72TB": {"latestValue": null, "previousValue": null, "rollingMedian14d": 68269, "lastSeenDate": "2026-04-12", "consecutiveMissingDays": 13}
+        "PCIe5 TLC 30.72TB": {"latestValue": null, "previousValue": null, "rollingMedian14d": 68269, "lastSeenDate": "2026-04-12", "consecutiveMissingDays": 14, "staleReference": "Rolling median 68,269 based on pre-April-12 data; last known Wiredzone public price $16,746 (≈¥136,554) expired when Wiredzone moved to Email For Price on 4/27"}
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-04-29",
+      "latestDate": "2026-04-30",
       "latestCoverage": {"filled": 4, "total": 4},
       "averageCoverage14d": 3.71,
-      "trend": "flat_or_mixed",
+      "trend": "volatility_expand",
+      "accelerationNote": "⬆️ Trend upgraded from flat_or_mixed to volatility_expand: Solidigm D5-P5336 61.44TB $27,500 vs baseline $5,830 (Dec 2025) = 4.7x; VDURA 30TB QLC $15,121 (first-ever QLC commodity pricing reference); NAND super-cycle visibly transmitting to QLC tier.",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 41982,
         "PCIe4 QLC 30.72TB": 83963,
@@ -150,8 +155,8 @@
       "missingColumns": [],
       "columns": {
         "PCIe4 QLC 15.36TB": {"latestValue": 41982, "previousValue": 41982, "rollingMedian14d": 41982, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "PCIe4 QLC 30.72TB": {"latestValue": 83963, "previousValue": 83963, "rollingMedian14d": 83963, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
-        "PCIe4 QLC 61.44TB": {"latestValue": 199324, "previousValue": 199324, "rollingMedian14d": 199324, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0},
+        "PCIe4 QLC 30.72TB": {"latestValue": 83963, "previousValue": 83963, "rollingMedian14d": 83963, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0, "realTimeReference": "VDURA 30TB QLC $15,121 (Q1 2026) ≈ ¥124,000 — tracking ¥83,963 ~32% behind"},
+        "PCIe4 QLC 61.44TB": {"latestValue": 199324, "previousValue": 199324, "rollingMedian14d": 199324, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0, "realTimeReference": "ServerSupply $27,500 (Apr 19) ≈ ¥224,000 — tracking ¥199,324 ~11% behind; this column may be closest to real-time"},
         "PCIe4 QLC 122.88TB": {"latestValue": 332925, "previousValue": 332925, "rollingMedian14d": 332925, "lastSeenDate": "2026-04-29", "consecutiveMissingDays": 0}
       }
     }
@@ -173,38 +178,6 @@
       "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; AAAWave old page 404 / A5 IT search page no cleaner new anchor / Newegg anti-bot / Mouser denied persist)",
       "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
     ],
-    "2026-04-24": [
-      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on coverage durability, stale-vs-parser-gap explanations, and unresolved structural splits)",
-      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB added Provantage visible public price but insufficient to rewrite main value; 16GB remains no_public_sample)",
-      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; Connection/Memory.net/Tech-America more parser_gap or RFQ; 64/128 remain visible but not cheap)",
-      "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; Insight/Tech-America/SHI mainly strengthen parser-gap/spec-only explanations)",
-      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
-    ],
-    "2026-04-25": [
-      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on persistent gap labels, stale-vs-parser-gap explanations, and source concentration)",
-      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
-      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 64/128 remain visible but not cheap; 96GB still narrow)",
-      "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; SHI/CDW search layer + Tech-America/Insight/ShopBLT/Wiredzone/CTSPoint mainly strengthen parser-gap/spec-only/RFQ boundary)",
-      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
-    ],
-    "2026-04-26": [
-      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/available raw/history-summary with emphasis on persistent coverage, parser-gap boundaries, and unresolved structural splits)",
-      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
-      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 64/128 visible but not cheap; 96GB still narrow)",
-      "pcie4-tlc: FLAT (DiscTech/CDW band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor still not recovered; today used SHI/Tech-America/Insight/Connection etc. to strengthen parser-gap/spec-only/stale boundary rather than recovering clean anchor)",
-      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser/PCNation/Connection continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
-    ],
-    "2026-04-27": [
-      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/history-summary and all available recent raw quotes; raw/2026-04-22..2026-04-26 quotes files are missing and were explicitly treated as a workspace gap)",
-      "ddr5-6400: FLAT (64/128 anchors unchanged; 32GB still lacks a stronger fresh exact anchor; 16GB remains no_public_sample)",
-      "ddr5-5600: SPLIT_PERSISTS (32GB remains outlier_only; 64/128 visible but not cheap; 96GB still narrow)",
-      "pcie4-tlc: FLAT (representative band unchanged; still the cleanest procurement line)",
-      "pcie5-tlc: STALE_GAP_PERSISTS (30.72TB lower-band anchor not recovered; Provantage KCMYXRUG30T7 now no-result while Wiredzone shows only a higher public price, reinforcing stale_repeated_sample)",
-      "pcie4-qlc: FLAT_OR_MIXED (main premium public band still holds; Mouser denied / PCNation Cloudflare / Connection gated access continue to strengthen parser_gap classification while DirectMacro low cluster remains outlier_only)"
-    ],
     "2026-04-28": [
       "MACRO BREAKTHROUGH DAY: NAND Q2 contract price forecast +70-75% QoQ confirmed by TrendForce/TweakTown/ADATA (triple-sourced); DRAM Q2 +30-50% (up to +63%) sustained; HBM cannibalizing DDR5 wafer capacity; supply gap through 2027Q4.",
       "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/history-summary with emphasis on tracking-lag risk, deteriorating observability of PCIe5 30.72TB, and persistent DDR5-5600 32GB split)",
@@ -222,6 +195,38 @@
       "pcie4-tlc: FLAT (⚠️ TRACKING LAG QUANTIFIED — DropReference data confirms ~2 quarters behind real-time market; 30.72TB tracking ≈$13,903 vs current ~$17K-$20K+; recalibration HIGH priority; buy_now urgency reinforced)",
       "pcie5-tlc: STRUCTURAL_GAP_CONFIRMED (30.72TB 3rd day Provantage no-result + Wiredzone Email For Price — upgraded from temporary to structural; small/medium capacity public bands exist but 5-8x spread useless for procurement reference; urgent_only maintained)",
       "pcie4-qlc: FLAT_OR_MIXED (premium band holds; ServerSupply D5-P5316 30.72TB $12,999 provides +27% upward corroboration vs tracking; split_buy urgency reinforced by NAND super-cycle; Mouser/PCNation/Connection remain parser_gap; DirectMacro low cluster outlier_only)"
+    ],
+    "2026-04-30": [
+      "DAY OF REVERSALS AND SOURCE DEGRADATION: DDR5-5600 32GB crack narrowing signal from 4/29 UNCONFIRMED — premature convergence call retracted; PCIe4 TLC primary source DiscTech went OFFLINE (multiple 404); NAND super-cycle confirmed by Gartner (+234% annual) + VDURA revision ($10,950→$17,500); Samsung May strike risk added; PCIe4 QLC trend upgraded to volatility_expand on 4.7x price signal.",
+      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/history-summary with emphasis on crack narrowing reversal, primary source Degradation, and new macro risk variables)",
+      "ddr5-6400: FLAT (A-Tech 64GB second listing $2,106.71 widens validation band but stays within tolerance; CoreWaveLabs 6400 filter not showing products — possible depletion signal; Samsung Q2 +30% + May strike risk; Gartner DRAM +125% annual)",
+      "ddr5-5600: CRACK_NARROWING_UNCONFIRMED (yesterday's $750 low-end disappearance → $1,400-$1,600 convergence was PREMATURE; today Newegg $894-$990 reappeared; crack at $894-$1,595 persists; direction unclear; restore wait)",
+      "pcie4-tlc: PRIMARY_SOURCE_DEGRADATION (⚠️ DiscTech 404 on multiple URLs — primary source for PCIe4 TLC offline; CDW PM9A3 now RFQ-only 4-6wk lead; ServerSupply Cloudflare 403; VDURA 30TB TLC $17,500 + Gartner NAND +234% confirm real-time prices far above tracking; buy_now urgency CRITICAL)",
+      "pcie5-tlc: STRUCTURAL_GAP_CONFIRMED_DAY4 (Wiredzone KCMYXRUG30T7 Email For Price verified on direct page — not cached; old $16,746 price from search is stale; CDW 9550 Pro pages without pricing; 14 consecutive days without clean 30.72TB anchor)",
+      "pcie4-qlc: UPGRADED_TO_VOLATILITY_EXPAND (Solidigm 61.44TB $27,500 vs baseline $5,830 = 4.7x; VDURA 30TB QLC $15,121 — first-ever QLC commodity pricing reference; NAND super-cycle now visibly transmitting to QLC tier; split_buy urgency escalated)"
     ]
-  }
+  },
+  "escalatedRisks": [
+    {
+      "risk": "Samsung May 2026 labor strike",
+      "source": "TrendForce 2026-04-27",
+      "potentialImpact": "3-4% DRAM global output disruption + 2-3% NAND disruption + multi-week recovery lag",
+      "confidence": "medium (union action planned, duration uncertain)",
+      "categoriesAffected": ["All DDR5", "All SSD"]
+    },
+    {
+      "risk": "DiscTech primary source failure",
+      "source": "Direct probe 2026-04-30",
+      "potentialImpact": "Loss of most reliable PCIe4 TLC public price source; CDW also degrading to RFQ-only; may force transition to distributor-direct procurement model",
+      "confidence": "high (confirmed 404 on multiple URLs)",
+      "categoriesAffected": ["PCIe4 TLC"]
+    },
+    {
+      "risk": "NAND spot-contract divergence",
+      "source": "TrendForce 2026-04-29 spot weekly",
+      "potentialImpact": "Spot market liquidating at -30~40% while contract prices +70-75% — risk of misinterpreting spot weakness as market easing when actual enterprise pricing is accelerating upward",
+      "confidence": "high",
+      "categoriesAffected": ["All SSD"]
+    }
+  ]
 }

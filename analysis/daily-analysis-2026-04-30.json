@@ -1,0 +1,187 @@
+{
+  "date": "2026-04-30",
+  "generatedAt": "2026-04-30T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 3, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Gartner 2026-04-08 global semiconductor forecast ($1.3T +64%)",
+    "TrendForce 2026-04-27 Samsung strike risk assessment (3-4% DRAM / 2-3% NAND disruption)",
+    "TrendForce 2026-04-29 memory spot price weekly (NAND spot -30~40% past month)",
+    "VDURA April 2026 revised Flash Volatility Index (30TB TLC revised $10,950→$17,500; QLC line added)",
+    "Micron Q2 FY2026 earnings NAND $5B +169% YoY (Zacks/TradingView)",
+    "SanDisk Q1 data center +76% YoY $440M (247wallst)",
+    "Business Standard 4/30 electronics makers cutting 10-20% output",
+    "CoreWaveLabs DDR5-6400 page direct fetch (products not displaying - possible stock issue)",
+    "DiscTech multiple URL probes (all 404 - primary source degradation confirmed)",
+    "Newegg A-Tech DDR5-6400 64GB second product page ($2,106.71 variant)",
+    "Wiredzone KCMYXRUG30T7 direct page confirmation (Email For Price, not cached)",
+    "ServerSupply Cloudflare 403 confirmation (affects multiple categories)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Gartner (DRAM +125% / NAND +234% full-year forecast for 2026)",
+    "TrendForce Samsung strike risk (3-4% DRAM / 2-3% NAND potential disruption in May)",
+    "TrendForce spot weekly (NAND spot vs contract divergence observed)",
+    "VDURA April revision (30TB TLC $17,500 +472%; 30TB QLC $15,121 +518%)",
+    "Newegg A-Tech 64GB second listing ($2,106.71 - broader anchor validation)",
+    "Business Standard (downstream electronics production cuts signal supply chain pressure)"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5-5600 32GB crack narrowing NOT CONFIRMED: yesterday's $750 low-end disappearance → $1,400-$1,600 convergence was premature; today Newegg shows $894-$990 Samsung RDIMM again; crack persists at $894-$1,595",
+    "PCIe4 TLC primary source (DiscTech) degraded: multiple URLs 404, dropping from 5/5 to 4/5 actual observable coverage; CDW Samsung PM9A3 also moved to Call for Quote",
+    "Samsung May strike risk added as new macro variable (TrendForce 4/27): 3-4% DRAM / 2-3% NAND disruption + multi-week recovery",
+    "NAND spot (-30~40% past month) vs contract (+70-75% Q2) divergence documented - reinforces contract price as correct tracking anchor for enterprise",
+    "VDURA April revision details: Q1 2026 TLC revised up from $10,950→$17,500; first QLC commodity pricing introduced (30TB $15,121)",
+    "Gartner 2026 semiconductor forecast (+64% to $1.3T) provides highest-authority macro anchor to date",
+    "PCIe4 QLC trend upgraded from flat_or_mixed to volatility_expand: Solidigm 61.44TB ~$27,500 vs baseline ~$5,830 = 4.7x, NAND super-cycle now visibly transmitting to QLC",
+    "CoreWaveLabs DDR5-6400 filter page anomaly: no 6400 products displayed (possible stock depletion or site maintenance)",
+    "Electronics makers cutting 10-20% output due to memory cost pressure (Business Standard) - downstream impact becoming visible",
+    "A-Tech 64GB 6400 second listing at slightly lower price ($2,106.71 vs $2,194.49) widens validation range but still within tolerance"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat (upward pressure accumulating; Q2 +30% Samsung confirmed + strike risk + Gartner +125% annual)",
+    "DDR5-5600": "volatility_expand (yesterday's crack narrowing signal unconfirmed today; Newegg low-end samples reappeared at $894-$990)",
+    "PCIe4 TLC": "flat (primary source DiscTech 404; tracking lag confirmed ~30-50%; CDW PM9A3 now RFQ-only)",
+    "PCIe5 TLC": "volatility_expand (30.72TB structural gap confirmed day 4; Wiredzone Email For Price verified on direct page)",
+    "PCIe4 QLC": "volatility_expand (upgraded from flat_or_mixed; Solidigm 61.44TB 4.7x signal; VDURA QLC $15,121 confirming upward transmission)"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "A-Tech dual anchor validates tracking ¥18,608 within 2.8-7.3%; Samsung Q2 +30% independently confirmed + 5% labor strike risk; supply gap to Q4 2027; CoreWaveLabs 6400 products not displaying (potential tightness signal); 64/128GB executable by project cadence; 32GB clean anchor still weak"
+    },
+    "DDR5-5600": {
+      "recommendation": "wait",
+      "reason": "Yesterday's crack narrowing signal UNCONFIRMED today; Newegg $894-$990 reappeared vs ServerSupply $1,595; direction unclear; 64/128GB tracking at visible high end; prefer 6400 for near-term needs; needs 48h+ stable convergence before upgrading"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "URGENT: DiscTech primary source 404 - public market supply window may be closing; CDW PM9A3 now RFQ-only with 4-6 week lead; VDURA 30TB TLC $17,500 confirms ~30-50% tracking lag; NAND Q2 +70-75% + Samsung May strike risk; Gartner NAND +234% full-year. Purchase by mid-May or face Q3 procurement failure. ALL tracking values (¥18,705/¥18,094/¥43,739/¥113,896) are stale - use real-time channel quotes ONLY",
+      "warning": "Do not use tracking-table values for PCIe4 TLC procurement decisions. Request formal quotes from CDW/SHI/Tech-America/Wiredzone directly."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB structural gap day 4 confirmed: Wiredzone Email For Price (direct page verified, not cached), CDW product pages without prices. Small/medium capacity public bands exist but 5-8x spreads useless for procurement. Contact distributors (CDW/Tech-America/SHI) for formal quotes if urgently needed."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "URGENT: Solidigm 61.44TB $27,500 vs baseline $5,830 (4.7x) confirms NAND super-cycle now transmitting to QLC; VDURA 30TB QLC $15,121 provides macro commodity anchor; NAND +70-75% Q2 + strike risk; accelerate planned QLC procurement with split batches to lock current levels; high-capacity (61.44/122.88TB) requires direct distributor quotes due to low liquidity"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "16GB enterprise RDIMM not a mainstream retail spec; multiple sources checked over weeks, no usable public quote found"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as DDR5-6400 16GB"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Crack at $894-$1,595 (Newegg low vs ServerSupply high); yesterday's convergence signal unconfirmed; too wide for single representative value; needs 48h+ monitoring"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Search layer signals exist but no clean exact product-page anchor with public price; CoreWaveLabs 6400 filter not showing products"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Structural gap confirmed day 4: Wiredzone Email For Price (direct page verified), CDW pages without prices, Provantage persistent no-result. Old lower-band anchor unrecoverable. Public pricing window effectively closed."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "outlier_only",
+      "note": "Some public prices exist but sample too sparse and pricing logic vs 3.84TB inconsistent"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "ALL (primary source failure)",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech primary source 404 on multiple URLs; CDW Samsung PM9A3 now Call for Quote; ServerSupply Cloudflare 403; tracking values known lagging 1-2 quarters. No fresh public anchor obtained today."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "Mouser/PCNation/Connection supplement positions",
+      "reasonCode": "parser_gap",
+      "note": "Mouser Access Denied, PCNation Cloudflare, Connection intercept pages - pages locatable but prices not extractable"
+    }
+  ],
+  "calibrationNeeded": [
+    {
+      "category": "PCIe4 TLC",
+      "issue": "ALL tracking values (3.84/7.68/15.36/30.72TB) need URGENT recalibration - primary source DiscTech degraded + CDW PM9A3 now RFQ-only",
+      "evidence": "VDURA 30TB TLC $17,500 vs tracking ¥113,896 ≈ $13,903; DiscTech 7.68TB $3,295/15.36TB $9,542 last known live prices (4/28) vs tracking ¥18,094/¥43,739",
+      "estimatedLag": "1-2 quarters",
+      "priority": "CRITICAL - primary source degraded today"
+    },
+    {
+      "category": "DDR5-5600",
+      "issue": "64GB/128GB tracking may be at high end of current visible range",
+      "evidence": "64GB ¥19,168 at top of $1,700-$2,300; 128GB ¥46,600 near top of $3,300-$5,100",
+      "estimatedLag": "Potentially tier mismatch rather than temporal lag",
+      "priority": "MEDIUM - wait for 32GB convergence signal"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "issue": "Tracking values may lag real-time by 30-50% based on new VDURA QLC commodity data",
+      "evidence": "VDURA 30TB QLC $15,121 vs tracking ¥83,963 ≈ $11,661; Solidigm 61.44TB ~$27,500 vs tracking ¥199,324 ≈ $27,700 (61.44TB tracking may be closer to real-time)",
+      "estimatedLag": "Mixed - 30.72TB possibly ~30%, 61.44TB may be current",
+      "priority": "HIGH"
+    }
+  ],
+  "rawQuotesMissingRange": "2026-04-14 through 2026-04-30 (17 consecutive days)",
+  "primarySourceDegradation": {
+    "DiscTech": {
+      "status": "OFFLINE",
+      "urlsProbed": ["/enterprise-ssd/", "/categories/enterprise-ssd/"],
+      "result": "All 404",
+      "impactedCategories": ["PCIe4 TLC"],
+      "recommendedReplacement": "CDW/SHI/Newegg for PCIe4 TLC"
+    },
+    "CoreWaveLabs DDR5-6400": {
+      "status": "DEGRADED",
+      "urlsProbed": ["/ddr5-6400-ecc-rdimm-server-ram-price/"],
+      "result": "Filter page loads but displays 4800/5600 products only - no 6400 products visible",
+      "impactedCategories": ["DDR5-6400"],
+      "note": "May indicate stock depletion or site maintenance; specific product pages may still work"
+    }
+  },
+  "newMacroSignals": {
+    "Samsung_strike_May_2026": {
+      "source": "TrendForce 2026-04-27",
+      "impact": "Potential 3-4% DRAM / 2-3% NAND global output disruption + multi-week recovery",
+      "confidence": "medium (union action planned, actual impact depends on duration)"
+    },
+    "Gartner_semiconductor_forecast_2026": {
+      "source": "Gartner 2026-04-08",
+      "impact": "Global semiconductor $1.3T (+64% YoY); DRAM +125%; NAND +234%",
+      "confidence": "high (Gartner as institutional research house)"
+    },
+    "NAND_spot_vs_contract_divergence": {
+      "source": "TrendForce 2026-04-29 spot weekly",
+      "impact": "NAND spot -30~40% past month vs contract +70-75% Q2 - confirms enterprise market operates on contract prices, spot irrelevant for our tracking",
+      "confidence": "high"
+    },
+    "Electronics_production_cuts": {
+      "source": "Business Standard 2026-04-30",
+      "impact": "Electronics makers cutting 10-20% output due to memory component cost pressure",
+      "confidence": "medium (single source)"
+    }
+  }
+}
