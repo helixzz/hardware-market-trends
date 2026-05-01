@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-01",
+  "generatedAt": "2026-05-01T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 5, "total": 5},
+    "DDR5-5600": {"filled": 4, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange (first-ever successful access)",
+    "NEMIX RAM (Newegg product listing)",
+    "Tom's Hardware (DRAM Q2 upgrade reporting)",
+    "Newegg Business (QLC 61.44TB)",
+    "ServerOrbit (via search layer)",
+    "NemixRAM.com (direct product page)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange — DDR5 RDIMM 32GB session average $970",
+    "NEMIX RAM — DDR5-6400 32GB $1,488 Newegg",
+    "Newegg Business — Solidigm D5-P5336 61.44TB $27,268",
+    "Tom's Hardware — DRAM Q2 +58-63% TrendForce confirmation"
+  ],
+  "keyChangesVsYesterday": [
+    "⭐ DDR5-6400 32GB: NEMIX RAM $1,488 (≈¥12,122) first clean exact anchor in weeks, +9.5% above tracking ¥11,133 — tracking UPDATED",
+    "⭐ DDR5-5600 32GB: DRAMeXchange $970 session avg (≈¥7,898) first credible anchor — column FILLED after 28+ days NA",
+    "⭐ PCIe5 TLC 30.72TB: ServerSupply Micron 9550 Pro $16,600 (≈¥135,058) breaks 15-day structural gap — column FILLED; new anchor 2x old median",
+    "⭐ DRAM Q2 QoQ contract price forecast UPGRADED from +30-50% to +58-63% (TrendForce via Tom's Hardware)",
+    "DiscTech reassessment: NOT 404 — accessible but JS-rendered (status 200, 3 bytes content). Previously misclassified as offline.",
+    "PCIe4 QLC 61.44TB: Newegg Business $27,268 + ServerSupply $25,500 dual-source cross-validation, tracking lag only 4-10%",
+    "DDR5-5600 32GB crack persists ($893-$1,595) but DRAMeXchange $970 provides centering anchor",
+    "Samsung May strike window opens (五一), no cancel/activation updates yet"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "32GB clean anchor restored +9.5% above tracking; DRAM Q2 +58-63% macro upgrade; Samsung May strike risk; price momentum clearly upward — waiting carries higher risk than splitting purchases",
+      "risks": ["32GB single-source (NEMIX)", "128GB brand spread 1.6x", "64GB tracking may be ~4% high"]
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "DRAMeXchange $970 provides first credible anchor ending 28-day outlier_only; DRAM macro +58-63%; crack persists but narrowed; split buy hedges against both directions",
+      "risks": ["32GB anchor may include 4800MHz mix (biased low)", "64/128GB tracking at high end of visible range", "crack direction not fully confirmed"]
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "Tracking lag 26-216% confirmed; NAND Q2 +70-75% no deceleration; most mature procurement line with broad product availability; real-time prices far above tracking values",
+      "risks": ["Tracking values not usable for pricing", "DiscTech JS-rendered (needs browser automation)", "CDW PM9A3 moved to Call for Quote", "new vs refurb price split 2-3x"]
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB gap broken but new anchor $16,600 is 2x old median; small/medium capacity band still 3-5x split useless for reference; only confirmed-need procurement recommended",
+      "risks": ["30.72TB single-source (ServerSupply search layer)", "public pricing window remains narrow", "direct distributor quotes needed for reliable pricing"]
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB dual-source verified tracking only 4-10% behind real-time; NAND super-cycle continues upward; QLC rise relatively milder vs TLC; split buy balances urgency against price trajectory",
+      "risks": ["30.72TB tracking ~32% behind VDURA $15,121", "122.88TB no new repricing", "Mouser/PCNation parser_gap limits high-capacity verification"]
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Long-term gap; 16GB enterprise DDR5 RDIMM is not a mainstream SKU; low priority for filling"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as above — 16GB not a priority enterprise SKU"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Saitech single-source; needs cross-validation from at least one more distributor"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Tracking has value (¥113,896) but known to lag real-time by 26%+; VDURA $17,500 (≈¥143,325) as real-time reference; 1.92TB not tracked"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "single_source",
+      "note": "⭐ Gap BROKEN today: ServerSupply Micron 9550 Pro $16,600 (≈¥135,058); but single source only — urgently needs next-day cross-validation; old median ¥68,269 confirmed severely stale"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "out_of_scope",
+      "note": "Not a priority tracking capacity for enterprise procurement"
+    }
+  ],
+  "sourceAccessNotes": {
+    "DiscTech": "Reassessed 2026-05-01: NOT 404 — returns HTTP 200 but content is JS-rendered (3 bytes raw). Previous classification as 404 on 4/30 was incorrect. Needs browser automation to extract prices.",
+    "ServerSupply": "Cloudflare 403 on direct fetch continues. Google Search layer provides cached pricing data.",
+    "CoreWaveLabs": "server-memory page loads with HTTP 200 but all filter counts show (0) — JS dynamic content. DDR5-6400 dedicated page accessible via nav links but also JS-rendered.",
+    "CDW": "Multiple products moved to 'Call for Pricing' or 'Get a Quote'. Search-layer snippets sometimes reveal cached prices.",
+    "Provantage": "Some product URLs returning 404. Search via Google provides cached pricing.",
+    "DRAMeXchange": "First successful access via Google Search aggregation. Session average data available for DDR5 RDIMM 32GB."
+  },
+  "macroUpdate": {
+    "dramQ2Forecast": "+58-63% QoQ (UPGRADED from +30-50%)",
+    "nandQ2Forecast": "+70-75% QoQ (unchanged)",
+    "ddr5Q2Forecast": "+40-50% (Transcend/TrendForce)",
+    "samsungStrikeRisk": "May window open — no cancel/activation update",
+    "dramSupplyGapTimeline": "Through at least 2027Q4",
+    "source": "TrendForce via Tom's Hardware 2026-04-30"
+  }
+}
