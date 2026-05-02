@@ -1,0 +1,103 @@
+{
+  "date": "2026-05-02",
+  "generatedAt": "2026-05-02T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 5, "total": 5},
+    "DDR5-5600": {"filled": 4, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Mouser (Solidigm D5-P5336 61.44TB – first pricing extraction)",
+    "Supermicro official store (Kioxia CD8P-R 7.68TB/15.36TB)",
+    "OEMPCWorld (Samsung PM9D3a 7.68TB)",
+    "Kingston Newegg product page (DDR5-5600 64GB)",
+    "Crucial.com (Micron product specs)",
+    "TrendForce contract pricing detail (enterprise SSD +48-53% Q2)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Mouser (QLC 61.44TB $32,309 – third source)",
+    "Supermicro official store (CD8P-R 7.68TB $3,264 / 15.36TB $7,525)",
+    "OEMPCWorld (PM9D3a 7.68TB $1,367 – OOS but referenceable)",
+    "Kingston Newegg (64GB $1,440 low-tier emergence)",
+    "ServerSupply search layer (Hynix 128GB DDR5-5600 $5,100)"
+  ],
+  "keyChangesVsYesterday": [
+    "全表18个主列数值维持不变——突破锚点连续第二天验证",
+    "DDR5-5600 64GB: Kingston $1,440 低端首次出现（较 tracking $1,700-$2,300 带显著下移）",
+    "DDR5-5600 128GB: ServerSupply Hynix $5,100 获得首个 clean 单条锚点（tracking 偏高 12%）",
+    "PCIe5 TLC 7.68TB: 可见范围从 $3,264-$9,300 扩展至 $1,367-$9,300（6.8x 裂口）",
+    "PCIe5 TLC 15.36TB: 首次形成 PM1743 $7,129 + CD8P-R $7,525 紧凑双源互证（偏差仅 5.6%）",
+    "PCIe4 QLC 61.44TB: 升级为三源验证（Newegg + ServerSupply + Mouser），tracking 滞后仅 4%",
+    "NAND 宏观细化：企业级 SSD 合同价 Q2 +48-53% QoQ（更贴近实际采购口径）",
+    "DiscTech JS 渲染第二天未恢复；Samsung 罢工风险无新进展"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "NEMIX 32GB 锚点连续第二天稳定；DRAM Q2 +58-63% 宏观不变；Samsung 5 月罢工风险。上行趋势明确但 32GB 单源、128GB 裂口仍大——分批降低单点高价风险",
+      "risks": ["32GB 仅 NEMIX 单源", "CoreWaveLabs 6400 产品疑似缺货", "128GB 品牌裂口 1.6x"]
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "DRAMeXchange 32GB 锚点稳定；64GB Kingston $1,440 低端出现说明渠道价差空间大——可灵活择时；CDW Micron $2,847 premium 带仍坚挺",
+      "risks": ["64GB Kingston $1,440 口径待确认", "128GB tracking 偏高 12%"]
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "DiscTech JS 渲染两天未恢复；Samsung PM9A3 价格极宽说明市场剧烈分化；NAND Q2 +70-75% 无减速信号；企业级 SSD 合同价 +48-53% Q2 确认",
+      "risks": ["Tracking 严重滞后 26-216%", "公开渠道 new/refurb/OEM 混杂", "CDW PM9A3 仍 RFQ"]
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB 第二天单源；7.68TB 裂口 6.8x 无参考价值；15.36TB 双源互证紧凑（偏差 5.6%）是唯一可参考容量位。仅建议刚需联系分销商直询",
+      "risks": ["30.72TB 单源脆弱", "Kingston DC3000ME 30.72TB 新品未定价", "公开市场整体不适合常规采购"]
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB 升级为三源验证（最强单列）；tracking 滞后仅 4%（最接近实时）；NAND 超级周期持续但 QLC 涨幅相对 TLC 温和。分批锁单控制时间风险",
+      "risks": ["30.72TB tracking 滞后约 32%", "122.88TB 无新 repricing", "高容量位流动性极低"]
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "非主流企业级零售规格，长期无公开报价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Saitech 单源持续，今日未重新获取"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Tracking 有值（¥113,896）但已知滞后 26-216%；VDURA $17,500 作为 real-time reference"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "single_source",
+      "note": "ServerSupply 单源第二天；急需交叉验证"
+    }
+  ],
+  "notes": "巩固日——突破锚点连续第二天验证。全天主列价格持平但多源数据显著丰富。DDR5-5600 64GB 首次出现 Kingston $1,440 低端；DDR5-5600 128GB 首次获 Hynix $5,100 干净锚点；PCIe5 TLC 15.36TB 首次双源紧凑互证；PCIe4 QLC 61.44TB 升级三源。宏观：企业级 SSD 合同价 Q2 +48-53% 细化数据补充（vs NAND wafer +70-75%），更贴近实际采购口径。DiscTech JS 渲染第二天未恢复。"
+}
