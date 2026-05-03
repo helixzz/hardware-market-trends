@@ -1,0 +1,122 @@
+{
+  "date": "2026-05-03",
+  "generatedAt": "2026-05-03T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "note": "16GB 首次获得企业级样本但无tracking列"},
+    "DDR5-5600": {"filled": 3, "total": 3, "note": "96GB 29天后恢复（NEMIX $3,200）但无tracking列"},
+    "PCIe4 TLC": {"filled": 4, "total": 4, "note": "7.68TB tracking lag 42-150%；15.36TB lag 7-30%"},
+    "PCIe5 TLC": {"filled": 4, "total": 4, "note": "30.72TB 从单源升级为双源"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "61.44TB 三源+新增outlier低端"}
+  },
+  "newSourcesTried": [
+    "Viperatech",
+    "SHI",
+    "HPE store",
+    "Dell OEM listings",
+    "NEMIX RAM (new SKUs)",
+    "TechAtlantix (new data point)",
+    "Walmart (Micron SSD)",
+    "ThinkEdu (reference)",
+    "eBay (refurb reference)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Viperatech (Micron DDR5-6400 64GB $2,295)",
+    "SHI (Kingston DC3000ME 30.72TB $14,959 — breakthrough dual-source)",
+    "NEMIX RAM (DDR5-5600 96GB $3,200 — 29-day gap fill)",
+    "HPE/Dell OEM (DDR5-5600 96GB reference prices)"
+  ],
+  "keyChangesVsYesterday": [
+    "⭐ DDR5-5600 96GB 29天后首次获得公开定价（NEMIX $3,200 ≈ ¥26,028）",
+    "⭐ PCIe5 TLC 30.72TB 从单源升级为双源验证（Kingston DC3000ME $14,959 加入 Micron 9550 Pro $16,600）",
+    "🔧 Samsung strike risk CLOSED — 实际为 Samsung Biologics（生物制药）罢工，非 Samsung Electronics",
+    "📊 DDR5-6400 16GB 首次在扩展期内获得企业级公开样本",
+    "📊 DDR5-6400 32GB 新增 Micron $1,214 低带样本（vs NEMIX $1,488 anchor）",
+    "⚠️ PCIe4 TLC 7.68TB tracking lag 量化升级至 42-150%（$3,159-$5,550 vs tracking $2,215）",
+    "🆕 Kioxia 2026 全年 NAND 产能已售罄至 2027 — 结构性供给危机确认",
+    "🔧 PCIe5 TLC 30.72TB tracking 值从 ¥135,058 → ¥128,313（双源中点）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "3天锚点稳定+多源验证+DRAM Q2 +58-63%上行压力+Micron $1,214低带存在但不可靠。建议分批锁定",
+      "risk": "样本集中于Newegg/ServerSupply渠道；16GB仍无clean enterprise anchor；向上压力仍在积蓄"
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "3天锚点稳固+96GB缺口恢复+64/128可见但不便宜。建议拆分执行分散timing风险",
+      "risk": "32GB裂口$893-$2,188持续；96GB仅单源新样本需验证持续性"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "tracking lag 42-150%意味着任何延迟都产生实质溢价；Kioxia 2026全产能售罄+NAND Q2 +70-75%。最紧迫建议",
+      "risk": "DiscTech JS渲染离线3天+CDW转RFQ+tracking严重滞后+供给结构性收缩"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB双源成立是积极信号+15.36TB compact双源可用。但7.68TB 6.8x裂口使大部分容量位无采购参考价值",
+      "risk": "Kingston DC3000ME新上市需验证持续性+Newegg反爬阻碍直抓+Wiredzone Email For Price"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB最强列三源+tracking lag仅4-4.5%+NAND超级周期传导+供给结构性紧缩",
+      "risk": "TechAtlantix $16,500 outlier扰动+15.36/30.72TB tracking可能滞后"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今日首次获得企业级样本（ServerSupply Micron $1,125 + NEMIX $600）但价差过大且无tracking列。如需求出现可考虑建列"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "now_filled",
+      "note": "⭐ 29天后首次恢复。NEMIX $3,200单条≈¥26,028，HPE $3,665/Dell $4,100提供旁证。需要明日确认持续性"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "tracking_lag",
+      "note": "值存在但42-150%偏离实时市场。Solidigm $3,159-$4,995 / Samsung PM9A3 $4,400 / Micron 7450 Pro $5,550 vs tracking $2,215 (¥18,094)"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "outlier_only",
+      "note": "$1,367-$9,300 6.8x裂口使任何单点都无法作为可靠的采购参考"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "upgraded_to_dual_source",
+      "note": "⭐ 从单源升级为双源验证。Kingston DC3000ME $14,959(SHI) + Micron 9550 Pro $16,600(ServerSupply)。需监控Kingston持续性"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "outlier_only",
+      "note": "🆕 TechAtlantix $16,500新低端与三源溢价带$24K-$32K差距达50%+，判定为outlier_only"
+    }
+  ],
+  "riskUpdates": [
+    {
+      "risk": "Samsung May 2026 labor strike",
+      "action": "CLOSED",
+      "detail": "确认罢工发生在 Samsung Biologics（生物制药部门），与 Samsung Electronics 半导体生产无关。DRAM/NAND 产出无影响。此风险项可移除。"
+    },
+    {
+      "risk": "Kioxia 2026 NAND sold out",
+      "action": "NEW",
+      "detail": "Kioxia 确认 2026 全年 NAND 产能已售罄至 2027。由预测性风险转变为可验证的结构性供给危机。影响：所有 SSD 类别。置信度：高（官方确认）。"
+    }
+  ]
+}
