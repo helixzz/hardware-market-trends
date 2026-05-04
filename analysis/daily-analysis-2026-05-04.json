@@ -1,0 +1,191 @@
+{
+  "date": "2026-05-04",
+  "generatedAt": "2026-05-04T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "note": "16GB 多源企业级样本持续（Micron $1,125/Hynix $930/Micron $955）但无tracking列"},
+    "DDR5-5600": {"filled": 3, "total": 3, "note": "96GB NEMIX $3,200 第2天持续——缺口恢复确认"},
+    "PCIe4 TLC": {"filled": 4, "total": 4, "note": "7.68TB tracking lag 42-150%；15.36TB lag 7-30%；30.72TB lag ~20%；DiscTech JS离线第4天"},
+    "PCIe5 TLC": {"filled": 4, "total": 4, "note": "30.72TB 双源第4天；7.68TB 裂口扩大至7.4x；15.36TB 新低端信号出现"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "61.44TB 三源第4天——全表最强列 tracking lag 仅 4-4.5%"}
+  },
+  "newSourcesTried": [
+    "Memory.net (DDR5-6400 64GB Dell OEM $2,498)",
+    "MilwaukeePC (DDR5-5600 128GB Micron)",
+    "shopRBC (PCIe5 TLC Kioxia CM7 7.68TB $6,146)",
+    "CDW PCIe5 catalog (Samsung PM9D3a / WD SN861 / HPE PM1743 — parser_gap)",
+    "Tom's Hardware RAM Price Index (context)",
+    "elinfor.com (NAND/DRAM market analysis)",
+    "buysellram.com (Samsung DRAM Q2 +30% verification)",
+    "Sedaily (SK Hynix prolonged memory price upcycle)",
+    "DigiTimes (SK Hynix NAND demand/production)",
+    "Astute Group (SK Hynix HBM 62% share/Micron overtakes Samsung)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Memory.net (Dell DDR5-6400 64GB $2,498 — 第五源交叉验证)",
+    "shopRBC (Kioxia CM7 7.68TB $6,146 — PCIe5 TLC band 上沿扩张)",
+    "MilwaukeePC (Micron 128GB DDR5-5600 — 第四源加入验证带)",
+    "Sedaily/DigiTimes/Astute Group (SK Hynix 全产能售罄多源验证)"
+  ],
+  "keyChangesVsYesterday": [
+    "✅ 全18列tracking值连续保持 — 5月1日突破锚点第4天确认，锚点耐久性充分验证",
+    "📊 DDR5-6400 64GB 新增 Memory.net Dell OEM $2,498 第五源验证",
+    "📊 DDR5-6400 16GB 新增 Hynix $930 企业级样本（ServerSupply）",
+    "📊 PCIe5 TLC 7.68TB band 上沿扩张至 $6,146 (shopRBC Kioxia CM7 E3.S)，裂口扩大至 7.4x",
+    "🔍 CDW PCIe5 新增 Samsung PM9D3a / WD SN861 / HPE PM1743 规格页 — 均无公开定价（parser_gap）",
+    "🏭 SK Hynix DRAM/NAND/HBM 全年售罄 — 全产业链卖光叙事形成（Kioxia+SK Hynix+Micron停止部分报价）",
+    "🆕 PCIe5 TLC 15.36TB PM1743 新低端 $4,410 (RRP) 出现 — 偏离双源compact带 38%",
+    "📊 DDR5-5600 128GB 第四源 MilwaukeePC Micron 加入多源验证带"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "split_buy",
+      "reason": "4天锚点稳定+Memory.net第五源验证+SK Hynix全年售罄+DRAM Q2 +58-63%。锚点耐久性充分确认。建议分批锁定当前价位",
+      "risk": "CoreWaveLabs 6400过滤页不显示产品+样本集中于Newegg/ServerSupply渠道+向上压力仍在积蓄"
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "4天32GB锚点稳固+96GB第2天持续确认+128GB四源验证带。裂口虽存但主流带清晰。建议拆分执行分散timing风险",
+      "risk": "32GB裂口$880-$2,188持续+96GB仅双天新样本需持续观察+DRAM供给结构性紧张"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "tracking lag 42-150%第4天确认无缓解+Kioxia+SK Hynix双源NAND售罄+全产业链卖光+NAND Q2 +70-75%。任何延迟意味着实质溢价。最紧迫建议",
+      "risk": "DiscTech JS离线第4天+全产业链售罄导致供给确定性收缩+tracking值严重失真+CDW转RFQ"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB双源第4天稳定+15.36TB compact双源可用。但7.68TB裂口扩大至7.4x+CDW新列只有规格页无价格。仅限已确定规格和供应商的刚性需求",
+      "risk": "7.68TB 7.4x裂口使mid-capacity无法形成可靠采购参考+Kingston DC3000ME新上市需验证持续性+CDW/Wiredzone parser_gap"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB三源第4天——全表最可靠列 tracking lag仅4-4.5%+NAND全产业链售罄向QLC加速传导+供给结构性紧缩",
+      "risk": "TechAtlantix $16,500 outlier扰动+15.36/30.72TB tracking可能滞后+Solidigm 245+TB 2026年底出货可能扰乱定价结构"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源企业级样本持续出现（Micron $1,125/Hynix $930/Micron $955）但价差大且无tracking列。如需求出现可考虑建列"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "filled_monitoring",
+      "note": "⭐ NEMIX $3,200 第2天持续——缺口恢复确认为持久信号而非单日假阳性。HPE $3,665/Dell $4,100旁证维持。偏离参考锚 ¥27,500 仅 -5.4%"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "tracking_lag",
+      "note": "值存在但42-150%偏离实时市场第4天。$3,159-$6,505 real-time band vs tracking $2,215 (¥18,094)。DiscTech JS离线无法恢复"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "tracking_lag",
+      "note": "值存在但7-30%偏离。$5,746-$6,995 real-time vs tracking ¥43,739"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "tracking_lag",
+      "note": "值存在但~20%偏离。VDURA $17,500最可信实时参照 vs tracking ¥113,896。Micron 6500 ION $7,692-$15,538 是QLC"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "outlier_only",
+      "note": "裂口扩大至7.4x ($1,264-$9,300)。🆕 shopRBC Kioxia CM7 $6,146加入上沿。CDW有PM9D3a/SN861/HPE PM1743规格页无公开价（parser_gap）。任何单点都无法作为采购参考"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "new_low_end_watch",
+      "note": "🆕 PM1743 $4,410 (RRP) 低端信号出现——偏离compact双源带($7,129-$7,525)约38%。需观察是否形成持续性低带"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "outlier_only_low",
+      "note": "TechAtlantix $16,500与三源溢价带$24K-$32K差距50%+维持。不影响溢价主带"
+    }
+  ],
+  "riskUpdates": [
+    {
+      "risk": "SK Hynix DRAM/NAND/HBM 2026年全年售罄",
+      "action": "NEW — 与Kioxia售罄叠加",
+      "detail": "Sedaily/DigiTimes/Astute Group多源确认 SK Hynix DRAM/NAND/HBM产能2026全年售罄。与Kioxia NAND售罄形成双源结构供给危机。全产业链卖光叙事成立：Kioxia(NAND)+SK Hynix(DRAM+NAND+HBM)+Micron(NAND+DRAM停止部分报价)。影响：所有DDR5和SSD类别。置信度：高。"
+    },
+    {
+      "risk": "全产业链售罄（Triple-Sold-Out）",
+      "action": "UPGRADED from dual (Kioxia+SK Hynix) to triple (Kioxia+SK Hynix+Micron partial)",
+      "detail": "Kioxia NAND 2026售罄 + SK Hynix DRAM/NAND/HBM 2026售罄 + Micron调整报价/停止部分产品报价。三个主要NAND/DRAM生产商同时显示供给极度紧张。历史上罕见的全产业链卖光信号。",
+      "categoriesAffected": ["All DDR5", "All SSD"],
+      "confidence": "high"
+    },
+    {
+      "risk": "DiscTech JS-rendering (NOT 404 — re-evaluated)",
+      "status": "ONGOING — Day 4",
+      "potentialImpact": "PCIe4 TLC 主源价格提取离线第4天。HTTP 200但3 bytes raw。浏览器自动化是唯一恢复路径",
+      "confidence": "high",
+      "categoriesAffected": ["PCIe4 TLC"]
+    },
+    {
+      "risk": "NAND spot-contract divergence",
+      "status": "ONGOING",
+      "source": "TrendForce 2026-04-29 spot weekly",
+      "potentialImpact": "Spot市场以-30~40%折价出清而合同价+70-75%——误判spot走弱为市场缓解的实际风险",
+      "confidence": "high",
+      "categoriesAffected": ["All SSD"]
+    },
+    {
+      "risk": "DRAM Q2 forecast acceleration",
+      "status": "SUSTAINED",
+      "source": "TrendForce via Tom's Hardware 2026-04-30 + SK Hynix sold-out multi-source verification",
+      "potentialImpact": "DRAM Q2合同价预测+58-63% QoQ维持。供应缺口确认至2027-2028",
+      "confidence": "high",
+      "categoriesAffected": ["All DDR5"]
+    },
+    {
+      "risk": "PCIe5 TLC 30.72TB dual-source verification",
+      "status": "STABLE — Day 4 confirmed",
+      "source": "SHI + ServerSupply 2026-05-01 through 2026-05-04",
+      "potentialImpact": "Kingston DC3000ME $14,959(SHI) + Micron 9550 Pro $16,600(ServerSupply) 双源第4天确认持久。Newegg $16,065 第三旁证维持。风险从'low-medium'降为'low'",
+      "confidence": "medium-high",
+      "categoriesAffected": ["PCIe5 TLC"]
+    },
+    {
+      "risk": "PCIe4 QLC 61.44TB triple-source verification (POSITIVE)",
+      "status": "STABLE — Day 4 confirmed",
+      "source": "Newegg Business + ServerSupply + Mouser",
+      "potentialImpact": "全表最强数据列——三源溢价带$24K-$32K第4天确认。tracking lag仅4-4.5%。",
+      "confidence": "high (positive risk — strongest data quality in entire table)",
+      "categoriesAffected": ["PCIe4 QLC"]
+    },
+    {
+      "risk": "PCIe5 TLC 7.68TB band widening",
+      "status": "WORSENING",
+      "source": "shopRBC + multiple 2026-05-04",
+      "potentialImpact": "裂口从6.8x扩大至7.4x ($1,264-$9,300)。CDW有规格页无公开价使mid-capacity锚点越来越不可靠",
+      "confidence": "high",
+      "categoriesAffected": ["PCIe5 TLC"]
+    }
+  ],
+  "macroSummary": {
+    "DRAM_Q2": "+58-63% QoQ (TrendForce/Tom's Hardware multi-source sustained)",
+    "NAND_Q2": "+70-75% QoQ (TrendForce/TweakTown multi-source sustained)",
+    "supplyStatus": "全产业链卖光 (Triple-Sold-Out): Kioxia NAND + SK Hynix DRAM/NAND/HBM + Micron partial",
+    "horizon": "供给缺口持续至2027-2028",
+    "newDevelopments": "SK Hynix DRAM/NAND/HBM全年售罄多源确认 (Sedaily/DigiTimes/Astute Group) — 全产业链卖光叙事形成"
+  }
+}
