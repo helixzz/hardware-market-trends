@@ -1,0 +1,217 @@
+{
+  "date": "2026-05-05",
+  "generatedAt": "2026-05-05T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "note": "NEMIX 32GB $1,488 第5天确认；五源64GB验证带 $2,107-$2,550。16GB 企业级样本持续（Micron $956-$1,125）但无tracking列"},
+    "DDR5-5600": {"filled": 3, "total": 3, "note": "32GB DRAMeXchange $970 第5天 + Memory.net $1,424 零售参考；96GB NEMIX $3,200 第3天持续——缺口恢复确认；128GB Memory.net $4,408-$5,208 加入四源验证带"},
+    "PCIe4 TLC": {"filled": 4, "total": 4, "note": "⚠️ tracking lag 恶化：7.68TB 62-147% (下沿+13%)；15.36TB 28-55% (上沿+19%至$8,353)；30.72TB ~20%。DiscTech JS离线第5天"},
+    "PCIe5 TLC": {"filled": 4, "total": 4, "note": "30.72TB 双源第5天 + SHI Micron 9550 Pro $19,573 第三参考；🆕 Insight Kingston DC3000ME 7.68TB $3,430；搜索结果窄化至2.7x但极端样本可能被低估"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "61.44TB 三源第5天——全表最强列 tracking lag 仅 4-4.5%"}
+  },
+  "newSourcesTried": [
+    "Memory.net (DDR5-5600 全类零售参考: 32GB $1,424 / 64GB $2,408 / 128GB $4,408-$5,208)",
+    "SHI (Micron 9550 Pro 30.72TB $19,573 — 同品牌不同渠道价差参考)",
+    "Insight (Kingston DC3000ME 7.68TB $3,429.99 — 新数据点)",
+    "A-Tech Memory (DDR5-6400 64GB $2,106.71 — 复核，微降4% vs 昨 $2,194)",
+    "Counterpoint Research (Nvidia LPDDR 转向预警 — 服务器内存2026年底翻倍)",
+    "TrendForce DRAM Q1 revision (+90-95% QoQ — 历史最大季涨)",
+    "Dell refurb channel (PCIe4 TLC 7.68TB $3,500)",
+    "DiscTech (复核 — JS渲染离线第5天)",
+    "CDW PCIe5 catalog (复核 — parser_gap 持续)",
+    "Provantage (复核 — 旧样本不更新)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Memory.net DDR5-5600 全类零售参考 (32GB $1,424 / 64GB $2,408 / 128GB $4,408-$5,208)",
+    "SHI Micron 9550 Pro 30.72TB $19,573 (同品牌第三参考点)",
+    "Insight Kingston DC3000ME 7.68TB $3,430 (新 PCIe5 数据点)",
+    "TrendForce DRAM Q1 +90-95% QoQ 修订 (历史性宏观升级)",
+    "Counterpoint Nvidia LPDDR 转向预警"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡ DRAM Q1 合同价升级至 +90-95% QoQ — 有记录以来最大季度涨幅 (此前仅跟踪 Q2 +58-63% 预报)",
+    "✅ 全18列tracking值连续第5天保持 — 5月1日突破锚点5天确认，耐久性最强验证",
+    "⚠️ PCIe4 TLC 15.36TB real-time 上沿 $6,995→$8,353 (+19%) — tracking lag 恶化",
+    "⚠️ PCIe4 TLC 7.68TB real-time 下沿 $3,159→$3,584 (+13%) — lag 继续恶化",
+    "📊 DDR5-5600: Memory.net 提供新零售参考带 — 32GB $1,424 vs DRAMeXchange $970 (47% split)",
+    "📊 PCIe5 TLC 30.72TB: SHI Micron 9550 Pro $19,573 第三参考点出现 (SS $16,600 vs SHI $19,573 = 18% 渠道价差)",
+    "🆕 PCIe5 TLC 7.68TB: Insight Kingston DC3000ME $3,430 新数据点 — 7.68TB 搜索结果窄化至 2.7x",
+    "📊 DDR5-5600 96GB NEMIX $3,200 第3天持续 — 29天缺口恢复后第3天确认持久",
+    "🆕 Counterpoint: Nvidia LPDDR 转向可能导致服务器内存价格 2026 年底翻倍",
+    "📊 DDR5-6400 A-Tech 64GB $2,107 (微降4% vs 昨$2,194) — 五源验证带下沿微调"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "5天锚点确认 + DRAM Q1 +90-95% QoQ历史最大季涨 + Nvidia LPDDR转向进一步收紧供给 + SK Hynix全年售罄。此前split_buy在Q1+90-95%宏观升级下不再保守。任何延迟意味着显著溢价风险",
+      "risk": "CoreWaveLabs 6400过滤页不显示产品 + 样本集中于Newegg/ServerSupply渠道 + 五源验证带虽有但宽度$2,107-$2,550"
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "5天32GB锚点稳固 + 96GB第3天持续确认 + 128GB四源验证带 + Memory.net零售参考丰富。DRAM Q1+90-95%宏观压力下建议拆分执行",
+      "risk": "32GB contract vs retail裂口47% ($970 DRAMeXchange vs $1,424 Memory.net) — 需要分清采购渠道口径 + 96GB仅双天新样本需持续观察"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ 15.36TB real-time上沿$6,995→$8,353(+19%) + 7.68TB下沿$3,159→$3,584(+13%) — tracking lag恶化 + Kioxia+SK Hynix双源NAND售罄 + NAND Q2 +70-75% + DiscTech JS离线第5天。当前tracking值已严重失真。最紧迫建议",
+      "risk": "DiscTech JS离线第5天 + 全产业链卖光导致供给确定性收缩 + tracking值严重失真 (7.68TB lag 62-147%, 15.36TB lag 28-55%) + CDW转RFQ"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB双源第5天稳定 + SHI第三参考点 + 15.36TB compact双源可用。但7.68TB band仍宽 + 市场离散度可能被搜索引擎低估。仅限已确定规格和供应商的刚性需求",
+      "risk": "7.68TB 2.7x+裂口使 mid-capacity 无法形成可靠采购参考 + Kingston DC3000ME 新上市需验证持续性 + CDW/Wiredzone parser_gap + SHI/SS同品牌18%渠道价差"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB三源第5天——全表最可靠列 tracking lag仅4-4.5% + NAND全产业链卖光向QLC加速传导 + 供给结构性紧缩",
+      "risk": "TechAtlantix $16,500 outlier扰动 + 15.36/30.72TB tracking可能滞后 + Solidigm 245+TB 2026年底出货可能扰乱定价结构"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源企业级样本持续（Micron $956-$1,125 / Hynix $930）。无 tracking 列。如需求出现可建列"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "filled_monitoring",
+      "note": "⭐ NEMIX $3,200 第3天持续——29天缺口恢复后第3天确认持久信号。HPE $3,665/Dell $4,100 旁证维持。偏离参考锚 ¥27,500 仅 -5.4%"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB (retail vs contract)",
+      "reasonCode": "split_observed",
+      "note": "🆕 DRAMeXchange $970 session avg vs Memory.net $1,424 retail listing — 47% split 首次量化确认。两者代表不同市场层级均合理"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "tracking_lag",
+      "note": "⚠️ Lag 恶化: 62-147% (昨42-150%)。下沿$3,159→$3,584(+13%)。Real-time $3,584-$5,500 vs tracking $2,215 (¥18,094)。DiscTech JS离线第5天"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "tracking_lag",
+      "note": "⚠️ Lag 恶化: 28-55% (昨7-30%)。上沿$6,995→$8,353(+19%)。Real-time $6,874-$8,353 vs tracking ¥43,739"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "tracking_lag",
+      "note": "值存在但~20%偏离。VDURA $17,500 最可信实时参照 vs tracking ¥113,896"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "outlier_only",
+      "note": "🆕 搜索结果窄化至2.7x ($2,270-$6,146) vs 昨日 7.4x。但极端样本（$1,264/$9,300）可能未被今日搜索触达。Insight Kingston DC3000ME $3,430 新数据点"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "multi_source",
+      "note": "⭐ 双源第5天 + SHI第三参考 ($19,573): $14,959(Kingston/SHI)+$16,600(Micron/SS)+$19,573(Micron/SHI)。Midpoint ($14,959+$16,600)/2=$15,780=¥128,313。SS vs SHI 同品牌 18% 渠道价差"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "outlier_only_low",
+      "note": "TechAtlantix $16,500 与三源溢价带 $24K-$32K 差距 50%+ 维持。不影响溢价主带。第5天持续"
+    }
+  ],
+  "riskUpdates": [
+    {
+      "risk": "DRAM Q1 +90-95% QoQ — 历史最大季度涨幅",
+      "action": "NEW — TrendForce 修订",
+      "detail": "TrendForce 2026年2月修订 DRAM Q1合同价预报至+90-95% QoQ，为有记录以来最大季涨。PC DRAM部分类别+100%+。此前跟踪的Q2+58-63%为延续预报。Q1已实际发生（Q1已结束），当前市场价已包含Q1涨价绝大部分。关键问题：Q2+58-63%是否也在被低估？",
+      "categoriesAffected": ["All DDR5"],
+      "confidence": "high"
+    },
+    {
+      "risk": "Nvidia LPDDR 转向导致服务器内存供应进一步收紧",
+      "action": "NEW — Counterpoint Research",
+      "detail": "Counterpoint预测 Nvidia 在 AI 服务器中转向 LPDDR 可能使服务器内存价格 2026 年底翻倍。这从结构性需求端进一步压缩 DDR5 供给。与 SK Hynix/Kioxia 产能售罄形成供需双杀。",
+      "categoriesAffected": ["All DDR5"],
+      "confidence": "medium-high"
+    },
+    {
+      "risk": "全产业链售罄 (Triple-Sold-Out)",
+      "action": "SUSTAINED — Day 2",
+      "detail": "Kioxia NAND 2026售罄 + SK Hynix DRAM/NAND/HBM 2026售罄 + Micron调整报价/停止部分产品报价。全产业链卖光叙事成立。",
+      "categoriesAffected": ["All DDR5", "All SSD"],
+      "confidence": "high"
+    },
+    {
+      "risk": "PCIe4 TLC tracking lag 恶化",
+      "action": "WORSENING",
+      "detail": "7.68TB real-time 下沿 +13% ($3,159→$3,584)；15.36TB real-time 上沿 +19% ($6,995→$8,353)。DiscTech JS离线第5天。Tracking值严重失真。",
+      "categoriesAffected": ["PCIe4 TLC"],
+      "confidence": "high"
+    },
+    {
+      "risk": "DiscTech JS-rendering",
+      "status": "ONGOING — Day 5",
+      "potentialImpact": "PCIe4 TLC 主源价格提取离线第5天。HTTP 200但3 bytes raw。浏览器自动化是唯一恢复路径。",
+      "confidence": "high",
+      "categoriesAffected": ["PCIe4 TLC"]
+    },
+    {
+      "risk": "NAND spot-contract divergence",
+      "status": "ONGOING",
+      "source": "TrendForce 2026-04-29 spot weekly",
+      "potentialImpact": "Spot市场以-30~40%折价出清而合同价+70-75%——误判spot走弱为市场缓解的实际风险",
+      "confidence": "high",
+      "categoriesAffected": ["All SSD"]
+    },
+    {
+      "risk": "PCIe5 TLC 30.72TB multi-source verification (POSITIVE)",
+      "status": "STABLE — Day 5 + 第三参考",
+      "source": "SHI + ServerSupply + Newegg 2026-05-01 through 2026-05-05",
+      "potentialImpact": "Kingston DC3000ME $14,959(SHI) + Micron 9550 Pro $16,600(SS) + Micron 9550 Pro $19,573(SHI)。双源锚点$14,959-$16,600第5天确认持久。SS vs SHI同品牌18%渠道价差不影响双源核心带。",
+      "confidence": "medium-high",
+      "categoriesAffected": ["PCIe5 TLC"]
+    },
+    {
+      "risk": "PCIe4 QLC 61.44TB triple-source verification (POSITIVE)",
+      "status": "STABLE — Day 5",
+      "source": "Newegg Business + ServerSupply + Mouser",
+      "potentialImpact": "全表最强数据列——三源溢价带 $24K-$32K 第5天确认。tracking lag 仅 4-4.5%。",
+      "confidence": "high (positive risk — strongest data quality in entire table)",
+      "categoriesAffected": ["PCIe4 QLC"]
+    },
+    {
+      "risk": "PCIe5 TLC 7.68TB band volatility",
+      "status": "VOLATILE — 搜索结果窄化但市场仍极度离散",
+      "source": "Multiple 2026-05-05",
+      "potentialImpact": "今日搜索结果窄化至2.7x ($2,270-$6,146) vs 昨日7.4x。但极端样本($1,264/$9,300)可能未被搜索触达。Insight Kingston DC3000ME $3,430新数据点出现。",
+      "confidence": "medium",
+      "categoriesAffected": ["PCIe5 TLC"]
+    },
+    {
+      "risk": "DDR5-5600 32GB contract vs retail split",
+      "status": "NEW",
+      "source": "Memory.net + DRAMeXchange 2026-05-05",
+      "potentialImpact": "DRAMeXchange session avg $970 vs Memory.net retail listing $1,424 — 47% split 首次量化。两个数据点代表不同市场层级，需要采购方根据实际渠道选择参考口径。",
+      "categoriesAffected": ["DDR5-5600"],
+      "confidence": "high"
+    }
+  ],
+  "macroSummary": {
+    "DRAM_Q1": "+90-95% QoQ (TrendForce Feb 2026 revision — largest quarterly increase on record)",
+    "DRAM_Q2": "+58-63% QoQ (TrendForce sustained forecast)",
+    "NAND_Q2": "+70-75% QoQ (TrendForce/TweakTown multi-source sustained)",
+    "supplyStatus": "全产业链卖光 (Triple-Sold-Out): Kioxia NAND + SK Hynix DRAM/NAND/HBM + Micron partial — Day 2",
+    "horizon": "供给缺口持续至 2027-2028",
+    "newDevelopments": "⚡ DRAM Q1 +90-95% — 历史最大季涨 (TrendForce修订) + 🆕 Nvidia LPDDR转向可能使服务器内存价格2026年底翻倍 (Counterpoint)"
+  }
+}

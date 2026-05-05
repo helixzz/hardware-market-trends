@@ -1,16 +1,19 @@
 {
-  "generatedAt": "2026-05-04T09:00:00+08:00",
+  "generatedAt": "2026-05-05T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 44,
+  "trackingRows": 45,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-05-04",
-      "latestCoverage": {"filled": 3, "total": 3},
+      "latestDate": "2026-05-05",
+      "latestCoverage": {
+        "filled": 3,
+        "total": 3
+      },
       "averageCoverage14d": 3.79,
       "trend": "up",
-      "trendNote": "NEMIX 32GB $1,488 anchor confirmed 4th consecutive day. 🆕 Memory.net Dell 64GB $2,498 5th source cross-validation. 🆕 Hynix 16GB $930 new low-end enterprise sample. DRAM Q2 +58-63% sustained. SK Hynix DRAM/NAND/HBM 2026 entirely sold out. All-chain sell-out narrative forming.",
-      "sourceHealthNote": "CoreWaveLabs JS-rendered (not broken). NEMIX RAM Newegg provides reliable 32GB access. Viperatech + Memory.net provide dual 64GB independent sources. ServerSupply 16GB multi-source (Micron $1,125/Hynix $930/Micron $955).",
+      "trendNote": "NEMIX 32GB ,488 5th consecutive day confirmed. DRAM Q1 +90-95% QoQ — largest quarterly increase on record. A-Tech 64GB ,107 (slight -4% vs yesterday). Viperatech/Memory.net/CDW/Crucial 5-source band ,107-,550. 128GB new listing ,208. SK Hynix DRAM sold out.",
+      "sourceHealthNote": "CoreWaveLabs JS-rendered (6400 filter degraded). NEMIX RAM Newegg provides reliable 32GB access. Viperatech + Memory.net + CDW + Crucial + A-Tech provide 5-source 64GB verification. 16GB multi-source enterprise samples (Micron -,125/Hynix ).",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -28,18 +31,42 @@
       },
       "missingColumns": [],
       "columns": {
-        "DDR5-6400 32GB": {"latestValue": 12122, "previousValue": 12122, "rollingMedian14d": 11435, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "note": "NEMIX RAM $1,488 (≈¥12,122) via Newegg — third consecutive day confirmed. Anchor status: 'stable'. 🆕 New lower band: ServerSupply Micron $1,214 (≈¥9,875). Spread $1,214-$1,488 = 22.6%."},
-        "DDR5-6400 64GB": {"latestValue": 18608, "previousValue": 18608, "rollingMedian14d": 18608, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "note": "A-Tech $2,194 + 🆕 Viperatech Micron $2,295 + CDW $2,453 + Samsung OEM $2,900 multi-source band validated. Tracking $2,278 at mid-lower end of visible band."},
-        "DDR5-6400 128GB": {"latestValue": 52651, "previousValue": 52651, "rollingMedian14d": 52651, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "note": "Range $4,388(A-Tech)-$7,116(CDW Micron) = 1.6x brand spread; tracking anchored to premium band"}
+        "DDR5-6400 32GB": {
+          "latestValue": 12122,
+          "previousValue": 12122,
+          "rollingMedian14d": 11435,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "note": "NEMIX RAM ,488 (≈¥12,122) via Newegg — 5th consecutive day confirmed. Anchor status: highly stable. Lower band: ServerSupply Micron ,180-,650 spread ,180-,488 = 26%."
+        },
+        "DDR5-6400 64GB": {
+          "latestValue": 18608,
+          "previousValue": 18608,
+          "rollingMedian14d": 18608,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "note": "A-Tech ,107 (-4% vs yesterday) + Viperatech Micron ,295 + Memory.net Dell ,498 + CDW ,453 + Crucial ,400 — 5-source band ,107-,550 confirmed."
+        },
+        "DDR5-6400 128GB": {
+          "latestValue": 52651,
+          "previousValue": 52651,
+          "rollingMedian14d": 52651,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "note": "Range ,388(A-Tech)-,116(CDW Micron) = 1.6x brand spread; new listing ,208 near tracking anchor."
+        }
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-05-04",
-      "latestCoverage": {"filled": 3, "total": 3},
+      "latestDate": "2026-05-05",
+      "latestCoverage": {
+        "filled": 3,
+        "total": 3
+      },
       "averageCoverage14d": 2.79,
       "trend": "flat_or_mixed",
-      "trendNote": "DRAMeXchange 32GB $970 anchor confirmed 4th consecutive day. ⭐ 96GB NEMIX $3,200 2nd day sustained — gap fill confirmed as persistent. 🆕 128GB MilwaukeePC Micron 4th source joins multi-source band. 64GB Kingston $1,440 vs CDW $2,847 split persists. SK Hynix DRAM sold out reinforces supply tightness.",
+      "trendNote": "DRAMeXchange 32GB  5th consecutive day. NEW: Memory.net retail reference 32GB ,424/64GB ,408/128GB ,408-,208 — 47% contract vs retail split quantified. 96GB NEMIX ,200 3rd day sustained. 128GB Memory.net joins 4-source band. SK Hynix DRAM sold out.",
       "latestValues": {
         "DDR5-5600 32GB": 7898,
         "DDR5-5600 64GB": 19168,
@@ -55,21 +82,54 @@
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
-      "missingColumns": ["DDR5-5600 96GB"],
+      "missingColumns": [
+        "DDR5-5600 96GB"
+      ],
       "columns": {
-        "DDR5-5600 32GB": {"latestValue": 7898, "previousValue": 7898, "rollingMedian14d": 7898, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "note": "DRAMeXchange $970 session avg — third consecutive day. Anchor stability confirmed. Crack $893-$2,188 persists but centering reference solid."},
-        "DDR5-5600 64GB": {"latestValue": 19168, "previousValue": 19168, "rollingMedian14d": 19168, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "note": "Kingston $1,440 (Newegg) low-tier vs CDW Micron $2,847 premium band. 1.98x split between low and premium tiers."},
-        "DDR5-5600 128GB": {"latestValue": 46600, "previousValue": 46600, "rollingMedian14d": 46600, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "note": "ServerSupply Hynix 128GB $5,100 (≈¥41,494) — second consecutive day single-stick anchor. Tracking ¥46,600 ≈ 12% above."},
-        "DDR5-5600 96GB": {"latestValue": 26028, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "status": "⭐ RECOVERED after 29-day gap. NEMIX single-stick $3,200 (≈¥26,028) via Newegg. HPE $3,665 (≈¥29,807) + Dell OEM $4,100 (≈¥33,333) cross-reference. Refurb $1,990-$3,640 exists but excluded. Anchor ¥27,500 within -5.4% — confirms reference."}
-      }
+        "DDR5-5600 32GB": {
+          "latestValue": 7898,
+          "previousValue": 7898,
+          "rollingMedian14d": 7898,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "note": "DRAMeXchange  session avg 5th day. NEW Memory.net ,424 retail listing — 47% split confirmed. Crack -,188 persists across contract/retail tiers."
+        },
+        "DDR5-5600 64GB": {
+          "latestValue": 19168,
+          "previousValue": 19168,
+          "rollingMedian14d": 19168,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "note": "Kingston ,440 (Newegg) low-tier vs Memory.net ,408 / CDW Micron ,847 premium band. 1.67x-1.98x split between tiers."
+        },
+        "DDR5-5600 128GB": {
+          "latestValue": 46600,
+          "previousValue": 46600,
+          "rollingMedian14d": 46600,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "note": "Hynix ,100 (SS) 3rd day + Memory.net ,408-,208 — 4-source band confirmed. Tracking ¥46,600 at upper edge of Memory.net band."
+        },
+        "DDR5-5600 96GB": {
+          "latestValue": 26028,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "status": "⭐ RECOVERED after 29-day gap. NEMIX single-stick $3,200 (≈¥26,028) via Newegg. HPE $3,665 (≈¥29,807) + Dell OEM $4,100 (≈¥33,333) cross-reference. Refurb $1,990-$3,640 exists but excluded. Anchor ¥27,500 within -5.4% — confirms reference.",
+          "note": "⭐ NEMIX ,200 3rd consecutive day — gap recovery confirmed persistent after 29-day drought. HPE ,665/Dell ,100 cross-ref. Anchor ¥27,500 within -5.4%."
+        }
+      },
+      "sourceHealthNote": "DRAMeXchange session avg stable. Memory.net provides new retail reference tier. NEMIX 96GB 3rd day confirmed persistent. 128GB 4-source band (,408-,208) verified."
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-05-04",
-      "latestCoverage": {"filled": 4, "total": 4},
+      "latestDate": "2026-05-05",
+      "latestCoverage": {
+        "filled": 4,
+        "total": 4
+      },
       "averageCoverage14d": 3.86,
       "trend": "flat",
-      "trackingLagWarning": "⚠️ DAY 4 — 7.68TB tracking lag 42-150% confirmed no relief. Real-time $3,159-$6,505 vs tracking $2,215 (¥18,094). 15.36TB lag 7-30%. 30.72TB VDURA $17,500 vs tracking ~$14K (~20%). Kioxia NAND sold out + SK Hynix DRAM/NAND/HBM sold out = FULL-CHAIN structural crisis. DiscTech day 4 JS-rendered offline. BUY_NOW urgency MAXIMUM.",
+      "trackingLagWarning": "⚠️ DAY 5 — tracking lag WORSENED: 7.68TB 62-147% (low-end +13% ,159→,584); 15.36TB 28-55% (high-end +19% ,995→,353). DiscTech day 5 JS-rendered offline. BUY_NOW urgency MAXIMUM.",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -90,19 +150,56 @@
       },
       "missingColumns": [],
       "columns": {
-        "PCIe4 TLC 3.84TB": {"latestValue": 18705, "previousValue": 18705, "rollingMedian14d": 18705, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0},
-        "PCIe4 TLC 7.68TB": {"latestValue": 18094, "previousValue": 18094, "rollingMedian14d": 18094, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "trackingLagSeverity": "CRITICAL", "trackingLagRange": "42-150%", "realTimeBand": "$3,159-$5,550 (≈¥25,677-¥45,123)", "newSamples": "🆕 Solidigm D7-P5520 $3,159-$4,995 + Samsung PM9A3 $4,400 + Micron 7450 Pro $5,550 E1.S — multi-source real-time validation"},
-        "PCIe4 TLC 15.36TB": {"latestValue": 43739, "previousValue": 43739, "rollingMedian14d": 43739, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "trackingLagRange": "7-30%", "realTimeBand": "$5,746-$6,995 (≈¥46,700-¥56,850)", "note": "🆕 Solidigm $6,195-$6,995 + Micron 7450 Pro $5,746 new multi-source validation"},
-        "PCIe4 TLC 30.72TB": {"latestValue": 113896, "previousValue": 113896, "rollingMedian14d": 113896, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026) ≈ ¥142,275 — tracking ~20% behind. 🆕 Micron 6500 ION $7,692-$15,538 (wide spread). Kioxia 2026 sold out."}
-      }
+        "PCIe4 TLC 3.84TB": {
+          "latestValue": 18705,
+          "previousValue": 18705,
+          "rollingMedian14d": 18705,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0
+        },
+        "PCIe4 TLC 7.68TB": {
+          "latestValue": 18094,
+          "previousValue": 18094,
+          "rollingMedian14d": 18094,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "trackingLagSeverity": "CRITICAL_WORSENING",
+          "trackingLagRange": "62-147%",
+          "realTimeBand": ",584-,500 (≈¥29,132-¥44,715) — low-end +13% vs yesterday",
+          "newSamples": "🆕 Solidigm D7-P5520 $3,159-$4,995 + Samsung PM9A3 $4,400 + Micron 7450 Pro $5,550 E1.S — multi-source real-time validation",
+          "note": "Solidigm D7-P5520 ,584-,995 + Samsung PM9A3 ,500-,500 + Dell refurb ,500. Low-end +13% (,159→,584). Tracking at ,215 severely misaligned."
+        },
+        "PCIe4 TLC 15.36TB": {
+          "latestValue": 43739,
+          "previousValue": 43739,
+          "rollingMedian14d": 43739,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "trackingLagRange": "28-55%",
+          "realTimeBand": ",874-,353 (≈¥55,877-¥67,909) — high-end +19% vs yesterday",
+          "note": "Solidigm ,874-,353 + Samsung recertified ,499 + Samsung refurb ,399 outlier. HIGH-END +19% (,995→,353) — lag worsening."
+        },
+        "PCIe4 TLC 30.72TB": {
+          "latestValue": 113896,
+          "previousValue": 113896,
+          "rollingMedian14d": 113896,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "realTimeReference": "VDURA 30TB TLC ,500 (Q1 2026) ≈ ¥142,275 — tracking ~20% behind. Micron 6500 ION ,692-,538 (QLC cross-ref)."
+        }
+      },
+      "sourceHealthNote": "DiscTech JS-rendered offline day 5. Real-time band for 7.68TB: ,584-,500. 15.36TB: ,874-,353. Tracking values severely stale. NAND full-chain sold out confirmed."
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-05-04",
-      "latestCoverage": {"filled": 4, "total": 4},
+      "latestDate": "2026-05-05",
+      "latestCoverage": {
+        "filled": 4,
+        "total": 4
+      },
       "averageCoverage14d": 3.64,
       "trend": "volatility_expand",
-      "newDetailNote": "⭐ 30.72TB DUAL-SOURCE day 4 confirmed persistent: Micron 9550 Pro $16,600 (SS) + Kingston DC3000ME $14,959 (SHI). $14,959-$16,600 band 10.9% width. 🆕 7.68TB band WIDENED to 7.4x ($1,264-$9,300) — shopRBC Kioxia CM7 $6,146 added upper bound. 🆕 CDW lists PM9D3a/SN861/HPE PM1743 with no public pricing (parser_gap). 🆕 15.36TB PM1743 $4,410 (RRP) new low end — 38% below compact dual-source. 15.36TB compact dual-source ($7,129-$7,525 5.6%) still best PCIe5 tier.",
+      "newDetailNote": "⭐ 30.72TB DUAL-SOURCE day 5 confirmed + SHI Micron 9550 Pro ,573 third reference point. SS vs SHI 18% channel spread. Kingston ,959+Micron ,600 midpoint = ,780 ≈ ¥128,313. 🆕 Insight Kingston DC3000ME 7.68TB ,430 new data point. 7.68TB search results narrowed to 2.7x but extreme outliers may be underestimated.",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
@@ -113,7 +210,7 @@
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
         "PCIe5 TLC 15.36TB": 54292,
-        "PCIe5 TLC 30.72TB": 135058
+        "PCIe5 TLC 30.72TB": 128313
       },
       "rollingMedians14d": {
         "PCIe5 TLC 3.84TB": 18265,
@@ -123,19 +220,50 @@
       },
       "missingColumns": [],
       "columns": {
-        "PCIe5 TLC 3.84TB": {"latestValue": 18265, "previousValue": 18265, "rollingMedian14d": 18265, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0},
-        "PCIe5 TLC 7.68TB": {"latestValue": 27817, "previousValue": 27817, "rollingMedian14d": 27817, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "outlierOnlyNote": "Visible range $1,367-$9,300 = 6.8x. Any single-point anchor unreliable for procurement. Band reference only."},
-        "PCIe5 TLC 15.36TB": {"latestValue": 54292, "previousValue": 54292, "rollingMedian14d": 54292, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "convergenceNote": "⭐ First compact dual-source validation maintained: Samsung PM1743 $7,129 + Supermicro Kioxia CD8P-R $7,525 — 5.6% deviation. Best-converged PCIe5 tier. 🆕 8anet PM1743 $2,316 special order excluded."},
-        "PCIe5 TLC 30.72TB": {"latestValue": 128313, "previousValue": 135058, "rollingMedian14d": 128313, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "dualSourceUpgrade": "⭐ UPGRADED to DUAL-SOURCE: Micron 9550 Pro $16,600 (ServerSupply) + Kingston DC3000ME $14,959 (SHI). New midpoint $15,780 ≈ ¥128,313. Kingston MSRP $20,670. Newegg 9550 Pro 'from $16,065' third partial source. Revised down 5% from old single-source anchor. Old rolling median ¥68,269 confirmed severely stale."}
+        "PCIe5 TLC 3.84TB": {
+          "latestValue": 18265,
+          "previousValue": 18265,
+          "rollingMedian14d": 18265,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0
+        },
+        "PCIe5 TLC 7.68TB": {
+          "latestValue": 27817,
+          "previousValue": 27817,
+          "rollingMedian14d": 27817,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "outlierOnlyNote": "Search results narrowed to 2.7x (,270-,146) vs yesterday 7.4x. Extreme outliers (,264/,300) may not appear today. Insight Kingston DC3000ME ,430 new data point."
+        },
+        "PCIe5 TLC 15.36TB": {
+          "latestValue": 54292,
+          "previousValue": 54292,
+          "rollingMedian14d": 54292,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "convergenceNote": "⭐ First compact dual-source validation maintained: Samsung PM1743 $7,129 + Supermicro Kioxia CD8P-R $7,525 — 5.6% deviation. Best-converged PCIe5 tier. 🆕 8anet PM1743 $2,316 special order excluded.",
+          "note": "Compact dual-source (,129-,525 5.6%) maintained. PM1743 RRP ,410 low-end persists. Kioxia CM7-R ,500 new top-end."
+        },
+        "PCIe5 TLC 30.72TB": {
+          "latestValue": 128313,
+          "previousValue": 135058,
+          "rollingMedian14d": 128313,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "dualSourceUpgrade": "⭐ DUAL-SOURCE day 5 + third reference: Micron 9550 Pro ,600 (SS) + Kingston DC3000ME ,959 (SHI) + Micron 9550 Pro ,573 (SHI). Midpoint ,780 ≈ ¥128,313. SS vs SHI 18% channel spread confirmed. Newegg 9550 Pro from ,065 partial source."
+        }
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-05-04",
-      "latestCoverage": {"filled": 4, "total": 4},
+      "latestDate": "2026-05-05",
+      "latestCoverage": {
+        "filled": 4,
+        "total": 4
+      },
       "averageCoverage14d": 3.86,
       "trend": "volatility_expand",
-      "tripleSourceNote": "⭐ 61.44TB triple-source verification DAY 4: Newegg Business $23,999 + ServerSupply $25,500 + Mouser $32,309. TechAtlantix $16,500 outlier_only — 50%+ below premium band. Tracking ¥199,324 (≈$24,365) 4-4.5% behind lowest source — STRONGEST COLUMN IN TABLE. NAND full-chain sold out (Kioxia+SK Hynix) accelerates QLC supply tightness.",
+      "tripleSourceNote": "⭐ 61.44TB triple-source day 5: Newegg Business ,999 + ServerSupply ,500 + Mouser ,309. Tracking ¥199,324 (≈,365) 4-4.5% behind lowest source — STRONGEST COLUMN IN TABLE. NAND full-chain sold out accelerates QLC supply tightness.",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 41982,
         "PCIe4 QLC 30.72TB": 83963,
@@ -156,10 +284,36 @@
       },
       "missingColumns": [],
       "columns": {
-        "PCIe4 QLC 15.36TB": {"latestValue": 41982, "previousValue": 41982, "rollingMedian14d": 41982, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0},
-        "PCIe4 QLC 30.72TB": {"latestValue": 83963, "previousValue": 83963, "rollingMedian14d": 83963, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "realTimeReference": "D5-P5316 public band $8,496-$13,500 + VDURA $15,121 (Q1 2026) — tracking ~32% behind VDURA"},
-        "PCIe4 QLC 61.44TB": {"latestValue": 199324, "previousValue": 199324, "rollingMedian14d": 199324, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0, "tripleSourceMaintained": "⭐ Triple-source premium band: Newegg Business $23,999 + ServerSupply $25,500 + Mouser $32,309. 🆕 TechAtlantix $16,500 outlier_only (50%+ below premium band). Tracking lag only 4-4.5% — STRONGEST COLUMN IN TABLE."},
-        "PCIe4 QLC 122.88TB": {"latestValue": 332925, "previousValue": 332925, "rollingMedian14d": 332925, "lastSeenDate": "2026-05-03", "consecutiveMissingDays": 0}
+        "PCIe4 QLC 15.36TB": {
+          "latestValue": 41982,
+          "previousValue": 41982,
+          "rollingMedian14d": 41982,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0
+        },
+        "PCIe4 QLC 30.72TB": {
+          "latestValue": 83963,
+          "previousValue": 83963,
+          "rollingMedian14d": 83963,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "realTimeReference": "D5-P5316 public band $8,496-$13,500 + VDURA $15,121 (Q1 2026) — tracking ~32% behind VDURA"
+        },
+        "PCIe4 QLC 61.44TB": {
+          "latestValue": 199324,
+          "previousValue": 199324,
+          "rollingMedian14d": 199324,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0,
+          "tripleSourceMaintained": "⭐ Triple-source premium band day 5: Newegg Business ,999 + ServerSupply ,500 + Mouser ,309. Tracking lag only 4-4.5% — STRONGEST COLUMN IN TABLE."
+        },
+        "PCIe4 QLC 122.88TB": {
+          "latestValue": 332925,
+          "previousValue": 332925,
+          "rollingMedian14d": 332925,
+          "lastSeenDate": "2026-05-05",
+          "consecutiveMissingDays": 0
+        }
       }
     }
   },
@@ -234,6 +388,15 @@
       "pcie4-tlc: flat (⚠️ tracking lag 42-150% day 4 no relief; DiscTech JS-offline day 4; SK Hynix NAND sold out — full-chain sell-out; buy_now urgency MAXIMUM)",
       "pcie5-tlc: volatility_expand (30.72TB dual-source day 4 stable; 🆕 7.68TB band WIDENED to 7.4x via shopRBC Kioxia CM7 $6,146; 🆕 CDW PM9D3a/SN861/PM1743 parser_gap; 🆕 15.36TB PM1743 $4,410 new low-end — 38% below compact dual-source; urgent_only)",
       "pcie4-qlc: volatility_expand (61.44TB triple-source day 4 — strongest column; NAND full-chain sold out accelerates QLC; split_buy)"
+    ],
+    "2026-05-05": [
+      "⚡ MACRO BREAKTHROUGH: DRAM Q1 +90-95% QoQ — largest quarterly increase on record per TrendForce Feb 2026 revision; Nvidia LPDDR转向预警(Counterpoint)可能使服务器内存2026年底翻倍",
+      "history-precheck: completed (4/21-5/4 with emphasis on anchor persistence, tracking lag worsening, and macro escalation)",
+      "ddr5-6400: up (NEMIX 32GB ,488 5th day; A-Tech 64GB ,107 slightly -4%; 5-source 64GB band confirmed; 128GB new ,208 listing; DRAM Q1+90-95% upgrade; buy_now from split_buy)",
+      "ddr5-5600: flat_or_mixed (32GB DRAMeXchange  5th day; Memory.net retail ,424 47% split quantified; 96GB NEMIX ,200 3rd day persistent; 128GB Memory.net joins 4-source band; split_buy)",
+      "pcie4-tlc: flat (⚠️ tracking lag WORSENED: 7.68TB low-end +13% ,159→,584; 15.36TB high-end +19% ,995→,353; DiscTech JS-offline day 5; buy_now urgency MAXIMUM)",
+      "pcie5-tlc: volatility_expand (30.72TB dual-source day 5 + SHI Micron ,573 third reference; SS vs SHI 18% channel spread; 🆕 Insight Kingston 7.68TB ,430; 7.68 search narrowed to 2.7x; urgent_only)",
+      "pcie4-qlc: volatility_expand (61.44TB triple-source day 5 — strongest column; NAND full-chain sold out; split_buy)"
     ]
   },
   "escalatedRisks": [
@@ -249,7 +412,9 @@
       "source": "Multiple sources via web search 2026-05-03",
       "potentialImpact": "Kioxia confirms entire 2026 NAND production already sold out through 2027. This transforms NAND super-cycle from forecast to verifiable structural supply crisis.",
       "confidence": "high (official company confirmation)",
-      "categoriesAffected": ["All SSD"],
+      "categoriesAffected": [
+        "All SSD"
+      ],
       "firstReported": "2026-05-03"
     },
     {
@@ -257,16 +422,21 @@
       "source": "Direct probe 2026-05-01",
       "potentialImpact": "Loss of HTML-level price extraction for PCIe4 TLC primary source; site is online but requires browser automation to recover prices",
       "confidence": "high (confirmed HTTP 200 with JS-only content)",
-      "categoriesAffected": ["PCIe4 TLC"],
-      "update": "2026-05-04: Day 4 of no recovery. Browser automation remains the only recovery path."
+      "categoriesAffected": [
+        "PCIe4 TLC"
+      ],
+      "update": "2026-05-05: Day 5 of no recovery. Browser automation remains the only recovery path."
     },
     {
       "risk": "SK Hynix DRAM/NAND/HBM 2026 Full-Year Sold Out",
-      "status": "NEW",
+      "status": "SUSTAINED — Day 2 of full-chain sell-out narrative",
       "source": "Sedaily/DigiTimes/Astute Group via web search 2026-05-04",
       "potentialImpact": "SK Hynix confirms entire 2026 DRAM, NAND, and HBM production capacity sold out. Combined with Kioxia NAND sold out, this forms a FULL-CHAIN structural supply crisis — the two largest NAND producers + the second-largest DRAM producer all sold out. Unprecedented in recent memory cycle history.",
       "confidence": "high (multiple independent sources)",
-      "categoriesAffected": ["All DDR5", "All SSD"],
+      "categoriesAffected": [
+        "All DDR5",
+        "All SSD"
+      ],
       "firstReported": "2026-05-04"
     },
     {
@@ -275,59 +445,65 @@
       "source": "Multiple sources via web search 2026-05-03",
       "potentialImpact": "Kioxia NAND sold out + SK Hynix NAND/DRAM/HBM sold out = full-chain structural crisis.",
       "confidence": "high",
-      "categoriesAffected": ["All SSD"],
+      "categoriesAffected": [
+        "All SSD"
+      ],
       "firstReported": "2026-05-03",
-      "update": "2026-05-04: Now part of full-chain sell-out. SK Hynix confirmation adds DRAM dimension."
-    },
-    {
-      "risk": "DiscTech JS-rendering (NOT 404 — re-evaluated)",
-      "source": "Direct probe 2026-05-01",
-      "potentialImpact": "Loss of HTML-level price extraction for PCIe4 TLC primary source; site is online but requires browser automation to recover prices",
-      "confidence": "high (confirmed HTTP 200 with JS-only content)",
-      "categoriesAffected": ["PCIe4 TLC"],
-      "update": "2026-05-04: Day 4 of no recovery. Browser automation remains the only recovery path."
+      "update": "2026-05-05: Day 2 of full-chain sell-out narrative. No new developments."
     },
     {
       "risk": "NAND spot-contract divergence",
       "source": "TrendForce 2026-04-29 spot weekly",
       "potentialImpact": "Spot market liquidating at -30~40% while contract prices +70-75% — risk of misinterpreting spot weakness as market easing when actual enterprise pricing is accelerating upward",
       "confidence": "high",
-      "categoriesAffected": ["All SSD"],
-      "update": "2026-05-04: Enterprise SSD contract +48-53% Q2 confirmed. Full-chain NAND sold out (Kioxia+SK Hynix) adds structural dimension."
+      "categoriesAffected": [
+        "All SSD"
+      ],
+      "update": "2026-05-05: Divergence sustained. No new spot data this cycle."
     },
     {
-      "risk": "DRAM Q2 forecast acceleration",
-      "source": "TrendForce via Tom's Hardware 2026-04-30",
-      "potentialImpact": "DRAM Q2 contract price forecast +58-63% QoQ — faster-than-expected price escalation",
+      "risk": "DRAM Q1 historical surge + Q2 continued",
+      "source": "TrendForce Feb 2026 revision via Counterpoint/Tom's Hardware/TweakTown multi-source",
+      "potentialImpact": "DRAM Q1 +90-95% QoQ — largest quarterly increase on record. Q2 +58-63% QoQ forecast sustained. Supply shortage confirmed through 2027-2028",
       "confidence": "high (confirmed by multiple sources + Samsung +30% independently verified)",
-      "categoriesAffected": ["All DDR5"],
-      "update": "2026-05-04: Forecast maintained. SK Hynix DRAM sold out adds structural confirmation. Supply shortage confirmed through 2027-2028."
+      "categoriesAffected": [
+        "All DDR5"
+      ],
+      "update": "2026-05-05: Q1 +90-95% confirmed as historical record. Nvidia LPDDR转向(Counterpoint) adds structural demand pressure."
     },
     {
       "risk": "PCIe5 TLC 30.72TB dual-source verification",
-      "status": "STABLE — Day 4 confirmed",
+      "status": "STABLE — Day 5 + third reference",
       "source": "SHI + ServerSupply 2026-05-01 through 2026-05-04",
       "potentialImpact": "Kingston DC3000ME $14,959 (SHI) + Micron 9550 Pro $16,600 (ServerSupply) dual-source 4th consecutive day. Newegg $16,065 third partial source. Band $14,959-$16,600 width 10.9% — narrow enough for procurement reference.",
       "confidence": "medium-high (Kingston listing confirmed persistent after 4 days)",
-      "categoriesAffected": ["PCIe5 TLC"],
-      "update": "2026-05-04: Dual-source confirmed 4th day. Risk downgraded from 'low-medium' to 'low'."
+      "categoriesAffected": [
+        "PCIe5 TLC"
+      ],
+      "update": "2026-05-05: Dual-source day 5 confirmed. SHI Micron 9550 Pro ,573 adds third reference point. Risk downgraded from low to minimal for 30.72TB specifically."
     },
     {
       "risk": "PCIe4 QLC 61.44TB triple-source verification (POSITIVE)",
       "source": "Multiple (Newegg, ServerSupply, Mouser) 2026-05-02",
       "potentialImpact": "Strongest single column in tracking table — 3 independent sources confirming price band 4th consecutive day. TechAtlantix $16,500 outlier doesn't undermine premium band.",
       "confidence": "high (positive risk — strongest data quality in entire table)",
-      "categoriesAffected": ["PCIe4 QLC"],
-      "update": "2026-05-04: Triple-source 4th day confirmed. Tracking lag only 4-4.5%."
+      "categoriesAffected": [
+        "PCIe4 QLC"
+      ],
+      "update": "2026-05-04: Triple-source 4th day confirmed. Tracking lag only 4-4.5%.",
+      "status": "STABLE — Day 5"
     },
     {
       "risk": "PCIe5 TLC 7.68TB band widening",
-      "status": "WORSENING — Day 1",
+      "status": "VOLATILE — search results narrowed to 2.7x but true market width unclear",
       "source": "shopRBC + multiple 2026-05-04",
       "potentialImpact": "7.68TB band widened from 6.8x to 7.4x ($1,264-$9,300). CDW lists Samsung PM9D3a/WD SN861/HPE PM1743 without public pricing (parser_gap). Any single-point anchor increasingly unreliable for procurement.",
       "confidence": "high",
-      "categoriesAffected": ["PCIe5 TLC"],
-      "firstReported": "2026-05-04"
+      "categoriesAffected": [
+        "PCIe5 TLC"
+      ],
+      "firstReported": "2026-05-04",
+      "update": "2026-05-05: Search results show 2.7x (,270-,146) vs yesterday 7.4x. Extreme outliers (,264/,300) may not be captured by today's search. Insight Kingston DC3000ME 7.68TB ,430 new data point."
     },
     {
       "risk": "DDR5-5600 96GB gap recovery",
@@ -335,9 +511,33 @@
       "source": "NEMIX RAM via Newegg 2026-05-03 through 2026-05-04",
       "potentialImpact": "96GB $3,200 single-stick pricing confirmed 2nd consecutive day after 29-day gap. Gap fill confirmed as persistent signal, not single-day false positive. HPE $3,665/Dell $4,100 cross-reference holds.",
       "confidence": "medium-high",
-      "categoriesAffected": ["DDR5-5600"],
+      "categoriesAffected": [
+        "DDR5-5600"
+      ],
       "firstReported": "2026-05-03",
       "update": "2026-05-04: 2nd day sustained. Gap fill confirmed."
+    },
+    {
+      "risk": "DRAM Q1 historical surge (+90-95% QoQ)",
+      "status": "NEW — largest quarterly increase on record",
+      "source": "TrendForce Feb 2026 revision via multi-source 2026-05-05",
+      "potentialImpact": "Q1 2026 DRAM contract prices rose 90-95% QoQ — the largest quarterly increase ever recorded. PC DRAM exceeded +100% in some categories. Server DRAM +~90%. Current tracking values already reflect most of Q1 increase. Key question: is Q2 +58-63% forecast also underestimated given full-chain sell-out?",
+      "confidence": "high (TrendForce official revision)",
+      "categoriesAffected": [
+        "All DDR5"
+      ],
+      "firstReported": "2026-05-05"
+    },
+    {
+      "risk": "Nvidia LPDDR转向 对服务器 DDR5 供给的结构性冲击",
+      "status": "NEW",
+      "source": "Counterpoint Research 2026-05-05",
+      "potentialImpact": "Nvidia在AI服务器中转向使用LPDDR（手机级内存），可能导致服务器内存价格2026年底翻倍。这从需求端进一步压缩DDR5供给，与SK Hynix/Kioxia产能售罄形成供需双杀。",
+      "confidence": "medium-high (Counterpoint独立研究)",
+      "categoriesAffected": [
+        "All DDR5"
+      ],
+      "firstReported": "2026-05-05"
     }
   ]
 }
