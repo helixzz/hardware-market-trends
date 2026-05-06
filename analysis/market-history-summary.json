@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T09:00:00+08:00",
+  "generatedAt": "2026-05-06T09:00:00+08:00",
   "cutoffDate": null,
   "trackingRows": 45,
   "categories": {
@@ -388,6 +388,15 @@
       "pcie4-tlc: flat (⚠️ tracking lag 42-150% day 4 no relief; DiscTech JS-offline day 4; SK Hynix NAND sold out — full-chain sell-out; buy_now urgency MAXIMUM)",
       "pcie5-tlc: volatility_expand (30.72TB dual-source day 4 stable; 🆕 7.68TB band WIDENED to 7.4x via shopRBC Kioxia CM7 $6,146; 🆕 CDW PM9D3a/SN861/PM1743 parser_gap; 🆕 15.36TB PM1743 $4,410 new low-end — 38% below compact dual-source; urgent_only)",
       "pcie4-qlc: volatility_expand (61.44TB triple-source day 4 — strongest column; NAND full-chain sold out accelerates QLC; split_buy)"
+    ],
+    "2026-05-06": [
+      "⚡ MACRO BREAKTHROUGH (LTA): Samsung/SK Hynix深化3-5年LTA（10-30%预付款+价格地板条款）— FT定性'producer's market'持续至2028；微软3年DDR5数百亿刀+谷歌5年通用DRAM大单锁定供给。LTA非但没有压价，反而推高价格中枢——无LTA客户须支付更高现货溢价",
+      "history-precheck: completed (reviewed recent 7-14 day dailies/tracking/raw/history with emphasis on anchor persistence, tracking lag, and source health)",
+      "ddr5-6400: up (NEMIX 32GB $1,488 第6天；🆕 ServerSupply Micron 32GB $1,180新低参考20.7%低于anchor无改主值；64GB五源带维持；128GB 1.6x裂口。buy_now from LTA供给锁定)",
+      "ddr5-5600: flat_or_mixed (32GB DRAMeXchange $970 第6天；🆕 Samsung enterprise $1,412/Micron $1,505企业级定价45-55%高于session avg, contract/retail层级确认；96GB NEMIX $3,200第4天持久。split_buy)",
+      "pcie4-tlc: flat (nominal but ⚠️ 🆕 3.6x brand split discovered — Samsung PM1733 7.68TB $1,037-$2,351 vs Solidigm $3,750-$4,919 = tracking lag语义从单维扩展为品牌+渠道+产品家族复合问题。15.36TB Samsung $2,891-$6,499新低带。DiscTech JS离线第6天。buy_now urgency HIGHEST)",
+      "pcie5-tlc: volatility_expand (30.72TB双源第6天稳定；🆕 CDW Micron 9550 Pro 7.68TB $5,052+ServerOrbit 15.36TB $7,781-$9,364新参考点扩大band；7.68TB 3.3x；CDW/Wiredzone parser_gap持续。urgent_only)",
+      "pcie4-qlc: volatility_expand (61.44TB三源第6天全表最强列；🆕 Mouser D5-P5336 61.44TB $32,308 Q3补货——供给紧张向分销端口传导。NAND full-chain sold out加速QLC供需失衡。split_buy)"
     ],
     "2026-05-05": [
       "⚡ MACRO BREAKTHROUGH: DRAM Q1 +90-95% QoQ — largest quarterly increase on record per TrendForce Feb 2026 revision; Nvidia LPDDR转向预警(Counterpoint)可能使服务器内存2026年底翻倍",
