@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-10T09:00:00+08:00",
+  "generatedAt": "2026-05-11T09:00:00+08:00",
   "cutoffDate": null,
   "trackingRows": 49,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-05-10",
+      "latestDate": "2026-05-11",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "NEMIX 32GB $1,488 第10天——锚点进入两位数。64GB五源带$2,107-$2,550维持。🆕eBay Samsung 64GB $2,598新高侧旁证。⚠️A-Tech 64GB旧URL 404 Day 3。⚠️ServerSupply+Memory.net Day 4 Cloudflare。DDR5 spot +2.14% (5/8) 仍为最新信号（周日无更新）。",
-      "sourceHealthNote": "NEMIX RAM 可靠32GB anchor第10天。⚠️ServerSupply+Memory.net Day 4 Cloudflare双封。⚠️A-Tech 404 Day 3。⚠️DiscTech JS离线Day 10。🆕Xi Computer贡献PCIe5交叉验证（非DDR5）。Versalogic/Newegg Insider新宏观验证。",
+      "trendNote": "NEMIX 32GB $1,488 第11天——锚点进入两位数。64GB五源带$2,107-$2,550维持。🆕eBay Samsung 64GB $2,598新高侧旁证。⚠️A-Tech 64GB旧URL 404 Day 4。⚠️ServerSupply+Memory.net Day 5 Cloudflare。DDR5 spot +2.14% (5/8) 仍为最新信号（周日无更新）。 🆕Kingston Server Premier 32GB ,434-,610 第二企业级锚点交叉验证（偏差<10%）。🆕Fake DDR5假货涌入市场。",
+      "sourceHealthNote": "🆕Kingston Server Premier第二锚点（偏差<10%）。NEMIX RAM 可靠32GB anchor第11天。⚠️ServerSupply+Memory.net Day 5 Cloudflare双封。⚠️A-Tech 404 Day 4。⚠️DiscTech JS离线Day 11。🆕Xi Computer贡献PCIe5交叉验证（非DDR5）。Versalogic/Newegg Insider新宏观验证。Fake DDR5新风险。",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -35,23 +35,23 @@
           "latestValue": 12122,
           "previousValue": 12122,
           "rollingMedian14d": 12122,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
-          "note": "NEMIX RAM $1,488 (≈¥12,122) via nemixram.com — 第10天确认。Anchor status: highly stable (10 days)。ServerSupply Micron $1,180-$1,650 band search-visible (CF block Day 4)。🆕DDR5 16Gb spot +2.14% (5/8 TrendForce) first spot reversal signal confirmed。"
+          "note": "NEMIX RAM $1,488 (≈¥12,122) via nemixram.com — 第11天确认。Anchor status: highly stable (10 days)。ServerSupply Micron $1,180-$1,650 band search-visible (CF block Day 4)。🆕DDR5 16Gb spot +2.14% (5/8 TrendForce) first spot reversal signal confirmed。"
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
-          "note": "A-Tech $2,107 + Viperatech Micron $2,295 + Memory.net Dell $2,498 + CDW $2,453 + Crucial $2,400 — 5-source band $2,107-$2,550 maintained。⚠️A-Tech old URL 404 Day 3。🆕eBay Samsung $2,598 high-side reference。Dell/Hynix $2,745-$2,790 upper band。"
+          "note": "A-Tech $2,107 + Viperatech Micron $2,295 + Memory.net Dell $2,498 + CDW $2,453 + Crucial $2,400 — 5-source band $2,107-$2,550 maintained。⚠️A-Tech old URL 404 Day 4。🆕eBay Samsung $2,598 high-side reference。Dell/Hynix $2,745-$2,790 upper band。"
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
           "previousValue": 52651,
           "rollingMedian14d": 52651,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "note": "Range $4,388(A-Tech)-$7,116(CDW Micron) = 1.6x brand spread。Memory.net $5,208 search-visible。ComputerDealsDirect Kingston $1,155 extreme outlier maintained。"
         }
@@ -59,14 +59,14 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-05-10",
+      "latestDate": "2026-05-11",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "flat_or_mixed",
-      "trendNote": "DRAMeXchange 32GB $960 session avg 第10天稳定。🆕DDR5 spot +2.14% (5/8) 仍为最新信号（周日无更新）。✅96GB NEMIX $3,200 第8天持久。contract vs retail split 45-55%持续。⚠️Memory.net+ServerSupply Day 4。",
+      "trendNote": "🆕NEMIX 32GB ,298 首次 enterprise retail 公开价——对 spot  的 +35% premium 确认。DRAMeXchange 32GB $960 session avg 第11天稳定。🆕DDR5 spot +2.14% (5/8) 仍为最新信号（周日无更新）。✅96GB NEMIX $3,200 第9天持久。contract vs retail split 45-55%持续。⚠️Memory.net+ServerSupply Day 5。",
       "latestValues": {
         "DDR5-5600 32GB": 7898,
         "DDR5-5600 64GB": 19168,
@@ -88,15 +88,15 @@
           "latestValue": 7898,
           "previousValue": 7898,
           "rollingMedian14d": 7898,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
-          "note": "DRAMeXchange $960 session avg 第10天。Samsung enterprise $989-$1,412/Micron $1,505 confirms enterprise tier。DDR5 16Gb spot +2.14% (5/8) latest signal, no Sunday update。"
+          "note": "DRAMeXchange $960 session avg 第11天。Samsung enterprise $989-$1,412/Micron $1,505 confirms enterprise tier。DDR5 16Gb spot +2.14% (5/8) latest signal, no Sunday update。"
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
           "previousValue": 19168,
           "rollingMedian14d": 19168,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "note": "Kingston $1,440 (Newegg) low-tier vs CDW Micron $2,847 premium band。A-Tech $1,876 low reference。1.67x-1.98x split between tiers。"
         },
@@ -104,30 +104,30 @@
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
-          "note": "Hynix $5,100 (SS search) 第9天 + Memory.net $4,408-$5,208 — 4-source band confirmed。Tracking ¥46,600 at upper edge。"
+          "note": "Hynix $5,100 (SS search) 第10天 + Memory.net $4,408-$5,208 — 4-source band confirmed。Tracking ¥46,600 at upper edge。"
         },
         "DDR5-5600 96GB": {
           "latestValue": 26028,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "status": "✅ RECOVERED day 7 — NEMIX single-stick $3,200 (≈¥26,028) via Newegg direct page verified. ⚠️Google search returned false $399-$650 price signal — EXCLUDED via direct page fetch. HPE $3,665 (≈¥29,807) + Dell OEM $4,100 (≈¥33,333) cross-reference.",
-          "note": "✅ NEMIX $3,200 第8天 direct page confirmed。HPE $3,665/Dell $4,100 cross-ref。Anchor ¥27,500 within -5.4%。"
+          "note": "✅ NEMIX $3,200 第10天 direct page confirmed。HPE $3,665/Dell $4,100 cross-ref。Anchor ¥27,500 within -5.4%。"
         }
       },
-      "sourceHealthNote": "DRAMeXchange session avg 第10天稳定。🆕DDR5 spot +2.14% (5/8) reversal signal。⚠️Memory.net+ServerSupply Day 4 Cloudflare。NEMIX 96GB 第8天 direct page confirmed。Mobile DRAM Q2 +93-98% macro pressure。"
+      "sourceHealthNote": "🆕NEMIX 32GB ,298 retail premium +35% 确认。DRAMeXchange session avg 第11天稳定。🆕DDR5 spot +2.14% (5/8) reversal signal。⚠️Memory.net+ServerSupply Day 5 Cloudflare。NEMIX 96GB 第9天 direct page confirmed。Mobile DRAM Q2 +93-98% macro pressure。"
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-05-10",
+      "latestDate": "2026-05-11",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "flat",
-      "trackingLagWarning": "⚠️ DAY 10 — tracking lag PERSISTS: 7.68TB Samsung PM1733 $1,037-$2,351 vs Solidigm $3,038-$5,726 = 3.6x structural (CONFIRMED day 5)。15.36TB Samsung $2,367-$8,800 vs Solidigm $2,984-$7,425 + Micron 7500 Pro $8,105。Micron 6500 ION EOL — last order 2026/8/25, 30.72TB supply shrinkage Day 2。DiscTech day 10 JS-rendered offline。BUY_NOW urgency MAXIMUM。NAND spot -30-40% vs contract +70-75% 史上最大背离。OEM BOM 记忆体从15-18%升至35%。",
+      "trackingLagWarning": "⚠️ DAY 11 — tracking lag PERSISTS: 7.68TB Samsung PM1733 $1,037-$2,351 vs Solidigm $3,038-$5,726 = 3.6x structural (CONFIRMED day 6)。15.36TB Samsung $2,367-$8,800 vs Solidigm $2,984-$7,425 + Micron 7500 Pro $8,105。Micron 6500 ION EOL — last order 2026/8/25, 30.72TB supply shrinkage Day 3。DiscTech day 11 JS-rendered offline。🆕ADATA downstream +40% vs TrendForce upstream +70-75% = 30-35pp transmission gap。BUY_NOW urgency MAXIMUM。NAND spot -30-40% vs contract +70-75% 史上最大背离。OEM BOM 记忆体从15-18%升至35%。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -152,14 +152,14 @@
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 18094,
           "previousValue": 18094,
           "rollingMedian14d": 18094,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "trackingLagSeverity": "CRITICAL — brand split structural",
           "brandSplitRange": "3.6x (Samsung PM1733 $1,037-$2,351 vs Solidigm D7-P5520 $3,750-$6,505) — CONFIRMED day 4",
@@ -170,7 +170,7 @@
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "trackingLagRange": "7-30% (brand-dependent)",
           "realTimeBand": "Samsung PM1733 $2,891-$6,499 + Solidigm D7-P5520 $6,995-$9,103 + Micron 7500 Pro $8,105 — multi-brand upper bound verified",
@@ -180,24 +180,24 @@
           "latestValue": 113896,
           "previousValue": 113896,
           "rollingMedian14d": 113896,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026) ≈ ¥142,275 — tracking ~20% behind. 🆕Micron 6500 ION EOL — last order 2026/8/25, 30.72TB supply shrinkage.",
-          "note": "VDURA 30TB TLC $17,500 (Q1 2026) ≈ ¥142,275 — tracking ~20% behind。Micron 6500 ION EOL — last order 2026/8/25, 30.72TB supply shrinkage Day 2。"
+          "note": "VDURA 30TB TLC $17,500 (Q1 2026) ≈ ¥142,275 — tracking ~20% behind。Micron 6500 ION EOL — last order 2026/8/25, 30.72TB supply shrinkage Day 3。"
         }
       },
-      "sourceHealthNote": "DiscTech JS-rendered offline day 10。⚠️ServerSupply Day 4 Cloudflare blocked。Brand split Samsung vs Solidigm 3.6x CONFIRMED structural (day 5)。Micron 6500 ION EOL adds 30.72TB supply constraint。CDW PM9A3 parser_gap confirmed (Add to Cart/Call)。OEM BOM 35%记忆体占比。"
+      "sourceHealthNote": "DiscTech JS-rendered offline Day 11。⚠️ServerSupply Day 5 Cloudflare blocked。Brand split Samsung vs Solidigm 3.6x CONFIRMED structural (day 5)。Micron 6500 ION EOL adds 30.72TB supply constraint。CDW PM9A3 parser_gap confirmed (Add to Cart/Call)。OEM BOM 35%记忆体占比。"
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-05-10",
+      "latestDate": "2026-05-11",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 3.86,
       "trend": "volatility_expand",
-      "newDetailNote": "🔧30.72TB 四参考点三源交叉验证 Day 10: Kingston $14,959(SHI) + Micron 9550 Pro $17,700(SS, 第2天) + Xi Computer $16,939(NEW) + SHI Micron $19,573。SS $17,700 第2天未回落——涨价非孤例信号增强。Xi $16,939 位于旧 $16,600 与新 $17,700 之间。Midpoint unchanged。7.68TB ~8x band persists (Kioxia CM7-R $999 extreme low + HPE CM7-R $6,448 premium)。15.36TB Micron 9550 Pro $10,888 upper bound。",
+      "newDetailNote": "🔧30.72TB 四参考点三源交叉验证 Day 11: Kingston $14,959(SHI) + Micron 9550 Pro $17,700(SS, 第3天 confirmed non-isolated) + Xi Computer $16,939(NEW) + SHI Micron $19,573。SS $17,700 第3天 confirmed non-isolated未回落——涨价非孤例信号增强。Xi $16,939 位于旧 $16,600 与新 $17,700 之间。Midpoint unchanged。7.68TB ~8x band persists (Kioxia CM7-R $999 extreme low + HPE CM7-R $6,448 premium)。15.36TB Micron 9550 Pro $10,888 upper bound。 🆕7.68TB Samsung PM1743 ,277-,799 首次紧凑双源参考带——vs tracking ¥27,817 ≈ ,419 可能高估20-34%待下周核查。",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
@@ -222,14 +222,14 @@
           "latestValue": 18265,
           "previousValue": 18265,
           "rollingMedian14d": 18265,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 27817,
           "previousValue": 27817,
           "rollingMedian14d": 27817,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "outlierOnlyNote": "Band ~8x ($999-$5,875) — Kioxia CM7-R $999 extreme low (TechAtlantix) vs Kioxia CM7-R $5,350 (ServerSupply) = 5.4x internal brand split suggesting interface generation confusion. Samsung $2,499-$8,800 + Micron 9550 Pro $5,052-$5,875 + Kingston DC3000ME $1,715-$4,917. Any single-point anchor unreliable.",
           "note": "Band ~8x ($999-$6,448) — HPE CM7-R $6,448 premium tier confirmed。Kioxia 内部 4.7x+ split。Samsung $2,499-$8,800 + Micron 9550 Pro $5,052-$5,875 + Kingston DC3000ME $1,715-$4,917。Any single-point anchor unreliable。"
@@ -238,7 +238,7 @@
           "latestValue": 54292,
           "previousValue": 54292,
           "rollingMedian14d": 54292,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "bandWideningNote": "Samsung $4,557-$10,142 + Micron 9550 Pro $10,888 (new upper bound) + Kioxia CM7-R $1,908-$9,500. Compact dual-source ($7,129-$7,525 Samsung E3.S) still viable for E3.S form factor. CDW PM1743 'Add to Cart' no public price.",
           "note": "Samsung $4,557-$10,142 + Micron 9550 Pro $10,888 (upper bound) + Kioxia CM7-R $1,908-$9,500。Compact dual-source ($7,129-$7,525 Samsung E3.S) still viable。CDW PM1743 '1-3 days' no public price parser_gap。"
@@ -247,25 +247,25 @@
           "latestValue": 132759,
           "previousValue": 128313,
           "rollingMedian14d": 128313,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "firstPriceChange": "⚡ FIRST TRACKED VALUE CHANGE IN 9 DAYS: ServerSupply Micron 9550 Pro $16,600→$17,700 (+$1,100, +6.6%). New midpoint ($14,959+$17,700)/2=$16,329.50→¥132,759 (+3.47%). SHI Kingston $14,959 unchanged. SHI Micron $19,573 unchanged. Newegg 'from $16,065' unchanged.",
           "dualSourceUpgrade": "✅ DUAL-SOURCE day 9: Micron 9550 Pro $17,700 (SS, ⬆️) + Kingston DC3000ME $14,959 (SHI) + Micron 9550 Pro $19,573 (SHI) third reference. Midpoint $16,329.50 ≈ ¥132,759. SS vs SHI 18% channel spread confirmed. Newegg 9550 Pro from $16,065 partial source. ⚡Single-source price change — monitor Days 2-5 for spread to SHI/Newegg.",
-          "note": "🔧QUAD-REFERENCE Day 10: Kingston DC3000ME $14,959(SHI) + Micron 9550 Pro $17,700(SS, ⬆️+6.6% Day 2 confirmed non-isolated) + 🆕Micron 9550 Pro $16,939(Xi Computer, ships May 18) + Micron 9550 Pro $19,573(SHI)。Midpoint unchanged at $16,329.50→¥132,759。SS $17,700 Day 2 sustained—price increase confirmed not single-day anomaly。Xi $16,939 provides mid-band reference between old $16,600 and new $17,700。Micron 9550 Pro 3-channel spread $16,939-$19,573 = 15.5%。"
+          "note": "🔧QUAD-REFERENCE Day 11: Kingston DC3000ME $14,959(SHI) + Micron 9550 Pro $17,700(SS, ⬆️+6.6% Day 3 confirmed non-isolated) + 🆕Micron 9550 Pro $16,939(Xi Computer, ships May 18) + Micron 9550 Pro $19,573(SHI)。Midpoint unchanged at $16,329.50→¥132,759。SS $17,700 Day 3 sustained—price increase confirmed not single-day anomaly。Xi $16,939 provides mid-band reference between old $16,600 and new $17,700。Micron 9550 Pro 3-channel spread $16,939-$19,573 = 15.5%。"
         }
       },
-      "sourceHealthNote": "30.72TB most reliable PCIe5 column — quad-reference tri-source cross-validation Day 10。SS $17,700 Day 2 confirmed。🆕Xi Computer $16,939 new source。7.68TB 8x band + 15.36TB 5x+ band — small/medium capacity unreliable for procurement。CDW PM1743/9550 Pro parser_gap sustained。"
+      "sourceHealthNote": "30.72TB most reliable PCIe5 column — quad-reference tri-source cross-validation Day 11。SS $17,700 Day 3 confirmed。🆕Xi Computer $16,939 new source。7.68TB 8x band + 15.36TB 5x+ band — small/medium capacity unreliable for procurement。CDW PM1743/9550 Pro parser_gap sustained。"
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-05-10",
+      "latestDate": "2026-05-11",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
-      "fiveSourceNote": "⭐ 61.44TB FIVE-source Day 10: Newegg Business $24,600 + ServerSupply $27,500 + Mouser $32,309 + Wiredzone $28,489 + Best Buy $26,207。STRONGEST COLUMN IN TABLE — unmatched data quality。Tom's Hardware + TechRadar dual-media independent verification。🆕Full time-series established: 2024 $3,692→2025 Dec $5,830→2026 May $24,600-$32,309 (523-776% increase)。Micron 6500 ION EOL — last order 2026/8/25, QLC 30.72TB supply shrinkage Day 2。",
+      "fiveSourceNote": "⭐ 61.44TB FIVE-source Day 11: Newegg Business $24,600 + ServerSupply $27,500 + Mouser $32,309 + Wiredzone $28,489 + Best Buy $26,207。STRONGEST COLUMN IN TABLE — unmatched data quality。Tom's Hardware + TechRadar dual-media independent verification。🆕Full time-series established: 2024 $3,692→2025 Dec $5,830→2026 May $24,600-$32,309 (523-776% increase)。Micron 6500 ION EOL — last order 2026/8/25, QLC 30.72TB supply shrinkage Day 3。",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 41982,
         "PCIe4 QLC 30.72TB": 83963,
@@ -290,32 +290,32 @@
           "latestValue": 41982,
           "previousValue": 41982,
           "rollingMedian14d": 41982,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
           "latestValue": 83963,
           "previousValue": 83963,
           "rollingMedian14d": 83963,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "realTimeReference": "D5-P5316 30.72TB public band $11,700-$16,154 + Micron 6500 ION $7,692-$15,538. 🆕6500 ION EOL — last order 2026/8/25.",
-          "note": "D5-P5316 30.72TB public band $11,700-$16,154 + Micron 6500 ION $7,692-$15,538。6500 ION EOL — last order 2026/8/25 Day 2。"
+          "note": "D5-P5316 30.72TB public band $11,700-$16,154 + Micron 6500 ION $7,692-$15,538。6500 ION EOL — last order 2026/8/25 Day 3。"
         },
         "PCIe4 QLC 61.44TB": {
           "latestValue": 199324,
           "previousValue": 199324,
           "rollingMedian14d": 199324,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0,
           "fiveSourceUpgrade": "⭐ FIVE-source premium band day 9: Newegg Business $24,600 + ServerSupply $27,500 + Mouser $32,309 + Wiredzone $28,489 + 🆕Best Buy $26,207. Tracking lag 4-4.5% — STRONGEST COLUMN IN TABLE, UNMATCHED DATA QUALITY. Tom's Hardware independent verification '61.44TB SSD pricing nearly doubles'.",
-          "note": "⭐ FIVE-source premium band Day 10: Newegg Business $24,600 + ServerSupply $27,500 + Mouser $32,309 + Wiredzone $28,489 + Best Buy $26,207。Tracking lag 4-4.5% — STRONGEST COLUMN IN TABLE。Tom's Hardware + TechRadar dual-media independent verification。Full time-series: 2024 $3,692→2026 May $24,600-$32,309 (523-776% increase)。"
+          "note": "⭐ FIVE-source premium band Day 11: Newegg Business $24,600 + ServerSupply $27,500 + Mouser $32,309 + Wiredzone $28,489 + Best Buy $26,207。Tracking lag 4-4.5% — STRONGEST COLUMN IN TABLE。Tom's Hardware + TechRadar dual-media independent verification。Full time-series: 2024 $3,692→2026 May $24,600-$32,309 (523-776% increase)。"
         },
         "PCIe4 QLC 122.88TB": {
           "latestValue": 332925,
           "previousValue": 332925,
           "rollingMedian14d": 332925,
-          "lastSeenDate": "2026-05-10",
+          "lastSeenDate": "2026-05-11",
           "consecutiveMissingDays": 0
         }
       }
@@ -410,12 +410,30 @@
       "🆕 61.44TB全时间序列: 2024 $3,692→2026 May $32,309 (523-776%涨幅) — TechRadar/Tom's Hardware双验证",
       "⚠️ ServerSupply+Memory.net 连续第4天 Cloudflare 封禁",
       "⚠️ DiscTech JS 离线第10天 — 浏览器自动化唯一恢复路径"
+    ],
+    "2026-05-11": [
+      "📈 周一研究日——多源补样显著增强",
+      "🆕 Kingston Server Premier DDR5-6400 32GB ,434-,610 第二企业级锚点——双锚互证成立（偏差<10%）",
+      "🆕 NEMIX DDR5-5600 32GB ,298 确认 enterprise retail 对 spot  的 +35% premium——contract v retail split",
+      "🆕 Samsung PM1743 7.68TB ,277-,799 首次 PCIe5 7.68TB 紧凑双源定价带——vs tracking ¥27,817 可能高估 20-34% 待核查",
+      "🆕 ADATA 下游 Q2 DRAM+NAND +40% vs TrendForce 上游 +58-63%/+70-75%——30-35pp 涨价传导缺口在管道中",
+      "🆕 Fake DDR5 假货涌入市场 (May 10)——供给紧张极端信号，采购须验证渠道",
+      "🆕 Silicon Motion CEO 警告存储/SSD 短缺至少至 2028",
+      "↔️ 全 18 列 tracking 值第 11 天持平",
+      "📌 DDR5 spot 无新数据——TrendForce 周一更新通常在午后",
+      "⚠️ ServerSupply+Memory.net Day 5 Cloudflare // DiscTech Day 11 // A-Tech 6400 64GB 404 Day 4",
+      "ddr5-6400: up (NEMIX 32GB ,488 第11天+🆕Kingston第二锚点；64GB五源带维持；🆕Fake DDR5风险。buy_now)",
+      "ddr5-5600: flat_or_mixed (DRAMeXchange 第11天；🆕NEMIX retail ,298 premium +35%；96GB NEMIX ,200第9天。split_buy)",
+      "pcie4-tlc: flat (品牌裂口3.6x结构性第6天；DiscTech离线第11天；6500 ION EOL第3天；🆕ADATA下游+40% vs 上游+70-75%。buy_now)",
+      "pcie5-tlc: volatility_expand (30.72TB四参考点三源第11天；🆕7.68TB Samsung紧凑带——tracking可能高估20-34%待核查。urgent_only)",
+      "pcie4-qlc: volatility_expand (61.44TB五源第11天全表最强列；🆕Silicon Motion短缺至2028。split_buy)",
+      "🆕 新增来源: Kingston Server Premier/NEMIX 5600/Samsung PM1743 7.68TB Hyperscalers+TechAtlantix/ADATA下游/Silicon Motion/Fake DDR5"
     ]
   },
   "escalatedRisks": [
     {
       "risk": "Mobile DRAM Q2 +93-98% QoQ escalation",
-      "status": "SUSTAINED — Day 4",
+      "status": "SUSTAINED — Day 5",
       "source": "TrendForce May 2026 update",
       "detail": "Mobile DRAM Q2 +93-98% QoQ是Q2最激进品类涨幅。供给从mobile侧被虹吸至HBM和服务器。验证'producer's market'定性跨越所有DRAM品类",
       "categoriesAffected": [
@@ -448,7 +466,7 @@
     },
     {
       "risk": "ServerSupply + Memory.net Cloudflare blocked",
-      "status": "SUSTAINED — Day 4",
+      "status": "SUSTAINED — Day 5",
       "source": "Direct probe 2026-05-09",
       "detail": "连续第4天两个关键验证源同时Cloudflare封禁(403)。直页交叉验证通道持续缺失。价格数据仍可通过Google search snippet获取。",
       "categoriesAffected": [
@@ -469,7 +487,7 @@
     },
     {
       "risk": "全产业链售罄 (Triple-Sold-Out)",
-      "status": "SUSTAINED — Day 7",
+      "status": "SUSTAINED — Day 8",
       "detail": "Kioxia NAND + SK Hynix DRAM/NAND/HBM 2026 sold out. Micron部分停止报价",
       "categoriesAffected": [
         "All DDR5",
@@ -480,7 +498,7 @@
     },
     {
       "risk": "Samsung/SK Hynix LTA溢价锁定",
-      "status": "SUSTAINED — Day 5",
+      "status": "SUSTAINED — Day 6",
       "source": "TrendForce/FT/Green Economy News May 4-6 2026",
       "detail": "Samsung/SK Hynix深化3-5年LTA（10-30%预付款+价格地板条款）。微软3年DDR5数百亿刀+谷歌5年通用DRAM。FT定性'producer's market'至2028",
       "categoriesAffected": [
@@ -492,7 +510,7 @@
     },
     {
       "risk": "DiscTech JS-rendering",
-      "status": "ONGOING — Day 10",
+      "status": "ONGOING — Day 11",
       "detail": "PCIe4 TLC 主源价格提取离线第9天。HTTP 200但3 bytes raw。浏览器自动化是唯一恢复路径",
       "categoriesAffected": [
         "PCIe4 TLC"
@@ -525,7 +543,7 @@
     },
     {
       "risk": "Micron 6500 ION EOL — supply shrinkage 🆕",
-      "status": "SUSTAINED — Day 2",
+      "status": "SUSTAINED — Day 3",
       "source": "Edge Electronics / Micron official May 2026",
       "detail": "Micron 6500 ION (TLC but positioned as QLC competitor) EOL confirmed: last order 2026/8/25, last ship 2027/2/25. 30.72TB供方将从D5-P5316+6500 ION双源缩为D5-P5316单一源。中长期收紧QLC 30.72TB供给",
       "categoriesAffected": [
@@ -549,7 +567,7 @@
     },
     {
       "risk": "Guardian RAMageddon mainstream naming",
-      "status": "SUSTAINED — Day 5",
+      "status": "SUSTAINED — Day 6",
       "source": "The Guardian May 6 2026",
       "detail": "主流媒体正式命名'RAMageddon'——DDR5翻3-4倍，$500以下PC或2028消失。Market narrative从行业专报→主流公众",
       "categoriesAffected": [
@@ -561,7 +579,7 @@
     },
     {
       "risk": "Micron CEO AI memory >50% TAM 2026",
-      "status": "SUSTAINED — Day 6",
+      "status": "SUSTAINED — Day 7",
       "source": "TrendForce/Micron CEO Sanjay Mehrotra May 4 2026",
       "detail": "AI DRAM+NAND需求2026年将超记忆体总TAM的50%。AI仍处'极早期'。供给紧张至少至2028",
       "categoriesAffected": [
@@ -573,7 +591,7 @@
     },
     {
       "risk": "NAND spot-contract divergence (spot -30-40% vs contract +70-75%)",
-      "status": "SUSTAINED — Day 2",
+      "status": "SUSTAINED — Day 3",
       "source": "TrendForce May 6 2026 spot price update",
       "detail": "NAND现货累计下跌30-40%，合同价Q2 +70-75% QoQ不变。史上最大spot-contract背离。企业SSD按contract价成交，spot跌不降低采购成本",
       "categoriesAffected": [
@@ -584,7 +602,7 @@
     },
     {
       "risk": "A-Tech DDR5-6400 64GB product page 404",
-      "status": "SUSTAINED — Day 3, not retested today",
+      "status": "SUSTAINED — Day 4, not retested today",
       "source": "Direct probe 2026-05-08",
       "detail": "A-Tech DDR5-6400 64GB旧产品URL返回404。同品牌DDR5-5600 64GB listing仍在($1,629)。品牌整体在售",
       "categoriesAffected": [
@@ -604,6 +622,29 @@
       "confidence": "medium (single-source, needs cross-validation)",
       "firstReported": "2026-05-09",
       "updatedDate": "2026-05-10"
+    },
+    {
+      "risk": "Fake DDR5 modules flooding market 🆕",
+      "status": "NEW — Day 1",
+      "source": "WCCFTech/Overclock3D May 10 2026",
+      "detail": "供给紧张已催生假货——非功能性 DDR5 模块（裸板/塑料代替 DRAM 芯片）涌入零售市场。极端市场信号表明供给缺口已蔓延至欺诈层面。采购必须验证渠道可信度",
+      "categoriesAffected": [
+        "All DDR5"
+      ],
+      "confidence": "medium (multiple tech media reports)",
+      "firstReported": "2026-05-11"
+    },
+    {
+      "risk": "ADATA downstream vs TrendForce upstream Q2 price transmission gap 🆕",
+      "status": "NEW — Day 1",
+      "source": "ADATA (via borecraft/NewMaxx) May 9 2026",
+      "detail": "ADATA 作为下游厂商报告 DRAM+NAND Q2 +40%，而 TrendForce 上游官方预报 DRAM +58-63%、NAND +70-75%。30-35pp 的价格传导缺口意味着更多涨幅正在管道中向下游流动。采购窗口进一步收窄",
+      "categoriesAffected": [
+        "All DDR5",
+        "All SSD"
+      ],
+      "confidence": "medium-high (cross-referenced ADATA statement + TrendForce official)",
+      "firstReported": "2026-05-11"
     }
   ]
 }

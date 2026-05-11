@@ -1,0 +1,154 @@
+{
+  "date": "2026-05-11",
+  "generatedAt": "2026-05-11T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Kingston Server Premier DDR5-6400 32GB (Newegg)",
+    "NEMIX DDR5-5600 32GB RDIMM",
+    "NEMIX DDR5-5600 64GB RDIMM",
+    "Samsung PM1743 7.68TB (Hyperscalers+TechAtlantix)",
+    "Kioxia CM7-R 7.68TB (re-check)",
+    "ADATA downstream Q2 (borecraft/NewMaxx)",
+    "Silicon Motion CEO shortage 2028 (WCCFTech)",
+    "Fake DDR5 risk (WCCFTech/Overclock3D)",
+    "NetworkWorld server memory pricing doubles",
+    "Astute Group DDR5 price climb analysis",
+    "WBM IT Procurement Update May 2026"
+  ],
+  "newSourcesWithUsefulData": [
+    "Kingston Server Premier DDR5-6400 32GB $1,434-$1,610 — second enterprise anchor cross-validates NEMIX $1,488 (deviation <10%)",
+    "NEMIX DDR5-5600 32GB $1,298 — confirms enterprise retail 35% premium over DRAMeXchange $960",
+    "Samsung PM1743 7.68TB $2,277-$2,799 — first PCIe5 7.68TB compact dual-source band",
+    "NEMIX DDR5-5600 64GB $2,299 — joins mid-band validation",
+    "ADATA downstream DRAM+NAND Q2 +40% vs TrendForce upstream +58-63%/+70-75% — 30-35pp transmission gap",
+    "Silicon Motion CEO warns storage/SSD shortages drag into 2028",
+    "Fake DDR5 hitting market — extreme supply-tightness signal"
+  ],
+  "keyChangesVsYesterday": [
+    "🆕 Kingston Server Premier DDR5-6400 32GB $1,434-$1,610 — 第二企业级锚点，双锚互证成立（偏差 <10%）",
+    "🆕 NEMIX DDR5-5600 32GB $1,298 — enterprise retail 对 spot $960 的 +35% premium 确认",
+    "🆕 Samsung PM1743 7.68TB $2,277-$2,799 — 首次 PCIe5 7.68TB 紧凑双源定价带（vs tracking ¥27,817 可能高估 20-34%）",
+    "🆕 ADATA 下游 Q2 DRAM+NAND +40% — TrendForce 上游 +58-63%/+70-75% 更激进，30-35pp 涨价传导缺口",
+    "🆕 Fake DDR5 假货涌入市场 (May 10) — 供给紧张极端信号",
+    "🆕 Silicon Motion CEO 警告存储/SSD 短缺至少至 2028",
+    "↔️ 全 18 列 tracking 值第 11 天持平（5/1 锚点突破后第二个周一）",
+    "📌 DDR5 spot 无新数据 — TrendForce 周一更新通常在午后，当前 09:00 最新仍是 5/8 +2.14%",
+    "⚠️ ServerSupply + Memory.net Cloudflare Day 5",
+    "⚠️ DiscTech JS 离线第 11 天",
+    "⚠️ A-Tech DDR5-6400 64GB 旧 URL 404 Day 4"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "锚点第11天双源交叉验证（NEMIX $1,488 + Kingston $1,434-$1,610，偏差<10%）。DDR5 spot +2.14% 反转信号待今日确认。Fake DDR5 假货=供给极端信号。全产业链卖光+LTA锁定+AI>50% TAM。延迟=溢价风险明确",
+      "risks": "SS/Memory.net Day 5 Cloudflare /// A-Tech 6400 64GB URL 404 Day 4 /// Fake DDR5 假货需渠道验证"
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "锚点第11天。DRAMeXchange $960 稳定 + 🆕 NEMIX retail $1,298 确认 35% premium——contract v retail split 持续。96GB 第9天持久。DDR5 spot 回升信号待今日确认",
+      "risks": "DDR5 spot 今日更新未出 /// 96GB 样本量仍偏少"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "3.6x 品牌裂口结构性第6天。NAND 全产业链卖光第8天。6500 ION EOL Day 3 增加供方收缩。DiscTech 离线第11天。ADATA 下游 +40% vs TrendForce 上游 +70-75% 差异=更多涨价在管道。最紧迫建议",
+      "risks": "3.6x 品牌裂口——选错品牌=3倍价差 /// DiscTech Day 11 /// SS blocked Day 5"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB 四参考点三源第11天——最可靠 PCIe5 列。SS $17,700 第3天维持确认涨价非孤例。🆕 7.68TB Samsung $2,277-$2,799 紧凑带首次可用参考——但与 tracking ¥27,817 偏差 20-34% 待下周核查",
+      "risks": "30.72TB 上行风险持续 /// 7.68TB tracking value 可能高估 20-34% /// 小容量无可靠 anchor"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB 五源第11天——全表最强列。Tom's Hardware/TechRadar 双媒体独立验证。6500 ION EOL 收紧 30.72TB。全时间序列 $3,692→$32,309 (523-776%)。Silicon Motion 警告短缺至 2028。NAND 全链卖光第8天",
+      "risks": "15.36/30.72TB 可能有 tracking lag /// 6500 ION EOL 长期利多短期影响待观察"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_tracking_column",
+      "note": "企业级多源样本持续。如需求出现可建列"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB (tracking列)",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200 第9天持久。29天缺口恢复后连续确认"
+    },
+    {
+      "category": "DDR5 spot",
+      "spec": "May 11 update",
+      "reasonCode": "data_not_yet_available",
+      "note": "TrendForce 周一更新通常午后发布。当前 09:00 CST 最新仍是 5/8 $39.833 +2.14%"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "brand_split_complication",
+      "note": "Samsung PM1733 vs Solidigm D7-P5520 ~3.6x 品牌裂口结构性第6天。CDW PM9A3 7.68TB $4,143.99 为 PCIe 3.0 变种口径不匹配"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "supply_shrink",
+      "note": "Micron 6500 ION EOL（末次订购 2026/8/25）Day 3。30.72TB 供方即将从双源缩为单源"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "tracking_value_review_needed",
+      "note": "🆕 Samsung PM1743 7.68TB $2,277-$2,799 紧凑双源带 vs tracking ¥27,817 ≈ $3,419——偏差 20-34%。建议下周核查 tracking value 是否应下修"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "band_widening",
+      "note": "Samsung $4,410-$10,142 + Micron $7,781-$10,888 + Kioxia $1,908-$9,500。CDW PM1743 parser_gap"
+    },
+    {
+      "category": "ALL",
+      "spec": "ServerSupply 直页",
+      "reasonCode": "source_degradation",
+      "note": "Cloudflare 第5天封禁（403）。Cloudflare Bot Management issues May 5-9 可能已修复但未直接测试"
+    },
+    {
+      "category": "ALL",
+      "spec": "Memory.net 直页",
+      "reasonCode": "source_degradation",
+      "note": "403 第5天。search snippet 仍可用"
+    },
+    {
+      "category": "ALL",
+      "spec": "DiscTech",
+      "reasonCode": "source_degradation",
+      "note": "JS 渲染离线第11天。浏览器自动化唯一恢复路径"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "A-Tech 64GB",
+      "reasonCode": "source_degradation",
+      "note": "旧 URL 404 第4天。品牌其他 SKU (DDR5-5600) 在线"
+    },
+    {
+      "category": "ALL",
+      "spec": "Fake DDR5 risk",
+      "reasonCode": "new_market_risk",
+      "note": "🆕 WCCFTech/Overclock3D May 10 报道 Fake DDR5 假货涌入市场——供给紧张催生。采购须验证渠道可信度"
+    }
+  ]
+}
