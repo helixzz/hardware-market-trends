@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-14",
+  "generatedAt": "2026-05-14T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["ServerMonkey", "Citi Research", "Counterpoint", "Saitech D7-P5520", "Best Buy refresh", "TrendForce DDR4 split", "WCCFTech LPDDR5 LTA"],
+  "newSourcesWithUsefulData": ["ServerMonkey", "Citi Research", "Counterpoint", "Saitech D7-P5520", "Best Buy refresh", "TrendForce DDR4 split"],
+  "keyChangesVsYesterday": [
+    "⚡DDR5 spot 第四次连续回升——5/13 $40.367 (+0.25%)，四日累计+3.50%，上升通道确立",
+    "DDR5-5600 32GB ¥7,898→¥7,918 (+¥20，仅spot驱动)",
+    "🆕ServerMonkey May 2026 企业硬件市场更新——64GB DDR5-5600 确认为'主力SKU'",
+    "🆕Citi May 12 64GB DDR5-5600 $873(Q1)→$1,586(Q4) 预测",
+    "🆕Saitech D7-P5520 7.68TB $3,457 (Solidigm新低端)",
+    "↔️ 其余17列第14天持平",
+    "↔️ Mouser 61.44TB $34,356 第3天确认结构性上沿",
+    "↔️ Best Buy 61.44TB $26,206.85 第五源刷新",
+    "🆕TrendForce DDR4 spot -0.25%——DDR4/DDR5分化加剧"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "锚点第14天。⚡DDR5 spot四次连续回升——四日+3.50%上升通道确立。DRAM Q1+110-115%。Gartner+125%全年。全产业链卖光第11天。LTA锁定第9天。延迟=明确溢价风险"
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "锚点第14天。⚡DDR5 spot四次回升未减速——与昨日'接近阻力'预期相悖，上升趋势比预期更强。Citi 64GB Q1→Q4 +82%强化上行预期。contract v retail split 45-55%。96GB NEMIX $3,200第12天持久。分批可管理执行风险"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "3.6x品牌裂口结构性第9天。NAND全产业链卖光第11天。6500 ION EOL第6天。DiscTech Day 14。NAND Q2 +70-75%。最紧迫建议"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB五参考点四源第14天——SS $17,700第6天涨价确认。7.68TB品牌三分层结构下tracking可能需要重校。小容量无可靠anchor。仅大容量有足够依据"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB五源第14天——最强列。⚡Mouser $34,356第3天确认结构性上沿。Best Buy $26,207第五源刷新。Gartner NAND+125%。全时间序列831%涨幅。高端源独立上行"
+    }
+  },
+  "gaps": [
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "brand_split_complication",
+      "note": "Samsung PM1733 vs Solidigm D7-P5520 ~3.6x品牌裂口结构性第9天。🆕Saitech $3,457低端微扩"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "supply_shrink",
+      "note": "Micron 6500 ION EOL Day 6。→6550 ION替代但属PCIe Gen5新口径"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "brand_tiering_emerging",
+      "note": "Samsung→Kioxia→Micron三分层结构第2天。Tracking ¥27,817≈$3,419位于Samsung-Kioxia之间，需校准"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "band_widening",
+      "note": "Samsung $4,410-$9,000 + Micron $7,781-$10,888 + Kioxia $1,908-$9,500。CDW parser_gap"
+    },
+    {
+      "category": "ALL",
+      "spec": "ServerSupply直页",
+      "reasonCode": "source_degradation",
+      "note": "Cloudflare第8天封禁（403）。search snippet仍可用"
+    },
+    {
+      "category": "ALL",
+      "spec": "Memory.net直页",
+      "reasonCode": "source_degradation",
+      "note": "403第8天。search snippet仍可用"
+    },
+    {
+      "category": "ALL",
+      "spec": "DiscTech",
+      "reasonCode": "source_degradation",
+      "note": "JS渲染离线第14天。浏览器自动化唯一恢复路径"
+    }
+  ]
+}
