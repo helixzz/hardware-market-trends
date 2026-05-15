@@ -1,0 +1,106 @@
+{
+  "date": "2026-05-15",
+  "generatedAt": "2026-05-15T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["DRAMeXchange May 14", "TrendForce Samsung SSD Japan", "NAND Research May 2026", "TrendForce DDR4 spot lead", "Micro Center", "Samsung DDR5-5600 128GB SS", "Kioxia CM7-R 3.84TB SS", "Newegg Micron 9550 Pro 7.68TB", "Newegg D5-P5336 new SKU", "New seller D5-P5336 61.44TB"],
+  "newSourcesWithUsefulData": ["DRAMeXchange May 14", "TrendForce Samsung SSD Japan", "NAND Research May 2026", "TrendForce DDR4 spot lead", "Micro Center", "Kioxia CM7-R 3.84TB SS", "Newegg D5-P5336 new SKU", "New seller D5-P5336 61.44TB"],
+  "keyChangesVsYesterday": [
+    "⚡DDR5 spot 第五次连续回升且加速3.3x——5/14 $40.70 (+0.83%)，五日累计+2.18%，上升通道陡峭化",
+    "DDR5-5600 32GB ¥7,918→¥7,983 (+¥65, +0.82%)",
+    "⚡三星 SSD 日本零售暴涨300%——8TB 9100 Pro ¥547,980，870 EVO +384.7% vs 1月——NAND失衡极端化",
+    "🆕DDR4 spot +0.94% 节后领涨——DDR5 暂被回避但次日强势反弹（买方轮动）",
+    "🆕Kioxia CM7-R 3.84TB $2,540-$3,020 SS 双样本——PCIe5 3.84TB 首次品牌分层",
+    "🆕NAND Research May 2026 独立危机分析——LTAs 5年，小厂极端溢价暴露",
+    "🆕Newegg D5-P5336 61.44TB 新SKU $23,999 低端微扩",
+    "🆕新卖方 D5-P5336 61.44TB $28,553 confirm mid-band",
+    "↔️NEMIX 32GB $1,488 第15天——第三个工作周",
+    "↔️SS Micron 9550 Pro 30.72TB $17,700 第7天——涨价确认进入第二周",
+    "↔️Mouser 61.44TB $34,356 第4天——结构性上沿确认满4个交易日",
+    "↔️其余16列第15天持平"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "锚点第15天。⚡DDR5 spot第五次回升且加速至+0.83%（3.3x前日）——五日内最大单日涨幅。$40→$40.70陡峭化上升通道确认。DRAM Q1+110-115%。Gartner+125%全年。全产业链卖光第12天。LTA锁定第10天。Kingston SKU停产第4天。延迟=明确且加剧的溢价风险"
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "锚点第15天。⚡DDR5 spot五次回升且加速3.3x——买压从温和→急剧，接近buy_now门槛。Citi+82%量化。Samsung 128GB $3,900新参考表明部分渠道仍可找到相对低位。但spot加速警告窗口正在收窄。分批可管理执行风险但不应过度延迟"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "3.6x品牌裂口结构性第10天。NAND全产业链卖光第12天。6500 ION EOL第7天。DiscTech Day 15。⚡三星SSD日本300%——NAND供需失衡已从企业级传导至消费级并极端化。NAND Q2+70-75%。宏观信号急剧增强——最紧迫建议"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB五参考点四源第15天——SS $17,700第7天涨价确认进入第二周。7.68TB品牌三分层第3天——tracking需校准。3.84TB品牌分层首次出现。小容量anchor仍不可靠。大容量buy_now条件接近满足"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "61.44TB五源第15天——最强列。⚡Mouser $34,356第4天确认结构性上沿。Newegg新SKU低端微扩但高端独立上行。⚡三星SSD日本300%为QLC提供最极端宏观背书。Gartner NAND+125%。全时间序列831%涨幅"
+    }
+  },
+  "gaps": [
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "brand_split_complication",
+      "note": "Samsung PM1733 vs Solidigm D7-P5520 ~3.6x品牌裂口结构性第10天。三星SSD日本300%独立验证NAND供需失衡"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "supply_shrink",
+      "note": "Micron 6500 ION EOL Day 7。→6550 ION替代但属PCIe Gen5新口径"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "brand_tiering_emerging",
+      "note": "🆕Kioxia CM7-R $2,540-$3,020 vs Samsung PM1743 $1,799——品牌分层首次扩展至小容量（Kioxia +41-68% premium）"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "brand_tiering_emerging",
+      "note": "Samsung→Kioxia→Micron三分层结构第3天。🆕Newegg Micron $2,195异常低价需核实refurb/sub-SKU"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "band_widening",
+      "note": "Samsung $4,410-$9,000 + Micron $7,781-$10,888 + Kioxia $1,908-$9,500。CDW/Uvation parser_gap/inquiry_only"
+    },
+    {
+      "category": "ALL",
+      "spec": "ServerSupply直页",
+      "reasonCode": "source_degradation",
+      "note": "Cloudflare第9天封禁（403）。search snippet仍可用"
+    },
+    {
+      "category": "ALL",
+      "spec": "Memory.net直页",
+      "reasonCode": "source_degradation",
+      "note": "403第9天。search snippet仍可用"
+    },
+    {
+      "category": "ALL",
+      "spec": "DiscTech",
+      "reasonCode": "source_degradation",
+      "note": "JS渲染离线第15天。浏览器自动化唯一恢复路径"
+    }
+  ]
+}
