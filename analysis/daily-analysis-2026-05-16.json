@@ -1,0 +1,128 @@
+{
+  "date": "2026-05-16",
+  "generatedAt": "2026-05-16T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "TechPowerUp/PCGamer (Framework DDR5/SSD report)",
+    "Compuram (Kioxia CM7-R 7.68TB)",
+    "Zacks (Micron Crucial exit)",
+    "S&P Global (automotive DRAM crisis)",
+    "Versalogic (supply chain brief)",
+    "Best Buy (D5-P5336 price refresh)",
+    "Newegg (Samsung PM1743 3.84TB E3.S vs U.3)"
+  ],
+  "newSourcesWithUsefulData": [
+    "TechPowerUp/PCGamer (Framework)",
+    "Compuram (Kioxia CM7-R $4,290)",
+    "Zacks (Micron Crucial exit)",
+    "S&P Global",
+    "Versalogic",
+    "Best Buy ($26,207, -$1,310)",
+    "Newegg (PM1743 E3.S $1,199.99)"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5 spot 6th consecutive rise but DECELERATION — $40.767 (+0.17%, vs previous +0.83%)",
+    "DDR5-5600 32GB ¥7,983→¥7,998 (+¥15, spot-driven)",
+    "Framework independent validation: DDR5 stable, SSD continue to soar",
+    "Best Buy D5-P5336 61.44TB dropped $1,310 to $26,207 — consumer-side pullback",
+    "Micron exits Crucial consumer brand — consumer DRAM supply further contraction",
+    "Samsung PM1743 3.84TB E3.S $1,200 vs U.3 $2,999 — form factor split 2.5x",
+    "Compuram Kioxia CM7-R 7.68TB $4,290 — new European channel reference"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "16-day anchor, 6-day spot rise direction confirmed, DRAM Q1 +110-115%, Micron Crucial exit tightens consumer supply, LTA locks supply advantage. Deceleration in spot doesn't reverse direction."
+    },
+    "DDR5-5600": {
+      "recommendation": "split_buy",
+      "reason": "6-day spot rise but acceleration falsified as one-day pulse; $41 may form resistance; Framework 'fairly stable' validates platform phase. Annual direction clear (Citi +82%) but near-term pace may shift."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "Brand split Day 11 structural; entire chain sold out 13 days; Framework SSD continuing upward; Samsung Japan +300%. 6500 ION EOL Day 8. Tracking lag 56-122%. HIGHEST URGENCY category."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "urgent_only",
+      "reason": "30.72TB Day 8 price rise confirmed reliable. But 7.68TB 4.7x band, 3.84TB 2.5x form factor split — small/mid capacity signals chaotic. Large capacity direction clear but not applicable to all specs."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser premium upper bound Day 5 sustained + NAND Q2 +70-75%. But Best Buy -4.8% and SS -$1,000 suggest some channel elasticity. Upward direction intact but slope may be moderating. Approaching buy_now threshold."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise samples exist (SS Micron $1,125-$1,650) but not in tracking scope. Not a priority gap."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as 6400 16GB. Not in tracking scope."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Only VDURA $17,500 Q1 2026 reference. Tracking lag ~20%. DiscTech Day 16 offline blocks primary source."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "out_of_scope",
+      "note": "Not in tracking scope but some public prices visible."
+    }
+  ],
+  "structuralGaps": [
+    {
+      "gap": "DiscTech JS offline",
+      "status": "Day 16 — PCIe4 TLC primary source completely unavailable",
+      "recovery": "Browser automation only path"
+    },
+    {
+      "gap": "ServerSupply+Memory.net Cloudflare blocked",
+      "status": "Day 10 — dual critical validation sources blocked",
+      "recovery": "Google search snippets still accessible; no short-term recovery expected"
+    },
+    {
+      "gap": "A-Tech 6400 64GB old URL 404",
+      "status": "Day 9 — new URL located, <4% deviation from tracking",
+      "recovery": "Resolved via atechmemory.com direct page"
+    },
+    {
+      "gap": "PCIe4 TLC brand split",
+      "status": "3.6x structural Day 11 — Samsung PM1733 vs Solidigm D7-P5520",
+      "recovery": "Two distinct market tiers (OEM bulk vs channel/retail). Tracking value at intersection. No resolution expected — it's structural."
+    }
+  ],
+  "macroFlags": {
+    "ddr5Spot": {
+      "value": "$40.767",
+      "change": "+0.17%",
+      "days": 6,
+      "cumulative": "+2.35%",
+      "signal": "Sixth consecutive rise with DECELERATION. Yesterday's +0.83% proved one-day pulse. Resistance near $41 possible."
+    },
+    "frameworkValidation": "DDR5 'fairly stable' vs SSD 'continue to soar' — independent manufacturing validation",
+    "micronCrucialExit": "Consumer DRAM capacity fully redirected to AI data center — supply contraction intensifies",
+    "autoMemoryCrisis": "S&P Global: automotive OEMs restructuring procurement as LPDDR4 prices jump",
+    "versalogicBrief": "DDR3/DDR4/DDR5 all-generations tight through 2028-2030 — embedded/industrial validation"
+  }
+}
