@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-16T09:00:00+08:00",
+  "generatedAt": "2026-05-17T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 52,
+  "trackingRows": 53,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-05-16",
+      "latestDate": "2026-05-17",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "NEMIX 32GB $1,488 第16天——第三个工作周。64GB五源带$2,107-$2,550维持。⚡DDR5 spot六次连续回升但减速（$40.767, +0.17% vs前日+0.83%）。昨日加速3.3x被证伪为一击脉冲。Framework 'fairly stable' 独立验证DDR5平台化。DRAM Q1+110-115%。Gartner +125%全年。Kingston -32MD obsolete Day 5。⚠️A-Tech旧URL 404 Day 9。⚠️ServerSupply+Memory.net Day 10 Cloudflare。",
-      "sourceHealthNote": "⚠️ServerSupply+Memory.net Day 10 Cloudflare双封。⚠️A-Tech 404 Day 9。⚠️DiscTech JS离线Day 16。NEMIX第16天最稳定锚点。⚡spot第六次回升但减速——$41可能构成阻力。🆕Framework独立验证DDR5平台化。🆕Micron退出Crucial消费品牌——消费DRAM供给再收缩。",
+      "trendNote": "NEMIX 32GB $1,488 第17天——第三个工作周满。64GB五源带$2,107-$2,550维持。⚡⚡⚡三星半导体罢工5/21确认启动——4%DRAM产出风险+已开始减产。DDR5 spot疑似$41.167(+0.98%)未验证（TrendForce JS无法直抓）。DRAM Q1+110-115%。Gartner +125%全年。Kingston -32MD obsolete Day 6。⚠️A-Tech旧URL 404 Day 10。⚠️ServerSupply+Memory.net Day 11 Cloudflare。⚡罢工前窗口仅剩4天(5/17-5/20)。",
+      "sourceHealthNote": "⚠️ServerSupply+Memory.net Day 11 Cloudflare双封。⚠️A-Tech 404 Day 10。⚠️DiscTech JS离线Day 17。NEMIX第17天最稳定锚点。⚡⚡⚡三星罢工5/21——自追踪以来最重大供给侧风险。⚡spot疑似重新加速但未验证——周一必须确认。🆕Xi Computer Micron 9550 Pro明天发货
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
