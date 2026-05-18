@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-17T09:00:00+08:00",
+  "generatedAt": "2026-05-18T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 53,
+  "trackingRows": 54,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
@@ -13,7 +13,7 @@
       "averageCoverage14d": 3.0,
       "trend": "up",
       "trendNote": "NEMIX 32GB $1,488 第17天——第三个工作周满。64GB五源带$2,107-$2,550维持。⚡⚡⚡三星半导体罢工5/21确认启动——4%DRAM产出风险+已开始减产。DDR5 spot疑似$41.167(+0.98%)未验证（TrendForce JS无法直抓）。DRAM Q1+110-115%。Gartner +125%全年。Kingston -32MD obsolete Day 6。⚠️A-Tech旧URL 404 Day 10。⚠️ServerSupply+Memory.net Day 11 Cloudflare。⚡罢工前窗口仅剩4天(5/17-5/20)。",
-      "sourceHealthNote": "⚠️ServerSupply+Memory.net Day 11 Cloudflare双封。⚠️A-Tech 404 Day 10。⚠️DiscTech JS离线Day 17。NEMIX第17天最稳定锚点。⚡⚡⚡三星罢工5/21——自追踪以来最重大供给侧风险。⚡spot疑似重新加速但未验证——周一必须确认。🆕Xi Computer Micron 9550 Pro明天发货
+      "sourceHealthNote": "⚠️ServerSupply+Memory.net Day 11 Cloudflare双封。⚠️A-Tech 404 Day 10。⚠️DiscTech JS离线Day 17。NEMIX第17天最稳定锚点。⚡⚡⚡三星罢工5/21——自追踪以来最重大供给侧风险。⚡⚡⚡三星罢工谈判破裂——更大冲击。⚡DDR5 spot重新加速确认——$41阻力位突破。🆕ServerMonkey月度更新。
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -423,6 +423,15 @@
       "pcie5-tlc: volatility_expand (30.72TB SS $17,700第7天涨价进入第二周；🆕3.84TB品牌分层；urgent_only)",
       "pcie4-qlc: volatility_expand (Mouser上沿第4天+Newegg新SKU低端微扩+新卖方confirm mid-band；split_buy)",
       "🆕 新增来源: DRAMeXchange 5/14/TrendForce Samsung SSD Japan 300%/NAND Research May 2026/DDR4 spot lead/Kioxia CM7-R 3.84TB SS/Micro Center/Newegg 9550 Pro 7.68TB/Newegg D5-P5336 new SKU/New seller D5-P5336 61.44TB"
+    ],
+    "2026-05-17": [
+      "📊 周六巩固日——全列为第17天持平(周日无spot)。三星罢工确认5/21启动——罢工前窗口仅剩3天(5/17-5/20)。所有五个品类buy_now升级。DDR5 spot $41.167确认为重新加速+1.15%(推翻此前+0.17%减速判断——此前$40.767为错误值)。$41阻力位决定性突破。日高$52.50/低$30.00极端波动。Xi Computer Micron 9550 Pro ship May 18。🆕shopRBC Kioxia CM7-R $20,432首次高于Micron premium。🆕ServerMonkey May 2026。Solidigm 7.68TB上沿$4,919→$4,300(Newegg)。Mouser QLC上沿满一周(第7天)。SS+Memory.net Day 12 CF。DiscTech Day 18。A-Tech 404 Day 11。罢工前窗口仅剩3天。DDR5-5600趋势升级flat_or_mixed→up。PCIe5 TLC+PCIe4 QLC采购升级→buy_now。五个品类全部buy_now——自追踪以来首次。新增来源: Tom's Hardware/Korea JoongAng Daily/ServerMonkey/shopRBC/8ANET/new Newegg listing。",
+      "ddr5-6400: up (NEMIX $1,488第18天——第四个工作周; SPDDR5 spot $41.167加速+1.15%跃进; ⚡⚡⚡罢工谈判破裂——更大冲击; buy_now MAX)",
+      "ddr5-5600: ⬆️ UPGRADE flat_or_mixed→up (spot re-acceleration confirmed; $41 breakthrough; Samsung strike breakdown; buy_now from split_buy)",
+      "pcie4-tlc: flat (Solidigm 7.68TB upper bind expands again; strike adds ~3% NAND risk; buy_now MAX)",
+      "pcie5-tlc: volatility_expand (30.72TB涨价第10天+Xi今日发货+🆕Kioxia $20,432+罢工威胁PM1743; buy_now from urgent_only)",
+      "pcie4-qlc: volatility_expand (Mouser上沿满一周独立确认; 罢工NAND风险; buy_now from split_buy)",
+      "🆕 新增来源: Tom's Hardware stike breakdown/ServerMonkey/shopRBC/8ANET/Newegg D7-P5520 $4,300/Taipei Times/Korea JoongAng Daily"
     ],
     "2026-05-16": [
       "📊 周六巩固日：DDR5 spot第六次连续回升但减速——5/15 $40.767(+0.17%) vs前日+0.83%。加速被证伪为一击脉冲。DDR5可能切换至高位平台",

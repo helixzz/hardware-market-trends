@@ -1,0 +1,110 @@
+{
+  "date": "2026-05-18",
+  "generatedAt": "2026-05-18T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange (direct search for $41.167 confirmation)",
+    "Tom's Hardware (strike negotiation breakdown)",
+    "Taipei Times (strike coverage)",
+    "Korea JoongAng Daily (strike editorial)",
+    "Business Standard (strike coverage)",
+    "The Next Web (strike coverage)",
+    "ServerMonkey May 2026 update",
+    "shopRBC (Kioxia CM7-R 30.72TB Canadian channel)",
+    "8ANET (Samsung PM1743 15.36TB E3.S)",
+    "Newegg D7-P5520 7.68TB direct listing ($4,299.99)",
+    "Xi Computer (ship date status update)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange ($41.167 confirmed)",
+    "Tom's Hardware (strike breakdown headline)",
+    "ServerMonkey May 2026 (DDR5-6400 32GB $1,424 / DDR5-5600 64GB $2,408)",
+    "shopRBC (Kioxia CM7-R 30.72TB $20,432)",
+    "8ANET (Samsung PM1743 15.36TB E3.S $2,316)",
+    "Newegg D7-P5520 7.68TB ($4,299.99 new listing)",
+    "Xi Computer (ship date May 18 confirmed)"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡⚡⚡ 三星罢工谈判破裂——Tom's Hardware头条确认。罢工前窗口仅剩3天(5/18-5/20)",
+    "⚡ DDR5 spot $41.167确认为权威数据——推翻此前$40.767减速判断。重新加速至+1.15%，七日最强单日涨幅",
+    "DDR5-5600 32GB ¥7,998→¥8,076 (+¥78, +0.98%)",
+    "DDR5-5600趋势升级 flat_or_mixed→up",
+    "PCIe5 TLC采购升级 urgent_only→buy_now",
+    "PCIe4 QLC采购升级 split_buy→buy_now",
+    "🆕 Solidigm D7-P5520 7.68TB上沿$4,919→$4,300 (Newegg新列价)",
+    "🆕 shopRBC Kioxia CM7-R 30.72TB $20,432——首次高于Micron premium带的Kioxia报价",
+    "🆕 ServerMonkey May 2026月度更新",
+    "Xi Computer Micron 9550 Pro 30.72TB今日发货",
+    "Mouser QLC 61.44TB上沿满一周(第7天)",
+    "三星360K晶圆已从平泽DRAM线移除——减产已开始",
+    "韩国总理召开紧急会议",
+    "五个品类全部buy_now——自追踪以来首次"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "18天锚点。DDR5 spot重新加速至$41.167(+1.15%)。三星罢工谈判破裂——3% DRAM产出风险。罢工前窗口仅剩3天。5/14起已开始减产。所有供给侧信号共振——自追踪以来最明确采购信号"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "升级自split_buy。DDR5 spot重新加速至$41.167推翻减速判断。$41阻力位突破。七日累计+3.34%。三星罢工破裂独立推高供给风险。split_buy窗口已关闭"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "13天品牌裂口。Solidigm上沿再上移$4,919→$4,300。三星罢工~3% NAND风险。NAND Q2+70-75%。6500 ION EOL Day 10。Tracking滞后60-93%。罢工破裂是最严重供给侧冲击"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "升级自urgent_only。30.72TB涨价第10天+Xi今日发货+shopRBC Kioxia $20,432新高端+罢工威胁PM1743。五源第18天覆盖足够可靠。全部信号指向涨价方向"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "升级自split_buy。Mouser上沿满一周确认结构性高端上行+全链卖光+罢工NAND 3%产出风险。高端独立于消费端回调持续7天。全时间序列831%。不再需要分批"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM公开价格持续缺失。有价格但无清洁公开锚点。无tracking列"
+    },
+    {
+      "category": "DDR5",
+      "spec": "spot daily data",
+      "reasonCode": "parser_gap",
+      "note": "TrendForce/DRAMeXchange JS渲染无法直抓。依赖Google search snippet——今日$41.167从search确认。此前$40.767被证实为错误值"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB/15.36TB/30.72TB real-time",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech主源JS离线Day 18。Tracking偏离60-93%。浏览器自动化唯一恢复路径"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Kioxia CM7-R",
+      "reasonCode": "outlier_only",
+      "note": "TechAtlantix $4,227 vs shopRBC $20,432 = 4.8x双源背离。清仓vs企业渠道。需要第三源验证"
+    },
+    {
+      "category": "ALL",
+      "spec": "ServerSupply+Memory.net直页",
+      "reasonCode": "parser_gap",
+      "note": "CF block Day 12。站点侧封禁确认。search snippet仍可用但长期缺失精确交叉验证"
+    }
+  ]
+}
