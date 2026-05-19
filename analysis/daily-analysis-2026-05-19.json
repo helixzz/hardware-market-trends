@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-19T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Samsung PM9D3a Xi Computer",
+    "Korea Herald 5/19",
+    "Chosun Ilbo 5/19",
+    "Business Times Singapore 5/19",
+    "Manila Times 5/19",
+    "Mouser D5-P5336 full capacity refresh",
+    "Mouser D7-P5520 refresh",
+    "TrendForce MLC NAND spot May 13",
+    "Tom's Hardware Taiwan module makers stockpile",
+    "NEMIX RAM direct",
+    "DRAMeXchange 5/18 confirmation",
+    "web_search DDR5-5600 general",
+    "web_search PCIe4 TLC general",
+    "web_search PCIe5 general"
+  ],
+  "newSourcesWithUsefulData": [
+    "Samsung PM9D3a 30.72TB $14,239 (Xi Computer)",
+    "Korea Herald 5/19 (negotiation ongoing, no agreement)",
+    "Chosun Ilbo 5/19 (strike latest)",
+    "Mouser D5-P5336 full capacity (61.44TB $34,356 Day 9 / 30.72TB $17,770 / 122.88TB E1.L $21,718)",
+    "Mouser D7-P5520 (7.68TB $4,456-$5,727 band maintained)",
+    "TrendForce MLC NAND spot tripled since late 2025 ($20-28 May 2026)",
+    "Tom's Hardware Taiwan module makers raised $880M to stockpile chips",
+    "NEMIX DDR5-6400 32GB $1,488 Day 20",
+    "DRAMeXchange $41.267 May 18 confirmed"
+  ],
+  "keyChangesVsYesterday": [
+    "Samsung strike talks extended to May 19 — still no agreement, strike window closes in 48 hours",
+    "🆕 Samsung PM9D3a 30.72TB PCIe5 — Samsung enters PCIe5 30.72TB market at $14,239, forming four-brand (Samsung/Kingston/Micron/Kioxia) competitive landscape",
+    "MLC NAND spot tripled since late 2025 to $20-28 range (TrendForce May 13 quantification)",
+    "Taiwan module makers raised $880M to stockpile memory chips — channel-side hoarding signal",
+    "Mouser QLC full capacity line confirmed: 61.44TB $34,356 (Day 9) + 30.72TB $17,770 + 122.88TB E1.L $21,718",
+    "DDR5 spot $41.267 unchanged from yesterday evening — May 19 session data expected later today",
+    "NEMIX $1,488 Day 20 — four full work weeks anchor",
+    "SS Micron 9550 Pro $17,700 Day 12 — price increase entering third week",
+    "Xi Computer Micron 9550 Pro 30.72TB shipped May 18 — now a shipped reference",
+    "DiscTech Day 20 JS offline / ServerSupply+Memory.net Day 14 Cloudflare / A-Tech 404 Day 13",
+    "All 18 tracking columns flat Day 20 — 5/1 anchors sustained through full fourth work week"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "20-day anchor + DDR5 spot 8th consecutive rise $41.267 + Samsung production cut since 5/14 is fact regardless of negotiation outcome. Court injunction reduces extreme risk but does not change supply contraction direction. Strike window closing: 48 hours remaining. Micron exited Crucial + Kingston SKU discontinued."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.267 8th consecutive rise — direction confirmed, acceleration pulse pattern (not sustained) does not change up direction. $41 resistance decisively broken sustained Day 3. Samsung production cut + negotiation ongoing with no agreement."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "Brand split 3.4-5.5x structural Day 15 (over 3 weeks). MLC NAND spot tripled since late 2025. Samsung strike ~2-3% NAND output risk. NAND Q2 +70-75% + 6500 ION EOL. Tracking lag 55-157% — actual procurement costs far above tracked values."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB SS $17,700 Day 12 entering third week of price increase. Xi Computer shipped. 🆕 Samsung PM9D3a $14,239 fills Samsung 30.72TB gap forming four-brand competitive landscape. Brand three-tier structure Day 8 stable. Multi-source Day 20 — coverage sufficient for buy_now."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "Mouser QLC full line premium tier independent uptrend Day 9 (61.44TB $34,356 / 30.72TB $17,770 / 122.88TB $21,718). Samsung strike NAND risk + MLC NAND tripled + NAND all-chain sold out. Premium tier structurally confirmed — no longer temporary spike."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM public anchor persists missing. Low priority."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200 Day 18 sustained. HPE $3,665/Dell $4,100 cross-ref. Ready for formal tracking column."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB / 15.36TB / 30.72TB",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS rendering offline Day 20 — primary source unavailable. Tracking lag 55-157% versus real-time band. Browser automation only recovery path."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "parser_gap",
+      "note": "CDW/Uvation inquiry only — no public price. Band $1,908-$10,888 extreme spread."
+    },
+    {
+      "category": "DDR5-6400 / DDR5-5600",
+      "spec": "all (validation)",
+      "reasonCode": "parser_gap",
+      "note": "ServerSupply+Memory.net Cloudflare blocked Day 14. Search snippets available but precise direct-page cross-validation absent for two weeks."
+    },
+    {
+      "category": "DDR5 spot",
+      "spec": "May 19 session data",
+      "reasonCode": "pending_update",
+      "note": "DRAMeXchange updates ~18:00 GMT+8 daily. May 19 data expected this evening."
+    }
+  ],
+  "strikeStatus": {
+    "negotiationStatus": "extended_to_may_19_no_agreement",
+    "strikePlanned": "2026-05-21",
+    "courtInjunction": "partial_grant_may_18",
+    "productionCutSince": "2026-05-14",
+    "windowRemaining": "48_hours",
+    "confidence": "high"
+  },
+  "ddr5SpotSequence": {
+    "latestValue": 41.267,
+    "latestDate": "2026-05-18",
+    "consecutiveRises": 8,
+    "cumulativeChange": 3.60,
+    "accelerationPulsePattern": "confirmed — +0.83% and +1.15% each single-day pulses followed by baseline return",
+    "baselineRate": "0.17-0.25% per session",
+    "nextDataExpected": "2026-05-19 ~18:00 GMT+8"
+  },
+  "newProductLaunch": {
+    "product": "Samsung PM9D3a PCIe5 30.72TB",
+    "price": 14239,
+    "source": "Xi Computer",
+    "significance": "Samsung's first PCIe5 30.72TB enterprise SSD. Previously PM1743 maxed at 15.36TB. Forms four-brand (Samsung/Kingston/Micron/Kioxia) competitive landscape at 30.72TB.",
+    "formFactors": ["U.2", "E1.S", "E3.S"],
+    "specs": "12,000 MB/s sequential read, enhanced power-loss protection, OCP 2.5 compliant"
+  }
+}
