@@ -1,0 +1,126 @@
+{
+  "date": "2026-05-20",
+  "generatedAt": "2026-05-20T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Korea Times (NLRC final mediation May 20)",
+    "The Guardian (Samsung strike explainer May 19)",
+    "DRAMeXchange May 19 ($41.100 ▼-0.41%)",
+    "Worldstream (DDR5 307% surge + IaaS cost pass-through)",
+    "Supply Chain Digital (Samsung strike AI memory shortage)",
+    "WCCFTech (strike recovery quantification 2-3 weeks)",
+    "Cognativ (AI memory chip supply chain risk)",
+    "Borecraft (3-4% global DRAM supply at risk)",
+    "Japan Times (resume talks as deadline nears)",
+    "Byteiota (cloud costs 5-10%, DDR5 307%, servers 25%)",
+    "Mouser QLC inventory check (⚡1 unit remaining)",
+    "Compuram Kioxia CM7-R 7.68TB",
+    "NEMIX RAM 32GB Day 21",
+    "Xi Computer Samsung PM9D3a verification",
+    "SHI Micron 9550 Pro verification"
+  ],
+  "newSourcesWithUsefulData": [
+    "Korea Times (NLRC final mediation — 'last-minute deal possible')",
+    "DRAMeXchange May 19 ($41.100 ▼-0.41% — first decline in 9 days)",
+    "Worldstream (DDR5 307% surge Oct-Dec 2025 quantified)",
+    "WCCFTech (18-day strike + 2-3 week recovery = 5-6 week impact)",
+    "Mouser QLC inventory (⚡61.44TB U.2: 1 unit, restock Sept 7 2026)",
+    "Compuram Kioxia CM7-R 7.68TB ($4,290 — mid-band confirmation)",
+    "NEMIX RAM 32GB ($1,488 Day 21)",
+    "Byteiota (cloud service cost pass-through quantification)"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡ DDR5 spot FIRST DECLINE after 8-day streak: $41.267→$41.100 (▼-0.41%)",
+    "DDR5-5600 32GB: ¥8,096→¥8,063 (-¥33, -0.41%) — spot-driven micro adjustment",
+    "🔴🔴 Samsung strike: from 'talks extended' to 'NLRC final mediation proposal — decision today'",
+    "⚡ Mouser QLC 61.44TB U.2 inventory: only 1 unit remaining, restock Sept 7 2026 — active supply crisis signal",
+    "🆕 Worldstream: DDR5 Oct-Dec 2025 +307%, Dell/Lenovo servers +15-25%, OVH Cloud +5-10% — full-chain cost pass-through confirmed",
+    "🆕 WCCFTech: strike recovery requires additional 2-3 weeks post-strike — actual impact window 5-6 weeks",
+    "17 other tracking columns flat Day 21"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "21-day anchor + NEMIX $1,488 entering 5th work week. DDR5 spot first decline but still at $41+ elevated level (+3.18% vs 9 days ago) — not a trend reversal. Samsung NLRC final mediation today — last day before potential strike. Worldstream 307% DDR5 surge + Samsung production cut (5/14 onwards) are facts regardless of negotiation outcome."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.100 first decline (-0.41%) breaks 8-day streak but remains elevated. Extreme intraday range $29.80-$53.00 (1.78x) suggests pricing consensus fracturing rather than demand weakening. Samsung strike decision today. If spot continues declining tomorrow toward $40 range, reassess. For now, structural supply tightness + strike risk maintain buy_now."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "16-day brand split 3.4-5.5x structural + Samsung strike NAND ~2-3% risk + NAND Q2 +70-75% + 6500 ION EOL Day 13. Tracking lag 43-159% — actual procurement costs far above tracking table. DiscTech offline Day 21 prevents tracking lag self-correction. Worldstream/Dell/Lenovo cost pass-through confirms market direction."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB SS $17,700 Day 13 price increase (entering 3rd week) + Xi Computer shipped + seven-reference quad-brand Day 21. Brand three-tier (7.68TB) stable Day 9. Samsung strike threatens PM1743/PM9D3a product lines. Multi-brand competition may provide short-term buffer but upward channel confirmed."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ URGENCY UPGRADE: Mouser 61.44TB U.2 only 1 unit remaining — restock Sept 7 2026 (3.5 months). This is the most severe QLC supply signal since tracking began. QLC transitioning from 'price problem' to 'availability problem.' Premium tier independent uptrend Day 10. Samsung strike NAND ~2-3% risk. Today may be the last actionable procurement window for large-capacity QLC SSDs for months."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM public pricing persistently absent. Low priority."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking column",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200 Day 19 persistent. HPE $3,665/Dell $4,100 cross-reference sustained. Ready for formal tracking column creation."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "All capacities real-time tracking",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS offline Day 21 (3+ weeks). Tracking lag 43-159%. Browser automation is only recovery path."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Kioxia pricing coherence",
+      "reasonCode": "outlier_only",
+      "note": "AAAWave $4,198 vs shopRBC $20,432 = 4.8x deviation. shopRBC is Canadian enterprise channel — higher credibility than AAAWave clearance."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB CDW/Uvation",
+      "reasonCode": "parser_gap",
+      "note": "CDW/Uvation 'inquiry only' — no public pricing."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB U.2 availability",
+      "reasonCode": "active_crisis",
+      "note": "⚡ Mouser U.2 only 1 unit remaining, restock Sept 7 2026. E1.L form factor has 4 units but compatibility confirmation needed. This is a structural availability issue, not temporary shortage."
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply + Memory.net direct page access",
+      "reasonCode": "parser_gap",
+      "note": "CF block Day 15. Search snippets still available but direct page cross-validation missing 2+ weeks."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "DDR5 spot May 20 data",
+      "reasonCode": "pending_update",
+      "note": "DRAMeXchange typically updates ~18:00 GMT+8. May 20 data will be first market reaction after Samsung strike decision."
+    }
+  ]
+}
