@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-21",
+  "generatedAt": "2026-05-21T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Tom's Hardware (strike averted)",
+    "Korea JoongAng Daily (tentative deal)",
+    "Taipei Times (5/21 frontpage)",
+    "Business Times Singapore (11th-hour deal)",
+    "Korea Herald (deal + presidential office thanks)",
+    "Chosun Ilbo 5/21 (deal terms + voting schedule)",
+    "Washington Post",
+    "Business Standard",
+    "Seeking Alpha",
+    "Seoul Economic Daily (presidential office)",
+    "Morningstar",
+    "DRAMeXchange May 20 ($41.167▲)",
+    "Digital Today (Solidigm 122.88TB QLC +199% YoY)",
+    "SHI Micron 9550 Pro 30.72TB re-confirm $19,573",
+    "web_search DDR5-5600 Micron 128GB $4,355 confirm",
+    "web_search Micron 9550 Pro 3.84TB/15.36TB pricing"
+  ],
+  "newSourcesWithUsefulData": [
+    "Tom's Hardware (strike averted + deal details)",
+    "Korea JoongAng Daily",
+    "Taipei Times",
+    "Business Times Singapore",
+    "Korea Herald",
+    "Chosun Ilbo 5/21",
+    "Seoul Economic Daily",
+    "DRAMeXchange May 20 ($41.167▲)",
+    "Digital Today (122.88TB QLC +199% YoY)",
+    "SHI Micron 9550 Pro 30.72TB $19,573",
+    "web_search DDR5-5600 Micron 128GB $4,355"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡⚡⚡⚡⚡ 三星罢工在原定启动日被取消——5/20深夜达成试探性工资协议（10.5%营业利润奖金+无上限，工会5/23-28投票）",
+    "⚡ DDR5 spot 反弹 $41.100→$41.167（▲+0.16%）——5/19首次回落被证明仅持续一日，非趋势逆转",
+    "DDR5-5600 32GB ¥8,063→¥8,076（▲+¥13）——spot驱动微调",
+    "三星罢工取消→采购紧迫度从'恐慌级别'降为'结构性紧张级别'",
+    "PCIe4 TLC 品牌裂口 3.4-5.5x 结构性第17天",
+    "PCIe5 TLC 30.72TB SS $17,700 第14天涨价——进入第三周",
+    "Mouser QLC 61.44TB U.2 连续第二天仅剩1台——供给危机从单日信号变结构性确认",
+    "🆕 Solidigm 122.88TB QLC 年涨199% ($12,399→$37,128) Digital Today独立量化",
+    "🆕 PCIe5 3.84TB 品牌三分层扩展确认——Micron $2,469-$3,142加入",
+    "DDR5 spot '跌→弹'模式确认$41为支撑非阻力"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "22天锚点+spot反弹至$41.167+减产(5/14起)是事实、恢复需2-3周。Micron退出Crucial+Kingston SKU停产+全链卖光。罢工取消排除最坏情况但供给仍紧张"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.167反弹——'跌→弹'模式确认$41支撑。10日累计+3.35%。罢工取消降低恐慌但仍为结构性上行"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "17天品牌裂口+NAND Q2+70-75%+6500 ION EOL。real-time $3,457-$5,727 vs tracking ¥18,094 滞后56-159%。罢工取消微降紧迫度但实际采购成本已是tracking值1.5-2.6倍不变"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB涨价第14天进入第三周+Xi已发货+四品牌竞争提供采购杠杆但仍处涨价通道。罢工取消解除Samsung产品线直接威胁但涨价趋势不变"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡Mouser 61.44TB连续第二天仅剩1台——供给危机结构性+补货3.5个月后。122.88TB年涨199%。罢工取消不影响QLC渠道库存枯竭——这是独立的结构性紧缩"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM公开价格持续缺失。第22天尝试新来源仍无果"
+    },
+    {
+      "category": "DDR5 spot",
+      "spec": "日数据可靠性",
+      "reasonCode": "parser_gap",
+      "note": "DRAMeXchange页面完全JS渲染。依赖web_search snippet——$41.167已从search确认"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "real-time tracking lag",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech主源JS离线第22天——超三周。Tracking偏离56-159%。浏览器自动化是唯一恢复路径"
+    },
+    {
+      "category": "ServerSupply + Memory.net",
+      "spec": "dual-source CF block",
+      "reasonCode": "parser_gap",
+      "note": "站点侧封禁第16天。search snippet仍可用但精确直页交叉验证缺失已超两周"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking column",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200第20天持久。HPE $3,665/Dell $4,100旁证持续。建议建正式tracking列"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB Mouser supply",
+      "reasonCode": "active_crisis",
+      "note": "⚡U.2连续第二天仅剩1台——补货2026/9/7。E1.L仍有4台但form factor兼容性需确认。结构性供给危机"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Kioxia pricing coherence",
+      "reasonCode": "outlier_only",
+      "note": "Kioxia CM7-R 30.72TB双源极端背离4.8x(AAAWave $4,198 vs shopRBC $20,432)。shopRBC可信度高于AAAWave"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB CDW/Uvation",
+      "reasonCode": "parser_gap",
+      "note": "CDW/Uvation 'inquiry only' 无公开价"
+    }
+  ]
+}

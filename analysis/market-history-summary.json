@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-20T09:00:00+08:00",
+  "generatedAt": "2026-05-21T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 57,
+  "trackingRows": 58,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-"latestDate": "2026-05-20",
+"latestDate": "2026-05-21",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "NEMIX 32GB $1,488 Day 21 anchor — five full work weeks. 64GB 5-source band $2,107-$2,550 maintained. DDR5 spot $41.100 (5/19) FIRST DECLINE ▼-0.41% after 8-day streak — not trend reversal but streak broken. Samsung NLRC final mediation May 20 — decision today. Production cut since 5/14 is fact. Kingston -32MD obsolete Day 10. A-Tech 404 Day 14 (new URL OK). SS+Memory.net Day 15 CF.",
-      "sourceHealthNote": "SS+Memory.net Day 15 CF double-block. A-Tech 404 Day 14 (new URL OK). DiscTech JS offline Day 21. NEMIX Day 21 most stable anchor. NLRC mediation may produce last-minute deal. Worldstream 307% DDR5 surge Oct-Dec 2025 first-hand IaaS validation.",
+      "trendNote": "NEMIX 32GB $1,488 Day 22 anchor — fifth full work week+. 64GB 5-source band $2,107-$2,550 maintained. ⚡⚡⚡⚡⚡ Samsung strike AVERTED late 5/20 — tentative deal (10.5% bonus+no cap), union vote 5/23-28. ⚡DDR5 spot $41.167 (5/20) ▲+0.16% REBOUND after 5/19 first decline — 'dip-and-bounce' confirms $41 as support not resistance. Production cut 5/14 is fact — warm-down→ramp-up recovery needs 2-3 weeks. Kingston -32MD obsolete Day 11. A-Tech 404 Day 15 (new URL OK). SS+Memory.net Day 16 CF.",
+      "sourceHealthNote": "SS+Memory.net Day 16 CF double-block. A-Tech 404 Day 15 (new URL OK). DiscTech JS offline Day 22. NEMIX Day 22 most stable anchor. Strike averted — biggest single-day supply-side reversal since tracking began. Worldstream 307% DDR5 surge Oct-Dec 2025.",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -60,21 +60,21 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-"latestDate": "2026-05-20",
+"latestDate": "2026-05-21",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "⚡ DDR5 spot $41.100 (5/19) FIRST DECLINE ▼-0.41% after 8 consecutive rises — streak broken. 9-day cum now +3.18%. $41 level still held. Intraday extreme $29.80-$53.00 (1.78x) — pricing consensus fracturing. Samsung NLRC final mediation today. Worldstream DDR5 307% surge Oct-Dec 2025 quantified. UP maintained with volatility warning.",
+      "trendNote": "⚡ DDR5 spot $41.167 (5/20) ▲+0.16% REBOUND — 5/19 first decline proved one-day only. 'Dip-and-bounce' confirms $41 as support. 10-day cumulative +3.35%. Intraday extreme $29.80-$53.00 (1.78x) sustained. Samsung strike AVERTED late 5/20 — tentative deal 10.5% bonus+no cap, union vote 5/23-28. 5/14 production cut recovery needs 2-3 weeks. Worldstream DDR5 307% surge Oct-Dec 2025. UP strong — volatility warning downgraded from strike-driven to technical oscillation.",
 "latestValues": {
-        "DDR5-5600 32GB": 8063,
+        "DDR5-5600 32GB": 8076,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
       "previousValues": {
-        "DDR5-5600 32GB": 8096,
+        "DDR5-5600 32GB": 8063,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
@@ -86,12 +86,12 @@
       "missingColumns": [],
       "columns": {
         "DDR5-5600 32GB": {
-          "latestValue": 8096,
-          "previousValue": 8096,
+          "latestValue": 8076,
+          "previousValue": 8063,
           "rollingMedian14d": 7933,
-"lastSeenDate": "2026-05-20",
+"lastSeenDate": "2026-05-21",
           "consecutiveMissingDays": 0,
-          "note": "⚡ DRAMeXchange $41.100 DDR5 16Gb session avg (5/19) - FIRST DECLINE ▼-0.41% after 8 consecutive rises. Streak broken. Intraday extreme $29.80-$53.00 = 1.78x range. $41 level still held. 9-day cum +3.18%. Worldstream 307% DDR5 surge Oct-Dec 2025 IaaS validation."
+          "note": "⚡ DRAMeXchange $41.167 DDR5 16Gb session avg (5/20) ▲+0.16% REBOUND — 5/19 first decline proved one-day only. 'Dip-and-bounce' confirms $41 support. 10-day cumulative +3.35%. Intraday extreme $29.80-$53.00 = 1.78x range sustained. Samsung strike AVERTED late 5/20 (10.5% bonus+no cap, vote 5/23-28). Production cut 5/14 recovery needs 2-3 weeks. Worldstream 307% DDR5 surge Oct-Dec 2025 IaaS validation."
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
@@ -122,7 +122,7 @@
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-05-20",
+      "latestDate": "2026-05-21",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -194,7 +194,7 @@
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-05-20",
+      "latestDate": "2026-05-21",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -265,7 +265,7 @@
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-05-20",
+      "latestDate": "2026-05-21",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -331,6 +331,24 @@
     }
   },
   "recentRunNotes": {
+    "2026-05-21": [
+      "⚡⚡⚡⚡⚡ SAMSUNG STRIKE AVERTED — tentative wage deal reached late 5/20. 10.5% operating profit bonus pool + NO CAP on payouts + distribution method from 2027 + one-year deferral for loss-making divisions. Union vote 5/23 9:00 - 5/28 22:00. Korean presidential office thanks both sides. BIGGEST SINGLE-DAY SUPPLY-SIDE REVERSAL since tracking began.",
+      "⚡ DDR5 spot $41.167 (5/20) ▲+0.16% REBOUND — 5/19 first decline ($41.100▼) proved one-day only. 'Dip-and-bounce' confirms $41 as SUPPORT not resistance. 10-day cumulative +3.35%. Intraday extreme $29.80-$53.00 (1.78x) sustained. DDR5 channel remains strong independent of strike news.",
+      "⚡ Mouser QLC 61.44TB U.2 SECOND CONSECUTIVE DAY only 1 unit — supply crisis NOT supplemented overnight. Structural channel inventory depletion confirmed. Restock Sept 7 2026 (3.5 months).",
+      "DDR5-5600 32GB ¥8,063→¥8,076 (+¥13, +0.16%) — spot-driven micro recovery. All other 17 columns flat Day 22.",
+      "🆕 Digital Today: Solidigm 122.88TB D5-P5336 $12,399(May 2025)→$37,128(Feb 2026) = +199% YoY. First independent quantification of QLC max-capacity annual surge.",
+      "🆕 PCIe5 3.84TB three-tier brand structure extended — Micron 9550 Pro $2,469-$3,142 joins Samsung $1,288-$2,999 and Kioxia $2,360. Pattern previously observed at 7.68TB now confirmed at smallest tracked PCIe5 capacity.",
+      "Strike cancelled ≠ supply pressure relieved: 360K wafers removed since 5/14 — warm-down→ramp-up recovery needs 2-3 weeks (WCCFTech). Full-chain sold-out Day 19, LTA lock Day 16, AI demand structural — all independent of strike.",
+      "Five categories all buy_now maintained. Procurement urgency downgraded from 'panic level' to 'structural tightness level'. PCIe4 TLC urgency MAX→HIGH. QLC urgency remains MAX (supply crisis structural).",
+      "NEMIX 32GB $1,488 Day 22 — fifth full work week+. SS 9550 Pro 30.72TB $17,700 Day 14 (entering third week). Mouser QLC $34,356 Day 11 (double-digit). Xi Computer shipped 5/18 confirmed Day 4.",
+      "SS+Memory.net Day 16 CF. DiscTech Day 22 JS offline. A-Tech 404 Day 15.",
+      "ddr5-6400: up (NEMIX $1,488 Day 22; spot rebound $41.167; strike averted but production cut recovery takes 2-3 weeks; buy_now)",
+      "ddr5-5600: up (spot $41.167 ▲+0.16% — dip-and-bounce confirms $41 support; strike averted; buy_now)",
+      "pcie4-tlc: flat (brand split 3.4-5.5x Day 17; DiscTech Day 22; tracking lag 56-159%; strike averted reduces urgency; buy_now)",
+      "pcie5-tlc: volatility_expand (30.72TB Day 14 entering third week + Xi shipped + seven-ref quad-brand Day 22; PM9D3a Day 3; buy_now)",
+      "pcie4-qlc: volatility_expand (⚡Mouser U.2 second day only 1 unit — supply crisis sustained; 122.88TB +199% YoY; premium tier Day 11; buy_now urgency MAX)",
+      "NEW sources: Tom's Hardware(strike averted)/Korea JoongAng Daily(tentative deal)/Taipei Times(frontpage)/Business Times Singapore/Korea Herald/Chosun Ilbo 5/21/Washington Post/Business Standard/Seeking Alpha/Seoul Economic Daily(presidential office)/Morningstar/DRAMeXchange 5/20▲/Digital Today(122.88TB QLC +199% YoY)/SHI 9550 Pro 30.72TB re-confirm/web_search DDR5-5600 Micron 128GB"
+    ],
     "2026-05-20": [
       "🔴🔴 STRIKE EVE — NLRC final mediation May 20 decision day. Korea Times 'last-minute deal possible'. President Lee+PM Kim urge resolution, threaten emergency arbitration. Samsung 360K wafers already removed (5/14) — supply damage is fact regardless of outcome.",
       "⚡ DDR5 spot FIRST DECLINE: $41.267→$41.100 ▼-0.41% (5/19) — 8-day streak broken. Intraday extreme $29.80-$53.00 = 1.78x range. Not trend reversal but streak interrupted. $41 level still held. 9-day cumulative now +3.18%.",
@@ -501,10 +519,10 @@
   },
   "escalatedRisks": [
     {
-      "risk": "DDR5 spot consecutive rise with acceleration ⚡",
-      "status": "SUSTAINED — Day 8. $41.267 (+0.24%). Deceleration confirmed.",
-      "source": "TrendForce DRAMeXchange May 15 2026",
-      "detail": "DDR5 16Gb (2Gx8) session avg $41.267 (+0.24%, +$0.10). EIGHTH consecutive rise. Deceleration confirmed — +0.83% (Day 5) and +1.15% (Day 7) acceleration pulses each single-day. Baseline rate ~0.17-0.25%/session. 8-day cumulative +3.60%. $41 resistance decisively broken but sustained acceleration disproven.",
+      "risk": "DDR5 spot eight-day consecutive rise with acceleration ⚡",
+      "status": "SUSTAINED — Day 10. $41.167 (+0.16%). Dip-and-bounce confirmed.",
+      "source": "TrendForce DRAMeXchange May 20 2026",
+      "detail": "DDR5 16Gb (2Gx8) session avg $41.167 (+0.16%, +$0.067). 5/19 first decline ($41.100▼) proved one-day only. Immediate rebound confirms $41 as support. 10-day cumulative +3.35%. Intraday extreme $29.80-$53.00 (1.78x) sustained. Deceleration pulses (5/14,5/16) each one-day. Baseline rate ~0.16-0.25%. $41 decisively proven as support level.",
       "categoriesAffected": [
         "All DDR5"
       ],
@@ -612,8 +630,55 @@
       "updatedDate": "2026-05-18"
     },
     {
+      "risk": "Samsung semiconductor strike",
+      "status": "RESOLVED — May 20 tentative deal. Vote 5/23-28.",
+      "source": "Tom's Hardware / Korea JoongAng Daily / Chosun Ilbo / Taipei Times May 20-21 2026",
+      "detail": "Samsung Electronics and NSEU union (~48,000 workers) reached tentative wage deal late 5/20 — 10.5% operating profit bonus pool + NO CAP + distribution from 2027 + one-year deferral for loss-making units. Strike suspended. Union vote 5/23 9:00 - 5/28 22:00. Korean presidential office thanked both sides. Production cut since 5/14 (360K wafers removed) is FACT — warm-down→ramp-up recovery needs 2-3 weeks per WCCFTech. If vote fails, strike risk returns.",
+      "categoriesAffected": [
+        "All DDR5",
+        "All SSD"
+      ],
+      "confidence": "high (multi-source + presidential office confirmation)",
+      "firstReported": "2026-05-17",
+      "resolvedDate": "2026-05-20"
+    },
+    {
+      "risk": "Mouser QLC 61.44TB U.2 supply crisis — 1 unit remaining",
+      "status": "CRITICAL — Day 2 sustained. No replenishment.",
+      "source": "Mouser product page May 19-21 2026",
+      "detail": "Solidigm D5-P5336 61.44TB U.2 (SBFPF2BV614T001) ONLY 1 UNIT in stock for second consecutive day. Restock date Sept 7 2026 (3.5 months). E1.L form factor 4 units still available but form factor compatibility needs verification. QLC transitioning from 'price crisis' to 'availability crisis' — most severe SSD supply signal since tracking began. Independent structural channel inventory depletion — NOT strike-driven.",
+      "categoriesAffected": [
+        "PCIe4 QLC"
+      ],
+      "confidence": "high (two consecutive days confirmed)",
+      "firstReported": "2026-05-20",
+      "updatedDate": "2026-05-21"
+    },
+    {
+      "risk": "Solidigm D5-P5336 122.88TB QLC +199% YoY",
+      "status": "NEW — Day 1",
+      "source": "Digital Today Korea May 2026",
+      "detail": "Solidigm 122.88TB D5-P5336 priced at $12,399 at May 2025 launch → $37,128 by February 2026 = +199% annual increase. First independent quantification of QLC max-capacity annual surge. Combined with 61.44TB Mouser supply crisis (1 unit), QLC large-capacity channel is in structural supply crunch across all capacities.",
+      "categoriesAffected": [
+        "PCIe4 QLC"
+      ],
+      "confidence": "medium-high (single-source but specific pricing data)",
+      "firstReported": "2026-05-21"
+    },
+    {
+      "risk": "PCIe5 3.84TB brand tiering extension",
+      "status": "EXTENDED — Day 1 at 3.84TB",
+      "source": "web_search May 21 2026",
+      "detail": "PCIe5 3.84TB three-tier brand structure confirmed: Samsung PM1743 $1,288-$2,999 + Kioxia CM7-R $2,360-$3,000 + Micron 9550 Pro $2,469-$3,142. Pattern previously observed at 7.68TB now extends to smallest tracked PCIe5 capacity — structural market segmentation deepening across all capacities.",
+      "categoriesAffected": [
+        "PCIe5 TLC"
+      ],
+      "confidence": "medium (brand coverage expanding)",
+      "firstReported": "2026-05-21"
+    },
+    {
       "risk": "Samsung/SK Hynix LTA溢价锁定",
-      "status": "SUSTAINED — Day 13",
+      "status": "SUSTAINED — Day 16",
       "source": "TrendForce/FT/Green Economy News May 4-6 2026",
       "detail": "Samsung/SK Hynix深化3-5年LTA（10-30%预付款+价格地板条款）。微软3年DDR5数百亿刀+谷歌5年通用DRAM。FT定性'producer's market'至2028",
       "categoriesAffected": [
