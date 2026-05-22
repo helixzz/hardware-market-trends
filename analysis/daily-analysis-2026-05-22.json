@@ -1,0 +1,149 @@
+{
+  "date": "2026-05-22",
+  "generatedAt": "2026-05-22T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Tech-America",
+    "ServerSupply (Samsung 128GB DDR5-5600)",
+    "ServerSupply (Micron 9550 Pro 7.68TB)",
+    "NeutronUSA",
+    "NeweggBusiness",
+    "shopBLT",
+    "Avnet",
+    "Swissbit",
+    "TrendForce DDR5定性分析"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange May 21 ($41.333 ▲+0.40%)",
+    "Tech-America (Micron 9550 Pro 30.72TB $17,318)",
+    "ServerSupply (Samsung 128GB DDR5-5600 $5,600)",
+    "ServerSupply (Micron 9550 Pro 7.68TB $6,000)",
+    "NeutronUSA (D7-P5520 15.36TB $3,484.50)",
+    "NeweggBusiness (D5-P5336 30.72TB $11,354.99)",
+    "TrendForce (DDR5 spot market strengthens qualitative)"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡⚡ DDR5 spot 连续第二日反弹且加速: $41.167→$41.333 (+0.40%, +$0.166), 突破前高 $41.267, '跌→弹→加速弹'三阶段模式确立",
+    "DDR5-5600 32GB ¥8,076→¥8,109 (+¥33, +0.41%) — 唯一变动的 tracking 列",
+    "🆕 PCIe5 30.72TB 八参考点五来源里程碑: Tech-America Micron 9550 Pro $17,318 加入",
+    "🆕 ServerSupply Samsung DDR5-5600 128GB $5,600 首次品牌企业级锚点",
+    "🆕 Samsung PM1743 7.68TB PCIe5 带收紧至 $2,499-$2,799",
+    "⚡ Mouser QLC 61.44TB U.2 连续第三天仅剩 1 台——结构性供给危机确认",
+    "🆕 Micron 6550 ION 确认 TLC 非 QLC——不填补 QLC tracking 列，6500 ION EOL 后 30.72TB QLC 双源→单源",
+    "三星工会投票今日(5/22)启动，韩国劳动部长 Kim Young-hoon 关键调解角色确认",
+    "TrendForce 官方定性 DDR5 spot 'strengthens on branded demand and higher bids'",
+    "罢工取消后 DDR5 spot 加速上涨证伪'等待罢工尘埃落定'策略"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "23 天锚点+DDR5 spot 加速反弹至 $41.333 突破前高 $41.267。罢工取消后加速上涨证伪延迟策略。5/14 减产（360K 晶圆移除）恢复需 2-3 周。Micron 退出 Crucial+Kingston SKU 停产+全链卖光+AI 需求不可逆"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.333 '跌→弹→加速弹'三阶段模式确立——上升通道强度提升。罢工取消后加速上涨打消'回调窗口'幻想。11 日累计 +3.76%。TrendForce 定性供应商反复提价+买方主动加价。等待成本每日攀升"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "18 天品牌裂口+NAND Q2 +70-75%+6500 ION EOL+MLC NAND 翻三倍。Tracking 滞后 43-128%——实际采购成本 ¥28,339-¥41,009 vs tracking ¥18,094（1.6-2.3x）。DiscTech 离线第 23 天使 lag 无法自行修复"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB SS $17,700 第 15 天涨价（进入第三周下半段）+八参考点五来源第 23 天+四品牌竞争格局。Tech-America $17,318 中位新锚点确认涨价方向。品牌三分层第 11 天。PCIe5 竞争最充分但涨价趋势已持续超两周"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ Mouser 61.44TB U.2 连续第三天仅剩 1 台——结构性供给危机确认。三日未补货排除临时缺货/物流延迟可能性。补货 2026/9/7（3.5 个月）。6550 ION TLC 不填补 QLC 缺口。6500 ION EOL 后 30.72TB QLC 从双源→单源"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 16GB RDIMM 公开价格持续缺失。优先级低"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB/15.36TB/30.72TB real-time tracking",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS 离线第 23 天——超过三周。Tracking 偏离 43-128%。浏览器自动化是唯一恢复路径。已升级为关键行动项"
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply + Memory.net direct page access",
+      "reasonCode": "parser_gap",
+      "note": "CF block Day 17。站点侧封禁确认。search snippet 仍可用但精确直页交叉验证缺失已超过两周"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking column",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200 第 21 天持久。HPE $3,665/Dell $4,100 旁证持续。锚点稳定性已超三周——建议正式建 tracking 列"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB U.2 supply",
+      "reasonCode": "active_crisis",
+      "note": "⚡ Mouser U.2 连续第三天仅剩 1 台——结构性供给危机确认。补货 2026/9/7。E1.L 仍有 4 台但 form factor 兼容性需确认"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Kioxia pricing coherence",
+      "reasonCode": "outlier_only",
+      "note": "Kioxia CM7-R 30.72TB 双源极端背离 4.8x（AAAWave $4,198 vs shopRBC $20,432）。Tech-America 今日确认需 inquiry——无公开价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB CDW",
+      "reasonCode": "parser_gap",
+      "note": "CDW 'inquiry only' 无公开价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB supply post-6500 ION EOL",
+      "reasonCode": "out_of_scope",
+      "note": "Micron 6550 ION 使用 TLC 非 QLC——不填补 QLC tracking 列。6500 ION EOL（2026/8/25）后 30.72TB QLC 从 D5-P5316+6500 ION 双源缩为 D5-P5316 单源"
+    }
+  ],
+  "spotPrice": {
+    "date": "2026-05-21",
+    "value": 41.333,
+    "change": "+0.166",
+    "changePercent": "+0.40%",
+    "trend": "rebound_accelerating",
+    "note": "连续第二日反弹且加速。突破前高 $41.267。'跌→弹→加速弹'三阶段模式确立。11日累计 +3.76%"
+  },
+  "samsungStrikeStatus": {
+    "status": "vote_in_progress",
+    "voteStart": "2026-05-22",
+    "voteEnd": "2026-05-27/28",
+    "tentativeDealTerms": "10.5%营业利润奖金池+无支付上限+盈利部门2027年起分配方案+亏损部门推迟一年",
+    "productionCutSince": "2026-05-14",
+    "wafersRemoved": 360000,
+    "recoveryEstimate": "2-3周 warm-down→ramp-up，最快6月中旬",
+    "laborMinisterRole": "Kim Young-hoon 关键调解角色"
+  },
+  "mouserQlcCrisis": {
+    "status": "structural_crisis_confirmed",
+    "sku": "SBFPF2BV614T001",
+    "u2Stock": 1,
+    "consecutiveDays": 3,
+    "restockDate": "2026-09-07",
+    "e1lStock": 4,
+    "note": "连续第三天仅剩1台——结构性供给危机确认。三日未补货排除临时缺货/物流延迟可能性"
+  }
+}
