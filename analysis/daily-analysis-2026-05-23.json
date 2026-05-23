@@ -1,0 +1,132 @@
+{
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange May 22 spot",
+    "Seoul Economic Daily 5/22",
+    "Korea Times 5/23",
+    "Chosun Ilbo 5/22-23",
+    "Korea JoongAng Daily 5/22",
+    "WCCFTech DX coverage",
+    "Business Korea",
+    "Goldman Sachs NAND deficit report",
+    "Former Samsung exec Kye Kyung-hyun forecast",
+    "ServerSupply D7-P5520 7.68TB",
+    "Walmart QLC pricing",
+    "Micron DDR5-6400 32GB",
+    "Compuram PM9D3a 30.72TB status",
+    "Newegg DDR5-6400 A-Tech 64GB re-confirm",
+    "NEMIX RAM DDR5-6400 32GB + DDR5-5600 96GB",
+    "Mouser QLC 61.44TB stock check",
+    "Crucial DDR5-5600 128GB MSRP"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange May 22",
+    "Seoul Economic Daily 5/22",
+    "Korea Times 5/23",
+    "Chosun Ilbo 5/22-23",
+    "Korea JoongAng Daily 5/22",
+    "WCCFTech DX coverage",
+    "Business Korea",
+    "Goldman Sachs NAND deficit report",
+    "Former Samsung exec Kye Kyung-hyun",
+    "ServerSupply D7-P5520 7.68TB",
+    "Walmart QLC pricing",
+    "Micron DDR5-6400 32GB",
+    "Compuram PM9D3a 30.72TB status",
+    "Crucial DDR5-5600 128GB MSRP"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡ DDR5 spot $41.500(5/22)▲+0.40%——连续第三日反弹且维持加速，历史最高收盘价",
+    "⚡ '跌→弹→加速弹→持续弹'四阶段模式确立——第四阶段维持+0.40%未减速是动量最强的结构信号",
+    "DDR5-5600 32GB ¥8,109→¥8,143(+¥34)",
+    "🆕 三星工会投票Day 1 69.15%投票率——但DX(非芯片)部门强烈反抗(100:1奖金差距$4K vs $400K)",
+    "🆕 DX部门法院禁令+10,000-12,000新会员加入反协议运动+股东诉讼——投票结果不确定度上升",
+    "🆕 Goldman Sachs全球NAND 4.2%短缺(2011年以来最大)——最高级别NAND供给收紧量化",
+    "🆕 前三星半导体负责人预测H2 2027中国DRAM扩张可能压降价格——首次获得credible价格回落时间线",
+    "🆕 Samsung PM9D3a 30.72TB 'currently not deliverable'(Compuram)——四品牌格局最低位参考可靠度下降",
+    "🆕 Mouser QLC E1.L 10-pack 'Non-Stocked'——不仅现货枯竭，批量采购渠道也已关闭",
+    "🆕 ServerSupply D7-P5520 7.68TB $3,550新竞争参考",
+    "其余17列tracking值第24天持平"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "24天锚点+DDR5 spot四阶段模式确立($41.500历史新高)。罢工取消后四日DDR5 spot从$41.100→$41.500(+0.97%)。三星5/14减产(360K晶圆)恢复需2-3周。Micron退出Crucial+Kingston SKU停产+全链卖光+AI需求不可逆"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.500四阶段模式确认——第四阶段维持+0.40%未减速是动量最强结构信号。12日累计+4.19%。$41线三周内完成'阻力→支撑→恐慌线→新地板'三级进化。TrendForce持续定性supplier反复提价。DDR4疲软+DDR4/DDR5分化加深"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "19天品牌裂口+Goldman Sachs NAND 4.2%全球短缺(2011年来最大)+NAND Q2 +70-75%+6500 ION EOL第16天。Tracking滞后60-159%——实际采购成本已是tracking值的1.6-2.6倍。DiscTech离线第24天"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB SS $17,700第16天涨价(进入第四周)+八参考点四品牌第24天。PM9D3a 30.72TB可靠度下降但Micron 9550 Pro五参考点群坚实。涨价进入第四周——'竞争压低价格'窗口正在收窄"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ Mouser 61.44TB U.2连续第四天仅剩1台——结构性供给危机深度确认。E1.L 10-pack 'Non-Stocked'——批量采购渠道关闭。Goldman Sachs 4.2%全球NAND短缺背书。6500 ION EOL后30.72TB QLC从双源→单源"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM公开价格持续缺失。无tracking列。优先级低"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB real-time tracking",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech主源JS离线第24天。Tracking偏离60-159%。浏览器自动化是唯一恢复路径。即将满四周——需升级为关键行动项"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking column",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200第22天持久。HPE $3,665/Dell $4,100旁证持续。锚点稳定性已超三周——正式建议建tracking列"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB availability",
+      "reasonCode": "active_crisis",
+      "note": "⚡ Mouser U.2连续第四天仅剩1台。E1.L 4台但10-pack Non-Stocked——无法批量采购。补货2026/9/7"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Samsung PM9D3a",
+      "reasonCode": "outlier_only",
+      "note": "⚠️ Compuram显示PM9D3a 30.72TB 'currently not deliverable'。Xi Computer仍列$14,239但可能无法交货。四品牌格局最低位参考可靠度下降"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB CDW",
+      "reasonCode": "parser_gap",
+      "note": "CDW/Uvation 'inquiry only'无公开价"
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply+Memory.net",
+      "reasonCode": "parser_gap",
+      "note": "CF双封第18天。search snippet仍可用但精确直页交叉验证缺失超过两周半"
+    }
+  ]
+}
