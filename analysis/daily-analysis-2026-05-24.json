@@ -1,0 +1,165 @@
+{
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-24T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Seoul Economic Daily (May 23 vote Day 2)",
+    "Chosun Ilbo (May 23 vote update)",
+    "Asia Economy (FKTU Samsung vote data)",
+    "The Next Web (Corsair CXMT DDR5)",
+    "TechSpot (China memory expansion)",
+    "Motley Fool (billionaire semiconductor buying)",
+    "Cryptobriefing (Micron CEO supply beyond 2027)",
+    "Phemex (China DRAM/NAND expansion)",
+    "StartupFortune (China memory capacity)",
+    "SHI Micron 9550 Pro 30.72TB re-confirm"
+  ],
+  "newSourcesWithUsefulData": [
+    "Seoul Economic Daily (vote Day 2 turnout 80%+)",
+    "Chosun Ilbo (vote Day 2 + DX opposition detail)",
+    "Asia Economy (FKTU 74.27% turnout)",
+    "The Next Web (Corsair CXMT DDR5 supply diversification)",
+    "TechSpot (China memory Epical Expansion)",
+    "Motley Fool (billionaire investor semiconductor position)",
+    "Cryptobriefing (Micron CEO tight supply to 2027+)",
+    "Phemex/StartupFortune (China wafer capacity expansion quantified)",
+    "SHI Micron 9550 Pro 30.72TB $19,573 (re-confirmed)"
+  ],
+  "keyChangesVsYesterday": [
+    "⏳ DDR5 spot May 23 data pending — Saturday session not yet in public search. May 22 $41.500 remains latest confirmed",
+    "🗳️ Samsung union vote Day 2: NSEU 79.42% (+10.27pp), Super-Corporate 80.62% (+14.46pp), combined 80.47% — extremely high turnout",
+    "🆕 Corsair begins integrating CXMT (Chinese) DDR5 chips — first verified Western brand supply diversification away from Samsung/SK Hynix/Micron",
+    "🆕 China memory 'Epic Expansion' quantified — CXMT + YMTC nearly doubling wafer output",
+    "🆕 Billionaire investor increases semiconductor exposure (Motley Fool May 23) — capital markets remain bullish on memory",
+    "🆕 Micron CEO reiterates tight supply beyond 2027 — major suppliers fully booked",
+    "⚡ Mouser QLC 61.44TB U.2 Day 5 only 1 unit — structural supply crisis deep confirmation+, full work week + weekend with zero replenishment",
+    "⚡ Mouser QLC 122.88TB E1.L only 2 units — large-capacity QLC across-the-board severe shortage",
+    "NEMIX DDR5-6400 32GB $1,488 Day 25 — entering 7th work week, longest continuous anchor",
+    "SS Micron 9550 Pro 30.72TB $17,700 Day 17 — entering 4th week of sustained price increase",
+    "All 18 tracking values unchanged (Sunday consolidation + May 23 spot data pending)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488 25-day anchor — longest in tracking history, entering 7th work week. DDR5 spot 4-phase pattern structurally confirmed at $41.500 all-time high. Samsung union vote high turnout (80%+) but outcome uncertain through May 27 — short-term supply unchanged. Corsair/CXMT supply diversification is earliest normalization roadmap but impact 14-18 months out. DRAM Q1 +110-115% + Micron Crucial exit + Kingston SKU EOL + full chain sold out + AI demand structural."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.500 all-time high with 4-phase 'dip-bounce-accelerate-sustain' pattern confirmed. $41 line completed 3-tier evolution: resistance→support→fear-of-missing-out line→new baseline floor. 12-day cumulative +4.19%. NEMIX 96GB $3,200 23-day persistence — recommend formal tracking column. Corsair/CXMT signal is consumer-DDR5 focused with near-zero enterprise RDIMM impact in 2026."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "20-day brand split 3.4-5.5x structural Day 20 (4th week). Goldman Sachs NAND 4.2% global deficit (largest since 2011) + NAND Q2 +70-75% + 6500 ION EOL Day 17 + MLC NAND tripled + full chain sold out. Tracking lag 62-158% — actual procurement cost ¥29,136-¥46,571 vs tracking ¥18,094 (1.6-2.6x). DiscTech offline Day 25 entering 5th week."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB SS $17,700 Day 17 sustained price increase (entering 4th week) + 8-ref 4-brand Day 25. ⚠️ PM9D3a 'currently not deliverable' (Compuram) but partial sources suggest June 1 delivery possible — mixed signals. Micron 9550 Pro 5-ref cluster ($16,939-$19,573) remains most solid. SHI $19,573 re-confirmed today. Brand 3-tier Day 13. Samsung 7.68TB band $2,499-$3,580 maintained. Price increase entering 4th week — 'competition-suppresses-price' window substantively closing."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ Mouser 61.44TB U.2 Day 5 only 1 unit — DEEP CONFIRMATION+, full work week + weekend with zero replenishment. 122.88TB E1.L only 2 units — large-capacity QLC across-the-board severe shortage. Goldman Sachs NAND 4.2% deficit. 6500 ION EOL (2026/8/25) → 30.72TB QLC dual→single source. 5 days without replenishment excludes all temporary explanations — channel inventory has structurally depleted. If large-capacity QLC SSD is actually needed, every day the supply window is irreversibly closing."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM public pricing continuously absent. Low priority, no tracking column."
+    },
+    {
+      "category": "DDR5 spot",
+      "spec": "May 23 data",
+      "reasonCode": "pending_update",
+      "note": "Saturday session data not yet in public search. DRAMeXchange typically updates weekdays ~18:00 GMT+8. Weekend data may be delayed. May 22 $41.500 remains latest confirmed."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "All capacities real-time tracking",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS rendering offline Day 25 — entering 5th week. Real-time tracking lag 62-158%. Browser automation is the only recovery path. UPGRADED to critical action item."
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply + Memory.net pricing",
+      "reasonCode": "parser_gap",
+      "note": "Cloudflare block Day 19 — site-side confirmed 403. Search snippets still available but direct-page cross-reference absent approaching 3 weeks."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking column",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200 Day 23 persistent. HPE $3,665/Dell $4,100 cross-ref sustained. Anchor stability exceeds 3 weeks — FORMAL REQUEST: please create this tracking column."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB U.2 stock",
+      "reasonCode": "active_crisis",
+      "note": "⚡ Day 5 of supply crisis — Mouser U.2 still only 1 unit. 5 days zero replenishment (full work week + weekend). Structural channel inventory depletion confirmed. E1.L 10-pack 'Non-Stocked'. Restock Sept 7 2026."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB E1.L stock",
+      "reasonCode": "low_stock_warning",
+      "note": "Mouser E1.L only 2 units — large-capacity QLC across-the-board severe shortage."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Samsung PM9D3a reliability",
+      "reasonCode": "mixed_signal",
+      "note": "Day 6 — Compuram 'currently not deliverable' but partial system integrators show June 1 estimated delivery. Mixed signal requires ongoing monitoring. If Xi order ultimately undeliverable → 4-brand landscape degrades to 3-brand."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB CDW",
+      "reasonCode": "parser_gap",
+      "note": "CDW 'inquiry only' no public price."
+    },
+    {
+      "category": "Samsung union",
+      "spec": "Vote outcome",
+      "reasonCode": "pending_event",
+      "note": "Vote deadline May 27 10:00 KST. Day 2 turnout 79-80% confirms extremely high engagement. DX opposition + court injunction + shareholder lawsuit. If rejected → strike risk immediately returns."
+    }
+  ],
+  "escalatedRisks": [
+    {
+      "risk": "DDR5 spot 'dip-bounce-accelerate-sustain' 4-phase CONFIRMED ⚡",
+      "status": "STRUCTURAL UPWARD Day 14 — $41.500 all-time high. May 23 data pending (Saturday).",
+      "detail": "May 22 confirmed $41.500 (+0.40%). 12-day cumulative +4.19%. Phase 4 maintaining +0.40% NO deceleration. May 23 Saturday session pending."
+    },
+    {
+      "risk": "Mouser QLC 61.44TB structural supply crisis ⚡⚡⚡",
+      "status": "DEEP CONFIRMATION+ Day 5. Full work week + weekend, zero replenishment. 122.88TB E1.L only 2 units.",
+      "detail": "5/20-5/24 five consecutive days only 1 unit. All temporary explanations exhausted. 122.88TB down to 2 units. Full large-capacity QLC supply chain structurally depleted."
+    },
+    {
+      "risk": "Samsung union vote Day 2 — extremely high turnout, DX revolt continues ⚡",
+      "status": "ACTIVE Day 2 — NSEU 79.42%, Super-Corporate 80.62%, Combined 80.47%. DX opposition sustained.",
+      "detail": "Vote turnout far exceeds majority threshold. DS employees mobilized by $400K bonus incentive; DX employees mobilized by 100:1 bonus gap. Both sides fully engaged. Outcome uncertain through May 27 deadline."
+    },
+    {
+      "risk": "Corsair/CXMT DDR5 supply diversification 🆕",
+      "status": "NEW — Day 1. First verified Western brand integrating Chinese DRAM.",
+      "detail": "Corsair integrating CXMT DDR5 chips due to traditional supplier (Samsung/SK Hynix/Micron) undersupply. CXMT DRAM ~$150 vs global $300-400. China 'Epic Expansion' nearly doubling wafer output. Earliest price normalization roadmap — but impact 14-18 months out (H2 2027-2028)."
+    },
+    {
+      "risk": "Micron CEO: tight supply beyond 2027 🆕",
+      "status": "NEW — Day 1. Major suppliers fully booked.",
+      "detail": "Micron CEO Sanjay Mehrotra reiterates tight DRAM/NAND supply through 2027 and beyond. Major memory suppliers already fully booked. Confirms structural undersupply independent of Samsung union situation."
+    }
+  ]
+}
