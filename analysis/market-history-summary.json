@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-24T09:00:00+08:00",
+  "generatedAt": "2026-05-25T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 61,
+  "trackingRows": 62,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-05-24",
+      "latestDate": "2026-05-25",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "NEMIX 32GB $1,488 Day 25 — 7th work week begins. Longest anchor in tracking history. 64GB 5-source band $2,107-$2,550 maintained Day 25. 128GB band $4,213-$7,116 (1.6x brand spread). ⏳ DDR5 spot May 23 pending (Saturday session) — May 22 $41.500 latest confirmed at all-time high. 'Dip-bounce-accelerate-sustain' 4-phase pattern framework maintained. Samsung union vote Day 2 79-80% turnout — extremely high mobilization, DX revolt sustained. Corsair/CXMT DDR5 collaboration 🆕 — first Western brand Chinese DRAM integration, earliest price normalization roadmap (H2 2027-2028). SS+Memory.net Day 19 CF.",
-      "sourceHealthNote": "NEMIX Day 25 — 7th work week, longest anchor in tracking history. A-Tech 64GB dual-source (atechmemory.com $2,106.71 + Newegg $2,194.49) re-confirmed. Micron 32GB $1,413.29 cross-reference maintained. Corsair/CXMT supply diversification 🆕 — structural shift in DDR5 supply chain. SS+Memory.net Day 19 CF double-block. A-Tech 404 Day 18. DiscTech JS offline Day 25. Samsung warm-down production cut recovery 2-3 weeks from May 14.",
+      "trendNote": "NEMIX 32GB $1,488 Day 26 — 7th work week. LONGEST anchor in tracking history. 64GB 5-source band $2,107-$2,550 maintained Day 26. 128GB band $4,213-$7,116 (1.6x brand spread). ⏳ DDR5 spot May 23/24 pending (weekend — DRAMeXchange subscription delay normal). May 22 $41.500 latest confirmed at all-time high. 'Dip-bounce-accelerate-sustain' 4-phase pattern framework maintained. Samsung union vote Day 3 84.6%/Day 4 SGUU 86.2% — extremely high turnout. 🆕 DX Donghaeng union formally excluded — legal escalation. Corsair/CXMT DDR5 collaboration Day 2 — first Western brand Chinese DRAM integration. SS+Memory.net Day 20 CF.",
+      "sourceHealthNote": "NEMIX Day 26 — 7th work week, longest anchor in tracking history. A-Tech 64GB dual-source (atechmemory.com $2,106.71 + Newegg $2,194.49) re-confirmed. Micron 32GB $1,413.29 cross-reference maintained. 🆕 SS Kingston 64GB $3,100 (search snippet, CF blocked). Corsair/CXMT supply diversification Day 2. SS+Memory.net Day 20 CF double-block. A-Tech 404 Day 19. DiscTech JS offline Day 26. Samsung warm-down production cut recovery 2-3 weeks from May 14.",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -35,23 +35,23 @@
           "latestValue": 12122,
           "previousValue": 12122,
           "rollingMedian14d": 12122,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "note": "NEMIX RAM $1,488 via nemixram.com + Newegg — Day 25. 7th work week begins. LONGEST continuous anchor in tracking history. Micron 32GB $1,413.29 cross-reference (-4.9% vs NEMIX, within enterprise band)."
+          "note": "NEMIX RAM $1,488 via nemixram.com + Newegg — Day 26. 7th work week. LONGEST continuous anchor in tracking history. Micron 32GB $1,413.29 cross-reference (-4.9% vs NEMIX, within enterprise band)."
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "note": "A-Tech $2,106.71(atechmemory.com) + $2,194.49(Newegg re-confirmed) + Viperatech Micron $2,295 + Memory.net Dell $2,498 + CDW $2,453 + Crucial $2,400 — 5-source band $2,107-$2,550 maintained Day 25."
+          "note": "A-Tech $2,106.71(atechmemory.com) + $2,194.49(Newegg re-confirmed) + Viperatech Micron $2,295 + Memory.net Dell $2,498 + CDW $2,453 + Crucial $2,400 — 5-source band $2,107-$2,550 maintained Day 26. 🆕 SS Kingston $3,100(search snippet)."
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
           "previousValue": 52651,
           "rollingMedian14d": 52651,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
           "note": "A-Tech $4,213-$4,389 + Memory.net $5,208 + CDW Micron $7,116 + SS Micron $5,600 band maintained. Kingston Server Premier 128GB 4-6 week lead time. 1.6x brand spread structural."
         }
@@ -60,14 +60,14 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-05-24",
+      "latestDate": "2026-05-25",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "⏳ DDR5 spot May 23 pending (Saturday session). May 22 $41.500 latest confirmed — all-time high. 'Dip-bounce-accelerate-sustain' 4-phase framework maintained. $41 line 3-tier evolution complete: resistance→support→fear-line→new-floor. 12-day cumulative +4.19%. TrendForce: 'DDR5 spot market strengthens on branded demand and higher bids.' Corsair/CXMT collaboration 🆕 — supply diversification signal but enterprise RDIMM impact negligible in 2026. DDR4/DDR5 divergence Day 5. Samsung union vote Day 2 79-80% turnout. Production cut recovery 2-3 weeks.",
+      "trendNote": "⏳ DDR5 spot May 23/24 pending (weekend — subscription delay normal). May 22 $41.500 latest confirmed — all-time high. 'Dip-bounce-accelerate-sustain' 4-phase framework maintained. $41 line 3-tier evolution complete: resistance→support→fear-line→new-floor. 12-day cumulative +4.19%. TrendForce: 'DDR5 spot market strengthens on branded demand and higher bids.' Corsair/CXMT collaboration Day 2 — supply diversification signal but enterprise RDIMM impact negligible in 2026. DDR4/DDR5 divergence Day 6. Samsung union vote Day 4 86.2% — 48hr to deadline. 🆕 DX Donghaeng union formally excluded — legal escalation. Production cut recovery 2-3 weeks.",
       "latestValues": {
         "DDR5-5600 32GB": 8143,
         "DDR5-5600 64GB": 19168,
@@ -89,15 +89,15 @@
           "latestValue": 8143,
           "previousValue": 8143,
           "rollingMedian14d": 8076,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "note": "⏳ DRAMeXchange May 23 data pending (Saturday). Latest confirmed May 22 $41.500 all-time high. 'Dip-bounce-accelerate-sustain' 4-phase CONFIRMED. $41 line 3-tier evolution complete. 12-day cumulative +4.19%."
+          "note": "⏳ DRAMeXchange May 23/24 data pending (weekend). Latest confirmed May 22 $41.500 all-time high. 'Dip-bounce-accelerate-sustain' 4-phase CONFIRMED. $41 line 3-tier evolution complete. 12-day cumulative +4.19%."
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
           "previousValue": 19168,
           "rollingMedian14d": 19168,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
           "note": "Kingston $1,440-$2,175 / Micron $2,035-$3,304 band maintained. SPW Industrial Samsung $2,458 unified reference. Citi Q1→Q4 +82%. Crucial 128GB MSRP $6,530 brand-official upper bound."
         },
@@ -105,31 +105,31 @@
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "note": "Samsung $5,600 (SS) Day 3 branded enterprise anchor + Hynix $5,100 (SS) Day 23 + Memory.net $4,408-$5,208 maintained. Micron $5,200-$8,945 wide band. Crucial MSRP $6,530 brand-official upper bound."
+          "note": "Samsung $5,600 (SS) Day 4 branded enterprise anchor + 🆕 Hynix $5,100→$5,200 (SS) Day 24 + Memory.net $4,408-$5,208 maintained. Micron $5,200-$8,945 wide band. Crucial MSRP $6,530 brand-official upper bound."
         },
         "DDR5-5600 96GB": {
           "latestValue": 26028,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "status": "✅ STABLE — NEMIX single-stick $3,200 (≈¥26,028) Day 23 via Newegg. HPE $3,665 + Dell OEM $4,100 cross-reference. Anchor stability >3 weeks — FORMAL REQUEST to create tracking column.",
-          "note": "NEMIX $3,200 Day 23 confirmed. HPE $3,665/Dell $4,100 cross-ref. Anchor stability >3 weeks — formal tracking column requested."
+          "status": "✅ STABLE — NEMIX single-stick $3,200 (≈¥26,028) Day 24 via Newegg. HPE $3,665 + Dell OEM $4,100 cross-reference. Anchor stability >3 weeks — 4TH FORMAL REQUEST to create tracking column.",
+          "note": "NEMIX $3,200 Day 24 confirmed. HPE $3,665/Dell $4,100 cross-ref. Anchor stability >3 weeks — 4th formal tracking column request."
         }
       },
-      "sourceHealthNote": "NEMIX 32GB $1,298 retail premium +56% maintained. ⏳ DRAMeXchange May 23 pending — Saturday session. May 22 $41.500 latest confirmed. NEMIX 96GB Day 23 — formal tracking column requested. Corsair/CXMT 🆕 supply diversification (consumer DDR5 focus). SS+Memory.net Day 19 CF. Crucial 128GB MSRP $6,530 maintained.",
+      "sourceHealthNote": "NEMIX 32GB $1,298 retail premium +56% maintained. ⏳ DRAMeXchange May 23/24 pending — weekend delay. May 22 $41.500 latest confirmed. NEMIX 96GB Day 24 — 4th formal tracking column request. 🆕 SS Hynix 128GB $5,200 new reference. Corsair/CXMT Day 2. SS+Memory.net Day 20 CF. Crucial 128GB MSRP $6,530 maintained. ServerMonkey May confirms 'no credible near-term relief'.",
       "coverage14d": 3
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-05-24",
+      "latestDate": "2026-05-25",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "flat",
-      "trackingLagWarning": "⚠️ DAY 20 — tracking lag PERSISTS: 7.68TB Samsung PM1733 $1,037-$2,351 vs Solidigm D7-P5520 $3,584-$5,727 = 3.4-5.5x structural (Day 20, 4th week). Goldman Sachs NAND 4.2% global deficit (largest since 2011) Day 2. NAND Q2 +70-75% largest in decade. Micron 6500 ION EOL Day 17. DiscTech Day 25 JS offline — entering 5th week. Samsung warm-down NAND ~2-3% loss. BUY_NOW urgency sustained. Enterprise SSD 53.8% of market. Corsair/CXMT signal near-zero enterprise SSD impact.",
+      "trackingLagWarning": "⚠️ DAY 21 — tracking lag PERSISTS: 7.68TB Samsung PM1733 $1,037-$2,351 vs Solidigm D7-P5520 $2,812-$3,550 = 2.7-3.4x structural (Day 21, 4th week). Goldman Sachs NAND 4.2% global deficit (largest since 2011) Day 3. NAND Q2 +70-75% largest in decade. Micron 6500 ION EOL Day 18. DiscTech Day 26 JS offline — entering 6th week. Samsung warm-down NAND ~2-3% loss. BUY_NOW urgency sustained. Enterprise SSD 53.8% of market. 🆕 NAND Research May 'extreme seller's market'. 🆕 ServerPartDeals 7450 Pro $2,304 (ship 5/25). 🆕 TechAtlantix $2,812 new reference.",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -154,54 +154,54 @@
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 18094,
           "previousValue": 18094,
           "rollingMedian14d": 18094,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "trackingLagSeverity": "CRITICAL — brand split structural day 20",
-          "brandSplitRange": "3.4-5.5x (Samsung PM1733 $1,037-$2,351 vs Solidigm D7-P5520 $3,584-$5,727) — Day 20, 4th week",
-          "realTimeBand": "$3,584(Newegg)-$5,727(Mouser) multi-brand (≈¥29,136-¥46,571)",
-          "note": "Brand split 3.4-5.5x structural Day 20 (4th week). Mouser D7-P5520 $4,456-$5,727 maintained. Newegg $3,584-$4,895. Tracking lag 62-158%. DiscTech Day 25 entering 5th week."
+          "trackingLagSeverity": "CRITICAL — brand split structural day 21",
+          "brandSplitRange": "2.7-3.4x (Samsung PM1733 $1,037-$2,351 vs Solidigm D7-P5520 $2,812-$3,550) — Day 21, 4th week",
+          "realTimeBand": "$2,812(TechAtlantix)-$3,550(ServerSupply) multi-brand (≈¥22,862-¥28,859). 🆕 ServerPartDeals 7450 Pro $2,304",
+          "note": "Brand split 2.7-3.4x structural Day 21 (4th week). 🆕 TechAtlantix $2,812 + ServerPartDeals $2,304 new lower references. ServerSupply $3,550 maintained. Tracking lag 27-60%. DiscTech Day 26 entering 6th week."
         },
         "PCIe4 TLC 15.36TB": {
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
           "trackingLagRange": "7-30% (brand-dependent)",
-          "realTimeBand": "Solidigm D7-P5520 $3,485(NeutronUSA)-$7,627(Insight) + Samsung PM1733a $2,577-$9,839 + Micron 7500 Pro $8,105.",
-          "note": "Samsung PM1733a $2,577-$9,839 + Solidigm $3,485-$7,627 + Micron 7500 Pro $8,105. NeutronUSA mid-low data point maintained. Micron 7500 Pro CDW spec-page only."
+          "realTimeBand": "Solidigm D7-P5520 $3,485(NeutronUSA)-$7,627(Insight) + Samsung PM1733a $2,577-$9,839 + Micron 7500 Pro $2,237-$9,600.",
+          "note": "Samsung PM1733a $2,577-$9,839 + Solidigm $3,485-$7,627 + Micron 7500 Pro $2,237-$9,600. NeutronUSA mid-low data point maintained."
         },
         "PCIe4 TLC 30.72TB": {
           "latestValue": 113896,
           "previousValue": 113896,
           "rollingMedian14d": 113896,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026) ~RMB 142,275. D5-P5336 30.72TB QLC $11,355(NeweggBusiness)-$17,770(Mouser). Micron 6500 ION EOL Day 17. 6550 ION successor (PCIe5, 61.44TB, TLC not QLC).",
-          "note": "VDURA 30TB TLC $17,500 - tracking lag ~20%. 6500 ION EOL Day 17. 6550 ION (TLC, PCIe5, 61.44TB) confirmed."
+          "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026) ~RMB 142,275. D5-P5336 30.72TB QLC $11,355(NeweggBusiness)-$17,770(Mouser). Micron 6500 ION EOL Day 18. 6550 ION successor (PCIe5, 61.44TB, TLC not QLC).",
+          "note": "VDURA 30TB TLC $17,500 - tracking lag ~20%. 6500 ION EOL Day 18. 6550 ION (TLC, PCIe5, 61.44TB) confirmed."
         }
       },
-      "sourceHealthNote": "DiscTech JS offline Day 25 — entering 5th week. SS Day 19 CF. Brand split 3.4-5.5x structural Day 20 entering 4th week. 🆕 Corsair/CXMT DDR5 supply diversification has near-zero impact on enterprise SSD market. Goldman Sachs NAND 4.2% deficit Day 2. Samsung production cut NAND ~2-3% loss ongoing. MLC NAND spot tripled.",
-      "trendNote": "Brand split 3.4-5.5x structural Day 20 (4th week). Goldman Sachs NAND 4.2% deficit (2011 max) Day 2. NAND Q2 +70-75% largest in decade. 6500 ION EOL Day 17. Tracking lag 62-158%. DiscTech offline Day 25 entering 5th week. BUY_NOW sustained. Samsung union vote outcome pending May 27.",
+      "sourceHealthNote": "DiscTech JS offline Day 26 — entering 6th week. SS Day 20 CF. Brand split 2.7-3.4x structural Day 21. 🆕 ServerPartDeals 7450 Pro $2,304 + TechAtlantix $2,812 new real-time references. Corsair/CXMT DDR5 supply diversification has near-zero impact on enterprise SSD market. Goldman Sachs NAND 4.2% deficit Day 3. Samsung production cut NAND ~2-3% loss ongoing. MLC NAND spot tripled. 🆕 NAND Research May 'extreme seller's market'.",
+      "trendNote": "Brand split 2.7-3.4x structural Day 21 (4th week). Goldman Sachs NAND 4.2% deficit (2011 max) Day 3. NAND Q2 +70-75% largest in decade. 6500 ION EOL Day 18. 🆕 NAND Research May 'extreme seller's market'. Tracking lag 27-60%. DiscTech offline Day 26 entering 6th week. BUY_NOW sustained. Samsung union vote outcome pending May 27.",
       "coverage14d": 4
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-05-24",
+      "latestDate": "2026-05-25",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
-      "newDetailNote": "30.72TB MILESTONE: 8 references from 5 sources Day 25 — Kingston $14,959(SHI)+Micron $16,939(Xi)+Micron $17,318(Tech-America)+Micron $17,700(SS, Day 17 4th WEEK)+Micron $19,573(SHI re-confirmed today)+CDW-G $17,029+shopRBC Kioxia $20,432+Samsung PM9D3a $14,239(Xi, ⚠️ Day 6 — Compuram 'currently not deliverable' but partial June 1 delivery estimates). Brand three-tier Day 13. 15.36TB CDW parser_gap ongoing. SS $17,700 Day 17 — 4th week sustained price increase. Samsung PM1743 7.68TB band $2,499-$3,580 maintained.",
+      "newDetailNote": "30.72TB MILESTONE: 8 references from 5 sources Day 26 — Kingston $14,959(SHI)+Micron $16,939(Xi)+Micron $17,318(Tech-America)+Micron $17,318(CDW-G 🆕+$289/+1.7% vs $17,029)+Micron $17,700(SS, Day 18 4TH WEEK)+Micron $19,573(SHI, 🆕 now 'on backorder')+CDW-G $17,318+shopRBC Kioxia $20,432+Samsung PM9D3a $14,239(Xi, ⚠️ Day 7 — Compuram 'currently not deliverable' for 30.72TB but 15.36TB model ships 4-6 days → likely capacity/yield bottleneck). Brand three-tier Day 14. 15.36TB CDW parser_gap ongoing. SS $17,700 Day 18 — 4th week sustained price increase. Samsung PM1743 7.68TB band $2,499-$3,580 maintained. 🆕 Tech-America Kioxia CM7-R 15.36TB $4,252 (backorder).",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
@@ -226,52 +226,52 @@
           "latestValue": 18265,
           "previousValue": 18265,
           "rollingMedian14d": 18265,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "note": "Kioxia CM7-R 3.84TB $2,540-$3,020 vs Samsung PM1743 $1,200-$2,999 — Kioxia +41-68% premium. Micron 9550 Pro $2,469-$3,142. Brand tiering Day 13."
+          "note": "Kioxia CM7-R 3.84TB $2,540-$3,020 vs Samsung PM1743 $1,200-$2,999 — Kioxia +41-68% premium. Micron 9550 Pro $2,469-$3,142. Brand tiering Day 14."
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 27817,
           "previousValue": 27817,
           "rollingMedian14d": 27817,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "note": "Brand three-tier Day 13 stable. Samsung $1,940-$3,580 (band maintained). Kioxia $4,100-$4,290. Micron $4,250-$6,000. Compuram Kioxia CM7-R $4,290 mid-band confirmed."
+          "note": "Brand three-tier Day 14 stable. Samsung $1,940-$3,580 (band maintained). Kioxia $4,100-$4,290. Micron $4,250-$6,000. 🆕 Kioxia E3.S $4,348 new form factor reference. Compuram Kioxia CM7-R $4,290 mid-band confirmed."
         },
         "PCIe5 TLC 15.36TB": {
           "latestValue": 54292,
           "previousValue": 54292,
           "rollingMedian14d": 54292,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "bandWideningNote": "Samsung $2,316-$4,557 + Micron 9550 Pro $8,358-$10,888 + Kioxia CM7-R $1,908-$9,500. Supermicro $2,642 channel special maintained. CDW parser_gap/inquiry_only.",
-          "note": "Samsung $2,316-$4,557 + Micron 9550 Pro $8,358-$10,888 + Kioxia CM7-R $1,908-$9,500. CDW PM1743/Uvation parser_gap."
+          "bandWideningNote": "Samsung $2,316-$4,557 + Micron 9550 Pro $8,358-$10,888 + Kioxia CM7-R $1,908-$9,500. 🆕 Tech-America Kioxia $4,252 (backorder). Supermicro $2,642 channel special maintained. CDW parser_gap/inquiry_only.",
+          "note": "Samsung $2,316-$4,557 + Micron 9550 Pro $8,358-$10,888 + Kioxia CM7-R $1,908-$9,500. 🆕 Tech-America Kioxia $4,252 backorder. Supermicro $2,642. CDW PM1743/Uvation parser_gap."
         },
         "PCIe5 TLC 30.72TB": {
           "latestValue": 132759,
           "previousValue": 132759,
           "rollingMedian14d": 132759,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "milestone": "⭐ 8 references from 5 sources Day 25 — highest coverage in entire tracking table. ⚠️ PM9D3a mixed signals Day 6.",
-          "dualSourceUpgrade": "Day 25: Kingston $14,959(SHI) + Micron $16,939(Xi) + Micron $17,318(Tech-America) + Micron $17,700(SS, Day 17 4TH WEEK) + Micron $19,573(SHI re-confirmed today) + CDW-G $17,029 + shopRBC Kioxia $20,432 + Samsung PM9D3a $14,239(Xi, ⚠️ Day 6 — Compuram 'not deliverable' but partial sources show June 1 estimate). Micron 9550 Pro 5-reference cluster ($16,939-$19,573) remains most solid. Full band $14,239-$20,432 = 43.5% spread.",
-          "note": "8-ref 5-source Day 25. ⚠️ PM9D3a mixed signals Day 6. Micron 5-ref cluster ($16,939-$19,573) most solid. SS $17,700 Day 17 4TH WEEK — longest sustained price increase in tracking history."
+          "milestone": "⭐ 8 references from 5 sources Day 26 — highest coverage in entire tracking table. ⚠️ PM9D3a mixed signals Day 7 (30.72TB bottleneck vs 15.36TB normal). 🆕 CDW-G +$289 upper band pressure.",
+          "dualSourceUpgrade": "Day 26: Kingston $14,959(SHI) + Micron $16,939(Xi) + Micron $17,318(Tech-America) + 🆕 Micron $17,318(CDW-G, +$289 vs $17,029 Day 24) + Micron $17,700(SS, Day 18 4TH WEEK) + Micron $19,573(SHI, 🆕 'on backorder') + CDW-G $17,318 + shopRBC Kioxia $20,432 + Samsung PM9D3a $14,239(Xi, ⚠️ Day 7 — 30.72TB 'not deliverable' but 15.36TB ships 4-6 days). Micron 9550 Pro 5-reference cluster median $17,318 stable. Full band $14,239-$20,432 = 43.5% spread. 🆕 CDW-G price increase = upper band pressure signal. 🆕 SHI backorder = supply tightness signal.",
+          "note": "8-ref 5-source Day 26. ⚠️ PM9D3a mixed signals Day 7 — 30.72TB capacity/yield bottleneck. Micron 5-ref cluster median $17,318 stable. SS $17,700 Day 18 4TH WEEK. 🆕 CDW-G +$289 upper pressure. 🆕 SHI backorder supply tightness."
         }
       },
-      "sourceHealthNote": "30.72TB MOST RELIABLE PCIe5 column — 8-ref 5-source Day 25. SS $17,700 Day 17 4th week — LONGEST SUSTAINED price increase in tracking history. ⚠️ PM9D3a mixed signals Day 6 (Compuram vs June 1 delivery estimates). Brand 3-tier Day 13. Samsung 7.68TB band $2,499-$3,580 maintained.",
-      "trendNote": "30.72TB SS $17,700 Day 17 4th week — longest sustained increase. ⚠️ PM9D3a mixed signals — Compuram 'not deliverable' but partial June 1 estimates. Micron 5-ref cluster solid. Brand 3-tier Day 13. Samsung 7.68TB band maintained. 'Competition-pressures-price' window narrowing substantively.",
+      "sourceHealthNote": "30.72TB MOST RELIABLE PCIe5 column — 8-ref 5-source Day 26. SS $17,700 Day 18 4th week — LONGEST SUSTAINED price increase in tracking history. ⚠️ PM9D3a mixed signals Day 7 (30.72TB capacity bottleneck likely). 🆕 CDW-G +$289 upper band pressure. 🆕 SHI backorder signal. Brand 3-tier Day 14. Samsung 7.68TB band $2,499-$3,580 maintained.",
+      "trendNote": "30.72TB SS $17,700 Day 18 4th week — longest sustained increase. 🆕 CDW-G +$289 — upper band pressure building. ⚠️ PM9D3a mixed signals — 30.72TB bottleneck (15.36TB normal). 🆕 SHI 'on backorder'. Micron 5-ref cluster median $17,318 stable. Brand 3-tier Day 14. Samsung 7.68TB band maintained. 'Competition-pressures-price' window narrowing substantively.",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-05-24",
+      "latestDate": "2026-05-25",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
-      "crisisNote": "⚡⚡⚡ Mouser 61.44TB U.2 FIFTH CONSECUTIVE DAY only 1 unit — STRUCTURAL supply crisis DEEP CONFIRMATION+. Full work week + weekend zero replenishment. Five days EXCLUDES ALL temporary explanations. ⚡ 122.88TB E1.L only 2 units — large-capacity QLC across-the-board severe shortage. E1.L 10-pack 'Non-Stocked' — bulk procurement channel CLOSED. Restock Sept 7 2026 (3.5 months). Goldman Sachs NAND 4.2% deficit (largest since 2011) Day 2. Premium tier >2 weeks Day 14. 6500 ION EOL → 30.72TB QLC dual→single source. D5-P5336 122.88TB +199% YoY Day 4. Corsair/CXMT consumer DDR5 signal near-zero enterprise QLC impact.",
+      "crisisNote": "⚡⚡⚡ Mouser 61.44TB U.2 SIXTH CONSECUTIVE DAY only 1 unit — IRREVERSIBLE CONFIRMATION. Full work week + full weekend zero replenishment. All temporary explanations excluded. ⚡ 122.88TB E1.L still only 2 units but 🆕 U.2 new SKU 5 units — partial improvement (different form factor). E1.L 10-pack 'Non-Stocked' — bulk procurement channel CLOSED. Restock Sept 7 2026 (3.5 months). Goldman Sachs NAND 4.2% deficit Day 3. Premium tier >2 weeks Day 15. 6500 ION EOL → 30.72TB QLC dual→single source. D5-P5336 122.88TB +199% YoY Day 5. Corsair/CXMT consumer DDR5 signal near-zero enterprise QLC impact. 🆕 NAND Research May 'extreme seller's market'.",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 41982,
         "PCIe4 QLC 30.72TB": 83963,
@@ -296,40 +296,49 @@
           "latestValue": 41982,
           "previousValue": 41982,
           "rollingMedian14d": 41982,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
           "latestValue": 83963,
           "previousValue": 83963,
           "rollingMedian14d": 83963,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "realTimeReference": "D5-P5336 30.72TB $11,355(Newegg U.2)-$17,770(Mouser E3.S) + Micron 6500 ION $7,692-$15,538. 6500 ION EOL Day 17.",
-          "note": "D5-P5336 30.72TB $11,355(Newegg)-$17,770(Mouser) + Micron 6500 ION $7,692-$15,538. 6500 ION EOL Day 17."
+          "realTimeReference": "D5-P5336 30.72TB $11,355(Newegg U.2)-$17,770(Mouser E3.S) + Micron 6500 ION $7,692-$15,538. 6500 ION EOL Day 18.",
+          "note": "D5-P5336 30.72TB $11,355(Newegg)-$17,770(Mouser) + Micron 6500 ION $7,692-$15,538. 6500 ION EOL Day 18."
         },
         "PCIe4 QLC 61.44TB": {
           "latestValue": 199324,
           "previousValue": 199324,
           "rollingMedian14d": 199324,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0,
-          "crisisConfirmed": "⚡⚡⚡ STRUCTURAL CRISIS DEEP CONFIRMATION+ Day 5: Mouser U.2 5th consecutive day only 1 unit. Full work week + weekend zero replenishment. All temporary explanations excluded. E1.L 10-pack Non-Stocked.",
-          "note": "STAR 5-source Day 25+⚡⚡⚡STRUCTURAL CRISIS DEEP CONFIRMATION+ Day 5: Mouser U.2 only 1 unit 5th consecutive day. Full work week + weekend zero replenishment. 122.88TB E1.L only 2 units — full QLC large-capacity across-the-board shortage. Newegg $24,600-$27,265+SS $27,500+Wiredzone $28,489+Best Buy $26,207. Full series $3,692→$34,356(831%)."
+          "crisisConfirmed": "⚡⚡⚡ IRREVERSIBLE CONFIRMATION Day 6: Mouser U.2 6th consecutive day only 1 unit. Full work week + full weekend zero replenishment. All temporary explanations permanently excluded. E1.L 10-pack Non-Stocked.",
+          "note": "STAR 5-source Day 26+⚡⚡⚡IRREVERSIBLE Day 6: Mouser U.2 only 1 unit 6th consecutive day. Full work week + full weekend zero replenishment. 🆕 122.88TB U.2 new SKU 5 units. Newegg $24,600-$27,265+SS $27,500+Wiredzone $28,489+Best Buy $26,207. Full series $3,692→$34,356(831%)."
         },
         "PCIe4 QLC 122.88TB": {
           "latestValue": 332925,
           "previousValue": 332925,
           "rollingMedian14d": 332925,
-          "lastSeenDate": "2026-05-24",
+          "lastSeenDate": "2026-05-25",
           "consecutiveMissingDays": 0
         }
       },
-      "trendNote": "⚡⚡⚡ 61.44TB Mouser U.2 5th consecutive day only 1 unit — DEEP CONFIRMATION+. Full work week + weekend zero replenishment. E1.L 10-pack Non-Stocked — bulk channel closed. 122.88TB E1.L only 2 units — across-the-board large-capacity QLC shortage. Goldman Sachs NAND 4.2% deficit Day 2. Premium tier Day 14. 30.72TB QLC dual→single source post-6500 ION EOL. 122.88TB +199% YoY Day 4.",
+      "trendNote": "⚡⚡⚡ 61.44TB Mouser U.2 6th consecutive day only 1 unit — IRREVERSIBLE CONFIRMATION. Full work week + full weekend zero replenishment. E1.L 10-pack Non-Stocked — bulk channel closed. 🆕 122.88TB U.2 new SKU 5 units. Goldman Sachs NAND 4.2% deficit Day 3. Premium tier Day 15. 30.72TB QLC dual→single source post-6500 ION EOL. 122.88TB +199% YoY Day 5. 🆕 NAND Research May 'extreme seller's market'.",
       "coverage14d": 4
     }
   },
   "recentRunNotes": {
+    "2026-05-25": [
+      "📈周一研究日——⏳DDR5 spot May 23/24 pending(周末延迟)。全18列第26天持平。NEMIX $1,488第26天(第七工作周——最长锚点刷新)。SS 9550 Pro $17,700第18天涨价(第四周)。⚡Mouser QLC 61.44TB U.2连续第六天仅剩1台——不可逆确认。🆕122.88TB U.2新SKU 5台库存改善。🆕CDW-G 9550 Pro $17,029→$17,318(+$289,+1.7%)上沿压力。🆕SHI 9550 Pro backorder信号。🗳️三星投票Day 3 84.6%/Day 4 SGUU 86.2%——48小时截止。🆕DX东行工会被正式排除——法律战升级。⚠️PM9D3a Day 7升级——30.72TB瓶颈vs 15.36TB正常发货。🆕NAND Research 5月'extreme seller's market'。🆕ServerPartDeals 7450 Pro $2,304。五品类全部buy_now。QLC紧迫度维持最高。新增来源: CDW-G🆕+$289/Korea JoongAng Daily🗳️5/24/Chosun Ilbo🗳️5/25/Seoul Economic Daily🗳️5/24/NAND Research May🆕/ServerPartDeals🆕/TechAtlantix🆕/ServerSupply Hynix 128GB🆕/Tech-America Kioxia🆕/ServerMonkey May🆕",
+      "ddr5-6400: up (NEMIX $1,488 Day 26 7th work week — longest anchor; spot 4-phase pending May 23/24 update; DX Donghaeng exclusion legal escalation; buy_now)",
+      "ddr5-5600: up (DDR5 spot 4-phase confirmed at $41.500; May 23/24 pending; 🆕 Hynix 128GB $5,200; ServerMonkey May confirms no relief; buy_now)",
+      "pcie4-tlc: flat (brand split 2.7-3.4x Day 21; Goldman Sachs NAND 4.2% deficit Day 3; tracking lag 27-60%; DiscTech Day 26 6th week; 🆕 NAND Research May 'extreme seller's market'; buy_now)",
+      "pcie5-tlc: volatility_expand (SS $17,700 Day 18 4TH WEEK — longest sustained increase; 🆕 CDW-G +$289 upper band pressure; 🆕 SHI backorder; ⚠️ PM9D3a 30.72TB bottleneck vs 15.36TB normal; buy_now)",
+      "pcie4-qlc: volatility_expand (⚡⚡⚡Mouser U.2 6th consecutive day only 1 unit — IRREVERSIBLE CONFIRMATION; 🆕 122.88TB U.2 5 units partial improvement; buy_now urgency MAX)",
+      "NEW sources: CDW-G🆕+$289/Korea JoongAng Daily🗳️5/24/Chosun Ilbo🗳️5/25/Seoul Economic Daily🗳️5/24/NAND Research May🆕/ServerPartDeals 7450 Pro🆕/TechAtlantix D7-P5520🆕/ServerSupply Hynix 128GB🆕/Tech-America Kioxia CM7-R🆕/ServerMonkey May🆕/Mouser 122.88TB U.2🆕"
+    ],
     "2026-05-24": [
       "🗓️周日巩固日——⏳DDR5 spot May 23 pending(周六session)。全18列第25天持平。NEMIX $1,488第25天(第七工作周开始——最长锚点)。SS 9550 Pro $17,700第17天涨价(第四周)。⚡Mouser QLC 61.44TB U.2连续第五天仅剩1台——DEEP CONFIRMATION+。⚡122.88TB E1.L仅2台——大容量QLC全系供给极度紧张。🗳️三星投票Day 2 NSEU 79.42%/超企业80.62%/联合80.47%——极高参与度。DX反抗+法院禁令+股东诉讼持续。🆕Corsair开始集成CXMT DDR5芯片——供应渠道多元化首现。🆕中国存储'史诗级扩产'(CXMT+YMTC)。🆕亿万富翁增持半导体(Motley Fool 5/23)。🆕Micron CEO重申供应紧张至2027+。五品类全部buy_now。DDR5-5600结构性上行维持。新增来源: Seoul Economic Daily 5/23🗳️/Chosun Ilbo 5/23/Asia Economy 5/23/TNW Corsair CXMT 🆕/TechSpot中国扩产🆕/Motley Fool 5/23🆕/Cryptobriefing Micron CEO🆕/Phemex StartupFortune🆕/SHI 9550 Pro re-confirm",
       "ddr5-6400: up (NEMIX $1,488 Day 25 7th work week — longest anchor; spot 4-phase pending May 23 update; Corsair/CXMT 🆕 earliest normalization roadmap H2 2027-2028; buy_now)",
@@ -352,55 +361,56 @@
   "escalatedRisks": [
     {
       "risk": "DDR5 spot 'dip-bounce-accelerate-sustain' 4-phase pattern CONFIRMED ⚡⚡⚡",
-      "status": "STRUCTURAL UPWARD — Day 14. $41.500 ALL-TIME HIGH. May 23 data pending (Saturday).",
+      "status": "STRUCTURAL UPWARD — Day 15. $41.500 ALL-TIME HIGH. May 23/24 pending (weekend).",
       "source": "TrendForce DRAMeXchange May 22 2026",
-      "detail": "DDR5 16Gb (2Gx8) session avg $41.500 (+0.40%, +$0.167). Four-phase pattern: decline→bounce→accelerate→sustain. Phase 4 +0.40% NO deceleration. 12-day cumulative +4.19%. $41 line 3-week evolution: resistance→support→fear-of-missing-out line→new baseline floor. May 23 Saturday session pending.",
+      "detail": "DDR5 16Gb (2Gx8) session avg $41.500 (May 22) — ALL-TIME HIGH. Four-phase pattern: decline→bounce→accelerate→sustain. Phase 4 +0.40% NO deceleration. 12-day cumulative +4.19%. $41 line 3-week evolution: resistance→support→fear-of-missing-out line→new baseline floor. May 23/24 weekend sessions pending — DRAMeXchange subscription delay normal.",
       "categoriesAffected": [
         "All DDR5"
       ],
       "confidence": "high (12 consecutive data points, TrendForce official qualitative confirmation, 4-phase pattern independently verifiable)",
       "firstReported": "2026-05-09",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Mouser QLC 61.44TB U.2 structural supply crisis ⚡⚡⚡",
-      "status": "STRUCTURAL CRISIS DEEP CONFIRMATION+ — Day 5. Full work week + weekend zero replenishment. 122.88TB E1.L only 2 units.",
-      "source": "Mouser product page May 20-24 2026",
-      "detail": "Solidigm D5-P5336 61.44TB U.2 (SBFPF2BV614T001) ONLY 1 UNIT for FIFTH CONSECUTIVE DAY. Full work week (Mon-Fri) + weekend with zero replenishment. E1.L 10-pack 'Non-Stocked' — bulk procurement channel CLOSED. 122.88TB E1.L only 2 units — full large-capacity QLC across-the-board shortage. Restock Sept 7 2026 (3.5 months). Most severe SSD supply signal since tracking began.",
+      "status": "IRREVERSIBLE CONFIRMATION — Day 6. Full work week + full weekend zero replenishment. 2026 Q3/Q4 procurement cannot rely on D5-P5336 61.44TB channel.",
+      "source": "Mouser product page May 20-25 2026",
+      "detail": "Solidigm D5-P5336 61.44TB U.2 (SBFPF2BV614T001) ONLY 1 UNIT for SIXTH CONSECUTIVE DAY. Full work week (Mon-Fri) + full weekend (Sat-Sun) with zero replenishment. E1.L 10-pack 'Non-Stocked' — bulk procurement channel CLOSED. Restock Sept 7 2026 (3.5 months). ALL temporary explanations permanently excluded. Most severe SSD supply signal since tracking began.",
       "categoriesAffected": [
         "PCIe4 QLC"
       ],
-      "confidence": "high (five consecutive days confirmed, full work week + weekend, bulk channel closure verified, 122.88TB low stock verified)",
+      "confidence": "high (six consecutive days confirmed, full work week + full weekend, bulk channel closure verified)",
       "firstReported": "2026-05-20",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
-      "risk": "Samsung union vote — Day 2 extremely high turnout, DX revolt continues 🗳️⚡",
-      "status": "ACTIVE — Day 2. NSEU 79.42% (+10.27pp), Super-Corporate 80.62% (+14.46pp), Combined 80.47%.",
-      "source": "Seoul Economic Daily / Chosun Ilbo / Asia Economy May 23 2026",
-      "detail": "Samsung union vote Day 2 turnout surges to 79-80% — DS and DX both fully mobilized. DX 100:1 bonus gap ($4K vs $400K) driving anti-deal movement. Court injunction pending + shareholder lawsuit + 10K-12K new anti-deal union members. If rejected (May 27): strike risk immediately returns + DX/DS rift makes renegotiation far more complex.",
+      "risk": "Samsung union vote — Day 4 SGUU 86.2% turnout, DX Donghaeng union EXCLUDED, legal escalation 🗳️⚡",
+      "status": "ACTIVE — Day 4. SGUU 86.2% (49,363/57,291) as of 8:29 AM May 25. 48 hours to deadline (May 27 10:00 KST). 🆕 DX Donghaeng union formally excluded — legal challenge may invalidate ratification.",
+      "source": "Korea JoongAng Daily May 24 / Chosun Ilbo May 25 / Seoul Economic Daily May 24 2026",
+      "detail": "Samsung union vote Day 4 turnout 86.2% — extremely high. Combined Day 3 84.6%. 🆕 DX Donghaeng union (representing DX employees) formally excluded from official vote by SGUU main union — 10K-12K DX members disenfranchised. Legal challenge launched: exclusion may violate Korean labor law and invalidate entire ratification. Shareholder lawsuit for injunction + invalidation ongoing. Court hearing already held May 20. If agreement rejected (May 27): strike risk immediately returns + DX/DS institutional rift makes renegotiation extremely complex. If agreement passes but legal challenges continue: Samsung operational instability prolonged.",
       "categoriesAffected": [
         "All DDR5",
         "All SSD"
       ],
-      "confidence": "high (multi-source + Day 2 turnout confirmed)",
+      "confidence": "high (multi-source + Day 4 turnout confirmed + Donghaeng exclusion verified + legal filings)",
       "firstReported": "2026-05-23",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Corsair/CXMT DDR5 supply diversification — structural supply chain shift 🆕",
-      "status": "NEW — Day 1. First verified Western brand integrating Chinese DRAM.",
+      "status": "SUSTAINED — Day 2. First verified Western brand integrating Chinese DRAM.",
       "source": "The Next Web / TechSpot / StartupFortune May 2026",
       "detail": "Corsair begins integrating CXMT DDR5 chips in response to Samsung/SK Hynix/Micron undersupply. CXMT DRAM ~$150 vs global $300-400. China 'Epic Expansion' (CXMT + YMTC) nearly doubling wafer output. Earliest price normalization roadmap — impact H2 2027-2028 (14-18 months). NOT a 2026 buy_now reversal signal — consumer DDR5 impact only, near-zero enterprise RDIMM effect in 2026.",
       "categoriesAffected": [
         "DDR5 (consumer tier only — limited enterprise RDIMM impact in 2026)"
       ],
       "confidence": "high (Corsair product confirmation + multiple independent sources)",
-      "firstReported": "2026-05-24"
+      "firstReported": "2026-05-24",
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Micron CEO: tight supply beyond 2027 — major suppliers fully booked 🆕",
-      "status": "NEW — Day 1. Highest-level executive confirmation of extended supply constraint.",
+      "status": "SUSTAINED — Day 2. Highest-level executive confirmation of extended supply constraint.",
       "source": "Cryptobriefing / Micron investor communications May 2026",
       "detail": "Micron CEO Sanjay Mehrotra reiterates DRAM/NAND supply will remain tight through 2027 and beyond. Major memory suppliers already fully booked. Confirms structural undersupply independent of Samsung union situation. Aligns with Gartner +125% DRAM 2026 forecast and Goldman Sachs NAND 4.2% deficit.",
       "categoriesAffected": [
@@ -408,11 +418,12 @@
         "All SSD"
       ],
       "confidence": "high (CEO-level statement, consistent with all other macro indicators)",
-      "firstReported": "2026-05-24"
+      "firstReported": "2026-05-24",
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Goldman Sachs global NAND 4.2% deficit (largest since 2011)",
-      "status": "SUSTAINED — Day 2. Highest-level independent NAND supply quantification.",
+      "status": "SUSTAINED — Day 3. Highest-level independent NAND supply quantification.",
       "source": "Goldman Sachs research May 2026",
       "detail": "Global NAND flash deficit of 4.2% forecast for 2026 — largest since 2011. NAND Q2 contract +70-75% QoQ (largest quarterly increase in a decade). Enterprise SSD 53.8% of market. Combined with full-chain sold-out, Kioxia 2026 sold out, Samsung warm-down production cut, and MLC NAND tripled.",
       "categoriesAffected": [
@@ -420,23 +431,23 @@
       ],
       "confidence": "high (Goldman Sachs institutional research)",
       "firstReported": "2026-05-23",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Samsung PM9D3a 30.72TB PCIe5 reference mixed signals ⚠️",
-      "status": "MIXED SIGNALS — Day 6. Compuram 'currently not deliverable' but partial June 1 delivery estimates.",
+      "status": "MIXED SIGNALS — Day 7. UPGRADED: 30.72TB capacity/yield bottleneck (15.36TB model ships 4-6 days normally).",
       "source": "Compuram / Xi Computer / SHI / Neobits May 2026",
-      "detail": "Samsung PM9D3a 30.72TB listed as 'currently not deliverable' on Compuram. However, system integrators show June 1 estimated ship dates and SHI/Neobits list the product. Signal is mixed — between 'pending delivery' and 'undeliverable.' Xi Computer $14,239 still listed. If ultimately undeliverable, 4-brand landscape degrades to 3-brand.",
+      "detail": "Samsung PM9D3a 30.72TB listed as 'currently not deliverable' on Compuram. However, PM9D3a 15.36TB model ships 4-6 days normally — implying 30.72TB bottleneck is capacity/yield issue, not product-line failure. Xi Computer $14,239 still listed. If ultimately undeliverable, 4-brand landscape degrades to 3-brand.",
       "categoriesAffected": [
         "PCIe5 TLC"
       ],
       "confidence": "medium (conflicting signals from multiple sources)",
       "firstReported": "2026-05-23",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Former Samsung exec predicts DDR5 price fall H2 2027 from China expansion",
-      "status": "SUSTAINED — Day 2. Now corroborated by Corsair/CXMT supply diversification.",
+      "status": "SUSTAINED — Day 3. Corroborated by Corsair/CXMT supply diversification + ServerMonkey May 2026.",
       "source": "Kye Kyung-hyun speech at National Academy of Engineering Seoul May 2026; Corsair/CXMT May 2026",
       "detail": "Former Samsung semiconductor chief predicts DDR5 prices could fall significantly H2 2027-early 2028 from Chinese DRAM expansion. Now independently corroborated by Corsair/CXMT sourcing decision. China 'Epic Expansion' nearly doubling wafer output. First credible timeline for price normalization — but 14-18 months out.",
       "categoriesAffected": [
@@ -444,11 +455,11 @@
       ],
       "confidence": "medium-high (Kye forecast + Corsair/CXMT verification)",
       "firstReported": "2026-05-23",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Samsung SSD Japan retail 300% surge ⚡",
-      "status": "SUSTAINED — Day 11",
+      "status": "SUSTAINED — Day 12",
       "source": "TrendForce/Tom's Hardware May 14 2026",
       "detail": "Samsung SSD Japan retail prices surge up to 300%.",
       "categoriesAffected": [
@@ -456,11 +467,11 @@
       ],
       "confidence": "high",
       "firstReported": "2026-05-15",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Samsung semiconductor strike",
-      "status": "AVERTED with CAVEAT — tentative deal reached. Vote Day 2 turnout 80%+, DX revolt + court injunction + shareholder lawsuit sustained. Deadline May 27.",
+      "status": "AVERTED with CAVEAT — tentative deal reached. Vote Day 4 SGUU 86.2%. DX Donghaeng union excluded+legal escalation. Deadline May 27 (48hr).",
       "source": "Multiple sources May 20-24 2026",
       "detail": "Samsung and NSEU tentative wage deal reached 5/20. Union vote started 5/22 (69.15% Day 1 → 79.42% Day 2). Deadline May 27. DX division (mobile/TV/appliances) strongly opposing deal (100:1 bonus gap). Court injunction + shareholder lawsuit + 10K-12K new anti-deal union members. Production cut since 5/14 (360K wafers) FACT regardless of vote outcome — warm-down→ramp-up recovery 2-3 weeks.",
       "categoriesAffected": [
@@ -470,11 +481,11 @@
       "confidence": "high (multi-source + legal filings confirmed)",
       "firstReported": "2026-05-17",
       "resolvedDate": "2026-05-20",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Solidigm D5-P5336 122.88TB QLC +199% YoY",
-      "status": "SUSTAINED — Day 4",
+      "status": "SUSTAINED — Day 5. 🆕 Mouser 122.88TB U.2 new SKU 5 units — partial stock improvement.",
       "source": "Digital Today Korea May 2026",
       "detail": "Solidigm 122.88TB D5-P5336 $12,399(2025/5)→$37,128(2026/2) = +199% annual increase.",
       "categoriesAffected": [
@@ -482,99 +493,168 @@
       ],
       "confidence": "medium-high",
       "firstReported": "2026-05-21",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Micron 6550 ION TLC not QLC — QLC supply gap post-6500 ION EOL",
-      "status": "SUSTAINED — Day 3",
+      "status": "SUSTAINED — Day 4",
       "detail": "6550 ION confirmed TLC. 6500 ION EOL (last order 2026/8/25) → 30.72TB QLC supply dual→single source. Goldman Sachs NAND 4.2% deficit compounds impact.",
-      "categoriesAffected": ["PCIe4 QLC"],
+      "categoriesAffected": [
+        "PCIe4 QLC"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-22",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "DDR4/DDR5 divergence deepening",
-      "status": "SUSTAINED — Day 5",
+      "status": "SUSTAINED — Day 6",
       "source": "TrendForce DDR5 qualitative analysis May 2026",
       "detail": "TrendForce: DDR4 spot subdued, buyers wait-and-see. DDR5: suppliers repeatedly raising quotes, buyers proactively increasing bid prices. Two-tier market thesis validated.",
-      "categoriesAffected": ["All DDR5", "DDR4"],
+      "categoriesAffected": [
+        "All DDR5",
+        "DDR4"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-22",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "NAND Research independent crisis analysis",
-      "status": "SUSTAINED — Day 10",
+      "status": "SUSTAINED — Day 11. 🆕 May 2026 update: 'extreme seller's market'. NAND wafer +246% vs Q1 2025.",
       "detail": "LTAs extended to 5 years. Small builders exposed to spot extreme premiums. Storage 35% of OEM BOM.",
-      "categoriesAffected": ["All SSD", "All DDR5"],
+      "categoriesAffected": [
+        "All SSD",
+        "All DDR5"
+      ],
       "confidence": "medium-high",
       "firstReported": "2026-05-15",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "ServerSupply + Memory.net Cloudflare blocked",
-      "status": "SUSTAINED — Day 19",
+      "status": "SUSTAINED — Day 20",
       "detail": "连续第19天两个关键验证源同时Cloudflare封禁(403)。",
-      "categoriesAffected": ["All"],
+      "categoriesAffected": [
+        "All"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-07",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "全产业链售罄 (Triple-Sold-Out)",
-      "status": "SUSTAINED — Day 22",
+      "status": "SUSTAINED — Day 23",
       "detail": "Kioxia NAND + SK Hynix DRAM/NAND/HBM 2026 sold out. Micron部分停止报价。",
-      "categoriesAffected": ["All"],
+      "categoriesAffected": [
+        "All"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-04",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "DiscTech JS-rendering",
-      "status": "ONGOING — Day 25. Entering 5th week. UPGRADED to critical action item.",
-      "detail": "PCIe4 TLC 主源价格提取离线第25天。HTTP 200但3 bytes raw。进入第五周——升级为关键行动项。Real-time tracking lag 62-158%。",
-      "categoriesAffected": ["PCIe4 TLC"],
+      "status": "ONGOING — Day 26. Entering 6th week. UPGRADED to critical action item.",
+      "detail": "PCIe4 TLC 主源价格提取离线第26天。HTTP 200但3 bytes raw。进入第六周——升级为关键行动项。Real-time tracking lag 27-60%。",
+      "categoriesAffected": [
+        "PCIe4 TLC"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-01",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "DRAM Q1 contract actual +110-115% QoQ — upward revision",
-      "status": "SUSTAINED — Day 13",
+      "status": "SUSTAINED — Day 14",
       "detail": "DRAM Q1 +110-115% QoQ. Q2 PC DDR5 +43-48%. Gartner 2026 +125%. No relief until late 2027.",
-      "categoriesAffected": ["All DDR5"],
+      "categoriesAffected": [
+        "All DDR5"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-13",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "PCIe4 TLC brand split 3.4-5.5x structural",
-      "status": "STRUCTURAL — Day 20. Entering 4th week.",
-      "detail": "Samsung PM1733 vs Solidigm D7-P5520 3.4-5.5x brand split. Real-time band $3,584(Newegg)-$5,727(Mouser). Tracking lag 62-158%.",
-      "categoriesAffected": ["PCIe4 TLC"],
+      "status": "STRUCTURAL — Day 21. Entering 4th week. Range narrowed to 2.7-3.4x with new low-end references.",
+      "detail": "Samsung PM1733 vs Solidigm D7-P5520 brand split narrowed to 2.7-3.4x (TechAtlantix $2,812 + ServerSupply $3,550). 🆕 ServerPartDeals 7450 Pro $2,304. Tracking lag 27-60%.",
+      "categoriesAffected": [
+        "PCIe4 TLC"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-06",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "PCIe5 TLC 30.72TB price increase sustained — ENTERING 4TH WEEK ⚡",
-      "status": "SUSTAINED — Day 17. Longest sustained price increase in tracking history. 8-ref 5-source. ⚠️ PM9D3a mixed signals Day 6.",
+      "status": "SUSTAINED — Day 18. Longest sustained price increase in tracking history. 8-ref 5-source. 🆕 CDW-G +$289 upper band pressure. ⚠️ PM9D3a mixed signals Day 7.",
       "source": "ServerSupply + SHI + CDW-G + Xi + Tech-America + Newegg",
-      "detail": "Micron 9550 Pro 30.72TB $17,700 Day 17 sustained — ENTERING 4TH WEEK. 5-source 8-ref brand landscape Day 25. Full band $14,239-$20,432 = 43.5% spread. ⚠️ Samsung PM9D3a $14,239 mixed signals (Compuram 'not deliverable' vs June 1 estimates). Micron 5-ref cluster ($16,939-$19,573) most solid anchor group.",
-      "categoriesAffected": ["PCIe5 TLC"],
+      "detail": "Micron 9550 Pro 30.72TB $17,700 Day 18 sustained — 4TH WEEK. 5-source 8-ref brand landscape Day 26. Full band $14,239-$20,432 = 43.5% spread. 🆕 CDW-G $17,029→$17,318 (+$289). 🆕 SHI $19,573 now 'on backorder'. ⚠️ Samsung PM9D3a $14,239 mixed signals (30.72TB bottleneck). Micron 5-ref cluster ($16,939-$19,573) most solid anchor group with median $17,318.",
+      "categoriesAffected": [
+        "PCIe5 TLC"
+      ],
       "confidence": "high (5 sources, 8 references, 17 consecutive days of sustained increase)",
       "firstReported": "2026-05-03",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
     },
     {
       "risk": "Micron 6500 ION EOL — supply shrinkage",
-      "status": "SUSTAINED — Day 17. 6550 ION TLC not QLC. Goldman Sachs NAND 4.2% deficit compounds impact.",
+      "status": "SUSTAINED — Day 18. 6550 ION TLC not QLC. Goldman Sachs NAND 4.2% deficit compounds impact. 🆕 NAND Research May 'extreme seller's market'.",
       "detail": "6500 ION EOL: last order 2026/8/25. 6550 ION replacement confirmed TLC. QLC 30.72TB supply dual→single source post-EOL.",
-      "categoriesAffected": ["PCIe4 TLC", "PCIe4 QLC"],
+      "categoriesAffected": [
+        "PCIe4 TLC",
+        "PCIe4 QLC"
+      ],
       "confidence": "high",
       "firstReported": "2026-05-09",
-      "updatedDate": "2026-05-24"
+      "updatedDate": "2026-05-25"
+    },
+    {
+      "risk": "DX Donghaeng Union formally excluded from Samsung vote — legal escalation 🆕",
+      "status": "NEW — Day 1. DX union excluded from official vote. Legal challenge may invalidate ratification.",
+      "source": "Korea JoongAng Daily / Chosun Ilbo / Seoul Economic Daily May 24-25 2026",
+      "detail": "DX Donghaeng union (10K-12K DX employees) formally excluded from Samsung vote by SGUU main union. Exclusion may violate Korean labor law — legal challenge launched. Court hearing held May 20. If successful, entire ratification could be invalidated regardless of vote outcome. Deepens DS ($335K-$400K bonus) vs DX ($4K-$34K) institutional rift. Operational risk extends beyond May 27 deadline.",
+      "categoriesAffected": [
+        "All DDR5",
+        "All SSD"
+      ],
+      "confidence": "high (multi-source + legal proceedings confirmed)",
+      "firstReported": "2026-05-25"
+    },
+    {
+      "risk": "CDW-G Micron 9550 Pro 30.72TB +$289 — PCIe5 upper band pressure 🆕",
+      "status": "NEW — Day 1. CDW-G price increase + SHI backorder = dual supply tightening signal.",
+      "source": "CDW-G product page May 2026",
+      "detail": "CDW-G Micron 9550 Pro 30.72TB $17,029→$17,318 (+$289, +1.7%). Previously below Micron cluster median, now at median. Combined with SHI $19,573 status change to 'on backorder' — dual signal of supply tightening in premium PCIe5 tier. Micron 5-ref cluster median unchanged at $17,318.",
+      "categoriesAffected": [
+        "PCIe5 TLC"
+      ],
+      "confidence": "medium-high (single source CDW-G but dual-confirmed by SHI backorder)",
+      "firstReported": "2026-05-25"
+    },
+    {
+      "risk": "NAND Research May 2026 'extreme seller's market' — system-wide escalation 🆕",
+      "status": "NEW — Day 1. NAND wafer +246% vs Q1 2025. Market shifted to allocation-driven model.",
+      "source": "NAND Research comprehensive May 2026 update",
+      "detail": "NAND Research characterizes market as 'extreme seller's market' with no credible near-term relief. NAND wafer pricing +246% vs Q1 2025. Market shifted from consumer-electronics cycle to allocation-driven market — hyperscalers compete for limited wafer/SSD capacity. New fab capacity not reaching meaningful volume before late 2027-2028. Procurement teams advised to build memory-cost escalation models. Consistent with Goldman Sachs 4.2% deficit, Gartner +125% DRAM, NAND Q2 +70-75%.",
+      "categoriesAffected": [
+        "All SSD",
+        "All DDR5"
+      ],
+      "confidence": "high (independent industry research, consistent with all other macro indicators)",
+      "firstReported": "2026-05-25"
+    },
+    {
+      "risk": "Mouser QLC 122.88TB U.2 new SKU — partial stock improvement 🆕",
+      "status": "NEW — Day 1. U.2 form factor 5 units at $21,717.79. Does not offset 61.44TB crisis.",
+      "source": "Mouser product page May 25 2026",
+      "detail": "Mouser lists new SKU SBFPF2BV0P12001 (Solidigm D5-P5336 122.88TB U.2 2.5-inch) with 5 units at $21,717.79. This is a different form factor/product line than the previously tracked E1.L (2 units). U.2 more compatible with mainstream server deployments. Positive improvement for 122.88TB tier but does not offset 61.44TB U.2 crisis (6th day only 1 unit, 3.5-month restock gap).",
+      "categoriesAffected": [
+        "PCIe4 QLC"
+      ],
+      "confidence": "medium (single source Mouser, new product listing)",
+      "firstReported": "2026-05-25"
     }
   ]
 }

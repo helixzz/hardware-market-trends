@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-25",
+  "generatedAt": "2026-05-25T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "CDW-G (Micron 9550 Pro 30.72TB price refresh)",
+    "ServerPartDeals (Micron 7450 Pro 7.68TB)",
+    "TechAtlantix (Solidigm D7-P5520 7.68TB)",
+    "ServerSupply (Hynix DDR5-5600 128GB)",
+    "Tech-America (Kioxia CM7-R 15.36TB)",
+    "ServerMonkey (May 2026 hardware update)",
+    "NAND Research (May 2026 comprehensive update)",
+    "Mouser (QLC 122.88TB U.2 new SKU)",
+    "Korea JoongAng Daily (Samsung vote Day 3 + DX exclusion)",
+    "Chosun Ilbo (Samsung vote Day 4 86.2%)",
+    "Seoul Economic Daily (Samsung vote 82%+)"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW-G (9550 Pro $17,318 → +$289)",
+    "ServerPartDeals (7450 Pro $2,304)",
+    "TechAtlantix (D7-P5520 $2,812)",
+    "ServerSupply (Hynix 128GB $5,200)",
+    "Tech-America (Kioxia CM7-R 15.36TB $4,252)",
+    "ServerMonkey (May 2026 confirmed no relief)",
+    "NAND Research (extreme seller's market)",
+    "Mouser (122.88TB U.2 5 units → stock improvement)",
+    "Korea JoongAng Daily (DX Donghaeng exclusion + vote Day 3 84.6%)",
+    "Chosun Ilbo (vote Day 4 SGUU 86.2%)",
+    "Seoul Economic Daily (vote 82%+)"
+  ],
+  "keyChangesVsYesterday": [
+    "⏳ DDR5 spot May 23/24 still pending (weekend delay — DRAMeXchange subscription normal)",
+    "🆕 Samsung union vote Day 3 combined 84.6%, Day 4 SGUU 86.2% — 48 hours to deadline",
+    "🆕 DX Donghaeng Union formally excluded from official vote — legal escalation: exclusion may invalidate entire ratification",
+    "🆕 CDW-G Micron 9550 Pro 30.72TB $17,029→$17,318 (+$289, +1.7%) — upper band pressure building",
+    "⚡ Mouser QLC 61.44TB U.2 6th consecutive day only 1 unit — upgraded to irreversible confirmation",
+    "🆕 Mouser QLC 122.88TB U.2 new SKU 5 units — stock improvement (different form factor)",
+    "🆕 NAND Research May 2026 comprehensive update — 'extreme seller's market', NAND wafer +246% vs Q1 2025",
+    "🆕 New sources: ServerPartDeals, TechAtlantix, ServerSupply Hynix 128GB, Tech-America Kioxia, ServerMonkey",
+    "🆕 SHI Micron 9550 Pro 30.72TB status changed from in-stock to 'on backorder'",
+    "⚠️ Samsung PM9D3a 30.72TB mixed signals Day 7 — 15.36TB model ships 4-6 days → 30.72TB likely capacity/yield bottleneck"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "26-day anchor — longest in tracking history. NEMIX $1,488 entering 7th work week. DDR5 spot 4-phase pattern maintained. Samsung vote 84-86% turnout with DX Donghaeng union excluded → supply-side uncertainty not reduced. Full-chain sold out Day 23. Corsair/CXMT roadmap 14-18 months out — no impact on 2026 procurement."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $41.500 all-time high + 4-phase pattern confirmed. $41 line 3-tier evolution complete. 12-day cumulative +4.19%. NEMIX 96GB $3,200 Day 24 — 4th formal tracking column request. New Hynix 128GB $5,200 reference. ServerMonkey May confirms 'no credible near-term relief'. Donghaeng exclusion + legal escalation adds Samsung operational uncertainty."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "21-day brand split + Goldman Sachs NAND 4.2% deficit + NAND Q2 +70-75% + 6500 ION EOL Day 18. New references: ServerPartDeals 7450 Pro $2,304, TechAtlantix $2,812. Tracking lag 27-60%. DiscTech offline Day 26 (>5 weeks). NAND Research May 'extreme seller's market' new macro endorsement."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB SS $17,700 Day 18 (4th week) + 8-reference 4-brand Day 26. CDW-G +$289(+1.7%) — upper band pressure accumulating. PM9D3a mixed signals Day 7 but 15.36TB model ships normally → capacity/yield bottleneck not product-line failure. Micron 5-ref cluster median $17,318 stable. SHI $19,573 now 'on backorder'. 'Competition-pressures-price' window narrowing substantively."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ Mouser 61.44TB U.2 6th consecutive day only 1 unit — IRREVERSIBLE CONFIRMATION: full work week + full weekend zero replenishment. Restock 2026/9/7 (3.5 months). Q3/Q4 2026 procurement plans cannot rely on D5-P5336 61.44TB channel. 122.88TB U.2 new SKU 5 units positive but different product line. Goldman Sachs 4.2% NAND deficit. 6500 ION EOL → 30.72TB QLC dual→single source. Urgency MAX — 61.44TB channel closing irreversibly."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM public pricing continues absent. Low priority. No tracking column."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB spot data",
+      "reasonCode": "pending_update",
+      "note": "DRAMeXchange May 23/24 weekend sessions not yet available in public search. Subscription-based delay normal for weekends."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "real-time tracking lag",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS offline Day 26 (>5 weeks). Tracking deviation 27-60%. Browser automation is the only recovery path. Critical action item."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking column",
+      "reasonCode": "newly_filled_monitoring",
+      "note": "NEMIX $3,200 Day 24 persistent. HPE $3,665/Dell $4,100 cross-reference. Anchor stability >3 weeks. 4th formal request to create tracking column."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB Mouser U.2",
+      "reasonCode": "active_crisis",
+      "note": "⚡ 6th consecutive day only 1 unit. Full work week + full weekend zero replenishment. UPGRADED TO IRREVERSIBLE CONFIRMATION. Restock 2026/9/7."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "PM9D3a 30.72TB reliability",
+      "reasonCode": "mixed_signal",
+      "note": "⚠️ Day 7: Compuram 'not deliverable' for 30.72TB but 15.36TB ships 4-6 days. Likely 30.72TB capacity/yield bottleneck, not product-line failure."
+    },
+    {
+      "category": "Multi-category",
+      "spec": "ServerSupply + Memory.net",
+      "reasonCode": "parser_gap",
+      "note": "CF blocked Day 20. Search snippets still available but precise direct-page cross-verification missing for 3 full weeks."
+    },
+    {
+      "category": "All",
+      "spec": "Samsung union vote outcome",
+      "reasonCode": "pending_event",
+      "note": "Vote ends May 27 10:00 KST — 48 hours. SGUU Day 4 86.2% turnout. DX Donghaeng union formally excluded — legal escalation. Outcome uncertain."
+    },
+    {
+      "category": "All",
+      "spec": "DX Donghaeng union exclusion",
+      "reasonCode": "escalating_legal_risk",
+      "note": "🆕 DX union excluded from official vote — legal challenge may invalidate entire ratification process. Deepens Samsung institutional rift."
+    }
+  ]
+}
