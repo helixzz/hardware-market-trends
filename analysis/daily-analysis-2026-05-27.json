@@ -1,0 +1,174 @@
+{
+  "date": "2026-05-27",
+  "generatedAt": "2026-05-27T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "note": "32/64/128GB 全部覆盖。16GB no_public_sample 连续 28 天。NEMIX 32GB $1,488 Day 28（七周+）全追踪最长锚点。"},
+    "DDR5-5600": {"filled": 3, "total": 3, "note": "32/64/128GB 覆盖。96GB NEMIX $3,280 Day 27 第六次请求新增 tracking 列。16GB no_public_sample。"},
+    "PCIe4 TLC": {"filled": 4, "total": 4, "note": "全容量覆盖。品牌裂口 2.5-2.7x Day 23。DiscTech JS 离线 Day 28 进入第七周。tracking lag 27-155%。"},
+    "PCIe5 TLC": {"filled": 4, "total": 4, "note": "全容量覆盖。30.72TB 6 参考点 5 源最强锚点群。⚠️ 9550 Pro 公开价覆盖退化——CDW backordered+多源 Email For Price。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "全容量覆盖。⚡ 61.44TB Mouser Day 8 仅剩 1 台——完整工作周+1 天深化确认。五源验证带仍为全表最强列。"}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange May 26 session",
+    "CDW Micron 9550 Pro 30.72TB backorder status",
+    "ServerSupply PM1743 7.68TB",
+    "Newegg PM9D3a 7.68TB",
+    "e-catalog Micron 7450 Pro",
+    "ServerOrbit Kioxia CM7-R 30.72TB",
+    "DirectMacro Solidigm D7-P5520 15.36TB",
+    "MalayMail / Bloomingbit / The Elec — Samsung vote deadline coverage",
+    "Tom's Hardware — court injunction rejection coverage",
+    "NEMIX RAM — DDR5-6400 32GB + DDR5-5600 96GB refresh",
+    "A-Tech Memory (atechmemory + Newegg) — DDR5-6400 64GB refresh",
+    "Mouser — QLC 61.44TB U.2 inventory verification Day 8"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange May 26 ($41.667 0.00% — 五日反弹终结)",
+    "CDW Micron 9550 Pro backorder (🆕 供给收紧信号)",
+    "ServerSupply PM1743 7.68TB $4,400 (PCIe5 上沿参考)",
+    "Newegg PM9D3a 7.68TB $8,999.99 (高端参考)",
+    "e-catalog Micron 7450 Pro 全容量报价",
+    "ServerOrbit Kioxia CM7-R 30.72TB (可用性确认)",
+    "Mouser QLC 61.44TB Day 8 库存核查",
+    "Tom's Hardware — Suwon District Court rejects Donghaeng injunction"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡ DDR5 spot 五日连续反弹序列终结 —— May 26 $41.667 完全持平（0.00%），ALL-TIME HIGH 首次高位横盘",
+    "🔴 三星工会投票 5/27 10:00 KST 截止 —— 水原地方法院驳回东行禁止令，>93% 投票率，协议通过几无悬念",
+    "🆕 CDW Micron 9550 Pro 30.72TB $17,029 → backordered —— 此前可订购，现转为缺货（供给收紧新信号）",
+    "⚡ Mouser QLC 61.44TB U.2 第八天仅剩 1 台 —— 完整工作周+1 天，从"不可逆确认"进入"深化确认第二阶段"",
+    "⚡ SS Micron 9550 Pro $17,700 Day 20 —— 五周最长持续涨价记录逼近",
+    "DiscTech JS 离线 Day 28 —— 正式进入第七周",
+    "DDR5-5600 采购建议从 split_buy 升级为 buy_now",
+    "PCIe5 TLC 采购建议从 urgent_only 升级为 buy_now"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX 28 天锚点 + DDR5 spot ALL-TIME HIGH 高位横盘 + 全产业链售罄 + Samsung 减产已计提 360K 晶圆。无任何等待理由。建议立即全量采购。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot 历史高位 $41.667 + NEMIX 96GB 首次涨价 $3,200→$3,280 + Micron CEO 供应紧张至 2027+ + Samsung 减产。从 split_buy 升级至 buy_now。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "NAND Q2 +70-75% + 品牌裂口 23 天结构性 + Goldman Sachs 4.2% 全球短缺 Day 6 + DiscTech 离线 28 天不影响实时市场判断。tracking 滞后不代表市场未涨。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "SS 9550 Pro $17,700 Day 20（五周最长涨价）+ 🆕 CDW backorder 新供给收紧信号 + Samsung 减产 + 全产业链售罄。从 urgent_only 升级至 buy_now。30.72TB 六参考点五源最强锚点群提供充分决策依据。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ Mouser 61.44TB Day 8 仅剩 1 台 + 补货 3.5 个月 + 全系列 831% 暴涨 + NAND 'extreme seller's market'。2026 Q3/Q4 QLC 采购不能依赖 D5-P5336 61.44TB 渠道 —— 必须立即锁定现货或寻找替代方案。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "连续 28 天无企业级 16GB DDR5-6400 RDIMM 公开报价。ServerSupply 偶见但 Cloudflare 封禁 Day 22。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "16GB 企业级 DDR5-5600 RDIMM 公开市场极少交易，连续多日无有效样本。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "tracking_column_missing",
+      "note": "NEMIX $3,280 Day 27 连续可见锚点 + HPE/Dell/Hynix OEM 交叉验证。已稳定超过四周，第六次正式请求创建 tracking 列。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "主源提取",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS 渲染离线 Day 28（进入第七周）。HTTP 200 但仅 3 bytes raw——需要浏览器自动化恢复。实时市场 tracking lag 27-155%。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB 公开价覆盖",
+      "reasonCode": "coverage_degraded",
+      "note": "9550 Pro 多源转向 Email For Price / backorder（CDW $17,029→backordered + SHI $19,573 backorder）。六参考点五源群仍成立但趋势指向更不透明定价环境。"
+    }
+  ],
+  "escalatedRisks": {
+    "updated": [
+      {
+        "risk": "Samsung union strike",
+        "oldStatus": "ACTIVE — Day 5 SGUU 89.16%. Donghaeng filed injunction May 26. Deadline May 27.",
+        "newStatus": "CLOSING — Vote concluded 10AM KST May 27. Suwon District Court REJECTED Donghaeng injunction. >93% turnout. Ratification widely expected. Risk level DOWNGRADED from 'structural tension' to 'post-vote residual legal risk'.",
+        "detail": "Production cut 360K wafers since May 14 remains FACT regardless of vote. Warm-down→ramp-up recovery 2-3 weeks still applies. 5/29 Donghaeng hearing post-vote, shareholder lawsuit ongoing — no pause effect."
+      },
+      {
+        "risk": "DDR5 spot 'dip-bounce-accelerate-sustain' pattern",
+        "oldStatus": "STRUCTURAL UPWARD — Day 15. $41.667 ATH. 5th consecutive trading day rebound.",
+        "newStatus": "STRUCTURAL UPWARD — Day 16. $41.667 ATH plateau. 5-day rebound sequence ENDED (0.00% May 26). First high-level consolidation. Entering phase 5: sideways digestion at all-time highs.",
+        "detail": "6-day cumulative from May 20 low: +$0.90 (+2.21%). $41 line 4-phase evolution complete: resistance→support→fear-line→new-floor→irreversible-upward-baseline."
+      },
+      {
+        "risk": "Mouser QLC 61.44TB U.2 structural supply crisis",
+        "oldStatus": "IRREVERSIBLE CONFIRMATION — Day 7. Full week only 1 unit.",
+        "newStatus": "IRREVERSIBLE CONFIRMATION STAGE 2 — Day 8. Full work week + 1 day. Restock Sept 7 2026 (3.5 months). Deepening beyond initial confirmation.",
+        "detail": "Eighth consecutive day confirmation. All temporary explanations permanently excluded. 2026 Q3/Q4 QLC procurement CANNOT rely on D5-P5336 61.44TB channel."
+      }
+    ],
+    "new": [
+      {
+        "risk": "CDW Micron 9550 Pro 30.72TB backordered — PCIe5 supply tightening escalation 🆕",
+        "status": "NEW — Day 1. CDW $17,029 previously orderable now backordered.",
+        "source": "CDW product page May 27 2026",
+        "detail": "CDW Micron 9550 Pro 30.72TB status changed to 'backordered.' Previously orderable at $17,029. Combined with SHI $19,573 'on backorder' (Day 3) = dual-source supply tightening confirmation in premium PCIe5 tier. SS $17,700 Day 20 sustained. Xi $16,939 and Tech-America $17,318 public pricing still available but overall coverage degrading.",
+        "categoriesAffected": ["PCIe5 TLC"],
+        "confidence": "high (dual-source CDW+SHI backorder confirmation)",
+        "firstReported": "2026-05-27"
+      },
+      {
+        "risk": "DDR5 spot 5-day rebound sequence ENDED — high-level consolidation begins 🆕",
+        "status": "NEW — Day 1. $41.667 flat (0.00%) after 5 consecutive daily gains.",
+        "source": "DRAMeXchange May 26 2026",
+        "detail": "After 5 consecutive trading day rebounds (5/20→5/25, +$0.90 cumulative), DDR5 spot paused at $41.667 ATH with zero change. This is the first time the upward momentum has stalled since the reversal began. Does NOT indicate a trend reversal — $41.667 is still ALL-TIME HIGH. But marks a potential inflection: either consolidation→new leg up, or profit-taking→temporary pullback. Samsung vote outcome may determine direction.",
+        "categoriesAffected": ["All DDR5"],
+        "confidence": "high (DRAMeXchange official data)",
+        "firstReported": "2026-05-27"
+      },
+      {
+        "risk": "Suwon District Court rejects Donghaeng injunction — last legal barrier to Samsung vote removed 🆕",
+        "status": "NEW — Day 1. Court ruling May 26 clears path for vote completion.",
+        "source": "Tom's Hardware / Chosun Ilbo / Korea Herald May 26-27 2026",
+        "detail": "Suwon District Court rejected Donghaeng Labor Union's provisional disposition request to halt Samsung wage deal vote. The court ruled the vote could proceed as scheduled. This effectively removed the last legal barrier to ratification. >93% turnout with DS division overwhelming majority virtually guarantees passage. Donghaeng hearing still scheduled May 29 but no pause effect. Strike risk: from 'active' to 'residual legal only.'",
+        "categoriesAffected": ["All DDR5", "All SSD"],
+        "confidence": "high (court ruling confirmed by multiple independent sources)",
+        "firstReported": "2026-05-27"
+      }
+    ]
+  },
+  "spotPrice": {
+    "date": "2026-05-26",
+    "sessionAvg": 41.667,
+    "dailyHigh": 52.50,
+    "dailyLow": 30.50,
+    "change": "0.00%",
+    "trendSequence": "5-day rebound ENDED. ATH plateau. 6-day cumulative +2.21% from May 20 low."
+  },
+  "samsungVoteStatus": {
+    "date": "2026-05-27",
+    "votingClosed": "10:00 KST May 27",
+    "turnout": ">93%",
+    "donghaengInjunction": "REJECTED by Suwon District Court May 26",
+    "expectedOutcome": "Ratification highly likely (DS majority + simple majority threshold)",
+    "nextEvent": "Donghaeng hearing May 29 + results announcement pending",
+    "productionImpact": "360K wafers production cut since May 14 — FACT regardless of vote outcome. Recovery 2-3 weeks."
+  }
+}
