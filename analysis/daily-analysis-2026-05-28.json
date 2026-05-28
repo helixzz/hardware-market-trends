@@ -1,0 +1,212 @@
+{
+  "date": "2026-05-28",
+  "generatedAt": "2026-05-28T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Connection.com",
+    "GovConnection",
+    "CDW-G (direct product page)",
+    "DRAMeXchange May 27",
+    "TrendForce NAND Q1 revision",
+    "TrendForce DDR5 vs HBM3e profitability",
+    "Tom's Hardware HBM packaging slowdown",
+    "Strait Times Samsung bonus resentment",
+    "StartupFortune AI memory bonus",
+    "Investing.com strike→HBM analysis",
+    "TweakTown 5-year SSD LTA",
+    "Hyperscalers PM1743 pricing",
+    "HPE PM1743 15.36TB",
+    "Korea JoongAng Daily vote results",
+    "Korea Herald vote results",
+    "Chosun Ilbo vote results 5/27-28",
+    "ServerMonkey May 2026 re-check",
+    "NEMIX RAM (web_search Day 29)",
+    "atechmemory.com (search Day 29)",
+    "Mouser QLC 61.44TB stock check Day 9",
+    "CDW QLC 61.44TB 8-10 day ETA"
+  ],
+  "newSourcesWithUsefulData": [
+    "Connection.com (QLC 61.44TB U.2 $33,047.41 In Stock 1-2 day ship)",
+    "GovConnection (QLC 61.44TB U.2 $33,212.92 In Stock 24-48hr)",
+    "CDW-G (9550 Pro 30.72TB $17,274.70 In Stock)",
+    "DRAMeXchange May 27 ($41.667 third day ATH plateau)",
+    "TrendForce NAND Q1 revised +85-90% (was +70-75%)",
+    "TrendForce DDR5 profitability > HBM3e → capacity reallocation",
+    "Tom's Hardware/Strait Times Samsung HBM packaging intentional slowdowns",
+    "TweakTown 5-year SSD/HDD LTAs becoming industry standard",
+    "Korea JoongAng Daily/Korea Herald/Chosun Ilbo Samsung vote ratified"
+  ],
+  "keyChangesVsYesterday": [
+    "Samsung union agreement RATIFIED (73.7% approve, 95.5% turnout, 62,616/65,593 voters) — strike risk formally CLOSED",
+    "NEW RISK: bonus resentment (DS $400K vs DX $4K = 100:1) → HBM packaging (TSP) intentional production slowdowns — 'work negligence, canceled meetings' — more insidious than strike",
+    "DDR5 spot $41.667 third consecutive day ATH plateau (0.00%) — Phase 5 high-level digestion deepens. TrendForce: 'gains narrowing, sluggish trading'",
+    "QLC 61.44TB Day 9 only 1 unit Mouser BUT alternative channels CONFIRMED: Connection $33,047 In Stock / GovConnection $33,213 In Stock / CDW 8-10 day ETA — crisis downgraded from 'total unavailability' to 'channel fragmentation with 34% premium'",
+    "CDW-G Micron 9550 Pro 30.72TB In Stock $17,274.70 — yesterday's blanket 'backordered' corrected to 'channel differentiation'",
+    "SS Micron 9550 Pro $17,700 Day 21 — FIVE-WEEK MILESTONE achieved (longest sustained price increase in tracking history)",
+    "NAND Q1 contract revised UP to +85-90% QoQ (was +70-75%) — upstream pricing more aggressive than previously known",
+    "TrendForce: DDR5 profitability to surpass HBM3e from Q1 2026 — suppliers may reallocate capacity from HBM to DDR5 (positive for DDR5 supply)",
+    "5-year SSD/HDD Long-Term Agreements becoming industry standard — large customers locking in supply, small buyers risk being squeezed out",
+    "Top 5 NAND suppliers Q1 2026 revenue +83.7% QoQ (TrendForce 5/25)",
+    "DiscTech Day 29 JS offline — approaching 8 weeks",
+    "All 18 tracking columns unchanged Day 29"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488 Day 29 anchor (8th week). DDR5 spot $41.667 three-day ATH plateau — sellers refusing to lower. 32 days full-chain sold out. Samsung warm-down production cut 360K wafers in effect. DDR5 profitability surpasses HBM3e → capacity reallocation positive for DDR5 supply. No reason to wait."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $41.667 three-day ATH plateau. 96GB NEMIX $3,280 Day 28 stable anchor (7th formal tracking column request). Micron CEO '2027+' tight supply. DDR5 capacity reallocation signal positive. No reason to wait."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "NAND Q1 revised up to +85-90% (was +70-75%). Q2 +70-75%. Brand split 2.5-2.7x structural Day 24. Goldman Sachs 4.2% NAND deficit Day 7. 5-year SSD LTA becoming standard — large customers locking supply, small buyers squeezed. 32 days full-chain sold out. Tracking lag 27-155% does not reduce procurement urgency."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "SS 9550 Pro $17,700 Day 21 FIVE-WEEK MILESTONE — longest sustained price increase in tracking history. CDW-G In Stock provides viable procurement path but wholesale (pack-of-10) still backordered. SHI $19,573 backorder. PM9D3a 30.72TB not deliverable Day 10. Samsung HBM packaging slowdown adds upstream risk to PCIe5 supply chain. 6-reference 5-source strongest anchor cluster maintained."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "Mouser 61.44TB U.2 Day 9 still only 1 unit. BUT Connection $33,048/GovConnection $33,213 In Stock + CDW 8-10 day ETA provide viable alternative channels. Crisis downgraded from 'total unavailability' to 'channel fragmentation with 34% premium.' 2026 Q3/Q4 QLC procurement: must lock through Connection/CDW now. 2027 Q1 procurement: may wait for Sept 7 replenishment but no guarantee. 831% full-series price surge + Goldman Sachs 4.2% NAND deficit + 5-year LTA trend support urgency."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "tracking_column_missing",
+      "note": "SEVENTH formal request. NEMIX $3,280 Day 28 continuous anchor. HPE $3,665 / Dell $4,100 / Hynix OEM $3,020-$3,650 cross-validation exceeding 4 weeks. Sample quality exceeds multiple existing tracking columns."
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 29. No enterprise 16GB DDR5-6400 RDIMM public listing. ServerSupply occasionally but CF blocked Day 23. No tracking column."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 29. Minimal 16GB enterprise DDR5-5600 RDIMM public trading. No tracking column."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB real-time tracking",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS offline Day 29 (7.5 weeks). Tracking lag 27-155%. NAND Q1 revised to +85-90% suggests tracking lag may be worse than estimated. Headless browser automation is the only recovery path."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "tracking_lag",
+      "note": "VDURA $17,500 benchmark + multi-source validation exists but DiscTech offline means real-time price not incorporated into tracking."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB PM9D3a",
+      "reasonCode": "outlier_only",
+      "note": "Xi $14,239 listed but Compuram 'currently not deliverable' for 30.72TB Day 10 — capacity/yield bottleneck. 15.36TB ships normally (4-6 days). If ultimately undeliverable → 4-brand landscape degrades to 3-brand."
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply+Memory.net verification",
+      "reasonCode": "parser_gap",
+      "note": "Both critical verification sources Cloudflare blocked Day 23. Search snippets available but precise cross-verification compromised."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB Mouser U.2",
+      "reasonCode": "active_crisis",
+      "note": "Day 9 only 1 unit. 4 on order Sept 7 (3.4 months). BUT alternative channels CONFIRMED: Connection $33,048/GovConnection $33,213 In Stock / CDW 8-10 day ETA. Crisis downgraded from catastrophic to manageable-with-premium."
+    },
+    {
+      "category": "All SSD",
+      "spec": "Samsung HBM packaging",
+      "reasonCode": "new_operational_risk",
+      "note": "NEW: Bonus resentment (DS $400K vs DX $4K) spread to Test & Package divisions → intentional production slowdowns/canceled meetings → HBM delivery schedules disrupted. Packaging capacity shared with enterprise SSD — risk of indirect impact. More insidious than strike because no clear resolution endpoint."
+    }
+  ],
+  "escalatedRisks": [
+    {
+      "risk": "Samsung bonus resentment → HBM packaging intentional production slowdowns 🆕",
+      "status": "NEW — Day 1. More insidious than strike — no clear endpoint.",
+      "source": "Tom's Hardware / Strait Times / StartupFortune / Investing.com May 27-28 2026",
+      "detail": "Newly ratified agreement creates DS (semiconductor) $400K vs DX (consumer) $4K bonus disparity (100:1). Resentment has spread to TSP (Test & Package) divisions with reports of 'work negligence,' 'canceled meetings,' and 'intentional production slowdowns.' HBM delivery schedules impacted. Packaging capacity shared with enterprise SSD packaging — indirect risk. Unlike strike (can be ended by agreement), organizational resentment has no clear resolution mechanism.",
+      "categoriesAffected": ["PCIe5 TLC", "PCIe4 QLC", "All SSD (packaging indirect)", "HBM"],
+      "confidence": "medium-high (multi-source qualitative, no quantitative impact data yet)",
+      "firstReported": "2026-05-28"
+    },
+    {
+      "risk": "DDR5 spot Phase 5 high-level consolidation — Day 3 ATH plateau ⚡",
+      "status": "ONGOING — Day 3. Third consecutive day at $41.667 (0.00%). Directional inflection window approaching.",
+      "source": "DRAMeXchange May 27 2026",
+      "detail": "After 5 consecutive daily gains (+$0.90, +2.21%), DDR5 spot has now plateaued at $41.667 for THREE consecutive sessions. TrendForce: 'gains narrowing amid sluggish trading, most inquiries focused on price trends rather than purchases.' Classic 'high-level digestion' pattern: buyers sitting on sidelines, sellers refusing to lower. If breaks above $41.667 → Phase 6 (new leg up); if drops below $41.00 → short-term correction signal.",
+      "categoriesAffected": ["All DDR5"],
+      "confidence": "high"
+    },
+    {
+      "risk": "Mouser QLC 61.44TB U.2 structural supply crisis ⚡⚡⚡ — Day 9 but alternative channels confirmed",
+      "status": "ONGOING — Day 9. Crisis partially mitigated by alternative channel discovery.",
+      "source": "Mouser + Connection + GovConnection + CDW May 20-28 2026",
+      "detail": "Mouser U.2 61.44TB only 1 unit for 9th consecutive day. 4 on order Sept 7 (3.4 months). BUT Connection $33,048 In Stock 1-2 day ship + GovConnection $33,213 In Stock 24-48hr + CDW 8-10 day ETA provide viable alternative procurement channels. 34% channel premium vs Newegg $24,600 reflects supply tightness not total unavailability. Crisis downgraded from 'total channel closure' to 'high-premium channel fragmentation.'",
+      "categoriesAffected": ["PCIe4 QLC"],
+      "confidence": "high"
+    },
+    {
+      "risk": "NAND Q1 contract revised UP to +85-90% (was +70-75%) 🆕",
+      "status": "NEW — Day 1 upward revision from TrendForce 5/25.",
+      "source": "TrendForce May 25 2026",
+      "detail": "NAND flash contract prices climbed +85-90% QoQ in Q1 2026, exceeding previous estimates of +70-75%. Top 5 NAND suppliers combined revenue +83.7% QoQ for Q1. This means upstream NAND pricing was MORE aggressive than previously modeled. Q2 +70-75% still projected. 5-year SSD/HDD Long-Term Agreements becoming industry standard. Enterprise SSD +60%. Implies PCIe4 TLC tracking lag may be worse than current 27-155% estimate.",
+      "categoriesAffected": ["All SSD"],
+      "confidence": "high (TrendForce official data)"
+    },
+    {
+      "risk": "DDR5 profitability surpassing HBM3e → capacity reallocation 🆕",
+      "status": "NEW — Day 1. Medium-term positive for DDR5 supply, negative for HBM pricing.",
+      "source": "TrendForce May 2026",
+      "detail": "TrendForce projects DDR5 profitability will exceed HBM3e starting Q1 2026. HBM3e/DDR5 ASP gap narrowing from 4-5x to 1-2x by end-2026. Suppliers may reallocate production capacity from HBM3e to server DDR5. This is structurally positive for DDR5 supply availability in H2 2026-2027 but creates upward pricing pressure on HBM.",
+      "categoriesAffected": ["All DDR5 (positive)", "HBM (negative)"],
+      "confidence": "medium (TrendForce projection, actual reallocation pace unknown)"
+    },
+    {
+      "risk": "SS Micron 9550 Pro 30.72TB five-week milestone — Day 21 ⚡",
+      "status": "MILESTONE — Day 21. Longest sustained price increase in tracking history.",
+      "source": "ServerSupply + SHI + CDW-G + Xi + Tech-America + Newegg",
+      "detail": "SS 9550 Pro $17,700 has sustained for 21 consecutive days (from $16,600 on 5/8, +$1,100, +6.6%). This is the longest sustained pricing increase in tracking history. CDW-G In Stock $17,274.70 provides viable procurement path but wholesale channels remain tight. SHI $19,573 still backordered. Micron 5-ref cluster median $17,318 stable. Samsung PM9D3a 30.72TB bottleneck Day 10.",
+      "categoriesAffected": ["PCIe5 TLC"],
+      "confidence": "high"
+    },
+    {
+      "risk": "5-year SSD/HDD LTA becoming industry standard 🆕",
+      "status": "NEW — Day 1. Structural supply constraint signal.",
+      "source": "Tom's Hardware / TweakTown May 28 2026",
+      "detail": "Crushing shortages have pushed customers to sign record 5-year Long-Term Agreements for SSDs and HDDs. Large hyperscalers and cloud providers locking in supply through 2030-2031. Implication: small/medium buyers who don't sign LTAs will face increasing difficulty accessing supply. This is a structural market change — not a temporary squeeze.",
+      "categoriesAffected": ["All SSD", "All HDD"],
+      "confidence": "medium-high (multi-source confirmation)"
+    },
+    {
+      "risk": "Samsung union vote ratified — strike risk CLOSED 🔴",
+      "status": "CLOSED — May 27, 2026. 73.7% approval, 95.5% turnout.",
+      "source": "Korea JoongAng Daily / Korea Herald / Chosun Ilbo / Tom's Hardware May 27 2026",
+      "detail": "Samsung's largest union ratified the tentative agreement. 62,616 of 65,593 eligible members voted (95.5%). 46,142 YES votes (73.7%). SGUU (DS-heavy) 80.6% approval. NSEU (DX-heavy) 21.1% approval. DS employees get 10.5% operating profit in stock bonuses over 10 years (~$340K-$540K per person). DX employees get flat 6M won (~$4,000). Strike risk formally eliminated. BUT new operational risk emerged: bonus resentment causing packaging division slowdowns.",
+      "categoriesAffected": ["All DDR5", "All SSD"],
+      "confidence": "high",
+      "resolvedDate": "2026-05-27"
+    }
+  ]
+}
