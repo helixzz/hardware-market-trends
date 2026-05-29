@@ -1,0 +1,145 @@
+{
+  "date": "2026-05-29",
+  "generatedAt": "2026-05-29T09:47:00+08:00",
+  "correctionNote": "CORRECTED from 09:00 initial run. DDR5 spot May 28 = $41.833 (NOT $41.00). DRAMeXchange official data confirms +0.40% increase to new ALL-TIME HIGH.",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange May 28 CORRECTED ($41.833 ▲+0.40% NEW ATH — correction from 09:00 $41.00 data)",
+    "TrendForce May 27 insights (DDR5 gains narrowing + DDR4 rebounds, confirmed by 5/28 data)",
+    "Samsung HBM4E 12-layer sample shipment (WHBL/KoreaHerald/BusinessTimes/Samsung 5/29)",
+    "Samsung HBM5E production indefinitely postponed D1d yield shortfall (LetsDataScience/WCCFTech/Neowin)",
+    "Dell AI server $60B FY2027 + $51.3B AI backlog + Q1 AI revenue +757% YoY (SeekingAlpha/Intellectia/247WallSt)",
+    "TrendForce NAND Q3 2026 sustained full-year price increase confirmation",
+    "Top 5 CSP AI capex $770B+ (+87% YoY) (DigiTimes/GlobalSpec)",
+    "Top 3 HBM market cap ~$3 trillion (CRN Asia/TechTimes)",
+    "HBM consuming >20% global DRAM wafer output, +70% YoY demand",
+    "Mouser D5-P5336 61.44TB E1.L 4 units in stock confirmed (separate from U.2 1 unit crisis)",
+    "Dell/HP/Lenovo/ASUS warning +15-20% contract price increases",
+    "Versalogic 2026 supply chain comprehensive brief",
+    "Saitech Micron 9550 Pro pricing band $10K-$25K",
+    "Beach Audio D7-P5520 3.84TB $1,010.59",
+    "AliExpress/eBay Samsung PM1733 series pricing references"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange May 28 CORRECTED ($41.833 NEW ATH)",
+    "TrendForce May 27 insights (DDR4 rebound detail: +3.70% May 20-26, 16Gb $61.595, 8Gb $33.800)",
+    "Samsung HBM4E sample shipment",
+    "Samsung HBM5E postponed",
+    "Dell AI server $60B + $51.3B backlog detail",
+    "TrendForce NAND Q3 sustained increase",
+    "DDR4 rebound verified (both 16Gb +0.43% + 8Gb +0.60%)",
+    "Mouser QLC 61.44TB E1.L 4 units status",
+    "Versalogic supply chain brief",
+    "Saitech Micron 9550 pricing band",
+    "Connection.com QLC 61.44TB (4th day persistence re-confirm)",
+    "CDW-G 9550 Pro In Stock (4th day persistence re-confirm)",
+    "NEMIX DDR5-6400 32GB $1,488 (Day 30 verified + alt SKU $599.99 excluded)",
+    "A-Tech DDR5-6400 64GB $2,106.71 (atechmemory.com + $2,194.49 Newegg verified)",
+    "NEMIX DDR5-5600 96GB $3,200 cash (Day 30 verified, $3,280 payment plan excluded)"
+  ],
+  "keyChangesVsYesterday": [
+    "⚡⚡⚡ DDR5 spot $41.667→$41.833 (▲+$0.166, +0.40%) — NEW ALL-TIME HIGH! 3-day ATH plateau broken UPWARD into Phase 6 new leg.",
+    "DDR5-5600 32GB ¥8,177→¥8,210 (▲+¥33, +0.40%) — new tracking value based on corrected spot data",
+    "🆕 DDR4 confirmed rebounding both specs: 16Gb +0.43% to $61.595 / 8Gb +0.60% to $33.800. DDR5/DDR4 first-time concurrent UP → full DRAM bull market, not just DDR5 structural tightness.",
+    "🆕 Samsung HBM4E 12-layer samples shipping to global customers (>20% faster than HBM4)",
+    "🆕 Samsung HBM5E production postponed indefinitely due to D1d DRAM yield shortfall — ~400 personnel idle",
+    "🆕 Dell Q1 FY2027: AI server revenue +757% YoY to $16.1B, $51.3B AI backlog, FY2027 guidance raised to $60B (+20%)",
+    "🆕 Top 5 CSPs AI capex $770B+ in 2026 (+87% YoY)",
+    "🆕 NAND Q3 2026 confirmed sustained price increases — full year supply shortage, no new capacity from major suppliers",
+    "🆕 Top 3 HBM producers market cap approaching $3 trillion",
+    "🆕 HBM consuming >20% global DRAM wafer output in 2026 (+70% YoY HBM demand)",
+    "Mouser QLC 61.44TB U.2 Day 10 double-digit milestone + E1.L 4 units confirmed in stock",
+    "Connection.com/GovConnection QLC 61.44TB 4th day persistence — alternative channel reliability proven",
+    "CDW-G Micron 9550 Pro 30.72TB In Stock $17,274.70 4th day persistence",
+    "NEMIX DDR5-6400 32GB $1,488 Day 30 — full one-month anchor milestone",
+    "NEMIX DDR5-5600 96GB $3,200 cash price verified Day 30 (payment plan interest $3,280 excluded)",
+    "A-Tech DDR5-6400 64GB $2,106.71 atechmemory.com direct page confirmed unchanged",
+    "Samsung CEO urged TSP workers to return to normal — packaging slowdowns unresolved Day 3",
+    "DiscTech Day 30 — 7.5 weeks offline, approaching 8-week milestone"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488 Day 30 full-month anchor milestone — longest continuous anchor in tracking history. DDR5 spot $41.833 NEW ALL-TIME HIGH — 3-day ATH digestion resolved upward, Phase 6 new leg confirmed. 7-source 64GB band $2,107-$2,550 maintained. Samsung HBM5E postponed → advanced wafer capacity tilted toward DDR5/HBM4 → no DDR5 supply relief. HBM consuming >20% DRAM output. Dell $60B AI server + $51.3B backlog → demand accelerating. NEW ATH means waiting costs more, not less."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "⚡⚡ DDR5 spot $41.833 NEW ALL-TIME HIGH — 3-day ATH digestion resolved UPWARD. DDR5-5600 32GB ¥8,210 (▲+¥33). TrendForce 'buyers on sidelines' narrative invalidated by May 28 actual data — buyers returned after 3-day wait. DDR4/DDR5 first-ever concurrent rally → full DRAM bull market formation, not single-category structural play. NEMIX 96GB $3,200 Day 30 anchor. Micron CEO '2027+'. Citi Q1→Q4 +82%. After new ATH, any short-term pullback is a better entry point within a structural bull market."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "NAND Q1 +85-90% + Q2 +70-75% + 🆕 Q3 2026 full-year sustained. Goldman Sachs NAND 4.2% shortage Day 8. Brand split 2.5-2.7x structural Day 25. Full chain sold out Day 33. 5-year SSD LTA standard. Dell/HP/Lenovo/ASUS warning +15-20% contract → upstream transmitted downstream. DiscTech Day 30 offline does not affect real-time judgment. 6500 ION EOL Day 23. Zero reason to wait."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "SS $17,700 Day 22 (5-week+ milestone). CDW-G $17,274.70 In Stock 4th day persistence — government channel viable. CDW consumer + pack-of-10 backordered + SHI $19,573 Day 5. Samsung PM9D3a 30.72TB undeliverable Day 11. NAND Q3 full-year increases → PCIe5 NAND cost rising all year. Samsung HBM5E postponed + HBM4E shipping → advanced capacity tilting to HBM → PCIe5 SSD packaging squeezed (shared TSP backend). Multi-dimensional supply tightening."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡ Mouser U.2 Day 10 double-digit milestone — 1 unit, restock Sept 7. E1.L 4 units separate SKU confirmed available. Connection.com $33,048/GovConnection $33,213 4th day persistence — alternative channel reliability proven, not one-off. Procurement has viable high-premium spot path. Newegg $24,600-$27,265 visible but delivery uncertain. Dell $60B AI + NAND Q3 full-year + Goldman Sachs 4.2% shortage → QLC large-capacity indisputable. For Q3/Q4 2026 deployment → immediately lock via Connection/CDW. For Q1 2027 → re-evaluate post Sept 7 Mouser restock but NAND contract will have risen 2 more quarters."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "30 days without enterprise-grade 16GB DDR5-6400 RDIMM public pricing. No tracking column."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "16GB enterprise DDR5-5600 RDIMM rarely traded. No tracking column."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "tracking_column_missing",
+      "note": "8th formal request. NEMIX $3,200 cash Day 30 full-month anchor. HPE $3,665/Dell $4,100/Hynix OEM $3,020-$3,650/A-Tech $2,699 cross-validation. Sample quality exceeds multiple existing tracking columns."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "tracking_lag",
+      "note": "VDURA $17,500 benchmark + Samsung PM1733a $13,995 ref. DiscTech offline prevents real-time price integration."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample / out_of_scope",
+      "note": "No tracking column. Only occasional OEM/legacy samples."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "7.68TB",
+      "reasonCode": "out_of_scope",
+      "note": "QLC 7.68TB rarely traded enterprise-grade. Market at 15.36TB+. No tracking column."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech JS-rendering offline",
+      "reasonCode": "parser_gap",
+      "note": "Day 30 — 7.5 weeks. HTTP 200 but 3 bytes raw. Headless browser automation needed. NAND Q3 full-year confirmed — tracking lag may worsen."
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply + Memory.net Cloudflare blocked",
+      "reasonCode": "parser_gap",
+      "note": "Day 24 — 3.5 weeks. Both critical verification sources blocked. Cross-verification capability constrained."
+    }
+  ]
+}
