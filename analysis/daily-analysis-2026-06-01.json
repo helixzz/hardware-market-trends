@@ -1,0 +1,129 @@
+{
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T09:00:00+08:00",
+  "dayNumber": 33,
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "KED Global",
+    "Seoul Economic Daily (Kang Seok-hoon interview)",
+    "Korea JoongAng Daily",
+    "Al Jazeera",
+    "Maeil Business Newspaper",
+    "TrendForce (June PC DRAM spot forecast)",
+    "Motley Fool",
+    "Astute Group",
+    "ServerSupply (D7-P5520 7.68TB direct page)",
+    "OEMPCWorld",
+    "CDW (PM1743 7.68TB)",
+    "Connection.com (QLC 61.44TB refresh)",
+    "Newegg (QLC 61.44TB refresh)",
+    "Mouser (QLC E1.L refresh)",
+    "SHI (9550 Pro 30.72TB)",
+    "NEMIX RAM (Day 33)",
+    "A-Tech Memory (Day 33)"
+  ],
+  "newSourcesWithUsefulData": [
+    "KED Global (Samsung automotive memory #1, K-shaped recovery)",
+    "Seoul Economic Daily (China tech threat to Korea super-cycle)",
+    "Korea JoongAng Daily (Samsung bonus inequality)",
+    "Al Jazeera (SK Hynix $1T market cap)",
+    "Maeil Business Newspaper (DRAM/NAND record highs)",
+    "TrendForce (June PC DRAM spot stabilization forecast)",
+    "Motley Fool (Micron stock could double)",
+    "Astute Group (memory allocation pressures)",
+    "ServerSupply (D7-P5520 7.68TB $3,550)",
+    "OEMPCWorld (PM1743 7.68TB $3,824)",
+    "Connection.com (QLC new lower price $31,922)",
+    "Newegg (QLC $29,950 upper band Day 3 sustained)",
+    "Mouser (QLC E1.L 4 units confirmed)"
+  ],
+  "keyChangesVsYesterday": [
+    "全18 tracking列第33天持平（DDR5 spot May 30-31周末无session + 6/1数据待晚间更新）",
+    "🆕 TrendForce预测：PC DRAM spot 6月稳定在5月水平（Q2合约谈判结束）",
+    "🆕 Samsung超越Micron成全球第一大汽车存储芯片供应商（KED Global 6/1）",
+    "🆕 SK Hynix与Micron双双突破$1万亿市值（存储牛市全面传导至资本市场）",
+    "🆕 Samsung 600M韩元奖金引发全国不平等辩论——TSP减产的社会根源被公开讨论",
+    "🆕 韩国专家警告中国技术进步可能危及韩国半导体超级周期",
+    "Connection QLC 61.44TB出现新低价位$31,922.33（此前仅$33,047.41）",
+    "Newegg QLC 61.44TB $29,950新上沿Day 3维持——高端定价上移确认",
+    "SHI Micron 9550 Pro 30.72TB $21,529 Day 3维持——上沿高位确认非单日脉冲",
+    "Mouser QLC 61.44TB Day 13进入第二周两位数天数",
+    "Connection/GovConnection QLC替代渠道第六日持久——超过一周可靠验证",
+    "DiscTech PCIe4 TLC主源离线Day 33（两个月+1天）",
+    "ServerSupply D7-P5520 7.68TB直页可访问——CF封禁非全面封锁"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488 Day 33最长锚点。DDR5 spot五月+5.2%最强月度。SK Hynix会长确认短缺至2030。TrendForce 6月稳定预测可能延长高位采购窗口但结构性紧张未变。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot五月+5.2%最强月度。96GB NEMIX $3,200 Day 33进入第二个月。DDR4全面牛市确认全品类紧张。TrendForce 6月稳定预测待验证。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "Samsung PM1733停产→低端供给进一步收缩。NAND Q2+70-75%首次超越DRAM→涨潮重心转移至NAND。Phison CEO警告企业倒闭风险。DiscTech离线两个月+。NAND Q3全年涨价。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB五周+持续涨价。SHI $21,529 Day 3维持确认高端定价加速。CDW-G现货第六日持久。PM9D3a不可交付Day 14。NAND Q3全年涨价。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "61.44TB Mouser Day 13仅1台。替代渠道Connection/GovConnection第六日持久—可高价获取。Connection新低价$31,922出现。321层QLC远期不改变2026采购需求。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 33连续无企业级公开报价。ServerSupply偶见但CF封禁Day 27。无tracking列。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 33连续无企业级公开报价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "not_tracked",
+      "note": "NEMIX $3,200 Day 33（第二个月）。6源交叉验证。第十一次请求创建tracking列。锚点稳定性超过多个已建列容量位。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "偶有公开价但未形成稳定tracking带"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "偶有公开价但频率不足以维持每日tracking"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech主源",
+      "reasonCode": "parser_gap",
+      "note": "Day 33 JS渲染离线，正式跨越八周（两个月）+1天。HTTP 200但仅3 bytes raw。浏览器自动化是唯一恢复路径。"
+    }
+  ],
+  "notes": "六月开篇——五月DDR5 spot月度涨幅+5.2%为追踪以来最强。全18列第33天持平。TrendForce预测6月PC DRAM spot稳定在5月水平——可能延长高位采购窗口但结构性紧张未变。Samsung汽车存储#1+SK Hynix/Micron $1T市值→存储牛市从商品价格全面传导至资本市场。Samsung 600M韩元奖金不平等辩论→TSP减产根源被公开讨论。Connection QLC新低价$31,922出现。NAND涨潮持续超越DRAM。五品类全部buy_now维持。"
+}
