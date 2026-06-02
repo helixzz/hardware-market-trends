@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-02T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange June 1",
+    "TrendForce June 1 DRAM Q1 revenue",
+    "Benzinga June 1 Goldman Sachs shortage to 2028",
+    "Korea JoongAng Daily June 1-2 SK Hynix wage negotiations",
+    "Seoul Economic Daily June 1 Samsung DRAM Q2",
+    "Micron COMPUTEX 2026",
+    "Newegg 9550 Pro 30.72TB",
+    "Kioxia/SanDisk $4.5B investment TrendForce",
+    "Mouser QLC 61.44TB",
+    "Connection.com QLC 61.44TB",
+    "OEMPCWorld Samsung PM1743 7.68TB",
+    "ServerSupply Samsung PM1743 7.68TB",
+    "NEMIX RAM 32GB/96GB",
+    "atechmemory.com A-Tech 64GB"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange June 1 ($42.267 breakthrough)",
+    "TrendForce June 1 (DRAM Q1 $97B +81% QoQ)",
+    "Benzinga June 1 (Goldman Sachs shortage to 2028)",
+    "Newegg 9550 Pro 30.72TB (dual-source verify SS $17,700)",
+    "Connection.com QLC 61.44TB (Day 7 full week persistence)",
+    "Mouser QLC 61.44TB (Day 14 confirmed)"
+  ],
+  "keyChangesVsYesterday": [
+    "🔴🔴 DDR5 spot $41.900→$42.267 (▲+$0.367, ▲+0.88%) — $42 psychological barrier BREACHED, 5th consecutive ATH",
+    "DDR5-5600 32GB ¥8,223→¥8,296 (▲+¥73, +0.89%)",
+    "TrendForce 'June stabilization at May levels' forecast DISPROVEN — June 1 accelerated 5.5x vs May 29",
+    "Goldman Sachs memory shortage extended to 2028 (was 2027)",
+    "DRAM Q1 revenue $97B +81% QoQ (TrendForce official June 1)",
+    "CXMT DRAM +700% YoY, market share doubled to 8%",
+    "Newegg 9550 Pro 30.72TB $17,670 — dual-source verify SS $17,700 (deviation <$30)",
+    "SK Hynix June wage negotiations officially starting — housing loan matching Samsung 500M won",
+    "Kioxia/SanDisk Japan-U.S. alliance $4.5B capex (+41% YoY) for 10th-gen NAND",
+    "Connection QLC 61.44TB Day 7 — full week persistence milestone",
+    "Mouser QLC 61.44TB Day 14 — entering second half of two-week crisis"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488 Day 35 (35-day anchor). $42 breakthrough confirms accelerating uptrend. Goldman Sachs shortage to 2028. DRAM Q1 revenue $97B. Wait strategy disproven 35 consecutive days."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $42.267 ▲+0.88% 5th consecutive ATH. June 1 5.5x acceleration vs May 29. TrendForce 'June stabilization' forecast disproven. 32GB tracking ¥8,296 (▲+¥73). SK Hynix wage negotiations add production stability risk."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "NAND Q2 +70-75% exceeds DRAM for first time. Samsung PM1733 discontinued + MLC NAND production ending June = dual supply contraction. Goldman Sachs NAND shortage to 2028. Tracking lag 27-155%."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 5-week+ sustained price increase. SHI $21,529 Day 4 + Newegg $17,670 new independent verify. CDW-G In Stock Day 7 full week. NAND Q3 full-year sustained price increases."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "61.44TB Mouser Day 14 only 1 unit. Connection/GovConnection alternative channels Day 7 full week persistence verified. Goldman Sachs shortage to 2028 reinforces QLC structural tightness."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 35 consecutive — no enterprise-grade public pricing"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 35 consecutive — no enterprise-grade public pricing"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "not_tracked",
+      "note": "NEMIX $3,200 Day 35 anchor (6-source cross-verified). 12th request to create tracking column. Data quality exceeds multiple existing columns."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Occasional public quotes but no stable tracking band"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Occasional public quotes but frequency insufficient for daily tracking"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech primary source",
+      "reasonCode": "parser_gap",
+      "note": "Day 35 JS rendering offline (8 weeks+ crossed, 2 full months+). Headless browser automation required for recovery."
+    }
+  ],
+  "spotPriceReference": {
+    "date": "2026-06-01",
+    "sessionAvg": 42.267,
+    "dailyHigh": 53.00,
+    "dailyLow": 30.50,
+    "change": 0.367,
+    "changePercent": 0.88,
+    "consecutiveATH": 5,
+    "note": "$42 psychological barrier BREACHED. TrendForce 'June stabilization' forecast DISPROVEN. June 1 5.5x acceleration vs May 29 (+0.16%)."
+  },
+  "macroUpdate": {
+    "dramQ1Revenue": "97B (+81% QoQ, TrendForce June 1)",
+    "samsungDRAMShare": "38.5% (revenue +93.4% QoQ)",
+    "skHynixDRAMShare": "28.8% (revenue +62.5% QoQ)",
+    "micronDRAMShare": "22.4% (revenue +81.6% QoQ)",
+    "cxmtDRAMShare": "8% (revenue +700% YoY, doubled)",
+    "globalMemoryMarket2026": "889.3B (+300% YoY, revised up)",
+    "goldmanSachsShortage": "Extended to 2028 (was 2027)",
+    "dramUndersupply": "5.0% (2026 full year)",
+    "nandShortage": "4.4% (2026 full year)",
+    "skHynixWageNegotiations": "Starting June 2026 — housing loan matching Samsung 500M won as core demand",
+    "kioxiaSandiskCapex": "$4.5B (+41% YoY) for 10th-gen NAND",
+    "micronComputex": "AI-optimized full stack at COMPUTEX 2026"
+  }
+}
