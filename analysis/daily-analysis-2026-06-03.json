@@ -1,0 +1,119 @@
+{
+  "date": "2026-06-03",
+  "generatedAt": "2026-06-03T09:46:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "CDW consumer 9550 Pro 30.72TB (现货恢复)",
+    "SabrePC QLC 61.44TB",
+    "WSTS 2026 semiconductor forecast",
+    "Tom's Hardware SK Hynix产能翻倍",
+    "NeutronUSA D7-P5520 7.68TB",
+    "COMPUTEX 2026 Phison/Micron",
+    "🔄 Seoul Economic Daily: Jensen Huang SK Hynix展台",
+    "🔄 TechPowerUp: Micron 256GB DDR5 RDIMM 1γ",
+    "🔄 TechTimes: Nvidia Vera Rubin量产",
+    "🔄 fnnews: Samsung/SK Hynix延长DDR4生命周期",
+    "🔄 CDW刷新: 9550 Pro 30.72TB $17,925.07",
+    "🔄 Gizmodo: Corsair 256GB CUDIMM"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW consumer 9550 Pro 30.72TB $17,583.99 In Stock",
+    "SabrePC QLC 61.44TB In Stock",
+    "WSTS semiconductor $1.51T/memory $803.9B",
+    "Tom's Hardware SK Hynix 5-year capacity doubling",
+    "DRAMeXchange June 2 DDR5 $42.567 + DDR4 $63.00/$34.80",
+    "🔄🔄 Jensen Huang writes 'Please Make More' on SK Hynix HBM4E wafer at COMPUTEX",
+    "🔄🔄 Micron 256GB DDR5 RDIMM (1γ EUV) 9200 MT/s sampling",
+    "🔄 Nvidia Vera Rubin full production, HBM4 suppliers confirmed",
+    "🔄 Samsung/SK Hynix extend DDR4 lifecycles",
+    "🔄 Corsair 256GB single-stick CUDIMM",
+    "🔄 CDW 9550 Pro 30.72TB new price $17,925.07"
+  ],
+  "keyChangesVsYesterday": [
+    "🔴🔴 DDR5 spot $42.267→$42.567(▲+0.71%)——六连ATH！$42.50关口突破",
+    "DDR5-5600 32GB ¥8,296→¥8,356(▲+¥60,+0.72%)",
+    "🔴 DDR4 16Gb $61.952→$63.00(▲+1.7%)、8Gb $34.100→$34.80(▲+2.1%)——DDR4六月涨幅首超DDR5",
+    "🆕 WSTS记忆体预测$8,039亿(+3.5x)——史上最大单次上修",
+    "🆕 SK Hynix承诺五年产能翻倍(30万亿韩元)",
+    "🆕 CDW consumer 9550 Pro 30.72TB恢复In Stock $17,583.99",
+    "🆕 SabrePC QLC 61.44TB In Stock——第四家现货渠道",
+    "🆕🆕 Jensen Huang亲赴SK Hynix展台'Please Make More'——AI需求信号历史性升级",
+    "🆕🆕 Micron 256GB DDR5 RDIMM 1γ 9200MT/s采样——EUV DRAM里程碑",
+    "🆕 Nvidia Vera Rubin全面量产——HBM4三供应商确认",
+    "🆕 Samsung/SK Hynix延长DDR4生命周期——旧节点产能持续锁定",
+    "Mouser QLC 61.44TB U.2 Day 16——仅1台，不可逆"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Spot六连ATH$42.567——每等待一天成本增加~$0.30/16Gb。Jensen Huang亲自喊话产能+Micron 256GB 1γ采样——AI需求持续加速。WSTS+3.5x记忆体预测强化长期紧缺。NEMIX 32GB$1,488 37天锚点稳固。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot六连ATH，DDR4同步加速——全面DRAM牛市第四周。Samsung/SK Hynix延长DDR4生命周期——旧节点产能锁定。SK Hynix产能翻倍为2028+供给。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND本月停产(全球-40%产能)+PM1733停产+NAND Q2>DRAM三重供给收缩。DiscTech Day 37 tracking lag严重但real-time验证持续上沿压力。CDW 9550 Pro 30.72TB上移至$17,925。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB CDW双渠道现货+CDW新价格$17,925上沿压力。七参考点5+源最可靠列。SS$17,700六周+涨价。Nvidia Vera Rubin量产→PCIe5 SSD需求加速。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "61.44TB替代渠道网络Day 9成熟(4家现货渠道)，34% premium可得。Mouser Day 16不可逆枯竭。Goldman Sachs短缺至2028。WSTS记忆体+3.5x。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM公开报价极少，市场以32GB+为主。Day 37持续缺。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 Day 37锚点——第十四次请求创建tracking列。HPE/Dell/Hynix OEM/A-Tech交叉验证完备。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS离线Day 37。品牌裂口2.5-2.7x结构性。tracking lag 27-155%。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "仅VDURA基准+PM1733a旁证，无多源实时锚点。tracking lag ~20%。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级1.92TB PCIe5公开报价极少。"
+    }
+  ]
+}
