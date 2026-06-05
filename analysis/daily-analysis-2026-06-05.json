@@ -1,0 +1,122 @@
+{
+  "date": "2026-06-05",
+  "generatedAt": "2026-06-05T09:46:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange June 4 (DDR5 $43.233 + DDR4 $63.750/$35.420)",
+    "Digitimes/TweakTown/WCCFTech (Samsung 80K wafer DDR5 RDIMM reallocation)",
+    "Retail Touchpoints/Cryptobriefing/Investing.com (Nine U.S. trade associations letter to Treasury)",
+    "Tom's Hardware (PC industry DDR4 platform revival)",
+    "CXMT/Corsair (CXMT DDR5 in Corsair DIMMs + IPO)",
+    "Club386 (Enterprise SSD 16x HDD cost quantified)",
+    "Mouser QLC E1.L 61.44TB (4 units new stock signal)",
+    "IDC (memory shortage impact on smartphones/PCs)",
+    "Versalogic (DDR4/DDR5 structural undersupply + HBM 41% DRAM revenue)",
+    "WCCFTech memory crisis roundup",
+    "Memory.net DDR5-5600 32GB retail reference",
+    "ServerMonkey June 2026 market update (CF blocked, search summary)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange June 4 (primary price data)",
+    "Digitimes/TweakTown/WCCFTech (Samsung 80K DDR5 reallocation - medium-term supply signal)",
+    "Retail Touchpoints/Cryptobriefing/Investing.com (U.S. trade associations - crisis politicization signal)",
+    "Tom's Hardware (DDR4 platform revival - reverse confirmation of DDR5 severity)",
+    "CXMT/Corsair (supply diversification signal)",
+    "Club386 (SSD 16x HDD cost - quantitative procurement pressure)",
+    "Mouser QLC E1.L (new form factor stock signal)",
+    "IDC (smartphone/PC terminal impact quantification)",
+    "Versalogic (HBM 8%→41% DRAM revenue structural extrusion)",
+    "Memory.net (DDR5-5600 32GB $1,424 retail upper band)"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5 spot $43.233 ▲+0.93% — $43 BARRIER BREACHED! Eighth consecutive ATH",
+    "DDR5-5600 32GB ¥8,410→¥8,485 ▲+¥75 (+0.89%)",
+    "DDR4 16Gb $63.750 +0.39% / 8Gb $35.420 +0.85% — four-day June cumulative +3.0%/+4.0%",
+    "Samsung 80K wafers/month reallocated to DDR5 RDIMM — first medium-term supply relief signal",
+    "Nine major U.S. trade associations warn Treasury — IDC quantifies terminal impact (smartphone largest decline, PC +4-8%)",
+    "HBM 41% DRAM revenue (2026) vs 8% (2023) — structural extrusion of conventional DRAM quantified",
+    "PC industry preparing DDR4 platform revival — reverse indicator of DDR5 cost crisis severity",
+    "CXMT DDR5 chips appearing in Corsair DIMMs + IPO preparation",
+    "Mouser QLC E1.L 61.44TB 4 units — new form factor inventory partially compensates U.2 depletion",
+    "Memory.net DDR5-5600 32GB $1,424 retail reference widens premium band"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Spot 8th consecutive ATH $43.233 — $40→$41→$42→$43 four barriers broken consecutively. HBM 41% DRAM revenue quantifies structural wafer extrusion. IDC warns largest smartphone decline ever. Day 39 NEMIX $1,488 anchor. June 5 session pending tonight."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot 8th consecutive ATH. DDR4 4-day June +3.0%/+4.0% accelerating — substitution path closing. Memory.net $1,424 retail upper band widening. SK Hynix wage negotiations add supply stability risk."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND ending this month (-41.7% global capacity) + PM1733 discontinued + NAND Q1 $46B (+3.5x) + NAND 4.2-4.5x cumulative. Five-layer supply contraction. DiscTech Day 39 but real-time upper band verification continues."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB CDW dual-channel In Stock Day 4+CDW-G Day 11. SS $17,700 Day 29 6-week+ price increase. SHI $21,529 one-week confirmed. Nvidia Vera Rubin full production → sustained demand. 8 reference points across 5+ sources."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "61.44TB alternative channel network Day 11 crossing 2 full work weeks — 4-channel ~34% premium stable. Mouser E1.L 4 units new stock partially offsets U.2 Day 18 depletion. MLC NAND ending this month — QLC absorbing peak demand."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM public quotes extremely rare, market dominated by 32GB+. Day 39."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as above."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 Day 39 third-month anchor with 6-source cross-validation. 16th formal request to create tracking column."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS render offline Day 39 (2 months+6 days). Brand split 2.5-2.7x structural. Real-time $1,390-$5,727 vs tracking ¥18,094 = 27-155% lag."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Only VDURA benchmark + PM1733a side evidence. ~20% tracking lag. No multi-source real-time anchor."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 1.92TB PCIe5 public quotes extremely rare."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Mouser U.2 Day 18 only 1 unit — but E1.L 4 units new stock + alternative channel network Day 11 mature at ~34% premium."
+    }
+  ]
+}
