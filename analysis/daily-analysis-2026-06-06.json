@@ -1,0 +1,103 @@
+{
+  "date": "2026-06-06",
+  "generatedAt": "2026-06-06T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["Gartner", "Neumonda", "TechTimes", "Microcenter"],
+  "newSourcesWithUsefulData": ["Gartner", "Neumonda", "TechTimes", "DRAMeXchange June 5"],
+  "keyChangesVsYesterday": [
+    "🔴🔴 DDR5 spot $43.233→$43.400 (▲+0.39%) — 九连ATH，打破八连ATH记录",
+    "🔴 DDR4 16Gb $63.750→$64.125 (▲+0.59%) — $64关口突破！",
+    "DDR4 8Gb $35.420→$35.500 (▲+0.23%)",
+    "DDR5-5600 32GB ¥8,485→¥8,517 (▲+¥32, +0.38%)",
+    "🆕🆕 Gartner: DRAM +125% / NAND +234% / 综合memflation +130% 年度量化预测",
+    "🆕 Neumonda: 卖方市场策略指南——供给安全优先于成本最小化",
+    "⚠️ CDW consumer 9550 Pro 30.72TB 从「In Stock」退化为「will ship when in stock」",
+    "Mouser QLC 61.44TB U.2 Day 19 (进入第三周+五天)",
+    "GovConnection QLC 61.44TB $32,532.64 In Stock Day 12",
+    "替代渠道QLC网络 Day 12 成熟——五家渠道 ~34% premium"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Spot 九连ATH $43.400——五关突破无回撤。Gartner DRAM +125%年预测量化长期上行空间。每等待一天成本增加~$0.20-0.40/16Gb。NEMIX $1,488 Day 40锚点稳固。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot 九连ATH。DDR4 16Gb $64.125加速超越DDR5——替代路径关闭。Neumonda建议多年合同锁定DDR4。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND本月停产（停产窗口正在关闭）+ PM1733停产 + NAND Q1 $46B + Gartner NAND +234%四重重压。DiscTech Day 40 tracking lag严重但real-time上沿确认持续。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB CDW consumer现货退化是本周第一个可得性轻微恶化信号——应加速采购。CDW-G Day 12持久+SS七周++Newegg三源可得。Gartner +234% NAND预测。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "61.44TB替代渠道网络Day 12成熟（五家渠道34% premium）。Mouser U.2 Day 19不可逆枯竭+E1.L 4台form factor替代。MLC停产本月。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM公开报价极少，市场以32GB+为主。已持续40天无样本。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 Day 40第三个月锚点——第十七次请求创建tracking列。HPE/Dell/Hynix OEM/A-Tech交叉验证完备。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS离线Day 40（两个月+7天），品牌裂口2.5-2.7x结构性。Samsung PM1733停产+MLC停产叠加。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "仅VDURA基准+PM1733a旁证，tracking lag ~20%。无多源实时锚点。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "parser_gap",
+      "note": "CDW consumer现货退化（In Stock→will ship when in stock）——需追踪是暂时缺货还是结构性可得性下降。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Mouser U.2 Day 19单点枯竭不可逆。E1.L 4台+替代渠道网络Day 12成熟（五家34% premium）。form factor分化。"
+    }
+  ],
+  "sixMonthForecast": {
+    "DDR5": "Gartner +125%年涨→2026年末DDR5 spot预计$80-100/16Gb。Samsung 80K回拨Q3末有限缓解但不逆转短缺。CXMT IPO+DDR5量产是仅有的供给侧多样性信号。",
+    "NAND": "Gartner +234%年涨。MLC NAND停产本月(-41.7%全球产能)。NAND Q1 $46B纪录。企业SSD 43%→>60% NAND占比——QLC/TLC全面供给紧张至2027。",
+    "general": "Gartner综合memflation +130%。Neumonda确认卖方市场至少24-30个月。全品类buy_now建议维持。"
+  }
+}

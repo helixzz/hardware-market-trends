@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-05T09:46:00+08:00",
+  "generatedAt": "2026-06-06T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 74,
+  "trackingRows": 75,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-06-05",
+      "latestDate": "2026-06-06",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "DDR5 spot $43.233 (Jun 4) - EIGHTH consecutive ALL-TIME HIGH. $43 BARRIER BREACHED. +0.93%. $40→$41→$42→$43 four barriers broken consecutively. June 4-day cumulative +2.29%. HBM 41% DRAM revenue (2026) vs 8% (2023) — structural wafer extrusion quantified. Samsung 80K wafers/month reallocated to DDR5 RDIMM (first medium-term supply signal). Nine U.S. trade associations letter to Treasury — IDC quantifies terminal impact. PC industry DDR4 revival. CXMT DDR5 in Corsair DIMMs + IPO.",
-      "sourceHealthNote": "NEMIX Day 39 - 70 consecutive verifications. A-Tech 64GB dual-source Day 39. SS+Memory.net Day 32 CF. DiscTech JS offline Day 39 (2 MONTHS+6 DAYS). SK Hynix wage negotiations June. Samsung 80K DDR5 reallocation confirmed. U.S. trade associations memory crisis letter. PC industry preparing DDR4 platform comeback. Memory.net 32GB DDR5-5600 $1,424 retail upper band.",
+      "trendNote": "DDR5 spot $43.400 (Jun 5) - NINTH consecutive ALL-TIME HIGH. $43.40 BARRIER. +0.39%. $40→$41→$42→$43→$43.40 five barriers broken consecutively. June 5-day cumulative +2.69%. Gartner DRAM +125% annual forecast. HBM 41% DRAM revenue (2026) vs 8% (2023) — structural wafer extrusion quantified. Samsung 80K wafers/month reallocated to DDR5 RDIMM. Nine U.S. trade associations letter to Treasury. PC industry DDR4 revival. CXMT DDR5 in Corsair DIMMs + IPO. Neumonda seller's market strategy guide.",
+      "sourceHealthNote": "NEMIX Day 40 - 71 consecutive verifications. A-Tech 64GB dual-source Day 40. SS+Memory.net Day 33 CF. DiscTech JS offline Day 40 (2 MONTHS+7 DAYS). SK Hynix wage negotiations June. Samsung 80K DDR5 reallocation confirmed. Gartner +125% annual DRAM quantified. Neumonda confirms seller's market 24-30 months. Memory.net 32GB DDR5-5600 $1,424 retail upper band.",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -35,101 +35,101 @@
           "latestValue": 12122,
           "previousValue": 12122,
           "rollingMedian14d": 12122,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "NEMIX RAM $1,488 via nemixram.com + Newegg — Day 39, 10TH WORK WEEK. LONGEST continuous anchor in tracking history. Micron 32GB $1,413.29 cross-reference (-4.9% vs NEMIX)."
+          "note": "NEMIX RAM $1,488 via nemixram.com + Newegg — Day 40, 11TH WORK WEEK. LONGEST continuous anchor in tracking history. Micron 32GB $1,499 cross-reference. 71st verification."
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "A-Tech $2,106.71(atechmemory.com) + $2,194.49(Newegg) + Viperatech $2,295 + Memory.net $2,498 + CDW $2,453 + Crucial $2,400 + SHI Kingston $2,178 — 7-source band $2,107-$2,550 Day 39."
+          "note": "A-Tech $2,106.71(atechmemory.com) + $2,194.49(Newegg) + Viperatech $2,295 + Memory.net $2,498 + CDW $2,453 + Crucial $2,400 + SHI Kingston $2,178 — 7-source band $2,107-$2,550 Day 40."
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
           "previousValue": 52651,
           "rollingMedian14d": 52651,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "A-Tech $4,213-$4,389 + Memory.net $5,208 + CDW Micron $7,116 + SS Micron $5,600 + Crucial $9,326(MSRP). 1.6x brand spread structural Day 39."
+          "note": "A-Tech $4,213-$4,389 + Memory.net $5,208 + CDW Micron $7,116 + SS Micron $5,600 + Crucial $9,326(MSRP). 1.6x brand spread structural Day 40."
         }
       },
       "coverage14d": 3
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-06-05",
+      "latestDate": "2026-06-06",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "DDR5 spot $43.233 (Jun 4) - EIGHTH consecutive ATH. $43 BARRIER BREACHED. +0.93%. $40→$41→$42→$43 four barriers. June 4-day +2.29%. DDR4 4-day +3.0%/+4.1% accelerating. Memory.net 32GB $1,424 retail upper band widening. CXMT Corsair DIMMs + IPO. Samsung 80K DDR5 reallocation confirmed. PC industry preparing DDR4 platform comeback — reverse indicator.",
+      "trendNote": "DDR5 spot $43.400 (Jun 5) - NINTH consecutive ATH. +0.39%. $40→$41→$42→$43→$43.40 five barriers. June 5-day +2.69%. DDR4 16Gb $64.125 BREAKING $64 +3.6% 5-day accelerating. Gartner DRAM +125%. Samsung 80K DDR5 reallocation confirmed. PC industry preparing DDR4 platform comeback — reverse indicator. Neumonda: secure multi-year DDR4 contracts.",
       "latestValues": {
-        "DDR5-5600 32GB": 8485,
+        "DDR5-5600 32GB": 8517,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
       "previousValues": {
-        "DDR5-5600 32GB": 8410,
+        "DDR5-5600 32GB": 8485,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
       "rollingMedians14d": {
-        "DDR5-5600 32GB": 8410,
+        "DDR5-5600 32GB": 8485,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
       "missingColumns": [],
       "columns": {
         "DDR5-5600 32GB": {
-          "latestValue": 8485,
-          "previousValue": 8410,
-          "rollingMedian14d": 8410,
-          "lastSeenDate": "2026-06-05",
+          "latestValue": 8517,
+          "previousValue": 8485,
+          "rollingMedian14d": 8485,
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "DRAMeXchange Jun 4 $43.233 - EIGHTH consecutive ATH, $43 BARRIER BREACHED! +0.93%. June 4-day cumulative +2.29%. NEMIX retail $1,298 vs spot premium +24.7%(narrowing). Memory.net $1,424 upper band. HBM 41% DRAM revenue → structural DDR5 wafer scarcity."
+          "note": "DRAMeXchange Jun 5 $43.400 - NINTH consecutive ATH! +0.39%. June 5-day cumulative +2.69%. NEMIX retail $1,298 vs spot premium +24.2%(narrowing). Memory.net $1,424 upper band."
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
           "previousValue": 19168,
           "rollingMedian14d": 19168,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "Kingston $1,440-$2,175 / Micron CDW $2,839-$2,847 band maintained. Memory.net $2,408 mid-band Day 9. SPW Industrial Samsung $2,458."
+          "note": "Kingston $1,440-$2,175 / Micron CDW $2,839-$2,847 band maintained. Memory.net $2,408 mid-band Day 10."
         },
         "DDR5-5600 128GB": {
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
           "note": "Samsung $5,600(SS) + Hynix $5,200(SS) + Memory.net $4,408-$5,208 maintained. Micron $5,200-$8,945 wide band."
         },
         "DDR5-5600 96GB": {
           "latestValue": 26051,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "status": "NEMIX $3,200 cash Day 39 - THIRD MONTH ANCHOR. 16th formal request.",
-          "note": "NEMIX $3,200 cash Day 39 - THIRD MONTH ANCHOR. 16th formal request to create tracking column."
+          "status": "NEMIX $3,200 cash Day 40 - THIRD MONTH ANCHOR. 17th formal request.",
+          "note": "NEMIX $3,200 cash Day 40 - THIRD MONTH ANCHOR. HPE $3,665 / Dell $4,100 / Hynix OEM $3,020-$3,650 / A-Tech $2,699 cross-verification. 17th formal request to create tracking column."
         }
       },
-      "sourceHealthNote": "NEMIX 32GB $1,298 retail premium +24.7% (narrowing). Memory.net 32GB $1,424 upper band. DRAMeXchange Jun 4 $43.233 - EIGHTH consecutive ATH, $43 breached. SS+Memory.net Day 32 CF. Samsung 80K wafer DDR5 reallocation confirmed. Nine U.S. trade associations letter. PC industry preparing DDR4 platform comeback.",
+      "sourceHealthNote": "NEMIX 32GB $1,298 retail premium +24.2% (narrowing). Memory.net 32GB $1,424 upper band. DRAMeXchange Jun 5 $43.400 - NINTH consecutive ATH. SS+Memory.net Day 33 CF. Samsung 80K wafer DDR5 reallocation confirmed. Nine U.S. trade associations letter. PC industry preparing DDR4 platform comeback. Gartner DRAM +125% annual forecast.",
       "coverage14d": 3
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-06-05",
+      "latestDate": "2026-06-06",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "flat",
-      "trackingLagWarning": "DAY 32 - tracking lag PERSISTS: 7.68TB Samsung PM1733 OFFICIALLY DISCONTINUED vs Solidigm D7-P5520 $3,550-$5,727 = 2.5-2.7x structural. MLC NAND ending this month (June 2026). NAND Q1 $46B record + 4.2-4.5x multiplier. Enterprise SSD 16x HDD cost. DiscTech Day 39 JS offline - 9 WEEKS+ (2 MONTHS+6 DAYS). Enterprise SSD +48-53% Q2.",
+      "trackingLagWarning": "DAY 33 - tracking lag PERSISTS: 7.68TB Samsung PM1733 OFFICIALLY DISCONTINUED vs Solidigm D7-P5520 $3,550-$5,727 = 2.5-2.7x structural. MLC NAND ending this month (June 2026) - shutdown window closing (Jun 6). NAND Q1 $46B record + 4.2-4.5x multiplier. Gartner NAND +234% annual forecast. Enterprise SSD 16x HDD cost. DiscTech Day 40 JS offline - 9 WEEKS+ (2 MONTHS+7 DAYS).",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -154,25 +154,25 @@
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 18094,
           "previousValue": 18094,
           "rollingMedian14d": 18094,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "trackingLagSeverity": "CRITICAL — brand split structural day 32. MLC NAND ending this month. NAND Q1 $46B. Enterprise SSD 16x HDD cost.",
-          "brandSplitRange": "2.5-2.7x (Samsung PM1733 $2,321-$3,500 vs Solidigm D7-P5520 $3,550-$5,727) — Day 32.",
+          "trackingLagSeverity": "CRITICAL — brand split structural day 33. MLC NAND ending this month. Gartner NAND +234%. Enterprise SSD 16x HDD cost.",
+          "brandSplitRange": "2.5-2.7x (Samsung PM1733 $2,321-$3,500 vs Solidigm D7-P5520 $3,550-$5,727) — Day 33.",
           "realTimeBand": "$2,321(TechAtlantix)-$5,727(Mouser) multi-brand. ServerSupply $3,550 maintained.",
-          "note": "Samsung PM1733 OFFICIALLY DISCONTINUED. Brand split 2.5-2.7x structural Day 32. Mouser $5,727. DiscTech Day 39 2 months+6 days. ServerSupply $3,550 confirmed second pass."
+          "note": "Samsung PM1733 OFFICIALLY DISCONTINUED. Brand split 2.5-2.7x structural Day 33. Mouser $5,727. DiscTech Day 40 2 months+7 days. ServerSupply $3,550 confirmed."
         },
         "PCIe4 TLC 15.36TB": {
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
           "trackingLagRange": "7-30% (brand-dependent)",
           "realTimeBand": "Solidigm D7-P5520 $6,870-$8,353 + Samsung PM1733a $4,400 + Micron 7450 Pro $3,610-$9,999 + Micron 7500 Pro $7,519-$9,160."
@@ -181,25 +181,25 @@
           "latestValue": 113896,
           "previousValue": 113896,
           "rollingMedian14d": 113896,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026). D5-P5336 30.72TB QLC $11,355-$17,770. 6500 ION EOL Day 30."
+          "realTimeReference": "VDURA 30TB TLC $17,500 (Q1 2026). D5-P5336 30.72TB QLC $11,355-$17,770. 6500 ION EOL Day 31."
         }
       },
-      "sourceHealthNote": "DiscTech JS offline Day 39 - 9 WEEKS+ (2 months+6 days). SS Day 32 CF. Brand split 2.5-2.7x structural Day 32. Samsung PM1733 discontinued Day 8. MLC NAND ending June THIS MONTH (-41.7% global capacity). Enterprise SSD 16x HDD cost. Enterprise SSD Q2 +48-53%.",
-      "trendNote": "Brand split 2.5-2.7x structural Day 32. PM1733 discontinued Day 8 + MLC NAND ending THIS MONTH = dual supply contraction. Enterprise SSD 16x HDD cost quantified. NAND Q1 $46B record. BUY_NOW urgency sustained.",
+      "sourceHealthNote": "DiscTech JS offline Day 40 - 9 WEEKS+ (2 months+7 days). SS Day 33 CF. Brand split 2.5-2.7x structural Day 33. Samsung PM1733 discontinued Day 8. MLC NAND ending June THIS MONTH (shutdown window closing Jun 6). Enterprise SSD 16x HDD cost. Gartner NAND +234% annual.",
+      "trendNote": "Brand split 2.5-2.7x structural Day 33. PM1733 discontinued Day 8 + MLC NAND ending THIS MONTH (shutdown window closing) = dual supply contraction. Gartner NAND +234%. NAND Q1 $46B record. BUY_NOW urgency sustained.",
       "coverage14d": 4
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-06-05",
+      "latestDate": "2026-06-06",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
-      "newDetailNote": "30.72TB SEVEN-WEEK+ MILESTONE: SS $17,700 Day 29 (+$1,100/+6.6% from 5/8). CDW consumer In Stock $17,925.07 Day 4 CONFIRMED. CDW-G $17,274.70 Day 11 entering 3rd week. SHI $21,529 Day 7 one-week confirmed. Micron 6-ref cluster median $17,318 stable. Nvidia Vera Rubin full production.",
+      "newDetailNote": "30.72TB SEVEN-WEEK+ MILESTONE: SS $17,700 Day 30 (+$1,100/+6.6% from 5/8). CDW consumer regression ⚠️ In Stock→will ship when in stock. CDW-G $17,274.70 Day 12 entering 3rd week. SHI $21,529 Day 8. Micron 6-ref cluster median $17,318 stable. Nvidia Vera Rubin full production. Gartner NAND +234%.",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 18265,
         "PCIe5 TLC 7.68TB": 27817,
@@ -224,23 +224,23 @@
           "latestValue": 18265,
           "previousValue": 18265,
           "rollingMedian14d": 18265,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "Kioxia CM7-R $2,540-$3,020 vs Samsung PM1743 $1,200-$1,999 — Kioxia +41-68% premium. Brand tiering Day 25."
+          "note": "Kioxia CM7-R $2,540-$3,020 vs Samsung PM1743 $1,200-$1,999 — Kioxia +41-68% premium. Brand tiering Day 26."
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 27817,
           "previousValue": 27817,
           "rollingMedian14d": 27817,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "note": "Brand three-tier Day 24 stable. Samsung $1,800-$4,400. Kioxia $1,402-$4,348. Micron $2,250-$5,242."
+          "note": "Brand three-tier Day 25 stable. Samsung $1,800-$4,400. Kioxia $1,402-$4,348. Micron $2,250-$5,242."
         },
         "PCIe5 TLC 15.36TB": {
           "latestValue": 54292,
           "previousValue": 54292,
           "rollingMedian14d": 54292,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
           "note": "Samsung $2,316-$4,557 + Micron 9550 Pro $8,358-$10,888 + Kioxia CM7-R $2,168-$11,000. Supermicro $2,642. HPE PM1743 $2,488-$2,737."
         },
@@ -248,26 +248,26 @@
           "latestValue": 132759,
           "previousValue": 132759,
           "rollingMedian14d": 132759,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "milestone": "⭐ 7-WEEK+ MILESTONE Day 29 ⚡. CDW consumer In Stock $17,925.07 Day 4 . CDW-G Day 11 3rd week. SHI $21,529 Day 7.",
-          "note": "8-ref 5+source Day 39. SS $17,700 Day 29. Newegg $17,670 DUAL-SOURCE VERIFIED. SHI $21,529 Day 7. CDW consumer In Stock $17,925.07 Day 4 CONFIRMED. CDW-G Day 11. Nvidia Vera Rubin to PCIe5 demand."
+          "milestone": "⭐ 7-WEEK+ MILESTONE Day 30 ⚡. CDW consumer regression ⚠️ In Stock→will ship when in stock Day 0. CDW-G Day 12 3rd week. SHI $21,529 Day 8.",
+          "note": "8-ref 5+source Day 40. SS $17,700 Day 30. Newegg $17,670 DUAL-SOURCE VERIFIED. SHI $21,529 Day 8. CDW consumer regression ⚠️. CDW-G Day 12. Nvidia Vera Rubin to PCIe5 demand. Gartner NAND +234%."
         }
       },
-      "sourceHealthNote": "30.72TB MOST RELIABLE PCIe5 column - 8-ref 5+source Day 39 + CDW consumer In Stock $17,925.07 Day 4 confirmed. CDW-G Day 11 entering 3rd week. SS $17,700 Day 29 7-week+ milestone. SHI $21,529 Day 7 one-week confirmed. Nvidia Vera Rubin full production.",
-      "trendNote": "SS $17,700 Day 29 - 7-WEEK+ MILESTONE. CDW consumer $17,925.07 In Stock Day 4. CDW-G $17,274.70 Day 11 3rd week. SHI $21,529 Day 7. 8-ref 5+source cluster integrity maintained. Nvidia Vera Rubin full production→PCIe5 SSD demand tailwind.",
+      "sourceHealthNote": "⚠️ CDW consumer 9550 Pro 30.72TB regression (In Stock→will ship when in stock Day 0) - first availability deterioration signal this week. CDW-G Day 12 entering 3rd week. SS $17,700 Day 30 7-week+ milestone. SHI $21,529 Day 8. 8-ref 5+source cluster maintained. Nvidia Vera Rubin full production.",
+      "trendNote": "SS $17,700 Day 30 - 7-WEEK+ MILESTONE. CDW consumer regression ⚠️ first availability deterioration this week. CDW-G $17,274.70 Day 12 3rd week. SHI $21,529 Day 8. 8-ref 5+source cluster integrity maintained. Gartner NAND +234% annual forecast. Nvidia Vera Rubin full production→PCIe5 SSD demand tailwind.",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-06-05",
+      "latestDate": "2026-06-06",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
-      "crisisNote": "Mouser U.2 Day 18 only 1 unit. 🆕 E1.L 61.44TB 4 units IN STOCK — form factor shift partially compensates. Connection $31,922 In Stock Day 11 + GovConnection Day 11 + SabrePC Day 5. Alternative channels now at 4-channel 11-day persistence milestone — 2+ full work weeks.",
+      "crisisNote": "Mouser U.2 Day 19 only 1 unit approaching 3-week irreversible crisis. E1.L 61.44TB 4 units IN STOCK — form factor shift partially compensates (stable 2nd day). Connection $31,922 In Stock Day 12 + GovConnection Day 12 + SabrePC Day 6. Alternative channels now at 5-channel 12-day persistence milestone — 2.5+ work weeks.",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 41982,
         "PCIe4 QLC 30.72TB": 83963,
@@ -292,163 +292,196 @@
           "latestValue": 41982,
           "previousValue": 41982,
           "rollingMedian14d": 41982,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
           "latestValue": 83963,
           "previousValue": 83963,
           "rollingMedian14d": 83963,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "realTimeReference": "D5-P5336 30.72TB $11,355(Newegg U.2)-$17,770(Mouser E3.S) + Micron 6500 ION $7,692-$15,538. 6500 ION EOL Day 30."
+          "realTimeReference": "D5-P5336 30.72TB $11,355(Newegg E1.L)-$17,770(Mouser E3.S) + Micron 6500 ION $7,692-$15,538. 6500 ION EOL Day 31."
         },
         "PCIe4 QLC 61.44TB": {
           "latestValue": 199324,
           "previousValue": 199324,
           "rollingMedian14d": 199324,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0,
-          "crisisUpdate": "Day 18 - Mouser U.2 still only 1 unit. 🆕 E1.L 4 units IN STOCK — form factor shift signal. Alternative channels (Connection Day 11/GovConnection Day 11/SabrePC Day 5) 4-channel network entering 3rd work week.",
-          "note": "STAR 5-source Day 39 + 4 ALTERNATIVE IN-STOCK CHANNELS Day 11. Mouser U.2 Day 18 only 1 unit + E1.L 4 units NEW. Connection $31,922 Day 11. Newegg $23,999-$29,950+SS $29,500+Wiredzone $28,489+Best Buy $26,207+SabrePC In Stock Day 5."
+          "crisisUpdate": "Day 19 - Mouser U.2 still only 1 unit approaching 3-week irreversible crisis. E1.L 4 units IN STOCK stable 2nd day — form factor shift signal. Alternative channels (Connection Day 12/GovConnection Day 12/SabrePC Day 6/SS In Stock/CDW) 5-channel network entering 3rd work week.",
+          "note": "STAR 5-source Day 40 + 5 ALTERNATIVE IN-STOCK CHANNELS Day 12. Mouser U.2 Day 19 only 1 unit + E1.L 4 units stable. Connection $31,922 Day 12. GovConnection $32,533 Day 12. SS $29,500 In Stock. SabrePC In Stock Day 6. Newegg $23,999-$29,950."
         },
         "PCIe4 QLC 122.88TB": {
           "latestValue": 332925,
           "previousValue": 332925,
           "rollingMedian14d": 332925,
-          "lastSeenDate": "2026-06-05",
+          "lastSeenDate": "2026-06-06",
           "consecutiveMissingDays": 0
         }
       },
-      "trendNote": "61.44TB Mouser U.2 Day 18 + E1.L 4 units NEW stock. Alternative channels (Connection+GovConnection+SabrePC+CDW) Day 11 - 4-channel network entering 3rd work week. MLC NAND ending June - QLC absorbs peak MLC demand.",
+      "trendNote": "61.44TB Mouser U.2 Day 19 approaching 3 weeks + E1.L 4 units stable 2 days. Alternative channels (Connection+GovConnection+SabrePC+SS+CDW) Day 12 - 5-channel network mature. MLC NAND ending June - QLC absorbs peak MLC demand at peak month. Gartner NAND +234%.",
       "coverage14d": 4,
-      "sourceHealthNote": "Mouser QLC U.2 Day 18 only 1 unit + E1.L 4 units NEW stock signal. Connection $31,922 Day 11/GovConnection Day 11/SabrePC Day 5 - 4-channel network MATURE. MLC NAND ending this month - QLC absorbs MLC demand at peak month. Micron 6600 ION 245TB shipping."
+      "sourceHealthNote": "Mouser QLC U.2 Day 19 only 1 unit approaching 3-week crisis + E1.L 4 units stable 2nd day. Connection $31,922 Day 12/GovConnection Day 12/SabrePC Day 6/SS In Stock - 5-channel network MATURE. MLC NAND ending this month. Gartner NAND +234%. Micron 6600 ION 245TB shipping."
     }
   },
   "recentRunNotes": {
+    "2026-06-06": [
+      "🔴🔴九连ATH！DDR5 spot $43.400九连ATH(▲+0.39%)打破八连ATH记录！DDR4 16Gb $64.125突破$64关口(▲+0.59%)！DDR5-5600 ¥8,485→¥8,517(▲+¥32)。其余17列第40天持平。🆕🆕Gartner DRAM+125%/NAND+234%/memflation+130%年度量化预测。🆕Neumonda卖方市场策略指南(供给安全优先/多年合同锁定DDR4)。⚠️CDW 9550 Pro 30.72TB现货退化(In Stock→will ship when in stock)——本周首个可得性恶化信号。Mouser U.2 Day19+E1.L 4台维持。GovConnection Day12。SabrePC Day6。MLC停产本月(窗口正在关闭)。NEMIX$1,488 Day40(第71次验证)。五品类buy_now第40天。趋势=DDR5-6400:up(40d九连ATH打破八连记录),DDR5-5600:up(九连ATH$43.40+DDR4$64突破),PCIe4 TLC:flat(MLC停产窗口关闭+PM1733+Q1 NAND$46B+Gartner+234%),PCIe5 TLC:volatility_expand(⚠️CDW退化+CDW-G Day12+八参考点+Gartner+234%),PCIe4 QLC:volatility_expand(U.2 Day19+E1.L 4台+替代5渠道Day12成熟+MLC停产)。新增:DRAMeXchange Jun5🔴🔴/Gartner🆕🆕/Neumonda🆕/TechTimes🆕。"
+    ],
     "2026-06-05": [
       "🔄09:46 SECOND PASS. DDR5 spot $43.233 unchanged (Jun 4 data, Jun 5 session pending ~18:00). 🆕IDC quantifies smartphone market facing largest annual decline from memory shortage + PC ASP +4-8%. 🆕Versalogic: HBM 41% DRAM revenue 2026 (vs 8% 2023) — structural wafer extrusion quantified. 🆕WCCFTech memory crisis roundup. 🆕Memory.net 32GB DDR5-5600 $1,424 retail upper band. All 18 tracking values unchanged Day 39. Five categories buy_now maintained. DDR5-6400:3/3, DDR5-5600:3/3, PCIe4 TLC:4/4, PCIe5 TLC:4/4, PCIe4 QLC:4/4. Trends: DDR5-6400:up(39d), DDR5-5600:up(八连ATH$43突破), PCIe4 TLC:flat(MLC停产峰值月+PM1733停产+NAND$46B), PCIe5 TLC:volatility_expand(CDW Day4+CDW-G Day11+八参考点+Nvidia Vera Rubin), PCIe4 QLC:volatility_expand(E1.L🆕+替代渠道Day11两工作周+MLC停产)。New sources 2nd pass: IDC🆕/Versalogic🆕/WCCFTech🆕/Memory.net $1,424🆕/Investing.com🆕/ServerMonkey(CF blocked)。"
     ],
     "2026-06-05_0900": [
-      "🔴🔴$43突破日！八连ATH！DDR5 spot $42.833→$43.233(▲+0.93%)八连ATH！$43 BARRIER BREACHED！$40→$41→$42→$43四关连续突破。DDR5-5600 32GB ¥8,410→¥8,485(▲+¥75)。DDR4四日+3.0%/+4.0%持续加速。其余17列第39天持平。🆕Samsung 80K晶圆/月DDR5 RDIMM回拨(首个中长期供给信号/Q3末可见效果)。🆕美国九大行业协会联名信致财政部/商务部——AI存储危机上升为国家经济安全议题。🆕PC行业DDR4平台复兴(Tom's Hardware)——DDR5危机的反向确认指标。🆕CXMT DDR5进入Corsair DIMMs+IPO在即(供应多元化信号)。🆕Mouser QLC E1.L 61.44TB 4台现货(形态分化的新库存信号)。CDW 9550 Pro In Stock Day4。CDW-G Day11进入第三周。Connection QLC Day11。SabrePC QLC Day5。Mouser QLC U.2 Day18+E1.L🆕。MLC NAND本月停产(-41.7%)。NEMIX$1,488 Day39(第70次验证)。A-Tech$2,107 Day39。DiscTech Day39两个月+6天。五品类buy_now第39天。趋势=DDR5-6400:up(39天),DDR5-5600:up($43突破八连ATH),PCIe4 TLC:flat(MLC停产+PM1733+NAND$46B+NAND4.2-4.5x),PCIe5 TLC:volatility_expand(CDW Day4+CDW-G Day11+八参考点+Nvidia Vera Rubin),PCIe4 QLC:volatility_expand(E1.L🆕+替代渠道Day11两工作周)。新增来源: DRAMeXchange Jun4🔴🔴/Samsung 80K回拨🆕/美国九协会联名信🆕/PC行业DDR4复兴🆕/CXMT Corsair DIMMs🆕/Club386 SSD 16x HDD🆕/Mouser E1.L 4台🆕。"
+      "🔴🔴$43突破日！八连ATH！DDR5 spot $42.833→$43.233(▲+0.93%)八连ATH！$43 BARRIER BREACHED！$40→$41→$42→$43四关连续突破。DDR5-5600 32GB ¥8,410→¥8,485(▲+¥75)。DDR4四日+3.0%/+4.1%持续加速。其余17列第39天持平。🆕Samsung 80K晶圆/月DDR5 RDIMM回拨。🆕美国九大行业协会联名信→IDC量化终端冲击。🆕PC行业DDR4平台复兴。🆕CXMT Corsair DIMMs+IPO。🆕Mouser QLC E1.L 4台。五品类buy_now第39天。新增:DRAMeXchange Jun4🔴🔴/Samsung 80K回拨🆕/美国九协会联名信🆕/PC行业DDR4复兴🆕/CXMT Corsair DIMMs🆕/Club386 SSD 16x HDD🆕/Mouser E1.L 4台🆕。"
     ],
     "2026-06-04": [
-      "[09:46 SECOND PASS] 18 columns unchanged Day 38. DDR5 spot $42.833 7th ATH - June 4 session pending tonight. 🆕🆕 NAND Q1 $46B record (+3.5x, exceeds 2023 full year) - Counterpoint Research. 🆕🆕 NAND cumulative 4.2-4.5x multiplier, 30TB TLC +472% quantified. Enterprise SSD 43%→>60% NAND share. 🆕 Fadu Gen6 controller 28.5GB/s 512TB <7W + Micron 9650 Gen6 commercial + SSSTC immersion cooling COMPUTEX Day 4. GovConnection QLC $33,213→$32,532.64(-2.0%) first alternative channel decrease. Connection QLC Day 10 double-digit. CDW 9550 Pro In Stock Day 3. SabrePC QLC Day 4. Mouser QLC Day 17. NEMIX $1,488 Day 38/A-Tech $2,107 Day 38/NEMIX 96GB $3,200 Day 38(15th request). DiscTech Day 38 2 months+5 days. All 5 categories buy_now. Trends: DDR5-6400:up(38d), DDR5-5600:up(7th ATH $43 imminent), PCIe4 TLC:flat(MLC ending+PM1733+Q1 NAND $46B+4.2-4.5x), PCIe5 TLC:volatility_expand(CDW Day3+Fadu Gen6+Micron9650+8-ref), PCIe4 QLC:volatility_expand(Mouser Day17+alt channel Day10+GovConnection first decrease)."
+      "[09:46 SECOND PASS] 18 columns unchanged Day 38. DDR5 spot $42.833 7th ATH - June 4 session pending tonight. 🆕🆕 NAND Q1 $46B record (+3.5x, exceeds 2023 full year) - Counterpoint Research. 🆕🆕 NAND cumulative 4.2-4.5x multiplier, 30TB TLC +472% quantified. Enterprise SSD 43%→>60% NAND share. 🆕 Fadu Gen6 controller 28.5GB/s 512TB <7W + Micron 9650 Gen6 commercial + SSSTC immersion cooling COMPUTEX Day 4. GovConnection QLC $33,213→$32,532.64(-2.0%) first alternative channel decrease. Connection QLC Day 10 double-digit. CDW 9550 Pro In Stock Day 3. SabrePC QLC Day 4. Mouser QLC Day 17. NEMIX $1,488 Day 38/A-Tech $2,107 Day 38/NEMIX 96GB $3,200 Day 38(15th request). DiscTech Day 38 2 months+5 days. All 5 categories buy_now."
     ],
     "2026-06-03": [
-      "🔴🔴$42.50突破日！DDR5 spot $42.267→$42.567(▲+0.71%)六连ATH！$42.50关口突破！🔄09:46刷新：🆕🆕Jensen Huang亲赴SK Hynix展台'Please Make More'(HBM4E晶圆签名)+'LOVE SOCAMM'——AI需求信号历史性升级！🆕🆕Micron 256GB DDR5 RDIMM 1γ EUV 9200MT/s采样(性能+40%/功耗-40%)。🆕Nvidia Vera Rubin全面量产(HBM4三供应商)。🆕Samsung/SK Hynix延长DDR4生命周期。🆕Corsair 256GB CUDIMM。🆕CDW 9550 Pro 30.72TB上移至$17,925.07。DDR5-5600 32GB ¥8,296→¥8,356(▲+¥60)。其余17列第37天持平。🆕WSTS半导体$1.51T(+90%)记忆体$8,039亿(+3.5x)。🆕SK Hynix五年产能翻倍。Mouser QLC Day 16。Connection QLC Day 9。NEMIX$1,488 Day 37/96GB$3,200 Day 37。DiscTech Day 37两个月+。五品类buy_now。新增来源: Jensen Huang SK Hynix🆕🆕/Micron 256GB 1γ🆕🆕/Vera Rubin量产🆕/DDR4延长🆕/CDW$17,925🆕/Corsair 256GB🆕。趋势=DDR5-6400:up(37天),DDR5-5600:up(六连ATH$42.50+),PCIe4 TLC:flat(⚠️MLC停产+PM1733停产+NAND>DRAM+Nvidia Vera Rubin→SSD需求),PCIe5 TLC:volatility_expand(CDW上沿压力+9参考点+Nvidia),PCIe4 QLC:volatility_expand(⚡Day16替代渠道Day9成熟)。"
+      "🔴🔴$42.50突破日！DDR5 spot $42.267→$42.567(▲+0.71%)六连ATH！$42.50关口突破！🔄09:46刷新：🆕🆕Jensen Huang亲赴SK Hynix展台'Please Make More'(HBM4E晶圆签名)+'LOVE SOCAMM'。🆕🆕Micron 256GB DDR5 RDIMM 1γ EUV 9200MT/s采样。🆕Nvidia Vera Rubin全面量产。🆕Samsung/SK Hynix延长DDR4生命周期。🆕Corsair 256GB CUDIMM。🆕CDW 9550 Pro 30.72TB上移至$17,925.07。DDR5-5600 32GB ¥8,296→¥8,356(▲+¥60)。其余17列第37天持平。五品类buy_now。"
     ]
   },
   "escalatedRisks": [
     {
-      "risk": "🔴🔴 DDR5 spot $43.233 — $43 BARRIER BREACHED! EIGHTH consecutive ATH",
-      "status": "NEW BREAKTHROUGH — June 4, 2026. $43.233 (▲+0.93%). $40→$41→$42→$43 four barriers broken consecutively. EIGHT consecutive ATH. June 5 session pending tonight.",
-      "source": "DRAMeXchange June 4, 2026",
-      "detail": "DDR5 spot broke through $43 on June 4. +0.93% daily gain — acceleration vs prior days. Session avg $43.233, High $75.00 / Low $30.50. June 4-day cumulative +$0.966 (+2.29%). Eight consecutive ATH sessions is the longest streak in tracking history. TrendForce 'June stabilization at May levels' forecast disproven by four consecutive trading days of ATH data. $43→$44 trajectory at current speed could reach by mid-June.",
+      "risk": "🔴🔴 DDR5 spot $43.400 — NINTH consecutive ATH (new record breaking 8-day streak)",
+      "status": "NEW RECORD — June 5, 2026. $43.400 (▲+0.39%). FIVE barriers broken consecutively: $40→$41→$42→$43→$43.40. NINE consecutive ATH sessions — longest streak in tracking history.",
+      "source": "DRAMeXchange June 5, 2026",
+      "detail": "DDR5 spot reached $43.400 on June 5. +0.39% daily gain. Session avg $43.400, High $54.00 / Low $30.50. June 5-day cumulative +$1.133 (+2.69%). Nine consecutive ATH sessions exceeds previous record of eight. TrendForce 'June stabilization at May levels' forecast disproven by five consecutive trading days of ATH data. $43.50→$44 trajectory at current speed could reach by mid-June.",
       "categoriesAffected": ["All DDR5"],
       "confidence": "high (DRAMeXchange official data, multi-day trend verified)",
-      "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
+      "firstReported": "2026-06-06",
+      "updatedDate": "2026-06-06"
     },
     {
-      "risk": "🆕🆕 HBM 41% DRAM revenue (2026) vs 8% (2023) — structural conventional DRAM extrusion quantified",
-      "status": "NEW — June 5, 2026 second pass. Versalogic supply chain brief quantifies HBM revenue share explosion 8%→41% (2023→2026). Conventional DDR5 wafer allocation structurally constrained.",
-      "source": "Versalogic June 2026 / TrendForce",
-      "detail": "HBM contribution to total DRAM revenue projected to reach 41% in 2026, up from just 8% in 2023. This structural shift means that even if Samsung reallocates 80K wafers/month back to DDR5, the overall DRAM wafer pie is increasingly dominated by HBM which consumes ~3x more wafer per GB. The structural extrusion of conventional DRAM wafer capacity is now quantified and irreversible in the medium term.",
+      "risk": "🆕🆕 Gartner memflation: DRAM +125%, NAND +234%, combined +130% annual price surge",
+      "status": "NEW — June 6, 2026. Most authoritative annual quantified forecast to date. Memory shortage to persist until H2 2027. Global PC and smartphone shipments to decline due to memflation.",
+      "source": "Gartner Press Release Feb 26, 2026 / TechTimes June 5, 2026 coverage",
+      "detail": "Gartner forecasts DRAM annual prices +125% and NAND +234% in 2026, with combined memory cost surge of 130%. Coined 'memflation'. Projects global PC and smartphone shipments will decline as result. Advises technology suppliers to prepare for elevated prices through H1 2026 with moderating but persistent increases through year-end. Shortage expected to persist until at least H2 2027. First time a major analyst firm has published a full-year quantified forecast of this magnitude.",
+      "categoriesAffected": ["All"],
+      "confidence": "high (Gartner official press release)",
+      "firstReported": "2026-06-06",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "🆕 Neumonda confirms seller's market 24-30 months: supply security over cost minimization",
+      "status": "NEW — June 6, 2026. First-tier memory distributor strategic guidance. Multi-year DDR4 contracts advised. Geopolitics reshaping memory sourcing.",
+      "source": "Neumonda Group June 2026",
+      "detail": "Marco Mezger / Neumonda: 'Traditional approach of negotiating hard and expecting market self-correction is no longer viable.' Recommends resilience, visibility, and risk management over next 24-30 months. DDR4 to be treated as specialty components with multi-year contracts. AI consuming majority of global memory/flash capacity. New fab capacities won't reach meaningful production until late 2027.",
+      "categoriesAffected": ["All"],
+      "confidence": "high (professional distributor analysis)",
+      "firstReported": "2026-06-06",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "⚠️ CDW Micron 9550 Pro 30.72TB consumer channel regression: In Stock → will ship when in stock",
+      "status": "NEW — June 6, 2026. First availability deterioration signal this week after 4 days of In Stock.",
+      "source": "CDW.com June 6, 2026 refresh",
+      "detail": "CDW consumer U.2 listing ($17,969.99) now shows 'will ship once in stock' after 4 consecutive days of In Stock status (June 2-5). CDW E3.S variant ($17,466.99) shows '8-10 days expected.' CDW-G U.2 ($17,274.70) still In Stock Day 12. Potential temporary stock depletion vs structural deterioration — needs monitoring. First negative availability signal this week.",
+      "categoriesAffected": ["PCIe5 TLC"],
+      "confidence": "high (CDW direct listing verified)",
+      "firstReported": "2026-06-06",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "DDR4 16Gb $64.125 — $64 barrier breached, 5-day +3.6% accelerating beyond DDR5 pace",
+      "status": "SUSTAINED — June 5, 2026. DDR4 16Gb $63.750→$64.125 (+0.59%). 5-day +3.6% vs DDR5 +2.69%. Alternative path closing faster than DDR5 crisis.",
+      "source": "DRAMeXchange June 5, 2026",
+      "detail": "DDR4 16Gb 3200 broke through $64 psychological barrier on June 5, reaching $64.125. Five-day cumulative +3.6% (16Gb) and +4.2% (8Gb) both surpass DDR5's +2.69%. DDR4 alternative path acceleration confirms all-DRAM bull market entering 3rd consecutive week of sustained momentum. Samsung/SK Hynix DDR4 extension to end-2026 covers contract customers only — spot supply remains tight.",
       "categoriesAffected": ["All DDR5", "DDR4"],
-      "confidence": "high (Versalogic + TrendForce data)",
-      "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
-    },
-    {
-      "risk": "🆕🆕 IDC: Global smartphone market facing largest annual contraction from memory shortage + PC ASP +4-8%",
-      "status": "NEW — June 5, 2026. Terminal consumer impact quantified for first time.",
-      "source": "IDC June 2026",
-      "detail": "IDC analysis warns that the memory chip shortage could cause the global smartphone market to experience its steepest annual contraction on record. Lower-end smartphones particularly affected as chipmakers prioritize AI-related chips. PC average selling prices expected to rise 4% to 8%. AI data centers consuming ~70% of total global memory chip output by end of 2026.",
-      "categoriesAffected": ["All (consumer end-market impact)"],
-      "confidence": "high (IDC official analysis)",
-      "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
-    },
-    {
-      "risk": "🆕 Samsung reallocating 80K wafers/month to DDR5 RDIMM — first medium-term supply signal",
-      "status": "SUSTAINED — June 5, 2026. DDR5 RDIMM profitability exceeding HBM3e driving capacity reallocation. First concrete supply relief signal.",
-      "source": "Digitimes / TweakTown / WCCFTech 2025-2026 (confirmed ongoing)",
-      "detail": "Samsung reallocating approximately 80,000 DRAM wafers per month from HBM to DDR5 RDIMM production. DDR5 RDIMM profitability now exceeds HBM3e (TrendForce confirmed). Timeline: 2-3 months from wafer reallocation to final module output → earliest relief Q3 2026. 80K wafers/mo significant but global DDR5 demand growth (Q2 contract +58-63%) likely absorbs most of it. Positive for 2027 DDR5 supply but insufficient to reverse 2026 shortage.",
-      "categoriesAffected": ["All DDR5 (medium-term positive)", "HBM (price upside)"],
-      "confidence": "high (multi-source confirmed)",
-      "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
-    },
-    {
-      "risk": "🆕 Nine major U.S. trade associations warn Treasury about AI-driven memory 'urgent imbalance'",
-      "status": "NEW — June 3-5, 2026. Automotive OEMs and retail groups demand federal intervention. IDC quantifies terminal consumer impact.",
-      "source": "Retail Touchpoints / Cryptobriefing / S&P Global / Investing.com / IDC June 3-5, 2026",
-      "detail": "Coalition of nine U.S. trade associations including automotive OEMs and retail groups sent letter to U.S. Treasury and Commerce departments warning that AI data center expansion is creating 'urgent imbalance' in memory chip market. Expected to cause 'significant and sustained price increases for American households' and 'disrupt critical U.S. supply chains.' First time memory shortage triggered formal federal-level intervention demand. IDC adds quantification: smartphone market largest annual contraction, PC ASP +4-8%.",
-      "categoriesAffected": ["All (crisis politicization + terminal impact quantified)"],
-      "confidence": "high (multi-source confirmed, IDC quantification)",
-      "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
-    },
-    {
-      "risk": "🆕 PC industry preparing DDR4 platform revival — reverse indicator of DDR5 crisis severity",
-      "status": "SUSTAINED — June 2026. Motherboard brands and module houses restarting DDR4 production lines due to DDR5 unaffordability.",
-      "source": "Tom's Hardware June 2026",
-      "detail": "32GB DDR5 kits now cost minimum $375 (was ~$100 a year ago, 3.75x increase). PC motherboard brands and memory module makers shifting strategies to promote DDR4 platforms. DDR4 motherboard production restarting — unprecedented reversal.",
-      "categoriesAffected": ["All DDR5", "DDR4 (demand revival)"],
       "confidence": "high",
       "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
-      "risk": "🆕 CXMT DDR5 chips in Corsair DIMMs + IPO preparation — supply diversification milestone",
-      "status": "SUSTAINED — June 2026. First confirmed Chinese DRAM in major consumer brand DIMMs.",
+      "risk": "HBM 41% DRAM revenue (2026) vs 8% (2023) — structural conventional DRAM extrusion quantified",
+      "status": "SUSTAINED — June 6, 2026. Versalogic supply chain brief quantifies HBM revenue share explosion 8%→41% (2023→2026). Conventional DDR5 wafer allocation structurally constrained.",
+      "source": "Versalogic June 2026 / TrendForce",
+      "detail": "HBM contribution to total DRAM revenue projected to reach 41% in 2026, up from just 8% in 2023. This structural shift means that even if Samsung reallocates 80K wafers/month back to DDR5, the overall DRAM wafer pie is increasingly dominated by HBM which consumes ~3x more wafer per GB.",
+      "categoriesAffected": ["All DDR5", "DDR4"],
+      "confidence": "high",
+      "firstReported": "2026-06-05",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "Samsung reallocating 80K wafers/month to DDR5 RDIMM — first medium-term supply signal",
+      "status": "SUSTAINED — June 6, 2026. DDR5 RDIMM profitability exceeding HBM3e driving capacity reallocation. Q3 2026 earliest relief but insufficient to reverse 2026 shortage.",
+      "source": "Digitimes / TweakTown / WCCFTech 2025-2026",
+      "detail": "Samsung reallocating ~80K DRAM wafers/month from HBM to DDR5 RDIMM. Timeline: 2-3 months from wafer reallocation to final module output → earliest relief Q3 2026. With Gartner DRAM +125% annual forecast, 80K increment unlikely to materially change trajectory.",
+      "categoriesAffected": ["All DDR5 (medium-term positive)"],
+      "confidence": "high",
+      "firstReported": "2026-06-05",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "Nine major U.S. trade associations warn Treasury about AI-driven memory 'urgent imbalance'",
+      "status": "SUSTAINED — June 3-6, 2026. Automotive OEMs and retail groups demand federal intervention. IDC quantifies terminal consumer impact.",
+      "source": "Retail Touchpoints / Cryptobriefing / S&P Global / Investing.com / IDC June 3-5, 2026",
+      "detail": "Coalition of nine U.S. trade associations sent letter to U.S. Treasury/Commerce warning AI data center expansion creating 'urgent imbalance' in memory chip market. IDC: smartphone market largest annual contraction, PC ASP +4-8%. Adding to political pressure on memory supply chain.",
+      "categoriesAffected": ["All"],
+      "confidence": "high",
+      "firstReported": "2026-06-05",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "PC industry preparing DDR4 platform revival — reverse indicator of DDR5 crisis severity",
+      "status": "SUSTAINED — June 2026. Motherboard brands and module houses restarting DDR4 production lines.",
+      "source": "Tom's Hardware June 2026",
+      "detail": "32GB DDR5 kits now cost minimum $375 (3.75x YoY). PC motherboard brands shifting strategies to promote DDR4 platforms. DDR4 motherboard production restarting — unprecedented reversal.",
+      "categoriesAffected": ["All DDR5", "DDR4"],
+      "confidence": "high",
+      "firstReported": "2026-06-05",
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "CXMT DDR5 chips in Corsair DIMMs + IPO preparation — supply diversification milestone",
+      "status": "SUSTAINED — June 2026. First confirmed Chinese DRAM in major consumer brand DIMMs. Market share ~8%, +700% YoY revenue.",
       "source": "Multiple sources June 2026",
-      "detail": "CXMT DDR5 chips confirmed appearing in Corsair consumer DIMMs. CXMT preparing IPO. Does not produce HBM, allowing full focus on DDR5. Market share ~8% (TrendForce Q1 2026), +700% YoY revenue growth. Total capacity still insufficient to materially change 2026 global DDR5 shortage (5.0% deficit).",
+      "detail": "CXMT DDR5 chips confirmed in Corsair consumer DIMMs. IPO in preparation. No HBM production allows full DDR5 focus. ~8% market share (TrendForce Q1 2026). Insufficient to materially change 2026 global DDR5 shortage.",
       "categoriesAffected": ["All DDR5 (moderate long-term positive)"],
       "confidence": "medium-high",
       "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
-      "risk": "🆕🆕 NAND Q1 2026 revenue $46B (+3.5x YoY) — single quarter exceeds entire 2023",
-      "status": "SUSTAINED — Day 2. Counterpoint Research. Historical NAND revenue record.",
-      "source": "Counterpoint Research / WCCFTech / PC Gamer June 3-4, 2026",
-      "detail": "Global NAND flash revenue hit $46B in Q1 2026 — 3.5x YoY increase, exceeding entire 2023 full-year revenue. Enterprise SSD = 43% of NAND market, projected >60% by year-end.",
-      "categoriesAffected": ["All SSD (NAND shortage confirmed at industry scale)"],
-      "confidence": "high",
-      "firstReported": "2026-06-04",
-      "updatedDate": "2026-06-05"
-    },
-    {
-      "risk": "🆕🆕 NAND cumulative contract multiplier 4.2-4.5x — enterprise SSD 30TB +472%",
-      "status": "SUSTAINED — Day 2. 30TB TLC enterprise SSD tracked $3,062(Q2 2025)→$17,500(Q1 2026) = +472%.",
-      "source": "WCCFTech / PC Gamer / Counterpoint Research June 2026",
-      "detail": "NAND contract prices multiplied 4.2-4.5x from Q4 2025 through Q2 2026 (5 quarters cumulative). Enterprise SSD prices +60% in 2026 alone.",
+      "risk": "NAND Q1 2026 revenue $46B (+3.5x YoY) — single quarter exceeds entire 2023",
+      "status": "SUSTAINED — Day 4. Counterpoint Research. Historical NAND revenue record. Gartner NAND +234% reinforces.",
+      "source": "Counterpoint Research / WCCFTech / PC Gamer / Gartner June 2026",
+      "detail": "Global NAND flash revenue hit $46B in Q1 2026 — 3.5x YoY, exceeding entire 2023 full-year revenue. Enterprise SSD = 43% of NAND market, projected >60% by year-end. Gartner NAND +234% annual forecast independently validates.",
       "categoriesAffected": ["All SSD"],
       "confidence": "high",
       "firstReported": "2026-06-04",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
+    },
+    {
+      "risk": "NAND cumulative contract multiplier 4.2-4.5x — enterprise SSD 30TB +472%",
+      "status": "SUSTAINED — Day 4. Gartner NAND +234% independently validates.",
+      "source": "WCCFTech / PC Gamer / Counterpoint Research / Gartner June 2026",
+      "detail": "NAND contract prices multiplied 4.2-4.5x from Q4 2025 through Q2 2026. Enterprise SSD prices +60% in 2026 alone. 30TB TLC $3,062(Q2 2025)→$17,500(Q1 2026) = +472%.",
+      "categoriesAffected": ["All SSD"],
+      "confidence": "high",
+      "firstReported": "2026-06-04",
+      "updatedDate": "2026-06-06"
     },
     {
       "risk": "SK Hynix 2026 wage negotiations formally starting June - global supply chain stability risk",
-      "status": "SUSTAINED — Day 2. Union demanding housing loan increase from 100M won to 500M won to match Samsung.",
+      "status": "SUSTAINED — Day 4. Union demanding housing loan 100M→500M won. Samsung 6.2% raise as baseline.",
       "source": "Korea JoongAng Daily / Chosun Ilbo June 1-4, 2026",
-      "detail": "SK Hynix 2026 wage negotiations formally starting in June. Union benchmarking Samsung agreement (6.2% raise + 500M won housing loan).",
+      "detail": "SK Hynix 2026 wage negotiations formally starting in June. Union benchmarking Samsung (6.2% raise + 500M won housing loan). Experts expect pragmatic bargaining without prolonged conflict.",
       "categoriesAffected": ["All (production stability risk)"],
       "confidence": "high",
       "firstReported": "2026-06-04",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
-      "risk": "🆕🆕 Samsung MLC NAND production ENDING June 2026 — global MLC capacity -40%",
-      "status": "ONGOING — Peak month. Final shipments THIS MONTH (June 2026).",
-      "source": "TweakTown / HotHardware / Astute Group / ConevoElec June 2026",
-      "detail": "Samsung shutting down last 2D NAND line in June 2026. MLC NAND spot prices +300% since late 2025. 40% global MLC capacity gap absorbed by TLC/QLC.",
+      "risk": "Samsung MLC NAND production ENDING June 2026 — global MLC capacity -41.7%",
+      "status": "ONGOING — Peak month. Final shipments THIS MONTH. Shutdown window closing (Jun 6).",
+      "source": "TweakTown / HotHardware / Astute Group / ConevoElec / TrendForce June 2026",
+      "detail": "Samsung shutting down last 2D NAND line in June 2026. MLC NAND spot prices +300% since late 2025. 41.7% global MLC capacity gap absorbed by TLC/QLC. Gartner NAND +234% annual forecast — MLC shutdown is a component of this.",
       "categoriesAffected": ["All SSD (supply tightening)"],
       "confidence": "high",
       "firstReported": "2026-06-01",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
       "risk": "DRAM Q1 contract actual +110-115% QoQ",
@@ -456,7 +489,7 @@
       "categoriesAffected": ["All DDR5"],
       "confidence": "high",
       "firstReported": "2026-05-13",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
       "risk": "全产业链售罄 (Triple-Sold-Out)",
@@ -464,31 +497,31 @@
       "categoriesAffected": ["All"],
       "confidence": "high",
       "firstReported": "2026-05-04",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
-      "risk": "DiscTech JS-rendering — PCIe4 TLC primary source offline ENTERING 10TH WEEK (2 MONTHS+6 DAYS)",
-      "status": "CRITICAL - Day 39. 2 MONTHS+6 DAYS.",
+      "risk": "DiscTech JS-rendering — PCIe4 TLC primary source offline ENTERING 10TH WEEK (2 MONTHS+7 DAYS)",
+      "status": "CRITICAL - Day 40. 2 MONTHS+7 DAYS.",
       "categoriesAffected": ["PCIe4 TLC"],
       "confidence": "high",
       "firstReported": "2026-05-01",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
       "risk": "ServerSupply + Memory.net Cloudflare blocked",
-      "status": "SUSTAINED - Day 32.",
+      "status": "SUSTAINED - Day 33.",
       "categoriesAffected": ["All"],
       "confidence": "high",
       "firstReported": "2026-05-07",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     },
     {
-      "risk": "Mouser QLC 61.44TB U.2 structural supply crisis — Day 18 but E1.L 4 units NEW",
-      "status": "ONGOING - Day 18. U.2 only 1 unit. 🆕 E1.L 4 units partially compensates. Alternative channels Day 11 mature.",
+      "risk": "Mouser QLC 61.44TB U.2 structural supply crisis — Day 19 but E1.L 4 units stable + 5-channel alternative network Day 12",
+      "status": "ONGOING - Day 19. U.2 only 1 unit approaching 3-week irreversible crisis. E1.L 4 units stable 2nd day. Alternative channels Day 12 mature (5-source network).",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "high",
       "firstReported": "2026-05-20",
-      "updatedDate": "2026-06-05"
+      "updatedDate": "2026-06-06"
     }
   ]
 }
