@@ -1,0 +1,136 @@
+{
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-07T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "TrendForce NAND Flash Market Bulletin (June 3)",
+    "Samsung Line 12 HBM4 conversion (TechPowerUp)",
+    "Samsung HBM4E 12-layer samples (Samsung official)",
+    "Kioxia-SanDisk capex +41% (TrendForce)",
+    "YMTC Q1 >RMB 200B + IPO (SCMP/Economic Times)",
+    "OretonsStorage (new source)",
+    "Ampheo market forecast (new source)",
+    "nand-research.com May 2026 update"
+  ],
+  "newSourcesWithUsefulData": [
+    "TrendForce NAND Flash Market Bulletin",
+    "Samsung Line 12 HBM4 conversion",
+    "Samsung HBM4E 12-layer samples",
+    "Kioxia-SanDisk capex +41%",
+    "YMTC Q1 >RMB 200B + IPO",
+    "OretonsStorage",
+    "Ampheo",
+    "nand-research.com"
+  ],
+  "keyChangesVsYesterday": [
+    "全18列第41天持平——周日无新DRAMeXchange spot数据",
+    "CDW 9550 Pro 30.72TB consumer退化进入第二天确认",
+    "Mouser QLC 61.44TB U.2 Day 20逼近三周不可逆枯竭",
+    "Connection QLC 61.44TB价格微调 +$1,125→$33,047.41",
+    "TrendForce NAND Bulletin: 消费僵持 + 企业SSD需求爆发性增长",
+    "Samsung Line 12 转型HBM4确认——MLC NAND产能物理消失",
+    "Samsung HBM4E 12层样品出货(2nm基片)",
+    "Nvidia Vera Rubin全面量产 + Samsung确认为HBM4供应商",
+    "Kioxia-SanDisk FY26-28 capex +41% ¥470亿/年",
+    "YMTC Q1 >RMB 200亿(+100% YoY) 市占13% 筹备IPO"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Spot九连ATH $43.400周末持稳。Gartner DRAM +125%年度量化锚。Line 12转型HBM4确认产能挤出不可逆。DDR4替代路径加速关闭。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot九连ATH周末持稳。DDR4 16Gb $64.125加速——替代路径关闭确认。Gartner +125% + Neumonda卖方市场策略双重背书。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND停产窗口关闭(Line 12已转型HBM4确认)+PM1733停产+NAND Q1 $46B+Gartner NAND +234%四重重压。DiscTech Day 41 tracking lag严重但real-time持续上沿压力。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB CDW consumer退化Day 2——可得性恶化应加速采购。CDW-G Day 13+SS七周+ + Newegg三源可得。Nvidia Vera Rubin全面量产强化需求轨迹。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "61.44TB替代渠道网络Day 13成熟(~34% premium)。Mouser U.2 Day 20明日期满三周里程碑。E1.L 4台Day 3稳定。MLC NAND停产本月。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM公开报价极少，市场以32GB+为主"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 Day 41——第十八次请求创建tracking列。有稳定锚点但tracking表未列。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS离线Day 41，品牌裂口2.5-2.7x结构性。real-time $1,390-$5,727 vs tracking ¥18,094 lag 27-155%。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "仅VDURA $17,500基准+PM1733a $13,995旁证。tracking lag ~20%。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "parser_gap",
+      "note": "CDW consumer退化Day 2——需持续追踪是否结构性恶化。CDW-G Day 13+SS+Newegg补偿。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Mouser U.2 Day 20逼近三周不可逆枯竭。替代渠道Day 13成熟+E1.L 4台Day 3。"
+    }
+  ],
+  "spotPriceContext": {
+    "ddr5": {
+      "latest": 43.400,
+      "date": "2026-06-05",
+      "streak": "9 consecutive ATH",
+      "nextUpdate": "2026-06-08 (Monday, covering June 6-8)"
+    },
+    "ddr4": {
+      "16Gb": 64.125,
+      "8Gb": 35.500,
+      "date": "2026-06-05"
+    }
+  },
+  "newSignalsToday": [
+    "TrendForce NAND Bulletin confirms consumer spot stagnation but enterprise SSD demand explosion — structural deficit",
+    "Samsung Line 12 (Hwaseong) physically converted from 2D NAND to HBM4 DRAM metallization — MLC NAND capacity gone",
+    "Samsung HBM4E 12-layer samples shipping (2nm base die) — next-gen HBM locks wafer allocation",
+    "Kioxia-SanDisk FY26-28 capex +41% to ¥470B/year — long-term positive but no 2026 impact",
+    "YMTC Q1 >RMB 200B revenue (+100% YoY), 13% market share, IPO preparation — China NAND alternative accelerating"
+  ]
+}
