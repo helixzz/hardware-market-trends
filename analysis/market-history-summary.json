@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-10T09:46:00+08:00",
+  "generatedAt": "2026-06-11T09:46:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 86,
-  "executionNote": "首遍09:00 + 二遍复核09:46。新增WF6半导体关键材料停产发现。",
+  "trackingRows": 87,
+  "executionNote": "DDR5 spot $44.500十二连ATH加速(+1.14%)——连续三天加速。CDW-G恢复In Stock。Newegg 9550 Pro首次OOS。🔄09:46二遍: Broadcom AI FY2027>$100B+USITC 337 Kioxia/SK Hynix立案+DRAM ETF过山车(跌20%→收复)+TSMC五月$13.17B纪录+DapuStor/Kioxia 245TB Gen5 QLC+DataCore固定价。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-06-10",
+      "latestDate": "2026-06-11",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "🔴🔴🔴 DDR5 spot $44.000 (Jun 9) 11th ATH — $44 PSYCHOLOGICAL BARRIER BREACHED. Acceleration +0.99% vs previous +0.38%. SK Hynix 44.2B won TC Bonder HBM4 order. Samsung-Nvidia 6/8 Seoul bilateral (HBM4E+HBM5+LP40). ServerMonkey: 64GB RDIMM ~$1,350 (+11% MoM), quote windows 48-72hrs. NEMIX Day 44 75th verification. 🔴🆕 Japan WF6 permanent halt 7/1 (~25% global capacity) — semiconductor supply chain structural crisis.",
-      "sourceHealthNote": "NEMIX Day 44 - 75 consecutive verifications. A-Tech 64GB dual-source Day 44. SS+Memory.net Day 37 CF. DiscTech JS offline Day 44 (2 MONTHS+11 DAYS). SK Hynix TC Bonder HBM4 order. Samsung-Nvidia 6/8 bilateral. ServerMonkey June update. 🔴🆕 WF6 crisis (9:46 second pass). $45 trajectory this week.",
+      "trendNote": "🔴🔴🔴 DDR5 spot $44.500 (Jun 10) 12th ATH — ACCELERATING: +0.38%→+0.99%→+1.14%! $44.50突破！$45明天可及。+$3.400(+8.27%)vs 5/20。DDR4同步$65.550(+1.04%)+$35.900(+1.41%)全面牛市第五周。NEMIX Day 45 76th verification。WF6 7/1停产仅剩20天。Omdia Q1半导体$300B+里程碑。",
+      "sourceHealthNote": "NEMIX Day 45 - 76 consecutive verifications. A-Tech 64GB dual-source Day 45. SS+Memory.net Day 38 CF. DiscTech JS offline Day 45 (2 MONTHS+12 DAYS). WF6 crisis 20 days to 7/1. $45 trajectory TOMORROW likely.",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -36,46 +36,46 @@
           "latestValue": 12122,
           "previousValue": 12122,
           "rollingMedian14d": 12122,
-          "lastSeenDate": "2026-06-10",
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
-          "note": "NEMIX RAM $1,488 via nemixram.com + Newegg - Day 44, 11TH WORK WEEK+4. LONGEST continuous anchor in tracking history. Micron 32GB $1,499 cross-reference. 75th verification."
+          "note": "NEMIX RAM $1,488 via nemixram.com + Newegg - Day 45, 11TH WORK WEEK+5. LONGEST continuous anchor in tracking history. Micron 32GB $1,499 cross-reference. 76th verification."
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-06-10",
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
-          "note": "A-Tech $2,106.71(atechmemory.com) + $2,194.49(Newegg) + Viperatech $2,295 + Memory.net $2,498 + CDW $2,453 + Crucial $2,400 + SHI Kingston $2,178 - 7-source band $2,107-$2,550 Day 44."
+          "note": "A-Tech $2,106.71(atechmemory.com) + $2,194.49(Newegg) + Viperatech $2,295 + Memory.net $2,498 + CDW $2,453 + Crucial $2,400 + SHI Kingston $2,178 - 7-source band $2,107-$2,550 Day 45."
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
           "previousValue": 52651,
           "rollingMedian14d": 52651,
-          "lastSeenDate": "2026-06-10",
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
-          "note": "A-Tech $4,213-$4,389 + Memory.net $5,208 + CDW Micron $7,116 + SS Micron $5,600 + Crucial $9,326(MSRP). 1.6x brand spread structural Day 44."
+          "note": "A-Tech $4,213-$4,389 + Memory.net $5,208 + CDW Micron $7,116 + SS Micron $5,600 + Crucial $9,326(MSRP). 1.6x brand spread structural Day 45."
         }
       },
       "coverage14d": 3
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-06-10",
+      "latestDate": "2026-06-11",
       "latestCoverage": {
         "filled": 3,
         "total": 3
       },
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "🔴🔴🔴 DDR5 spot $44.000 (Jun 9) 11th ATH — $44 breach. Tracking ¥8,550→¥8,635 (+¥85). DDR4 16Gb $64.875 +0.78% — full-spectrum DRAM bull intensifies. ServerMonkey 64GB RDIMM +11% MoM. SK Hynix TC Bonder. Samsung-Nvidia bilateral. 🔴🆕 WF6 crisis.",
+      "trendNote": "🔴🔴🔴 DDR5 spot $44.500 (Jun 10) 12th ATH accelerate +1.14%. Tracking ¥8,635→¥8,733 (+¥98). DDR4 16Gb $65.550 +1.04% / 8Gb $35.900 +1.41% — full-spectrum DRAM bull 5th week ACCELERATING. ServerMonkey 48-72h quote windows. WF6 20 days to 7/1.",
       "latestValues": {
-        "DDR5-5600 32GB": 8635,
+        "DDR5-5600 32GB": 8733,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
       "previousValues": {
-        "DDR5-5600 32GB": 8550,
+        "DDR5-5600 32GB": 8635,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
@@ -87,50 +87,50 @@
       "missingColumns": [],
       "columns": {
         "DDR5-5600 32GB": {
-          "latestValue": 8635,
-          "previousValue": 8550,
-          "rollingMedian14d": 8492,
-          "lastSeenDate": "2026-06-10",
+          "latestValue": 8733,
+          "previousValue": 8635,
+          "rollingMedian14d": 8550,
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
-          "note": "🔴🔴🔴 DRAMeXchange Jun 9 $44.000 11th ATH (+$0.433, +0.99%). $44 PSYCHOLOGICAL BARRIER BREACHED. NEMIX retail $1,298 vs spot premium +22.6% (narrowing from 23.7%). Memory.net $1,424 upper band. ServerMonkey 48-72hr quote windows."
+          "note": "🔴🔴🔴 DRAMeXchange Jun 10 $44.500 12th ATH ACCELERATE (+$0.500, +1.14%). Three-day acceleration: +0.38%→+0.99%→+1.14%. $45 TOMORROW likely. NEMIX retail $1,298 vs spot premium +21.1% (continues narrowing). Memory.net $1,424 upper band. ServerMonkey 48-72hr quote windows."
         },
         "DDR5-5600 64GB": {
           "latestValue": 19168,
           "previousValue": 19168,
           "rollingMedian14d": 19168,
-          "lastSeenDate": "2026-06-10",
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
-          "note": "Kingston $1,440-$2,175 / Micron CDW $2,839-$2,847 band maintained. Memory.net $2,408 mid-band Day 14."
+          "note": "Kingston $1,440-$2,175 / Micron CDW $2,839-$2,847 band maintained. Memory.net $2,408 mid-band Day 15."
         },
         "DDR5-5600 128GB": {
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-06-10",
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
           "note": "Samsung $5,600(SS) + Hynix $5,200(SS) + Memory.net $4,408-$5,208 maintained. Micron $5,200-$8,945 wide band."
         },
         "DDR5-5600 96GB": {
           "latestValue": 26051,
-          "lastSeenDate": "2026-06-10",
+          "lastSeenDate": "2026-06-11",
           "consecutiveMissingDays": 0,
-          "status": "NEMIX $3,200 cash Day 44 - THIRD MONTH+1 WEEK+4 DAYS. 21st formal request.",
-          "note": "NEMIX $3,200 cash Day 44 - THIRD MONTH+1 WEEK+4 DAYS ANCHOR. HPE $3,665 / Dell $4,100 / Hynix OEM $3,020-$3,650 / A-Tech $2,699 cross-verification. 21st formal request to create tracking column."
+          "status": "NEMIX $3,200 cash Day 45 - THIRD MONTH+1 WEEK+5 DAYS. 22nd formal request.",
+          "note": "NEMIX $3,200 cash Day 45 - THIRD MONTH+1 WEEK+5 DAYS ANCHOR. HPE $3,665 / Dell $4,100 / Hynix OEM $3,020-$3,650 / A-Tech $2,699 cross-verification. 22nd formal request to create tracking column."
         }
       },
-      "sourceHealthNote": "NEMIX 32GB $1,298 retail premium +22.6% (narrowing). Memory.net 32GB $1,424 upper band. DRAMeXchange 11th ATH $44 confirmed + acceleration. SS+Memory.net Day 37 CF. SK Hynix TC Bonder HBM4. Samsung-Nvidia bilateral. ServerMonkey June update. 🔴🆕 WF6 crisis.",
+      "sourceHealthNote": "NEMIX 32GB $1,298 retail premium +21.1% (narrowing further). DRAMeXchange 12th ATH $44.500 ACCELERATE +1.14%. SS+Memory.net Day 38 CF. WF6 20 days to 7/1. $45 trajectory TOMORROW.",
       "coverage14d": 3
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-06-10",
+      "latestDate": "2026-06-11",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
       "averageCoverage14d": 4.0,
       "trend": "flat",
-      "trackingLagWarning": "DAY 44 - tracking lag PERSISTS: 7.68TB Samsung PM1733 OFFICIALLY DISCONTINUED vs Solidigm D7-P5520 $3,550-$5,727 = 2.5-2.7x structural. MLC NAND ending this month (June 2026) - FINAL 3 WEEKS (Jun 10). Samsung Line 12 to HBM4 conversion confirmed. NAND Q1 $46B record + 4.2-4.5x multiplier. Gartner NAND +234% annual. NAND Q2 +70-75% QoQ. 🔴🆕 WF6 crisis adds second supply shock. DiscTech Day 44 JS offline - 2 MONTHS+11 DAYS.",
+      "trackingLagWarning": "DAY 45 - tracking lag PERSISTS: 7.68TB Samsung PM1733 OFFICIALLY DISCONTINUED vs Solidigm D7-P5520 $3,550-$5,727 = 2.5-2.7x structural. MLC NAND ending this month (June 2026) - FINAL 19 DAYS (Jun 11). Samsung Line 12 to HBM4 conversion confirmed. Omdia Q1 NAND ~$48B +96% QoQ. Gartner NAND +234% annual. NAND Q2 +70-75% QoQ. Silicon Motion: 2027 NAND shortage worsens. WF6 crisis 20 days to 7/1. DiscTech Day 45 JS offline - 2 MONTHS+12 DAYS.",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -330,6 +330,10 @@
     }
   },
   "recentRunNotes": {
+    "2026-06-11": [
+      "🔴🔴🔴十二连ATH加速！DDR5 spot $44.000→$44.500(▲+1.14%,▲+$0.500)$44.50加速突破！DDR5-5600 ¥8,635→¥8,733(▲+¥98)。🔴DDR4 $64.875→$65.550(▲+1.04%)突破$65关口+DDR4 8Gb $35.400→$35.900(▲+1.41%)全面牛市第五周。🟢CDW-G 9550 Pro 30.72TB恢复In Stock(政府渠道Backordered Day3→恢复)。🔴Newegg 9550 Pro 30.72TB首次OOS(零售旗舰失守对冲CDW-G恢复)。⚠️CDW consumer Backordered Day6一周里程碑。🟡CDW多SKU分化(旧Backordered+新In Stock+MFG#变体)。🔴Mouser QLC U.2 Day24第四周枯竭深化(1台/补货7/6仅25天)。🟢E1.L 4台Day3稳定。🆕Omdia Q1半导体$300B+季度里程碑。🆕Silicon Motion NAND2027短缺恶化警告。SS$17,700 Day35。NEMIX$1,488 Day45(第76次验证)。五品类buy_now第45天(PCIe4 QLC split_buy)。新增:DRAMeXchange Jun10🔴🔴🔴$44.50/CDW-G恢复🟢/Newegg OOS🔴/Omdia🆕/Silicon Motion🆕。",
+      "🔄09:46二遍复核:全18列值无变动。🆕🆕Broadcom Q2 FY2026 AI $10.8B(+143% YoY)/Q3指引$16B(>200% YoY)/FY2027>$100B—AI无天花板确认DDR5+HBM+SSD超长需求。🆕USITC 337-TA-1506 MonolithIC 3D诉Kioxia+SK Hynix NAND/DRAM专利调查6/10立案—若排除令获批构成中长期供给风险(目标~2027/8)。🆕DRAM ETF过山车:6/3-6/5跌20%→6/9收复—金融噪音vs现货ATH独立。🆕TSMC五月NT$416.975B(~$13.17B)创纪录。🆕DapuStor R6060 245TB+Kioxia LC9 245.76TB Gen5 QLC—供给侧推进但2027年前无产能缓解。🆕DataCore固定价计划—卖方市场成熟标志。WF6停产仅剩20天+MLC NAND仅剩19天双重倒计时。五品类建议不变:buy_now×4+split_buy×1。"
+    ],
     "2026-06-10": [
       "🔴🔴🔴十一连ATH！💲4⃣4⃣突破！DDR5 spot $43.567→$44.000(▲+0.99%,+$0.433)$44心理关口历史性突破。加速(+0.99% vs前日+0.38%)。DDR5-5600 ¥8,550→¥8,635(▲+¥85)。🔴DDR4 $64.125→$64.875(▲+0.78%)新ATH。🆕🆕ServerMonkey六月更新(今日发布):Inference Pivot(AI推理2/3计算)+64GB DDR5 RDIMM ~$1,350(+11% MoM)+分销商报价窗口缩至48-72小时+全球IT支出$4.96T+AI支出$2.59T。🆕SK Hynix 44.2B韩元(~$28.7M)TC Bonder 4.5 Griffin HBM4设备订单—9/2前交付清州M15X。🆕Samsung副董事长全永铉6/8首尔会见Nvidia CEO黄仁勋—HBM4E+HBM5+LP40代工全面合作('最好对话')。🔴🆕🔴🔄09:46二遍执行:日本WF6(六氟化钨)7/1永久停产—昭和电工関東+Central Glass~25%全球产能。钨沉积关键材料断供DRAM/NAND/逻辑芯片。认证周期12-18月。此危机可能超越HBM晶圆挤出效应。🟢CDW 9550 Pro 30.72TB新SKU#8455187 $17,071.99 In Stock—替代可得性通道。🔴CDW-G退化Day3确认非临时+CDW consumer退化Day5接近一周。🟢Mouser E1.L 4台恢复Day2确认—假信号排除。🔴Mouser U.2 Day23第四周枯竭深化(补货7/6仅26天)。NEMIX$1,488 Day44(第75次验证)。五品类buy_now第44天(PCIe4 QLC split_buy)。新增:DRAMeXchange Jun9🔴🔴🔴/ServerMonkey🆕🆕/SK Hynix TC Bonder🆕/Samsung-Nvidia会议🆕/CDW新SKU🆕/WF6停产🔴🆕🔴。",
       "09:00首遍→09:46二遍复核：全18列第44天持平。DDR5-5600 32GB ¥8,635唯一变动(+¥85,$44传导)。全类别coverage 18/18 filled。$44突破+加速(+0.99%)—上行通道拓宽。$45本周内概率极高。🔴🆕WF6停产为二遍最大发现—半导体产业前所未见的材料级断供危机(7/1仅剩20天)。ServerMonkey六月更新确诊48-72h报价窗口。SK Hynix HBM4 TC Bonder+Samsung-Nvidia双边会议双重新闻强化AI产能锁定。CDW新SKU为PCIe5 TLC提供新鲜可得性入口。MLC NAND停产仅剩三周+WF6双重供给冲击—PCIe4 TLC/QLC采购窗口紧迫度达历史最高。"
@@ -343,24 +347,44 @@
   },
   "escalatedRisks": [
     {
-      "risk": "🔴🔴🔴 DDR5 spot $44.000 - ELEVEN consecutive ATH + acceleration (+0.99% vs previous +0.38%) — $44 psychological barrier breached",
-      "status": "NEW RECORD - June 9, 2026. $44.000 (+$0.433, +0.99%). Acceleration from +0.38% to +0.99%. $44 psychological BARRIER BREACHED. $45 this week probable at current speed. Since May 20 $41.100, cumulative +$2.900 (+7.06%).",
-      "source": "DRAMeXchange June 9, 2026",
-      "detail": "DDR5 spot reached $44.000 on June 9 — eleven consecutive ATH sessions. Daily acceleration from +0.38% to +0.99% is particularly concerning — the market is accelerating, not decelerating, at $44. $45 within $1.00 at current pace this week. ServerMonkey confirms 64GB DDR5 RDIMM ~$1,350 (+11% MoM) and quote windows shortened to 48-72 hours.",
+      "risk": "🔴🔴🔴 DDR5 spot $44.500 - TWELVE consecutive ATH + acceleration (+1.14% vs previous +0.99%) — $44.50 breakout ACCELERATING",
+      "status": "NEW RECORD - June 10, 2026 session. $44.500 (+$0.500, +1.14%). Three-day acceleration: +0.38%→+0.99%→+1.14%. $44 psychological barrier BROKEN then $44.50. $45 TOMORROW probable at current speed. Since May 20 $41.100, cumulative +$3.400 (+8.27%).",
+      "source": "DRAMeXchange June 10, 2026",
+      "detail": "DDR5 spot reached $44.500 on June 10 — twelve consecutive ATH sessions. Three-day acceleration pattern (+0.38%→+0.99%→+1.14%) is exceptionally concerning — the market is accelerating, not decelerating, after $44 breach. $45 within $0.50 at current pace — tomorrow possible. ServerMonkey confirms 64GB DDR5 RDIMM ~$1,350 (+11% MoM) and quote windows shortened to 48-72 hours. Broadcom FY2027 AI >$100B confirms demand trajectory has no visible ceiling.",
       "categoriesAffected": ["All DDR5"],
       "confidence": "high (DRAMeXchange official data)",
       "firstReported": "2026-06-06",
-      "updatedDate": "2026-06-10"
+      "updatedDate": "2026-06-11"
     },
     {
-      "risk": "🔴 DDR4 16Gb $64.875 (+0.78%) — full-spectrum DRAM bull market intensifying",
-      "status": "NEW RECORD - June 9, 2026. DDR4 16Gb 3200 $64.875 (+$0.750, +0.78%). DDR4/DDR5 full-spectrum bull market in 4th week.",
-      "source": "DRAMeXchange June 9, 2026",
-      "detail": "DDR4 16Gb 3200 reached $64.875 (+0.78%) continuing new ATH. Combined with ServerMonkey confirming DDR4 spot prices jumped ~20% and DDR5 $44+11th ATH, the full-spectrum DRAM bull market is firmly established.",
+      "risk": "🔴 DDR4 16Gb $65.550 (+1.04%) + 8Gb $35.900 (+1.41%) — full-spectrum DRAM bull market intensifying 5th week",
+      "status": "NEW RECORD - June 10, 2026. DDR4 16Gb 3200 $65.550 (+$0.675, +1.04%). DDR4 8Gb $35.900 (+$0.500, +1.41%). DDR4/DDR5 full-spectrum bull market in 5th week ACCELERATING.",
+      "source": "DRAMeXchange June 10, 2026",
+      "detail": "DDR4 16Gb 3200 reached $65.550 (+1.04%) continuing new ATH, breaking $65 barrier. DDR4 8Gb $35.900 (+1.41%) fastest gainer — low-density supply tightest. Combined with ServerMonkey confirming DDR4 spot prices jumped ~20% and DDR5 $44.50+12th ATH, the full-spectrum DRAM bull market is firmly established.",
       "categoriesAffected": ["All DDR5", "DDR4"],
       "confidence": "high",
       "firstReported": "2026-06-05",
-      "updatedDate": "2026-06-10"
+      "updatedDate": "2026-06-11"
+    },
+    {
+      "risk": "🆕 Broadcom FY2027 AI semiconductor revenue guidance >$100B — confirms AI infrastructure demand trajectory has no visible ceiling",
+      "status": "NEW - June 11, 2026. Broadcom Q2 FY2026 AI revenue $10.8B (+143% YoY). Q3 guidance $16B (>200% YoY). FY2026 $56B. FY2027 >$100B. This directly confirms sustained and accelerating DDR5/HBM/enterprise SSD demand for at least 18 months.",
+      "source": "Broadcom Q2 FY2026 Earnings Call June 3, 2026 / multiple financial media",
+      "detail": "Broadcom's AI semiconductor business grew 143% YoY to $10.8B in Q2 FY2026. Q3 guidance of $16B represents >200% YoY growth. FY2027 projection of >$100B is a staggering number that confirms AI infrastructure buildout at massive scale — each AI server requires substantial DDR5, HBM, and enterprise SSD. The DRAM ETF dropped 20% (6/3-6/5) on a minor Q3 guidance miss vs most aggressive estimates but fully recovered by 6/9 — financial market noise does not change the fundamental demand trajectory.",
+      "categoriesAffected": ["All DDR5", "All SSD", "HBM"],
+      "confidence": "high (Broadcom official earnings)",
+      "firstReported": "2026-06-11",
+      "updatedDate": "2026-06-11"
+    },
+    {
+      "risk": "🆕 USITC 337-TA-1506: MonolithIC 3D patent investigation vs Kioxia + SK Hynix NAND/DRAM — potential future supply disruption",
+      "status": "NEW - June 11, 2026. USITC instituted investigation June 10 based on MonolithIC 3D complaint alleging NAND and DRAM patent infringement by Kioxia and SK Hynix entities. Seeking limited exclusion order and cease & desist. Target date ~August 2027. Second such investigation (337-TA-1492 already in progress).",
+      "source": "USITC press release June 10, 2026",
+      "detail": "If exclusion order is granted, Kioxia and SK Hynix NAND/DRAM products could be restricted from US market entry. Combined entities represent ~32% of global NAND (Kioxia 14% + SK Hynix 18%) and ~47% of global DRAM (SK Hynix 29% + potential). Near-term: minimal impact (target date ~14 months out). Medium-term: adds structural uncertainty to already-tight NAND/DRAM supply. Monitor for preliminary determination (~April 2027).",
+      "categoriesAffected": ["All DDR5", "All SSD"],
+      "confidence": "medium (investigation outcome uncertain, timeline long)",
+      "firstReported": "2026-06-11",
+      "updatedDate": "2026-06-11"
     },
     {
       "risk": "🆕🆕 ServerMonkey June 2026 Market Update (published June 10): Inference Pivot + 48-72hr quote windows + 64GB DDR5 RDIMM ~$1,350 (+11% MoM)",
