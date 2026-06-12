@@ -1,0 +1,139 @@
+{
+  "date": "2026-06-12",
+  "generatedAt": "2026-06-12T09:31:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["DRAMeXchange/TrendForce (spot refresh)", "CDW (3 SKU status)", "CDW-G", "Newegg", "Mouser (U.2+E1.L)", "GovConnection", "SHI", "NEMIX RAM", "A-Tech Memory", "Tom's Hardware (Biwin)", "SCMP (Biwin)", "TweakTown/WCCFTech (AMD 2028)", "KuCoin/Nasdaq (semiconductor index)", "Seoul Economic Daily (Hanmi SpaceX)", "CDW-G direct price check"],
+  "newSourcesWithUsefulData": ["DRAMeXchange/TrendForce", "CDW", "Mouser", "GovConnection", "SHI", "NEMIX RAM", "A-Tech Memory", "Tom's Hardware", "SCMP", "TweakTown", "WCCFTech", "KuCoin/Nasdaq", "Seoul Economic Daily"],
+  "keyChangesVsYesterday": [
+    "DDR5 spot $44.500→$44.667(▲+0.38%)——十三连ATH，高位巩固",
+    "DDR4 16Gb $65.550→$66.25(▲+1.07%)——突破$66关口，涨幅连续第二天反超DDR5",
+    "DDR4 8Gb $35.900→$36.10(▲+0.56%)",
+    "DDR5-5600 32GB tracking ¥8,733→¥8,767(▲+¥34,+0.39%)",
+    "CDW 9550 Pro新SKU #8455187 昨日In Stock→今日Item Backordered——仅维持1天即失守",
+    "CDW-G维持In Stock Day 2恢复确认",
+    "CDW consumer 9550 Pro Backordered Day 7——正式满一周不可得",
+    "Newegg 9550 Pro 30.72TB Day 2 OOS无恢复",
+    "Mouser QLC U.2 Day 25第四周第五天枯竭持续",
+    "Mouser QLC E1.L 4台Day 4稳定确认",
+    "🆕 Biwin $1.86B NAND 2年长约——下游模组厂锁定固定价格/数量至2028",
+    "🆕 AMD McAfee Computex确认DDR5 2028前无正常化",
+    "🆕 消费级零售DDR5回调(-13%)vs企业级ATH——two-tier market初步形成",
+    "🆕 Nasdaq半导体指数6/12单日+8%——全芯片板块暴涨（Marvell+11%/Intel+9%/AMD+8%）",
+    "🆕 Hanmi Semiconductor 500亿韩元投资SpaceX Terafab——$55B首期超大规模芯片工厂",
+    "🟡 CDW-G 9550 Pro可能调价至$17,925.07(+3.76%)——待直页确认"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "$44.667 十三连ATH，$45仅差$0.333。DDR4突破$66加速上行。AMD确认2028前无正常化。Biwin NAND长约间接验证全存储类供需紧张。WF6停产仅剩19天。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "$44.667直接传导¥8,767。DDR4突破$66确认全面牛市。AMD 2028时间线——等待策略需以年为单位。ServerMonkey 48-72h报价窗口持续有效。WF6威胁全供应链。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND停产仅剩18天+WF6停产19天双重供给冲击。Biwin $1.86B NAND长约确凿证据：下游制造商认为短缺至少持续至2028。品牌裂口2.5-2.7x结构性Day 39。DiscTech离线两个月+。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW新SKU仅维持1天即Backordered。CDW consumer Day 7满一周不可得。Newegg OOS Day 2。仅CDW-G维持In Stock。Biwin长约+NAND短缺至2028确认PCIe5 TLC供应无短期缓解。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser U.2 Day 25枯竭持续但补货仅24天后。E1.L 4台Day 4稳定。六渠道替代覆盖。Biwin长约锁定QLC/TLC NAND至2028侧面确认QLC上游同样紧张。MLC+WF6双重倒计时推升QLC需求。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM市场极小，公开报价几乎不可见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB tracking列",
+      "reasonCode": "out_of_scope",
+      "note": "配置无此列。NEMIX $3,200连续46天锚点——第23次请求创建tracking列"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB实时价格",
+      "reasonCode": "parser_gap",
+      "note": "DiscTech JS渲染离线Day 46。品牌裂口2.5-2.7x结构性Day 39。tracking lag 27-155%。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "30.72TB精确实时价格",
+      "reasonCode": "stale_repeated_sample",
+      "note": "tracking lag ~20%。VDURA $17,500基准可用但非精确企业级来源。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB CDW consumer可得性",
+      "reasonCode": "no_public_sample",
+      "note": "CDW consumer Backordered Day 7满一周不可得。新SKU仅维持1天即失守。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB Newegg可得性",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg OOS Day 2无恢复。此前$18,180关键零售参考。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB U.2",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Mouser结构性枯竭Day 25仅1台。补货7/6仅24天后。E1.L替代路径4台Day 4稳定。"
+    },
+    {
+      "category": "全品类",
+      "spec": "SS+Memory.net",
+      "reasonCode": "parser_gap",
+      "note": "Cloudflare封禁Day 39。两个来源价值高但长期不可达。需浏览器自动化或VPN绕过。"
+    }
+  ],
+  "newsHighlights": [
+    "TrendForce：韩国5月DRAM出口+370% YoY / NAND +207% YoY——量降价升，高附加值HBM/DDR5占比飙升",
+    "TrendForce上调2026存储市场预测至$889.3B（DRAM $618.7B + NAND $270.6B），2027上调至$1.28T",
+    "SK Hynix发布375层NAND年末量产路线图，DRAM月产能目标2030达100万片（+82%）",
+    "Micron分析师目标价上调——AI存储需求延续",
+    "🆕 Biwin $1.8608亿 2年NAND长约（上交所6/9公告）——固定价+固定量至Q2 2028，金额超年收50%，是迄今为止最具体的'短缺至2028'买方行为证据",
+    "🆕 AMD VP David McAfee Computex表态：DDR5价格预计2028年前不会正常化——平台生态方首次给出明确时间锚",
+    "🆕 消费级零售DDR5回调（32GB套条 $432→~$375，-13%）vs 企业级DDR5 spot十三连ATH $44.667——two-tier market初步形成",
+    "WF6停产倒计时：7/1仅剩19天。SK Specialty/Foosung加速认证但12-18月周期不变",
+    "Nasdaq半导体指数6/12单日+8%：金融面修复，非供需变化（DRAM ETF 6/3-6/5暴跌20%→6/9收复→6/12+8%同模式延续）",
+    "Hanmi Semiconductor 500亿韩元投资SpaceX Terafab：远期AI芯片需求引擎信号，2029+才有产出"
+  ],
+  "spotHistory": {
+    "DDR5_16Gb_spot": "$44.667",
+    "DDR5_16Gb_change": "+$0.167 (+0.38%)",
+    "DDR5_ATH_streak": 13,
+    "DDR4_16Gb_spot": "$66.25",
+    "DDR4_16Gb_change": "+$0.700 (+1.07%)",
+    "DDR4_8Gb_spot": "$36.10",
+    "DDR4_8Gb_change": "+$0.20 (+0.56%)"
+  },
+  "dateOffset": 46,
+  "phaseNotes": {
+    "phaseA": "已读取最近3份daily（6/9、6/10、6/11）+ tracking-table + market-history-summary + hardware-config。识别：DDR5 spot连续12天ATH→今日13天。DDR4连续加速。PCIe5 TLC CDW可得性持续恶化。QLC U.2长期枯竭。",
+    "phaseB": "DDR5主源NEMIX+DRAMeXchange双锚。SSD: CDW/CDW-G/Newegg/Mouser/GovConnection/SHI多源覆盖。全品类18列coverage 18/18 filled。今日新增验证CDW三SKU全退化+Biwin/NAND长约新信源+AMD 2028时间线。",
+    "phaseC": "DDR5 spot $44.667+0.38%十三连ATH确认。DDR4 $66.25+1.07%突破$66。CDW新SKU仅维持1天In Stock→Backordered关键信号。Newegg OOS Day 2。消费级零售DDR5回调-13%但企业级完全独立——two-tier market。",
+    "phaseD": "五品类趋势：DDR5-6400/DDR5-5600 up，PCIe4 TLC flat(tracking lag)，PCIe5 TLC volatility_expand，PCIe4 QLC volatility_expand。采购：DDR5-6400/DDR5-5600/PCIe4 TLC/PCIe5 TLC buy_now，PCIe4 QLC split_buy。Biwin $1.86B长约+AMD 2028时间线增强全部buy_now信号。",
+    "phaseE": "已产出daily-2026-06-12.md（含三遍补源） + tracking-table.md更新 + daily-analysis-2026-06-12.json + market-history-summary.json滚动更新。三遍新增Nasdaq+8%/Terafab/CDW-G潜在调价。"
+  }
+}
