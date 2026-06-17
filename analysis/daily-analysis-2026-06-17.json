@@ -1,0 +1,110 @@
+{
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-17T09:01:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["DRAMeXchange (daily)", "CDW", "CDW-G", "Mouser", "Newegg", "ServerSupply", "SHI"],
+  "newSourcesWithUsefulData": ["DRAMeXchange (new spot data)", "ServerSupply (new DDR5-6400 64GB cross-reference $2,530-$2,700)", "ServerSupply (QLC 61.44TB $31,000 ▼$1,500)"],
+  "keyChangesVsYesterday": [
+    "🎉 DDR5 spot $45.233 (▲+0.52%) — 十六连ATH！$45突破后首日加速（昨日+0.37%），未回踩",
+    "🔴🔴 DDR4 16Gb $68.125 (▲+0.93%) — 暴拉创单日最大涨幅，第四天反超DDR5",
+    "🟢 DDR4 8Gb $35.800 (0.00%) — 止跌企稳！两天回调后第三日归零，分化缓解",
+    "🆕 DDR3 4Gb $10.857 (▲+1.06%) — 加速上行第七天",
+    "🔴🔴 Newegg 9550 Pro OOS Day 10 — 两位数里程碑，结构性缺货坚定",
+    "🟢 CDW D7 + CDW-G D10 两位数双通道健康",
+    "⚠️ SS QLC 61.44TB $31,000 (▼$1,500 from $32,500) — 单点降价待观察是否扩散",
+    "DDR5-5600 32GB ¥8,830→¥8,876 (▲+¥46) — spot加速驱动"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Day 53七源锚点+NEMIX 84次验证。DDR5 spot $45.233十六连ATH加速(+0.52%)。$45突破后未回踩反而更强。DDR4 16Gb +0.93%暴拉。DDR3 +1.06%三代牛市。WF6仅14天/MLC仅13天。最强买单信号。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $45.233加速→tracking ¥8,876(▲+¥46)。$45突破后加速意味着不止涨还会涨得更快。DDR4 8Gb止跌。96GB NEMIX $3,200 Day 53。无等待理由。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC仅剩13天+WF6仅剩14天=双重供给收缩最后两周。Brand split 2.5-2.7x Day 46结构性。DDR4 16Gb +0.93%暴拉佐证企业级需求极度旺盛。紧迫度历史极值。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "Newegg OOS Day 10两位数里程碑——零售旗舰结构性缺货不可逆转。CDW D7+CDW-G D10双通道可直接采购。零售缺货→企业渠道压力传导。尽快锁定CDW/SHI现货。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser U.2 Day 33第二月枯竭但E1.L 4台Day 11+六渠道替代。SS $31,000小幅降价$1,500待观察是否扩散。MLC停产13天→QLC吸收入门企业需求。Tracking滞后~20%。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM几乎无公开报价，结构性缺口"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同DDR5-6400 16GB，连续53天无样本"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200单源锚点Day 53，第30次请求创建tracking列。有交叉验证(HPE/Dell/Hynix OEM/A-Tech)但非公开B2B报价"
+    }
+  ],
+  "escalatedRisks": [
+    {
+      "risk": "DDR5 spot $45.233 十六连ATH加速——$45突破后首日+0.52%(昨日+0.37%)未回踩",
+      "status": "ACCELERATING",
+      "categoriesAffected": ["All DDR5"],
+      "confidence": "high"
+    },
+    {
+      "risk": "DDR4 16Gb $68.125(+0.93%)暴拉——单日最大涨幅，逼近$70",
+      "status": "ACCELERATING",
+      "categoriesAffected": ["DDR5-5600"],
+      "confidence": "high"
+    },
+    {
+      "risk": "Newegg 9550 Pro OOS Day 10两位数里程碑——结构性缺货不可逆转",
+      "status": "DEEPENING",
+      "categoriesAffected": ["PCIe5 TLC"],
+      "confidence": "high"
+    },
+    {
+      "risk": "MLC NAND最后13天+WF6最后14天——双重供给收缩最终两周",
+      "status": "CRITICAL",
+      "categoriesAffected": ["PCIe4 TLC", "PCIe4 QLC", "All SSD"],
+      "confidence": "high"
+    },
+    {
+      "risk": "Mouser QLC 61.44TB U.2 Day 33第二月——补货19天后",
+      "status": "SUSTAINED",
+      "categoriesAffected": ["PCIe4 QLC"],
+      "confidence": "high"
+    }
+  ],
+  "spotPrices": {
+    "DDR5_16Gb": {"date": "2026-06-16", "avg": 45.233, "change": "+0.52%", "high": 57.00, "low": 30.50},
+    "DDR4_16Gb": {"date": "2026-06-16", "avg": 68.125, "change": "+0.93%", "high": 80.00, "low": 37.50},
+    "DDR4_8Gb": {"date": "2026-06-16", "avg": 35.800, "change": "0.00%"},
+    "DDR3_4Gb": {"date": "2026-06-16", "avg": 10.857, "change": "+1.06%"}
+  }
+}
