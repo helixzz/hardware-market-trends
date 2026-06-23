@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T09:00:00+08:00",
+  "executionNote": "09:00 定时刷新（08:45 早间报告二次执行）。MU 盘中回升至 ~$1,211（vs 08:45 $1,152），期权定价 ±14% 财报波动，CDW-G/Mouser 二次确认。",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange 6/22 session 全链更新（DDR5/DDR4/DDR3 spot）",
+    "CDW-G 9550 Pro #8215733（09:00 二次确认 In Stock）",
+    "Mouser QLC 61.44TB U.2 产品页（SBFPF2BV614T001，09:00 二次定向确认 5 台）",
+    "ServerSupply Hynix DDR5-6400 32GB $1,250",
+    "Insight Micron DDR5-6400 64GB $2,653",
+    "Howardcomputers 9550 Pro 30.72TB $18,192",
+    "Viperatech Micron 64GB DDR5-6400 $2,295",
+    "TipRanks 期权定价 ±14% 财报波动",
+    "Zacks 'Likely to beat Q3 earnings'"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange 6/22 session",
+    "CDW-G 9550 Pro In Stock",
+    "Mouser QLC 5 台产品页确认",
+    "ServerSupply Hynix 32GB $1,250",
+    "Insight Micron 64GB $2,653",
+    "Viperatech $2,295",
+    "TipRanks 期权数据",
+    "Zacks 预测"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5-5600 32GB tracking ¥9,030→¥9,063（▲+¥33，基于 6/22 spot $46.167）",
+    "CDW-G 9550 Pro 30.72TB In Stock 二次确认（09:00）——政府渠道现货开放",
+    "Mouser QLC 61.44TB U.2 5 台产品页二次确认（SBFPF2BV614T001）——库存连续第三天改善（1→4→5）",
+    "MU 盘中回升至 ~$1,211（08:45 时 $1,152，+$59 盘中反弹）——财报前买盘回补",
+    "期权定价 ±14% 财报后波动（TipRanks）——市场预期剧烈反应",
+    "Zacks: Likely to beat Q3 earnings estimates（历史超预期均值 +21.74%）",
+    "其余 17 列 tracking 值持平"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Spot $46.167 十八连 ATH，四天闭市后多头完胜。DDR4 $69.75 逼近 $70，DDR3 +1.60% 加速。NEMIX $1,488 维持 59 天未调价——零售补涨压力达历史极值。MLC 仅剩 7 天。Micron 财报明日风险事件——如果超预期可能触发新一轮调价。九源锚点 + NEMIX 87 次验证。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $46.167 → ¥9,063（▲+¥33）。十八连 ATH。DDR4→DDR5→DDR3 三代同步无回调窗口。96GB NEMIX $3,200 Day 59。无等待理由。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC 仅剩 7 天——Samsung Line 12 已物理转换 HBM4，产能 -41.7% YoY 不可逆。PCIe4 TLC 是 MLC 停产最直接受益品类。$69.75 DDR4 佐证企业级需求旺盛。最后一周窗口——7 天后 MLC 永久退出。Tracking 滞后 42-150% 为结构性缺口但不影响采购方向判断。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW-G In Stock 二次确认 + CDW consumer 8-10+ Days → 双通道可采购。Newegg OOS Day 16 结构不可逆。SS $17,700 Day 50 七周稳。WF6 已解除，Gen6 技术迭代压力存在。有条件应优先通过 CDW-G 批量采购；如无政府合同资质，通过 CDW consumer 排队。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser 5 台二次确认连续改善 + WF6 解除 = 恐慌性囤货不必要。但 MLC 7 天→QLC 吸收部分需求溢出。五渠道替代覆盖健康。可分批执行。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 59。企业级 16GB RDIMM 极少公开零售，企业采购偏好 32GB+。不期望短期改善。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 59。同上。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 单一零售源 Day 59。第三十四次请求创建 tracking 列。多 OEM 交叉参考存在（HPE/Dell/Hynix/A-Tech）但均为规格页/配置器价格。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "全容量 tracking 滞后 42-150%",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech JS offline Day 59（第四个月+5 天）——PCIe4 TLC 主源持续失能。tracking 值严重偏离实时市场。需寻找新的主源或接受结构性 tracking lag。"
+    }
+  ],
+  "risks": {
+    "DDR5_supercycle": {
+      "level": "CRITICAL",
+      "status": "ACCELERATING",
+      "detail": "DDR5 spot $46.167 十八连 ATH，四天闭市后多头完胜。DDR4 $69.75 逼近 $70。DDR3 $11.152 第十二天加速。三代 DRAM 同步超级周期无回调窗口。"
+    },
+    "MLC_NAND_eol": {
+      "level": "CRITICAL",
+      "status": "SUSTAINED",
+      "detail": "7 天剩余。Samsung Line 12 已物理转换 HBM4。MLC 产能 -41.7% YoY。MLC spot 涨 300%+ 至 $20-28。唯一剩余 NAND 供给结构性风险。"
+    },
+    "Newegg_9550_OOS": {
+      "level": "CRITICAL",
+      "status": "SUSTAINED",
+      "detail": "Day 16 第三工作周。零售旗舰结构性缺货不可逆。"
+    },
+    "Micron_earnings": {
+      "level": "UPCOMING",
+      "status": "1 DAY",
+      "detail": "明日 6/24 盘后。共识 $34.52B/$19.72 EPS/81% GM。期权定价 ±14% 波动。Zacks 预测 beat。MU 盘中 $1,152→$1,211 反弹。"
+    },
+    "WF6_crisis": {
+      "level": "ELEVATED",
+      "status": "RESOLVED (5 days)",
+      "detail": "6/19 Kanto Denka + Central Glass 获中国钨配额暂缓停产。WF6 价格仍高位 +200% YoY。地缘风险存续。无新进展 5 天。"
+    }
+  },
+  "sourceHealth": {
+    "DiscTech": "🔴 JS offline Day 59（第四个月+5 天）",
+    "Memory.net": "⚠️ Cloudflare Day 53",
+    "NEMIX": "✅ Active Day 87 continuous",
+    "DRAMeXchange": "✅ Active — 6/22 session $46.167（6/23 session tonight ~18:00）",
+    "CDW-G": "🟢🟢 In Stock 二次确认（09:00）",
+    "Mouser": "🟢🟢 5 台 U.2 产品页二次确认（09:00）",
+    "Newegg": "🔴 OOS Day 16",
+    "ServerSupply": "✅ Active Day 50",
+    "SHI": "🔴 Backordered Day 28"
+  }
+}
