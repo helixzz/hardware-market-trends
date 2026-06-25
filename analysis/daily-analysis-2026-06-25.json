@@ -1,0 +1,134 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T09:00:00+08:00",
+  "priorRunAt": "2026-06-25T08:30:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "note": "32GB/64GB/128GB tracking columns filled. 16GB no_public_sample Day 61."},
+    "DDR5-5600": {"filled": 3, "total": 3, "note": "32GB/64GB/128GB tracking columns filled. 96GB stale_repeated_sample (NEMIX $3,200 single source Day 61)."},
+    "PCIe4 TLC": {"filled": 4, "total": 4, "note": "3.84/7.68/15.36/30.72TB all filled. DiscTech JS offline Day 61. Tracking lag 42-150%."},
+    "PCIe5 TLC": {"filled": 4, "total": 4, "note": "All tracking columns filled. 30.72TB 8+1-ref 5+source Day 61. CDW-G In Stock confirmed."},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "All tracking columns filled. Mouser 1 unit but 4 arriving 6/26. 5-channel alternative coverage healthy."}
+  },
+  "newSourcesTried": [
+    "Micron Q3 FY2026 Earnings (IR/Multiple outlets)",
+    "DRAMeXchange June 24 session",
+    "Mouser QLC U.2 product page (SBFPF2BV614T001) - 09:00 refresh",
+    "CDW-G 9550 Pro #8215733 - 09:00 re-verify",
+    "SK Hynix DDR5 90% margin (Chosun/WCCFTech/overclock3d cross-verify)",
+    "TrendForce NAND Q3 2026 outlook",
+    "MU after-hours trading data (Investing.com/Perplexity Finance)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Micron Q3 FY2026 Earnings - $41.46B revenue (+346% YoY), $25.11 EPS, 84.9% GM, Q4 guide $50B",
+    "DRAMeXchange June 24 session - DDR5 $46.667 20th ATH, DDR4 $71.305, DDR3 $11.386",
+    "Mouser QLC - 09:00: 4 units arriving June 26 (tomorrow), 1 unit current",
+    "CDW-G 9550 Pro - In Stock $17,925.07 confirmed at 09:00",
+    "SK Hynix DDR5 90% margin + Microsoft 3-year deal - multi-source confirmed",
+    "MU after-hours: close $1,048.19, last trade $1,071.99 (+12%+)"
+  ],
+  "keyChangesVsYesterday": [
+    "🎉🎉🎉 Micron Q3 FY2026 record earnings: $41.46B revenue (+346% YoY, beat +17%), $25.11 EPS (beat +25%), 84.9% GM",
+    "🎉 DDR5 spot $46.667 — 20th consecutive ATH (▲+0.36%), $47 just $0.333 away",
+    "🔴 DDR4 16Gb $71.305 ▲+0.95% — $70 breakthrough confirmed with follow-through",
+    "🔴 DDR3 4Gb $11.386 ▲+1.02% — 14th consecutive day of acceleration",
+    "DDR5-5600 32GB ¥9,126→¥9,158 (▲+¥32) — sole tracking value change today",
+    "🆕🆕 SK Hynix DDR5 profitability at 90% — officially exceeds HBM margins, Microsoft 3-year deal",
+    "🆕 MU CEO: 'Tightness locked in beyond calendar 2027' — most definitive long-term shortage confirmation",
+    "⚠️ Mouser QLC 61.44TB 5→1 unit regression, but 🆕 4 units arriving June 26 (tomorrow)",
+    "MU stock closed $1,048.19, after-hours surged 12%+ to ~$1,072",
+    "16 of 18 columns unchanged vs yesterday — only DDR5-5600 32GB changed"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Day 61 8-source anchor. DDR5 spot 20th ATH $46.667. MU record $41.46B revenue. SK Hynix DDR5 90% margin + Microsoft 3-year deal. MU CEO confirms shortage beyond 2027. No waiting rationale remains."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $46.667 → ¥9,158. 20th ATH. SK Hynix converting HBM3E lines to DDR5. DDR5 profitability exceeds HBM for first time. All DRAM generations in synchronized bull market."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND final 5 days — last procurement window before June 30 permanent exit. MU NAND record $9.9B (+74% QoQ). NAND Q2 +70-75%, cumulative x4.2-x4.5. MU Q4 $50B guide implies continued NAND ASP increase."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW-G In Stock confirmed — government channel open. Newegg OOS Day 18 structural. CDW consumer price sustainability unverified. MU G9 Gen6 SSD rapid adoption but ASP very strong. Prioritize CDW-G bulk procurement."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser 5→1 regression but 4 units arriving tomorrow (6/26) + 407 Sept. Connection/GovConnection alternatives healthy. MLC 5 days creates demand spillover but near-term restock eliminates panic rationale."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM extremely rare in public retail. Day 61."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as DDR5-6400 16GB. Day 61."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 single retail source Day 61. 35th request for tracking column creation."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech primary source",
+      "reasonCode": "parser_gap",
+      "note": "JS offline Day 61 (4 months+7 days). Tracking lag 42-150% structural. Alternative coverage from CDW/ServerSupply/Newegg maintains minimum viable data."
+    },
+    {
+      "category": "All DDR5",
+      "spec": "ServerSupply + Memory.net cross-reference",
+      "reasonCode": "parser_gap",
+      "note": "Cloudflare Day 55 — DDR5 and PCIe5 TLC cross-reference anchors unverifiable."
+    }
+  ],
+  "risksUpdated": [
+    {
+      "risk": "MU Q3 FY2026 Record Earnings",
+      "level": "CONFIRMED RECORD",
+      "change": "🆕 NEW",
+      "detail": "$41.46B revenue, $25.11 EPS, 84.9% GM all records. Q4 $50B guide. CEO confirms tightness beyond 2027."
+    },
+    {
+      "risk": "DDR5 Spot 20th ATH",
+      "level": "ACCELERATING",
+      "change": "▲ 20th consecutive",
+      "detail": "$46.667, $47 just $0.333 away. DDR4 $71.305, DDR3 14th day acceleration."
+    },
+    {
+      "risk": "SK Hynix DDR5 Priority",
+      "level": "DEEPENING",
+      "change": "▲▲ New signal",
+      "detail": "DDR5 margin 90% exceeds HBM. Converting HBM3E production to DDR5. Microsoft 3-year deal."
+    },
+    {
+      "risk": "MLC NAND Exit",
+      "level": "CRITICAL",
+      "change": "▬ 5 days remaining",
+      "detail": "June 30 permanent exit. Last procurement window closing this weekend."
+    },
+    {
+      "risk": "Mouser QLC Regression",
+      "level": "ELEVATED→MONITOR",
+      "change": "▼ Downgraded",
+      "detail": "5→1 units but 4 arriving tomorrow (6/26). 407 Sept restock confirmed."
+    }
+  ]
+}
