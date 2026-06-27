@@ -1,0 +1,87 @@
+{
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-27T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange Module Spot (DDR5 RDIMM 32GB)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange Module Spot (DDR5 RDIMM 32GB $1,275 +2.00%)"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5 spot $46.733 0.00%——二十一连ATH后首次零变化，高位横盘Day 2，新高记录中断但未回落",
+    "DDR4 16Gb $72.317 ▲+1.02%——$72历史性突破，连续第二天加速",
+    "DDR3 4Gb $11.571 ▲+0.62%——第十六天加速",
+    "MLC 64Gb $28.182 ▲+6.17% / MLC 32Gb $14.000 ▲+5.53%——最后周末恐慌采购",
+    "DDR5 RDIMM 32GB模块现货 $1,275 ▲+2.00%——渠道端跳涨vs裸片横盘背离",
+    "MU -6.7%至$1,132.33——财报后获利回吐，仍高于财报前",
+    "Mouser QLC直页反爬封锁——首次遇到，库存无法独立验证"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $46.733高位横盘未回调——$46.7支撑确认。DDR5 RDIMM模块跳涨+2.00%渠道追赶。DDR4 $72.317持续突破佐证全面牛市。MU获利回吐不改变$41.46B基本面。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $46.733→¥9,170持平。模块现货$1,275 +2.00%渠道跳涨。DDR4 $72突破+DDR3十六天加速。无回调信号。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC仅剩3天——最后周末采购窗口。MLC 64Gb现货暴涨+6.17%恐慌采购全面爆发。NAND合约+70-75% QoQ宏观趋势不变。6/30后MLC永久退出。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW-G In Stock可采购。Newegg OOS Day 20四周里程碑结构性不可逆。MU -6.7%不影响CDW-G渠道。优先CDW-G批量采购。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser直页反爬封锁——库存无法独立验证。替代渠道Connection/GovConnection开放。MLC 3天→QLC需求溢出。通过替代渠道执行采购。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 63。企业级16GB RDIMM极少公开零售。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Day 63。同上。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Day 63。NEMIX $3,200单一零售源。第三十七次请求创建tracking列。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB ServerSupply anchor",
+      "reasonCode": "parser_gap",
+      "note": "ServerSupply CF Day 57。$17,700主锚点无法独立验证。SS+Memory.net CF Day 57。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB Mouser inventory",
+      "reasonCode": "parser_gap",
+      "note": "Mouser反爬封锁——今日首次遇到直页Access Denied。库存无法独立验证。替代渠道可用。"
+    }
+  ]
+}
