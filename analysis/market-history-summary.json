@@ -1,17 +1,19 @@
 {
-  "generatedAt": "2026-06-27T09:00:00+08:00",
+  "generatedAt": "2026-06-28T09:16:00+08:00",
+  "isRefresh": true,
+  "previousGeneratedAt": "2026-06-28T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 106,
-  "executionNote": "⏸️DDR5 spot $46.733(Jun26)0.00%——二十一连ATH后首次零变化(高位横盘Day 2,新高记录中断但未回落)。🔴🔴DDR4 16Gb $72.317(▲+1.02%)历史性突破$72连续加速！DDR3 $11.571(▲+0.62%)第十六天。🔴🔴MLC 64Gb $28.182(▲+6.17%)+MLC 32Gb $14.000(▲+5.53%)最后周末恐慌采购！MLC仅剩3天(周一6/30)。🔴DDR5 RDIMM 32GB模块现货$1,275(▲+2.00%)渠道跳涨——裸片横盘vs成品追赶背离。⚠️MU -6.7%至$1,132.33获利回吐(仍高于财报前$1,048)。⚠️Mouser QLC反爬封锁无法验证库存。全18列持平。DDR5-6400/DDR5-5600/PCIe4 TLC:buy_now(MLC最后周末)。PCIe5 TLC/PCIe4 QLC:split_buy。",
+  "trackingRows": 107,
+  "executionNote": "⏸️周日巩固·Day64二遍刷新——DDR5 spot $46.733(Jun26)高位横盘Day3维持。全18列持平。🔴🔴MLC NAND仅剩1天(明天6/30永久退出)！MLC 64Gb $28.182(▲+6.17%)最后周末恐慌采购。🆕🆕Apple 6/25全线涨价$100-$1,300(Mac Studio+$1,300/MacBook Pro+$300)——存储成本首次在终端消费品牌显性化。Tim Cook称'40年未见'。🆕Microsoft Xbox 8/1跟涨——第二家消费品牌。🆕🆕Mouser QLC U.2恢复5台(反爬封锁解除)——昨日供给恐慌解除。🆕SK Hynix Q2共识$56B/$45B OP(+618%YoY)·NAND利润率65%(Q4'25仅30%)·7/29正式发布。MU$1,132.33(-6.7%获利回吐)。明天6/30双重事件:DDR5 $47检验+MLC永久退出。DDR5-6400/DDR5-5600/PCIe4 TLC:buy_now。PCIe5 TLC/PCIe4 QLC:split_buy。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-06-27",
+      "latestDate": "2026-06-28",
       "latestCoverage": {"filled": 3, "total": 3},
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "DDR5 spot $46.733(Jun26)0.00%——二十一连ATH后首次零变化，高位横盘Day 2。$47阻力确认但未回调。自5/20 $41.100累计+$5.633(+13.71%)27个交易日。🔴DDR5 RDIMM 32GB模块现货$1,275(▲+2.00%)渠道跳涨——裸片横盘vs成品追赶背离。DDR4 $72.317(▲+1.02%)持续突破——牛市宽度扩大而非回调。NEMIX $1,488维持63天——零售补涨压力持续。",
-      "sourceHealthNote": "NEMIX Day 63 - 91 consecutive verifications。A-Tech 64GB dual-source Day 63。SS Hynix 32GB $1,250 + Micron 32GB $1,345 CF Day 57封锁。Memory.net CF Day 57·上沿$3,108 Day13维持。DiscTech JS offline Day 63 (4 MONTHS+9 DAYS)。MLC 3 days——最后周末。MU获利回吐-6.7%不改变$41.46B基本面。DRAM ETF launches confirm structural bull market entering retail FOMO phase。",
+      "trendNote": "DDR5 spot $46.733(Jun26)0.00%——高位横盘Day3维持(周末无session)。自5/20 $41.100累计+$5.633(+13.71%)27交易日。$47阻力确认但未回调。🔴DDR5 RDIMM 32GB模块现货$1,275(▲+2.00%)渠道跳涨。DDR4 $72.317(▲+1.02%)持续突破——牛市宽度扩大。NEMIX $1,488维持64天。明天6/30 DDR5 $47检验+MLC退出双重事件。🆕🆕Apple终端涨价$100-$1,300——DDR5需求从B2B穿透至消费者。",
+      "sourceHealthNote": "NEMIX Day 64 - 92 consecutive verifications。A-Tech 64GB dual-source Day 64。SS Hynix 32GB $1,250 + Micron 32GB $1,345 CF Day 58封锁。Memory.net CF Day 58·上沿$3,108 Day14维持。DiscTech JS offline Day 64 (4 MONTHS+10 DAYS)。MLC 1 day——最后准备日。MU获利回吐-6.7%不改变$41.46B基本面。DRAM ETF confirms structural bull market。🆕🆕Apple终端涨价=存储成本传导至消费端最强信号。🆕SK Hynix Q2共识$56B/+618%YoY。",
       "latestValues": {
         "DDR5-6400 32GB": 12122,
         "DDR5-6400 64GB": 18608,
@@ -27,16 +29,16 @@
         "DDR5-6400 64GB": 18608,
         "DDR5-6400 128GB": 52651
       },
-      "missingColumns": [],
+      "missingColumns": ["16GB"],
       "coverage14d": 3
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-06-27",
+      "latestDate": "2026-06-28",
       "latestCoverage": {"filled": 3, "total": 3},
       "averageCoverage14d": 3.0,
       "trend": "up",
-      "trendNote": "DDR5 spot $46.733(Jun26)0.00%高位横盘Day 2。Tracking ¥9,170持平。$47阻力确认。🔴DDR5 RDIMM 32GB模块现货跳涨至$1,275(▲+2.00%)——渠道端价格追赶信号。DDR4 $72.317▲+1.02%持续突破佐证牛市宽度。DDR3 $11.571第十六天加速。",
+      "trendNote": "DDR5 spot $46.733(Jun26)0.00%高位横盘Day3维持(周末无session)。Tracking ¥9,170持平。$47阻力确认。🔴DDR5 RDIMM 32GB模块现货跳涨至$1,275(▲+2.00%)。DDR4 $72.317▲+1.02%持续突破+ DDR3 $11.571第十六天加速。明天$47检验+MLC退出双重事件。🆕Apple终端涨价验证DDR5上行基本面。",
       "latestValues": {
         "DDR5-5600 32GB": 9170,
         "DDR5-5600 64GB": 19168,
@@ -48,21 +50,21 @@
         "DDR5-5600 128GB": 46600
       },
       "rollingMedians14d": {
-        "DDR5-5600 32GB": 9046,
+        "DDR5-5600 32GB": 9080,
         "DDR5-5600 64GB": 19168,
         "DDR5-5600 128GB": 46600
       },
-      "missingColumns": [],
-      "sourceHealthNote": "DRAMeXchange $46.733 高位横盘Day 2。DDR5 RDIMM 32GB模块现货$1,275 +2.00%——渠道端信号。NEMIX 32GB $1,298 retail premium +15.4%维持。SS+Memory.net Day 57 CF。DDR4 8Gb $36.000守住突破位+MLC最后3天。",
+      "missingColumns": ["16GB", "96GB"],
+      "sourceHealthNote": "DRAMeXchange $46.733 高位横盘Day3。DDR5 RDIMM 32GB模块现货$1,275 +2.00%——渠道端信号。NEMIX 32GB $1,298 retail premium +15.4%维持。SS+Memory.net Day 58 CF。DDR4 8Gb $36.000守住突破位。MLC最后1天。🆕SK Hynix Q2共识$56B OP+618%YoY。",
       "coverage14d": 3
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-06-26",
+      "latestDate": "2026-06-28",
       "latestCoverage": {"filled": 4, "total": 4},
       "averageCoverage14d": 4.0,
       "trend": "flat",
-      "trackingLagWarning": "DAY 63 - tracking lag PERSISTS: DiscTech JS offline 4 MONTHS+9 DAYS。MLC NAND ending THIS MONTH - FINAL 3 DAYS (Jun 30)。MLC 64Gb spot ▲+6.17% to $28.182 — last weekend panic buying。MU NAND record $9.9B (+74% QoQ)。MU CEO: tightness beyond 2027。Phison CEO: NAND shortage 'no end in sight' to Q2 2027。NAND Q2 +70-75% QoQ, cumulative x4.2-x4.5。Samsung PM1733 discontinued Day 31。Gartner NAND +234% annual。",
+      "trackingLagWarning": "DAY 64 - tracking lag PERSISTS: DiscTech JS offline 4 MONTHS+10 DAYS。MLC NAND ending MONDAY (Jun 30)——FINAL 1 DAY。MLC 64Gb spot ▲+6.17% to $28.182 — last weekend panic buying。MU NAND record $9.9B (+74% QoQ)。MU CEO: tightness beyond 2027。Phison CEO: NAND shortage 'no end in sight' to Q2 2027。NAND Q2 +70-75% QoQ, cumulative x4.2-x4.5。Samsung PM1733 discontinued Day 33。Gartner NAND +234% annual。eSSD >60% NAND market by year-end (Counterpoint)。🆕🆕Apple终端涨价——NAND供需紧张的最强消费者端信号。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705, "PCIe4 TLC 7.68TB": 18094, "PCIe4 TLC 15.36TB": 43739, "PCIe4 TLC 30.72TB": 113896
       },
@@ -73,13 +75,13 @@
         "PCIe4 TLC 3.84TB": 18705, "PCIe4 TLC 7.68TB": 18094, "PCIe4 TLC 15.36TB": 43739, "PCIe4 TLC 30.72TB": 113896
       },
       "missingColumns": [],
-      "sourceHealthNote": "DiscTech JS offline Day 63 - 4 MONTHS+9 DAYS。SS Day 57 CF。Brand split 2.5-2.7x structural Day 56。Samsung PM1733 discontinued Day 31。MLC NAND ending June - Final 3 days (last weekend)。MLC 64Gb spot ▲+6.17% panic buying。MU NAND $9.9B record。Phison CEO confirms NAND shortage to Q2 2027。Kioxia 2D NAND to 2027/3/15。",
-      "trendNote": "MLC NAND仅剩3天——最后周末。MLC 64Gb现货暴涨+6.17%至$28.182——最后时刻恐慌采购全面爆发。MLC 32Gb $14.000▲+5.53%。Brand split 2.5-2.7x结构性Day 56。MU NAND record $9.9B + MU CEO confirms tightness beyond 2027 + Phison CEO: 'no end in sight' to Q2 2027。PCIe4 TLC是MLC停产最直接受益品类。NAND Q3 continuing upward。BUY_NOW维持——本周末是MLC 6/30退出前最后决策窗口。",
+      "sourceHealthNote": "DiscTech JS offline Day 64 - 4 MONTHS+10 DAYS。SS Day 58 CF。Brand split 2.5-2.7x structural Day 57。Samsung PM1733 discontinued Day 33。MLC NAND ending Monday - Final 1 day。MLC 64Gb spot ▲+6.17% panic buying。MU NAND $9.9B record。Phison CEO confirms NAND shortage to Q2 2027。🆕Counterpoint: eSSD >60% NAND by year-end。🆕SK Hynix NAND margin 65% (Q4'25 30%) confirms structural profitability。🆕Apple终端涨价——消费者端NAND短缺信号。",
+      "trendNote": "MLC NAND仅剩1天——最后准备日。MLC 64Gb现货暴涨+6.17%至$28.182——最后时刻恐慌采购全面爆发。MLC 32Gb $14.000▲+5.53%。Brand split 2.5-2.7x结构性Day 57。MU NAND record $9.9B + MU CEO confirms tightness beyond 2027 + Phison CEO: 'no end in sight' to Q2 2027。PCIe4 TLC是MLC停产最直接受益品类。NAND Q3 continuing upward。🆕🆕Apple终端涨价+Microsoft跟涨确认NAND短缺已传导至消费者。BUY_NOW维持——今天是MLC最后准备日。",
       "coverage14d": 4
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-06-26",
+      "latestDate": "2026-06-28",
       "latestCoverage": {"filled": 4, "total": 4},
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
@@ -93,13 +95,13 @@
         "PCIe5 TLC 3.84TB": 18265, "PCIe5 TLC 7.68TB": 27817, "PCIe5 TLC 15.36TB": 54292, "PCIe5 TLC 30.72TB": 132759
       },
       "missingColumns": [],
-      "sourceHealthNote": "Newegg OOS Day 20 — four weeks (structural irreversible)。CDW-G $17,925 IN STOCK maintained。CDW consumer降价$17,467(-2.8%)持续性未验证。CDW #8455187 Backordered Day 19。SS $17,700 Day 54(CF Day 57封锁未验证)。SHI $21,529 Backordered D32。MU G9 Gen6 SSD快速采用中但ASP极强。MU -6.7%获利回吐但不影响渠道可得性。",
-      "trendNote": "Newegg OOS Day 20 - four week milestone, structural。CDW-G In Stock——政府渠道可采购。MU G9 Gen6 rapid adoption + ASP very strong。MU $41.46B earnings eliminates any expectation of near-term price relief despite -6.7% stock pullback。split_buy——优先CDW-G批量或CDW consumer 8-10d渠道。",
+      "sourceHealthNote": "Newegg OOS Day 21 — three full weeks (structural irreversible)。CDW-G $17,925 IN STOCK maintained Day 11。CDW U.2 In Stock model double-confirmed (MTFDLAL30T7THA-1BK1DABYYR)——🟢最可靠现货渠道。CDW #8455187 10-pack Backordered 4-6+ weeks——supply pipeline tightening。SS $17,700 Day 23 (5+ weeks elevated, CF Day 58 unverified)。SHI $21,529 Backordered Day 33。MU G9 Gen6 SSD快速采用中但ASP极强。MU -6.7%获利回吐但不影响渠道可得性。",
+      "trendNote": "Newegg OOS Day 21 - three-week milestone, structural。CDW In Stock模型二次确认——双变体分化(一个In Stock,另一个8-10+Days)。CDW-G In Stock政府渠道可用。⚠️ CDW 10-pack交期恶化至4-6+周——供给管道进一步收紧。MU G9 Gen6 rapid adoption + ASP very strong。MU $41.46B earnings eliminates any expectation of near-term price relief。split_buy——优先CDW In Stock型号或CDW-G渠道。",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-06-26",
+      "latestDate": "2026-06-28",
       "latestCoverage": {"filled": 4, "total": 4},
       "averageCoverage14d": 4.0,
       "trend": "volatility_expand",
@@ -113,119 +115,110 @@
         "PCIe4 QLC 15.36TB": 41982, "PCIe4 QLC 30.72TB": 83963, "PCIe4 QLC 61.44TB": 199324, "PCIe4 QLC 122.88TB": 332925
       },
       "missingColumns": [],
-      "trendNote": "⚠️ Mouser U.2反爬封锁——库存无法独立验证(6/27)。此前6/26:仅剩1台+4台补货未兑现+下一补货9/7。Web搜索缓存显示5台但不可靠。Connection/GovConnection替代渠道健康但需3-12% premium。MLC 3天→QLC吸收需求溢出。split_buy维持——通过替代渠道采购,不依赖Mouser单一渠道。",
+      "trendNote": "🆕🆕 Mouser QLC U.2恢复5台——反爬封锁解除！昨日1台+反爬封锁信号解除。E1.L 4台稳定。ServerSupply $31,500 In Stock re-confirmed。Connection/GovConnection替代渠道健康。CDW 4-6周交货。MLC最后1天→QLC需求溢出明日启动。split_buy维持——紧迫度较昨日降低(Mouser恢复)。",
       "coverage14d": 4,
-      "sourceHealthNote": "⚠️ Mouser QLC U.2 6/27反爬封锁——库存无法独立验证(此前6/26仅剩1台,补货落空)。下一补货9/7。E1.L 4台Day 21稳定。SS $31,500 CF Day 57封锁。GovConnection $34,383 Day 34。Connection $33,047现货替代。Tech-America $24,676低端旁证。替代渠道覆盖健康。MLC NAND ending this month - final 3 days(last weekend)。MU NAND $9.9B record。Phison CEO: NAND shortage 'no end in sight'。"
+      "sourceHealthNote": "🔓 Mouser QLC U.2反爬封锁解除——US直页确认5台库存(SBFPF2BV614T001)。E1.L 4台Day 22稳定。ServerSupply $31,500 In Stock确认(6/26购买者评价)。Connection $33,047 + GovConnection $34,383替代渠道健康。Tech-America $24,676低端旁证。MLC NAND ending Monday - final 1 day。MU NAND $9.9B record。Phison CEO: NAND shortage 'no end in sight'。🆕Apple终端涨价——QLC需求外溢加速信号。"
     }
   },
   "recentRunNotes": {
+    "2026-06-28": [
+      "⏸️周日巩固·Day64二遍刷新——DDR5 spot $46.733(Jun26)高位横盘Day3维持。全18列持平。🔴🔴MLC NAND仅剩1天(明天6/30永久退出)！MLC 64Gb $28.182(▲+6.17%)最后周末恐慌采购。🆕🆕Apple 6/25全线涨价$100-$1,300(Mac Studio+$1,300/MacBook Pro+$300)——存储成本首次在终端消费品牌显性化。Tim Cook称'40年未见'。🆕Microsoft Xbox 8/1跟涨——第二家消费品牌。🆕🆕Mouser QLC U.2恢复5台(反爬封锁解除)——昨日供给恐慌解除。🆕SK Hynix Q2共识$56B/$45B OP(+618%YoY)·NAND利润率65%(Q4'25仅30%)·7/29发布。MU$1,132.33(-6.7%获利回吐)。明天6/30双重事件:DDR5 $47检验+MLC永久退出。DDR5-6400/DDR5-5600/PCIe4 TLC:buy_now。PCIe5 TLC/PCIe4 QLC:split_buy。"
+    ],
     "2026-06-27": [
       "⏸️高位横盘·Day63·周六——DDR5 spot $46.733(Jun26)0.00%——二十一连ATH后首次零变化(新高记录中断但未回落)。全18列持平。🔴🔴DDR4 16Gb $72.317(▲+1.02%)历史性突破$72连续加速！DDR3 $11.571(▲+0.62%)第十六天。🔴🔴MLC 64Gb $28.182(▲+6.17%)+MLC 32Gb $14.000(▲+5.53%)最后周末恐慌采购！MLC仅剩3天(周一6/30)。🔴DDR5 RDIMM 32GB模块现货$1,275(▲+2.00%)渠道跳涨——裸片横盘vs成品追赶背离。⚠️MU -6.7%至$1,132.33获利回吐(仍高于财报前$1,048)。⚠️Mouser QLC反爬封锁无法验证库存。DDR5-6400/DDR5-5600/PCIe4 TLC:buy_now(MLC最后周末)。PCIe5 TLC/PCIe4 QLC:split_buy。"
     ],
     "2026-06-26": [
       "🎉二十一连ATH·Day62·09:00——DDR5 spot $46.733(Jun25)▲+0.14%减速仍创新高！$47仅差$0.267。DDR5-5600 ¥9,158→¥9,170(▲+¥12)。🆕DDR4 8Gb $36.000(▲+0.28%)结束五天横盘——四代DRAM首现全线上涨！DDR4 16Gb $71.585(▲+0.39%)。DDR3 $11.50(▲+1.00%)第十五天。⚡⚡MU首日完整交易+15.7%至$1,213.56(高$1,255)——市场全面重估$41.46B财报。⚠️⚠️Mouser QLC 6/26承诺4台补货未兑现！仅剩1台+下一补货9/7——供给侧可预测性崩溃。🆕Phison CEO:NAND短缺无尽头至Q2 2027。🆕DDR2合约Q3+35-40%。🆕Defiance+Roundhill双推2X DRAM ETF散户FOMO。🔴MLC仅剩4天。DDR5-6400/DDR5-5600/PCIe4 TLC:buy_now(MLC最后周末窗口)。PCIe5 TLC:split_buy。PCIe4 QLC:split_buy(紧迫度升级——Mouser补货落空)。"
-    ],
-    "2026-06-25": [
-      "🎉🎉🎉Micron Q3 FY2026财报超级大超预期！·Day61·09:00刷新——$41.46B营收(+346%YoY,beat+17%)/$25.11EPS(beat+25%)/84.9%GM(历史新高)！Q4指引$50B/$31EPS。MU收盘$1,048.19盘后$1,072(+12%)。🎉DDR5 spot $46.667(Jun24)二十连ATH▲+0.36%！$47仅差$0.333。🔴DDR4 16Gb $71.305(▲+0.95%)$70突破后继续。🔴DDR3 $11.386(▲+1.02%)第十四天。DDR5-5600 ¥9,126→¥9,158(▲+¥32)。🆕🆕SK Hynix DDR5利润率90%+Microsoft 3年长约+HBM3E→DDR5产线转换——DDR5正规军化超越HBM利润率。🆕MU CEO:'Tightness locked in beyond 2027'——史上最明确长期短缺确认。⚠️Mouser QLC 5→1台回落但🆕4台明日(6/26)到货(407台9月到货)。🔴MLC NAND仅剩5天。Newegg OOS D18。SS+Memory.net CF D55。DDR5-6400/DDR5-5600/PCIe4 TLC:buy_now(MU财报超级大超预期+MLC 5天+SK Hynix DDR5 90%利润率)。PCIe5 TLC:split_buy(CDW-G In Stock)。PCIe4 QLC:split_buy(Mouser明日补货+替代渠道健康)。🆕09:00新增:MU盘后收盘确认/Mouser明日(6/26)4台到货/CDW-G二次确认/NAND Q3上行。"
     ]
   },
   "escalatedRisks": [
     {
       "risk": "🎉🎉🎉 MU Q3 FY2026 RECORD EARNINGS — $41.46B revenue (+346% YoY, beat consensus by 17%), $25.11 EPS (beat by 25%), 84.9% GM. Q4 guide $50B/$31 EPS. CEO: 'Tightness locked in to persist beyond calendar 2027'. MU second trading day -6.7% profit-taking to $1,132.33 — still well above pre-earnings $1,048.",
-      "status": "SECOND DAY PROFIT-TAKING — June 27, 2026 09:00。MU closed $1,132.33 (-6.7%) on June 26, from high $1,255 to low $1,121.56。Typical post-earnings profit-taking — fundamentals unchanged at $41.46B/$50B。Still +24.4% from KOSPI bottom $910。",
+      "status": "SECOND DAY PROFIT-TAKING — June 28, 2026 09:16 (Sunday refresh)。MU closed $1,132.33 (-6.7%) on June 26。Typical post-earnings profit-taking — fundamentals unchanged at $41.46B/$50B。Still +24.4% from KOSPI bottom $910。YTD +313.14%。Next trading: Monday June 30。",
       "source": "Micron IR June 24, 2026 / MarketBeat / Benzinga / Seeking Alpha / TweakTown / Investing.com",
       "detail": "The $41.46B revenue beat represents the single largest positive surprise in storage industry history. Second trading day saw -6.7% profit-taking to $1,132.33 — a healthy technical correction that doesn't challenge the fundamental thesis. Still well above pre-earnings $1,048. Q4 $50B guide implies continued NAND/DRAM ASP strength.",
       "categoriesAffected": ["All"],
       "confidence": "high",
       "firstReported": "2026-06-25",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "⏸️ DDR5 spot $46.733 HIGH-LEVEL CONSOLIDATION — 21-consecutive ATH streak broken on June 26 (0.00%, second day at same value). $47 resistance confirmed but no decline. DDR5 RDIMM 32GB module spot $1,275 ▲+2.00% — channel catching up. DDR4 16Gb $72.317 ▲+1.02% new ATH — bull market width expanding.",
-      "status": "CONSOLIDATING (NOT DECLINING) — June 27, 2026 09:00。June 26 session $46.733 (0.00%) — ATH streak broken but price holds at all-time high。$47 resistance clear but no selling pressure。DDR5 RDIMM module spot jump +2.00% confirms channel price catching up。DDR4 $72.317 breaking through shows bull market is rotating not ending。",
+      "risk": "⏸️ DDR5 spot $46.733 HIGH-LEVEL CONSOLIDATION — 21-consecutive ATH streak broken on June 26 (0.00%, third day at same value including Sunday). $47 resistance confirmed but no decline. DDR5 RDIMM 32GB module spot $1,275 ▲+2.00% — channel catching up. DDR4 16Gb $72.317 ▲+1.02% new ATH — bull market width expanding. Next session: Monday June 30 — $47 test + MLC exit dual event.",
+      "status": "CONSOLIDATING (NOT DECLINING) — June 28, 2026 09:16 (Sunday refresh)。June 26 session $46.733 (0.00%) — ATH streak broken but price holds at all-time high for third day。$47 resistance clear but no selling pressure。DDR5 RDIMM module spot jump +2.00% confirms channel price catching up。DDR4 $72.317 breaking through shows bull market is rotating not ending。Monday 6/30 pivotal — $47 test + MLC exit dual event。",
       "source": "DRAMeXchange June 26, 2026 session",
-      "detail": "After 21 consecutive sessions of new ATH values, DDR5 spot paused at $46.733 on June 26 (0.00%). This is NOT a decline — it's high-level consolidation at all-time highs. DDR5 RDIMM 32GB module spot jumping to $1,275 (+2.00%) shows finished module prices still catching up to die-level spot. DDR4 $72.317 new ATH confirms the bull market continues rotating to mid-tier products.",
+      "detail": "After 21 consecutive sessions of new ATH values, DDR5 spot paused at $46.733 on June 26 (third day including weekend). This is NOT a decline — it's high-level consolidation at all-time highs. DDR5 RDIMM 32GB module spot jumping to $1,275 (+2.00%) shows finished module prices still catching up to die-level spot. DDR4 $72.317 new ATH confirms the bull market continues rotating to mid-tier products. Monday 6/30: $47 resistance test overlays with MLC NAND permanent exit.",
       "categoriesAffected": ["All DDR5", "DDR4", "DDR3"],
       "confidence": "high",
       "firstReported": "2026-06-06",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "🔴🔴🔴 MLC NAND spot panic buying — FINAL WEEKEND. MLC 64Gb $28.182 (▲+6.17%), MLC 32Gb $14.000 (▲+5.53%) — largest single-session MLC spot gains in tracking history. 3 days until June 30 permanent exit.",
-      "status": "FINAL WEEKEND PANIC — June 27, 2026。MLC 64Gb ▲+6.17% to $28.182, MLC 32Gb ▲+5.53% to $14.00。Largest single-session MLC gains recorded。3 days until permanent exit on June 30 (Monday)。TLC wafer $20.431 ▼-1.00% — NAND spot mixed but MLC isolated panic continues。",
+      "risk": "🔴🔴🔴 MLC NAND spot panic buying — FINAL DAY APPROACHING. MLC 64Gb $28.182 (▲+6.17%), MLC 32Gb $14.000 (▲+5.53%) — largest single-session MLC spot gains in tracking history. 1 day until June 30 permanent exit. Tomorrow (Monday) = last day of Samsung final MLC shipments.",
+      "status": "FINAL PREPARATION DAY — June 28, 2026。MLC 64Gb ▲+6.17% to $28.182, MLC 32Gb ▲+5.53% to $14.00。Largest single-session MLC gains recorded。1 day until permanent exit on June 30 (Monday)。TLC wafer $20.431 ▼-1.00% — NAND spot mixed but MLC isolated panic continues。Today is the last complete preparation day。",
       "source": "DRAMeXchange June 26, 2026 session / Samsung / TrendForce",
-      "detail": "The MLC NAND spot market is experiencing last-minute panic buying。MLC 64Gb surged +6.17% in a single session — the largest spike in tracking history — as buyers rush to secure remaining inventory before June 30。Simultaneously, 512Gb TLC wafer prices declined -1.00% to $20.431, creating a curious divergence: MLC panic vs TLC calm。MLC demand will inevitably spill into TLC/QLC after June 30。",
+      "detail": "The MLC NAND spot market is experiencing last-minute panic buying。MLC 64Gb surged +6.17% in a single session — the largest spike in tracking history — as buyers rush to secure remaining inventory before June 30。Simultaneously, 512Gb TLC wafer prices declined -1.00% to $20.431, creating a curious divergence: MLC panic vs TLC calm。MLC demand will inevitably spill into TLC/QLC after June 30。Today (Sunday) is the final preparation day before Monday morning execution。",
       "categoriesAffected": ["PCIe4 TLC", "PCIe4 QLC", "All SSD"],
       "confidence": "high",
       "firstReported": "2026-06-07",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "🆕🆕 SK Hynix DDR5 profitability at 90% — officially exceeds HBM margins. Signed 3-year Microsoft DDR5 supply agreement. Converting HBM3E production line to DDR5. HBM4 full-year shipment forecast revised down from 4.5B Gb to 4B Gb. 5-year plan to double total wafer capacity. US ADR listing to raise up to $29.4B now confirmed.",
-      "status": "DEEPENING — June 27, 2026 09:00。No new developments since yesterday。Microsoft 3-year DDR5 deal with minimum price guarantee and 10-30% upfront payment remains the strongest structural support。DDR5 profitability at 90% unprecedented。",
-      "source": "Chosun Ilbo / TrendForce / WCCFTech / DigiTimes / KED Global / overclock3d.net June 23-26, 2026",
-      "detail": "SK Hynix's DDR5 strategy deepening。US ADR listing confirmation broadens investor access。Microsoft 3-year deal with minimum price guarantee and upfront payment represents unprecedented long-term commitment from a hyperscaler。DDR5 exceeding HBM margins is the strongest possible structural confirmation of the DDR5 bull market。",
+      "risk": "🆕🆕 Apple 6/25 terminal price increases $100-$1,300 + CXMT lobbying — storage costs now visible on consumer price tags. Apple Mac Studio M3 Ultra +$1,300 ($3,999→$5,299), MacBook Pro +$300 ($1,699→$1,999), MacBook Air +$200, iPad Air +$150, iPad mini +$100. Tim Cook: 'unprecedented in 40 years'. Apple lobbying White House for CXMT memory access. Microsoft Xbox Aug 1 follow-on price increase. This is the strongest consumer-side confirmation of the storage super-cycle yet.",
+      "status": "NEW & ESCALATING — June 28, 2026 09:16。Apple 6/25 price increases confirmed by CBS/Forbes/Guardian/PBS/CNET multi-source。Microsoft Xbox Aug 1 follow-on。Apple CXMT lobbying confirmed by FT/9to5Mac/WCCFTech。Consumer electronics price tags now directly showing memory inflation for first time in this cycle。Signal value > supply impact。",
+      "source": "CBS News / Forbes / The Guardian / PBS / CNET / Financial Times / 9to5Mac / WCCFTech June 25-28, 2026",
+      "detail": "Apple's price increases represent the most definitive consumer-side signal that the storage super-cycle is real and sustained。From Mac Studio +$1,300 to iPad mini +$100, every Mac/iPad SKU affected。Tim Cook's 'unprecedented in 40 years' quote confirms this is not a short-term blip。Microsoft Xbox follow-on suggests gaming hardware also impacted。CXMT lobbying shows Apple exploring every possible supply diversification option — even sanctioned Chinese suppliers。This is a watershed moment: memory cost inflation has breached the consumer price barrier。",
+      "categoriesAffected": ["All DRAM", "All NAND", "Consumer electronics supply chain"],
+      "confidence": "high",
+      "firstReported": "2026-06-28",
+      "updatedDate": "2026-06-28"
+    },
+    {
+      "risk": "🆕🆕 SK Hynix DDR5 profitability at 90% — officially exceeds HBM margins. Signed 3-year Microsoft DDR5 supply agreement. Converting HBM3E production line to DDR5. HBM4 full-year shipment forecast revised down from 4.5B Gb to 4B Gb. 5-year plan to double total wafer capacity. US ADR listing confirmed. 🆕 Q2 consensus: $56B revenue / $45B OP (+618% YoY), NAND margin 65% (vs 30% Q4'25). Official earnings July 29.",
+      "status": "DEEPENING — June 28, 2026 09:16。Q2 analyst consensus now quantified at $56B/$45B OP。NAND margin trajectory 30%→65% in 6 months demonstrates structural shift。Microsoft 3-year DDR5 deal with minimum price guarantee remains strongest structural support。DDR5 profitability at 90% unprecedented。Official Q2 results July 29。",
+      "source": "Chosun Ilbo / TrendForce / WCCFTech / DigiTimes / KED Global / overclock3d.net / MK / KuCoin June 23-28, 2026",
+      "detail": "SK Hynix's DDR5 strategy deepening。US ADR listing confirmation broadens investor access。Microsoft 3-year deal with minimum price guarantee and upfront payment represents unprecedented long-term commitment from a hyperscaler。DDR5 exceeding HBM margins is the strongest possible structural confirmation of the DDR5 bull market。Q2 consensus $56B/+618% YoY with NAND margin at 65% signals across-the-board memory profitability acceleration。",
       "categoriesAffected": ["DDR5-6400", "DDR5-5600", "All DRAM"],
       "confidence": "high",
       "firstReported": "2026-06-24",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "🔴🔴 DRAM four-generation synchronized super-cycle: DDR5 $46.733 (ATH consolidation), DDR4 16Gb $72.317 (▲+1.02% new ATH), DDR4 8Gb $36.000 (steady after breakout), DDR3 $11.571 (16th acceleration day). DDR5 RDIMM module $1,275 ▲+2.00%. DDR2 contract Q3 +35-40%.",
-      "status": "ROTATING — June 27, 2026 09:00。DDR5 consolidating at ATH while DDR4 continues to break new highs。DDR4 16Gb $72.317 (▲+1.02%) new ATH — acceleration continuing。DDR3 16th day at $11.571。DDR5 module jump +2.00% confirms bull market rotating to finished products。",
-      "source": "DRAMeXchange June 26 session + TrendForce DDR2 Q3 forecast",
-      "detail": "The DRAM bull market is rotating rather than ending。DDR5 consolidating at $46.733 while DDR4 breaks $72 and DDR3 continues 16th day of acceleration。DDR5 RDIMM module +2.00% jump suggests the next leg up may come from finished products rather than raw die spot。DDR2 contract Q3 +35-40% confirms shortage extends to oldest nodes。",
+      "risk": "🔴🔴 DRAM four-generation synchronized super-cycle: DDR5 $46.733 (ATH consolidation Day 3), DDR4 16Gb $72.317 (▲+1.02% new ATH), DDR4 8Gb $36.000 (steady after breakout), DDR3 $11.571 (16th acceleration day). DDR5 RDIMM module $1,275 ▲+2.00%. DDR2 contract Q3 +35-40%. Q2 consumer DRAM +51-89% (TweakTown). 🆕 Apple terminal price increases are the consumer-side confirmation.",
+      "status": "ROTATING — June 28, 2026 09:16。DDR5 consolidating at ATH while DDR4 continues to break new highs。DDR4 16Gb $72.317 (▲+1.02%) new ATH — acceleration continuing。DDR3 16th day at $11.571。DDR5 module jump +2.00% confirms bull market rotating to finished products。Q2 consumer DRAM +51-89% quantification confirms mid-tier acceleration。🆕 Apple consumer price increases provide strongest demand-side validation yet。",
+      "source": "DRAMeXchange June 26 session + TrendForce DDR2 Q3 forecast + TweakTown Q2 consumer DRAM + Apple/CBS/Forbes June 25-28",
+      "detail": "The DRAM bull market is rotating rather than ending。DDR5 consolidating at $46.733 Day 3 while DDR4 breaks $72 and DDR3 continues 16th day of acceleration。DDR5 RDIMM module +2.00% jump suggests the next leg up may come from finished products rather than raw die spot。DDR2 contract Q3 +35-40% confirms shortage extends to oldest nodes。Q2 consumer DRAM +51-89% quantifies mid-tier acceleration。Apple price increases + Microsoft follow-on = consumer brands now publicly passing memory costs to end users。",
       "categoriesAffected": ["DDR4", "DDR5-5600", "DDR3", "DDR2"],
       "confidence": "high",
       "firstReported": "2026-06-16",
-      "updatedDate": "2026-06-27"
-    },
-      "status": "FINAL WEEKEND WINDOW — June 26, 2026。4 days until MLC NAND permanent exit on June 30。Phison CEO confirms shortage 'no end in sight' through Q2 2027 — independent validation of MU CEO's 'tightness beyond 2027'。NAND contract Q2 +70-75%, cumulative x4.2-x4.5。This is the last complete work-week Friday before MLC exit。",
-      "source": "TechPowerUp / Samsung / TrendForce / TweakTown / Counterpoint Research / Micron Q3 FY2026 / DigiTimes Phison CEO June 2026",
-      "detail": "4 days to act before MLC supply permanently offline。With WF6 crisis resolved (June 19), MLC exit is the sole structural NAND supply cut。Phison CEO's 'no end in sight' statement from DigiTimes provides independent third-party confirmation of the NAND super-cycle duration。MU NAND $9.9B record quarter。Q4 $50B guide implies NAND ASP continuing to increase。Last Friday before MLC exit — procurement decisions must be made this weekend。",
-      "categoriesAffected": ["PCIe4 TLC", "PCIe4 QLC", "All SSD"],
-      "confidence": "high",
-      "firstReported": "2026-06-07",
-      "updatedDate": "2026-06-26"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "🟢🟢🟢 WF6 SUPPLY CRISIS RESOLVED — Kanto Denka + Central Glass suspended July 1 permanent shutdown on June 19 after securing Chinese tungsten export quota allocations. 8 days resolved with no new developments.",
-      "status": "RESOLVED (DOWNGRADED from CRITICAL to ELEVATED then to MONITOR) — June 26, 2026 09:00。8 days since resolution with no new developments。WF6 production continues。NAND price expansion now solely driven by demand + MLC exit + Phison CEO confirmation。",
-      "source": "Hualihg / 36kr / BigGo / TrendForce / multiple sources June 19, 2026",
-      "detail": "Risk resolved for 8 days with no new developments。Markets have fully absorbed the resolution。MU $41.46B record earnings + Phison CEO confirmation + MU CEO tightness-beyond-2027 = NAND demand sufficient to sustain pricing without WF6 supply shock。",
-      "categoriesAffected": ["All SSD", "All NAND", "All semiconductor"],
-      "confidence": "high",
-      "firstReported": "2026-06-10",
-      "updatedDate": "2026-06-26",
-      "resolutionDate": "2026-06-19"
-    },
-    {
-      "risk": "🔴🔴 Newegg 9550 Pro 30.72TB OOS Day 20 — FOUR WEEKS structural retail OOS. 🟢 CDW-G #8215733 IN STOCK at $17,925.07 maintained. CDW #8455187 10-pack Backordered Day 19. SS $17,700 Day 54 (CF Day 57, unverified). SHI $21,529 Backordered Day 32.",
-      "status": "CRITICAL — June 27, 2026 09:00。Newegg OOS Day 20 — four-week milestone。CDW-G In Stock at $17,925.07 maintained。CDW consumer price sustainability ($17,467) unverified。SS anchor unverifiable due to CF Day 57。",
-      "source": "Newegg.com / CDW.com / CDWG.com / SHI.com / ServerSupply June 27, 2026 09:00",
-      "detail": "Day 20 OOS confirms Newegg retail channel is structurally closed for 9550 Pro 30.72TB for four full weeks。CDW-G remains the most reliable procurement channel at $17,925。MU $41.46B earnings with 84.9% GM and Q4 $50B guide strongly suggests no meaningful price relief coming。MU G9 Gen6 SSD rapid adoption may eventually ease Gen5 supply but timing uncertain。",
+      "risk": "🔴🔴 Newegg 9550 Pro 30.72TB OOS Day 21 — THREE WEEKS structural retail OOS. 🟢 CDW U.2 In Stock model (MTFDLAL30T7THA-1BK1DABYYR) double-confirmed — most reliable spot channel. 🟢 CDW-G #8215733 IN STOCK $17,925.07 maintained Day 11. ⚠️ CDW #8455187 10-pack Backordered 4-6+ weeks (worsened from 2-4 weeks). SS $17,700 Day 23 (CF Day 58, unverified). SHI $21,529 Backordered Day 33.",
+      "status": "CRITICAL — WORSENING pipeline, but CDW In Stock model available — June 28, 2026 09:16。Newegg OOS Day 21 — three-week milestone。CDW-G In Stock at $17,925.07 maintained Day 11。CDW U.2 In Stock model double-confirmed。⚠️ CDW 10-pack #8455187 backorder worsened from 2-4 weeks to 4-6+ weeks — supply pipeline tightening unequivocally confirmed。SS anchor unverifiable due to CF Day 58。CDW dual-variant split (one In Stock, another 8-10+ days) indicates mixed availability。",
+      "source": "Newegg.com / CDW.com / CDWG.com / SHI.com / ServerSupply June 28, 2026 web search verification",
+      "detail": "Day 21 OOS confirms Newegg retail channel is structurally closed for 9550 Pro 30.72TB for three full weeks。CDW situation is nuanced: one variant (MTFDLAL30T7THA-1BK1DABYYR) shows In Stock while another shows 8-10+ days。CDW-G remains the most reliable government procurement channel。CDW 10-pack backorder worsening to 4-6+ weeks is a new signal of supply pipeline tightening。MU G9 Gen6 SSD rapid adoption may eventually ease Gen5 supply but timing uncertain。",
       "categoriesAffected": ["PCIe5 TLC"],
       "confidence": "high",
       "firstReported": "2026-06-12",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "⚠️ Mouser QLC 61.44TB U.2 — inventory verification BLOCKED (Mouser anti-bot Access Denied). Previous status (June 26 09:00): 1 unit after promised 4-unit delivery failed. Web search cache suggests 5 units but unreliable. Connection $33,047 + GovConnection $34,383 alternatives available.",
-      "status": "VERIFICATION BLOCKED — June 27, 2026 09:00。Mouser direct page returns Access Denied — first time encountered anti-bot block。June 26 09:00 verified 1 unit with failed 6/26 delivery。Web search cached results show 5 units but cannot be confirmed。Connection/GovConnection alternatives available at 3-12% premium。",
-      "source": "Mouser Electronics (blocked) / Connection / GovConnection June 27, 2026",
-      "detail": "Mouser's anti-bot system now actively blocking direct page access — a new verification obstacle。June 26's promised 4-unit delivery remains unconfirmed。Alternative channels (Connection $33,047, GovConnection $34,383) provide reliable procurement paths at manageable premium。MLC 3 days continues to push demand toward QLC。split_buy maintained — use alternative channels。",
+      "risk": "🔓 Mouser QLC 61.44TB U.2 — RESTORED to 5 units. Anti-bot block lifted. Yesterday's 1 unit + anti-bot blocking resolved. E1.L 4 units Day 22 stable. ServerSupply $31,500 In Stock re-confirmed (6/26 verified buyer review). Connection $33,047 + GovConnection $34,383 alternatives available. CDW 4-6 weeks delivery.",
+      "status": "🔓 RESTORED — June 28, 2026 09:16。Mouser US direct page now accessible — 5 units confirmed (SBFPF2BV614T001)。Yesterday's anti-bot block resolved。E1.L 4 units stable。ServerSupply $31,500 In Stock with buyer review。Supply panic from yesterday de-escalated — no longer urgent but MLC exit tomorrow maintains split_buy recommendation。",
+      "source": "Mouser Electronics / Mouser Canada / ServerSupply / Connection / GovConnection June 28, 2026",
+      "detail": "Mouser's anti-bot system appears to have been a transient issue — direct page access restored and 5 units confirmed。This is a significant improvement over yesterday's 1 unit + blocked status。Alternative channels (ServerSupply $31,500, Connection $33,047, GovConnection $34,383) provide reliable procurement paths。MLC exit tomorrow continues to push demand toward QLC。split_buy maintained — urgency moderated but not eliminated。",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "medium",
       "firstReported": "2026-05-20",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     },
     {
-      "risk": "DiscTech JS offline Day 63 — PCIe4 TLC primary source still unreachable. Tracking lag 42-150% structural. No resolution path identified. Alternative coverage from CDW/ServerSupply/Newegg maintains minimum viable data.",
-      "status": "SUSTAINED — June 27, 2026. Day 63 (4 months+9 days). No change.",
+      "risk": "DiscTech JS offline Day 64 — PCIe4 TLC primary source still unreachable. Tracking lag 42-150% structural. No resolution path identified. Alternative coverage from CDW/ServerSupply/Newegg maintains minimum viable data.",
+      "status": "SUSTAINED — June 28, 2026. Day 64 (4 months+10 days). No change.",
       "categoriesAffected": ["PCIe4 TLC"],
       "confidence": "high",
       "firstReported": "2026-04-25",
-      "updatedDate": "2026-06-27"
+      "updatedDate": "2026-06-28"
     }
   ]
 }

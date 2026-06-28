@@ -1,0 +1,120 @@
+{
+  "date": "2026-06-28",
+  "generatedAt": "2026-06-28T09:16:00+08:00",
+  "isRefresh": true,
+  "previousGeneratedAt": "2026-06-28T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Mouser US direct page (re-check)",
+    "CBS News / Forbes / The Guardian / PBS / CNET",
+    "Financial Times / 9to5Mac / WCCFTech",
+    "Chosun Ilbo / MK / KuCoin",
+    "ShopBLT"
+  ],
+  "newSourcesWithUsefulData": [
+    "Mouser US direct page — QLC 61.44TB U.2 restored to 5 units (anti-bot block lifted)",
+    "CBS/Forbes/Guardian/PBS/CNET — Apple 6/25 price increases $100-$1,300 confirmed multi-source",
+    "FT/9to5Mac/WCCFTech — Apple CXMT lobbying details, Tim Cook 'unprecedented in 40 years'",
+    "Chosun/MK/KuCoin — SK Hynix Q2 consensus $56B revenue / $45B OP (+618% YoY), NAND margin 65%",
+    "Guardian/CBC — Microsoft Xbox Aug 1 price increase following Apple"
+  ],
+  "keyChangesVsYesterday": [
+    "🆕🆕 Apple 6/25 terminal price increases quantified ($100-$1,300 across Mac/iPad) — consumer brands absorbing memory costs publicly for first time",
+    "🆕 Microsoft Xbox Aug 1 follow-on price increase — second consumer hardware brand",
+    "🆕🆕 Mouser QLC 61.44TB U.2 restored to 5 units (was 1 unit + anti-bot blocking yesterday) — supply panic de-escalated",
+    "🆕 SK Hynix Q2 analyst consensus quantified: $56B rev / $45B OP (+618% YoY) / NAND margin 65% (vs 30% in Q4'25)",
+    "MLC NAND countdown: 1 day remaining (tomorrow June 30 permanent exit)",
+    "DDR5 $47 test + MLC exit dual event tomorrow (Monday 6/30)",
+    "All 18 tracking values flat (Sunday, no market updates)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "up",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $46.733 ATH consolidation Day 3. NEMIX $1,488 anchor 64 days. SK Hynix DDR5 90% margin + Q2 $56B consensus (+618% YoY). MU $41.46B earnings. Apple terminal price increases confirm demand strength. DDR5 RDIMM module spot +2.00% channel catch-up. Tomorrow $47 test probability >60%. No reason to wait."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Spot $46.733 → ¥9,170 flat. DDR4 $72.317 ATH + DDR3 Day 16 acceleration confirm bull market width. Apple + Microsoft price increases validate memory cost pressure penetrating to consumers. Tomorrow $47 test + MLC exit dual event."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC NAND final day (June 30 tomorrow). MLC 64Gb spot $28.182 (+6.17%) last-weekend panic buying. TLC direct beneficiary of MLC exit. MU NAND $9.9B record + CEO tightness beyond 2027 + Phison CEO 'no end in sight' to Q2 2027 — triple confirmation. NAND Q2 +70-75% QoQ / cumulative x4.2-x4.5. Apple consumer price increases = strongest consumer-side signal of NAND tightness. Last decision preparation day."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW In Stock model (MTFDLAL30T7THA-1BK1DABYYR) double-confirmed available. CDW-G $17,925 In Stock Day 11. CDW 10-pack backorder worsened to 4-6+ weeks. Newegg OOS Day 21 structural. MU G9 Gen6 rapid adoption. Execute via CDW In Stock or CDW-G channels."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser US restored to 5 units — anti-bot block lifted, supply panic de-escalated. E1.L 4 units stable. ServerSupply $31,500 In Stock confirmed. Connection/GovConnection alternatives healthy. MLC final day → QLC demand spillover starts tomorrow. Split buy urgency moderated by Mouser restock but not eliminated given MLC exit."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB RDIMM extremely rare in public retail. Day 64."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as above. Day 64."
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200 exists but not in standard tracking column. Not enough frequency for independent value."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX $3,200 single source 64 days. 38th request to add tracking column."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise TLC 1.92TB public quotes extremely rare."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech JS offline",
+      "reasonCode": "parser_gap",
+      "note": "Primary source offline Day 64 (4 months+10 days). Tracking lag 42-150% structural."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "ServerSupply/Memory.net CF",
+      "reasonCode": "parser_gap",
+      "note": "Cloudflare block Day 8. Cross-reference anchors unverifiable."
+    }
+  ],
+  "weekendNote": "Sunday — DRAMeXchange no session. Distributor pricing unchanged. Research focused on macro news and source status re-verification. Key findings: Apple consumer price increases quantified, Mouser QLC restock confirmed, SK Hynix Q2 consensus detailed.",
+  "tomorrowPreview": {
+    "date": "2026-06-30",
+    "events": [
+      "MLC NAND permanent exit — Samsung final shipment day. Global MLC capacity -41.7% YoY irreversible",
+      "DDR5 spot $47 resistance test — Monday DRAMeXchange session ~18:00 CST. Breakout probability >60%",
+      "MU third trading day post-earnings — $1,132 support test",
+      "Q3 2026 officially begins for NAND/DRAM contract pricing"
+    ],
+    "significance": "Dual event overlay — DDR5 $47 test coinciding with MLC NAND permanent exit. Highest-impact single day in tracking history."
+  }
+}
