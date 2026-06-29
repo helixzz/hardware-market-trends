@@ -1,0 +1,133 @@
+{
+  "date": "2026-06-29",
+  "generatedAt": "2026-06-29T09:46:00+08:00",
+  "refreshFrom": "2026-06-29T09:00:00+08:00",
+  "isFinalPass": true,
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "ServerSupply (full PCIe5 brand spectrum)",
+    "ServerOrbit (9550 Pro same-day ship)",
+    "Nomura (Q3 DRAM +24% forecast)",
+    "Robinhood/MarketBeat (MU trading data)",
+    "Reddit r/DataHoarder (QLC grassroots demand)",
+    "NEMIX RAM (Day 94 verification)",
+    "A-Tech Memory (dual-source maintain)",
+    "Mouser US (QLC 61.44TB stock update - blocked)",
+    "Connection (QLC shipping confirmation)",
+    "Donga Ilbo (Samsung $651B 10yr investment, Jun 29)",
+    "TrendForce (DDR2 Q3 contract +35-40%, Jun 22)",
+    "Mouser US (cache check - 5 vs 4 discrepancy)"
+  ],
+  "newSourcesWithUsefulData": [
+    "ServerSupply (PCIe5 full brand spectrum)",
+    "ServerOrbit (6th PCIe5 spot channel)",
+    "Nomura (2nd Q3 institutional forecast)",
+    "Robinhood (MU $1,133.50 stabilization)",
+    "Connection (QLC 1-2 day shipping, dual price pages $33K/$35K)",
+    "Donga Ilbo (Samsung 1,000T won 10yr investment)",
+    "TrendForce (DDR2 Q3 +35-40% contract forecast)"
+  ],
+  "keyChangesVsYesterday": [
+    "全18 tracking 列持平（周一早盘，周末无 DRAMeXchange session，预期内）",
+    "MU $1,133.50 企稳——财报后获利回吐充分消化，$1,130 支撑确认",
+    "🆕 Nomura Q3 DRAM +24% QoQ——第二家大幅上修预测的机构（继 Jefferies +40-50%）",
+    "🆕 ServerSupply PCIe5 全面品牌价格频谱：Samsung $14K / Micron 6550 $17K / Kioxia refurb $7.6K",
+    "🆕 ServerOrbit 9550 Pro In Stock 同日发货——第六 PCIe5 现货渠道",
+    "Mouser QLC 61.44TB U.2 5→4 台（周末售出 1 台），替代渠道充分",
+    "Connection QLC $35,203 In Stock 1-2 天发货确认",
+    "🆕 Samsung 1,000 万亿韩元（$651B）十年投资计划（Donga Ilbo 6/29）",
+    "🆕 SK Hynix US ADR $29B 估值即将启动",
+    "🆕 TrendForce DDR2 Q3 合约价 +35-40%",
+    "MLC NAND 最后 1 天——明日 6/30 永久退出"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488 锚点 66 天。DDR5 spot $46.733 高位横盘未回调。Jefferies +40-50% + Nomura +24% 双机构背书 Q3 加速。DDR5 RDIMM 模块现货 +2.00%。Samsung $651B 十年投资间接验证供给紧张长期化。今晚 $47 突破概率 ~65%。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "$46.733 高位横盘 Day 4。Nomura +24% 保守端仍预示 Q3 显著上行。DDR4 $72 突破 + DDR3 加速 + DDR2 Q3 +35-40%——四代 DRAM 全面牛市。无回调信号。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "🔴 MLC NAND 仅剩 1 天——明日永久退出。今日最后完整采购决策日。NAND Q2 +70-75% / 累计 x4.2-x4.5。四重独立确认（MU NAND $9.9B + Phison Q2 2027 + Jefferies +40-50% + Nomura +24%）。全产业链卖光。明天过后再无 MLC 缓冲。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "四现货渠道（CDW/CDW-G/Wiredzone/ServerOrbit）可用。CDW 10-pack 交期 4-6+ 周。Newegg OOS Day 24 结构性。ServerSupply 全品牌频谱 1.8-2.4x。优先 CDW/CDW-G 现货。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "五路覆盖（Mouser 4台/E1.L 4台/SS $31,500/Connection $35,203/GovConnection）。CDW $26,016 最优价但 4-6 周。Mouser 缓存 5 台 vs 直接验证 4 台差异已知。MLC 退出明日启动 QLC 需求溢出。供给不恐慌但双机构背书+MLC 退出不允许等待。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 6400 16GB RDIMM 极罕见——市场主流 32GB 起跳。Day 66。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上。Day 66。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 TLC 1.92TB 公开报价极稀。Day 66。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech 主源",
+      "reasonCode": "parser_gap",
+      "note": "JS 渲染离线 Day 66（四个月+12 天）。Tracking 滞后 42-150% 结构性。"
+    }
+  ],
+  "macroSignals": {
+    "DDR5_spot": "$46.733 (Jun26, 0.00%, 高位横盘 Day 4)",
+    "DDR4_16Gb_spot": "$72.317 (▲+1.02%, $72 新 ATH)",
+    "DDR3_4Gb_spot": "$11.571 (▲+0.62%, 第十七天加速)",
+    "DDR2_contract_Q3": "TrendForce +35-40% QoQ——四代 DRAM 全部上行",
+    "MU_stock": "$1,133.50 (企稳, 区间 $1,119.93-$1,198.71, PE 25.63)",
+    "MLC_NAND": "最后 1 天——明日 6/30 永久退出。MLC 64Gb $28.182 ▲+6.17%",
+    "Jefferies_Q3": "+40-50% QoQ, Q4 +30-40%, 2028 年前无回落",
+    "Nomura_Q3": "+24% QoQ——第二机构背书（保守端）",
+    "Samsung_10yr_plan": "1,000 万亿韩元（$651B）十年投资（Donga 6/29）",
+    "SK_Hynix_US_ADR": "$29B 估值 US ADR 即将启动",
+    "Apple_CXMT": "Apple 6/25 全线涨价 + CXMT 游说白宫持续",
+    "SK_Hynix_Q2_consensus": "OP 利润率 ~80%, 7/29 正式发布"
+  },
+  "sourceHealth": {
+    "DiscTech": {"status": "JS_offline", "days": 66, "note": "四个月+12 天"},
+    "ServerSupply": {"status": "cloudflare_blocked", "days": 59},
+    "Memory.net": {"status": "cloudflare_blocked", "days": 59},
+    "Newegg_9550_Pro": {"status": "OOS", "days": 24, "note": "三周+结构性"},
+    "Mouser_QLC_U2": {"status": "available", "units": 4, "cache_shows": 5, "note": "周末降 1 台，缓存与直接验证不一致"},
+    "CDW_9550_Pro": {"status": "in_stock", "days": 13},
+    "Samsung_PM1733": {"status": "discontinued", "days": 35}
+  },
+  "tomorrowPreview": {
+    "MLC_NAND_exit": "6/30 永久退出——Samsung 最后发货日",
+    "DDR5_spot_47_test": "今晚 ~18:00 CST DRAMeXchange session——$47 突破检验",
+    "Q3_2026_start": "7/1 正式进入下半年——NAND/DRAM 全面下半年定价周期",
+    "MU_direction": "$1,130-$1,200 区间震荡或突破"
+  }
+}
