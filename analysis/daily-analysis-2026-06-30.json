@@ -1,0 +1,133 @@
+{
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T09:00:00+08:00",
+  "previousGeneratedAt": "2026-06-30T08:46:00+08:00",
+  "isRefresh": true,
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange 6/29 session (DDR5/DDR4/DDR3 spot)",
+    "Google Finance MU 6/29 close",
+    "CDW PCIe4 TLC D7-P5520 pricing refresh",
+    "CDW PCIe5 9550 Pro 30.72TB stock check",
+    "Mouser QLC 61.44TB stock check",
+    "Connection QLC 61.44TB pricing verification",
+    "Newegg QLC multi-SKU verification",
+    "ServerSupply QLC/PCIe5 pricing",
+    "Wiredzone PCIe5 stock check",
+    "Samsung PM1743 PCIe5 pricing refresh",
+    "Donga Ilbo Samsung+SK $518B investment details",
+    "TrendForce SK Hynix/Kioxia ADR update",
+    "Counterpoint Research NAND price tracker June 2026",
+    "TweakTown Q2 2026 consumer DRAM price surge",
+    "California antitrust lawsuit coverage",
+    "TrendForce 6/23 weekly spot update"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange 6/29 session",
+    "Google Finance MU 6/29 close",
+    "CDW PCIe4 TLC/PCIe5/QLC",
+    "Mouser QLC",
+    "Connection QLC",
+    "Newegg QLC",
+    "ServerSupply QLC",
+    "Donga Ilbo/Taipei Times Samsung+SK $518B",
+    "TrendForce ADR update",
+    "TweakTown Q2 consumer DRAM +89%",
+    "California antitrust lawsuit vs Samsung/SK/Micron"
+  ],
+  "keyChangesVsYesterday": [
+    "🔴 MLC NAND 永久退出日——Samsung最后发货，全球MLC产能-41.7%不可逆",
+    "DDR5 spot $46.733高位横盘Day5——$47仍未突破但未回调",
+    "DDR4 16Gb $72.988(▲+0.93%)——$73新ATH，六月累计+20.1%",
+    "DDR3 4Gb $11.762(▲+1.65%)——第十八天加速",
+    "MU $1,145.28(▲+1.04%)企稳回升——获利回吐消化完毕",
+    "Mouser QLC U.2 4→5台恢复——供给警报降级",
+    "Samsung+SK Hynix $518B投资细节——光州4新晶圆厂+龙仁/平泽/清州扩产",
+    "CDW PCIe5 9550 Pro In Stock Day15持续确认",
+    "🆕 California反垄断诉讼——Samsung/SK Hynix/Micron被控联合操纵DRAM/NAND价格",
+    "🆕 消费级DRAM Q2最高涨89%——LPDDR5X+89%/DDR4+51%，OEM被迫缩减SSD容量",
+    "🆕 全球存储市场2026有望达$1T"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX $1,488锚点67天。DDR5 spot $46.733高位横盘未回调。DDR4 $72.988新ATH+全面牛市宽度扩大。Samsung+SK $518B超级周期确认。Jefferies+Nomura+California诉讼三重信号。$47突破前是最后窗口。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $46.733横盘不回调。DDR4 $73突破+DR3十八天加速佐证牛市宽度。消费级DRAM Q2+89%证明涨价穿透全链。今晚$47再检验。MLC退出日。无等待理由。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "🔴MLC NAND今日永久退出——历史性分水岭。今日过后再无MLC替代缓冲。CDW新品定价比tracking高48-50%。MU NAND $9.9B+CEO 2027+Phison Q2 2027+NAND Q3+40-50%+California诉讼——六重信号。今日是最后完整采购决策日。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW/CDW-G/Wiredzone/ServerOrbit四现货渠道。CDW #8215733 In Stock $17,969.99 Day15确认。CDW 10-pack交期4-6+周恶化。Newegg OOS Day24结构性。MLC退出+消费DRAM+89%不允许等待——优先CDW/CDW-G现货通路执行。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser 5台恢复+E1.L 4台+Newegg多SKU($25,999-$33,249)+Connection$35,203+七路覆盖。供给不恐慌但MLC退出今日正式启动QLC需求溢出。NAND Q3+40-50%多方确认+消费DRAM+89%佐证。通过替代渠道执行采购。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级6400 16GB RDIMM极罕见，市场主流起跳32GB"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200单源稳定67天但非tracking列"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级TLC 1.92TB公开报价极稀"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "全容量",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech JS offline Day67(四个月+13天)。CDW新品定价验证tracking滞后48-50%。MLC退出后TLC替代品为唯一标的。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "ServerSupply+Memory.net Cloudflare封锁Day60。Newegg OOS Day24。CDW可采购但校验源受限。"
+    }
+  ],
+  "newSignals09Refresh": [
+    "California反垄断诉讼——Samsung/SK Hynix/Micron被控联合操纵DRAM/NAND价格",
+    "消费级DRAM Q2最高涨89%(TweakTown)——LPDDR5X+89%/DDR4+51%",
+    "全球存储市场2026有望达$1T(AI驱动)",
+    "NAND 512Gb TLC现货周跌-1.77%(TrendForce 6/23周报)——现货观望但不改合约Q3+40-50%",
+    "DDR4现货周涨仅+0.28%——交易清淡但供给无松动",
+    "Newegg QLC多SKU验证$25,999-$33,249",
+    "Connection QLC $35,202.67精确定价验证"
+  ]
+}
