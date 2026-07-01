@@ -1,0 +1,131 @@
+{
+  "date": "2026-07-01",
+  "generatedAt": "2026-07-01T09:46:00+08:00",
+  "refresh": true,
+  "previousGeneratedAt": "2026-07-01T08:46:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "missingSpecs": ["16GB"]},
+    "DDR5-5600": {"filled": 3, "total": 3, "missingSpecs": ["16GB", "96GB"]},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange 6/30 session (DDR5/DDR4/DDR3)",
+    "CDW 9550 Pro 全系列库存验证",
+    "Mouser QLC U.2 库存刷新",
+    "Newegg 9550 Pro OOS 状态",
+    "SK Hynix ADR Bookbuilding 时间线",
+    "Samsung 牙山投资计划细节",
+    "KuCoin/DigiTimes 功率半导体涨价",
+    "Chosun Michael Burry 周期警告",
+    "MK.co.kr Samsung $1.72T 十年投资"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW 9550 Pro 全系列 In Stock",
+    "Mouser QLC U.2 4台（▼-1）",
+    "MU 6/30 收盘修正 $1,154.29",
+    "SK Hynix ADR Bookbuilding 7/6→定价 7/9",
+    "Samsung $1.72T 十年总投资详情",
+    "~20家功率半导体 7/1 涨价",
+    "Michael Burry 周期见顶警告"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5-5600 32GB ¥9,170→¥9,190(▲+¥20)——DDR5 spot五日横盘后新ATH驱动",
+    "MU 6/30 收盘修正为 $1,154.29(▲+0.79%)——08:46首遍使用盘中数据错误标为下跌",
+    "CDW 9550 Pro 全系列(3.84/7.68/15.36/30.72TB) In Stock——PCIe5可得性重大改善",
+    "Mouser QLC U.2 5→4台(▼-1)——库存递减但速度温和",
+    "Newegg 9550 Pro OOS Day 26——四周+结构性缺货持续",
+    "SK Hynix ADR Bookbuilding 7/6 启动·定价 7/9·交易 7/10——详细时间线确认",
+    "🆕 ~20家功率半导体公司 7/1 涨价——非存储品类同步上行",
+    "🆕 Michael Burry 周期见顶警告——熊方反叙事出现",
+    "Samsung $1.72T 十年总投资（含牙山 $90.8B HBM封装+数据中心）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $46.833五日横盘后突破新ATH。零售锚点第68天稳。SK Hynix ADR 9天后催化。DDR4/DDR3同步上涨证明牛市宽度。$47破位在即。MU $1,154企稳回升。TrendForce Q3 PC DRAM上调+15-20%。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "与DDR5-6400同步。DDR5 spot突破带动。TrendForce Q3 +15-20%上调。Citi Q4 $1,586目标(+82% vs Q1)。不容等待。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC退出后TLC需求溢出已启动。CDW实时价$4,175-$8,075远高于tracking ¥18,094-¥43,739（滞后48-88%）。NAND合约Q3强势（Jefferies +40-50%）。MLC产能不可逆消失→TLC供需最紧张品类。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW全系列(3.84/7.68/15.36/30.72TB) In Stock Day18——可得性大幅改善。CDW-G+Wiredzone+ServerOrbit四现货渠道+。但Newegg OOS Day26+SHI Backordered说明高端现货紧张。有现货渠道时果断执行。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser 4台(▼-1)+E1.L 4台+七路替代渠道。61.44TB $24,600-$34,356多源带。MLC退出后QLC需求溢出逻辑不变。Mouser单台售出速度温和——供给不恐慌但需持续跟踪。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 6400 16GB RDIMM 极罕见，长期无公开价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 5600 16GB RDIMM 极罕见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200 稳定 67 天但非 tracking 列"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "全系列实时价",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech JS离线 Day 68（4个月+14天）。tracking滞后48-88%。CDW新品价可部分替代但渠道不同。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB (Newegg)",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg OOS Day 26——零售渠道结构性失守。CDW/CDW-G/Wiredzone/ServerOrbit 替代覆盖充分。"
+    },
+    {
+      "category": "All",
+      "spec": "ServerSupply/Memory.net",
+      "reasonCode": "parser_gap",
+      "note": "Cloudflare 403 封锁 Day 62——搜索摘要可绕过获取部分价格但不可全量验证。"
+    }
+  ],
+  "macroSignalSummary": {
+    "DDR5_spot": "$46.833 (Jun30, ▲+0.21%, NEW ATH)",
+    "DDR4_spot": "$73.744 (Jun30, ▲+1.04%, NEW ATH)",
+    "DDR3_spot": "$12.038 (Jun30, ▲+2.35%, 19th day acceleration)",
+    "MU_close": "$1,154.29 (Jun30, ▲+0.79%)",
+    "SK_Hynix_ADR": "Bookbuilding 7/6→Pricing 7/9→Trading 7/10 (SKHY, ~$166/ADS, $29.4B)",
+    "Samsung_7/2": "Asan $90.8B data center+HBM packaging+$1.72T 10-year total investment",
+    "TrendForce_Q3_DRAM": "PC DRAM +15-20% (upgraded from +8-13%), Server DRAM +13-18%",
+    "MLC_exit": "Executed 6/30——TLC/QLC demand spillover in progress",
+    "new_risks": [
+      "~20 analog/power semiconductor firms July 1 price hikes——full semiconductor chain now synchronized",
+      "Michael Burry warns cycle peak——bear-side counter-narrative",
+      "Mouser QLC 5→4 (▼-1)——mild but worth monitoring"
+    ],
+    "new_positives": [
+      "CDW 9550 Pro FULL SERIES In Stock (3.84/7.68/15.36/30.72TB)——PCIe5 availability significantly improved",
+      "MU corrected to +0.79% gain (not -0.57% as first pass reported)",
+      "Korean President Lee personally overseeing Samsung/SK investments——national strategy level confirmation"
+    ]
+  }
+}
