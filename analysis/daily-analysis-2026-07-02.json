@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-02",
+  "generatedAt": "2026-07-02T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "32GB NEMIX OOS——零售锚点首次丢失。64GB/128GB维持。16GB持续no_public_sample。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "DDR5 spot $46.833第二次横盘。NEMIX 32GB零售OOS。64GB/128GB多源带维持。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW D7-P5520 URLs失效+DiscTech Day 69。来源健康度降至'严重不足'。tracking滞后48-150%持续。1.92TB no_public_sample。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "CDW 30.72TB跳涨+3.6%。7.68TB E3.S停产。E3.S生产线收缩。Newegg OOS Day 27。1.92TB有E3.S锚点但no tracking列。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "Mouser反爬+Connection 403——双源封锁。昨日七路覆盖今日仅2-3路可验证。MLC退出后首个来源危机。"}
+  },
+  "newSourcesTried": ["TrendForce DRAM spot 7/1 session", "CDW 9550 Pro 30.72TB/3.84TB/7.68TB", "Newegg NEMIX OOS验证", "Mouser QLC（反爬封锁）", "Connection QLC（403）", "CDW D7-P5520（URL失效）", "Google Finance MU（JS渲染无数据）", "Yahoo Finance API（超时）"],
+  "newSourcesWithUsefulData": ["TrendForce 7/1 session（DDR5/DDR4/DDR3全系）", "CDW 9550 Pro 30.72TB（跳涨确认）", "CDW 9550 Pro 7.68TB E3.S（停产确认）", "Newegg NEMIX（OOS确认）"],
+  "keyChangesVsYesterday": [
+    "DDR5 spot $46.833第二次横盘0.00%——$47连续第二session未破",
+    "DDR4 16Gb $74.625(▲+1.20%)NEW ATH——加速第四日反超DDR5",
+    "DDR4 8Gb $36.10(▲+0.28%)打破五日横盘",
+    "DDR3 $12.171(▲+1.11%)第二十天连续加速",
+    "🔴🔴🔴NEMIX DDR5-6400 32GB首次OOS（68天锚点断裂）",
+    "🔴🔴🔴NEMIX DDR5-5600 32GB同步OOS",
+    "⚠️CDW 9550 Pro 30.72TB $18,618(▲+$648/+3.6%)最大单日涨幅",
+    "⚠️CDW 9550 Pro 7.68TB E3.S已停产",
+    "🔴Mouser+Connection QLC双源封锁——来源塌缩",
+    "⚠️CDW D7-P5520 PCIe4 TLC URLs失效",
+    "web_search全故障——外部数据获取严重受限"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "volatility_expand",
+    "PCIe4 QLC": "volatility_expand"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot两日横盘不回调。DDR4 $74.625新ATH+全面牛市宽度确认。NEMIX OOS——零售锚点断裂标志供给紧张升级。SK Hynix ADR 7/10仅剩8天催化。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "与DDR5-6400同步。Spot两日横盘。DDR4/DDR3全域加速。Q3 PC DRAM +15-20%上调。NEMIX retail OOS。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "MLC退出第二日。CDW D7-P5520 URLs失效+DiscTech Day 69——实时定价参照急剧缩窄。来源恶化不改变供需但增加执行难度。在可验证渠道消失前尽早下单。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "split_buy",
+      "reason": "CDW 30.72TB跳涨+3.6%。E3.S停产收缩供给。三现货渠道仍可执行。跳涨信号若明日确认升级buy_now。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "Mouser+Connection双源封锁。昨日Mouser仅1台——归零概率极高但无法验证。来源塌缩不改变'需要买'事实。通过可用渠道执行。若明日仍无法验证Mouser则升级buy_now。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级6400 16GB RDIMM极罕见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200稳定但非tracking列"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级TLC 1.92TB公开报价极稀"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB (retail anchor)",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX Newegg首次OOS——68天零售锚点断裂。待明日复查是否恢复。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB (Mouser verification)",
+      "reasonCode": "parser_gap",
+      "note": "Mouser反爬封锁(Access Denied)+Connection 403——双源同时不可验证。MLC退出后首个来源危机。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB/15.36TB (CDW D7-P5520)",
+      "reasonCode": "parser_gap",
+      "note": "CDW D7-P5520原有URLs已失效/重定向。新品定价参照进一步缩窄。"
+    }
+  ],
+  "sourceHealth": {
+    "webSearch": "全部失败",
+    "directFetch": "部分成功（CDW/TrendForce/Newegg部分），Mouser/Connection/Google Finance失败",
+    "totalSourcesAttempted": 22,
+    "totalSourcesSucceeded": 4,
+    "note": "本日外部数据获取严重受限——web_search 0/10全失败，多个关键来源（Mouser/Connection/SS/Memory.net）同时封锁或失效。"
+  }
+}
