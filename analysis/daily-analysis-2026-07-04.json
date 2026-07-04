@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-04",
+  "generatedAt": "2026-07-04T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 0, "total": 5, "note": "全carry Day3——NEMIX OOS Day3(Newegg反爬Day2不可验证)+周六无DRAMeXchange+web_search全故障"},
+    "DDR5-5600": {"filled": 0, "total": 5, "note": "全carry Day3——同DDR5-6400"},
+    "PCIe4 TLC": {"filled": 1, "total": 5, "note": "仅CDW 7450 PRO 7.68TB可验证·其余carry"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "CDW 9550 Pro 3.84/30.72 + PM1743 E3.S/U.2 7.68TB双锚点·15.36TB carry"},
+    "PCIe4 QLC": {"filled": 5, "total": 5, "note": "CDW全容量二次验证完整·含7.68TB非tracking位"}
+  },
+  "newSourcesTried": [
+    "CDW D5-P5336 7.68TB（二次验证）",
+    "CDW Samsung PM1743 U.2 7.68TB（二次验证）",
+    "Newegg NEMIX（反爬Day2·产品页不可达）",
+    "Memory.net（Cloudflare Day65·封锁持续）",
+    "Tom's Hardware（paywall）",
+    "AnandTech（JS challenge）",
+    "Reuters（JS required）",
+    "KED Global（404）"
+  ],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "✅ CDW全10 SSD锚点二次验证价格不变——首个完整周末确认",
+    "🔴 DDR5全品类Day3 carry——来源危机加深·NEMIX OOS Day3认定为结构性",
+    "📋 SK Hynix ADR Bookbuilding明日(7/6)启动——$29.4B韩国最大海外IPO",
+    "🎆 US Independence Day(7/4周六·7/3周五观察日)——美股休市",
+    "🔴 CDW 9550 Pro 30.72TB $18,618第四日持稳——跳涨跨周永久性确认",
+    "🔴 Newegg反爬Day2·web_search全故障Day3·无外部宏观数据可得",
+    "✅ PCIe5 TLC Samsung PM1743双锚点+QLC全6SKU全部验证不变"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "unknown",
+    "DDR5-5600": "unknown",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "基本面未变(DDR4 ATH $74.625+DDR3二十天加速+MU CEO beyond 2027)。NEMIX OOS Day3认定结构性锚点丢失。SK Hynix ADR明日启动——若溢价成交确认极度看涨。等待风险:锚点消失+ADR催化。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "与DDR5-6400同步。DDR5 spot $46.833(7/1最后数据)两日横盘未回调。SK Hynix ADR明日催化。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280(≈¥26,866)为可用执行基准。MLC退出Day4。NAND Q3+40-50%。旧tracking ¥18,094严重滞后——以CDW实时价为准。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 30.72TB $18,618四日完全无回调——永久性提价确认。E3.S收缩。三星双锚点稳定。跳涨后无等待理由。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 6SKU全价格连续第二日不变——锚点体系稳定。Mouser/Connection封锁无解。MLC退出Day4。CDW替代锚点全面建立。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX OOS Day3+Newegg反爬Day2。70天零售锚点失去后第3天无恢复。认定为结构性锚点丢失。无替代零售公开源。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级6400 16GB RDIMM极罕见·长期无公开价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200但OOS不可验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级TLC 1.92TB公开报价极稀"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "同PCIe4"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "15.36TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW Samsung PM1743 15.36TB URL重定向·9550 Pro 15.36TB无独立产品页·carry旧数据"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "tracking体系",
+      "reasonCode": "parser_gap",
+      "note": "旧tracking值¥18,094严重滞后CDW 7450 PRO $3,280(~¥26,866)约48%。建议正式切换至CDW锚点体系。"
+    }
+  ]
+}
