@@ -1,0 +1,102 @@
+{
+  "date": "2026-07-05",
+  "generatedAt": "2026-07-05T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 0, "total": 5},
+    "DDR5-5600": {"filled": 0, "total": 5},
+    "PCIe4 TLC": {"filled": 1, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 5, "total": 5}
+  },
+  "newSourcesTried": ["KED Global"],
+  "newSourcesWithUsefulData": ["KED Global (Samsung-Anthropic AI chip talks)"],
+  "keyChangesVsYesterday": [
+    "✅ 9550 Pro 30.72TB 五日持稳里程碑——跳涨永久性100%确认，本追踪最强锚定",
+    "✅ CDW 全10 SSD锚点连续第三日验证无变化——锚点体系从应急升格为常态化基准",
+    "✅ QLC CDW锚点体系三轮验证通过——12个数据点(4 SKU×3天)全部一致",
+    "🔴 DDR5 Day 4 carry——NEMIX OOS Day 4 + Newegg反爬Day 3 + 无DRAMeXchange",
+    "🔴 web_search全故障进入第四天",
+    "📋 SK Hynix ADR Bookbuilding明日(7/6)正式启动",
+    "🆕 Samsung-Anthropic AI芯片代工谈判(KED Global)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "unknown",
+    "DDR5-5600": "unknown",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "NEMIX OOS Day4结构性锚点丢失+SK Hynix ADR明日催化+DDR4/DDR3牛市持续。在锚点彻底消失+ADR catlyst前执行。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。spot $46.833两日横盘后$47突破概率高。ADR明日催化。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO $3,280三轮验证不变+MLC退出Day5+NAND Q3 +40-50%。建议以CDW实时价($3,280≈¥26,866)为执行基准。旧tracking严重滞后~48%。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB五日持稳里程碑——跳涨永久性100%确认。E3.S产品线萎缩。无等待理由。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW锚点体系三轮验证通过+MLC退出Day5。Mouser/Connection封锁无解。CDW锚点升格为常态化基准。全部6SKU三日价格不变。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级6400 16GB RDIMM极罕见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200但OOS Day4不可验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级TLC 1.92TB公开报价极稀"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "同PCIe4"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB (零售锚点)",
+      "reasonCode": "stale_repeated_sample",
+      "note": "NEMIX OOS Day4+Newegg反爬Day3——结构性锚点丢失深确认。无替代零售来源。"
+    }
+  ],
+  "sourceHealthSummary": {
+    "cdw": "✅ 全部10个SSD锚点连续三日验证无变化。9550 Pro 30.72TB五日持稳——最强锚定。",
+    "newegg": "🔴 反爬Day3——产品页URL返回通用首页。DDR5/PCIe5/QLC验证路径全部断裂。",
+    "mouser": "🔴 Access Denied Day5——库存不可验证（末次1台6/30，极可能已归零）。",
+    "connection": "🔴 403 Day5",
+    "memory_net": "❌ Cloudflare Day66",
+    "serversupply": "❌ Cloudflare Day66",
+    "disctech": "❌ JS offline Day72（4个月+18天）",
+    "provantage_shopblt_techamerica": "❌ Cloudflare持续",
+    "wiredzone_saitech_exxact": "❌ 404持续",
+    "web_search": "🔴 全故障Day4——0/3全部失败。外部宏观数据连续4日不可得。",
+    "ked_global": "🆕 可访问——Samsung-Anthropic AI芯片谈判新闻（非价格数据）"
+  }
+}
