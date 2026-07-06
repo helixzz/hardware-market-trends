@@ -1,0 +1,97 @@
+{
+  "date": "2026-07-06",
+  "generatedAt": "2026-07-06T09:46:00+08:00",
+  "revision": "二次验证（09:00 首轮）",
+  "coverage": {
+    "DDR5-6400": {"filled": 0, "total": 5, "note": "全carry Day5——NEMIX OOS Day5+Newegg反爬Day4。DRAMeXchange 7/6 session待~18:00 CST。BigGo DDR5 $27-37/GB为替代宏观参考。"},
+    "DDR5-5600": {"filled": 0, "total": 5, "note": "同DDR5-6400。全carry Day5。"},
+    "PCIe4 TLC": {"filled": 1, "total": 5, "note": "CDW 7450 PRO 7.68TB $3,279.99 09:46二次验证不变。tracking滞后~48%持续。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "CDW全锚点09:46二次验证不变。9550 Pro 30.72TB $18,618七日持稳——历史最长。"},
+    "PCIe4 QLC": {"filled": 5, "total": 5, "note": "CDW全6 SKU四日验证不变。16数据点零波动。常态化基准地位巩固。"}
+  },
+  "newSourcesTried": [
+    "CDW（9锚点二次验证）",
+    "web_search: boerse-global.de",
+    "web_search: BigGo Finance",
+    "web_search: Motley Fool",
+    "web_search: Yahoo Finance",
+    "web_search: Seoul Economic Daily",
+    "web_search: DigitalToday.co.kr",
+    "web_search: Windows News",
+    "web_search: HotHardware"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW（9锚点全部200 OK——价格不变）",
+    "BigGo Finance（Samsung Q2共识85.5T韩元+DDR5五倍涨幅）",
+    "Motley Fool（MU 16多年代协议+Burry short MU $1,052）",
+    "Yahoo Finance（Burry short MU确认）",
+    "boerse-global.de（SK Hynix ADR+放弃价格上限）",
+    "Seoul Economic Daily（Samsung+SK本周华尔街）",
+    "DigitalToday.co.kr（SK Hynix代币化）",
+    "Windows News（White House内存限价+芯片行业反对）",
+    "HotHardware（AI内存挤压消费电子）"
+  ],
+  "keyChangesVsYesterday": [
+    "CDW全9 SSD锚点09:46二次验证全部价格不变——七日持稳里程碑（30.72TB）",
+    "Michael Burry做空MU $1,052——首次主要contrarian信号（记录为风险，不做采购依据）",
+    "Samsung Q2共识85.5T韩元$55.9B——18x YoY，明日公布",
+    "White House考虑内存限价+芯片行业组织反对——政策风险初现",
+    "SK Hynix ADR Bookbuilding Day 1正式启动",
+    "DDR5全品类Day5 carry——NEMIX OOS一周阈值达成",
+    "web_search完全恢复——研究能力重大改善"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "unknown",
+    "DDR5-5600": "unknown",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "ADB Bookbuilding Day1提供替代价格发现。BigGo确认五倍涨幅轨迹+HBM 25%晶圆+MU 16多年代协议+SK Hynix放弃价格上限。等待面临双重风险。注意:Burry contrarian信号存在但基本面支持tightsupply至2027+。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。Samsung Q2明日+ADR催化增强紧迫性。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280四日锚定。以CDW实时价¥26,866为执行基准。旧tracking滞后~48%。NAND Q3 +40-50%。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618七日持稳——任何回调预期已不可持续。E3.S产品线萎缩。Samsung双锚点独立验证。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW全6 SKU四日验证16数据点零波动。Mouser/Connection封锁无解。MLC退出Day6。常态化基准巩固。"
+    }
+  },
+  "gaps": [
+    {"category": "DDR5-6400", "spec": "16GB", "reasonCode": "no_public_sample", "note": "企业级6400 16GB RDIMM极罕见"},
+    {"category": "DDR5-5600", "spec": "16GB", "reasonCode": "no_public_sample", "note": "同上"},
+    {"category": "DDR5-5600", "spec": "96GB", "reasonCode": "outlier_only", "note": "NEMIX $3,200但OOS不可验证"},
+    {"category": "PCIe4 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "企业级TLC 1.92TB公开报价极稀"},
+    {"category": "PCIe5 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "同PCIe4"},
+    {"category": "DDR5-6400", "spec": "全品类零售验证", "reasonCode": "stale_repeated_sample", "note": "NEMIX OOS Day5一周阈值·Newegg反爬Day4——零售锚点结构性永久丢失"},
+    {"category": "PCIe4 TLC", "spec": "tracking列vs实时价", "reasonCode": "stale_repeated_sample", "note": "旧tracking值滞后CDW实时价~48%。实际采购以CDW为准。"}
+  ],
+  "newRisks": [
+    {
+      "risk": "⚠️ Michael Burry做空MU $1,052——'Big Short'投资者称MU为'心理泡沫中的资本毁灭者'，同时做空NVDA+TSLA。MU基本面极强($41.46B Q3、84.9% GM)但contarian信号首次出现。",
+      "source": "Motley Fool/Yahoo Finance/Markets Today (July 2-6, 2026)",
+      "categoriesAffected": ["All DRAM"],
+      "confidence": "medium",
+      "note": "Burry历史上正确但常过早(2008 CDS提前2年)。做空价$1,052低于MU 6/30收盘$1,154.29——若美股明日恢复交易可能已被套。记录为风险信号但不改变采购建议。"
+    },
+    {
+      "risk": "White House考虑内存限价+芯片行业组织反对——政策不确定性新增。CHIPS Act $52B不足以覆盖前沿DRAM/HBM投资(MU纽约$100B工厂需要额外政府支持)。",
+      "source": "Windows News (July 5, 2026)",
+      "categoriesAffected": ["All"],
+      "confidence": "low",
+      "note": "政策讨论阶段，尚无立法草案。限价若实施可能扰乱市场定价但供应商强烈反对降低了实施概率。"
+    }
+  ]
+}
