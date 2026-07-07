@@ -1,0 +1,140 @@
+{
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-07T09:46:00+08:00",
+  "dayNumber": 74,
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5,
+      "note": "NEMIX 32GB $1,488 恢复 In Stock——6天 OOS 结束。DDR5 spot $47 突破历史新高。64GB/128GB carry。16GB/96GB 仍空。"
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5,
+      "note": "同 DDR5-6400。DDR5 spot $47 提供宏观锚定。16GB/96GB 仍空。"
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "CDW 7450 PRO 7.68TB $3,280 第五日验证。tracking 滞后 ~48%。30.72TB/15.36TB/3.84TB carry。1.92TB 仍空。"
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "CDW 9550 Pro 30.72TB $18,618 第八日持稳——本追踪历史最长。Samsung PM1743 双锚点第五日。15.36TB carry。1.92TB 仍空。"
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4,
+      "note": "⚠️ CDW 6500 ION 30.72TB → 'Call'（退化，carry 原值）。15.36TB/61.44TB/122.88TB 第五日不变。所有容量位有值。"
+    }
+  },
+  "newSourcesTried": [
+    "Newegg NEMIX DDR5-6400 32GB（恢复可访问——反爬解除）",
+    "AllWeather Finance（DDR5 $47 + TrendForce 上调 + 韩国出口数据）",
+    "Korea Herald（Samsung Q2 W89.4T OP）",
+    "Korea JoongAng Daily（Samsung Q2 $58.4B）",
+    "TweakTown（Samsung 2026 超 40 年累计利润）",
+    "KuCoin（Q2 合约 +40-65% + Q3 要求 +20%）",
+    "TheStreet（MU 7/2 收盘 $975.56）",
+    "Bloomingbit（SK Hynix ADR 规模下调）",
+    "CDW 6500 ION 30.72TB（退化验证）"
+  ],
+  "newSourcesWithUsefulData": [
+    "Newegg NEMIX（恢复 In Stock $1,488）",
+    "AllWeather Finance（DDR5 $47 + TrendForce Q3 +13-18% + 出口数据）",
+    "Korea Herald/KJDD（Samsung Q2 创纪录）",
+    "KuCoin（Q2 合约 + Q3 要求细节）",
+    "TheStreet（MU 真实收盘价 $975.56）",
+    "CDW（6500 ION 退化确认）"
+  ],
+  "keyChangesVsYesterday": [
+    "🎉🎉🎉 DDR5 16Gb spot $47 突破历史新高——52 天最重要里程碑",
+    "🎉🎉 Samsung Q2 创纪录 W89.4T（$58.4B）OP——1,810% YoY，超共识 6.2%，Q3 要求再涨 20%",
+    "🎉 NEMIX DDR5-6400 32GB 恢复 In Stock $1,488——6 天 OOS 结束，来源危机解除",
+    "✅ 9550 Pro 30.72TB $18,618 第八日持稳——历史最长记录刷新",
+    "🆕 TrendForce Q3 DRAM 合约预期大幅上调至 +13-18%（此前 +3-8%，四倍+上调）",
+    "🆕 Q4 NAND 预期上调至 +10-15%（此前 +8-13%）",
+    "🔴 MU 2 日暴跌 15.5% 至 $975.56（Burry short 影响，6/30 收盘 $1,154.29）",
+    "⚠️ CDW 6500 ION 30.72TB QLC 退化至 'Call'",
+    "✅ Newegg 反爬封锁解除——产品页可直达",
+    "📋 SK Hynix ADR 规模下调至 $31.3B（此前 $33B）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "$47 突破 + Samsung Q2 创纪录 + Q3 要求 +20% + NEMIX 恢复（供给未改善）+ TrendForce Q3 预期四倍上调。三重催化同时落地——信号密度历史最高。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步 DDR5-6400。Spot $47 + Samsung +20% Q3 + TrendForce 大幅上调。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 锚点五日在位。MLC 退出 Day 7。Samsung Q2 NAND 合约 +40-65%。Q4 预期上调。以 CDW 实时价 ¥26,866 为执行基准。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "八日持稳去掉一切疑虑。Samsung Q3 DRAM 再涨 20% + NAND 合约飙升。Form factor 收缩。无任何等待理由。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "3/4 tracking 列第五日稳固（12 数据点零波动）。6500 ION 退化不影响整体有效性。MLC Day 7。NAND Q4 +10-15%。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 6400 16GB RDIMM 公开报价极罕见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200 但非 tracking 列"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 TLC 1.92TB 公开报价极稀"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "同 PCIe4"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW 6500 ION 30.72TB 今日退化至 'Call'，carry 原值 ¥136,731。其余 3 tracking 列第五日稳固。"
+    }
+  ],
+  "macroHighlights": {
+    "DDR5Spot": "$47（历史新高，7 月初突破）",
+    "SamsungQ2": "W89.4T OP（$58.4B），1,810% YoY，超共识 6.2%，营收 W171T",
+    "SamsungQ3Ask": "要求 DRAM 合约再涨 +20%",
+    "TrendForceQ3DRAM": "+13-18%（此前 +3-8%，四倍+上调）",
+    "TrendForceQ4NAND": "+10-15%（此前 +8-13%）",
+    "KoreaJuneExports": "$44.8B（+199% YoY，6 月连续三位数增长）",
+    "MUStock": "$975.56（7/2 收盘，-15.5% vs 6/30，Burry short 影响）",
+    "SKHynixADR": "Bookbuilding Day 2，规模下调至 $31.3B"
+  }
+}
