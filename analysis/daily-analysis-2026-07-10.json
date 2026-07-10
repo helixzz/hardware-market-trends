@@ -1,0 +1,85 @@
+{
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["Bloomberg (SK Hynix ADR)", "Reuters (MU $250B)", "Gizchina (DDR3/DDR5)", "Yahoo Finance (MU/Samsung/SanDisk)", "Stock-world.de (DRAM market)", "TECHi (SKHY debut)", "AInvest (SKHY)", "Seeking Alpha (MU)", "GuruFocus (MU)", "storagediskprices.com (NAND)", "lcdproduct.com (CXMT)", "WEEX (SKHY/UBS)"],
+  "newSourcesWithUsefulData": ["Bloomberg (SKHY debut)", "Reuters (MU $250B)", "Gizchina (DDR3>DDR5 anomaly)", "Yahoo Finance (MU +4.52%)", "Stock-world.de ($48B DRAM)", "TECHi (SKHY vs bear market)", "storagediskprices.com (NAND sold out)", "WEEX (UBS KRW3.2M target)"],
+  "keyChangesVsYesterday": [
+    "🎉🎉🎉 SK Hynix ADR Nasdaq 首日交易 (SKHY)——史上最大外国公司 ADR ~$29.4B——77 天最强 Catalyst",
+    "🔴🔴 MU +4.52% 反弹——$250B 美国投资计划（上调 25%）+ 纽约 Clay 首浇水泥",
+    "🔴🔴🔴 DDR3 每 Gb $3.19 历史性反超 DDR5 $2.94——全品类供给失序确立",
+    "📊 全球 DRAM 7 月 $48B（+27.7% MoM）创纪录",
+    "SanDisk +5.04%、Samsung +4.14%——存储板块全面反弹",
+    "UBS SK Hynix 目标 320 万韩元 + LTA 锁定 60-70% 产能",
+    "CXMT $4.1B IPO——中国最大 2026 IPO",
+    "NAND 2026 产能已售罄",
+    "DDR4 至 2028 不停止，本季 +50%"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 $47 ATH（$2.94/Gb）+ SK Hynix ADR 首日交易 + DDR3 每 Gb 反超 DDR5——全品类供给失序。全球 DRAM 7 月 $48B 创纪录。MU $250B 投资（上调 25%）证明行业供给短缺十年期看涨。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步 DDR5-6400。SK Hynix ADR 为 DRAM 全行业新价格发现基准。UBS LTA 锁定 60-70% 产能——供给缺口不可弥合。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280 八日验证。MLC 退出 Day 10。NAND 2026 产能已售罄。Tracking 滞后 ~48% 为数据问题——实际采购以 CDW 实时价 ¥26,866 为基准。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618 十一日零回调——接近两周无波动。全 CDW 锚点第八日验证。SK Hynix ADR 首日交易 + MU 反弹 = 资本确认定价结构。十一日历史记录：无任何等待理由。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "4/4 tracking 列第九日在位 + 6500 ION 第四日全公开。MLC 退出 Day 10。NAND 2026 售罄。QLC 高密度最受益。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 6400 16GB RDIMM 极罕见——无公开现货价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200 但未单独完整验证确认"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 TLC 1.92TB 公开报价极稀"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "同 PCIe4"
+    }
+  ]
+}
