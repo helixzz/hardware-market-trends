@@ -1,0 +1,88 @@
+{
+  "date": "2026-07-11",
+  "generatedAt": "2026-07-11T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "32GB NEMIX Carry Day 4(周六未重验详情页)。64GB A-Tech旧URL Day 78未刷新。128GB Carry。DDR5 spot $47 ATH维持。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "同DDR5-6400。SK Hynix ADR首日$168.01(+12.8%)为最强DDR5需求确认。UBS LTA 60-70%产能锁定。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW 7450 PRO 7.68TB $3,280第九日验证不变。旧tracking ¥18,094→滞后~48%。MLC退出Day 11。NAND短缺延至2027(供给侧仅+17%YoY)。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "CDW 9550 Pro 30.72TB $18,618第十二日验证——接近两周零回调。3.84TB E3.S $3,260九日不变。PM1743 7.68TB $4,795九日不变。打印7/10 20:03。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "6500 ION 30.72TB $16,695第五日全公开价+Add To Cart。D5-P5316 15.36TB $6,952九日不变。61.44TB+122.88TB今日未独立重验(Carry)。锚点体系第十日在位。4/4 tracking列全覆盖。"}
+  },
+  "newSourcesTried": ["CNBC SK Hynix ADR首日收盘直播", "Seeking Alpha SK Hynix ADR分析", "BigGo Finance SK Hynix市值计算", "CNELECAR NAND短缺分析", "WCCFTech MRDIMM DDR5第三代", "Indmoney MU/SanDisk/SKHY资本轮动", "Timothy Sykes MU bearish分析"],
+  "newSourcesWithUsefulData": ["CNBC", "Seeking Alpha", "BigGo Finance", "CNELECAR", "Indmoney"],
+  "keyChangesVsYesterday": [
+    "🎉 SK Hynix ADR首日收盘$168.01(+12.8%)——$26.5B史上最大IPO完美完成",
+    "✅ 9550 Pro 30.72TB第十二日持稳——接近两周零回调",
+    "🔴 MU回吐-2.69%至~$983——SKHY资本轮动效应",
+    "📊 NAND短缺预期从2026延至2027全年——供给侧仅+17% YoY",
+    "📈 Seeking Alpha 'Sold MU, Bought SKHY'——机构配置转向正式化",
+    "🆕 SanDisk +7.6%逆势——NAND纯标的受益于SKHY上市"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 spot $47 ATH($2.94/Gb)维持。SK Hynix ADR首日$168(+12.8%)——全球资本$26.5B投票AI内存结构性需求。会长'demand is enormous'。全品类供给失序(DDR3反超DDR5)。DDR5均价$14.12/GB(+400% YoY)。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。SK Hynix ADR提供每日可交易的AI内存价格发现。UBS LTA 60-70%产能锁定增加确定性。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280九日验证。MLC退出Day 11。NAND短缺延至2027(供给侧仅+17% YoY)。采购以CDW实时价¥26,866为基准。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618十二日零回调——接近两周。SK Hynix ADR首日+12.8%+会长'enormous demand'=双线最高确认。十二日历史：无等待策略能更优。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "6500 ION第五日全公开价+Add To Cart——零再次退化。D5-P5316九日不变。NAND短缺延至2027——QLC高密度最受益。'Call'事件永久成为历史。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级6400 16GB RDIMM极罕见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200但未独立验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级TLC 1.92TB公开报价极稀"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "同PCIe4"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "7.68TB tracking lag",
+      "reasonCode": "stale_repeated_sample",
+      "note": "旧tracking ¥18,094滞后CDW实价$3,280≈¥26,866约48%——永久性差距。以CDW锚点为采购基准。"
+    }
+  ]
+}
