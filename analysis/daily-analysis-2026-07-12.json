@@ -1,0 +1,138 @@
+{
+  "date": "2026-07-12",
+  "generatedAt": "2026-07-12T09:15:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "Carry Day 5。NEMIX 32GB 在架周末未重验。周日无 DRAMeXchange session。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "同DDR5-6400。SK Hynix CEO郭鲁正\"2027最严重短缺\"为全DDR5最强供给侧确认。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW 7450 PRO 7.68TB $3,280第十日验证不变。Gartner全年+130%。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "✅✅✅ CDW 9550 Pro 30.72TB $18,618第十三日——逼近两周·打印7/11 20:04。全锚点十日验证。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "4/4 tracking列第十一日。6500 ION第六日全公开价+Add To Cart。D5-P5316第十日。"}
+  },
+  "newSourcesTried": ["Tom's Hardware", "BigGo Finance", "AsiaOne", "Windows News", "Global Banking & Finance", "Trading Economics", "ProShares", "IndexBox", "Motley Fool (SanDisk)", "KuCoin/SemiAnalysis (CXMT capacity)", "Stockanalysis.com (SKHY ticker switch)"],
+  "newSourcesWithUsefulData": ["Tom's Hardware (SK Hynix CEO 2027 warning)", "BigGo Finance (CEO quote)", "AsiaOne (CEO prediction)", "Trading Economics (MU -3% 7/10)", "Motley Fool (SanDisk +3.27%, 3,990% YoY)", "Bloomberg/DigiTimes (CXMT $4.3B IPO, DDR5 yield issues)", "ProShares (SKHU 2x ETF)", "Stockanalysis.com (SKHYV→SKHY 7/13)"],
+  "keyChangesVsYesterday": [
+    "SK Hynix CEO 郭鲁正 Nasdaq上市日公开发言: '2027年为记忆体史上最严重供给短缺——需求超供给至2030+'",
+    "CDW 9550 Pro 30.72TB 第十三日持稳 $18,618——逼近两周大关",
+    "MU 7/10再跌超3%——SKHY资本轮动第二日",
+    "SanDisk +3.27%至$1,858（3,990%年涨幅）",
+    "CXMT IPO认购日定于7/16——$4.3B·但DDR5良率低",
+    "Gartner全年DRAM+SSD +130%独立量化确认",
+    "Trump $1.67M MU持仓披露",
+    "明日SKHYV→SKHY永久代码+SKUU/SKDD ETF上线"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "trendNote": "周日巩固日。SK Hynix CEO 2027警告为全品类最强宏观升级。CDW十三日持稳持续刷新历史。Gartner +130%独立验证。五品类trend未变但宏观信号密度79天来最高。",
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 $47 ATH维持。SK Hynix CEO '2027最严重短缺+需求超供给至2030+'。Gartner +130%全年涨幅。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。CEO 2027警告直接针对企业级DDR5产品线。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280十日验证。MLC退出Day12。Gartner全年+130%。以CDW实时价¥26,866为执行基准。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618十三日零回调——历史最长。CEO 2027警告+十三日锚定=最强买入确认。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "全锚点第十一日稳固+6500 ION第六日。Gartner+130%+CEO短缺至2030——QLC高密度最受益。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级6400 16GB RDIMM极罕见"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "NEMIX $3,200但未独立验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级TLC 1.92TB公开报价极稀"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "同PCIe4"
+    }
+  ],
+  "sourceHealth": {
+    "DiscTech": "JS offline Day 79（4个月+25天）——结构性永久",
+    "ServerSupply_Memory.net": "Cloudflare Day 73——永久封锁",
+    "Mouser_QLC": "Access Denied Day 12",
+    "Connection": "403 Day 12",
+    "allweatherfinance.com": "DNS失效Day 4",
+    "CDW_all_anchors": "✅ 六关键锚点全部验证不变·打印7/11 20:04"
+  },
+  "keySignals": [
+    {
+      "signal": "SK Hynix CEO 郭鲁正 '2027最严重短缺+需求超供给至2030+'",
+      "source": "Tom's Hardware/BigGo Finance/AsiaOne/Windows News/Global Banking & Finance",
+      "importance": "highest",
+      "note": "全球最大HBM/DDR5供应商CEO在$26.5B IPO完成日公开发言——非分析师预测，是产业核心最终判断"
+    },
+    {
+      "signal": "CDW 9550 Pro 30.72TB 第十三日持稳 $18,618",
+      "source": "CDW.com #8215733",
+      "importance": "highest",
+      "note": "13日零回调——本追踪项目历史最长连续锚定。打印7/11 20:04"
+    },
+    {
+      "signal": "MU 7/10再跌超3%——SKHY资本轮动第二日",
+      "source": "Trading Economics",
+      "importance": "high",
+      "note": "连续第二日机构资金从MU转向SKHY"
+    },
+    {
+      "signal": "SanDisk +3.27% $1,858 ——3,990%年涨幅",
+      "source": "Motley Fool/Daily Political",
+      "importance": "high",
+      "note": "NAND纯标的。LTA锁定40%营收"
+    },
+    {
+      "signal": "CXMT IPO认购日7/16——$4.3B·DDR5良率低·月产能350kwspm",
+      "source": "Bloomberg/DigiTimes/Benzinga/IndexBox",
+      "importance": "high",
+      "note": "中国最大DRAM制造商。2026不缓解全球DDR5紧缺"
+    },
+    {
+      "signal": "Gartner全年DRAM+SSD +130%价格暴涨",
+      "source": "TechTimes",
+      "importance": "high",
+      "note": "独立量化验证。与CEO警告形成闭环"
+    },
+    {
+      "signal": "明日SKHYV→SKHY永久代码+SKUU/SKDD ETF上线",
+      "source": "Stockanalysis.com/ProShares",
+      "importance": "high",
+      "note": "杠杆产品引入波动资金。ADR正式名称确立"
+    }
+  ],
+  "executionNote": "周日巩固日。6 CDW anchor验证全部200 OK+不变。6次web_search全部成功，25+有效结果。CEOWarning+13thDayHold为核心信号。五品类buy_now。"
+}
