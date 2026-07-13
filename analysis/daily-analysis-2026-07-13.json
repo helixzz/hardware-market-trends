@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-13T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Yahoo Finance (SKHYV→SKHY)",
+    "IBTimes Australia",
+    "NewsPim (Korean: ETF cluster launch)",
+    "Seoul Economic Daily",
+    "Financial News (FNNews)",
+    "TheStreet (Goldman SanDisk target)",
+    "Ticker Report (Meta NAND deal)",
+    "The Markets Daily (TD Cowen MU)",
+    "Digital Citizen (MSI CXMT DDR5)",
+    "Forbes (Tom Coughlin)",
+    "Panda Perspectives (CXMT IPO)",
+    "WCCFTech (consumer DDR5 $400)",
+    "Investing.com (DRAM ETF)",
+    "Seeking Alpha (SanDisk $42B LTA)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Yahoo Finance",
+    "NewsPim/Sedaily/FNNews",
+    "TheStreet",
+    "Ticker Report",
+    "The Markets Daily",
+    "Forbes",
+    "CDW (6 anchors re-verified)"
+  ],
+  "keyChangesVsYesterday": [
+    "SKHYV→SKHY permanent ticker change effective today July 13",
+    "Six leverage ETFs cluster launch: SKHX/SKHZ/SKHU today + SKUU/SKDD tomorrow",
+    "CDW 9550 Pro 30.72TB hits 14th day exactly TWO WEEKS at $18,618",
+    "All 6 CDW SSD anchors 7-14 days unchanged through",
+    "Goldman Sachs doubles SanDisk 12-month target to $2,200 (from $1,200)",
+    "Meta signs multi-year NAND supply deal with SanDisk",
+    "TD Cowen reiterates MU Buy with $1,600 target",
+    "Forbes: All 5 major memory makers confirm new capacity late 2027-2028 earliest",
+    "SK Hynix Korea falls 4.4% - profit taking after ADR debut (non-fundamental)",
+    "MSI improves CXMT DDR5 BIOS support on AM5 motherboards",
+    "CXMT IPO subscription July 16 - only 3 days away"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 $47 ATH + SKHY permanent ticker Day 1 + 6 ETF cluster launch + CEO '2027 worst shortage' + Forbes 5 makers new capacity 18 months away + Gartner +130% full year + CXMT IPO no relief in 2026"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "Same as DDR5-6400. UBS LTA locking 60-70% capacity. SK Hynix -4.4% Korea is profit-taking, not fundamental."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280 11th day verified. MLC exit Day 13. Goldman doubles SanDisk target = NAND bull institutionalized. Meta NAND deal = hyperscalers locking supply. Execute at CDW real-time ¥26,866."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618 hits FULL TWO WEEKS 14th day zero callback. ALL 6 CDW anchors 7-14 days unchanged. 14-day record: no strategy can beat immediate procurement."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "4/4 tracking columns Day 12 in position. 6500 ION 7th day full public price. Meta NAND deal + Goldman SanDisk $2,200 = NAND bull fully institutionalized. MLC exit Day 13."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Enterprise 16GB DDR5-6400 RDIMM extremely scarce in public channel."
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "parser_gap",
+      "note": "NEMIX $3,200-$3,280 public price exists but not in tracking column scope."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Same as DDR5-6400 16GB."
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "parser_gap",
+      "note": "NEMIX $3,200 public price exists but not in tracking column scope."
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "out_of_scope",
+      "note": "Small capacity enterprise TLC SSD rarely has public spot pricing."
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Gen5 enterprise SSD minimum capacity extremely rare."
+    }
+  ],
+  "cdwAnchorStatus": {
+    "9550_Pro_30.72TB_U2_8215733": {"price": 18617.99, "days": 14, "status": "TWO WEEKS MILESTONE"},
+    "9550_Pro_3.84TB_E3S_8215732": {"price": 3259.99, "days": 11, "status": "stable"},
+    "Samsung_PM1743_7.68TB_U2_8356912": {"price": 4794.99, "days": 11, "status": "stable"},
+    "7450_PRO_7.68TB_U3_7085698": {"price": 3279.99, "days": 11, "status": "stable"},
+    "6500_ION_30.72TB_U3_7467127": {"price": 16694.99, "days": 7, "status": "stable"},
+    "D5_P5316_15.36TB_U2_8238848": {"price": 6951.99, "days": 11, "status": "stable"}
+  },
+  "keySignalsToday": {
+    "skhy_permanent_ticker": "SKHYV→SKHY effective July 13, 2026. Regular trading begins.",
+    "etf_cluster_launch": "Six leverage ETFs: SKHX/SKHZ/SKHU (Jul 13) + SKUU/SKDD (Jul 14)",
+    "sk_hynix_korea_profit_taking": "-4.4% in Seoul after strong ADR debut - classic buy rumor sell fact",
+    "goldman_sandisk_target": "Doubled to $2,200 from $1,200 based on $110 normalized EPS",
+    "meta_nand_deal": "Multi-year NAND flash supply agreement with SanDisk",
+    "td_cowen_mu_target": "Buy rating, $1,600 target",
+    "forbes_capacity_timeline": "All 5 major makers: new capacity late 2027-2028 earliest",
+    "msi_cxmt_ddr5": "MSI AM5 BIOS improved CXMT DDR5 support",
+    "cxmt_ipo_countdown": "Subscription July 16 - 3 days away"
+  }
+}
