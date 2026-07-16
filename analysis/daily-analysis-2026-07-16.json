@@ -1,0 +1,131 @@
+{
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-16T09:05:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["CoreWaveLabs DDR5-6400 32GB recheck (JS dynamic render)", "CDW D5-P5316 15.36TB recheck (price jump!)", "Direxion SKHL ETF", "247WallSt memory stocks", "Investing.com/Argus SNDK Hold", "Crypto.news CXMT Hyperliquid"],
+  "newSourcesWithUsefulData": ["CDW D5-P5316 15.36TB (price jump discovered)", "247WallSt (memory stocks profit-taking)", "Direxion SKHL (7th ETF)", "TechNode/CnEVPost (CXMT IPO subscription today)", "Investing.com (Argus SNDK Hold)"],
+  "keyChangesVsYesterday": [
+    "⚡⚡⚡ QLC D5-P5316 15.36TB $6,952→$8,333 (+19.9%)——三天内第二个QLC锚点暴力跳涨",
+    "🔴 记忆体股票全线获利回吐：SKHY -5%、SNDK -5.71%、MU -9%、WDC -4%",
+    "🆕 Direxion SKHL 2x ETF上线——SK Hynix现被七支杠杆ETF包围",
+    "🔴 CXMT IPO申购今日开放——Nio战略投资者·Hyperliquid加密永续526%溢价",
+    "🆕 Argus Research对SanDisk启动Hold评级",
+    "✅ 9550 Pro 30.72TB第十七日连续验证——两周+3天零回调",
+    "✅ 6500 ION第三日稳固$20,548——跳涨永久化",
+    "⚠️ CoreWaveLabs DDR5页面确认JS动态渲染——web_fetch无法提取定价·parser_gap升级为结构性阻塞",
+    "🟢 allweatherfinance.com DNS恢复"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "CoreWaveLabs $1,379锚点有效。CXMT IPO申购日不改变2026供给。股票暴跌是获利回吐非实物供需变化。TrendForce Q3 Server DRAM +18%。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。TrendForce Q3 Server DRAM +18%领涨。CoreWaveLabs目录完整但需自动化提取。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280十四日验证。QLC全品类系统性涨价将TLC产能挤向高端。MLC退出Day 16。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618十七日零回调——史上最长锚定。全6 CDW锚点十四至十七日全通。供应商锁定合约价最终证明。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "⚡⚡⚡三天内两个QLC锚点先后跳涨：6500 ION +23.1% + D5-P5316 +19.9%。QLC全品类系统性涨价确认。15TB层级开始跳涨=供给压力从30TB向全容量扩散。QLC 2026全年售罄。紧迫度历史最高。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB DDR5-6400 RDIMM公开市场极少现货。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs $1,379锚点有效但页面JS动态渲染——web_fetch无法提取定价。需浏览器自动化。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs有96GB产品分类页·全部动态渲染。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同DDR5-6400。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs DDR5-5600目录页含产品但全部动态渲染。旧NEMIX数据不可验证。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs可覆盖但需自动化提取。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "out_of_scope",
+      "note": "小容量企业级TLC SSD极少公开现货。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Gen5企业级SSD最小容量位极少。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "source_regression",
+      "note": "CDW常规搜索返回no results——需确切PN重新建立链接。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "今日未独立重验。旧CDW数据可能已失效。"
+    }
+  ],
+  "structuralIssues": [
+    {
+      "issue": "CoreWaveLabs DDR5全类parser_gap升级为结构性阻塞",
+      "detail": "CoreWaveLabs是企业级DDR5 RDIMM最丰富的公开价源之一，覆盖DDR5-6400/5600全容量全品牌，但全部定价数据通过JavaScript动态加载。web_fetch/curl均无法提取。需要浏览器自动化(Playwright/Puppeteer)或尝试API/structured data路径。此阻塞已持续多日，应从临时parser_gap升级为结构性数据获取阻塞。",
+      "categoriesAffected": ["DDR5-6400", "DDR5-5600"],
+      "urgency": "high",
+      "recommendedAction": "开发Playwright脚本自动访问CoreWaveLabs DDR5-6400和DDR5-5600产品页并提取定价表格数据。"
+    },
+    {
+      "issue": "QLC全品类系统性涨价——三天双跳",
+      "detail": "7/14 6500 ION 30.72TB +23.1% + 7/16 D5-P5316 15.36TB +19.9%。两个独立SKU、两个不同容量位、同一分销平台、三天内先后重校定价。QLC供给压力从高密度(30TB+)向中容量(15TB)扩散——经典供给恶化扩散模式。需要监控61.44TB和122.88TB是否跟进。",
+      "categoriesAffected": ["PCIe4 QLC"],
+      "urgency": "critical",
+      "recommendedAction": "优先恢复61.44TB和122.88TB CDW锚点验证。考虑将QLC三跳确认为不可逆结构性牛市。"
+    }
+  ]
+}
