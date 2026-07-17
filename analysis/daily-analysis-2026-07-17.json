@@ -1,0 +1,133 @@
+{
+  "date": "2026-07-17",
+  "generatedAt": "2026-07-17T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "CoreWaveLabs 32GB $1,379 锚点有效（Day 2 carry）。parser_gap 持续——JS 动态渲染阻塞。Inventec 40 周交期为史上最强供给侧实物验证信号。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "Carry Day 10。同步 DDR5-6400 全催化。Jefferies Q3 +40-50% 远超 TrendForce +13-18%。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW 7450 PRO 7.68TB $3,280 第十五日验证。DatacenterDisk: NVMe 16x HDD $/TB。ADATA NAND +40% 警告。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "9550 Pro 30.72TB $18,618 第十八日——两周+4天！全 6 CDW 锚点十五-十八日全通。Inventec + Meritz 供给验证。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "四锚点全线稳固：6500 ION $20,548 Day 4 + D5-P5316 $8,333 Day 2。双跳永久化。61.44TB CDW 访问异常。"}
+  },
+  "newSourcesTried": ["TechTimes (Inventec 详细报道)", "DIGITIMES (供应链分析)", "CNBC (SK Hynix 暴跌)", "MLQ News (全球芯片抛售)", "Yahoo Finance (记忆体股票分析)", "Bloomberg (CXMT 212x 超额)", "Reuters/CNA (CXMT IPO)", "SCMP (DeepSeek 创始人参与)", "FT (CXMT $100亿 IPO)", "Blocks & Files (华为 DRAM)", "Network World (华为 DRAM 分析)", "Igor's Lab (ADATA 警告)", "DatacenterDisk (SSD/HDD 价格分歧)", "WinBuzzer (Rambus/Powerchip)", "CompSource (D5-P5336 61.44TB 备源)"],
+  "newSourcesWithUsefulData": ["TechTimes (Inventec 40周交期+Meritz 75-80%+Jefferies +40-50%)", "CNBC (KOSPI侧车)", "Bloomberg (CXMT 212x)", "Igor's Lab (ADATA +30/+40%)", "DatacenterDisk (NVMe 16x HDD $/TB)"],
+  "keyChangesVsYesterday": [
+    "🔴🔴🔴 记忆体股票连续第二日暴跌加速：SK Hynix 韩国 -11.5% 触发 KOSPI 侧车（-6.4%）、SKHY -13%、MU -8%、SNDK -7%——较 7/15 -5% 明显加速",
+    "🆕🆕🆕 Inventec 公开警告：企业级 DRAM 交期突破 40 周——本追踪史上最强供给侧实物验证信号",
+    "📊 Jefferies: Q3 合约价 +40-50% QoQ——远超 TrendForce +13-18% 共识",
+    "📊 Meritz Securities: H2 2026 DRAM 供应仅满足 75-80% 需求，2027 或降至 60%",
+    "🔴 CXMT IPO 零售超额认购 212 倍——$100 亿级（2010 年来中国最大 IPO）",
+    "🆕 华为可能进入 DRAM 制造——2028 年潜在产能",
+    "✅✅✅✅✅✅✅✅ 9550 Pro 第十八日——18 日零回调·史上最长锚定"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Inventec 40 周交期 + Meritz 75-80% 满足率为史上最强供给侧实物信号。CoreWaveLabs $1,379 锚点有效（180 台现货）。Jefferies Q3 +40-50% 远超共识。股票暴跌是资本情绪，与实物供需无关。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步 DDR5-6400 全催化。Jefferies Q3 +40-50% 远超 TrendForce +13-18%。40 周交期适用于所有企业级 DRAM 品类。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 7.68TB $3,280 十五日验证。DatacenterDisk: NVMe 16x HDD $/TB。ADATA NAND +40% 警告。MLC 退出 Day 17。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $18,618 十八日零回调——两周+4天。全 6 CDW 锚点十五-十八日全通。Inventec + Meritz 供给验证。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "buy_now",
+      "reason": "QLC 双跳永久化——6500 ION Day 4 + D5-P5316 Day 2，两独立 SKU 均跳涨后连续不回调。ADATA NAND +40% 独立验证。紧迫度历史最高。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 16GB DDR5-6400 RDIMM 公开市场极少现货。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs $1,379 锚点有效但 JS 动态渲染阻塞。需浏览器自动化。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs 有产品页但全部 JS 渲染。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同 DDR5-6400。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs 目录含产品但 JS 渲染。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs 可覆盖但需自动化。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "out_of_scope",
+      "note": "小容量企业级 TLC SSD 极少公开现货。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Gen5 企业级 SSD 最小容量位极少。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "source_regression",
+      "note": "CDW #7785193 今日访问异常。CompSource 旧数据 $21,069（5/16）可能过时。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "今日未重验。"
+    }
+  ],
+  "escalatedSignals": [
+    {
+      "signal": "🔴🔴🔴 记忆体股票连续第二日全面暴跌——SK Hynix 韩国 -11.5% 触发 KOSPI 侧车",
+      "source": "CNBC/Morningstar/MLQ News July 16, 2026",
+      "importance": "highest",
+      "note": "连续第二日暴跌且加速（7/15 -5%→7/16 -11.5%）。KOSPI sell-side sidecar 触发。MU/SNDK/SKHY 自高点 -30-35%。CXMT IPO 恐惧 + TSMC 展望驱动。无公司特定利空。实物定价（CDW 全 6 锚点不变）与股票定价的历史性背离达到新极端。"
+    },
+    {
+      "signal": "🆕🆕🆕 Inventec 公开警告：企业级 DRAM 交期突破 40 周——本追踪史上最强供给侧实物信号",
+      "source": "TechTimes/DIGITIMES July 16, 2026",
+      "importance": "highest",
+      "note": "ODM 实际供应链参与者亲口证实。Meritz: H2 仅满足 75-80% 需求→2027 或 60%。Jefferies: Q3 +40-50% QoQ。Intel CEO Lip-Bu Tan: 无缓解。部分公司刻意隐藏短缺。DDR4 $21/颗（8x YoY）。"
+    },
+    {
+      "signal": "CXMT IPO 零售超额认购 212 倍——$100 亿级·DeepSeek 创始人参与",
+      "source": "Bloomberg/Reuters/SCMP/FT July 16, 2026",
+      "importance": "highest",
+      "note": "2010 年以来中国最大 IPO。212 倍零售超额。全球投资者通过代理交易后门参与。7/27 上市。CXMT IPO 狂热与 SK Hynix/MU/SNDK 暴跌并存——市场 split personality。"
+    }
+  ]
+}
