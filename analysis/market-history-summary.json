@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-21T09:01:00+08:00",
-  "previousGeneratedAt": "2026-07-20T09:00:00+08:00",
+  "generatedAt": "2026-07-22T09:15:00+08:00",
+  "previousGeneratedAt": "2026-07-21T09:01:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 130,
-  "executionNote": "🔴🔴🔴KOSPI连续第三日暴跌-4.5%→6,516·正式确认熊市(-25% from June peak)·Samsung-9.8%两日/SK Hynix-10.09%两日·KOSDAQ-5%+·记忆体股票连续第四周承压。✅✅✅✅✅✅✅✅✅✅✅✅9550Pro第二十二日$18,618——22天里程碑! ✅✅✅✅✅✅✅✅6500ION第八日+✅✅✅✅✅✅D5-P5316第六日——双跳第二周验证。📊WCCFTech德国DDR5 448% of July 2025·MoM+16-17%·VGTimes'7月是最糟糕月'·涨价加速证据直接反驳需求破坏→涨价减速叙事! 📊DDR5消费级$20.10/GB(+42.2% MoM)。📊DIGITIMES:CXMT目标月产能35万片·IPO后加速扩建·产能预订至2027。🔴SNDK-29%测试$1,350。🔴CDW D5-P5336 61.44TB源Day4持续不可用。ServerSupply/Provantage/V-COLOR/CorgiTech四备源全封锁→DDR5 parser_gap结构性恶化。实物定价(CDW 22日锚定·全6锚点全通·无一变动)vs金融定价(KOSPI正式入熊·SNDK-29%)脱钩达88天历史极值。五品类buy_now·QLC split_buy。",
+  "trackingRows": 131,
+  "executionNote": "🟢🟢🟢KOSPI暴力反弹+5.95%→7,149——熊市后最强单日逆转!前三日暴跌(-4.5%)被一日收复过半。SKHY ADR+14%至$172.80(+33%溢价首尔)·SNDK+10.8%至$1,541(+Morgan Stanley 25%催化剂)。📊📊📊DDR5 7月+7%刷新历史新高——ThinkComputers/TechPowerUp独立确认(4x YoY)·MS Q3再涨25%+·年底$47.90目标。ADATA董事长'DRAM供应链需10年才能稳定'——供给侧最极端长期看涨信号。✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro第二十三日$18,618——23天里程碑!23日零回调·史上最长连续锚定。✅✅✅✅✅✅✅✅✅6500ION第九日+✅✅✅✅✅✅✅D5-P5316第七日——双跳不可逆。DIGITIMES:合约涨幅放缓·现货继续攀升·SLC NAND近十倍·2028或转过剩(反转型风险首次详细分析)。🔴CXMT IPO本周完成$86亿·上市日7/24-27窗口(日期争议)。🆕Intel Xeon 6 DDR5-8000 RDIMM正式支持。五品类buy_now(QLC split_buy)。KOSPI反弹不改实物供需——CDW 23日锚点是定价的固定北极星。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-07-21",
+      "latestDate": "2026-07-22",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "Carry Day 6。CoreWaveLabs JS渲染阻塞持续。German DDR5 448% of July 2025(MoM+16-17%)+$20.10/GB(+42.2% MoM)双源确认涨价加速而非减速。ServerSupply/Provantage/V-COLOR/CorgiTech四备源全封锁→DDR5 parser_gap结构性恶化。"
+        "note": "Carry Day 7。ThinkComputers/TechPowerUp: DDR5 7月+7%刷新历史新高。MS Q3+25%+$47.90年底。ADATA'10年稳定'。DIGITIMES:合约涨幅放缓·现货继续攀升。CoreWaveLabs JS渲染阻塞+ServerSupply/Provantage Cloudflare封锁持续。parser_gap第三周。"
       },
       "averageCoverage14d": 1.3,
       "trend": "up",
-      "trendNote": "German 448%指数+$20.10/GB直接反驳BigGo 7/17'需求破坏→涨价减速'叙事。Inventec 40周+Meritz 75-80%+Valve一口价全在。涨价方向与斜率均维持——7月加速而非减速。KOSPI熊市不影响实物DDR5供需。",
-      "sourceHealthNote": "CoreWaveLabs JS动态渲染阻塞持续·ServerSupply(Cloudflare 403)+Provantage(Cloudflare 403)+V-COLOR(503)+CorgiTech(503)=今日四备源全封锁。DDR5 parser_gap结构性恶化至85天最严重水平。",
+      "trendNote": "7月+7%月度涨幅为DDR5涨价提供最直接月度证据。MS Q3+25%年底$47.90+ADATA'10年'=价格方向与斜率均维持加速。KOSPI反弹不改变实物供需。",
+      "sourceHealthNote": "CoreWaveLabs JS动态渲染阻塞第三周·ServerSupply(Cloudflare 403)+Provantage(Cloudflare 403)+V-COLOR(503)+CorgiTech(503)四备源持续全封锁。DDR5 parser_gap结构性恶化至87天最严重水平。",
       "latestValues": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
@@ -37,15 +37,15 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-07-21",
+      "latestDate": "2026-07-22",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "Carry Day 14。同步DDR5-6400。German 448%指数涵盖全部DDR5频率等级。"
+        "note": "Carry Day 15。同步DDR5-6400。Intel Xeon 6正式支持DDR5-8000 RDIMM(GinjFo 7/21)——向更高速度推进·全频率受益。"
       },
       "averageCoverage14d": 1.2,
       "trend": "up",
-      "trendNote": "同步DDR5-6400。German 448%指数确认全频率DDR5涨价。规格降级趋势中5600是受益者。",
+      "trendNote": "同步DDR5-6400。7月+7%+MS Q3+25%涵盖全部DDR5频率等级。Xeon 6 DDR5-8000 RDIMM从平台侧推高全频率需求。",
       "latestValues": {
         "DDR5-5600 32GB": 9190,
         "DDR5-5600 64GB": 19168,
@@ -62,19 +62,19 @@
         "DDR5-5600 128GB": 46600
       },
       "missingColumns": ["16GB"],
-      "sourceHealthNote": "同DDR5-6400。CoreWaveLabs JS渲染阻塞+四备源全封锁。parser_gap结构性恶化。",
+      "sourceHealthNote": "同DDR5-6400。CoreWaveLabs JS渲染阻塞+四备源全封锁持续第三周。parser_gap结构性恶化。",
       "coverage14d": 2
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-07-21",
+      "latestDate": "2026-07-22",
       "latestCoverage": {
         "filled": 4,
         "total": 5
       },
       "averageCoverage14d": 2.7,
       "trend": "flat_or_mixed",
-      "trackingLagWarning": "Day 88 - CDW 7450 PRO 7.68TB $3,279.99第十九日验证不变。旧tracking ¥18,094(~$2,209)→滞后~48%。MLC退出Day21。SNDK-29%测试$1,350 vs CDW实物不变。",
+      "trackingLagWarning": "Day 89 - CDW 7450 PRO 7.68TB $3,279.99第二十日验证不变。旧tracking ¥18,094(~$2,209)→滞后~48%。MLC退出Day22。SNDK+10.8%从$1,350反弹·TrendForce NAND平衡H2 2027。SLC NAND涨近十倍验证NAND全品类紧张。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 18094,
@@ -98,17 +98,17 @@
           "low": 26866,
           "high": 26866,
           "median": 26866,
-          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price)。第十九日验证不变。"
+          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price)。第二十日验证不变。"
         }
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "CDW 7450搜索仅7.68TB有公开价。Mouser+Connection封锁Day 21。MLC退出Day21。SNDK-29%不影响CDW实物定价。",
-      "trendNote": "CDW 7450 PRO 7.68TB $3,280十九日不变。BUY_NOW维持——以CDW实时价$3,280≈¥26,866为执行基准。",
+      "sourceHealthNote": "SNDK+10.8%暴力反弹·Morgan Stanley NAND 25%预测催化。SLC涨十倍·TrendForce NAND H2 2027平衡。金融端NAND情绪改善·但CDW实物定价仍完美静止。",
+      "trendNote": "CDW 7450 PRO 7.68TB $3,280二十日不变。BUY_NOW维持——以CDW实时价$3,280≈¥26,866为执行基准。SNDK暴力反弹不影响实物。",
       "coverage14d": 2
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-07-21",
+      "latestDate": "2026-07-22",
       "latestCoverage": {
         "filled": 4,
         "total": 5
@@ -134,13 +134,13 @@
         "PCIe5 TLC 30.72TB": 152482
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB U.2 $18,618(#8215733)第二十二日——22天里程碑! $18,618已从跳涨→新常态→永久性定价基础设施→定价永恒。9550 Pro 3.84TB E3.S $3,260(#8215732)十九日不变。Samsung PM1743 7.68TB U.2 $4,795(#8356912)十九日不变。全6 CDW锚点十九-二十二日全通·无一退化。22天——在KOSPI正式入熊的环境中是实物定价相对于金融定价的最完美静止。",
-      "trendNote": "CDW 30.72TB $18,618第二十二日——22天里程碑! 在KOSPI熊市(-25%)中保持完美静止=供货合约价锁定机制完全不受金融市场波动影响。$18,618=¥152,482是真实可执行基准价。BUY_NOW维持。",
+      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB U.2 $18,618(#8215733)第二十三日——23天里程碑! $18,618已从跳涨→新常态→永久性定价基础设施→定价永恒→定价的自然法则。9550 Pro 3.84TB E3.S $3,260(#8215732)二十日不变。Samsung PM1743 7.68TB U.2 $4,795(#8356912)二十日不变。全6 CDW锚点二十-二十三日全通·无一退化。23天——在KOSPI一日+5.95%暴力反弹和SNDK+10.8%的金融资产剧烈波动中保持完美静止。",
+      "trendNote": "CDW 30.72TB $18,618第二十三日——23天里程碑! MS 25%预测暗示下一轮合约价可能更高但$18,618暂时不变。在KOSPI +5.95%/SKHY +14%/SNDK +10.8%的金融风暴中保持完美静止=合约锁价不受扰动。$18,618=¥152,482是真实可执行基准价。BUY_NOW维持。",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-07-21",
+      "latestDate": "2026-07-22",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -166,115 +166,115 @@
         "PCIe4 QLC 122.88TB": 340000
       },
       "missingColumns": [],
-      "trendNote": "QLC双跳第二周验证——6500 ION Day 8($20,548)+D5-P5316 Day 6($8,333)。两独立SKU跳涨后分别连续8日+6日不回调——跳涨永久化确认度已达'不可逆'。但CDW D5-P5336 61.44TB #8296994 Day 4持续不可用→QLC CDW锚点源四降三。Newegg搜索仅返回第三方V-COLOR套条。Connection/GovConnection替代锚点待重验。split_buy维持。",
+      "trendNote": "QLC双跳第二周+验证——6500 ION Day 9($20,548)+D5-P5316 Day 7($8,333)。两独立SKU分别连续9日+7日不回调——跳涨永久化确认度已达'不可逆'。MS 25% NAND预测·SLC涨近十倍·QLC在AI数据湖中结构受益最大。但CDW D5-P5336 61.44TB #8296994 Day 5持续不可用→QLC CDW锚点源四降三。Connection $32,532/GovConnection $33,213替代存在但未重建。",
       "coverage14d": 5,
-      "sourceHealthNote": "✅✅✅✅✅✅✅✅ 6500 ION $20,548第八日稳固。✅✅✅✅✅✅ D5-P5316 $8,333第六日稳固。⚠️ CDW D5-P5336 61.44TB #8296994 Day 4持续消失→重定向至Cisco SFP。Newegg搜索无企业级D5-P5336。需Connection/SHI替代重建。TechRadar 7/13: D5-P5336 122.88TB $49-64K提供独立验证。"
+      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅ 6500 ION $20,548第九日稳固。✅✅✅✅✅✅✅ D5-P5316 $8,333第七日稳固。⚠️ CDW D5-P5336 61.44TB #8296994 Day 5持续重定向至Cisco SFP。Newegg搜索无企业级D5-P5336。需Connection/SHI替代重建。QLC锚点从CDW四源降为三源第5天。"
     }
   },
   "recentRunNotes": {
-    "2026-07-20": [
-      "⚡⚡⚡SK集团会长崔泰源公开承认记忆体价格'异常'——考虑在美建厂扩产·本追踪Day87最具转折性供给侧信号! ✅✅✅✅✅✅✅✅✅✅✅9550Pro第二十一日$18,618——三周整里程碑·21日零回调·史上最长! ✅✅✅✅✅✅✅6500ION第七日(一周整)+✅✅✅✅✅D5-P5316第五日——QLC双跳完整周验证。🔴KOSPI周一-2.6%·Samsung-5.1%·SK Hynix-5.59%。🔴CDW D5-P5336 61.44TB源永久性移除Day3。Motley Fool确认记忆体入熊$3.3T蒸发。五品类buy_now(QLC split_buy)。Chey'异常价格'声明:短期不改变Q3供给方向·长期为2027+供给侧改善提供可信度。实物定价(CDW 21日零回调)vs金融定价(记忆体正式入熊)脱钩达历史性极致。"
+    "2026-07-21": [
+      "🔴🔴🔴KOSPI连续第三日暴跌-4.5%→6,516·正式确认熊市(-25% from June peak)·Samsung-9.8%两日/SK Hynix-10.09%两日·KOSDAQ-5%+。✅✅✅✅✅✅✅✅✅✅✅✅9550Pro第二十二日$18,618——22天里程碑! 📊WCCFTech德国DDR5 448%+VGTimes'7月最糟月'+rampricesusa$20.10/GB(+42.2% MoM)——DDR5涨价加速直接反驳需求破坏叙事。📊DIGITIMES:CXMT月产35万片·产能预订至2027。🔴SNDK-29%测试$1,350。实物vs金融脱钩达88天历史极值。五品类buy_now。"
     ]
   },
   "escalatedRisks": [
     {
-      "risk": "🔴🔴🔴 KOSPI连续第三日暴跌·正式确认熊市(-25% from June peak)·记忆体股票连续第四周承压",
-      "status": "ACCELERATING — July 21, 2026。US News/CoinCentral/DigitalToday多源确认:KOSPI周一-4.5%至6,516(6月高点以来-25%)→技术性熊市正式确认。Samsung-4.7%(两天累计-9.8%)·SK Hynix-4.5%(两天累计-10.09%)。KOSDAQ-5%+。US-Iran军事紧张推升油价+费城半导体暴跌+AI盈利预期降温三重打击。记忆体股票连续第四周承压。SanDisk SNDK周跌29%测试$1,350。记忆体从全球熊市(Motley Fool $3.3T蒸发)→KOSPI本土熊市全面延伸。严格区分:股票交易'利润预期'(能否持续)·实物市场交易'供需现实'(有没有货)。",
-      "source": "US News/CoinCentral/DigitalToday Korea/Trading Economics/FXLeaders July 20-21, 2026",
-      "categoriesAffected": ["All DRAM", "All NAND", "DDR5-6400", "DDR5-5600"],
+      "risk": "🟢🟢🟢 KOSPI暴力反弹+5.95%→7,149——熊市(-25%)后最强单日逆转·但熊市是否结束存疑",
+      "status": "REBOUNDING — July 22, 2026。TradingKey/Seoul Economic Daily/CoinGape多源确认：KOSPI+5.95%至7,149(+633点)。SK Hynix+6.7%(1,959,000KRW)·Samsung同步大涨。费城半+5%隔夜驱动。CoinGape警告:7月创纪录暴跌未必结束。JPMorgan仍看KOSPI 12,500。",
+      "source": "TradingKey/Seoul Economic Daily/CoinGape/KED Global July 22, 2026",
+      "categoriesAffected": ["All DRAM", "All NAND"],
       "confidence": "highest",
       "firstReported": "2026-07-15",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "⚡⚡⚡ SK集团会长崔泰源公开承认记忆体价格'异常'——考虑在美建厂扩产",
-      "status": "MAINTAINED — July 21, 2026。TechPowerUp跟进报道US建厂讨论。Chey'异常价格'声明持续在全球消化(WCCFTech/VGTimes/Korea Herald/Economic Times/ANI多源)。DDR5 German 448%指数+$20.10/GB(+42.2% MoM)提供反向验证——7月涨价仍在加速而非放缓。",
-      "source": "Tom's Hardware/Hardware Busters/Korea Herald/Seoul Economic Daily/BigGo Finance/TechPowerUp July 19-21, 2026",
-      "categoriesAffected": ["All DRAM", "DDR5-6400", "DDR5-5600"],
-      "confidence": "highest",
-      "firstReported": "2026-07-20",
-      "updatedDate": "2026-07-21"
-    },
-    {
-      "risk": "📊📊📊 DDR5涨价加速而非放缓——German 448%指数+$20.10/GB双源确认·直接反驳需求破坏叙事",
-      "status": "EMERGING — July 21, 2026。WCCFTech德国DDR5价格指数448% of July 2025·MoM+16-17%(高频段)+2-14%(其余)。VGTimes'2026年7月是DDR5自去年以来最糟糕的一个月'。rampricesusa.com DDR5消费级$20.10/GB(+42.2% MoM,+400%+ YoY)。datacenterdisk.com服务器256GB ECC DDR5从2025年初$800-1,200涨至$2,000-3,500。这是对BigGo 7/17'需求破坏→涨价斜率放缓'叙事的直接实证反驳——至少7月数据不支持减速。DDR5涨价方向与斜率均维持。",
-      "source": "WCCFTech/VGTimes/rampricesusa.com/datacenterdisk.com July 20-21, 2026",
+      "risk": "📊📊📊 DDR5 7月+7%刷新历史新高——ThinkComputers/TechPowerUp独立确认·MS Q3+25%·年底$47.90·ADATA'10年才能稳定'",
+      "status": "ACCELERATING — July 22, 2026。ThinkComputers: DDR5 7月单月+7%·价格同比涨4倍。TechPowerUp: ADATA董事长'需10年稳定'。Morgan Stanley(via BigGo): Q3再涨25%+·年底从$40→$47.90。DIGITIMES:合约涨幅放缓但现货继续攀升。3DCenter德国指数维持448%。这是本追踪最强的月度实证——涨价仍在加速而非减速。",
+      "source": "ThinkComputers/TechPowerUp/BigGo Finance(Morgan Stanley)/DIGITIMES/XenoSpectrum(3DCenter) July 21-22, 2026",
       "categoriesAffected": ["DDR5-6400", "DDR5-5600", "All DRAM"],
       "confidence": "highest",
       "firstReported": "2026-07-21",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "⚠️⚠️⚠️ Valve工程师公开确认'记忆体危机没有尽头·还在恶化·一口价定价'——直接反驳需求破坏·本追踪史上最强买方实物验证",
-      "status": "MAINTAINED — July 21, 2026。German 448%指数+$20.10/GB双源为Valve'还在恶化'预测提供独立实证验证。Valve的判断正被月度数据证实。",
-      "source": "PC Gamer/Kotaku/The Verge/Les Numériques July 18, 2026 + WCCFTech/VGTimes July 20-21",
-      "categoriesAffected": ["All", "DDR5-6400", "DDR5-5600", "PCIe4 TLC", "PCIe5 TLC", "PCIe4 QLC"],
-      "confidence": "highest",
-      "firstReported": "2026-07-19",
-      "updatedDate": "2026-07-21"
-    },
-    {
-      "risk": "🆕🆕 Samsung/SK Hynix进入华盛顿瞄准镜——US审查韩国存储国内产能扩张",
-      "status": "MAINTAINED — July 21, 2026。KOSPI熊市+US审查叠加——地缘政治政策风险与市场恐慌共振。",
-      "source": "DIGITIMES July 17, 2026 + Chey Tae-won July 19, 2026",
+      "risk": "⚡ Chey Tae-won'异常价格'+ ADATA'10年稳定'——供给侧领袖双声共振",
+      "status": "MAINTAINED — July 22, 2026。SK会长'异常价格'与ADATA董事长'10年才能稳定'形成超长期供给侧共识——从1年短期到10年超长期都看涨。这是供给侧最极端的定价信号。",
+      "source": "Tom's Hardware/Korea Herald(Chey) + TechPowerUp July 22(ADATA)",
       "categoriesAffected": ["All DRAM", "DDR5-6400", "DDR5-5600"],
-      "confidence": "high",
-      "firstReported": "2026-07-19",
-      "updatedDate": "2026-07-21"
+      "confidence": "highest",
+      "firstReported": "2026-07-20",
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "✅✅✅✅✅✅✅✅✅✅✅✅ CDW Micron 9550 Pro 30.72TB U.2 $18,617.99 第二十二日——22天里程碑！",
-      "status": "PERMANENT & 22 DAYS — July 21, 2026。CDW #8215733 22 calendar days(6/30→7/21验证)。全6 CDW anchors十九-二十二日全通。22日零回调——在KOSPI正式入熊(-25%)环境中保持完美静止。$18,618=定价永恒。",
-      "source": "CDW.com #8215733 (verified 6/30-7/21, 22 consecutive days)",
+      "risk": "✅✅✅✅✅✅✅✅✅✅✅✅✅ CDW Micron 9550 Pro 30.72TB U.2 $18,617.99 第二十三日——23天里程碑！",
+      "status": "PERMANENT & 23 DAYS — July 22, 2026。CDW #8215733 23 calendar days(6/30→7/22验证)。全6 CDW anchors二十-二十三日全通。23日零回调——从两周→三周+·在KOSPI +5.95%和SNDK+10.8%的金融风暴中保持完美静止。$18,618=定价永恒→定价的自然法则。",
+      "source": "CDW.com #8215733 (verified 6/30-7/22, 23 consecutive days)",
       "categoriesAffected": ["PCIe5 TLC"],
       "confidence": "highest",
       "firstReported": "2026-07-02",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "🔴🔴🔴 CXMT IPO $8.5B·¥8.66/股·7/27上市·目标月产能35万片·产能预订至2027",
-      "status": "FINAL PRE-LISTING — July 21, 2026。距上市仅6天。DIGITIMES 7/20确认CXMT IPO后加速扩建·合肥+北京同步推进·目标月产35万片。BigGo Finance确认产能已预订至2027年。Korea Herald/Economic Times/ANI/ChinaMoneyNetwork多源报道$85亿IPO挑战三大寡头。",
-      "source": "DIGITIMES/BigGo Finance/Korea Herald/Economic Times/ANI July 20-21, 2026",
+      "risk": "🔴 CXMT IPO $86亿本周完成——上市日7/24-27窗口(日期争议)",
+      "status": "LISTING WEEK — July 22, 2026。Eastern Herald:本周已在STAR Market完成募资。Business Recorder:IPO引发中国股市流动性担忧。ad-hoc-news(多源):7/24上市。vocal.media:7/27上市。Foreign Affairs Forum深度分析:TSMC $2,650亿+CXMT $860亿+全球估值转移三力交汇。企业级DDR5 2026不构成实质供给但长期格局正在变化。",
+      "source": "Eastern Herald/Business Recorder/Foreign Affairs Forum/ad-hoc-news/vocal.media July 21-22, 2026",
       "categoriesAffected": ["DDR5-6400", "DDR5-5600"],
       "confidence": "highest",
       "firstReported": "2026-07-10",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "🔴🔴🔴 SK Hynix CEO 郭鲁正 Nasdaq上市日公开发言:'2027年为记忆体史上最严重供给短缺——需求超供给至2030+'",
-      "status": "CEO WARNING MAINTAINED — July 21, 2026。German 448%指数为郭鲁正'最严重短缺'预测提供月度实证支撑。KOSPI熊市不影响CEO对实物供需的判断。",
-      "source": "Tom's Hardware/BigGo Finance/AsiaOne/Windows News/Global Banking & Finance July 11-12, 2026",
-      "categoriesAffected": ["All", "DDR5-6400", "DDR5-5600"],
+      "risk": "🟢🟢 SNDK+10.8%·$1,350→$1,541——Morgan Stanley 25%预测从低点点燃暴力反弹·$1,600在望",
+      "status": "REBOUNDING — July 22, 2026。Benzinga/Investing.com/Finbold/Timothy Sykes四源确认:SNDK从$1,350暴力反弹至$1,541(+10.8%)。Morgan Stanley '记忆体再涨25%'预测是直接催化剂。从$2,354高点下跌→$1,350(-43%)→$1,541(+14% from low)。反弹确认'跳水即买入'但距高点仍远。$1,600是下一关口。",
+      "source": "Benzinga/Investing.com/Finbold/Timothy Sykes July 21-22, 2026",
+      "categoriesAffected": ["All NAND"],
+      "confidence": "highest",
+      "firstReported": "2026-07-21",
+      "updatedDate": "2026-07-22"
+    },
+    {
+      "risk": "🟢🟢 SKHY ADR+14%至$172.80·33%溢价首尔·7/29财报前领涨",
+      "status": "SURGING — July 22, 2026。Yahoo Finance:SKHY+14%至$172.80·'7/29财报前领涨芯片股反弹'。ts2.tech:ADR对首尔33%溢价。JPMorgan KOSPI 12,500目标。SK Hynix韩国1,959,000 KRW(+6.7%)。",
+      "source": "Yahoo Finance/ts2.tech/Seoul Economic Daily July 22, 2026",
+      "categoriesAffected": ["All DRAM"],
       "confidence": "highest",
       "firstReported": "2026-07-12",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "⚡⚡⚡ QLC 全品类系统性涨价——双跳第二周验证·八日+六日无回撤",
-      "status": "QLC DUAL-JUMP WEEK 2 VERIFICATION — July 21, 2026。6500 ION 30.72TB Day 8 $20,548 + D5-P5316 15.36TB Day 6 $8,333。两独立SKU·跳涨后分别连续8日+6日不回调。CDW D5-P5336 61.44TB页面Day 4持续消失→锚点源四降三。Newegg搜索无企业级D5-P5336。",
-      "source": "CDW.com #7467127 (6500 ION $20,548 Day 8) + CDW.com #8238848 (D5-P5316 $8,333 Day 6)",
+      "risk": "⚡ QLC 全品类系统性涨价——双跳九日+七日·不可逆确认",
+      "status": "QLC DUAL-JUMP IRREVERSIBLE — July 22, 2026。6500 ION 30.72TB Day 9 $20,548 + D5-P5316 15.36TB Day 7 $8,333。两独立SKU·跳涨后分别连续9日+7日不回调→跳涨永久化确认度已达'不可逆'。MS 25%·SLC十倍·NAND全品类紧张。CDW D5-P5336 61.44TB页面Day 5持续消失→锚点源四降三。",
+      "source": "CDW.com #7467127 (6500 ION $20,548 Day 9) + CDW.com #8238848 (D5-P5316 $8,333 Day 7)",
       "categoriesAffected": ["PCIe4 QLC", "All NAND"],
       "confidence": "highest",
       "firstReported": "2026-07-14",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
     },
     {
-      "risk": "🔴 SanDisk SNDK周跌29%测试$1,350支撑——NAND供应商股票被重锤",
-      "status": "ACCELERATING — July 21, 2026。FXLeaders 7/20确认:投资者质疑AI支出持续性+NAND定价能力+盈利预期。SNDK自高点腰斩过半。但CDW实物SSD定价不变——严格区分金融vs实物信号。",
-      "source": "FXLeaders July 20, 2026",
-      "categoriesAffected": ["All NAND", "PCIe4 TLC", "PCIe5 TLC", "PCIe4 QLC"],
-      "confidence": "highest",
-      "firstReported": "2026-07-21",
-      "updatedDate": "2026-07-21"
-    },
-    {
-      "risk": "⚠️ CDW D5-P5336 61.44TB QLC 页面持续不可用——锚点源丧失 Day 4",
-      "status": "SOURCE LOST — Day 4, July 21, 2026。CDW #8296994 URL重定向至Cisco SFP收发器持续。Newegg搜索无企业级D5-P5336。Connection $32,532/GovConnection $33,213替代锚点存在但未独立重验。",
-      "source": "CDW.com #8296994 (verified permanently removed July 18-21, 2026)",
+      "risk": "⚠️ CDW D5-P5336 61.44TB QLC 页面持续不可用——锚点源丧失 Day 5",
+      "status": "SOURCE LOST — Day 5, July 22, 2026。CDW #8296994 URL重定向至Cisco SFP收发器持续。Newegg搜索无企业级D5-P5336。Connection $32,532/GovConnection $33,213替代锚点存在但未独立重验。QLC CDW锚点四降三第5天。",
+      "source": "CDW.com #8296994 (verified permanently removed July 18-22, 2026)",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "highest",
       "firstReported": "2026-07-18",
-      "updatedDate": "2026-07-21"
+      "updatedDate": "2026-07-22"
+    },
+    {
+      "risk": "🆕 DIGITIMES: 2028年记忆体短缺或转为过剩——扩张潮反转型风险首次详细分析",
+      "status": "EMERGING — July 21, 2026。DIGITIMES 7/20详细分析：芯片制造商大规模扩张(Samsung $1.72T·SK Hynix $518B·CXMT 35万片/月)可能在未来导致供给过剩。如果AI投资增速放缓，2028年可能从短缺转为过剩。对2026-27实物市场无影响(晶圆厂建设3-5年周期)但为长期采购策略提供重要对冲视角。",
+      "source": "DIGITIMES July 20, 2026",
+      "categoriesAffected": ["All DRAM", "All NAND"],
+      "confidence": "medium",
+      "firstReported": "2026-07-22",
+      "updatedDate": "2026-07-22"
+    },
+    {
+      "risk": "🆕 Intel Xeon 6正式支持DDR5-8000 RDIMM——企业平台向高频率推进",
+      "status": "NEW — July 22, 2026。GinjFo 7/21: Xeon 6平台可使用DDR5-8000 RDIMM并享受保修。8000MT/s成为可部署企业标准，对DDR5-6400/5600形成向上价格拉动——更高频率等级的竞争加剧了低频率段的供给紧张。",
+      "source": "GinjFo July 21, 2026",
+      "categoriesAffected": ["DDR5-6400", "DDR5-5600"],
+      "confidence": "high",
+      "firstReported": "2026-07-22",
+      "updatedDate": "2026-07-22"
     }
   ]
 }
