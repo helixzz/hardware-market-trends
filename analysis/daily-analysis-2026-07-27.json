@@ -1,0 +1,210 @@
+{
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T09:02:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "Carry Day 12。CXMT 今日 9:30 AM STAR Market 上市——溢价定价叙事接受资本市场检验。CoreWaveLabs JS渲染阻塞第七周+。ServerSupply/Provantage Cloudflare封锁第七周+。parser_gap结构性恶化至Day94史上最严重水平。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "Carry Day 20。同步DDR5-6400。SK Hynix 7/29 Q2财报仅2天——共识OP ¥64.1T韩元($43.7B)。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW 7450 PRO 7.68TB $3,280 二十五日不变——逼近整月(7/30)。MLC退出Day 27。NAND缺口4-5%。9550 Pro Day 3跳涨+6500 ION List +14.6%双信号上行指引。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "⚠️⚠️⚠️ CDW 9550 Pro 30.72TB $21,854 Day 3确认——三天三验·跳涨永久化！新基准¥178,977。其他3 CDW锚点二十五日不变。SK Hynix Q2 7/29——若OP超共识可能催化CDW对其他容量跟进提价。旗舰→全品类传导窗口5-10天。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "双跳14日+12日迫近三周。6500 ION Advertised $20,548不变但List +14.6%($40,702→$46,631)——暗示未来Advertised可能跟进。D5-P5336 61.44TB CDW源丧失Day 10——HTTP 200永久重定向确认。Connection/GovConnection替代锚点未重验。结构性缺口两位数天数。"}
+  },
+  "newSourcesTried": [
+    "CDW #8215733 curl direct（9550 Pro 30.72TB Day 3确认——三天三验）",
+    "CDW #8215732 curl direct（9550 Pro 3.84TB Day 25）",
+    "CDW #8356912 curl direct（PM1743 7.68TB Day 25）",
+    "CDW #7085698 curl direct（7450 PRO 7.68TB Day 25）",
+    "CDW #7467127 curl direct（6500 ION 30.72TB Day 14 ⚠️List +14.6%）",
+    "CDW #8238848 curl direct（D5-P5316 15.36TB Day 12）",
+    "CDW #8296994 curl direct（D5-P5336 61.44TB HTTP 200永久重定向Day 10）",
+    "CoreWaveLabs DDR5 RDIMM page（web_fetch——JS渲染阻塞·第七周）",
+    "Bloomberg（CXMT IPO记忆体狂热·$9.8B·首日有望成A股市值第一）",
+    "Reuters（CXMT上海首秀·$855亿估值·亚洲最大IPO）",
+    "Cryptobriefing（CXMT $8.6B·代码688825）",
+    "The Wire China（CXMT十年·STAR Market首秀）",
+    "Business Times（CXMT有望首日成中国最大上市公司）",
+    "Baiguan.news（市场屏息以待CXMT——超大型IPO标志牛市高点）",
+    "Korea Times（SK Hynix Q2 $43.7B OP——单季超2025全年）",
+    "Aju Press（韩国半导体超级周——SK Hynix周三·Samsung周四·AI繁荣检验）",
+    "Seoul Economic Daily（KOSPI跌至6600·三星/SK海力士财报在即）",
+    "Korea JoongAng Daily（KOSPI+1.73%——中东缓和+AI峰会）",
+    "MK（KOSPI早盘震荡6,720）",
+    "Asia Business Daily（KOSPI forward PER 5.7x历史低估）",
+    "Motley Fool（KOSPI像Meme股交易·S&P/纳斯达克或步后尘）",
+    "ad-hoc-news（SK Hynix 41%跌幅掩盖半年利润超100T韩元）",
+    "ICO Optics（SK Hynix连续三季OP利润率超TSMC——里程碑）",
+    "datacenterdisk.com（DRAM/NAND短缺延至2028）",
+    "The Verge（Valve"take-it-or-leave-it" DDR5定价·Framework确认供需失衡）",
+    "Everyeye.it（TrendForce:NAND 2026供给缺口4-5%）",
+    "Trak.in（Qualcomm两位数涨价·RAMageddon）"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW #8215733（9550 Pro 30.72TB $21,854 Day 3确认——三天三验·跳涨永久化）",
+    "CDW #7467127（6500 ION 30.72TB List +14.6%——下一个提价先导信号）",
+    "CDW #8215732/8356912/7085698/8238848（全锚点二十五日验证通过）",
+    "Bloomberg/Reuters（CXMT IPO——$86亿·$855亿估值·首日有望成A股第一）",
+    "Korea Times/Aju Press（SK Hynix Q2共识OP $43.7B——单季超2025全年·75-77%利润率）",
+    "datacenterdisk.com（DRAM/NAND短缺延至2028——最早缓解2027）",
+    "The Verge（Valve"take-it-or-leave-it" DDR5定价·供应商仅剩3家）",
+    "Asia Business Daily（KOSPI forward PER 5.7x——进入历史低估区间）"
+  ],
+  "keyChangesVsYesterday": [
+    "🔴 CXMT 今日 9:30 AM STAR Market 正式上市——亚洲最大$86亿IPO·代码688825",
+    "⚠️ CDW 9550 Pro 30.72TB $21,854 Day 3确认——三天三验·跳涨永久化不可逆",
+    "⚠️ CDW 6500 ION 30.72TB List价+14.6%($40,702→$46,631)——Advertised不变但信号重要",
+    "✅ 全5其他CDW锚点二十五日全不变",
+    "🟢 KOSPI 开盘+1.73%——中东紧张缓解+韩国AI峰会芯片大单",
+    "📊 SK Hynix Q2共识:OP ¥64.1T韩元($43.7B)单季超2025全年——周三7/29发布",
+    "📊 Samsung Q2 7/30(周四)+股票分拆——韩国半导体超级周完整日程确认",
+    "📊 datacenterdisk.com:DRAM/NAND短缺延至2028·超大规模已锁定2028远期合同",
+    "📊 The Verge:Valve"take-it-or-leave-it"DDR5定价——供应商仅剩三家",
+    "📊 KOSPI forward PER 5.7x——进入历史低估区间(Asia Business Daily)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "CXMT今日上市——溢价定价叙事接受检验。Valve'不接受就滚蛋'定价独立验证供给紧张。SK Hynix Q2周三——70%营收来自超大规模客户，OP$43.7B。datacenterdisk:短缺至2028。parser_gap第七周。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。DRAM ASP +30% QoQ覆盖全频率。SK Hynix周三财报——若OP超共识可能催化新一轮定价。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO$3,280二十五日不变——逼近整月。以CDW实时价¥26,866为执行基准。NAND缺口4-5%。9550 Pro Day 3跳涨+6500 ION List+14.6%双信号上行指引。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB$21,854 Day 3确认——三天三验·不可逆。新基准¥178,977。旗舰涨价→全品类传导通常5-10天。SK Hynix周三财报可能催化CDW对其他容量跟进提价。urgency升级。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "双跳14日+12日。6500 ION List+14.6%——暗示未来Advertised可能跟进。9550 Pro Day 3跳涨间接上行指引。但D5-P5336 61.44TB源丧失Day 10结构性缺口无改善。Connection替代锚点待重验。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM极少单独零售。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "无fresh exact anchor。前次NEMIX$3,200已陈旧。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上。"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "同上。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW及备源均无此容量公开价。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW及备源均无此容量公开价。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW D5-P5336#8296994源丧失Day 10——HTTP 200永久重定向至Cisco SFP。Connection/GovConnection替代锚点确认存在但未经独立页面验证。结构性缺口两位数天数。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW页面正常但长期未独立重测。TechRadar$49,275-$64,168为独立参考。"
+    }
+  ],
+  "cdwAnchorSystem": {
+    "9550_Pro_30TB": {
+      "cdwNumber": "8215733",
+      "advertisedPrice": 21853.99,
+      "listPrice": 40701.75,
+      "dayCount": 3,
+      "note": "7/24首次变动(+$3,236,+17.4%)→7/25 Day2确认→7/27 Day3确认。三天三验·跳涨永久化不可逆。此前25天$18,618纪录终结。新基准¥178,977。"
+    },
+    "9550_Pro_3_84TB": {
+      "cdwNumber": "8215732",
+      "advertisedPrice": 3259.99,
+      "listPrice": 4182.99,
+      "dayCount": 25
+    },
+    "PM1743_7_68TB": {
+      "cdwNumber": "8356912",
+      "advertisedPrice": 4794.99,
+      "listPrice": 14598.32,
+      "dayCount": 25
+    },
+    "7450_PRO_7_68TB": {
+      "cdwNumber": "7085698",
+      "advertisedPrice": 3279.99,
+      "listPrice": 7922.18,
+      "dayCount": 25
+    },
+    "6500_ION_30TB": {
+      "cdwNumber": "7467127",
+      "advertisedPrice": 20547.99,
+      "listPrice": 46630.95,
+      "listPricePrevious": 40701.75,
+      "listPriceChange": "+14.6%",
+      "stockStatus": "1-3+ Days",
+      "dayCount": 14,
+      "note": "Advertised Price不变但List价+14.6%——厂商建议零售价上移·可能预示未来Advertised跟进调整。"
+    },
+    "D5_P5316_15_36TB": {
+      "cdwNumber": "8238848",
+      "advertisedPrice": 8332.99,
+      "dayCount": 12
+    },
+    "D5_P5336_61_44TB": {
+      "cdwNumber": "8296994",
+      "status": "SOURCE_LOST",
+      "dayCount": 10,
+      "httpStatus": 200,
+      "note": "HTTP 200永久重定向至Cisco SFP收发器。两位数天数——结构性缺口确认。Connection/GovConnection替代锚点存在但未独立重验。"
+    }
+  },
+  "koreanSuperWeek": [
+    {
+      "date": "2026-07-27",
+      "event": "CXMT STAR Market IPO首日交易",
+      "status": "IN_PROGRESS",
+      "impact": "9:30AM上海开始交易·$86亿亚洲最大IPO·¥5792亿估值·代码688825。首日涨330%即可超越工商银行成A股市值第一。"
+    },
+    {
+      "date": "2026-07-29",
+      "event": "SK Hynix Q2 FY2026财报",
+      "status": "PENDING",
+      "impact": "共识OP ¥64.1T韩元($43.7B)单季超2025全年·OP利润率75-77%·70%营收来自超大规模客户。Mirae悲观预测将受检验。"
+    },
+    {
+      "date": "2026-07-30",
+      "event": "Samsung Q2完整财报+股票分拆",
+      "status": "PENDING",
+      "impact": "共识OP ¥89.4T韩元·Samsung+SK Hynix合计Q2 OP>¥150T韩元。股票分拆可能提振散户参与。"
+    }
+  ]
+}
