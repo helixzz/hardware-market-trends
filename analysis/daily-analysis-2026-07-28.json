@@ -1,0 +1,192 @@
+{
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T09:02:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "Carry Day 13。CoreWaveLabs JS渲染阻塞第八周。ServerSupply/Provantage Cloudflare封锁第八周+。parser_gap结构性恶化至Day95史上最严重水平。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "Carry Day 21。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW 7450 PRO 7.68TB $3,279.99第二十六日验证不变——逼近完整日历月(7/30)。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "9550 Pro 30.72TB $21,854 Day 4确认·In Stock 50台。其他3 CDW锚点二十六日不变。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "6500 ION Day 15+D5-P5316 Day 13双跳双位数天。6500 ION List+14.6% Day2。D5-P5336 61.44TB源丧失Day11。"}
+  },
+  "newSourcesTried": [
+    "CDW direct curl (7 anchors all verified)",
+    "NYT (CXMT 466% debut)",
+    "CNBC (CXMT China's most valuable)",
+    "Dimsumdaily (CXMT 472% retail winners)",
+    "CnEVPost (Nio CEO at CXMT listing)",
+    "Warp2Search (CXMT dethrones ICBC)",
+    "TradingKey (CXMT 500%+/KOSPI crash/SK Hynix Q2 preview)",
+    "EBC Financial Group (CXMT break Big Three)",
+    "Seoul Economic Daily (KOSPI -5.26% open sidecar)",
+    "Asia Business Daily (KOSPI200 futures sidecar)",
+    "BigGo Finance (KOSPI below 6,600 foreign dump)",
+    "TrendForce (Q2 memory earnings preview)",
+    "AOL (SKHY +14% to $172.80)",
+    "rampricesusa.com (DDR5 $15.86/GB +12.2% MoM)",
+    "datacenterdisk.com (SSD $80-150/TB, DDR5 $12-15/GB)",
+    "Odaily (7 circuit breakers this year)",
+    "Futunn (Samsung 7/30 critical juncture)"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW 7 anchors curl validation",
+    "CXMT debut coverage (NYT/CNBC/Dimsumdaily/CnEVPost/Warp2Search)",
+    "KOSPI crash coverage (Seoul Economic Daily/Asia Business Daily/TradingKey/BigGo)",
+    "SK Hynix Q2 preview (TrendForce/TradingKey)",
+    "DDR5 pricing (rampricesusa.com/datacenterdisk.com)"
+  ],
+  "keyChangesVsYesterday": [
+    "🔴🔴🔴 CXMT首日暴涨466%——¥49.00收盘·A股市值第一·超越ICBC",
+    "🔴🔴🔴 KOSPI 7/28再度暴跌7.24%至6,267——Samsung-8.37%/SK Hynix-10.13%·第7次侧车",
+    "✅✅✅ 9550 Pro 30.72TB $21,854 Day 4——四天四验·In Stock 50台·绝对确立",
+    "✅ 全6 CDW锚点第二十六至十三日全部验证不变",
+    "⚠️ 6500 ION List +14.6%维持第二天",
+    "📊 Samsung Q2初步数据：营收KRW 171T·OP暴增18x YoY",
+    "📊 DDR5消费级$15.86/GB(+12.2% MoM)",
+    "📊 SKHY美股周二+14% vs SK Hynix韩国-10.13%——极端背离",
+    "❌ D5-P5336 61.44TB源丧失Day11——逼近两周"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "CXMT 466%首日暴涨——'溢价定价'获资本市场完全背书。SK Hynix Q2明天——$437亿OP预期。DDR5消费级+12.2% MoM未减速。parser_gap第八周持续。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。DRAM ASP+30% QoQ全覆盖。SK Hynix明天可能成为新一轮定价催化剂。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "CDW 7450 PRO 26日不变——逼近完整日历月。Samsung Q2 OP暴增18x。以CDW实时$3,280=¥26,866为执行基准。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB $21,854 Day 4确认·In Stock 50台·新均衡价位¥178,977。旗舰→全品类传导窗口5-10天·明早SK Hynix Q2在第5天。urgency升级。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "双跳15日+13日迫近三周。6500 ION List+14.6% Day2。9550 Pro Day4跳涨间接上行。但D5-P5336 61.44TB源丧失Day11结构性缺口。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级16GB RDIMM极少单独零售"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "无fresh exact anchor（前次NEMIX $3,200已陈旧）"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "同上"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW及备源均无此容量公开价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW及备源均无此容量公开价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW D5-P5336 #8296994源丧失Day11——HTTP 200永久重定向。Connection/GovConnection替代锚点存在但未重验。结构性缺口逼近两周。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "CDW页面正常但长期未独立重测"
+    }
+  ],
+  "escalatedRisks": [
+    {
+      "risk": "🔴🔴🔴 KOSPI 7/28 -7.24%二次暴跌至6,267——第7次侧车·外资抛售₩1.9T·距6月高点-34%",
+      "status": "ACTIVE CRASH — July 28, 2026。KOSPI开盘即跌5.26%，9:06 AM触发KOSPI200期货熔断。Samsung-8.37%(236,500韩元)/SK Hynix-10.13%(1,655,000韩元)。外资单日抛售₩1.9万亿。中东紧张+半导体全面抛售。Odaily:'青年杠杆爆仓之夏'。2026年第7次侧车。但SKHY美股昨日+14%——美股/韩股极端背离反映全球机构vs本土恐慌的资金分化。",
+      "source": "Seoul Economic Daily/Asia Business Daily/TradingKey/BigGo Finance July 28, 2026",
+      "categoriesAffected": ["All DRAM", "All NAND"],
+      "confidence": "highest",
+      "firstReported": "2026-07-15",
+      "updatedDate": "2026-07-28"
+    },
+    {
+      "risk": "🔴🔴🔴 CXMT 7/27上市首日暴涨466%——¥49收盘·A股市值第一·超越ICBC",
+      "status": "CONFIRMED COMPLETED — July 27, 2026。688825 7/27 9:30AM首秀：开盘¥49.50(+471.59%)·收盘¥49.00(+466%)·市值约¥5,800亿($855亿)。NYT/CNBC/Dimsumdaily/CnEVPost/Warp2Search多源一致确认。超越工商银行成A股第一大市值公司。中签散户每签浮盈¥20,400。'中国DRAM溢价定价超越三星'叙事获资本市场终极验证。CXMT成为全球第四大DRAM制造商估值逻辑：不是产能领先，而是供给紧张的定价权。",
+      "source": "NYT/CNBC/Bloomberg/Dimsumdaily/CnEVPost/Warp2Search/TradingKey July 27-28, 2026",
+      "categoriesAffected": ["DDR5-6400", "DDR5-5600"],
+      "confidence": "highest",
+      "firstReported": "2026-07-10",
+      "updatedDate": "2026-07-28"
+    },
+    {
+      "risk": "✅✅✅ CDW 9550 Pro 30.72TB $21,854——四天四验·跳涨永久化·In Stock 50台",
+      "status": "CONFIRMED PERMANENT — July 28, 2026。CDW #8215733四次独立curl验证(7/24首次→7/25 Day2→7/27 Day3→7/28 Day4)。$21,853.99连续第四天。product_stock_inventory:50(现货充足)证明$21,854是新均衡价位而非恐慌定价。25天$18,618纪录不可逆终结。新基准$21,854=¥178,977。旗舰→全品类传导窗口5-10天——7/29 SK Hynix Q2落在第5天窗口中心。",
+      "source": "CDW.com #8215733 (verified 6/30-7/28, 30 days, price changed Day 26 now confirmed x4)",
+      "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
+      "confidence": "highest",
+      "firstReported": "2026-07-25",
+      "updatedDate": "2026-07-28"
+    },
+    {
+      "risk": "⚠️ CDW 6500 ION 30.72TB List价+14.6%($40,702→$46,631)——维持第二天",
+      "status": "DEVELOPING — July 28, 2026。CDW #7467127 curl验证：Advertised $20,548不变，List $46,631(+14.6%)维持第二天。List价是厂商建议零售价——Day2维持排除一日脉冲。1-3+Days交期+List涨价=典型提价前酝酿模式。",
+      "source": "CDW.com #7467127 (verified July 27-28, 2026)",
+      "categoriesAffected": ["PCIe4 QLC", "All Enterprise SSD"],
+      "confidence": "high",
+      "firstReported": "2026-07-27",
+      "updatedDate": "2026-07-28"
+    },
+    {
+      "risk": "📊 SK Hynix Q2 7/29 After Close——共识OP ¥64.1T韩元($43.7B)单季超2025全年",
+      "status": "IMMINENT — July 28, 2026。Investing.com/TipRanks/TradingKey一致确认7/29 After Close。TrendForce 7/27:定位为'AI记忆体超级周期关键验证'·HBM+企业SSD为核心驱动。SKHY美股周二+14%至$172.80——财报前机构积极建仓。但SK Hynix韩国今日-10.13%——美股/韩股极端背离。若OP超¥64.1T共识(推翻Mirae悲观预测)，CDW可能在7/29-30对PCIe5其他容量跟进提价。Samsung 7/30紧随。",
+      "source": "Investing.com/TipRanks/TrendForce/TradingKey/AOL July 27-28, 2026",
+      "categoriesAffected": ["All DRAM", "All NAND"],
+      "confidence": "highest",
+      "firstReported": "2026-07-23",
+      "updatedDate": "2026-07-28"
+    },
+    {
+      "risk": "📊 Samsung Q2初步数据：营收KRW 171T(~$117B)·OP暴增18x YoY——7/30完整发布",
+      "status": "PRELIMINARY — July 28, 2026。TrendForce 7/27报道Samsung已公布初步业绩：营收KRW 171万亿韩元、OP同比暴增~18倍至历史新高。完整财报+业务细分7/30(周四)发布。Futunn:7/30是'HBM追赶进展+代工业务+记忆体周期持续性'的关键节点。",
+      "source": "TrendForce/Futunn July 27-28, 2026",
+      "categoriesAffected": ["All DRAM", "All NAND", "All Enterprise SSD"],
+      "confidence": "highest",
+      "firstReported": "2026-07-28",
+      "updatedDate": "2026-07-28"
+    },
+    {
+      "risk": "❌ CDW D5-P5336 61.44TB QLC页面持续不可用——锚点源丧失Day 11·逼近两周",
+      "status": "SOURCE LOST — Day 11, July 28, 2026。CDW #8296994无价格输出第十一天——连续curl验证。Connection $32,532/GovConnection $33,213替代锚点确认存在但未独立页面重验超一周。QLC CDW锚点四降三第11天——逼近两周结构性缺口。",
+      "source": "CDW.com #8296994 (verified permanently unavailable July 18-28, 2026)",
+      "categoriesAffected": ["PCIe4 QLC"],
+      "confidence": "highest",
+      "firstReported": "2026-07-18",
+      "updatedDate": "2026-07-28"
+    }
+  ]
+}
