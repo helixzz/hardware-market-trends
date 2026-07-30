@@ -1,0 +1,127 @@
+{
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T09:02:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "Carry Day 15-17。CoreWaveLabs JS渲染阻塞第九周。DDR5消费级$15.93/GB+12.7%MoM旁证。Apacer CEO 2027供给暴跌70%警告。parser_gap结构性Day 97。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "Carry Day 23。同步DDR5-6400。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "🎉7450 PRO 7.68TB完整日历月里程碑(31天零回调)。Samsung Q2 H2 eSSD需求加速+供应约束持续。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "9550 Pro 30.72TB $21,854 Day6——六天六验·不可逆。全6 CDW锚点28日验证不变。Samsung Q2 BEAT共识——旗舰→全品类传导催化剂到位。"},
+    "PCIe4 QLC": {"filled": 4, "total": 4, "note": "6500 ION Day17+List+14.6% Day4。D5-P5316 Day15。❌D5-P5336 61.44TB源丧失Day13逼近两周。"}
+  },
+  "newSourcesTried": ["Samsung Global Newsroom (Q2官方财报)", "rampricesusa.com (DDR5消费级7月更新)", "Tom's Hardware/Guru3D/WCCFTech (Apacer CEO供给预警)", "CNBC/Bloomberg/Reuters/Korea Herald/MarketScreener (Samsung Q2多源交叉验证)", "TechTimes/Babypips (KOSPI连续两日熔断确认)"],
+  "newSourcesWithUsefulData": ["Samsung Global Newsroom", "rampricesusa.com", "Tom's Hardware", "WCCFTech", "CNBC", "Bloomberg", "Korea Herald"],
+  "keyChangesVsYesterday": [
+    "🎉🎉🎉 Samsung Q2 OP KRW 89.5万亿($~61.9B)创纪录·BEAT共识·+1814%YoY·H2展望server DRAM+eSSD+HBM需求加速·供应约束持续",
+    "🎉 CDW 7450 PRO 7.68TB $3,279.99完整日历月里程碑——31天零回调！本追踪史上最强单一锚点",
+    "✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854 Day 6——六天六验·第一周里程碑仅差1天",
+    "🔴🔴 KOSPI 7/29连续第二日触发熔断(-10.84%至6,023)——历史首次back-to-back circuit breaker",
+    "📊📊📊 Apacer CEO警告2027 DRAM供给暴跌70%·DDR5 RDIMM'最激进涨价'+'最大涨价潜力'——供给侧危机从'涨价'升级为'根本买不到'",
+    "📊 DDR5消费级7月$15.93/GB(+12.7%MoM)——rampricesusa.com最新月报",
+    "⚠️ 6500 ION List+14.6% Day 4巩固——厂商建议零售价上调信号持续"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Apacer CEO 2027供给暴跌70%警告将危机从'涨价'升级为'根本买不到货'。Samsung H2 server DRAM需求加速+供应约束持续。DDR5消费级+12.7%MoM独立验证。CoreWaveLabs parser_gap Day97但宏观证据压倒性。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "同步DDR5-6400。Samsung Q2展望覆盖全频率等级。Apacer CEO警告覆盖DDR5 RDIMM全线。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO完整日历月零回调——本追踪史上最强单一锚点。Samsung Q2 H2 eSSD需求加速+供应约束持续。MLC退出满月。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro $21,854 Day6六天六验+Samsung Q2 BEAT共识=旗舰→全品类传导进入窗口后半段(Day7/5-10天)。28日全锚点无退化。urgency历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "6500 ION List+14.6% Day4巩固(提价前酝酿期)。D5-P5336 61.44TB源丧失逼近两周——高容量位覆盖恶化是主要制约。Connection替代锚点可应急参照。Samsung Q2 eSSD展望提供间接上行支撑。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "全频率",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs JS动态渲染阻塞第九周+四备源(ServerSupply/Provantage/V-COLOR/CorgiTech)全封锁。本追踪最严重结构性缺口Day 97。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "无企业级公开现货价。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "无企业级公开现货价。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW无此规格独立产品页。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW无此规格独立产品页。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "source_lost",
+      "note": "CDW #8296994重定向Cisco SFP Day13——两位数天数结构性缺口·逼近两周。Connection($32,532)/GovConnection($33,213)替代锚点存在但未经逐日独立验证。"
+    }
+  ],
+  "cdwAnchorVerification": {
+    "date": "2026-07-30",
+    "anchors": [
+      {"id": "8215733", "desc": "9550 Pro 30.72TB U.2", "price": 21853.99, "status": "Add To Cart", "days": 6, "trend": "Day 6六天六验"},
+      {"id": "8215732", "desc": "9550 Pro 3.84TB E3.S", "price": 3259.99, "status": "Add To Cart", "days": 28, "trend": "二十八日不变"},
+      {"id": "7085698", "desc": "7450 PRO 7.68TB U.3", "price": 3279.99, "status": "Add To Cart", "days": 28, "trend": "🎉完整日历月里程碑"},
+      {"id": "8356912", "desc": "PM1743 7.68TB U.2", "price": 4794.99, "status": "Add To Cart", "days": 28, "trend": "二十八日不变"},
+      {"id": "7467127", "desc": "6500 ION 30.72TB U.3", "price": 20547.99, "listPrice": 46630.95, "status": "Advertised Price", "days": 17, "trend": "Advertised十七日不变·List+14.6%Day4"},
+      {"id": "8238848", "desc": "D5-P5316 15.36TB U.2", "price": 8332.99, "status": "Add To Cart", "days": 15, "trend": "十五日不变"},
+      {"id": "8296994", "desc": "D5-P5336 61.44TB", "status": "SOURCE LOST Day 13", "trend": "重定向Cisco SFP·逼近两周"}
+    ]
+  },
+  "samsungQ2": {
+    "revenue_krw_trillion": 171.5,
+    "op_krw_trillion": 89.5,
+    "op_usd_billion": 61.9,
+    "net_krw_trillion": 71.62,
+    "eps_krw": 10849,
+    "yoy_op_growth": "1814%",
+    "ds_revenue_krw_trillion": 127.5,
+    "ds_op_krw_trillion": 89.2,
+    "h2_outlook": "server DRAM+eSSD+HBM需求加速·供应约束持续·市场供不应求",
+    "key_products": ["HBM4", "DDR5", "SOCAMM2", "PCIe Gen6", "UFS 5.0", "HBM4E samples shipped"],
+    "vs_consensus": "OP BEAT(89.5T vs expected)·Revenue slight miss(171.5T vs 172.65T)"
+  },
+  "kospi": {
+    "date": "2026-07-29",
+    "close": 6023.66,
+    "change_pct": -10.84,
+    "note": "连续第二日触发熔断——历史首次back-to-back circuit breaker·Samsung-13%+/SK Hynix-13%+·三大冲击:CXMT IPO+DUV管制+SK Hynix Q2 miss共识"
+  },
+  "apacerWarning": {
+    "ceo": "CK Chang (张家騉)",
+    "warning": "2027年DRAM供给量将暴跌至2026年的仅30%",
+    "ddr5_rdimm": "DDR5 RDIMM服务器模组涨价最凶猛且继续涨价潜力最大",
+    "sources": ["Tom's Hardware", "WCCFTech", "Guru3D"],
+    "significance": "供给侧危机从'价格上涨'升级为'根本买不到货'——独立产业链下游验证SK Hynix CEO此前的判断"
+  }
+}
