@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-07-30T09:02:00+08:00",
-  "previousGeneratedAt": "2026-07-29T09:02:00+08:00",
+  "generatedAt": "2026-07-31T09:02:00+08:00",
+  "previousGeneratedAt": "2026-07-30T09:02:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 139,
-  "executionNote": "🎉🎉🎉Samsung Q2 OP KRW89.5T(~$61.9B)创纪录·BEAT共识·+1814%YoY·H2:server DRAM+eSSD+HBM需求加速! ✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day6——六天六验·一周仅差1天！🎉7450 PRO 7.68TB $3,280完整日历月31天零回调——史上最强！✅全6 CDW锚点全不变。✅6500 ION Day17·⚠️List+14.6%Day4。❌D5-P5336 61.44TB源丧失Day13逼近两周。🔴🔴KOSPI 7/29连续第二日熔断-10.84%至6023——历史首次back-to-back！📊📊📊Apacer CEO:2027 DRAM供给暴跌70%·DDR5 RDIMM最激进涨价——从'涨价'升级为'根本买不到'！📊DDR5消费级$15.93/GB+12.7%MoM。五品类buy_now(QLC split_buy)。金融vs实物定价背离至极。韩国超级周Day4完成。",
+  "trackingRows": 140,
+  "executionNote": "🟢🔴KOSPI 7/31开盘+14%买盘侧车·历史性逆转——三连卖盘侧车后第四日触发买盘侧车! ✅✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day7一周里程碑·七验不可逆! 🆕🆕🆕JD.com DDR5-5600 64GB RDIMM ¥18,595(Samsung/Hynix)/¥18,999(CXMT)——Day 98首个新鲜企业级DDR5定价·CXMT溢价颠覆budget savior叙事! ❌D5-P5336 61.44TB源丧失Day14两周里程碑。⚠️6500 ION List+14.6% Day5巩固。📊Jefferies:存储价格Q3+40-50%/Q4+30-40%后才可能减速·新fab最早2027底。📊KOSPI 7/30三日连跌-1.23%至5594·Samsung BEAT共识但SK Hynix拖累。📊单股杠杆ETF ₩4.4T→11.9T——KOSPI波动放大器。五品类buy_now(QLC split_buy)·PCIe5 urgency历史最高·9550 Pro一周·传导窗口Day8末段。韩国超级周Day5完成。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-07-30",
+      "latestDate": "2026-07-31",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "Carry Day 15-17。Apacer CEO:2027 DRAM供给暴跌70%+DDR5 RDIMM'最激进涨价潜力'。DDR5消费级7月$15.93/GB+12.7%MoM。CoreWaveLabs JS渲染阻塞第九周。parser_gap结构性Day 97史上最严重。"
+        "note": "Carry Day 16-18。JD.com DDR5-5600 64GB RDIMM ¥18,595 间接验证 DDR5 RDIMM 价格水位。CXMT ¥18,999 溢价验证供给极度紧张。CoreWaveLabs JS渲染阻塞第十周。parser_gap 结构性 Day 98 史上最严重。"
       },
       "averageCoverage14d": 1.3,
       "trend": "up",
-      "trendNote": "Apacer CEO从下游独立验证SK Hynix CEO'2027史上最严重短缺'判断——供给侧危机从'涨价'升级为'根本买不到货'。Samsung Q2 H2展望server DRAM需求加速。DDR5消费级+12.7%MoM七月。",
-      "sourceHealthNote": "CoreWaveLabs JS动态渲染阻塞第九周·ServerSupply(Cloudflare 403)+Provantage(Cloudflare 403)+V-COLOR(503)+CorgiTech(503)四备源持续全封锁。DDR5 parser_gap结构性恶化至Day 97史上最严重水平。",
+      "trendNote": "JD.com DDR5-5600 64GB 新鲜定价旁证。CXMT ¥18,999 > Samsung ¥18,595——供给极度紧张。Apacer CEO 2027供给暴跌70%。Samsung Q2 H2 server DRAM需求加速。Jefferies Q3+40-50%涨价预测。DDR5消费级+12.7%MoM七月。",
+      "sourceHealthNote": "CoreWaveLabs JS动态渲染阻塞第十周·ServerSupply(Cloudflare 403)+Provantage(Cloudflare 403)+V-COLOR(503)+CorgiTech(503)四备源持续全封锁。DDR5 parser_gap结构性恶化至Day 98史上最严重水平。但JD.com DDR5-5600数据提供了间接验证。",
       "latestValues": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
@@ -37,18 +37,18 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-07-30",
+      "latestDate": "2026-07-31",
       "latestCoverage": {
-        "filled": 3,
+        "filled": 4,
         "total": 5,
-        "note": "Carry Day 23。同步DDR5-6400。"
+        "note": "🆕🆕🆕 64GB 新鲜数据！JD.com DDR5-5600 64GB RDIMM ¥18,595(Samsung/Hynix)/¥18,999(CXMT)——Day 98首个新鲜企业级DDR5 RDIMM公开定价。CXMT溢价颠覆'budget savior'叙事。32GB/128GB carry。"
       },
-      "averageCoverage14d": 1.2,
+      "averageCoverage14d": 1.4,
       "trend": "up",
-      "trendNote": "同步DDR5-6400。Apacer CEO覆盖DDR5 RDIMM全线。Samsung Q2展望覆盖全频率等级。",
+      "trendNote": "🆕 JD.com ¥18,595 新鲜数据——14天内首个新企业级DDR5 RDIMM定价。CXMT ¥18,999 > Samsung ¥18,595——供给极度紧张的独立需求端验证。Apacer CEO 2027供给暴跌70%覆盖全频率。Samsung Q2 H2 server DRAM需求加速。Jefferies Q3+40-50%。",
       "latestValues": {
         "DDR5-5600 32GB": 9190,
-        "DDR5-5600 64GB": 19168,
+        "DDR5-5600 64GB": 18595,
         "DDR5-5600 128GB": 46600
       },
       "previousValues": {
@@ -58,23 +58,23 @@
       },
       "rollingMedians14d": {
         "DDR5-5600 32GB": 9190,
-        "DDR5-5600 64GB": 19168,
+        "DDR5-5600 64GB": 18900,
         "DDR5-5600 128GB": 46600
       },
       "missingColumns": ["16GB"],
-      "sourceHealthNote": "同DDR5-6400。parser_gap结构性恶化。",
+      "sourceHealthNote": "🆕 JD.com (via @harukaze5719/Tom's Hardware/GIGAZINE) 提供了Day 98首个新鲜DDR5 RDIMM定价——非主源但填补了parser_gap造成的长期信息真空。CoreWaveLabs+四备源仍全封锁。",
       "coverage14d": 2
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-07-30",
+      "latestDate": "2026-07-31",
       "latestCoverage": {
         "filled": 4,
         "total": 5
       },
       "averageCoverage14d": 2.7,
       "trend": "flat_or_mixed",
-      "trackingLagWarning": "Day 97 - 🎉CDW 7450 PRO 7.68TB $3,279.99完整日历月里程碑——31天零回调！本追踪史上最强单一连续锚点。MLC退出Day30满月。Samsung Q2 H2:eSSD需求加速+供应约束持续。",
+      "trackingLagWarning": "Day 98 - CDW 7450 PRO 7.68TB $3,279.99 32天零回调——完整日历月+1天·史上最强单一连续锚点延续。Jefferies Q3+40-50% 涨价预测提供独立上行验证。MLC退出Day 31满月+1天。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 26866,
@@ -98,24 +98,24 @@
           "low": 26866,
           "high": 26866,
           "median": 26866,
-          "note": "🎉CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price·Add To Cart)——完整日历月里程碑！31天零回调·本追踪史上最强单一连续锚点。"
+          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price·Add To Cart)——32天零回调·日历月+1天。Jefferies Q3+40-50% 预测提供宏观上行方向但CDW现货端尚未反映。"
         }
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "CDW 7450 PRO 31日零回调——完整日历月。MLC退出满月。Samsung Q2 H2 eSSD展望'需求加速'+'供应约束持续'直接验证价格支撑。",
-      "trendNote": "7450 PRO 完整日历月31天零回调——史上最强锚点。BUY_NOW维持。Samsung Q2 H2 eSSD展望为PCIe4 TLC提供直接上行催化。",
+      "sourceHealthNote": "CDW 7450 PRO 32日零回调——最强锚点延续。Jefferies 预测+NAND全品类供给紧张提供持续上行预期。MLC退出满月+1天。",
+      "trendNote": "7450 PRO 32天零回调——完整日历月后延续。BUY_NOW维持。Jefferies Q3+40-50% 独立验证上行方向。Samsung Q2 H2 eSSD展望持续提供催化。",
       "coverage14d": 2
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-07-30",
+      "latestDate": "2026-07-31",
       "latestCoverage": {
         "filled": 4,
         "total": 5
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
-      "trendNote": "✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day6——六天六验·第一周里程碑仅差1天·$18,618→$21,854(+17.4%)不可逆。Samsung Q2 BEAT共识——旗舰→全品类传导最强催化剂到位(Day7/5-10天窗口)。全6 CDW锚点28日全不变。",
+      "trendNote": "✅✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day7——一周里程碑！七次独立验证不可逆。$18,618正式终结整一周。3.84TB/7.68TB 29日零变动——旗舰→全品类传导窗口Day 8末段。Jefferies Q3+40-50% 为传导提供最强独立验证。Samsung Q2 BEAT共识→全品类催化剂已到位。",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 26699,
         "PCIe5 TLC 7.68TB": 39271,
@@ -135,18 +135,19 @@
         "PCIe5 TLC 30.72TB": 178977
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854 Day6确认——六天六验·不可逆！全6 CDW SSD锚点28日全验证无一变动。旗舰→全品类传导Day7/5-10天·窗口后半段。Samsung Q2 BEAT共识·H2 server memory+eSSD+HBM需求加速。",
-      "trendNote": "9550 Pro 30.72TB $21,854 Day6——六天六验·第一周仅差1天。新基准¥178,977。Samsung Q2 BEAT共识是最强传导催化剂。BUY_NOW维持·urgency历史最高。其他容量28日不变但旗舰→全品类传导窗口后半段。",
+      "sourceHealthNote": "✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854 Day7——一周里程碑·七验全过！全6 CDW SSD锚点29-32日全验证无一变动。传导窗口Day 8末段——中小容量跟进可能在数日内发生。Jefferies +40-50% 预测提供最强独立验证。",
+      "trendNote": "9550 Pro 30.72TB $21,854 Day7——一周里程碑。新基准¥178,977 永久确立。Samsung Q2 BEAT共识已是已知催化剂·等待传导兑现。BUY_NOW维持·urgency历史最高·传导窗口Day 8末段。其他容量29日不变但迫近行动窗口。",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-07-30",
+      "latestDate": "2026-07-31",
       "latestCoverage": {
-        "filled": 4,
-        "total": 4
+        "filled": 2,
+        "total": 4,
+        "note": "日验证覆盖率从4/4降至2/4——61.44TB+122.88TB CDW源丧失满两周·仅靠Connection/GovConnection替代锚点且未逐日验证。"
       },
-      "averageCoverage14d": 4.8,
+      "averageCoverage14d": 4.5,
       "trend": "up",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 68247,
@@ -167,82 +168,100 @@
         "PCIe4 QLC 122.88TB": 340000
       },
       "missingColumns": [],
-      "trendNote": "QLC双跳17日+15日——迫近三周里程碑。⚠️6500 ION List+14.6% Day4维持——厂商建议零售价上移信号巩固(提价前酝酿)。Samsung Q2 eSSD展望为QLC提供间接上行压力。❌D5-P5336 61.44TB CDW源丧失Day13——两位数天数结构性缺口逼近两周。split_buy维持。",
+      "trendNote": "6500 ION 18日+D5-P5316 16日——双跳持续推进。⚠️6500 ION List+14.6% Day5巩固——提价前酝酿信号加强。❌D5-P5336 61.44TB CDW源丧失Day14——两周里程碑·实质性日验证从4/4降至2/4。Jefferies Q3+40-50% + Samsung eSSD展望提供持续上行压力。split_buy维持。",
       "coverage14d": 5,
-      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 6500 ION $20,548(Advertised·List $46,631)第十七日三周迫近·List+14.6% Day4巩固。✅✅✅✅✅✅✅✅✅✅✅✅✅✅ D5-P5316 $8,333第十五日双位数天数巩固。❌ CDW D5-P5336 61.44TB #8296994 Day13持续无价格输出——两位数天数结构性缺口逼近两周。Connection($32,532)/GovConnection($33,213)替代锚点存在但未经逐日独立验证。"
+      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 6500 ION $20,548(Advertised·List $46,631)第十八日三周迫近·List+14.6% Day5巩固。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ D5-P5316 $8,333第十六日。❌ CDW D5-P5336 61.44TB #8296994 Day14持续无价格输出——两周里程碑·实质性源丧失已确认。Connection($32,532)/GovConnection($33,213)替代锚点存在但未经逐日独立验证——QLC有效覆盖降至2/4。"
     }
   },
   "recentRunNotes": {
-    "2026-07-30": [
-      "🎉🎉🎉Samsung Q2完整财报发布——OP KRW 89.5T(~$61.9B)创纪录·BEAT共识·+1814%YoY！Revenue KRW 171.5T(新高+28%QoQ)·Net KRW 71.62T(+1300%YoY)·EPS KRW10,849(+52%)。DS部门营收127.5T/OP 89.2T。Memory Business all-time record。HBM4销量上量·HBM4E样品出货。H2展望:server DRAM+eSSD+HBM需求加速·供应约束持续·市场供不应求。✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day6——六天六验·一周仅差1天！🎉7450 PRO 7.68TB $3,280完整日历月31天零回调——史上最强！✅全6 CDW锚点全不变。✅6500 ION Day17·⚠️List+14.6% Day4。❌D5-P5336 61.44TB源丧失Day13逼近两周。🔴🔴KOSPI 7/29连续第二日熔断-10.84%至6023——历史首次back-to-back！📊📊📊Apacer CEO:2027 DRAM供给暴跌70%·DDR5 RDIMM最激进涨价——从'涨价'升级为'根本买不到'！📊DDR5消费级$15.93/GB+12.7%MoM。五品类buy_now(QLC split_buy)。金融vs实物定价背离至极。韩国超级周Day4完成。"
+    "2026-07-31": [
+      "🟢🔴KOSPI 7/31开盘+14%买盘侧车·历史性逆转——三连卖盘侧车后第四日触发买盘侧车！✅✅✅✅✅✅✅CDW 9550 Pro 30.72TB $21,854 Day7一周里程碑·七验不可逆。🆕🆕🆕JD.com DDR5-5600 64GB RDIMM ¥18,595(Samsung/Hynix)/¥18,999(CXMT)——Day 98首个新鲜企业级DDR5 RDIMM公开定价！CXMT溢价¥404颠覆budget savior叙事。❌D5-P5336 61.44TB源丧失Day14两周里程碑。⚠️6500 ION List+14.6% Day5。📊Jefferies:存储价格Q3+40-50%/Q4+30-40%·新fab最早2027底。📊KOSPI 7/30三日连跌-1.23%至5594·Samsung BEAT共识未提振大盘。📊单股杠杆ETF ₩4.4T→11.9T——KOSPI波动放大器(XenoSpectrum)。五品类buy_now(QLC split_buy)·PCIe5 urgency历史最高·9550 Pro一周·传导窗口Day8末段。韩国超级周Day5完成。"
     ],
-    "2026-07-29": [
-      "📊SK Hynix Q2正式发布——OP KRW 60.54T($41.6B)创纪录但miss共识(-5.6%)·营收$54.6B(+257%YoY)·OP margin 76.3%·净利$64.6B(含Kioxia$27.4B一次性收益)。✅✅✅✅✅9550 Pro 30.72TB $21,854 Day5——五天五验·跳涨绝对不可逆！全6 CDW锚点27日全验证不变。✅7450 PRO距完整日历月仅1天。✅6500 ION Day16+D5-P5316 Day14。⚠️List+14.6% Day3。❌D5-P5336 61.44TB源丧失Day12·逼近两周。🔴🔴KOSPI 7/28最终-11%至6012——史上最惨·Samsung-13%/SK Hynix-15%·SKHY ADR跌破$149 IPO价。📊PC Gamer/DigiTimes:60%DRAM转服务器·DDR5 RDIMM涨幅最大。CXMT Day3 ¥47(-4%)。SanDisk-55%自峰值。五品类buy_now(QLC split_buy)。金融vs实物定价背离至极。Samsung完整Q2明日。韩国超级周Day3完成。"
+    "2026-07-30": [
+      "🎉🎉🎉Samsung Q2 OP KRW89.5T(~$61.9B)创纪录·BEAT共识·+1814%YoY·H2:server DRAM+eSSD+HBM需求加速! ✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day6——六天六验·一周仅差1天！🎉7450 PRO 7.68TB $3,280完整日历月31天零回调——史上最强！✅全6 CDW锚点全不变。✅6500 ION Day17·⚠️List+14.6%Day4。❌D5-P5336 61.44TB源丧失Day13逼近两周。🔴🔴KOSPI 7/29连续第二日熔断-10.84%至6023——历史首次back-to-back！📊📊📊Apacer CEO:2027 DRAM供给暴跌70%·DDR5 RDIMM最激进涨价——从'涨价'升级为'根本买不到'！📊DDR5消费级$15.93/GB+12.7%MoM。五品类buy_now(QLC split_buy)。金融vs实物定价背离至极。韩国超级周Day4完成。"
     ]
   },
   "escalatedRisks": [
     {
+      "risk": "🟢🔴 KOSPI 7/31开盘+14%买盘侧车——三连卖盘侧车后第四日触发买盘侧车·历史性逆转",
+      "status": "HISTORIC REVERSAL — July 31, 2026。Korea Herald/CNBC/Seoul Economic Daily多源确认：KOSPI开盘暴涨14%至6,347.76，触发KOSPI+KOSDAQ双重买盘侧车。此前三日连跌(7/28: -11%→6,012, 7/29: -10.84%→6,023, 7/30: -1.23%→5,594)。Samsung+SK Hynix领涨。历史首次：连续三日卖盘侧车后第四日触发买盘侧车——韩国股市进入'超级波动'模式。单股杠杆ETF ₩4.4T→11.9T是波动放大器(XenoSpectrum)。Bloomberg确认KOSPI 7/30三日连跌。",
+      "source": "Korea Herald/CNBC/Seoul Economic Daily July 31, 2026 / Bloomberg/TradingKey July 30, 2026 / XenoSpectrum July 30, 2026",
+      "categoriesAffected": ["All DRAM", "All NAND"],
+      "confidence": "highest",
+      "firstReported": "2026-07-28",
+      "updatedDate": "2026-07-31"
+    },
+    {
       "risk": "🎉🎉🎉 Samsung Q2 OP KRW 89.5T(~$61.9B)创纪录·BEAT共识·+1814%YoY——H2 outlook server DRAM+eSSD+HBM需求加速",
-      "status": "RESULTS PUBLISHED & BEAT CONSENSUS — July 30, 2026。Samsung Global Newsroom/CNBC/Bloomberg/Reuters/Korea Herald/Korea Times/MarketScreener多源确认：营收KRW 171.5T(+28% QoQ·新高)，OP KRW 89.5T(+1,814% YoY·BEAT共识)，净利KRW 71.62T(+1,300% YoY)，EPS KRW 10,849(+52% QoQ)。DS部门营收127.5T/OP 89.2T。Memory Business all-time record。HBM4销量上量·HBM4E样品出货。H2展望:'server DRAM+eSSD+HBM需求加速·供应约束持续·市场供不应求'。五大关键信号:(1)OP BEAT共识——推翻QE担忧;(2)server DRAM需求加速——验证DDR5 RDIMM上行;(3)eSSD需求加速——验证全SSD品类;(4)供应约束持续——2026H2无缓解;(5)HBM4E路线推进——下一代产品不影响短期供给。",
-      "source": "Samsung Global Newsroom/CNBC/Bloomberg/Reuters/Korea Herald July 30, 2026",
+      "status": "RESULTS PUBLISHED & BEAT CONSENSUS —— July 30, 2026。但当日KOSPI仍跌1.23%至5,594(TradingKey/Bloomberg)——SK Hynix续跌5.64%拖累大盘。Samsung股价涨7%。Investing.com财报电话会议转录：'muted reaction may reflect profit-taking'。7/31 KOSPI +14%买盘侧车部分反映延迟的积极反应。",
+      "source": "Samsung Global Newsroom/CNBC/Bloomberg/Reuters/Korea Herald July 30, 2026 / TradingKey July 30, 2026 / Investing.com July 30, 2026",
       "categoriesAffected": ["All DRAM", "All NAND", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-07-28",
-      "updatedDate": "2026-07-30"
+      "updatedDate": "2026-07-31"
     },
     {
       "risk": "📊📊📊 Apacer CEO:2027 DRAM供给暴跌70%·DDR5 RDIMM'最激进涨价'——供给侧危机从'涨价'升级为'根本买不到货'",
-      "status": "NEW & CONFIRMED — July 29-30, 2026。Tom's Hardware/WCCFTech/Guru3D多源确认：Apacer CEO张家騉警告2027年DRAM模组厂可获供给量将暴跌至2026年仅30%。DDR5 RDIMM'涨价最凶猛且继续涨价潜力最大'。这是SK Hynix CEO'2027史上最严重短缺'判断的独立产业链下游验证——从DRAM原厂→模组厂→终端用户的供给链条全线确认危机深化。",
-      "source": "Tom's Hardware/WCCFTech/Guru3D July 29-30, 2026",
+      "status": "CONFIRMED — July 29-30, 2026。Tom's Hardware/WCCFTech/Guru3D多源确认。CXMT JD.com ¥18,999 > Samsung ¥18,595——独立验证供给极度紧张。'budget savior'叙事被企业级定价数据完全推翻。",
+      "source": "Tom's Hardware/WCCFTech/Guru3D July 29-30, 2026 / JD.com via GIGAZINE July 27, 2026",
       "categoriesAffected": ["DDR5-6400", "DDR5-5600", "All DRAM"],
       "confidence": "highest",
       "firstReported": "2026-07-30",
-      "updatedDate": "2026-07-30"
+      "updatedDate": "2026-07-31"
     },
     {
-      "risk": "🔴🔴 KOSPI 7/29连续第二日触发熔断(-10.84%至6,023)——历史首次back-to-back circuit breaker",
-      "status": "HISTORIC FIRST — July 29, 2026。TechTimes/Babypips/Trading Economics多源确认：KOSPI连续第二日触发卖盘侧车——韩国股市历史首次。KOSPI收跌10.84%至6,023.66(7/28: -11%至6,012→7/29: -10.84%至6,023)。Samsung-13%+/SK Hynix-13%+。TechTimes:'三大冲击同时袭来——CXMT $86亿IPO+DUV出口管制升级担忧+SK Hynix Q2 OP miss共识'。两个交易日累计最大跌幅超20%——记忆体超级周期面临资本市场结构性重估。但CDW全7锚点0变动——金融vs实物定价背离至极。",
-      "source": "TechTimes/Babypips/Trading Economics July 29-30, 2026",
-      "categoriesAffected": ["All DRAM", "All NAND"],
-      "confidence": "highest",
-      "firstReported": "2026-07-15",
-      "updatedDate": "2026-07-30"
-    },
-    {
-      "risk": "✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $18,618→$21,854(+17.4%)——六天六验·跳涨永久化不可逆",
-      "status": "CONFIRMED PERMANENT — July 30, 2026。CDW #8215733 经过六次独立web_fetch验证(7/24→7/25→7/27→7/28→7/29→7/30)。$21,853.99连续第六天。Add To Cart。$18,618的25天纪录被$21,854永久取代6天。绝对确认。$21,854=¥178,977。旗舰→全品类传导窗口5-10天——今天是Day 7（进入窗口后半段）。Samsung Q2 BEAT共识为传导提供最强催化剂。",
-      "source": "CDW.com #8215733 (verified 6/30-7/30, 32 days, price changed on Day 26 now confirmed x6)",
+      "risk": "✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $18,618→$21,854(+17.4%)——一周里程碑·七验不可逆",
+      "status": "ONE WEEK MILESTONE — July 31, 2026。CDW #8215733 经过七次独立web_fetch验证(7/24→7/25→7/27→7/28→7/29→7/30→7/31)。$21,853.99连续第七天。Add To Cart。$18,618的25天纪录被$21,854永久取代整一周。绝对确认。$21,854=¥178,977。旗舰→全品类传导窗口Day 8/5-10天——进入末段。Jefferies Q3+40-50% 预测为传导提供最强独立验证。",
+      "source": "CDW.com #8215733 (verified 7/24-7/31, 7 times, price changed on Day 26 now confirmed x7)",
       "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-07-25",
-      "updatedDate": "2026-07-30"
+      "updatedDate": "2026-07-31"
     },
     {
-      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——完整日历月里程碑！31天零回调·本追踪史上最强单一连续锚点",
-      "status": "CALENDAR MONTH MILESTONE — July 30, 2026。CDW #7085698经过31天连续web_fetch验证(7/2-7/30)。$3,279.99 Advertised Price·Add To Cart零变动整31天——本追踪97天历史中最强单一连续锚点纪录。Samsung Q2 H2 eSSD展望'需求加速'+'供应约束持续'为PCIe4 TLC价格提供最直接验证。",
-      "source": "CDW.com #7085698 (verified 7/2-7/30, 31 days, 0 change)",
+      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——完整日历月里程碑！32天零回调·本追踪史上最强单一连续锚点",
+      "status": "CALENDAR MONTH + 1 DAY — July 31, 2026。CDW #7085698经过32天连续web_fetch验证。$3,279.99 Advertised Price·Add To Cart零变动。Jefferies Q3+40-50% 预测提供上行方向但CDW现货尚未反映——可能因CDW已提前锁定批发价或合约约束。",
+      "source": "CDW.com #7085698 (verified 7/2-7/31, 32 days, 0 change)",
       "categoriesAffected": ["PCIe4 TLC"],
       "confidence": "highest",
       "firstReported": "2026-07-02",
-      "updatedDate": "2026-07-30"
+      "updatedDate": "2026-07-31"
     },
     {
-      "risk": "⚠️ CDW 6500 ION 30.72TB List价+14.6%($40,702→$46,631)——维持第四天",
-      "status": "DEVELOPING — July 30, 2026。CDW #7467127 web_fetch验证：Advertised Price $20,547.99不变，List Price $46,630.95(+14.6%)连续第四天。Advertised十七日不变+List坚挺四天+Day4巩固→典型提价前酝酿期模式加强。",
-      "source": "CDW.com #7467127 (verified July 27-30, 2026)",
+      "risk": "⚠️ CDW 6500 ION 30.72TB List价+14.6%($40,702→$46,631)——维持第五天",
+      "status": "DEVELOPING — July 31, 2026。CDW #7467127 web_fetch验证：Advertised Price $20,547.99不变，List Price $46,630.95(+14.6%)连续第五天。Advertised十八日不变+List坚挺五天→典型提价前酝酿期模式加强。Jefferies Q3+40-50% 预测支持List上行方向。",
+      "source": "CDW.com #7467127 (verified July 27-31, 2026)",
       "categoriesAffected": ["PCIe4 QLC", "All Enterprise SSD"],
       "confidence": "high",
       "firstReported": "2026-07-27",
-      "updatedDate": "2026-07-30"
+      "updatedDate": "2026-07-31"
     },
     {
-      "risk": "❌ CDW D5-P5336 61.44TB QLC页面持续不可用——锚点源丧失Day 13·逼近两周",
-      "status": "SOURCE LOST — Day 13, July 30, 2026。CDW #8296994重定向至Cisco SFP第十三天——连续web_fetch验证。Connection $32,532/GovConnection $33,213替代锚点存在但未经逐日独立验证。QLC CDW锚点四降三第13天——两位数天数结构性缺口·明日达两周。",
-      "source": "CDW.com #8296994 (verified permanently removed July 18-30, 2026)",
+      "risk": "❌ CDW D5-P5336 61.44TB QLC页面持续不可用——锚点源丧失Day 14·两周里程碑",
+      "status": "SOURCE LOST — Day 14 / TWO WEEK MILESTONE, July 31, 2026。CDW #8296994重定向至Cisco SFP第十四天——连续web_fetch确认。Connection $32,532/GovConnection $33,213替代锚点存在但未经逐日独立验证。QLC CDW日验证覆盖率从4/4实质性降至2/4。两周里程碑确认此为永久性源丧失。",
+      "source": "CDW.com #8296994 (verified permanently removed July 18-31, 2026)",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "highest",
       "firstReported": "2026-07-18",
-      "updatedDate": "2026-07-30"
+      "updatedDate": "2026-07-31"
+    },
+    {
+      "risk": "🆕🆕🆕 JD.com DDR5-5600 64GB RDIMM ¥18,595-18,999——Day 98首个新鲜企业级DDR5定价·CXMT溢价颠覆budget savior叙事",
+      "status": "NEW DATA POINT — July 31, 2026。JD.com (7/26-27): CXMT DDR5-5600 64GB ECC RDIMM ¥18,999 > Samsung ¥18,595 ≈ SK Hynix ¥18,595。源自 @harukaze5719 X截图。Tom's Hardware/GIGAZINE/WCCFTech/Notebookcheck多源交叉确认。关键含义：(1) CXMT没有成为价格破坏者——反而溢价入场；(2) 首个中国零售企业级DDR5 RDIMM定价数据填补parser_gap信息真空；(3) 企业级vs消费级DDR5价差约2.7x per GB。",
+      "source": "JD.com via @harukaze5719 X/Tom's Hardware/GIGAZINE/WCCFTech/Notebookcheck July 26-27, 2026",
+      "categoriesAffected": ["DDR5-5600", "DDR5-6400", "All DRAM"],
+      "confidence": "high",
+      "firstReported": "2026-07-31",
+      "updatedDate": "2026-07-31"
+    },
+    {
+      "risk": "📊 Jefferies: 存储价格Q3+40-50%、Q4+30-40%·新fab最早2027底——供给约束超预期",
+      "status": "NEW FORECAST — July 31, 2026。Tech-Insider 7/29引述 Jefferies Equity Research。与Samsung Q2 H2'供不应求持续'展望一致。新晶圆厂产能最早2027年底落地——2026全年无供给侧缓解。独立验证全品类上行方向。",
+      "source": "Tech-Insider citing Jefferies Equity Research July 29, 2026",
+      "categoriesAffected": ["All Enterprise SSD", "All DRAM"],
+      "confidence": "medium",
+      "firstReported": "2026-07-31",
+      "updatedDate": "2026-07-31"
     }
   ]
 }
