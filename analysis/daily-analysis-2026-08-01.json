@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T09:02:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 4, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 2, "total": 4}
+  },
+  "newSourcesTried": [
+    "rampricesusa.com (July final data upward revision)",
+    "BBC / SBS News (KOSPI 7/31 final close +18%)",
+    "KuCoin / Firstpost (CXMT Day 5 ¥57.60 +8.95%)",
+    "storagediskprices.com (NAND supply +17% YoY)",
+    "Connection.com (403 Access Denied — QLC alternative anchor collapse)"
+  ],
+  "newSourcesWithUsefulData": [
+    "rampricesusa.com (DDR5 consumer July $16.03/GB +13.4% MoM — upward revision)",
+    "BBC / SBS (KOSPI +18% historic close confirmation — larger than yesterday's +14% opening)",
+    "KuCoin / Firstpost (CXMT ¥57.60 +8.95% — strong rebound from Day 3 ¥47)",
+    "storagediskprices.com (NAND supply only +17% YoY confirms structural constraint)"
+  ],
+  "keyChangesVsYesterday": [
+    "KOSPI 7/31 final close ~+18% (not just +14% opening) — largest single-day gain in history. SK Hynix +30% upper limit, Samsung +23%.",
+    "CXMT Day 5 close ¥57.60 +8.95% — strong rebound from Day 3 low ¥47.00. Market cap ~¥590B, still A-share #1.",
+    "DDR5 consumer July final $16.03/GB (+13.4% MoM) — upward revision from yesterday's $15.93/GB.",
+    "CDW 9550 Pro 30.72TB Day 8 — crossed one-week milestone into week 2. Conduction window Day 9 nearing end.",
+    "Connection.com 403 — QLC 61.44TB/122.88TB alternative verification channel collapsed. Effective QLC coverage degraded further.",
+    "All 6 CDW anchors verified unchanged — 33rd consecutive day for 7450 PRO. 6500 ION List +14.6% Day 6."
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 consumer July upward revision to +13.4% MoM. CXMT ¥57.60 rebound proves market confidence. KOSPI +18% reduces financial panic interference. parser_gap Day 99 but macro evidence overwhelming."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "JD.com ¥18,595 fresh pricing validates enterprise level. DDR5 consumer upward revision reinforces confidence. Samsung H2 outlook covers all frequency tiers."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 33 days zero callback — strongest anchor in tracking history. NAND supply only +17% YoY — structural constraint far exceeds cyclical. MLC exit 32 days."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro Day 8 entering week 2. Conduction window Day 9 — next Monday is critical observation point. Even if mid/small capacities don't follow, flagship pricing at ¥178,977 is permanently irreversible. Urgency historically highest."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "6500 ION List +14.6% Day 6 — pre-hike signal approaching one-week trend. D5-P5316 17 days solid. Connection 403 alternative anchor collapse — 61.44TB+ procurement requires direct channel verification. 15.36TB/30.72TB still executable on CDW public pricing."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "No enterprise-grade public pricing available across all sources."
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "No enterprise-grade public pricing available across all sources."
+    },
+    {
+      "category": "DDR5 RDIMM all frequencies",
+      "spec": "direct enterprise pricing",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs JS rendering blocked week 10 + 5 backup sources all Cloudflare-blocked. Day 99 — most severe structural parser_gap in tracking history. JD.com DDR5-5600 64GB provides partial relief."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "source_lost",
+      "note": "CDW #8296994 redirects to Cisco SFP Day 15. Connection.com now 403 — alternative verification channel collapsed. No public pricing verification available for high-capacity QLC."
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "alternative_lost",
+      "note": "CDW source lost with #8296994, Connection 403 — dual channel collapse confirmed."
+    }
+  ]
+}
