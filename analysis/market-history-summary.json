@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-02T09:01:00+08:00",
-  "previousGeneratedAt": "2026-08-01T09:02:00+08:00",
+  "generatedAt": "2026-08-03T09:02:00+08:00",
+  "previousGeneratedAt": "2026-08-02T09:01:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 142,
-  "executionNote": "🎉Day100·三位数里程碑！✅✅✅✅✅✅✅✅✅9550Pro Day9·第二周+1天！✅✅✅✅✅✅✅✅✅✅7450PRO Day34史上最长锚点纪录延续！📊DDR5消费级8月$16.05/GB仅+0.1%MoM——消费者端趋平但企业端仍在涨(TrendForce)·consumer-enterprise背离Day100新结构性趋势！⚠️6500ION List+14.6%满一周Day7·提价前酝酿确认。🆕Kioxia CM10 PCIe Gen6首发。📊Silicon Motion Q2超预期·QLC 2026末才出货。🚨Connection 403 Day2·D5-P5336源丧失Day16。传导窗口Day10关闭·中小容量未跟进。SanDisk财报8/5。五品类buy_now(QLC split_buy)。",
+  "trackingRows": 143,
+  "executionNote": "🔥🔥🔥Day101·9550Pro 3.84TB List Price +16.3%——传导第一枪！✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day10两位数天数里程碑！✅✅✅✅✅✅✅✅✅✅✅7450PRO Day35史上最长锚点纪录再延长！📊🆕Futunn:64GB DDR5合约>$1,480创ATH·DRAM 7月+10%MoM·Q3+30-50%。⚠️6500ION List回撤-30%。❌D5-P5336源丧失Day17进第三周·Connection 403 Day3。🆕SanDisk明日盘后财报。🆕五支韩国AI/半导体ETF今日上市。五品类buy_now(QLC split_buy)·PCIe5 urgency高。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-08-02",
+      "latestDate": "2026-08-03",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "Carry Day 18-20。DDR5消费级8月$16.05/GB仅+0.1%MoM——消费者端趋平。TrendForce确认企业端仍在涨价。Consumer-enterprise背离成为Day 100新结构性趋势。CoreWaveLabs JS渲染阻塞第十一周·parser_gap结构性Day 100史上最严重。"
+        "note": "Carry Day 19-21。Futunn: 64GB DDR5合约>$1,480创历史新高提供最强宏观验证。DDR5消费级8月$16.05/GB仅+0.1%MoM·consumer-enterprise divergence Day 2确认。CoreWaveLabs JS渲染阻塞第十一周·parser_gap结构性Day 101。"
       },
       "averageCoverage14d": 1.3,
       "trend": "up",
-      "trendNote": "DDR5消费端8月+0.1%MoM趋平（7月+13.4%）。但TrendForce 7/31确认manufacturers keep raising quotes，spot market increasingly relies on server demand——企业端供给侧提价仍在加速。Consumer-enterprise pricing divergence成为Day 100最重要的新结构性趋势。CXMT ¥57.60 Day 5收。KOSPI +18%。MU median target $1,600。",
-      "sourceHealthNote": "CoreWaveLabs JS动态渲染阻塞第十一周·ServerSupply+Provantage+Memory.net+V-COLOR+CorgiTech五备源持续全封锁。DDR5 parser_gap结构性恶化至Day 100史上最严重水平。JD.com DDR5-5600 64GB ¥18,595数据(Day 7引用)开始stale但仍是最佳可用。",
+      "trendNote": "DDR5消费端8月+0.1%MoM趋平（7月+13.4%）。但Futunn确认64GB DDR5合约>$1,480创ATH·TrendForce 7/31 DRAM合约+10%MoM·季度+30-50%——企业端供给侧提价仍在加速。Consumer-enterprise pricing divergence Day 2确认。CXMT ¥57.60 Day 5收盘第二周交易开始。MU median target $1,300-$1,600。",
+      "sourceHealthNote": "CoreWaveLabs JS动态渲染阻塞第十一周·ServerSupply+Provantage+Memory.net+V-COLOR+CorgiTech五备源持续全封锁。DDR5 parser_gap结构性恶化至Day 101史上最严重水平。JD.com DDR5-5600 64GB ¥18,595数据(Day 8引用)进入stale_repeated_sample区间。",
       "latestValues": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
@@ -37,15 +37,15 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-08-02",
+      "latestDate": "2026-08-03",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "JD.com 64GB ¥18,595开始stale(Day 7引用)。CXMT ¥18,999溢价。32GB/128GB carry。DDR5消费8月趋平不改变企业端紧迫。"
+        "note": "JD.com 64GB ¥18,595 Day 8 stale_repeated_sample。Futunn 64GB DDR5合约>$1,480 ATH跨口径验证——企业端合约价持续新高。Consumer-enterprise divergence强化。"
       },
       "averageCoverage14d": 1.5,
       "trend": "up",
-      "trendNote": "JD.com ¥18,595数据已7天——freshness退化但仍为最优基准。DDR5消费级8月+0.1%MoM趋平。TrendForce确认企业端仍在涨。Consumer-enterprise divergence意味着企业端供给会更紧。Samsung H2 server DRAM需求加速。Jefferies Q3+40-50%。",
+      "trendNote": "Futunn合约>$1,480 ATH——企业端DDR5定价无松动迹象。JD.com ¥18,595数据已8天——freshness退化但仍为最优零售基准。Samsung H2 server DRAM需求加速。TrendForce 7月+10%MoM·Q3+30-50%。",
       "latestValues": {
         "DDR5-5600 32GB": 9190,
         "DDR5-5600 64GB": 18595,
@@ -62,19 +62,19 @@
         "DDR5-5600 128GB": 46600
       },
       "missingColumns": ["16GB"],
-      "sourceHealthNote": "JD.com数据Day 7——进入stale_repeated_sample区间但仍为唯一新鲜企业级DDR5定价。CoreWaveLabs+五备源仍全封锁。",
+      "sourceHealthNote": "JD.com数据Day 8——进入stale_repeated_sample区间。CoreWaveLabs+五备源仍全封锁。Futunn合约价数据为跨口径最强验证。",
       "coverage14d": 2
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-08-02",
+      "latestDate": "2026-08-03",
       "latestCoverage": {
         "filled": 4,
         "total": 5
       },
       "averageCoverage14d": 2.7,
       "trend": "flat_or_mixed",
-      "trackingLagWarning": "Day 100 - CDW 7450 PRO 7.68TB $3,279.99 34天零回调——史上最长单一连续锚点纪录继续延续。NAND供给仅+17%YoY(storagediskprices.com)——结构性约束远强于周期性波动。Jefferies Q3+40-50%涨价预测提供独立上行验证。MLC退出Day 33。",
+      "trackingLagWarning": "Day 101 - CDW 7450 PRO 7.68TB $3,279.99 35天零回调——史上最长单一连续锚点纪录继续延长。NAND供给仅+17%YoY(storagediskprices.com)——结构性约束远强于周期性波动。Futunn: Samsung contracts 'cap downside but not upside'。MLC退出Day 34。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 26866,
@@ -98,24 +98,25 @@
           "low": 26866,
           "high": 26866,
           "median": 26866,
-          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price·Add To Cart)——34天零回调·史上最长继续延长。NAND供给+17%YoY结构性约束。"
+          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price·Add To Cart)——35天零回调·史上最长继续延长。NAND供给+17%YoY结构性约束。Futunn:Samsung contracts 'cap downside but not upside'。"
         }
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "CDW 7450 PRO 34日零回调——史上最长锚点纪录延续。NAND供给+17%YoY+NAND全品类供给紧张提供持续上行预期。MLC退出Day 33满月+3天。",
-      "trendNote": "7450 PRO 34天零回调——史上最长纪录继续。BUY_NOW维持。NAND供给仅+17%YoY——独立验证结构性供给约束。Jefferies Q3+40-50%独立验证上行方向。",
+      "sourceHealthNote": "CDW 7450 PRO 35日零回调——史上最长锚点纪录延续。NAND供给+17%YoY+NAND全品类供给紧张提供持续上行预期。MLC退出Day 34满月+4天。",
+      "trendNote": "7450 PRO 35天零回调——史上最长纪录继续。BUY_NOW维持。NAND供给仅+17%YoY——独立验证结构性供给约束。Futunn: Samsung LTA下行空间被锁定·上行无上限。",
       "coverage14d": 2
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-08-02",
+      "latestDate": "2026-08-03",
       "latestCoverage": {
         "filled": 4,
-        "total": 5
+        "total": 5,
+        "note": "🔥🔥🔥9550 Pro 3.84TB List Price +16.3%——等待10天的旗舰→中小容量传导信号以List Price形式登场！"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
-      "trendNote": "✅✅✅✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day9——第二周+1天！九次独立验证不可逆。3.84TB/7.68TB 31日零变动——旗舰跳涨近两周仍未传导至中小容量。传导窗口Day 10——窗口关闭但中小容量未跟进。**判断**：传导未发生，可能是结构性分化(Demand约束+合约价滞后)而非延迟传导。Kioxia CM10 PCIe Gen6发布消除PCIe5折价预期。PCIe Gen6产品管线进入发布阶段。",
+      "trendNote": "✅✅✅✅✅✅✅✅✅✅9550 Pro 30.72TB $21,854 Day10——两位数天数里程碑·十验全过！🔥🔥🔥9550 Pro 3.84TB List Price $4,183→$4,863(+16.3%)——自7/3校准以来首次List变动。Advertised Price $3,260未动。如果Advertised跟进→传导完成。此为pre-hike窗口信号。PCIe Gen6管线发布消除PCIe5折价预期。",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 26699,
         "PCIe5 TLC 7.68TB": 39271,
@@ -135,17 +136,17 @@
         "PCIe5 TLC 30.72TB": 178977
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854 Day9——第二周+1天！全6 CDW SSD锚点30-34日全验证无一变动。传导窗口Day 10关闭——中小容量未跟进。PCIe Gen6 (CM10/9650/PM1763)路线图消除PCIe5折价预期。",
-      "trendNote": "9550 Pro 30.72TB $21,854 Day9——第二周+1天。新基准¥178,977永久确立。传导窗口Day 10关闭——中小容量未跟进，判断为结构性分化而非延迟传导。BUY_NOW维持·urgency高。",
+      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅9550Pro Day10两位数天数里程碑·✅✅✅✅✅✅✅✅✅✅✅7450PRO Day35。🔥9550Pro 3.84TB List+16.3%——自旗舰跳涨以来首个中小容量SKU变动信号。全6 CDW Advertised锚点30-35日全验证。传导观察进入新阶段。",
+      "trendNote": "🔥9550 Pro 3.84TB List+16.3%——传导第一枪！旗舰Day 10里程。Advertised跟进可能数日内发生·pre-hike窗口。BUY_NOW维持·urgency高。",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-08-02",
+      "latestDate": "2026-08-03",
       "latestCoverage": {
         "filled": 2,
         "total": 4,
-        "note": "日验证覆盖率维持2/4——61.44TB+122.88TB CDW源丧失Day16+Connection 403 Day2。仅15.36TB+30.72TB具有CDW日验证。"
+        "note": "日验证覆盖率维持2/4——61.44TB+122.88TB CDW源丧失Day17+Connection 403 Day3。仅15.36TB+30.72TB具有CDW日验证。6500 ION List溢价回撤-30%。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
@@ -168,82 +169,73 @@
         "PCIe4 QLC 122.88TB": 340000
       },
       "missingColumns": [],
-      "trendNote": "6500 ION 20日+D5-P5316 18日——双跳持续稳固。⚠️6500 ION List+14.6%满一周Day7——提价前酝酿信号已成为可靠趋势·信噪比极高。❌D5-P5336 61.44TB CDW源丧失Day16·🚨Connection 403 Day2——替代锚点渠道持续塌缩。QLC有效日验证覆盖率维持2/4。NAND供给+17%YoY强化结构性约束。Silicon Motion:QLC meaningful supply 2027-2028。split_buy维持。",
+      "trendNote": "6500 ION List溢价回撤-30%但Advertised二十一日稳固·D5-P5316十九日稳固。❌D5-P5336 61.44TB CDW源丧失Day17进入第三周·Connection 403 Day3——高容量位替代验证渠道双失。SanDisk明日财报·SanDisk-Kioxia合资QLC供给展望关键催化剂。split_buy维持。",
       "coverage14d": 4,
-      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 6500 ION $20,548(Advertised)第二十日三周迫近·List+14.6% Day7满一周趋势确认。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ D5-P5316 $8,333第十八日。❌ CDW D5-P5336 61.44TB #8296994 Day16持续无价格输出——两周+2天。🚨 Connection.com 403 Access Denied Day2——QLC替代锚点渠道持续塌缩。61.44TB/122.88TB有效公开定价验证能力维持为零。"
+      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅6500 ION $20,548第二十一日三周里程碑·⚠️List回撤但Advertised稳固。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅D5-P5316 $8,333第十九日。❌CDW D5-P5336 61.44TB #8296994 Day17持续无价格·进入第三周。🚨Connection.com 403 Access Denied Day3——QLC替代锚点渠道持续塌缩。61.44TB/122.88TB有效公开定价验证能力维持为零。"
     }
   },
   "recentRunNotes": {
+    "2026-08-03": [
+      "🔥🔥🔥Day101·9550Pro 3.84TB List Price +16.3%($4,183→$4,863)——传导第一枪！等待10天的旗舰→中小容量传导信号以List Price形式登场！✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day10两位数天数里程碑·十验全过！✅✅✅✅✅✅✅✅✅✅✅7450PRO Day35史上最长锚点纪录再延长！📊🆕Futunn:64GB DDR5合约>$1,480创ATH·DDR4$1,300 ATH·DRAM 7月+10%MoM·Q3+30-50%——今日最强宏观验证！⚠️6500ION List溢价回撤-30%($46,631→$32,642)。🆕五支韩国AI/半导体ETF今日上市。🆕SanDisk明日盘后财报(8/5)·EPS$33.28共识·166,300%YoY·8/13 Investor Day。❌D5-P5336源丧失Day17进第三周·Connection 403 Day3。Consumer-enterprise divergence Day 2确认。9550Pro 3.84TB List+16.3%为pre-hike窗口信号。五品类buy_now(QLC split_buy)·PCIe5 urgency高。"
+    ],
     "2026-08-02": [
       "🎉Day100·三位数追踪天数里程碑！✅✅✅✅✅✅✅✅✅9550Pro Day9·第二周+1天！✅✅✅✅✅✅✅✅✅✅7450PRO Day34史上最长锚点纪录延续！📊📊DDR5消费级8月$16.05/GB仅+0.1%MoM——消费者端趋平但企业端仍在涨(TrendForce 7/31确认)·consumer-enterprise divergence成为Day 100最重要的新结构性趋势！⚠️6500ION List+14.6%满一周Day7·提价前酝酿确认。🆕Kioxia CM10 PCIe Gen6首发（ServeTheHome/Blocks & Files）·对PCIe5/4定价无影响但消除Gen5折价预期。📊Silicon Motion Q2超预期确认存储增长持续至2026+·QLC 2026末才出货·meaningful 2027-2028。🚨Connection 403 Day2·❌D5-P5336 61.44TB源丧失Day16。传导窗口Day10关闭·中小容量未跟进·判断为结构性分化。🆕SanDisk财报8/5即将到来。🆕FMS 2026确认Structural Gap 2026-2028。五品类buy_now(QLC split_buy)·PCIe5 urgency高。"
-    ],
-    "2026-08-01": [
-      "🗓️周六巩固日·Day99·距100天仅1天。🟢🟢🟢KOSPI 7/31收盘+18%史上最大单日涨幅(BBC/SBS/CNBC)·SK Hynix+30%涨停·Samsung+23%——远超此前+14%开盘中间值！✅✅✅✅✅✅✅✅9550Pro Day8进入第二周·八验全过不可逆。📊CXMT Day5 ¥57.60(+8.95%)强势反弹·市值¥5,900亿A股第一·自Day3低点¥47累涨17.6%。📊DDR5消费级7月$16.03/GB(+13.4%MoM)向上修正。📊NAND供给仅+17%YoY·结构性约束。🚨Connection.com 403——QLC 61.44TB/122.88TB替代锚点渠道塌缩·有效日验证覆盖率降至2/4。五品类buy_now(QLC split_buy)·PCIe5 urgency历史最高·传导窗口Day9末段·下周一关键判定点。"
     ]
   },
   "escalatedRisks": [
     {
-      "risk": "📊📊 Consumer-Enterprise Pricing Divergence Day 100——DDR5消费端8月+0.1%MoM趋平·企业端仍在涨价",
-      "status": "NEW STRUCTURAL TREND — August 2, 2026。rampricesusa.com确认DDR5消费级8月$16.05/GB仅+0.1%MoM（vs 7月+13.4%），但TrendForce 7/31更新明确'manufacturers keep raising quotes, spot market increasingly relies on server demand'。消费者端涨价趋平是需求侧约束（消费者已无法承受更高价格），不是供给侧改善。厂商正在将产能从消费级转向企业级。企业端DDR5 RDIMM采购紧迫度反而因产能更集中而升高。这是Day 100最重要的新发现。",
-      "source": "rampricesusa.com August 2 / TrendForce July 31 update",
-      "categoriesAffected": ["DDR5-6400", "DDR5-5600", "All DRAM"],
+      "risk": "🔥🔥🔥 CDW 9550 Pro 3.84TB List Price +16.3%——旗舰→中小容量传导第一枪！",
+      "status": "NEW — August 3, 2026。CDW #8215732 List Price从$4,182.99跳涨至$4,862.99(+16.3%)——自7/3 CDW校准日以来3.84TB SKU首次List Price变动。Advertised Price $3,259.99未变。这是等待了10天的旗舰→中小容量传导信号以List Price形式出现。如果Advertised Price在后续数日从$3,259.99跟进上调，将确认传导完成。目前为pre-hike窗口信号——此信号与7/27 6500 ION List+14.6%模式类似但方向相反：3.84TB是结构性上调，ION是试探后回撤。",
+      "source": "CDW.com #8215732 (verified August 3, 2026)",
+      "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "high",
-      "firstReported": "2026-08-02",
-      "updatedDate": "2026-08-02"
+      "firstReported": "2026-08-03",
+      "updatedDate": "2026-08-03"
     },
     {
-      "risk": "✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854——Day 9·第二周+1天",
-      "status": "WEEK TWO CONTINUED — August 2, 2026。CDW #8215733 经过九次独立web_fetch验证(7/24→8/2)。$21,853.99连续第九天。Add To Cart。传导窗口Day 10——窗口关闭，中小容量(3.84TB/7.68TB)31日不变仍未跟进传导。判断为结构性分化而非延迟传导：旗舰独自涨价，中小容量受Demand约束+合约价滞后。但旗舰价格¥178,977不可逆。",
-      "source": "CDW.com #8215733 (verified 7/24-8/2, 9 times)",
+      "risk": "✅✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854——Day 10·两位数天数里程碑",
+      "status": "DOUBLE-DIGIT MILESTONE — August 3, 2026。CDW #8215733 经过十次独立web_fetch验证(7/24→8/3)。$21,853.99连续第十天。Add To Cart。¥178,977基准绝对不可逆。本追踪史首个达到两位数连续验证天数的旗舰锚点。",
+      "source": "CDW.com #8215733 (verified 7/24-8/3, 10 times)",
       "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-07-25",
-      "updatedDate": "2026-08-02"
+      "updatedDate": "2026-08-03"
     },
     {
-      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——34天零回调·史上最长单一连续锚点纪录继续延长",
-      "status": "RECORD EXTENDED AGAIN — August 2, 2026。CDW #7085698经过34天连续web_fetch验证。$3,279.99 Advertised Price·Add To Cart零变动。NAND供给仅+17%YoY(storagediskprices.com)独立验证结构性供给约束强度。",
-      "source": "CDW.com #7085698 (verified 7/2-8/2, 34 days, 0 change)",
+      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——35天零回调·史上最长单一连续锚点纪录继续延长",
+      "status": "RECORD EXTENDED AGAIN — August 3, 2026。CDW #7085698经过35天连续web_fetch验证。$3,279.99 Advertised Price·Add To Cart零变动。NAND供给仅+17%YoY(storagediskprices.com)独立验证结构性供给约束强度。Futunn: Samsung contracts 'cap downside but not upside'。",
+      "source": "CDW.com #7085698 (verified 7/2-8/3, 35 days, 0 change)",
       "categoriesAffected": ["PCIe4 TLC"],
       "confidence": "highest",
       "firstReported": "2026-07-02",
-      "updatedDate": "2026-08-02"
+      "updatedDate": "2026-08-03"
     },
     {
-      "risk": "⚠️ CDW 6500 ION 30.72TB List价+14.6%($40,702→$46,631)——满一周Day 7·提价前酝酿信号已成可靠趋势",
-      "status": "PRE-HIKE SIGNAL CONFIRMED AS TREND — August 2, 2026。CDW #7467127 web_fetch验证：Advertised Price $20,547.99不变，List Price $46,630.95(+14.6%)连续第七天——跨越完整一周趋势线。Advertised二十日不变+List坚挺七天→提价前酝酿期已达一周趋势·信噪比极高。NAND供给+17%YoY支持List上行方向。",
-      "source": "CDW.com #7467127 (verified July 27 - August 2, 2026)",
-      "categoriesAffected": ["PCIe4 QLC", "All Enterprise SSD"],
+      "risk": "⚠️ CDW 6500 ION 30.72TB List Price +14.6%溢价被撤销——回归$32,642",
+      "status": "REVERSED — August 3, 2026。CDW #7467127 List Price从$46,630.95回撤至$32,641.67(-30.0%)——7/27至8/2持续七天的+14.6%List溢价已撤销。Advertised Price $20,547.99二十一日不变。可能为厂商试探性提价后的回调或系统定价修正。Advertised Price未受影响——实际操作价格不变。",
+      "source": "CDW.com #7467127 (verified August 3, 2026)",
+      "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "high",
-      "firstReported": "2026-07-27",
-      "updatedDate": "2026-08-02"
+      "firstReported": "2026-08-03",
+      "updatedDate": "2026-08-03"
     },
     {
-      "risk": "❌ CDW D5-P5336 61.44TB QLC页面持续不可用——锚点源丧失Day 16·两周+2天",
-      "status": "EXTENDED SOURCE LOSS — Day 16, August 2, 2026。CDW #8296994重定向至Cisco SFP第十六天。Connection.com 403 Access Denied Day 2——替代锚点渠道持续塌缩。QLC高容量位（61.44TB/122.88TB）的有效公开定价验证能力维持为零。Silicon Motion Q2确认QLC供给改善最早2026年末——结构性缺口无近期缓解可能。",
-      "source": "CDW.com #8296994 (permanently removed July 18, 2026) + Connection.com 403 (August 1-2, 2026)",
+      "risk": "📊📊 Consumer-Enterprise Pricing Divergence Day 2——DDR5消费端8月+0.1%MoM趋平·企业端合约>$1,480 ATH",
+      "status": "CONFIRMED TREND — August 2-3, 2026。rampricesusa.com确认DDR5消费级8月$16.05/GB仅+0.1%MoM（vs 7月+13.4%），但Futunn 8/3确认64GB DDR5合约>$1,480创历史新高·TrendForce 7月+10%MoM。消费者端涨价趋平是需求侧约束（消费者已无法承受更高价格），不是供给侧改善。厂商正在将产能从消费级转向企业级。企业端DDR5 RDIMM采购紧迫度反而因产能更集中而升高。",
+      "source": "rampricesusa.com August 2 / Futunn August 3 / TrendForce July 31 update",
+      "categoriesAffected": ["DDR5-6400", "DDR5-5600", "All DRAM"],
+      "confidence": "high",
+      "firstReported": "2026-08-02",
+      "updatedDate": "2026-08-03"
+    },
+    {
+      "risk": "❌ CDW D5-P5336 61.44TB QLC页面持续不可用——锚点源丧失Day 17·进入第三周",
+      "status": "EXTENDED SOURCE LOSS — Day 17, August 3, 2026。CDW #8296994重定向至Cisco SFP第十七天。Connection.com 403 Access Denied Day 3——替代锚点渠道持续塌缩。QLC高容量位（61.44TB/122.88TB）的有效公开定价验证能力维持为零。SanDisk明日财报·SanDisk-Kioxia合资QLC供给展望关键催化剂。",
+      "source": "CDW.com #8296994 (permanently removed July 18, 2026) + Connection.com 403 (August 1-3, 2026)",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "highest",
       "firstReported": "2026-07-18",
-      "updatedDate": "2026-08-02"
-    },
-    {
-      "risk": "🆕 Kioxia CM10 + Micron 9650 + Samsung PM1763——PCIe Gen6 企业 SSD 产品管线进入发布阶段",
-      "status": "FUTURE PRODUCT LAUNCH — July 30 - August 2, 2026。ServeTheHome/Blocks & Files/AllAboutCircuits多源确认：Kioxia CM10 PCIe Gen6首发（10代BiCS FLASH TLC·液冷支持）。Micron 9650 Gen6已量产（2月2026）。Samsung PM1763 Gen6已发布。SK Hynix年末加入Gen6供应链。三者均无公开定价，2026年内对PCIe5/4市场无定价影响。但标志着Gen6管线从'宣布'进入'发布'阶段——消除了PCIe5折价预期。",
-      "source": "ServeTheHome/Blocks & Files/AllAboutCircuits July 30 - August 2, 2026",
-      "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
-      "confidence": "highest",
-      "firstReported": "2026-08-02",
-      "updatedDate": "2026-08-02"
-    },
-    {
-      "risk": "🆕 Silicon Motion Q2 超预期——确认存储增长持续至2026+·QLC供给2027-2028才有意义",
-      "status": "NEW EARNINGS CONFIRMATION — August 1-2, 2026。Motley Fool/TradingView确认Silicon Motion Q2超预期。关键信息：(1) 存储增长持续贯穿2026年并延伸至2027；(2) QLC方案预计2026年末才开始初步出货；(3) QLC直到2027-2028年才变得meaningful——此时2-terabit QLC NAND dies变得更affordable。这意味着企业级QLC高容量位供给改善无近期可能。SanDisk CEO亦提到'multi-year customer engagements backed by firm financial commitments'——多年长约锁定供给。",
-      "source": "Motley Fool/TradingView August 1-2, 2026",
-      "categoriesAffected": ["PCIe4 QLC", "All Enterprise SSD", "All DRAM"],
-      "confidence": "high",
-      "firstReported": "2026-08-02",
-      "updatedDate": "2026-08-02"
+      "updatedDate": "2026-08-03"
     }
   ]
 }
