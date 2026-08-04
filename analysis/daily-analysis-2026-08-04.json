@@ -1,0 +1,124 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T09:02:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "Carry Day 20-22。DRAMeXchange 8/3: 16Gb DDR5 $51(+733% YoY)。DDR4 8Gb 合约 $24 ATH(+14.3% MoM)。Lexar CXMT DDR5 ¥3,999——CXMT 非低价破坏者。CoreWaveLabs JS渲染阻塞Day 102。parser_gap结构性。CXMT ¥54.99较7/31 ¥57.60回落4.5%。"},
+    "DDR5-5600": {"filled": 4, "total": 5, "note": "JD.com 64GB ¥18,595 Day 9——逼近10天stale阈值。DDR4合约$24 ATH跨代验证上行。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "7450 PRO Day 36——史上最长锚点纪录延长。NAND 2026 企业级售罄。1Tb NAND晶圆$26.4。MLC退出Day 35。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "9550 Pro 30.72TB Day 11十一验全过。🔥9550 Pro 3.84TB List+16.3% Day 2维持·Advertised $3,260未跟进——pre-hike窗口第二天。"},
+    "PCIe4 QLC": {"filled": 2, "total": 4, "note": "日验证覆盖率2/4——61.44TB+122.88TB CDW源丧失Day18+Connection 403推定Day4。15.36TB/30.72TB CDW日验证。6500 ION List回撤后稳定Day 2。SanDisk明日财报关键催化剂。"}
+  },
+  "newSourcesTried": [
+    "DRAMeXchange 8/3 via ts2.tech",
+    "Anue/钜亨网 (16Gb DDR5 $51, DDR4 $85.2, NAND $26.4)",
+    "Korea Pro (DDR4 8Gb合约$24 ATH +14.3% MoM)",
+    "Tom's Hardware (Lexar CXMT DDR5 ¥3,999)",
+    "Korea JoongAng Daily (KOSPI 8/3 -5.12%)",
+    "TradingEconomics (KOSPI data)",
+    "IBTimes.sg (KOSPI selloff)",
+    "Yahoo Finance SanDisk earnings preview (EPS $34.24 consensus)",
+    "Benzinga (SNDK falling ahead of earnings)",
+    "TipRanks (SNDK volatility)",
+    "Seeking Alpha (SNDK Hold rating)",
+    "Robinhood (SNDK $1,310.53)",
+    "Bloomberg (CXMT analyst $1T target gap)",
+    "ftoday.co.kr (KODEX US CPU Semiconductor ETF listing)",
+    "oscooshop.com (SSD Q3-Q4 2026 outlook)",
+    "cheapestssd.com (Gen4 NVMe $76/TB plateau)",
+    "TrendForce DRAM spot (持续引用)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DRAMeXchange 8/3 via ts2.tech (DDR5 spot +0.72%)",
+    "Anue/钜亨网 (16Gb DDR5 $51 +733% YoY)",
+    "Korea Pro (DDR4 8Gb合约$24 ATH)",
+    "Tom's Hardware (Lexar CXMT DDR5 ¥3,999 not cheap)",
+    "Yahoo Finance (SanDisk EPS $34.24, guidance $30-33)",
+    "Korea JoongAng Daily (KOSPI 8/3 -5.12%; 8/4 +0.77% open)",
+    "TradingEconomics (KOSPI data points)"
+  ],
+  "keyChangesVsYesterday": [
+    "🔴🔴 KOSPI 8/3暴跌5.12%至6,257——7/31+18%历史反弹后剧烈获利回吐",
+    "📊🆕 DDR4 8Gb合约$24 ATH(+14.3% MoM)——全DRAM品类定价加速而非减速",
+    "📊 DRAMeXchange 8/3: DDR5 spot +0.72%, DDR4 +0.57%——双双上涨",
+    "🆕 16Gb DDR5现货$51(+733% YoY)——持续创新高",
+    "🔥 9550 Pro 3.84TB List +16.3% Day 2维持——Advertised未跟进，pre-hike窗口延续",
+    "✅ 9550 Pro 30.72TB Day 11十一验全过",
+    "✅ 7450 PRO Day 36史上最长锚点延长",
+    "🆕 Lexar CXMT DDR5 ¥3,999——CXMT非廉价DRAM救星",
+    "⏳ SanDisk共识EPS上修至$34.24——明日盘后发布",
+    "CXMT ¥54.99较7/31高位¥57.60回落4.5%"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DRAMeXchange 16Gb DDR5 $51(+733% YoY)。DDR4 8Gb合约$24 ATH(+14.3% MoM)——全品类定价加速。Lexar CXMT DDR5 ¥3,999确认CXMT非低价破坏者。parser_gap Day 102但现货/合约数据压倒性。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR4合约ATH跨代验证DDR5无下行逻辑。JD.com ¥18,595虽Day 9 stale但仍为最优基准。16Gb DDR5 $51提供上行支撑。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 36日零回调——史上最长锚点。NAND 2026企业级售罄。MLC退出Day 35。1Tb NAND晶圆$26.4持续高位。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 3.84TB List+16.3% Day 2——传导信号持续。旗舰Day 11十一验全过、¥178,977不可逆。Advertised跟进可能在未来数日。Pre-hike窗口仍在。urgency高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB/30.72TB CDW公开价可执行。D5-P5336源丧失Day 18——61.44TB+需直接联系渠道。SanDisk明日盘后财报为QLC板块最重要短期催化剂。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "无企业级公开价。五备源全封锁Day 102。"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "无企业级公开价。"
+    },
+    {
+      "category": "DDR5 RDIMM 全频率",
+      "spec": "所有容量",
+      "reasonCode": "parser_gap",
+      "note": "CoreWaveLabs JS动态渲染阻塞+五备源全封锁Day 102——史上最严重水平。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW无此规格公开价。"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW无此规格公开价。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "source_lost",
+      "note": "CDW #8296994重定向Cisco SFP Day 18（第三周）。Connection 403推定Day 4。双重源丧失——无公开定价验证渠道。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "source_lost",
+      "note": "CDW页面随#8296994丧失。Connection 403推定Day 4。双重源丧失。"
+    }
+  ]
+}
