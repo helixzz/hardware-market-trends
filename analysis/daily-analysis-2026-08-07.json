@@ -1,0 +1,182 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T09:02:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "missingColumns": ["16GB", "96GB"], "note": "Carry Day 27。datacenterdisk.com DDR5 ECC $35.70/GB ▲+5% 本周加速。CoreWaveLabs parser_gap Day 105 结构性。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "missingColumns": ["16GB", "96GB"], "note": "JD.com 数据 Day 12——深度 stale。datacenterdisk.com 品类参照加速。DDR4 合约 $24 ATH 跨代验证。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "missingColumns": ["1.92TB"], "note": "7450 PRO Day 39 史上最长。CDW 锚点数从 6→4 但 7450 健在。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "missingColumns": ["1.92TB"], "note": "9550 Pro 30.72TB Day14 十四验。PM1743 7.68TB+9550 E3.S 双锚点丧生。9550 Pro 3.84TB List+16.3% Day5。"},
+    "PCIe4 QLC": {"filled": 0, "total": 4, "missingColumns": ["15.36TB", "30.72TB", "61.44TB", "122.88TB"], "note": "🚨 CDW 锚点体系全面崩溃——6500 ION+D5-P5316 今日确认永久丧失。全列有效定价验证归零。"}
+  },
+  "newSourcesTried": [
+    "CDW #8296992 (6500 ION 30.72TB) — 确认重定向/停产",
+    "CDW #8296984 (D5-P5316 15.36TB) — 确认重定向/停产",
+    "CDW #8215728 (9550 Pro 7.68TB E3.S) — 确认停产 7/10",
+    "CDW #7694845 (Samsung PM1743 7.68TB) — 确认重定向",
+    "datacenterdisk.com DDR5 ECC 价格更新",
+    "web_search: KOSPI Aug 6 / SanDisk SNDK post-earnings / NAND outlook / DDR5 spot"
+  ],
+  "newSourcesWithUsefulData": [
+    "datacenterdisk.com DDR5 ECC $35.70/GB ▲+5% 本周"
+  ],
+  "keyChangesVsYesterday": [
+    "🚨🚨🚨 CDW 6500 ION 30.72TB #8296992 永久丧失——重定向至 HDS Pentaho 软件产品",
+    "🚨🚨🚨 CDW D5-P5316 15.36TB #8296984 永久丧失——重定向至 HDS Pentaho 软件产品",
+    "🚨 CDW Samsung PM1743 7.68TB #7694845 重定向丧失",
+    "🚨 CDW 9550 Pro 7.68TB E3.S #8215728 确认于 7/10 停产",
+    "CDW 锚点数量从 6→4——PCIe5 中小容量+QLC 全列验证能力严重削弱",
+    "QLC 全列 4/4 有效公开定价验证能力归零",
+    "🔥 9550 Pro 3.84TB List+16.3% Day5——传导窗口 Day 5/7 关键分界日",
+    "🔴🔴 KOSPI 8/6 -4.58%至 6296——7/31+18%反弹后第二日重挫",
+    "🔴 SanDisk SNDK -7.18%——盘后指引不及预期续跌，Jefferies 砍 PT",
+    "📊 datacenterdisk.com DDR5 ECC $35.70/GB ▲+5% 本周——较上周 +2.1% 加速 2.4x",
+    "✅ 全 4 存活 CDW Advertised Price 不变——锚点连续性维持"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "trendNotes": {
+    "DDR5-6400": "datacenterdisk.com $35.70/GB ▲+5% 加速+DDR4 合约 ATH 维持。NEMIX Newegg 页面移除（非 OOS—404）。",
+    "DDR5-5600": "JD.com Day12 深度 stale，但 datacenterdisk.com 品类加速+DDR4 ATH 确认上行方向。",
+    "PCIe4 TLC": "7450 PRO Day39 零回调史上最长+SanDisk 需求>供给至 2027+系统性验证。",
+    "PCIe5 TLC": "9550 Pro 30.72TB Day14 不可逆+9550 Pro 3.84TB List+16.3% Day5 传导窗口。CDW 锚点数 6→4——覆盖退化但旗舰稳固。",
+    "PCIe4 QLC": "SanDisk 财报+Stargate QLC+BiCS10 最高密度结构性支撑，但 CDW 锚点体系崩溃→有效验证归零。"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "datacenterdisk.com ECC $35.70/GB 加速上行+DDR4 合约 ATH+五备源全封锁反映供给端极度紧张"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 ECC $35.70/GB ▲+5% 加速验证上行+JD.com 虽 stale 但方向明确+DDR4 ATH 跨代验证"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 39天零回调+NAND 全链售罄+SanDisk 确认需求>供给至 2027+"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 十四验不可逆+3.84TB List+16.3% Day5 传导窗口+anchor count 收缩反映供给紧张。urgency 历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "🚨CDW 锚点体系崩溃→有效定价验证归零。SanDisk 8/13 Investor Day 前无法给出 split_buy 或 buy_now 建议。仅应急采购+等待 8/13 Investor Day 供给路线图。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "CoreWaveLabs+五备源全封锁 Day 105"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "同上"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "CoreWaveLabs+五备源全封锁"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "小容量企业级样本极少"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "小容量公开定价极稀缺"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "source_collapse",
+      "note": "CDW PM1743 重定向+9550 E3.S 停产——两个锚点均丧失"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB/30.72TB/61.44TB/122.88TB",
+      "reasonCode": "source_collapse",
+      "note": "🚨 CDW 6500 ION+D5-P5316 今日确认永久丧失+D5-P5336 Day21+Connection 403 Day7。全列有效定价验证归零。"
+    }
+  ],
+  "escalatedRisks": [
+    {
+      "risk": "🚨🚨🚨 CDW QLC 锚点体系全面崩溃——6500 ION 30.72TB + D5-P5316 15.36TB 永久丧失",
+      "status": "NEW — August 7, 2026 09:02 CST。CDW #8296992(6500 ION)和#8296984(D5-P5316)均重定向至 HDS Pentaho 非存储产品页，均于 6/12 停产。加上已丧失 D5-P5336 61.44TB(Day21)和 Connection 403(Day7)，QLC 全列 15.36TB/30.72TB/61.44TB/122.88TB 有效公开定价验证能力归零。",
+      "categoriesAffected": ["PCIe4 QLC"],
+      "confidence": "highest",
+      "firstReported": "2026-08-07"
+    },
+    {
+      "risk": "🔴 CDW PCIe5 锚点体系收缩——Samsung PM1743 7.68TB + 9550 Pro E3.S 7.68TB + 9550 Pro E3.S 15.36TB 三锚点丧生",
+      "status": "NEW — August 7, 2026。CDW #7694845(Samsung PM1743)重定向至充电推车。#8215728(9550 E3.S 7.68TB)于7/10停产。#8215730(U.2 15.36TB)存活。CDW 锚点总数从 6 降至 4。",
+      "categoriesAffected": ["PCIe5 TLC"],
+      "confidence": "highest",
+      "firstReported": "2026-08-07"
+    },
+    {
+      "risk": "🔥 9550 Pro 3.84TB List +16.3% Day 5——Advertised 仍未跟进·传导窗口 Day 5/7",
+      "status": "SUSTAINED Day 5 — August 7, 2026。CDW #8215732 List Price $4,862.99 连续第五天维持。Advertised Price $3,259.99 连续第五天不变。Day 5 为关键分界日——若 Day 7(8/9)仍不跟进，List 上调需从'传导在即'重分类为'结构性上行+厂商 MSRP 信号'。",
+      "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
+      "confidence": "high",
+      "firstReported": "2026-08-03",
+      "updatedDate": "2026-08-07"
+    },
+    {
+      "risk": "✅ 9550 Pro 30.72TB Day 14——十四验全过",
+      "status": "DOUBLE-DIGIT+5 MILESTONE — August 7, 2026。CDW #8215733 经过十四次独立验证。$21,853.99 Advertised Price 连续第十四天。¥178,977 基准绝对不可逆。",
+      "categoriesAffected": ["PCIe5 TLC"],
+      "confidence": "highest",
+      "firstReported": "2026-07-25",
+      "updatedDate": "2026-08-07"
+    },
+    {
+      "risk": "✅ 7450 PRO 7.68TB Day 39——史上最长锚点纪录延长",
+      "status": "RECORD EXTENDED AGAIN — August 7, 2026。CDW #7085698 $3,279.99 Advertised Price 零变动 39 天。",
+      "categoriesAffected": ["PCIe4 TLC"],
+      "confidence": "highest",
+      "firstReported": "2026-07-02",
+      "updatedDate": "2026-08-07"
+    },
+    {
+      "risk": "🔴 KOSPI 8/6 -4.58%至 6,296——7/31 +18% 反弹后第二日重挫",
+      "status": "SUSTAINED — August 6, 2026。KOSPI 收 6,296.38(-4.58%)。SK Hynix -10.37%、Samsung -6%。KED Global/TradingKey/Korea Times 多源确认外资抛售。七天内第三次>3%单日波动。净自 7/25(6,770)累跌 7.0%。实物定价(CDW 全锚点不变)vs 金融定价(KOSPI 再跌)背离继续。",
+      "categoriesAffected": ["All categories"],
+      "confidence": "highest",
+      "firstReported": "2026-07-28",
+      "updatedDate": "2026-08-07"
+    },
+    {
+      "risk": "🔴 SanDisk SNDK post-earnings selloff 第二日——Jefferies 砍 PT $1,250",
+      "status": "SUSTAINED — August 6, 2026。SNDK -7.18%至~$1,254(Jefferies 目标价由 $3,000→$1,750)。累计自财报前 $1,386 跌约 -9.5%。但多方仍看好 NAND 基本面(Yahoo Finance/InvestorPlace)。8/13 Investor Day 为下一催化剂。CEO 预期 2026 PC/智能手机放缓但 NAND 明年反弹。",
+      "categoriesAffected": ["All NAND/SSD"],
+      "confidence": "highest",
+      "firstReported": "2026-08-06",
+      "updatedDate": "2026-08-07"
+    }
+  ],
+  "sourceHealthSummary": {
+    "CDW_anchors": {
+      "alive": 4,
+      "lostToday": 4,
+      "previouslyLost": 1,
+      "totalOriginal": 10,
+      "note": "存活:9550 Pro 30.72TB+3.84TB+15.36TB U.2+7450 PRO 7.68TB。今日确认丧失:6500 ION 30.72TB+D5-P5316 15.36TB+Samsung PM1743 7.68TB+9550 Pro E3.S 7.68TB。之前已失:D5-P5336 61.44TB。"
+    },
+    "QLC": "CRITICAL — 全列 4/4 有效公开定价验证归零。需紧急寻找替代锚点（Newegg/ServerSupply/DirectMacro QLC 通道）。",
+    "DDR5": "datacenterdisk.com 提供独立品类参照但非企业级 B2B 直接替代。CoreWaveLabs parser_gap Day 105。"
+  }
+}
