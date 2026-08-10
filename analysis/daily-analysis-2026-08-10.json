@@ -1,0 +1,83 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T09:20:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 0, "total": 4}
+  },
+  "newSourcesTried": [
+    "GamePro.de (DRAMeXchange DDR5 spot)",
+    "warp2search (DRAMeXchange)",
+    "Korea JoongAng Daily (KOSPI Aug 10)",
+    "TradingKey (KOSPI/Nikkei Aug 10)",
+    "StorageReview (CoreWeave-Solidigm depth)",
+    "oscooshop (NAND production cut analysis)",
+    "BigGo Finance (SanDisk Investor Day preview)",
+    "TheMarketsDaily (SNDK price Aug 9)",
+    "Yahoo Finance Motley Fool (SNDK analysis)",
+    "Seeking Alpha (SNDK fair value)",
+    "Barchart (SanDisk catalyst Aug 13)",
+    "DirectMacro QLC",
+    "ServerSupply QLC",
+    "Newegg QLC"
+  ],
+  "newSourcesWithUsefulData": [
+    "GamePro.de (DDR5 16Gb $51 ATH)",
+    "warp2search (DDR5 >200% since 2025)",
+    "Korea JoongAng Daily (KOSPI +1.72%)",
+    "TradingKey (KOSPI 6,366.71)",
+    "TheMarketsDaily (SNDK $1,212.21)",
+    "oscooshop (NAND production cuts + HBM conversion)",
+    "StorageReview (CoreWeave-Solidigm QLC depth)"
+  ],
+  "keyChangesVsYesterday": [
+    "🟢 KOSPI 8/10 周一开盘反弹 +1.72% 至 6,366.71——Samsung/SK Hynix 领涨，结束周末休市",
+    "🆕 DDR5 16Gb 现货芯片 $51 新 ATH（GamePro.de/DRAMeXchange 8/3）——自 1 月 $29 累计 +76% YTD",
+    "🆕 DDR5 综合涨幅 >200% 自 2025 初（warp2search/DRAMeXchange）",
+    "✅ CDW 9550 Pro 30.72TB Day 17——十七验全过·两位数天数第七天",
+    "✅ CDW 7450 PRO 7.68TB Day 42——整整六周·史上最长纪录",
+    "🆕 SanDisk CFO：NAND 市场 2026 >$300B、2027 >$500B",
+    "SNDK $1,212 确认——自 6 月高点回撤约 47%",
+    "SanDisk 8/13 Investor Day 仅剩 3 天——议程确认"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 16Gb 现货 $51 ATH（+76% YTD）；综合涨幅超 200%（2025 迄今）；NEMIX 零售锚点 Day 3 持续；SanDisk 确认供给紧张至 2027+"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5 品类全面加速上行；Citi Q1$873→Q4$1,586 预测 (+82%)；datacenterdisk.com 多 SKU 验证上行方向"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 42 天零回调——整整六周·追踪史绝对最长纪录；NAND H1 合约价累计超 100%；Samsung/SK Hynix 削减 NAND 产能转向 HBM"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 17 定价绝对不可逆；全 4 CDW 锚点满分健康；3.84TB 结构性 MSRP 信号维持向上；urgency 历史最高"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "QLC 全列有效定价验证归零 Day 4；CoreWeave-Solidigm 协议验证战略需求但缺定价透明度；SanDisk Investor Day（3天后）为关键数据节点"
+    }
+  },
+  "gaps": [
+    {"category": "DDR5-6400", "spec": "16GB, 96GB", "reasonCode": "no_public_sample", "note": "市场极小众容量，CoreWaveLabs+五备源全封锁 Day 108"},
+    {"category": "DDR5-5600", "spec": "16GB", "reasonCode": "no_public_sample", "note": "极小众容量"},
+    {"category": "PCIe4 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample"},
+    {"category": "PCIe5 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample"},
+    {"category": "PCIe4 QLC", "spec": "15.36TB, 30.72TB", "reasonCode": "no_public_sample", "note": "CDW D5-P5316 + 6500 ION 永久丧失 Day 4，所有备源无公开定价"},
+    {"category": "PCIe4 QLC", "spec": "61.44TB, 122.88TB", "reasonCode": "no_public_sample", "note": "CDW D5-P5336 丧失 Day 24 + Connection 403 Day 10，所有备源无公开定价"}
+  ]
+}

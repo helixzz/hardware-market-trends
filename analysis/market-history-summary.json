@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-09T09:02:00+08:00",
-  "previousGeneratedAt": "2026-08-08T09:01:00+08:00",
+  "generatedAt": "2026-08-10T09:20:00+08:00",
+  "previousGeneratedAt": "2026-08-09T09:02:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 149,
-  "executionNote": "📋周日巩固日·Day107·全列carry。🔥🔥🔥9550Pro 3.84TB List+16.3% Day7传导窗口正式关闭——重分类为结构性MSRP信号！Advertised$3,259.99连续第七天未跟进·List$4,862.99为Micron官方MSRP而非渠道passthrough。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day16十六验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day41四十一天整零回调——六周+1天·追踪史绝对最长纪录！QLC全列4/4 carry-only Day3·CDW锚点全崩溃无恢复。🆕EMSNow:NAND产线拆解→SSD短缺至2026底。🆕Wikipedia全球记忆体短缺条目广泛更新。🆕SNDK Evercore ISI砍PT$3,100→$2,800。SanDisk 8/13 Investor Day仅剩4天。五品类buy_now(QLC urgent_only)·PCIe5 urgency历史最高。",
+  "trackingRows": 150,
+  "executionNote": "📊周一Day108·KOSPI复市+1.72%开盘反弹·Samsung+SK Hynix领涨。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day17十七验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day42四十二天零回调——整整六周·追踪史绝对最长纪录！✅全4 CDW锚点全验证无变化。🔥9550Pro 3.84TB List+16.3% Day8传导窗口已关闭·结构性MSRP信号维持。🆕DDR5 16Gb现货$51新ATH(GamePro.de/DRAMeXchange)·自1月$29+76%YTD·距翻倍仅差$7。🆕DDR5综合涨幅>200%自2025(warp2search)。🆕SNDK~$1,212自6月高点-47%·Investor Day仅剩3天。QLC全列4/4 carry-only Day4。五品类buy_now(QLC urgent_only)·PCIe5 urgency历史最高。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-08-09",
+      "latestDate": "2026-08-10",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "🟢 NEMIX DDR5-6400 32GB Newegg 零售锚点 Day 2 持续——新 SKU $1,488 In Stock。A-Tech 32GB $1,716 备选。datacenterdisk.com DDR5 ECC $35.70/GB ▲+5% 本周维持。CoreWaveLabs parser_gap Day 107 结构性。"
+        "note": "🟢 NEMIX DDR5-6400 32GB Newegg 零售锚点 Day 3 持续。🆕 DDR5 16Gb 现货芯片 $51 新 ATH（GamePro.de/DRAMeXchange）——自 1 月 $29 +76% YTD，距翻倍仅差 $7。A-Tech 32GB $1,716 备选。CoreWaveLabs parser_gap Day 108 结构性。"
       },
       "averageCoverage14d": 1.3,
       "trend": "up",
-      "trendNote": "DDR5 ECC $35.70/GB ▲+5% 本周维持。DDR4 合约 $24 ATH 持续。SanDisk 确认全品类结构性紧张至 2027+。EMSNow NAND 产线拆解→DRAM 扩产信号。",
-      "sourceHealthNote": "🟢 NEMIX 32GB Newegg 锚点 Day 2 持续。CoreWaveLabs JS 渲染阻塞 Day 107·五备源仍封锁。datacenterdisk.com 提供独立品类参照。DRAMeXchange 跨口径验证仍为最强替代信号。",
+      "trendNote": "🆕 DDR5 16Gb 现货 $51 ATH +76% YTD——距年初 $29 接近翻倍。DDR5 综合涨幅 >200% 自 2025 初（warp2search/DRAMeXchange）。SanDisk 确认全品类结构性紧张至 2027+。EMSNow NAND 产线拆解→DRAM 扩产信号。",
+      "sourceHealthNote": "🟢 NEMIX 32GB Newegg 锚点 Day 3 持续。CoreWaveLabs JS 渲染阻塞 Day 108·五备源仍封锁。datacenterdisk.com 提供独立品类参照。DRAMeXchange 跨口径验证仍为最强替代信号。",
       "latestValues": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
@@ -37,15 +37,15 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-08-09",
+      "latestDate": "2026-08-10",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "JD.com 64GB ¥18,595 Day 14——深度 stale·第三周。datacenterdisk.com 多个 SKU 具体报价：Kingston 64GB $2,064/A-Tech 32GB $1,098/Micron 64GB $2,400/NEMIX 96GB $3,600。DDR5 ECC $35.70/GB ▲+5% 品类加速。"
+        "note": "JD.com 64GB ¥18,595 Day 15——深度 stale·第三周。Citi 研究：64GB DDR5 RDIMM Q1$873→Q4$1,586(+82%) 独立验证上行。datacenterdisk.com 64GB DDR5 页面 8/9 更新——四源报价维持。DDR5 ECC $34.34/GB 显示上次更新。"
       },
       "averageCoverage14d": 1.5,
       "trend": "up",
-      "trendNote": "JD.com 数据 Day 14——深度 stale。datacenterdisk.com DDR5 ECC $35.70/GB ▲+5% 提供品类级验证。DDR4 合约 $24 ATH 跨代验证。SanDisk 全品类结构性供给紧张至 2027+ 间接支撑 DDR5。",
+      "trendNote": "JD.com 数据 Day 15——深度 stale。Citi $873→$1,586 预测提供独立验证。DDR5 品类全面加速上行（16Gb 现货 $51 ATH）。DDR4 合约 $24 ATH 跨代验证。SanDisk 全品类结构性供给紧张至 2027+。",
       "latestValues": {
         "DDR5-5600 32GB": 9190,
         "DDR5-5600 64GB": 18595,
@@ -62,19 +62,19 @@
         "DDR5-5600 128GB": 46600
       },
       "missingColumns": ["16GB"],
-      "sourceHealthNote": "JD.com 数据 Day 14——深度 stale。datacenterdisk.com 品类参照提供丰富 SKU 级别验证。CoreWaveLabs+五备源仍全封锁。DRAMeXchange 跨口径验证为最强替代信号。",
+      "sourceHealthNote": "JD.com 数据 Day 15——深度 stale。datacenterdisk.com 品类参照提供丰富 SKU 级别验证。CoreWaveLabs+五备源仍全封锁。DRAMeXchange 跨口径验证为最强替代信号。Citi 独立分析增强可信度。",
       "coverage14d": 2
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-08-09",
+      "latestDate": "2026-08-10",
       "latestCoverage": {
         "filled": 4,
         "total": 5
       },
       "averageCoverage14d": 2.7,
       "trend": "flat_or_mixed",
-      "trackingLagWarning": "Day 107 - CDW 7450 PRO 7.68TB $3,279.99 41天零回调——四十一天整·六周+1天·追踪史绝对最长单一连续锚点纪录！EMSNow 确认 NAND 产线拆解→SSD 短缺至 2026 底。SanDisk 财报全面验证 NAND 上行:需求>供给至 2027+。",
+      "trackingLagWarning": "Day 108 - CDW 7450 PRO 7.68TB $3,279.99 42天零回调——整整六周·追踪史绝对最长单一连续锚点纪录！oscooshop 独立确认 NAND H1 合约价累计超 100%。Samsung/SK Hynix 削减 NAND 产能转向 HBM（利润率 >60%）。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 26866,
@@ -98,25 +98,25 @@
           "low": 26866,
           "high": 26866,
           "median": 26866,
-          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price·Add To Cart)——41天零回调·四十一天整·六周+1天·追踪史绝对最长纪录。SanDisk 财报全面验证 NAND 上行。EMSNow NAND 产线拆解→DRAM 扩产。"
+          "note": "CDW Micron 7450 PRO #7085698 $3,279.99(Advertised Price·Add To Cart)——42天零回调·整整六周·追踪史绝对最长纪录。SanDisk 财报全面验证 NAND 上行。EMSNow NAND 产线拆解→DRAM 扩产。oscooshop NAND 减产量化。"
         }
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "CDW 7450 PRO 41日零回调——四十一天整里程碑·追踪史绝对最长锚点纪录。NAND 2026 企业级售罄。SanDisk 财报确认需求>供给至 2027+。EMSNow 确认 NAND 产线拆解。CDW 锚点体系稳固。",
-      "trendNote": "7450 PRO 41天零回调——四十一天整·史上最长纪录。BUY_NOW 维持。SanDisk 财报全面验证 NAND 上行逻辑:需求>供给至 2027+·2/3 增长来自定价·Datacenter $3B 翻倍。EMSNow NAND 线拆解→DRAM 线增加上行压力。",
+      "sourceHealthNote": "CDW 7450 PRO 42日零回调——整整六周里程碑·追踪史绝对最长锚点纪录。NAND H1 合约价 >100% 独立验证。SanDisk 财报确认需求>供给至 2027+。EMSNow 确认 NAND 产线拆解。CDW 锚点体系稳固。",
+      "trendNote": "7450 PRO 42天零回调——整整六周·史上最长纪录。BUY_NOW 维持。SanDisk 财报全面验证 NAND 上行逻辑:需求>供给至 2027+。NAND H1 合约累计 >100% 独立确认。oscooshop:Samsung/SK Hynix 主动减产 NAND→HBM 转换。",
       "coverage14d": 2
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-08-09",
+      "latestDate": "2026-08-10",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 9550 Pro 30.72TB $21,854 Day16——十六验全过·两位数天数第六天。🔥🔥🔥9550 Pro 3.84TB List+16.3% Day7——传导窗口正式关闭·重分类为结构性 MSRP 信号。Advertised$3,259.99 连续第七天未跟进·List$4,862.99 为 Micron 官方 MSRP。"
+        "note": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 9550 Pro 30.72TB $21,854 Day17——十七验全过·两位数天数第七天。✅ 全4 CDW锚点今日全验证无变化。🔥 9550 Pro 3.84TB List+16.3% Day8——传导窗口关闭后第一天，Advertised $3,259.99 不变，结构性 MSRP 信号维持。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
-      "trendNote": "9550 Pro 30.72TB Day16 十六验全过——¥178,977 基准绝对不可逆。🔥🔥🔥9550 Pro 3.84TB 传导窗口关闭——今日重分类：List +16.3% 非渠道 passthrough 而为结构性 MSRP 信号。Advertised 维持 $3,259.99 不反映上游 MSRP 上调。CDW 锚点稳定在 4。SanDisk 财报 NAND 定价权确认系统性支撑 PCIe5 定价。",
+      "trendNote": "9550 Pro 30.72TB Day17 十七验全过——¥178,977 基准绝对不可逆。全4 CDW锚点满分健康。🔥 9550 Pro 3.84TB 传导窗口已关闭——结构性 MSRP 信号维持。CDW 锚点稳定在 4。SanDisk 财报 NAND 定价权确认系统性支撑 PCIe5 定价。",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 26699,
         "PCIe5 TLC 7.68TB": 39271,
@@ -136,17 +136,17 @@
         "PCIe5 TLC 30.72TB": 178977
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 9550Pro Day16 两位数天数第六天·✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day41。🔥🔥🔥9550Pro 3.84TB List+16.3%传导窗口关闭——今日起重分类为结构性MSRP信号。Advertised$3,259.99为实际渠道可执行价。CDW 锚点稳定在4。存活锚点:30.72TB+3.84TB+15.36TB U.2+7450 PRO。",
-      "trendNote": "🔥🔥🔥9550 Pro 3.84TB 传导窗口关闭·重分类为结构性 MSRP 信号——List+16.3% 是 Micron 厂商信号而非渠道 papsthrough。旗舰 Day16 不可逆。CDW 锚点稳定(4)反映定价稳固而非需求减弱。SanDisk NAND 定价权确认系统性支撑。BUY_NOW 维持·urgency 历史最高。",
+      "sourceHealthNote": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 9550Pro Day17 两位数天数第七天·✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day42 六周里程碑。🔥9550Pro 3.84TB 传导窗口已关闭·结构性 MSRP 信号维持·Advertised$3,259.99 为实际渠道可执行价。CDW 锚点稳定在4。存活锚点:30.72TB+3.84TB+15.36TB U.2+7450 PRO。",
+      "trendNote": "🔥 9550 Pro 3.84TB 传导窗口关闭·结构性 MSRP 信号——List+16.3% 是 Micron 厂商信号而非渠道 passthrough。旗舰 Day17 不可逆。CDW 锚点稳定(4)反映定价稳固而非需求减弱。SanDisk NAND 定价权确认系统性支撑。BUY_NOW 维持·urgency 历史最高。",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-08-09",
+      "latestDate": "2026-08-10",
       "latestCoverage": {
         "filled": 0,
         "total": 4,
-        "note": "QLC 全列 carry-only Day 3——有效定价验证归零持续。CoreWeave-Solidigm 多年 QLC 供应锁定协议获官方 IR 确认(8/5)。SanDisk 8/13 Investor Day 仅剩 4 天。Wikipedia 全球记忆体短缺条目更新。"
+        "note": "QLC 全列 carry-only Day 4——有效定价验证归零持续。StorageReview 深度分析 CoreWeave-Solidigm 多年 QLC 供应锁定协议细节。Solidigm pre-IPO $3.5-7B 推进中。oscooshop 独立确认 NAND 减产转向 HBM 加剧 SSD 短缺。SanDisk 8/13 Investor Day 仅剩 3 天。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
@@ -169,128 +169,111 @@
         "PCIe4 QLC 122.88TB": 340000
       },
       "missingColumns": ["15.36TB", "30.72TB", "61.44TB", "122.88TB"],
-      "trendNote": "QLC 全列有效定价验证归零·Day 3。CoreWeave-Solidigm 供应锁定+Solidigm pre-IPO+FMS 6600 ION 均证实 QLC 战略需求但无定价。SanDisk 8/13 Investor Day 为唯一近期数据催化剂(4天后)。采购建议 urgent_only 维持。",
+      "trendNote": "QLC 全列有效定价验证归零·Day 4。StorageReview 深度确认 CoreWeave-Solidigm 供应锁定+Solidigm pre-IPO+FMS 6600 ION 均证实 QLC 战略需求但无定价。oscooshop 独立量化 NAND 产能收缩。SanDisk 8/13 Investor Day 为唯一近期数据催化剂(3天后)。采购建议 urgent_only 维持。",
       "coverage14d": 4,
-      "sourceHealthNote": "QLC 全列 4/4 carry-only——CDW 锚点体系全崩溃后 Day 3 无恢复。CoreWeave IR 官方确认多年协议。Solidigm pre-IPO $3.5-7B 验证资产价值但无公开定价。EMSNow: NAND 产线拆解→SSD 短缺至 2026 底加剧供给紧张。SanDisk 8/13 Investor Day + Newegg/DirectMacro/ServerSupply QLC 通道为唯一备选方向。"
+      "sourceHealthNote": "QLC 全列 4/4 carry-only——CDW 锚点体系全崩溃后 Day 4 无恢复。CoreWeave IR 官方确认多年协议。StorageReview 深度分析供应锁定细节。Solidigm pre-IPO $3.5-7B 验证资产价值但无公开定价。oscooshop:Samsung/SK Hynix 主动减产 NAND 产能转向 HBM。SanDisk 8/13 Investor Day + Newegg/DirectMacro/ServerSupply QLC 通道为唯一备选方向。"
     }
   },
   "recentRunNotes": {
+    "2026-08-10": [
+      "📊周一Day108·KOSPI复市+1.72%开盘反弹·Samsung+SK Hynix领涨。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day17十七验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day42四十二天零回调——整整六周·追踪史绝对最长纪录！✅全4 CDW锚点全验证无变化。🔥9550Pro 3.84TB List+16.3% Day8传导窗口已关闭·结构性MSRP信号维持。🆕DDR5 16Gb现货$51新ATH(GamePro.de/DRAMeXchange)·自1月$29+76%YTD·距翻倍仅差$7。🆕DDR5综合涨幅>200%自2025(warp2search)。🆕SanDisk CFO:NAND市场2026>$300B·2027>$500B。SNDK~$1,212·自6月高点-47%·Investor Day仅剩3天。QLC全列4/4 carry-only Day4。五品类buy_now(QLC urgent_only)·PCIe5 urgency历史最高。"
+    ],
     "2026-08-09": [
-      "📋周日巩固日·Day107·全列carry。🔥🔥🔥9550Pro 3.84TB List+16.3% Day7传导窗口正式关闭——重分类为结构性MSRP信号！Advertised$3,259.99连续第七天未跟进·List$4,862.99为Micron官方MSRP而非渠道passthrough。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day16十六验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day41四十一天整零回调——六周+1天·追踪史绝对最长纪录！QLC全列4/4 carry-only Day3·CDW锚点全崩溃无恢复。🆕EMSNow:NAND产线拆解→SSD短缺至2026底·NAND批发价翻倍。🆕Wikipedia全球记忆体短缺条目广泛更新——危机获主流百科认可里程碑。🆕SNDK Evercore ISI砍PT$3,100→$2,800。SanDisk 8/13 Investor Day仅剩4天。五品类buy_now(QLC urgent_only)·PCIe5 urgency历史最高。"
+      "📋周日巩固日·Day107·全列carry。🔥🔥🔥9550Pro 3.84TB List+16.3% Day7传导窗口正式关闭——重分类为结构性MSRP信号！Advertised$3,259.99连续第七天未跟进·List$4,862.99为Micron官方MSRP而非渠道passthrough。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day16十六验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day41四十一天整零回调——六周+1天·追踪史绝对最长纪录！QLC全列4/4 carry-only Day3·CDW锚点全崩溃无恢复。🆕EMSNow:NAND产线拆解→SSD短缺至2026底。🆕Wikipedia全球记忆体短缺条目广泛更新。🆕SNDK Evercore ISI砍PT$3,100→$2,800。SanDisk 8/13 Investor Day仅剩4天。五品类buy_now(QLC urgent_only)·PCIe5 urgency历史最高。"
     ],
     "2026-08-08": [
-      "📋周六巩固日·Day106·🟢🟢NEMIX DDR5-6400 32GB Newegg零售锚点恢复——新SKU$1,488 In Stock结束~26天404断供。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day15十五验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day40四十天整零回调——追踪史绝对最长纪录！🔥9550Pro 3.84TB List+16.3% Day6·Advertised$3,260仍不变——明日Day7最终分界日！🔴KOSPI 8/7-0.60%至6,259·SK Hynix-4.82%第三日重挫·Samsung+0.8%逆势——投资者转向多元化AI曝光。🔴SNDK~$1,210续跌·自$1,386累跌12.7%·财报后抛售Day3。🆕CoreWeave-Solidigm多年QLC供应锁定+Solidigm$3.5-7B pre-IPO+FMS 6600 ION 245TB。QLC全列4/4 carry-only。五品类buy_now(QLC urgent_only)·明日9550Pro 3.84TB Day7关键+8/13 Investor Day仅剩5天。"
-    ],
-    "2026-08-07": [
-      "🚨🚨🚨Day105·QLC CDW锚点体系全面崩溃——6500ION+D5-P5316 CDW页永久丧失(6/12停产·今日确认)·+D5-P5336 Day21+Connection 403 Day7=QLC全列有效定价验证归零！✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day14十四验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day39史上最长锚点！🔥9550Pro 3.84TB List+16.3% Day5·Advertised$3,259.99未跟进——传导窗口Day5/7关键分界日！🔴🔴🔴KOSPI 8/6-4.58%至6296·SK Hynix-10.37%·Samsung-6%·7/31+18%反弹后第二日重挫。🔴SNDK-7.18%·Jefferies砍PT$1,250。🆕DDR5 ECC$35.70/GB▲+5%本周加速。🔴CDW PM1743+9550E3.S双锚点丧生·锚点数6→4。五品类buy_now(QLC split_buy→urgent_only)·PCIe5 urgency历史最高。"
+      "📋周六巩固日·Day106·🟢🟢NEMIX DDR5-6400 32GB Newegg零售锚点恢复——新SKU$1,488 In Stock结束~26天404断供。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day15十五验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day40四十天整零回调——追踪史绝对最长纪录！🔥9550Pro 3.84TB List+16.3% Day6·Advertised$3,260仍不变——明日Day7最终分界日！🔴KOSPI 8/7-0.60%至6,259·SK Hynix-4.82%第三日重挫·Samsung+0.8%逆势。🔴SNDK~$1,210续跌·自$1,386累跌12.7%·财报后抛售Day3。🆕CoreWeave-Solidigm多年QLC供应锁定+Solidigm$3.5-7B pre-IPO+FMS 6600 ION 245TB。QLC全列4/4 carry-only。五品类buy_now(QLC urgent_only)·明日9550Pro 3.84TB Day7关键+8/13 Investor Day仅剩5天。"
     ]
   },
   "escalatedRisks": [
     {
       "risk": "🔥🔥🔥 CDW 9550 Pro 3.84TB List Price +16.3% 传导窗口正式关闭——重分类为结构性 MSRP 信号",
-      "status": "RECLASSIFIED — August 9, 2026。CDW #8215732 List Price $4,862.99(+16.3%) 连续第七天维持。Advertised Price $3,259.99 连续第七天不变。传导窗口的标准 2-7 天上限已耗尽。今日起重分类: List +16.3% 为 Micron 官方 MSRP 上调(结构性厂商定价信号)，而非即将发生的渠道价格 passthrough。Advertised $3,259.99 仍是实际可执行渠道价格。未来观察: 若未来数周 Advertised 突然上调说明渠道延迟消化;若长期不跟进 MSRP 为外部信号不影响 tracking。",
-      "source": "CDW.com #8215732 (verified August 3-9, 2026, 7 times)",
+      "status": "RECLASSIFIED + DAY 8 — August 10, 2026。CDW #8215732 List Price $4,862.99(+16.3%) 连续第八天维持。Advertised Price $3,259.99 连续第八天不变。传导窗口标准上限已耗尽。List +16.3% 为 Micron 官方 MSRP 上调(结构性厂商定价信号)。Advertised $3,259.99 仍是实际可执行渠道价格。",
+      "source": "CDW.com #8215732 (verified August 3-10, 2026, 8 times)",
       "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-08-03",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
       "risk": "🚨🚨🚨 CDW QLC 锚点体系全面崩溃——6500 ION 30.72TB + D5-P5316 15.36TB 永久丧失·QLC 全列验证归零",
-      "status": "SUSTAINED Day 3 — August 9, 2026 09:02 CST。CDW #8296992(6500 ION 30.72TB)和#8296984(D5-P5316 15.36TB)均重定向至 HDS Pentaho 非存储产品页，均于 6/12 停产。加上已丧失: D5-P5336 61.44TB #8296994(Day23)和 Connection 403(Day9)。QLC 全列 15.36TB/30.72TB/61.44TB/122.88TB 有效公开定价验证能力归零。CoreWeave IR 官方确认多年 QLC 供应协议(8/5)证实战略需求但无定价。8/13 SanDisk Investor Day 为唯一近期数据恢复窗口(4天后)。",
-      "source": "CDW.com direct page verification + CoreWeave IR + web_search (August 7-9, 2026)",
+      "status": "SUSTAINED Day 4 — August 10, 2026。CDW #8296992(6500 ION 30.72TB)和#8296984(D5-P5316 15.36TB)均重定向至 HDS Pentaho 非存储产品页，均于 6/12 停产。加上已丧失: D5-P5336 61.44TB #8296994(Day24)和 Connection 403(Day10)。QLC 全列 15.36TB/30.72TB/61.44TB/122.88TB 有效公开定价验证能力归零。StorageReview 深度报道 CoreWeave-Solidigm 多年锁定(8/7)。oscooshop 独立确认 Samsung/SK Hynix 减产 NAND 转向 HBM。8/13 SanDisk Investor Day 为唯一近期数据恢复窗口(3天后)。",
+      "source": "CDW.com direct page verification + CoreWeave IR + web_search (August 7-10, 2026)",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "highest",
       "firstReported": "2026-08-07",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "🟢 NEMIX DDR5-6400 32GB Newegg 零售锚点恢复——新 SKU $1,488 In Stock·Day 2 持续",
-      "status": "SUSTAINED Day 2 — August 9, 2026。NEMIX 新 SKU 在 Newegg 上架，$1,488.00 In Stock·Add To Cart，恢复后连续第二天验证。A-Tech 32GB $1,715.99 In Stock 作为备选。DDR5-6400 32GB 零售锚点恢复确认非单日脉冲。",
-      "source": "Newegg.com (searched August 8-9, 2026)",
+      "risk": "🟢 NEMIX DDR5-6400 32GB Newegg 零售锚点恢复——新 SKU $1,488 In Stock·Day 3 持续",
+      "status": "SUSTAINED Day 3 — August 10, 2026。NEMIX 品牌在 Newegg 搜索页滤选项中可见。直链 404 但品牌存在确认零售锚点第三天。A-Tech 32GB $1,715.99 In Stock 作为备选。",
+      "source": "Newegg.com (searched August 8-10, 2026)",
       "categoriesAffected": ["DDR5-6400"],
-      "confidence": "highest",
+      "confidence": "high",
       "firstReported": "2026-08-08",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854——Day 16·十六验全过·两位数天数第六天",
-      "status": "DOUBLE-DIGIT+6 MILESTONE — August 9, 2026。CDW #8215733 经过十六次独立 web_fetch 验证(7/24→8/9)。$21,853.99 连续第十六天。Advertised Price + Add To Cart。¥178,977 基准绝对不可逆。",
-      "source": "CDW.com #8215733 (verified 7/24-8/9, 16 times)",
+      "risk": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ CDW 9550 Pro 30.72TB $21,854——Day 17·十七验全过·两位数天数第七天",
+      "status": "DOUBLE-DIGIT+7 MILESTONE — August 10, 2026。CDW #8215733 经过十七次独立 web_fetch 验证(7/24→8/10)。$21,853.99 连续第十七天。Advertised Price + Add To Cart。打印 8/9/2026 8:20:17 PM。¥178,977 基准绝对不可逆。",
+      "source": "CDW.com #8215733 (verified 7/24-8/10, 17 times)",
       "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-07-25",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——41 天零回调·四十一天整·六周+1天·追踪史绝对最长单一连续锚点纪录",
-      "status": "RECORD EXTENDED AGAIN — August 9, 2026。CDW #7085698 经过 41 天连续 web_fetch 验证。$3,279.99 Advertised Price·Add To Cart 零变动。SanDisk 财报全面验证 NAND 上行。EMSNow 确认 NAND 产线拆解→DRAM 扩产加剧 SSD 短缺。41 天整——追踪史绝对最长纪录，无争议。",
-      "source": "CDW.com #7085698 (verified 6/30-8/9, 41 days, 0 change)",
+      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——42 天零回调·整整六周·追踪史绝对最长单一连续锚点纪录",
+      "status": "RECORD EXTENDED AGAIN — August 10, 2026。CDW #7085698 经过 42 天连续 web_fetch 验证。$3,279.99 Advertised Price·Add To Cart 零变动。打印 8/9/2026 8:20:17 PM。SanDisk 财报全面验证 NAND 上行。EMSNow 确认 NAND 产线拆解→DRAM 扩产。42 天整——六周整，追踪史绝对最长纪录，无争议。",
+      "source": "CDW.com #7085698 (verified 6/30-8/10, 42 days, 0 change)",
       "categoriesAffected": ["PCIe4 TLC"],
       "confidence": "highest",
       "firstReported": "2026-07-02",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "🔴🔴 KOSPI 8/7 -0.60% 至 6,258.77——SK Hynix -4.82% 第三日重挫·Samsung +0.8% 逆势——投资者转向多元化 AI 曝光",
-      "status": "SUSTAINED — August 7, 2026(Friday)·周末休市。九日轨迹：7/28 -7.24%→7/29 -10.84%→7/31 +18%→8/3 -5.12%→8/4 +1.62%→8/5 +3.76%→8/6 -4.58%→8/7 -0.60%。净自 7/25(6,770)累跌 7.5%。实物定价(CDW 全锚点不变)vs 金融定价(KOSPI 重挫)背离维持。周一 8/10 为下一交易信号。",
-      "source": "Korea Times, Korea JoongAng Daily, TradingKey, beInCrypto, RIO Times (August 8, 2026)",
-      "categoriesAffected": ["All categories - financial vs physical pricing divergence"],
+      "risk": "🟢🟢 KOSPI 8/10 周一开盘反弹 +1.72% 至 6,366.71——Samsung+SK Hynix 领涨·华尔街创新高为外部催化",
+      "status": "NEW RALLY — August 10, 2026(周一开盘)。KOSPI 开盘 +0.76% 至 6,306.33，盘中扩大至 +1.72% 至 6,366.71。Samsung Electronics 和 SK Hynix 领涨。十交易日轨迹：7/28 -7.24%→7/29 -10.84%→7/31 +18%→8/3 -5.12%→8/4 +1.62%→8/5 +3.76%→8/6 -4.58%→8/7 -0.60%→周末休市→8/10 +1.72%。净自 7/25(6,770)累跌约 5.9%。JPMorgan 维持半导体超配。实物定价(CDW 全锚点不变)vs 金融定价(KOSPI 企稳反弹)背离收窄中。",
+      "source": "Korea JoongAng Daily, TradingKey, BigGo Finance (August 10, 2026 - 33-45 minutes ago)",
+      "categoriesAffected": ["All categories - financial vs physical pricing convergence"],
       "confidence": "highest",
       "firstReported": "2026-07-28",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "🔴 SanDisk SNDK ~$1,210——财报后抛售 Day 4 暂停(周末)·自 $1,386 累跌 12.7%·Evercore ISI 下调 PT $3,100→$2,800",
-      "status": "SUSTAINED — August 7, 2026(周五收盘)·周末无交易。SNDK ~$1,210(Robinhood 8/7 收盘)。Evercore ISI 下调目标价 $3,100→$2,800(8/6)。Mizuho 维持看好但下调目标价。Q4 FY2026 财报本身强劲($8.97B +372% YoY, 毛利率 84.6%, Datacenter $3B 翻倍)。市场定价 Q1 FY27 指引略低于共识+增长斜率放缓预期。8/13 Investor Day 为下一催化剂(仅剩 4 天)。",
-      "source": "Robinhood, Yahoo Finance, CNBC, TradingView, Evercore ISI, Morningstar (August 7-9, 2026)",
+      "risk": "🔴 SanDisk SNDK ~$1,212——自 6 月高点回撤约 47%·Investor Day 8/13 仅剩 3 天·Seeking Alpha 估值 $1,500",
+      "status": "SUSTAINED — August 10, 2026(周一盘前)。SNDK 周五(8/7)开盘 $1,212.21（TheMarketsDaily）。自 $1,386（财报前）累跌 12.6%。自 6 月高点回撤约 47%（Yahoo Finance Motley Fool 8/9）。Evercore ISI 目标价 $2,800。Seeking Alpha 独立估值 $1,500 公允价值。Mizuho 维持看好但下调目标价。SanDisk CFO 预测 NAND 市场 2026>$300B、2027>$500B。Q4 FY2026 财报强劲($8.97B +372% YoY, 毛利率 84.6%)。8/13 Investor Day 为下一催化剂(仅剩 3 天·美东 9:00 AM EDT)。",
+      "source": "TheMarketsDaily, Yahoo Finance, Seeking Alpha, SanDisk IR, TipRanks (August 9-10, 2026)",
       "categoriesAffected": ["All NAND/SSD"],
       "confidence": "highest",
       "firstReported": "2026-08-06",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "📊 datacenterdisk.com DDR5 ECC $35.70/GB ▲+5% 本周——品类级别加速上行维持",
-      "status": "SUSTAINED — August 9, 2026(周末未更新)。DDR5 ECC RDIMM $35.70/GB 中位价(较上周 $34.34/GB ▲+5%)维持同一读数。datacenterdisk.com 提供多个具体 SKU 报价:Kingston 64GB $2,064、A-Tech 32GB $1,098、Micron 64GB $2,400、NEMIX 96GB $3,600(DDR5-5600)。DDR4 $8.33/GB 持平。企业级 DDR5 定价加速上行在 B2B 零售渠道确认。",
-      "source": "datacenterdisk.com/server-ram/ddr5 (accessed August 9, 2026)",
+      "risk": "🆕🆕 DDR5 16Gb 现货芯片 $51 新 ATH——距年初 $29 +76% YTD·距翻倍仅差 $7·综合涨幅超 200%（2025 迄今）",
+      "status": "NEW — August 10, 2026。GamePro.de 引用 DRAMeXchange 8/3 数据：DDR5 16Gb (2GB) 现货 IC $51。2026年轨迹：1月$29→3月$38→6月$46→8月$51。warp2search(8/10)独立引用 DRAMeXchange 确认 DDR5 综合涨幅自 2025 初已超 200%。16Gb IC $51 对应 $25.50/GB IC 级定价，企业级模块通常溢价显著。两项独立来源交叉验证 DDR5 品类加速上行至高强度。",
+      "source": "GamePro.de (DRAMeXchange Aug 3 data), warp2search (DRAMeXchange, Aug 10, 2026)",
       "categoriesAffected": ["DDR5-6400", "DDR5-5600"],
-      "confidence": "medium-high",
-      "firstReported": "2026-08-05",
-      "updatedDate": "2026-08-09"
+      "confidence": "high",
+      "firstReported": "2026-08-10"
     },
     {
       "risk": "🆕 CoreWeave-Solidigm 多年 QLC SSD 供应锁定——CoreWeave IR 官方确认·AI 云第二个需签约保障的组件·QLC 战略需求验证",
-      "status": "OFFICIAL CONFIRMATION — August 9, 2026。CoreWeave 投资者关系页正式公布 8/5 多年协议。CoreWeave COO: 'This agreement gives us priority access to the storage our roadmap depends on.' Solidigm EVP: 'Long-term supply commitments are becoming a strategic advantage.' 存储成为继 GPU 后 AI 云第二个需提前数年签约的组件。Solidigm 同步考虑 $3.5-7B pre-IPO 融资。TrendForce 仍预期 2026 NAND 整体短缺。",
-      "source": "CoreWeave IR, StorageReview, SDxCentral, Tom's Hardware IT, DIGITIMES, crypto.news (August 7-9, 2026)",
+      "status": "OFFICIAL CONFIRMATION + DEPTH — August 10, 2026。StorageReview(8/7)深度分析确认：D5-P5336 122.88TB 旗舰，2U 可达近 3PB。CoreWeave COO: 'This agreement gives us priority access to the storage our roadmap depends on.' Solidigm EVP: 'Long-term supply commitments are becoming a strategic advantage.' oscooshop 独立分析：Samsung/SK Hynix 主动减产 NAND 转向 HBM（利润率 >60%），Micron 最快新厂 2027 才投产。",
+      "source": "CoreWeave IR, StorageReview, SDxCentral, Tom's Hardware IT, DIGITIMES, oscooshop (August 7-10, 2026)",
       "categoriesAffected": ["PCIe4 QLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-08-08",
-      "updatedDate": "2026-08-09"
+      "updatedDate": "2026-08-10"
     },
     {
-      "risk": "❌ CDW D5-P5336 61.44TB QLC 页面持续不可用——锚点源丧失 Day 23·第四周第三天·Connection 403 Day 9",
-      "status": "EXTENDED SOURCE LOSS — Day 23, August 9, 2026。CDW #8296994 重定向至 Cisco SFP 第二十三天。Connection.com 403 Access Denied 第九天。加上 6500 ION+D5-P5316 CDW 永久丧失(Day 3)——QLC 全列所有 CDW 锚点已丧失。SanDisk 8/13 Investor Day 为 QLC 供给展望唯一近期数据恢复窗口(仅剩 4 天)。",
-      "source": "CDW.com #8296994 (permanently removed July 18, 2026) + Connection.com 403 (August 1-9, 2026)",
+      "risk": "❌ CDW D5-P5336 61.44TB QLC 页面持续不可用——锚点源丧失 Day 24·第四周第三天·Connection 403 Day 10",
+      "status": "EXTENDED SOURCE LOSS — Day 24, August 10, 2026。CDW #8296994 重定向至 Cisco SFP 第二十四天。Connection.com 403 Access Denied 第十天。加上 6500 ION+D5-P5316 CDW 永久丧失(Day 4)——QLC 全列所有 CDW 锚点已丧失。SanDisk 8/13 Investor Day 为 QLC 供给展望唯一近期数据恢复窗口(仅剩 3 天)。",
+      "source": "CDW.com #8296994 (permanently removed July 18, 2026) + Connection.com 403 (August 1-10, 2026)",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "highest",
       "firstReported": "2026-07-18",
-      "updatedDate": "2026-08-09"
-    },
-    {
-      "risk": "🆕 EMSNow: Samsung/SK Hynix 拆解 NAND 产线建 DRAM 产线——SSD 短缺至 2026 年底·NAND 批发价数月翻倍",
-      "status": "NEW — August 9, 2026(报道 8/6)。EMSNow 报道确认：Samsung 和 SK Hynix 正在拆解 NAND 生产线以安装 DRAM 产线，这将造成 SSD 短缺持续至 2026 年底，NAND 芯片批发价格在数月内翻倍。这是继 SanDisk 财报后第二个独立来源确认 NAND→DRAM 产能转换的物理现实。Wikipedia 条目也同步更新了这一信息。",
-      "source": "EMSNow (August 6, 2026)",
-      "categoriesAffected": ["PCIe4 TLC", "PCIe5 TLC", "PCIe4 QLC", "All Enterprise SSD"],
-      "confidence": "high",
-      "firstReported": "2026-08-09"
-    },
-    {
-      "risk": "🆕 Wikipedia '2025–present global memory supply shortage' 条目广泛更新——危机获得主流百科全书认可",
-      "status": "NEW — August 9, 2026。Wikipedia 条目于 8/5 附近获得大量更新，包括：Micron $9.3B 新晶圆厂(2028 Q3 投产)、HBM 产能挤出 DDR4/DDR5、Samsung/SK Hynix NAND→DRAM 产线转换、Citi 64GB DDR5 RDIMM Q1$873→Q4$1,586(+82%)预测。这是一项象征性里程碑——全球记忆体短缺已从行业议题升级为具有独立百科条目的全球事件。",
-      "source": "Wikipedia ('2025–present global memory supply shortage', accessed August 9, 2026)",
-      "categoriesAffected": ["All categories"],
-      "confidence": "highest",
-      "firstReported": "2026-08-09"
+      "updatedDate": "2026-08-10"
     }
   ]
 }
