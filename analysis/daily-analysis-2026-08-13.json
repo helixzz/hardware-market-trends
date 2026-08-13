@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T09:08:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "32GB NEMIX Newegg carry Day6。64GB A-Tech/Saitech/Provantage carry。128GB ComputerDealsDirect carry。16GB/96GB no_public_sample。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "32GB DRAMeXchange carry(stale)。64GB JD.com Day18深度stale。128GB ServerSupply/Memory.net carry。16GB no_public_sample。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "CDW 7450 PRO 7.68TB Day45零回调——六周+3天。3.84/15.36/30.72 carry。1.92TB no_public_sample。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "9550Pro 30.72TB Day20二十验全过。3.84TB List+16.3% Day11。15.36TB CDW $13,522。7.68TB carry。1.92TB no_public_sample。"},
+    "PCIe4 QLC": {"filled": 1, "total": 4, "note": "🆕61.44TB覆盖恢复(Newegg 3C Expert $33,249 + Interpro $33,717→中位¥274,226)。15.36/30.72/122.88 carry(Interpro 15.36/30.72同价$33,717为数据错误不纳入)。"}
+  },
+  "newSourcesTried": [
+    "Newegg (3C Expert D5-P5336 61.44TB)",
+    "Interpro Microsystems (D5-P5336 61.44TB/15.36TB/30.72TB)",
+    "ServerSupply (QLC — Cloudflare 403)",
+    "Bloomberg (KOSPI bull market)",
+    "TradingKey (KOSPI 8/13 + US CPI + Kiwoom)",
+    "Seoul Economic Daily (KOSPI 8/12 sidecar)",
+    "MacroTrends (SNDK close)",
+    "Investing.com / Robinhood (SNDK intraday)",
+    "Futunn (SanDisk ID thesis)",
+    "FinanceFeeds (SNDK bull/bear)",
+    "moomoo (F3Q26 + NAND pricing)",
+    "TrendForce / DRAMeXchange (DDR5 spot 8/12)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Newegg 3C Expert — QLC 61.44TB $33,249 (覆盖恢复)",
+    "Interpro — QLC 61.44TB $33,717 (双源互证)",
+    "Bloomberg/TradingKey/Seoul Economic Daily — KOSPI 技术性牛市 + sidecar",
+    "MacroTrends — SNDK 8/12 收 $1,344.29 (+8.6%)",
+    "Futunn/FinanceFeeds/moomoo — SanDisk ID 论点与 NAND 涨价"
+  ],
+  "keyChangesVsYesterday": [
+    "KOSPI 8/13早盘暴涨近5%·自7月低点反弹30%·进入技术性牛市",
+    "8/12收盘Samsung+7.83%/SK Hynix+7.09%·年内第23次sidecar(8/12日报仅捕获开盘+1.47%)",
+    "美国7月CPI符合预期·存储股领涨(SK Hynix美股+9%)",
+    "SNDK 8/12收$1,344.29(+8.6%)·Investor Day前夜强劲反弹",
+    "🆕QLC 61.44TB覆盖恢复——Newegg $33,249+Interpro $33,717双源互证·打破carry-only Day6",
+    "QLC 61.44TB主值¥213,071→¥274,226(+28.5%·重定价·此前carry为低端stale)",
+    "CDW全4锚点再验证无变化(9550Pro 30.72TB Day20·7450PRO Day45)",
+    "9550Pro 3.84TB List+16.3% Day11·结构性MSRP信号维持",
+    "券商分歧延续:Kiwoom下调Samsung/SK Hynix目标价(维持Buy)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Apacer 2027供给30%+Morgan Stanley chipflation+Citi Q1$873→Q4$1,586;KOSPI存储股全线暴涨印证上行。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5品类全面上行;供给紧缩至2027+多源验证;JD.com深度stale但方向不可反驳。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 45天零回调——六周+3天·追踪史绝对最长;KOSPI存储股暴涨+美国CPI降温强化上行。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550Pro 30.72TB Day20绝对不可逆;全4 CDW锚点满分;3.84TB结构性MSRP信号维持;今晚SanDisk ID或验证溢价方向。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB覆盖恢复($33.5k高位成交)打破carry-only;但15.36/30.72/122.88TB仍缺定价(3/4列);供给信号空前但定价锚不完整。今晚SanDisk ID为关键。若更多容量位恢复可升split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB, 96GB",
+      "reasonCode": "no_public_sample",
+      "note": "市场极小众容量，CoreWaveLabs+五备源仍封锁Day 111"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "市场极小众容量"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "市场极小众容量"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "市场极小众容量"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro 15.36TB显示$33,717与61.44TB同价——数据错误不纳入;ServerSupply Cloudflare 403"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro 30.72TB显示$33,717与61.44TB同价——数据错误不纳入"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403 Day 13;Solidigm仅规格页无公开定价"
+    }
+  ]
+}
