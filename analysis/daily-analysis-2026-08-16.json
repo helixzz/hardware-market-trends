@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T01:40:00+08:00",
+  "dayNumber": 114,
+  "executionGapNote": "08-14与08-15两日未落盘(无daily/tracking行)，本周仅08-13与08-16有产出。本快照为周日巩固日，定价全列carry，增量集中在宏观/供需证据。",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5, "note": "32/64/128GB carry。16/96GB no_public_sample。企业级DDR5现货$35.70/GB中位(8/14)校准64GB主值偏差<1%。"},
+    "DDR5-5600": {"filled": 3, "total": 5, "note": "32/64/128GB carry(stale)。64GB JD.com Day18+深度stale。16GB no_public_sample。"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "7.68TB CDW 7450 PRO Day45锚点。3.84/15.36/30.72 carry。1.92TB no_public_sample。"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "9550Pro 30.72TB Day20锚点。3.84TB List+16.3%。15.36TB $13,522。7.68TB carry。1.92TB no_public_sample。"},
+    "PCIe4 QLC": {"filled": 1, "total": 4, "note": "61.44TB 08-13双源恢复$33.5k。15.36/30.72/122.88TB no_public_sample。SanDisk ID+Kioxia QLC新制程+Solidigm IPO强化供给风险。"}
+  },
+  "newSourcesTried": [
+    "Capital & Compute memory-prices页(web_fetch)",
+    "FinanceFeeds(SanDisk ID结果)",
+    "24/7 Wall St.(KOSPI 8/14收盘+Solidigm IPO)",
+    "TradingKey(SK Hynix/Samsung收盘)",
+    "investor.sandisk.com(ID新闻稿)",
+    "DatacenterDisk(DDR5 ECC RDIMM街价带)",
+    "WSJ/Reuters via daily-news 8/16(Apple/CXMT/YMTC)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Capital & Compute — DDR5街价+TrendForce 3Q26合约价(server DRAM +13-18%/NAND +10-15%)",
+    "FinanceFeeds — SanDisk ID: NAND $300B(2026)/$500B(2027)·tight into 2028·SNDK+5.76%",
+    "24/7 Wall St. — KOSPI周线+11.5%·Solidigm IPO~50万亿韩元·MU/WDC大涨",
+    "TradingKey — 8/14收盘 SK Hynix 1,645,000(+3.26%)/Samsung 274,500(+2.43%)",
+    "DatacenterDisk — DDR5 ECC RDIMM $29.56-$39.06/GB·中位$35.70",
+    "investor.sandisk.com — 100%超额现金回报+20:1拆股"
+  ],
+  "keyChangesVsYesterday": [
+    "SanDisk Investor Day结果落地:NAND $300B(2026)→$500B(2027)·tight into 2028·~80%毛利至2030·20:1拆股·100%超额现金回报",
+    "KOSPI周线+11.5%终结七连阴(8/14再+2.41%)·SK Hynix 1,645,000(+3.26%)/Samsung 274,500(+2.43%)",
+    "SanDisk 80%毛利指引重定价存储板块:MU/WDC大涨(WDC 8/13 +7.3%)",
+    "🆕Solidigm纳斯达克IPO~50万亿韩元——QLC/NAND资产估值锚上移",
+    "🆕TrendForce 3Q26合约价:server DRAM +13-18% QoQ/NAND +10-15% QoQ(斜率较前几季+40-50%放缓)",
+    "🆕企业级DDR5 ECC现货$35.70/GB中位——第三方街价校准DDR5-6400 64GB主值偏差<1%",
+    "🆕CSP/OEM把RDIMM从96/128GB降配到32/64GB——高容量位需求边际降温",
+    "🆕美国施压Apple停购CXMT/YMTC(8/16)——存储短缺升级为供应安全博弈",
+    "⚠️08-14/08-15两日未落盘·执行gap已标注"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "SanDisk ID确认NAND/存储tight into 2028;TrendForce 3Q26 server DRAM +13-18%;企业级现货$35.70/GB校准主值无误。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "DDR5品类整体上行,供给紧缩至2028多源验证;但主值陈旧(JD.com Day18+),执行前按6400口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 45天零回调确立底部;NAND供给紧张至2028+韩国存储出口+277%。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550Pro 30.72TB Day20定价不可逆;SanDisk 80%毛利至2030+NAND $500B(2027)强化PCIe5溢价方向。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "SanDisk ID+Kioxia QLC新制程+Solidigm IPO显著强化QLC供给风险;但15.36/30.72/122.88TB仍缺定价(3/4列),仅61.44TB有新鲜价。升级偏置:任一容量位恢复定价或61.44TB二次互证即升split_buy。"
+    }
+  },
+  "gaps": [
+    {"category": "DDR5-6400", "spec": "16GB, 96GB", "reasonCode": "no_public_sample", "note": "小众容量;且CSP/OEM正降配96GB,96GB样本更难出现"},
+    {"category": "DDR5-5600", "spec": "16GB", "reasonCode": "no_public_sample", "note": "小众容量"},
+    {"category": "PCIe4 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "小众容量"},
+    {"category": "PCIe5 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "小众容量"},
+    {"category": "PCIe4 QLC", "spec": "15.36TB, 30.72TB, 122.88TB", "reasonCode": "no_public_sample", "note": "Interpro 15.36/30.72同价$33,717为数据错误;ServerSupply Cloudflare 403;Connection 403。61.44TB已恢复。"}
+  ]
+}

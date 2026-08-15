@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-13T09:08:00+08:00",
-  "previousGeneratedAt": "2026-08-12T11:05:00+08:00",
+  "generatedAt": "2026-08-16T01:40:00+08:00",
+  "previousGeneratedAt": "2026-08-13T09:08:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 135,
-  "executionNote": "📈周四Day111·InvestorDay当日·QLC 61.44TB覆盖恢复！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day20二十验全过·两位数天数第十天！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day45四十五天零回调——六周+3天·追踪史绝对最长！✅全4 CDW锚点全验证无变化·打印8/12 8:36-8:40PM。🔥9550Pro 3.84TB List+16.3% Day11传导窗口后·结构性MSRP信号维持。🟢🟢🟢KOSPI 8/13早盘暴涨近5%·自7月低点反弹30%·进入技术性牛市！Samsung+5%/SK Hynix+7%/Kioxia+7%。🟢🟢8/12收盘Samsung+7.83%/SK Hynix+7.09%·年内第23次sidecar。🟢SNDK 8/12收$1,344.29(+8.6%)·InvestorDay前夜强劲反弹。🆕🆕QLC 61.44TB双源恢复:Newegg 3C Expert $33,249+Interpro $33,717→中位¥274,226(重定价·此前carry为低端stale)。美国7月CPI符合预期·存储股领涨(SK Hynix美股+9%)。⚠️Kiwoom下调Samsung/SK Hynix目标价(维持Buy)。五品类buy_now(QLC urgent_only)·今晚21:00 CST SanDisk Investor Day·追踪史最重要单日！",
+  "trackingRows": 136,
+  "executionNote": "🗓️周日Day114·巩固日·全列carry(⚠️08-14/08-15未落盘)。🎯SanDisk InvestorDay结果落地:NAND $300B(2026)→$500B(2027)·tight into 2028·~80%毛利至2030·20:1拆股·100%超额现金回报。🟢🟢KOSPI周线+11.5%终结七连阴·8/14收SK Hynix 1,645,000(+3.26%)/Samsung 274,500(+2.43%)·SanDisk 80%毛利重定价存储板块。🆕Solidigm纳斯达克IPO~50万亿韩元。🆕TrendForce 3Q26:server DRAM+13-18%/NAND+10-15%。🆕企业级DDR5现货$35.70/GB中位校准6400 64GB主值(偏差<1%)。🆕CSP/OEM降配96/128→32/64GB。🆕美国施压Apple停购CXMT/YMTC。五品类buy_now(QLC urgent_only·升级偏置split_buy)。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-08-13",
+      "latestDate": "2026-08-16",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "🟢 NEMIX DDR5-6400 32GB Newegg 零售锚点 Day 6 持续。64GB A-Tech/Saitech/Provantage carry。128GB ComputerDealsDirect carry。今日无新增企业级公开定价。CoreWaveLabs parser_gap Day 111 结构性。"
+        "note": "🗓️Day114·全列carry。32/64/128GB沿用08-13。🆕企业级DDR5 ECC现货$35.70/GB中位(8/14)校准64GB主值偏差<1%。🆕TrendForce 3Q26 server DRAM+13-18%。🆕CSP/OEM降配96/128→32/64GB。16/96GB no_public_sample。"
       },
       "averageCoverage14d": 1.5,
       "trend": "up",
@@ -40,11 +40,11 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-08-13",
+      "latestDate": "2026-08-16",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "JD.com 64GB ¥18,595 Day 18——深度 stale·第三周+。32GB DRAMeXchange carry(stale)。128GB ServerSupply/Memory.net carry。今日无新增定价。Citi 研究：64GB DDR5 RDIMM Q1$873→Q4$1,586(+82%) 独立验证上行。"
+        "note": "🗓️Day114·全列carry(stale)。64GB JD.com Day18+深度stale。16GB no_public_sample。5600为最需换源补新品类。"
       },
       "averageCoverage14d": 1.5,
       "trend": "up",
@@ -72,10 +72,11 @@
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-08-13",
+      "latestDate": "2026-08-16",
       "latestCoverage": {
         "filled": 4,
-        "total": 5
+        "total": 5,
+        "note": "🗓️Day114·4/5 carry。7450 PRO 7.68TB Day45锚点(今日未复核·周日)。NAND供给紧张至2028。1.92TB no_public_sample。"
       },
       "averageCoverage14d": 2.7,
       "trend": "flat_or_mixed",
@@ -115,11 +116,11 @@
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-08-13",
+      "latestDate": "2026-08-16",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ 9550 Pro 30.72TB Day20——二十验全过·两位数天数第十天。✅ 全4 CDW锚点今日全验证无变化。🔥 9550 Pro 3.84TB List+16.3% Day11——传导窗口关闭后第十一天，Advertised $3,259.99 不变，结构性 MSRP 信号维持。"
+        "note": "🗓️Day114·4/5 carry。9550Pro 30.72TB Day20锚点。3.84TB List+16.3%。SanDisk 80%毛利至2030强化PCIe5溢价。1.92TB no_public_sample。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
@@ -150,11 +151,11 @@
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-08-13",
+      "latestDate": "2026-08-16",
       "latestCoverage": {
         "filled": 1,
         "total": 4,
-        "note": "🆕 QLC 61.44TB 覆盖恢复——连续 6 天 carry-only 后获得新鲜公开定价。Newegg(3C Expert) $33,249 + Interpro $33,717 双源互证，中位 $33,483≈¥274,226。此为重定价(此前 ¥213,071 carry 为低端 stale)。15.36/30.72/122.88TB 仍缺定价(Interpro 同价 $33,717 为数据错误)。今晚 SanDisk Investor Day 为最迫近数据窗口。"
+        "note": "🗓️Day114·1/4(仅61.44TB $33.5k)。SanDisk ID+Kioxia QLC新制程+Solidigm IPO~50万亿韩元显著强化QLC供给风险。15.36/30.72/122.88TB no_public_sample(Interpro数据错误/ServerSupply CF 403/Connection 403)。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
@@ -187,17 +188,38 @@
     }
   },
   "recentRunNotes": {
+    "2026-08-16": [
+      "🗓️周日Day114·巩固日·全列carry(⚠️08-14/08-15未落盘)。🎯SanDisk InvestorDay结果落地:NAND $300B(2026)→$500B(2027)·tight into 2028·~80%毛利至2030·20:1拆股·100%超额现金回报。🟢🟢KOSPI周线+11.5%终结七连阴·8/14收SK Hynix 1,645,000(+3.26%)/Samsung 274,500(+2.43%)·SanDisk 80%毛利重定价存储板块。🆕Solidigm纳斯达克IPO~50万亿韩元。🆕TrendForce 3Q26:server DRAM+13-18%/NAND+10-15%。🆕企业级DDR5现货$35.70/GB中位校准6400 64GB主值(偏差<1%)。🆕CSP/OEM降配96/128→32/64GB。🆕美国施压Apple停购CXMT/YMTC。五品类buy_now(QLC urgent_only·升级偏置split_buy)。"
+    ],
     "2026-08-13": [
       "📈周四Day111·InvestorDay当日·QLC 61.44TB覆盖恢复！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day20二十验全过·两位数天数第十天！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day45四十五天零回调——六周+3天·追踪史绝对最长！✅全4 CDW锚点全验证无变化。🔥9550Pro 3.84TB List+16.3% Day11·结构性MSRP信号维持。🟢🟢🟢KOSPI 8/13早盘暴涨近5%·自7月低点反弹30%·进入技术性牛市！🟢🟢8/12收盘Samsung+7.83%/SK Hynix+7.09%·年内第23次sidecar。🟢SNDK 8/12收$1,344.29(+8.6%)·InvestorDay前夜反弹。🆕🆕QLC 61.44TB双源恢复:Newegg $33,249+Interpro $33,717→¥274,226重定价。美国7月CPI符合预期·存储股领涨。⚠️Kiwoom下调Samsung/SK Hynix目标价(维持Buy)。五品类buy_now(QLC urgent_only)·今晚21:00 CST SanDisk Investor Day！"
     ],
     "2026-08-12": [
       "⏳周三Day110·InvestorDay前夜·全列carry。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day19十九验全过·两位数天数第九天！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day44四十四天零回调——六周+2天·追踪史绝对最长！✅全4 CDW锚点全验证无变化。🔥9550Pro 3.84TB List+16.3% Day10传导窗口后·结构性MSRP信号维持。🟢🟢KOSPI 8/12开盘+1.47%至6439重上6400·Samsung/SK Hynix齐涨·连续第三日超卖反弹。🟢8/11收盘+0.73%·Samsung+4.13%领涨。🆕🆕Apacer:2027记忆体供给仅30% of 2026——历史最强供给警告！🆕Morgan Stanley正式命名chipflation·S-D短缺2年。🆕SNDK 8/11收$1,238·8客户$93.9B合约锁定~50% FY2027产能·Investor Day明天9AM EDT！🆕datacenterdisk.com:SSD涨价远超HDD·七大超大规模商锁定WD全年产能。QLC全列carry-only Day6——进入第二周·结构性缺口确认。五品类buy_now(QLC urgent_only)·明天InvestorDay为追踪史最重要单日之一！"
-    ],
-    "2026-08-11": [
-      "📋周二Day109·全列carry·KOSPI开盘-0.92%至6241·Samsung-0.43%·SK Hynix-1.97%·跟随华尔街上日回落。✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅9550Pro 30.72TB Day18十八验全过！✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅7450PRO Day43四十三天零回调——六周+1天·追踪史绝对最长！✅全4 CDW锚点全验证无变化。🔥9550Pro 3.84TB List+16.3% Day9传导窗口后·结构性MSRP信号维持。🆕🆕DigiTimes/Tweaktown:NAND供给可能2026年8月底前全部预订完毕·全行业锁定至2027·DRAM/HBM 2027全售罄——迄今最极端供给信号！🆕Argus上调SNDK Hold→Buy PT$1,600(盘前$1,218+0.5%)。🆕OSCOO:Samsung NAND晶圆4.9M→4.7M·SK Hynix 1.9M→1.7M·SSD控制器严重短缺。🆕storagediskprices.com:Phison CEO每家NAND厂商告诉我们2026已售罄。🆕Samsung考虑$71B股东回报。🔴YMTC预计2026末-2027中IPO→可能削弱SanDisk定价权。QLC全列5/5 carry-only Day5——第一周。五品类buy_now(QLC urgent_only)·PCIe5 urgency历史最高·InvestorDay仅剩2天！"
     ]
   },
   "escalatedRisks": [
+    {
+      "risk": "🆕 美国商务部长施压 Apple 停购 CXMT/YMTC——AI 存储短缺升级为供应安全博弈",
+      "status": "NEW — August 16, 2026。WSJ 独家:美国商务部长卢特尼克敦促 Apple 不要向 CXMT(DRAM)/YMTC(NAND)采购。AI 存储短缺使 Apple 评估二线/中国供应商作为保供备选,触发华盛顿反弹。可能外溢为新一轮出口管制。",
+      "source": "WSJ via daily-news digest 2026-08-16",
+      "categoriesAffected": [
+        "All categories - DRAM/NAND supply security"
+      ],
+      "confidence": "high",
+      "firstReported": "2026-08-16"
+    },
+    {
+      "risk": "🆕 Solidigm( SK Hynix NAND/QLC )目标纳斯达克 IPO·估值约 50 万亿韩元",
+      "status": "NEW — August 14, 2026。SanDisk Investor Day 的 80% 毛利指引(至 2030)直接重定价了 QLC/NAND 资产的估值锚。SK Hynix 旗下 Solidigm(QLC 主力)正推进 Nasdaq IPO,估值~50 万亿韩元。",
+      "source": "24/7 Wall St. (August 14, 2026)",
+      "categoriesAffected": [
+        "PCIe4 QLC",
+        "All NAND/SSD"
+      ],
+      "confidence": "high",
+      "firstReported": "2026-08-14"
+    },
     {
       "risk": "🔥🔥🔥 CDW 9550 Pro 3.84TB List Price +16.3% 传导窗口正式关闭——重分类为结构性 MSRP 信号",
       "status": "RECLASSIFIED + DAY 11 — August 13, 2026。CDW #8215732 List Price $4,862.99(+16.3%) 连续第十一天维持。Advertised Price $3,259.99 连续第十一天不变。传导窗口标准上限已耗尽。List +16.3% 为 Micron 官方 MSRP 上调(结构性厂商定价信号)。Advertised $3,259.99 仍是实际可执行渠道价格。",
@@ -257,25 +279,25 @@
     },
     {
       "risk": "🟢🟢🟢 KOSPI 进入技术性牛市——8/13 早盘暴涨近 5%·自 7 月低点反弹约 30%",
-      "status": "BULL MARKET — August 13, 2026(周四早盘)。KOSPI 早盘涨近 5%，自 7 月底崩盘低点反弹约 30%，进入技术性牛市区域(Bloomberg/TradingKey)。Samsung +5%+、SK Hynix +7%+、Kioxia +7%+、SoftBank +2%+。8/12 收盘为追踪史最强单日之一:Samsung +7.83% 至 258,250 韩元、SK Hynix +7.09% 至 1,526,000 韩元、KOSPI 触发年内第 23 次 sidecar。催化:美国 7 月 CPI 符合预期→加息预期降温→存储股领涨(SK Hynix 美股 +9%)。⚠️ 券商分歧延续:Kiwoom 下调 Samsung 目标价 39万→35万韩元、SK Hynix 220万→210万韩元(均维持 Buy)。金融定价(KOSPI/存储股)正快速追赶实物定价(CDW 锚点)——此前的金融 vs 实物背离大幅收窄。",
+      "status": "BULL MARKET EXTENDED — August 16, 2026。KOSPI 8/13 +3.6%、8/14 +2.41%,单周 +11.5% 终结七周连跌。8/14 收盘 SK Hynix 1,645,000 韩元(+3.26%)、Samsung 274,500 韩元(+2.43%)。直接催化为 SanDisk 80% 毛利指引重定价存储板块。金融定价与实物定价背离进一步收窄。",
       "source": "Bloomberg, TradingKey, Seoul Economic Daily (August 12-13, 2026)",
       "categoriesAffected": [
         "All categories - financial vs physical pricing divergence narrowing sharply"
       ],
       "confidence": "highest",
       "firstReported": "2026-07-28",
-      "updatedDate": "2026-08-13"
+      "updatedDate": "2026-08-16"
     },
     {
       "risk": "🔴 SanDisk SNDK $1,344.29——Investor Day 今日 8/13 9:00 AM EDT(21:00 CST)",
-      "status": "PRE-ID RALLY — August 13, 2026。SNDK 8/12 收 $1,344.29(MacroTrends，单日 +8.6%)。盘中一度 $1,271–1,287(Investing.com/Robinhood)，尾盘拉升至 $1,344。自 $1,212(8/7 低点)累计反弹约 +10.9%。FinanceFeeds 框架:牛市情景 $3,000 vs 熊市情景 $1,000。Futunn:ID 核心目标是证明 SanDisk 非纯周期股。moomoo:F3Q26 营收 $5.95B，NAND 价格 F4Q26 继续急涨。SanDisk 官宣 BiCS10 1Tb TLC 3D NAND 送样。今晚 21:00 CST(美东 9:00 AM EDT)——追踪史最重要单日。",
+      "status": "COMPLETED — August 13, 2026。SanDisk Investor Day 结果落地:NAND 2026>$300B、2027 达 $500B、供给紧张至 2028;投影 ~80% 毛利率延续至 2030;宣布 20-for-1 拆股;承诺 100% 超额现金回报股东;Kioxia+SanDisk 联合发布 AI 用高性能 QLC 3D NAND。SNDK 8/13 收 $1,344.29(+5.76%)。次日多家券商上调目标价。",
       "source": "MacroTrends, Investing.com, Robinhood, Futunn, FinanceFeeds, moomoo (August 12-13, 2026)",
       "categoriesAffected": [
         "All NAND/SSD"
       ],
       "confidence": "highest",
       "firstReported": "2026-08-06",
-      "updatedDate": "2026-08-13"
+      "updatedDate": "2026-08-16"
     },
     {
       "risk": "🆕🆕 Apacer: 2027 记忆体供给仅达 2026 年的 30%——历史最强供给侧长期警告",
