@@ -1,0 +1,114 @@
+{
+  "date": "2026-08-18",
+  "generatedAt": "2026-08-18T08:58:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 5, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": [
+    "DatacenterDisk /server-ram",
+    "DatacenterDisk /price-forecast/ssd",
+    "Blocks & Files (VDURA)",
+    "storagediskprices.com",
+    "Stocktwits",
+    "Benzinga",
+    "TradingView",
+    "Bloomingbit",
+    "WindowsForum (Phison)",
+    "Gadget Review (SK Hynix CEO)",
+    "Solidigm 官网",
+    "StorageReview",
+    "Newegg (QLC 61.44TB, 反爬)",
+    "Interpro (QLC 61.44TB, fetch failed)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DatacenterDisk /server-ram",
+    "DatacenterDisk /price-forecast/ssd",
+    "Blocks & Files (VDURA)",
+    "storagediskprices.com",
+    "Stocktwits",
+    "Benzinga",
+    "Bloomingbit",
+    "WindowsForum (Phison)"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5-6400 96GB 缺口回补：NEMIX 96GB DDR5-6400 RDIMM $3,699.99 (≈¥30,303)",
+    "DDR5-5600 16GB 缺口回补：NEMIX 16GB DDR5-5600 RDIMM $579.99 (≈¥4,750)",
+    "DDR5-5600 96GB 缺口回补：NEMIX 96GB DDR5-5600 RDIMM $3,599.99 (≈¥29,484)",
+    "CDW 9550 Pro 30.72TB 复核 $21,853.99 不变 (Day 22)",
+    "CDW 9550 Pro 3.84TB List/Advertised 均不变",
+    "KOSPI 周一 +2.4%，外资 +$2.16B 加码记忆体股",
+    "VDURA 30TB 企业级 SSD 6.5x YoY (TLC $22,600 / QLC $18,080)",
+    "韩国 Dr.Doom 逆向警告（芯片盈利早期见顶）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "96GB 缺口回补 + 企业级现货 $35.70/GB 校准主值无误；NAND/DRAM tight into 2027-2028 多源验证；外资持续加码。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，16GB/96GB 缺口今日回补；但 32/64/128GB 主值陈旧（JD.com Day 18+），执行前按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 45+ 天零回调确立底部；VDURA 30TB TLC 6.5x YoY 印证上行；NAND 供给紧张至 2028。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 22 复核不变，定价绝对不可逆；3.84TB 结构性 MSRP 信号维持。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "SanDisk ID + Phison 售罄 + VDURA QLC 6.5x YoY 强化供给风险；但 15.36/30.72/122.88TB 仍缺定价（3/4 列）。升级偏置：任一容量位恢复或 61.44TB 二次互证即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "仅见 4800/5600 口径样本，无 6400 企业级公开价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "小众容量，无公开企业级定价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "小众容量，无公开企业级定价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro 数据错误（同价 $33,717），ServerSupply Cloudflare 403"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro 数据错误，ServerSupply Cloudflare 403"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403；Solidigm 官网仅规格页无定价"
+    }
+  ]
+}
