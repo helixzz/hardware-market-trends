@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5, "note": "32/64/128GB carry, 96GB reporting旁证, 16GB no_public_sample"},
+    "DDR5-5600": {"filled": 5, "total": 5, "note": "全列carry, 16GB/96GB 08-18已回补, 32/64/128GB stale_repeated_sample"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "3.84/7.68/15.36/30.72TB carry, 1.92TB no_public_sample"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "3.84/7.68/15.36/30.72TB carry, 1.92TB no_public_sample"},
+    "PCIe4 QLC": {"filled": 1, "total": 4, "note": "61.44TB carry, 15.36/30.72/122.88TB no_public_sample"}
+  },
+  "newSourcesTried": ["Yonhap", "Korea JoongAng Daily", "TradingKey", "WCCFTech", "24/7 Wall St.", "StorageReview"],
+  "newSourcesWithUsefulData": ["Yonhap (KOSPI sidecar)", "TradingKey (KOSPI -6.39%, Samsung -7.26%, SK Hynix -9.03%)", "WCCFTech (BofA DDR5 +8% MoM/+483% YoY, MS DDR4 +50% Q3)", "24/7 Wall St. (SNDK NAND shortage 2027+)"],
+  "keyChangesVsYesterday": [
+    "🔴🔴 KOSPI 8/19暴跌6.39%触发sidecar——Samsung -7.26%/SK Hynix -9.03%/Kioxia -10.32%",
+    "🔴 SNDK 8/18 -8.31%——Morgan Stanley机构超配报告触发获利了结",
+    "CDW全锚点0变化——9550 Pro 30.72TB Day23零回调, 7450 PRO Day46零回调(parser_gap)",
+    "BofA确认DDR5涨价斜率未放缓——8月+8% MoM, YoY +483%",
+    "DatacenterDisk 8/19实时: DDR5 ECC $36.49/GB median flat本周",
+    "金融vs实物定价背离达历史极值——股票暴跌但CDW实物定价零回调"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "BofA确认DDR5涨价斜率未放缓(8月+8% MoM, YoY +483%); DatacenterDisk $36.49/GB持平但无下行; CDW锚点零回调. 无等待理由."
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行, BofA/MS宏观证据强化价格方向; 32/64/128GB主值陈旧, 执行前建议换源复核."
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day46零回调确立底部稳固; VDURA 6.5x YoY印证上行方向; NAND供给紧张至2028."
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day23零回调, 绝对不可逆; 3.84TB/15.36TB均不变; CDW全锚点体系稳固. 金融暴跌不影响实物定价."
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB单列覆盖, 3/4列仍缺定价; NAND售罄至2027但QLC定价不可见. 升级偏置维持: 任一新容量位恢复即升split_buy."
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "仅见4800/5600口径样本, 无6400企业级公开价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "连续tracking中从未出现"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "连续tracking中从未出现"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro数据错误, ServerSupply Cloudflare 403, Connection 403"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro数据错误, ServerSupply Cloudflare 403, Connection 403"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403, Solidigm规格页仅spec-only"
+    }
+  ]
+}
