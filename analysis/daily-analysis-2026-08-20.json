@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5, "note": "16GB no_public_sample"},
+    "DDR5-5600": {"filled": 5, "total": 5, "note": "全列carry·32/64/128GB stale_repeated_sample"},
+    "PCIe4 TLC": {"filled": 4, "total": 5, "note": "1.92TB no_public_sample·7450 PRO Day47 parser_gap"},
+    "PCIe5 TLC": {"filled": 4, "total": 5, "note": "1.92TB no_public_sample"},
+    "PCIe4 QLC": {"filled": 1, "total": 4, "note": "15.36/30.72/122.88TB no_public_sample·Newegg 61.44TB旧链404"}
+  },
+  "newSourcesTried": ["TradingKey (KOSPI/SNDK实时)", "Yahoo Finance (SNDK)", "24/7 Wall St. (SNDK PT)", "Investing.com (KOSPI 8/19收盘)", "Economic Times (KOSPI)", "Benzinga (Brent/宏观触发)", "TradingView (KOSPI技术面)", "WCCFTech/PCMag/Guru3D (Intel CEO内存)", "Solidigm官网 (122.88TB)"],
+  "newSourcesWithUsefulData": ["TradingKey (KOSPI 8/20实时反弹)", "Yahoo Finance (SNDK ~$1,600/-10%)", "24/7 Wall St. (SNDK PT $2,164/Buy)", "Investing.com (KOSPI 8/19收-4.65%)", "Benzinga (Brent>$90触发)", "WCCFTech/PCMag (Intel CEO内存暗示)"],
+  "keyChangesVsYesterday": [
+    "🟢 KOSPI 8/20早盘反弹+3.7%至~6,711（昨日-4.65%暴跌后技术性修复）",
+    "🔴 SNDK连续第三日抛售（-~10%今日），自6月峰值$2,354回撤~32%",
+    "CDW 3/3锚点复核全部不变——9550 Pro 30.72TB Day24零回调",
+    "🆕 Intel CEO暗示重返内存业务（聘前SK Hynix CEO，新内存架构+3D堆叠）",
+    "🔴 Newegg QLC 61.44TB旧链404——源稳定性恶化",
+    "DatacenterDisk DDR5低端$29.06/GB持平——街价未现下行"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "trendRationale": {
+    "DDR5-6400": "BofA Aug+8%MoM·YoY+483%——涨价斜率未放缓；CDW零回调24日；DatacenterDisk街价低端持平。",
+    "DDR5-5600": "DDR5整体上行方向不变；但主值陈旧(stale_repeated_sample)。",
+    "PCIe4 TLC": "7450 PRO Day47零回调确立底部；NAND供给紧张至2028。",
+    "PCIe5 TLC": "9550 Pro 30.72TB Day24零回调，定价绝对不可逆。",
+    "PCIe4 QLC": "NAND售罄至2027+VDURA 6.5x YoY印证上行；但QLC定价不可见且Newegg源404恶化。"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "BofA确认涨价斜率未放缓(Aug+8%MoM/YoY+483%)；CDW锚点24日零回调；无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行；但主值陈旧(stale)，执行前建议按6400口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 47天零回调确立底部稳固；NAND供给紧张至2028。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day24零回调绝对不可逆；全CDW锚点体系稳固。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB单列覆盖，3/4列仍缺定价；Newegg 61.44TB源404恶化。升级偏置维持：任一新容量位恢复即升split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "仅见4800/5600口径样本，无6400企业级公开价。"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro数据错误、ServerSupply Cloudflare 403、Connection 403。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "Interpro数据错误、ServerSupply Cloudflare 403、Connection 403。"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Solidigm官网确认可用但无公开定价(规格页)。"
+    }
+  ]
+}
