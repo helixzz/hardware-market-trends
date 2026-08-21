@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 5, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["CDW text-extraction mode", "DatacenterDisk /server-ram", "TradingKey", "CNBC", "BloomingBit", "24/7 Wall St.", "TrendForce", "tech-insider.org", "Benzinga", "FX Leaders", "Yahoo Finance"],
+  "newSourcesWithUsefulData": ["CDW 9550Pro 30.72TB +16.1% jump detected", "DatacenterDisk DDR5 $35.94/GB median", "CNBC KOSPI +5.89% + SK Hynix KRW40T buyback", "TrendForce Top5 NAND Q2 +77% QoQ", "JPMorgan SNDK $2,250 PT"],
+  "keyChangesVsYesterday": [
+    "CDW 9550 Pro 30.72TB public price $21,854→$25,369 (+16.1%) — Day 24 zero-change streak broken by massive upward jump",
+    "KOSPI 8/20 surged +5.89% to 6,852.58 — SK Hynix KRW 40T ($28.9B) record buyback triggered 24th buy-side sidecar",
+    "SNDK recovering: +3.37% Wed, JPMorgan reinstated Overweight $2,250 PT",
+    "DatacenterDisk DDR5 median $35.94/GB ▼0.9% WoW — slight cooling at median but still near ATH",
+    "TrendForce: Top 5 NAND Flash brands combined revenue +77% QoQ in Q2 2026 — enterprise SSD supply shortage confirmed",
+    "SK Hynix climbed 4% on record buyback, memory sector defied broader tech selloff"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "BofA DDR5 +483% YoY 涨价斜率未放缓; DatacenterDisk 街价未见明显松动; Citi 预测 Q4 64GB 达 $1,586 (+82% YoY); 无等待理由"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行, BofA/MS/Citi 多源宏观证据强化; 32/64/128GB 主值陈旧, 执行前建议按 6400 口径换源复核"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 48 底部稳固(追踪史绝对最长锚定); TrendForce NAND Q2 +77% QoQ 供给侧量化确认; IDC NAND 供给仅 +17% YoY; 无降价信号"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB CDW 公开价 +16.1% 跳涨——24 日零回调后首次变动即为上行; 3.84TB/15.36TB Advertised 均不变; 全锚点均价方向一致向上; 紧迫度历史最高"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖(Newegg 旧链连续两日 404·源稳定性恶化); 15.36/30.72/122.88TB 仍 no_public_sample; NAND 售罄至 2027 但 QLC 定价不可见; 升级偏置维持"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "仅见 4800/5600 口径, 无 6400 企业级公开价"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32/64/128GB (stale)",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值陈旧; DatacenterDisk 有新样本可做参考但不足重构主值"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB, 30.72TB, 122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 61.44TB 旧链连续两日 404——源稳定性进一步恶化; 3/4 列结构性缺口确认"
+    }
+  ],
+  "cdwAnchorVerification": {
+    "8215733_9550Pro_30.72TB": {
+      "status": "jumped",
+      "oldPrice": "$21,853.99",
+      "newPrice": "$25,368.99",
+      "changePct": "+16.1%",
+      "daysSinceLastChange": "Day 25 (first change after 24 days zero-change)",
+      "note": "Public price jumped +16.1%. Could be List Price display format change or real price increase. Advertised Price may be login-gated."
+    },
+    "8215732_9550Pro_3.84TB": {
+      "status": "unchanged",
+      "listPrice": "$4,862.99",
+      "advertisedPrice": "$3,259.99",
+      "days": 19
+    },
+    "8215730_9550Pro_15.36TB": {
+      "status": "unchanged_advertised",
+      "listPrice": "$14,185.99 (new visibility)",
+      "advertisedPrice": "$13,521.99",
+      "days": 19
+    },
+    "7085698_7450PRO_7.68TB": {
+      "status": "parser_gap",
+      "days": 48,
+      "note": "Page returns 200 but price field not extracted by readability"
+    }
+  }
+}
