@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 4, "total": 5},
+    "DDR5-5600": {"filled": 5, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["Newegg 9550 Pro multi-capacity", "ShopBLT Solidigm 61.44TB search"],
+  "newSourcesWithUsefulData": ["Newegg 9550 Pro multi-capacity"],
+  "keyChangesVsYesterday": [
+    "PCIe5 TLC 30.72TB 跳涨后第三天维持 $25,368.99——Day 26 新价格层级不可逆",
+    "7450 PRO 7.68TB parser_gap 进入 Day 49——追踪史绝对最长单一连续锚定纪录",
+    "Newegg QLC 61.44TB 旧链连续第四日 404——源稳定性持续恶化",
+    "Newegg 9550 Pro 多容量现货价可见（7.68TB/15.36TB/3.84TB E3.S）——渠道可得性改善旁证",
+    "CDW 3.84TB/15.36TB Advertised 均不变（Day 20）——中小容量 PCIe5 TLC 锚点稳定"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "BofA +483% YoY 涨价斜率维持；DatacenterDisk 街价未见松动；消费级 kit +372% YoY 旁证。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，BofA/MS/Citi 多源确认；主值陈旧（stale），执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 49 底部稳固；TrendForce NAND Q2 +77% QoQ 供给侧量化确认；storagediskprices.com 2026 产能售罄。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第三天维持 $25,369——Day 26 确认新价格层级不可逆；3.84TB/15.36TB 均不变；CDW 锚点体系均价方向一致向上。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄至 2027 但 QLC 定价不可见。Newegg 旧链连续第四日 404。升级偏置维持：任一新容量位恢复即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "仅见 4800/5600 口径，无 6400 企业级公开价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "查过多源后仍无公开现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "查过多源后仍无公开现货价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "NAND 售罄至 2027 但 QLC 定价不可见"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "NAND 售罄至 2027 但 QLC 定价不可见"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Solidigm 规格页无公开定价；Connection 403"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Newegg 旧链连续第四日 404，仅剩单源 carry（08-13 双源中位）"
+    }
+  ]
+}

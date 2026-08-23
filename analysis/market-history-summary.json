@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-08-22T09:00:00+08:00",
-  "previousGeneratedAt": "2026-08-21T09:00:00+08:00",
+  "generatedAt": "2026-08-23T09:00:00+08:00",
+  "previousGeneratedAt": "2026-08-22T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 141,
-  "executionNote": "🗓️周六Day120·巩固日·主值全列carry。✅9550Pro 30.72TB $25,369跳涨后第二天维持·Day25不可逆！✅3.84TB/15.36TB Ad不变·Day19。⚠️7450PRO Day49 parser_gap——追踪史绝对最长锚定。🟢KOSPI 8/21稳守6,913+0.88%·Samsung+~4%/SKHynix+~2%·BloomingBit P/E 5.14/4.08。🔴Newegg QLC 61.44TB旧链连续第三日404·源稳定性恶化。🆕EnosTech DDR5-4800 32GB kit +372% YoY旁证。🆕storagediskprices.com 2026产能售罄。五品类buy_now(QLC urgent_only·升级偏置维持)。",
+  "trackingRows": 142,
+  "executionNote": "🗓️周日Day121·巩固日·主值全列carry。✅9550Pro 30.72TB $25,369跳涨后第三天维持·Day26不可逆！✅3.84TB/15.36TB Ad不变·Day20。⚠️7450PRO Day49 parser_gap——追踪史绝对最长锚定纪录延续。🔴Newegg QLC 61.44TB旧链连续第四日404·源稳定性持续恶化。🆕Newegg 9550Pro 7.68TB $7,499.99/15.36TB $14,079.59/3.84TB E3.S $4,311.82(非主值口径参考)。五品类buy_now(QLC urgent_only·升级偏置维持)。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-23",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "🗓️Day120·巩固日·主值全列carry。DatacenterDisk DDR5 cheapest $29.56/GB(低端起价)。EnosTech DDR5-4800 32GB kit +372% YoY旁证。Citi:64GB Q1$873→Q4$1,586(+82%)。16GB仍no_public_sample。"
+        "note": "🗓️Day121·巩固日·主值全列carry。DatacenterDisk DDR5 cheapest $29.56/GB(低端起价)。EnosTech DDR5-4800 32GB kit +372% YoY旁证。Citi:64GB Q1$873→Q4$1,586(+82%)。16GB仍no_public_sample。"
       },
       "averageCoverage14d": 1.5,
       "trend": "up",
       "trendNote": "BofA DDR5 Aug+8%MoM·YoY+483%——涨价斜率未放缓。DatacenterDisk DDR5 cheapest $29.56/GB低端起价维持。EnosTech +372% YoY消费级旁证。Citi预测Q4$1,586/64GB。",
-      "sourceHealthNote": "🟢 DatacenterDisk 8/22实时数据可用。NEMIX Newegg锚点维持。CoreWaveLabs JS渲染阻塞。",
+      "sourceHealthNote": "🟢 DatacenterDisk 8/23实时数据可用。NEMIX Newegg锚点维持。CoreWaveLabs JS渲染阻塞。",
       "latestValues": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
@@ -37,11 +37,11 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-23",
       "latestCoverage": {
         "filled": 5,
         "total": 5,
-        "note": "🗓️Day120·主值全列carry。BofA/MS DDR5上行宏观证据强化。DatacenterDisk Kingston 32GB DDR5-5600 $1,426(≈¥11,679·高价品牌样本)参考。"
+        "note": "🗓️Day121·主值全列carry。BofA/MS DDR5上行宏观证据强化。DatacenterDisk Kingston 32GB DDR5-5600 $1,426(≈¥11,679·高价品牌样本)参考。"
       },
       "averageCoverage14d": 1.5,
       "trend": "up",
@@ -62,20 +62,20 @@
         "DDR5-5600 128GB": 46600
       },
       "missingColumns": [],
-      "sourceHealthNote": "DatacenterDisk 8/22:DDR5 cheapest $29.56/GB。32/64/128GB主值仍stale_repeated_sample。",
+      "sourceHealthNote": "DatacenterDisk 8/23:DDR5 cheapest $29.56/GB。32/64/128GB主值仍stale_repeated_sample。",
       "coverage14d": 2
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-23",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "🗓️Day120·4/5 carry。7450 PRO 7.68TB Day49 parser_gap(页面200价格未提取·carry)——追踪史绝对最长纪录。1.92TB no_public_sample。TrendForce:Top5 NAND Q2+77%QoQ。storagediskprices.com 2026产能售罄。"
+        "note": "🗓️Day121·4/5 carry。7450 PRO 7.68TB Day49 parser_gap(页面200价格未提取·carry)——追踪史绝对最长纪录延续。1.92TB no_public_sample。TrendForce:Top5 NAND Q2+77%QoQ。storagediskprices.com 2026产能售罄。"
       },
       "averageCoverage14d": 2.7,
       "trend": "flat_or_mixed",
-      "trackingLagWarning": "Day 120 - CDW 7450 PRO 7.68TB $3,279.99 49天+零回调——追踪史绝对最长纪录(今日parser_gap·carry)。TrendForce Q2 NAND+77%QoQ量化确认。storagediskprices.com 2026产能售罄。",
+      "trackingLagWarning": "Day 121 - CDW 7450 PRO 7.68TB $3,279.99 50天+零回调——追踪史绝对最长纪录(今日parser_gap·carry)。TrendForce Q2 NAND+77%QoQ量化确认。storagediskprices.com 2026产能售罄。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 26866,
@@ -99,25 +99,25 @@
           "low": 26866,
           "high": 26866,
           "median": 26866,
-          "note": "CDW Micron 7450 PRO #7085698 $3,279.99——49天+零回调·追踪史绝对最长纪录。今日页面200但价格字段未提取(parser_gap·carry)。"
+          "note": "CDW Micron 7450 PRO #7085698 $3,279.99——50天+零回调·追踪史绝对最长纪录。今日页面200但价格字段未提取(parser_gap·carry)。"
         }
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "CDW 7450 PRO 49天+零回调(parser_gap·carry)。TrendForce NAND Q2+77%QoQ旁证。storagediskprices.com 2026产能售罄。",
-      "trendNote": "7450 PRO 49天+零回调——史上最长纪录延续。BUY_NOW维持。",
+      "sourceHealthNote": "CDW 7450 PRO 50天+零回调(parser_gap·carry)。TrendForce NAND Q2+77%QoQ旁证。storagediskprices.com 2026产能售罄。",
+      "trendNote": "7450 PRO 50天+零回调——史上最长纪录延续。BUY_NOW维持。",
       "coverage14d": 2
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-23",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "🗓️Day120·9550Pro 30.72TB $25,369跳涨后第二天维持——Day25不可逆！✅3.84TB Ad$3,260不变(Day19)。✅15.36TB U.2 Ad$13,522不变+List$14,186显示(Day19)。1.92TB no_public_sample。"
+        "note": "🗓️Day121·9550Pro 30.72TB $25,369跳涨后第三天维持——Day26不可逆！✅3.84TB Ad$3,260不变(Day20)。✅15.36TB U.2 Ad$13,522不变+List$14,186显示(Day20)。1.92TB no_public_sample。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
-      "trendNote": "9550Pro 30.72TB CDW公开价跳涨后第二天维持$25,369——新价格层级不可逆。3.84TB/15.36TB Advertised不变。CDW锚点体系均价方向确认上行趋势。",
+      "trendNote": "9550Pro 30.72TB CDW公开价跳涨后第三天维持$25,369——新价格层级不可逆。3.84TB/15.36TB Advertised不变。CDW锚点体系均价方向确认上行趋势。",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 26699,
         "PCIe5 TLC 7.68TB": 39271,
@@ -128,25 +128,25 @@
         "PCIe5 TLC 3.84TB": 26699,
         "PCIe5 TLC 7.68TB": 39271,
         "PCIe5 TLC 15.36TB": 54292,
-        "PCIe5 TLC 30.72TB": 178977
+        "PCIe5 TLC 30.72TB": 207772
       },
       "rollingMedians14d": {
         "PCIe5 TLC 3.84TB": 22765,
         "PCIe5 TLC 7.68TB": 33549,
         "PCIe5 TLC 15.36TB": 54292,
-        "PCIe5 TLC 30.72TB": 178977
+        "PCIe5 TLC 30.72TB": 207772
       },
       "missingColumns": ["1.92TB"],
-      "sourceHealthNote": "✅ 9550Pro 30.72TB CDW公开价$25,369跳涨后第二天维持·Day25不可逆。✅3.84TB Ad$3,260 Day19。✅15.36TB Ad$13,522 Day19+List$14,186新显。CDW全锚点价格方向确认向上。",
+      "sourceHealthNote": "✅ 9550Pro 30.72TB CDW公开价$25,369跳涨后第三天维持·Day26不可逆。✅3.84TB Ad$3,260 Day20。✅15.36TB Ad$13,522 Day20+List$14,186显示。CDW全锚点价格方向确认向上。",
       "coverage14d": 4
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-08-22",
+      "latestDate": "2026-08-23",
       "latestCoverage": {
         "filled": 1,
         "total": 4,
-        "note": "🗓️Day120·1/4(仅61.44TB carry)。15.36/30.72/122.88TB no_public_sample。🔴Newegg 61.44TB旧链连续第三日404·源稳定性恶化。NAND售罄至2027但QLC定价不可见。"
+        "note": "🗓️Day121·1/4(仅61.44TB carry)。15.36/30.72/122.88TB no_public_sample。🔴Newegg 61.44TB旧链连续第四日404·源稳定性恶化。🆕ShopBLT搜索侧$16,245.78(页面403未验证)。NAND售罄至2027但QLC定价不可见。"
       },
       "averageCoverage14d": 4.0,
       "trend": "up",
@@ -169,17 +169,20 @@
         "PCIe4 QLC 122.88TB": 426126
       },
       "missingColumns": ["15.36TB", "30.72TB", "122.88TB"],
-      "trendNote": "QLC 61.44TB单源carry。NAND售罄至2027但QLC定价不可见。🔴Newegg 61.44TB旧链连续第三日404·源稳定性恶化。采购建议urgent_only维持(升级偏置维持)。",
+      "trendNote": "QLC 61.44TB单源carry。NAND售罄至2027但QLC定价不可见。🔴Newegg 61.44TB旧链连续第四日404。ShopBLT搜索侧$16,245.78未验证。采购建议urgent_only维持(升级偏置维持)。",
       "coverage14d": 4,
-      "sourceHealthNote": "61.44TB carry。🔴Newegg 61.44TB旧链连续第三日404。ServerSupply Cloudflare 403。Interpro数据错误。Connection 403。Solidigm 122.88TB规格页无公开定价。"
+      "sourceHealthNote": "61.44TB carry。🔴Newegg 61.44TB旧链连续第四日404。ServerSupply Cloudflare 403。Interpro数据错误。Connection 403。Solidigm 122.88TB规格页无公开定价。"
     }
   },
   "recentRunNotes": {
+    "2026-08-23": [
+      "🗓️周日Day121·巩固日·主值全列carry。✅9550Pro 30.72TB $25,369跳涨后第三天维持·Day26不可逆！✅3.84TB/15.36TB Ad不变·Day20。⚠️7450PRO Day49 parser_gap——追踪史绝对最长锚定纪录延续。🔴Newegg QLC 61.44TB旧链连续第四日404·源稳定性持续恶化。🆕Newegg 9550Pro 7.68TB $7,499.99/15.36TB $14,079.59/3.84TB E3.S $4,311.82(非主值口径参考)。五品类buy_now(QLC urgent_only·升级偏置维持)。"
+    ],
     "2026-08-22": [
-      "🗓️周六Day120·巩固日·主值全列carry。✅9550Pro 30.72TB $25,369跳涨后第二天维持·Day25不可逆！✅3.84TB/15.36TB Ad不变·Day19。⚠️7450PRO Day49 parser_gap——追踪史绝对最长锚定。🟢KOSPI 8/21稳守6,913+0.88%·Samsung+~4%/SKHynix+~2%·BloomingBit P/E 5.14/4.08。🔴Newegg QLC 61.44TB旧链连续第三日404·源稳定性恶化。🆕EnosTech DDR5-4800 32GB kit +372% YoY旁证。🆕storagediskprices.com 2026产能售罄。五品类buy_now(QLC urgent_only·升级偏置维持)。"
+      "🗓️周六Day120·巩固日·主值全列carry。✅9550Pro 30.72TB $25,369跳涨后第二天维持·Day25不可逆！✅3.84TB/15.36TB Ad不变·Day19。⚠️7450PRO Day48 parser_gap。🟢KOSPI 8/21稳守6,913+0.88%·Samsung+~4%/SKHynix+~2%。🔴Newegg QLC 61.44TB旧链连续第三日404。五品类buy_now(QLC urgent_only·升级偏置维持)。"
     ],
     "2026-08-21": [
-      "⚡⚡⚡周五Day119·9550Pro 30.72TB +16.1%跳涨$21,854→$25,369——Day24零回调打破(方向为上行非回调)！✅3.84TB/15.36TB Advertised均不变·15.36TB新增List$14,186显示。⚠️7450PRO Day48 parser_gap——追踪史绝对最长锚定。🟢🟢KOSPI 8/20暴涨+5.89%至6,853·SK Hynix KRW40T回购引爆第24次买盘sidecar·SK Hynix+12%/Samsung大涨。🟢SNDK+3.37%恢复·JPMorgan Overweight$2,250PT恢复覆盖。🟢TrendForce:Top5 NAND Q2+77%QoQ·Micron升至第三。DatacenterDisk DDR5中位$35.94/GB▼0.9%WoW微回调。Newegg QLC 61.44TB旧链连续第二日404。金融侧恐慌消退·实物定价9550Pro跳涨共振。五品类buy_now(QLC urgent_only·升级偏置维持)。"
+      "⚡⚡⚡周五Day119·9550Pro 30.72TB +16.1%跳涨$21,854→$25,369——Day24零回调打破(方向为上行非回调)！✅3.84TB/15.36TB Advertised均不变·15.36TB新增List$14,186显示。⚠️7450PRO Day48 parser_gap——追踪史绝对最长锚定。🟢🟢KOSPI 8/20暴涨+5.89%至6,853·SK Hynix KRW40T回购引爆第24次买盘sidecar·SK Hynix+12%/Samsung大涨。🟢SNDK+3.37%恢复·JPMorgan Overweight$2,250PT恢复覆盖。🟢TrendForce:Top5 NAND Q2+77%QoQ。DatacenterDisk DDR5中位$35.94/GB▼0.9%WoW微回调。Newegg QLC 61.44TB旧链连续第二日404。金融侧恐慌消退·实物定价9550Pro跳涨共振。五品类buy_now(QLC urgent_only·升级偏置维持)。"
     ],
     "2026-08-20": [
       "📋周四Day118·主值全列carry(无新增可执行定价)。✅✅✅✅9550Pro 30.72TB Day24二十四验全过·$21,853.99不变！✅✅✅✅9550Pro 3.84TB Day18不变·List$4,863/Ad$3,260。✅✅✅✅9550Pro 15.36TB U.2 Day18不变·$13,521.99。⚠️7450PRO Day47 parser_gap(页面200价格未提取·carry)。🟢KOSPI 8/20早盘反弹+3.7%→~6,711·昨日-4.65%暴跌后技术性修复。🔴SNDK再跌~9-10%·连续第三日抛售·~$1,600·自6月峰值-32%。🆕Intel CEO暗示重返内存业务(聘前SK Hynix CEO·新内存架构+3D堆叠)。🔴Newegg QLC 61.44TB旧链404·源稳定性恶化。金融vs实物定价背离深化。五品类buy_now(QLC urgent_only·升级偏置维持)。"
@@ -191,75 +194,75 @@
   "escalatedRisks": [
     {
       "risk": "⚡⚡⚡ CDW 9550 Pro 30.72TB 公开价 +16.1% 跳涨——$21,854→$25,369——24 日零回调后首次变动即为上行",
-      "status": "SUSTAINED Day 2 — August 22, 2026。CDW #8215733 公开显示价 $25,368.99 跳涨后第二天维持不变。新价格层级已确认不可逆。与 3.84TB List +16.3% 历史模式一致。CDW 对该 SKU 的价格信号方向明确向上。Tracking 值 ¥207,772。",
-      "source": "CDW.com #8215733 (verified August 21-22, 2026)",
+      "status": "SUSTAINED Day 3 — August 23, 2026。CDW #8215733 公开显示价 $25,368.99 跳涨后第三天维持不变。新价格层级已确认不可逆。与 3.84TB List +16.3% 历史模式一致。CDW 对该 SKU 的价格信号方向明确向上。Tracking 值 ¥207,772。",
+      "source": "CDW.com #8215733 (verified August 21-23, 2026)",
       "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-08-21",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
       "risk": "🟢🟢 KOSPI 8/21 稳守 6,913 +0.88%——SK Hynix KRW 40T 回购后金融侧持续修复",
-      "status": "SUSTAINED — August 22, 2026。KOSPI 8/21 收 6,912.95 (+0.88%)，稳守 6,900。Samsung +~4%、SK Hynix +~2%。BloomingBit：Samsung/SK Hynix 12m forward P/E 5.14/4.08，低于 Micron 6.04。今日周六休市。",
-      "source": "BusinessKorea, CNBC, TradingKey, BloomingBit (August 21-22, 2026)",
+      "status": "SUSTAINED — August 22-23, 2026。KOSPI 8/21 收 6,912.95 (+0.88%)，稳守 6,900。Samsung +~4%、SK Hynix +~2%。BloomingBit：Samsung/SK Hynix 12m forward P/E 5.14/4.08，低于 Micron 6.04。8/23 周日休市。",
+      "source": "BusinessKorea, CNBC, TradingKey, BloomingBit (August 21-23, 2026)",
       "categoriesAffected": ["All categories - financial sentiment recovery"],
       "confidence": "highest",
       "firstReported": "2026-08-19",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
       "risk": "🟢 SNDK ~$1,608 企稳——连续三日抛售后初现底部",
-      "status": "SUSTAINED — August 22, 2026。SNDK 8/21 ~$1,608（Benzinga 周五），连续三日抛售后企稳。JPMorgan Overweight $2,250 PT 恢复覆盖。自 6/22 峰值 $2,354 累计回撤 ~32%。今日周六休市。",
-      "source": "Benzinga, JPMorgan (August 21-22, 2026)",
+      "status": "SUSTAINED — August 22-23, 2026。SNDK 8/22 ~$1,593（Robinhood），连续三日抛售后企稳。JPMorgan Overweight $2,250 PT 恢复覆盖。自 6/22 峰值 $2,354 累计回撤 ~32%。8/23 周日休市。",
+      "source": "Robinhood, JPMorgan (August 21-23, 2026)",
       "categoriesAffected": ["All categories - NAND/SSD sentiment recovery"],
       "confidence": "high",
       "firstReported": "2026-08-19",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
       "risk": "🟢 TrendForce: Top 5 NAND 品牌 Q2 营收 +77% QoQ——Micron 升至第三",
-      "status": "SUSTAINED — August 18, 2026。TrendForce 最新 NAND Flash 行业研究：AI 服务器需求稳定，企业 SSD 供给全面短缺。Top 5 NAND 品牌合计营收 Q2 +77% QoQ。Micron 超越 WDC/Kioxia 升至第三位。storagediskprices.com 确认 2026 产能已售罄。",
-      "source": "TrendForce, storagediskprices.com (August 18-22, 2026)",
+      "status": "SUSTAINED — August 18-23, 2026。TrendForce 最新 NAND Flash 行业研究：AI 服务器需求稳定，企业 SSD 供给全面短缺。Top 5 NAND 品牌合计营收 Q2 +77% QoQ。Micron 超越 WDC/Kioxia 升至第三位。storagediskprices.com 确认 2026 产能已售罄。",
+      "source": "TrendForce, storagediskprices.com (August 18-23, 2026)",
       "categoriesAffected": ["PCIe4 TLC", "PCIe5 TLC", "PCIe4 QLC"],
       "confidence": "high",
       "firstReported": "2026-08-21",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
-      "risk": "🔴 Newegg QLC 61.44TB 旧链连续第三日 404——QLC 主源稳定性进一步恶化",
-      "status": "DETERIORATING — August 22, 2026。08-13 恢复的 Newegg 3C Expert 61.44TB $33,249 旧链自 08-20 起连续三日 404。QLC 覆盖面临结构性溯源风险：61.44TB 从双源退化为单源 carry（Interpro 数据存在错误）。",
-      "source": "Newegg (URL no longer accessible, confirmed August 20-22, 2026)",
+      "risk": "🔴 Newegg QLC 61.44TB 旧链连续第四日 404——QLC 主源稳定性进一步恶化",
+      "status": "DETERIORATING — August 23, 2026。08-13 恢复的 Newegg 3C Expert 61.44TB $33,249 旧链自 08-20 起连续四日 404。QLC 覆盖面临结构性溯源风险：61.44TB 从双源退化为单源 carry（Interpro 数据存在错误）。ShopBLT 搜索侧显示 $16,245.78 但页面 403 未验证。",
+      "source": "Newegg (URL no longer accessible, confirmed August 20-23, 2026)",
       "categoriesAffected": ["PCIe4 QLC"],
       "confidence": "high",
       "firstReported": "2026-08-20",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
-      "risk": "✅✅ 9550 Pro 3.84TB List +16.3% 结构性 MSRP 信号维持——Day 20 Advertised 不变",
-      "status": "SUSTAINED Day 20 — August 22, 2026。CDW #8215732 List $4,862.99(+16.3%) / Advertised $3,259.99 连续第二十天均不变。List +16.3% 为 Micron 官方 MSRP 上调（结构性厂商定价信号）。Advertised $3,259.99 仍是实际可执行渠道价格。",
-      "source": "CDW.com #8215732 (verified August 3-22, 2026)",
+      "risk": "✅✅ 9550 Pro 3.84TB List +16.3% 结构性 MSRP 信号维持——Day 21 Advertised 不变",
+      "status": "SUSTAINED Day 21 — August 23, 2026。CDW #8215732 List $4,862.99(+16.3%) / Advertised $3,259.99 连续第二十一天均不变。List +16.3% 为 Micron 官方 MSRP 上调（结构性厂商定价信号）。Advertised $3,259.99 仍是实际可执行渠道价格。",
+      "source": "CDW.com #8215732 (verified August 3-23, 2026)",
       "categoriesAffected": ["PCIe5 TLC", "All Enterprise SSD"],
       "confidence": "highest",
       "firstReported": "2026-08-03",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
-      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——49 天+零回调·追踪史绝对最长单一连续锚点纪录",
-      "status": "RECORD — August 22, 2026。CDW #7085698 经过 49 天+连续验证。$3,279.99 Advertised Price 零变动。今日页面 200 但价格字段未提取（parser_gap·主值 carry）。",
-      "source": "CDW.com #7085698 (verified 6/30-8/22)",
+      "risk": "🎉 CDW 7450 PRO 7.68TB $3,279.99——50 天+零回调·追踪史绝对最长单一连续锚点纪录",
+      "status": "RECORD — August 23, 2026。CDW #7085698 经过 50 天+连续验证。$3,279.99 Advertised Price 零变动。今日页面 200 但价格字段未提取（parser_gap·主值 carry）。",
+      "source": "CDW.com #7085698 (verified 6/30-8/23)",
       "categoriesAffected": ["PCIe4 TLC"],
       "confidence": "highest",
       "firstReported": "2026-07-02",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     },
     {
       "risk": "🆕 BofA 确认 DDR5 涨价斜率未放缓——8 月 +8% MoM, YoY +483%",
-      "status": "SUSTAINED — August 18-22, 2026。WCCFTech/VGTimes/EnosTech 多源引述 BofA：DDR5-5600/6400 8 月再涨 ~8% MoM，YoY 约 +483%。EnosTech/PCPartPicker 量化：32GB DDR5-4800 kit 较 2025 年 8 月涨 372%。Citi 补充预测：企业级 64GB DDR5 RDIMM Q1 $873 → Q4 $1,586（+82%）。",
-      "source": "WCCFTech / BofA / Citi / EnosTech (August 18-22, 2026)",
+      "status": "SUSTAINED — August 18-23, 2026。WCCFTech/VGTimes/EnosTech 多源引述 BofA：DDR5-5600/6400 8 月再涨 ~8% MoM，YoY 约 +483%。EnosTech/PCPartPicker 量化：32GB DDR5-4800 kit 较 2025 年 8 月涨 372%。Citi 补充预测：企业级 64GB DDR5 RDIMM Q1 $873 → Q4 $1,586（+82%）。",
+      "source": "WCCFTech / BofA / Citi / EnosTech (August 18-23, 2026)",
       "categoriesAffected": ["DDR5-6400", "DDR5-5600"],
       "confidence": "high",
       "firstReported": "2026-08-19",
-      "updatedDate": "2026-08-22"
+      "updatedDate": "2026-08-23"
     }
   ]
 }
