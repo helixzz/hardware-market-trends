@@ -1,0 +1,93 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["Tom's Hardware", "BuySellRam", "Asia Business Daily", "shazoo.ru", "Korea JoongAng Daily", "MK.co.kr"],
+  "newSourcesWithUsefulData": ["Tom's Hardware", "BuySellRam", "Asia Business Daily", "shazoo.ru", "Korea JoongAng Daily", "MK.co.kr"],
+  "keyChangesVsYesterday": [
+    "CDW 9550 Pro 30.72TB $25,368.99 跳涨后第四天维持（Day 27）",
+    "KOSPI 8/24 跌破 6,800，Samsung -6.75%",
+    "7450 PRO 7.68TB parser_gap 进入 Day 50——追踪史最长纪录",
+    "Newegg QLC 61.44TB 旧链连续第五日 404",
+    "Tom's Hardware 新来源：Nvidia AI 服务器明年涨价 15%+"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "消费级 kit 年涨 ~180%；合约价持续上涨至 2027H2；Nvidia AI 服务器涨价传导。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，Samsung 确认 H2 需求加速。主值陈旧，执行前建议换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 50 底部稳固；TrendForce Q3 NAND +10–15%；VDURA 30TB 6.5× YoY 旁证。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第四天维持不可逆；CDW 锚点体系均价方向一致向上。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列缺定价；Newegg 旧链连续第五日 404。任一新容量位恢复即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今日无新增公开企业级 16GB 6400 样本"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期缺样本，今日未尝试新增备源"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期缺样本"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW D5-P5316 停产，无替代公开源"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "CDW 6500 ION 转 Call，无公开价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Newegg 旧链连续第五日 404，仅 Interpro 单源 carry"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403，Solidigm 规格页无公开定价"
+    }
+  ]
+}
