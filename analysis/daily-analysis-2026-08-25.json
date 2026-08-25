@@ -1,0 +1,88 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["Korea Herald", "Yonhap", "Korea Times", "MarketWise", "tech-insider.org"],
+  "newSourcesWithUsefulData": ["Korea Herald", "Yonhap", "Korea Times", "MarketWise", "tech-insider.org"],
+  "keyChangesVsYesterday": [
+    "KOSPI 8/24 暴跌 3.12% 至 6,696.96，Samsung -8.70%，SK Hynix -3.41%",
+    "Samsung 110 万亿韩元股东回报计划未达市场预期",
+    "9550 Pro 30.72TB $25,368.99 跳涨后第五天维持——Day 28 不可逆",
+    "7450 PRO parser_gap 进入 Day 51——追踪史绝对最长",
+    "Newegg QLC 61.44TB 旧链连续第六日 404",
+    "SK Hynix CEO 警告 2027 年为记忆体史上最严重供给短缺至 2030+"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Citi 预测 64GB RDIMM Q4 $1,586（+82%）；DatacenterDisk 街价 $29.56/GB 未见松动；SK Hynix CEO 警告供给短缺至 2030+。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，Samsung 确认 H2 需求加速。主值陈旧（stale），执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 51 底部稳固；TrendForce Q3 NAND +10–15% 供给侧量化确认；Kioxia/SK Hynix 8 月前完成 NAND 分配。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第五天维持 $25,369——新价格层级不可逆；3.84TB/15.36TB 均不变；CDW 锚点体系均价方向一致向上。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄但 QLC 定价不可见。Newegg 旧链连续第六日 404。升级偏置维持：任一新容量位恢复即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "查过多源后仍无公开企业级 16GB DDR5-6400 RDIMM 报价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 1.92TB PCIe4 TLC NVMe SSD 公开现货价稀缺，主分销渠道均指向更大容量"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 1.92TB PCIe5 TLC NVMe SSD 公开现货价稀缺"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "QLC 15.36TB 无公开定价，CDW/Provantage 等主源均无此容量现货页"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "QLC 30.72TB 无公开定价，CDW 6500 ION 页面已失效"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Solidigm 122.88TB 规格页无公开定价，Connection 403 拦截"
+    }
+  ]
+}
