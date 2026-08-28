@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["Trading Economics", "Sunday Guardian Live"],
+  "newSourcesWithUsefulData": ["Trading Economics", "Sunday Guardian Live"],
+  "keyChangesVsYesterday": [
+    "CDW 9550 Pro 30.72TB $25,368.99 跳涨后第八天维持——Day 31 确认新价格层级不可逆",
+    "KOSPI 8/27 反弹 +0.97% 至 6,808，Samsung +1.95%，SK Hynix +0.72%——Nvidia 财报强劲推动"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "Citi 预测 64GB RDIMM Q4 $1,586（+82%）；DatacenterDisk 街价 $29.56/GB 未见松动；SK Hynix CEO 警告供给短缺至 2030+"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，Samsung 确认 H2 需求加速。主值陈旧（stale），执行前建议按 6400 口径换源复核"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 54 底部稳固；TrendForce Q3 NAND +10–15% 供给侧量化确认"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第八天维持 $25,369——新价格层级不可逆；3.84TB/15.36TB 均不变；CDW 锚点体系均价方向一致向上"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄但 QLC 定价不可见。Newegg 旧链连续第九日 404"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今日无新增公开现货价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日无新增公开现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日无新增公开现货价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 旧链连续第九日 404"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 旧链连续第九日 404"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403"
+    }
+  ]
+}
