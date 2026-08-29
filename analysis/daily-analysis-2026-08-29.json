@@ -1,0 +1,174 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": [
+    "Connection",
+    "Memory.net",
+    "ShopBLT",
+    "DiscTech",
+    "ServerSupply",
+    "Provantage",
+    "CoreWaveLabs"
+  ],
+  "newSourcesWithUsefulData": [
+    "CoreWaveLabs"
+  ],
+  "keyChangesVsYesterday": [
+    "KOSPI 8/28 回调 -1.79% 至 6,788.88，Samsung -3.38%，SK Hynix -4.45%——结束两连涨",
+    "CDW 9550 Pro 30.72TB $25,368.99 跳涨后第九天维持（Day 32）",
+    "CDW 3.84TB/15.36TB Advertised 不变（Day 26）",
+    "7450 PRO 7.68TB parser_gap Day 55——追踪史最长纪录延续",
+    "Newegg QLC 61.44TB 旧链连续第十日 404",
+    "BigGo Finance：DDR5-5600 16GB 一年涨五倍（70,000→350,000 韩元）",
+    "Nvidia CFO 确认 memory extreme pricing，supply commitments $119B→$279B",
+    "Nvidia FY2028 70% growth = supply-constrained outlook"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "BigGo Finance 消费级 DDR5 一年涨五倍；beri.net 64GB RDIMM $27.34/GB（+455% YoY）；Nvidia CFO 确认 memory extreme pricing 并将持续走高。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，BigGo Finance 五倍涨幅旁证。主值陈旧（stale），执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 55 底部稳固；TrendForce Q3 NAND +10–15% 供给侧量化确认；Nvidia supply commitments $279B 验证需求端强度。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第九天维持 $25,369——新价格层级不可逆；3.84TB/15.36TB 均不变；Nvidia supply-constrained outlook 结构性确认 AI 存储需求。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄但 QLC 定价不可见。Newegg 旧链连续第十日 404。升级偏置维持：任一新容量位恢复即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB/64GB/128GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值全列 stale_repeated_sample，无新增独立定价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "无公开现货价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "无公开现货价"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "61.44TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "08-13 双源中位 carry，Newegg 旧链连续第十日 404，源稳定性恶化"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403，Solidigm 规格页无公开定价"
+    }
+  ],
+  "sourceHealth": {
+    "cdw": {
+      "status": "partial",
+      "note": "4/4 锚点访问，3/4 成功提取价格，1/4 parser_gap（7450 PRO Day 55）"
+    },
+    "datacenterdisk": {
+      "status": "healthy",
+      "note": "DDR5 cheapest $29.56/GB 维持，49 modules/41 in stock"
+    },
+    "newegg": {
+      "status": "deteriorating",
+      "note": "QLC 61.44TB 旧链连续第十日 404"
+    },
+    "corewavelabs": {
+      "status": "limited",
+      "note": "页面加载成功，但价格显示为 Quote 非公开现货"
+    },
+    "provantage": {
+      "status": "blocked",
+      "note": "403 Cloudflare"
+    },
+    "serversupply": {
+      "status": "blocked",
+      "note": "403 Cloudflare"
+    },
+    "disctech": {
+      "status": "degraded",
+      "note": "页面加载但内容为空"
+    },
+    "connection": {
+      "status": "blocked",
+      "note": "403 Access Denied"
+    },
+    "memory.net": {
+      "status": "blocked",
+      "note": "403 Cloudflare"
+    },
+    "shopblt": {
+      "status": "down",
+      "note": "DNS 失败"
+    }
+  },
+  "marketContext": {
+    "kospi": {
+      "date": "2026-08-28",
+      "close": 6788.88,
+      "change": -1.79,
+      "samsung": -3.38,
+      "skhynix": -4.45,
+      "note": "结束两连涨，Nvidia 财报未能提振"
+    },
+    "nvidiaEarnings": {
+      "date": "2026-08-26",
+      "revenue": "96.2B",
+      "yoy": 106,
+      "dataCenterRevenue": "89.0B",
+      "supplyCommitments": "279B",
+      "previousSupplyCommitments": "119B",
+      "cfoQuote": "experiencing extreme pricing conditions in memory",
+      "fy2028Growth": "70% supply-constrained"
+    }
+  }
+}
