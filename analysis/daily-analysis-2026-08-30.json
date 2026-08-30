@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["cheapestssd.com", "ShopBLT QLC 61.44TB"],
+  "newSourcesWithUsefulData": ["cheapestssd.com"],
+  "keyChangesVsYesterday": [
+    "9550 Pro 30.72TB $25,368.99 跳涨后第十天维持——Day 33 不可逆",
+    "DatacenterDisk DDR5 库存 41→42/49 略增",
+    "7450 PRO parser_gap 进入 Day 56——追踪史最长",
+    "Newegg QLC 61.44TB 旧链连续第十一日 404",
+    "cheapestssd.com 消费级 SSD $/TB 更新"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DatacenterDisk $29.56/GB 维持，库存略增；Nvidia CFO memory extreme pricing 确认持续。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，主值 stale 但旁证持续。执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 56 底部稳固；TrendForce Q3 NAND +10–15% 供给侧量化确认。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第十天维持 $25,369——新价格层级不可逆；3.84TB/15.36TB 均不变。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄但 QLC 定价不可见。Newegg 旧链连续第十一日 404。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "查过多源后仍无公开企业级 16GB RDIMM 价格"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "企业级 1.92TB 公开价极少见，分销页多以 3.84TB 起跳"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "1.92TB 在 PCIe5 产品线中非主流容量，分销页极少单独列出"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "QLC 15.36TB 公开价不可见，主流分销页缺货或仅显示 RFQ"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "QLC 30.72TB 公开价不可见，主流分销页缺货或仅显示 RFQ"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "122.88TB 仅 Solidigm 规格页有信息，无公开渠道定价"
+    }
+  ]
+}
