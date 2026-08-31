@@ -1,0 +1,87 @@
+{
+  "date": "2026-08-31",
+  "generatedAt": "2026-08-31T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["Trading Economics", "cheapestssd.com"],
+  "newSourcesWithUsefulData": ["Trading Economics", "cheapestssd.com"],
+  "keyChangesVsYesterday": [
+    "CDW 9550 Pro 30.72TB $25,368.99 跳涨后第十一天维持——Day 34 确认新价格层级不可逆",
+    "CDW 3.84TB/15.36TB Advertised 均不变（Day 28）——中小容量 PCIe5 TLC 锚点稳定",
+    "7450 PRO 7.68TB parser_gap 进入 Day 57——追踪史绝对最长单一连续锚定纪录延续",
+    "Newegg QLC 61.44TB 旧链连续第十二日 404——源稳定性问题持续恶化",
+    "KOSPI 8/28 回调 -1.79% 至 6,789——Samsung -2.82%，SK Hynix -3.87%"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DatacenterDisk $29.56/GB 维持·库存持平；Nvidia CFO memory extreme pricing 确认持续。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，主值 stale 但旁证持续。执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 57 底部稳固；TrendForce Q3 NAND +10–15% 供给侧量化确认。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第十一天维持 $25,369——新价格层级不可逆；3.84TB/15.36TB 均不变。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄但 QLC 定价不可见。Newegg 旧链连续第十二日 404。升级偏置维持：任一新容量位恢复即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "15.36TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "no_public_sample",
+      "note": "今日尝试多源后仍无公开价格"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "no_public_sample",
+      "note": "Connection 403，Solidigm 规格页无公开定价"
+    }
+  ]
+}
