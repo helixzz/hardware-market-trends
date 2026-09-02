@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-02T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 1, "total": 4}
+  },
+  "newSourcesTried": ["Seoul Economic Daily", "DatacenterDisk /server-ram/ddr5/64gb", "cheapestssd.com", "Newegg QLC 61.44TB 搜索侧", "ServerSupply 64GB RDIMM", "Memory.net 价格页", "Alibaba 64GB RDIMM 参考"],
+  "newSourcesWithUsefulData": ["Seoul Economic Daily", "DatacenterDisk /server-ram/ddr5/64gb", "cheapestssd.com"],
+  "keyChangesVsYesterday": [
+    "CDW 9550 Pro 30.72TB $25,368.99 跳涨后第十三天维持——Day 36 确认新价格层级不可逆",
+    "CDW 7450 PRO 7.68TB 连续第二日价格字段成功提取——Ad $3,279.99 / List $11,317.39，价格零变动（Day 59 纪录延续）",
+    "CDW 3.84TB/15.36TB Advertised 均不变（Day 30）——中小容量 PCIe5 TLC 锚点稳定",
+    "KOSPI 9/1 +0.23% 至 6,835.80——Samsung/SK Hynix 回购继续托底",
+    "Newegg QLC 61.44TB 旧链连续第十四日 404；搜索侧 D5-P5336/BM1743 61.44TB 条目可返回但价格 JS 加载（parser_gap）",
+    "DatacenterDisk DDR5 64GB cheapest $32.25/GB（64GB 档新读取，较全档 $29.56/GB 略高）",
+    "cheapestssd.com 9/1 更新：消费级 Gen4 平均 $164.63/TB、Lowest $105.00/TB"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "up"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "DatacenterDisk 64GB cheapest $32.25/GB；Nvidia CFO memory extreme pricing 确认持续。无等待理由。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "品类整体上行，主值 stale 但旁证持续。执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 59 底部稳固且连续第二日价格提取成功（零变动）；TrendForce Q3 NAND +10–15% 供给侧量化确认。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第十三天维持 $25,369——新价格层级不可逆；3.84TB/15.36TB 均不变。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "urgent_only",
+      "reason": "61.44TB 单列覆盖，3/4 列仍缺定价；NAND 售罄但 QLC 定价不可见。Newegg 旧链连续第十四日 404，搜索侧价格 parser_gap。升级偏置维持：任一新容量位恢复即升 split_buy。"
+    }
+  },
+  "gaps": [
+    {"category": "DDR5-6400", "spec": "16GB", "reasonCode": "no_public_sample", "note": "今日尝试多源后仍无公开企业级价格"},
+    {"category": "DDR5-5600", "spec": "32GB/64GB/128GB", "reasonCode": "stale_repeated_sample", "note": "主值全列陈旧重复样本，旁证持续但无新公开定价"},
+    {"category": "PCIe4 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "今日尝试多源后仍无公开现货价"},
+    {"category": "PCIe5 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "今日尝试多源后仍无公开现货价"},
+    {"category": "PCIe4 QLC", "spec": "15.36TB", "reasonCode": "no_public_sample", "note": "今日尝试多源后仍无公开价格"},
+    {"category": "PCIe4 QLC", "spec": "30.72TB", "reasonCode": "no_public_sample", "note": "今日尝试多源后仍无公开价格"},
+    {"category": "PCIe4 QLC", "spec": "61.44TB", "reasonCode": "parser_gap", "note": "Newegg 搜索侧 D5-P5336/BM1743 61.44TB 条目可返回 3 条但价格字段 JS 动态加载无法静态提取；旧链连续第十四日 404。主值维持 08-13 双源中位 carry。"},
+    {"category": "PCIe4 QLC", "spec": "122.88TB", "reasonCode": "no_public_sample", "note": "Connection 403，Solidigm 规格页无公开定价"}
+  ]
+}
