@@ -1,0 +1,73 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "CDW Solidigm P5336 全系 4 SKU (#7741004/#7785180/#7785193/#8455168)",
+    "CDW DDR5 旁证 4 SKU (#8439578/#7825825/#7946438/#8505971)",
+    "Seoul Economic Daily / MacroMicro (KOSPI 9/2)",
+    "Tom's Hardware (9月内存报道)",
+    "DatacenterDisk (DNS 失败)",
+    "CDW 9550 Pro 3.84TB U.2 #8215724 (旁证)",
+    "CDW 6500 ION #7467127 (旁证)"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW Solidigm P5336 全系 4 SKU",
+    "CDW DDR5 旁证 4 SKU",
+    "Seoul Economic Daily / MacroMicro (KOSPI 9/2)",
+    "Tom's Hardware (9月内存报道)"
+  ],
+  "keyChangesVsYesterday": [
+    "🎉 QLC 覆盖突破 1/4 → 4/4 全填充：CDW Solidigm P5336 全系公开价恢复（15.36TB $8,332.99 In Stock 83 / 30.72TB $16,247.99 In Stock 19 / 61.44TB $31,521.99 双 SKU / 122.88TB $52,029.99）",
+    "QLC 30.72TB 主值口径切换：¥168,284 (Micron 6500 ION) → ¥133,071 (Solidigm P5336)，-20.9% 为口径差异非市场下跌；ShopBLT $16,245.78 由 outlier 修正为有效样本",
+    "QLC 61.44TB 重定价：¥274,226 → ¥258,165 (CDW 双 SKU $31,521.99，-5.9%)",
+    "🔴 KOSPI 9/2 暴跌 3.99% 收 6,562.72：Samsung/SK Hynix 重挫，回购托底暂失，金融实物脱钩放大",
+    "✅ 9550 Pro 30.72TB 跳涨后第十四天维持 $25,368.99 (Day 37)；7450 PRO 连续第三日价格提取成功 (Day 60)",
+    "🆕 CDW DDR5 旁证：128GB 6400 $6,712.99 In Stock（较主值 +4.4%）、64GB 5600 Backordered（+18.3%）、32GB 6400 SKU Discontinued",
+    "🆕 Tom's Hardware：消费级内存涨价见顶信号，AI 需求仍推 DRAM/NAND Q3 上行",
+    "⚠️ DatacenterDisk 今日 DNS 解析失败，未获得 DDR5 现货 $/GB"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "CDW 128GB 6400 In Stock $6,712.99 高于主值 +4.4%；32GB SKU 停产、缺货溢价扩大；Nvidia CFO memory extreme pricing 确认持续。"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "缺货溢价明显（64GB Backordered 较主值 +18.3%），主值 stale 但方向明确。执行前建议按 6400 口径换源复核。"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 60 底部稳固（连续第三日价格提取成功，零变动）；TrendForce Q3 NAND +10-15% 供给侧量化确认。"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨后第十四天维持 $25,369（Day 37）——新价格层级不可逆；3.84/15.36TB 均不变。紧迫度历史最高。"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "覆盖 1/4→4/4 全填充。30.72TB P5336 In Stock $16,247.99（¥133,071）为近期低位且现货可执行——建议立即分批锁定；61.44/122.88TB 仅 4-6+ 周交货，应急预订。6500 ION 30.72TB ¥168,288 为高价替代线。升级偏置触发。"
+    }
+  },
+  "gaps": [
+    {"category": "DDR5-6400", "spec": "16GB", "reasonCode": "no_public_sample", "note": "今日尝试 CDW 等多源仍无公开企业级价格；CDW 32GB 6400 SKU #8505971 确认 Discontinued，源进一步收缩"},
+    {"category": "DDR5-5600", "spec": "32GB/64GB/128GB", "reasonCode": "stale_repeated_sample", "note": "主值全列陈旧重复样本；CDW 旁证显著高于主值（64GB Backordered +18.3%、128GB +37.0%），待跨源验证后写入"},
+    {"category": "PCIe4 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "今日尝试 DiscTech 等多源仍无公开现货价"},
+    {"category": "PCIe5 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "今日尝试多源仍无公开现货价"},
+    {"category": "PCIe4 QLC", "spec": "61.44TB", "reasonCode": "parser_gap", "note": "Newegg 旧链连续第十五日 404；但 CDW P5336 双 SKU 公开价已恢复（$31,521.99），缺口已由新源覆盖"},
+    {"category": "PCIe4 QLC", "spec": "122.88TB", "reasonCode": "stale_repeated_sample", "note": "CDW P5336 $52,029.99（4-6+ 周）与历史主值完全一致——carry 已获验证，但仍无现货库存"}
+  ]
+}
