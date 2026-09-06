@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T09:10:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "CoreWaveLabs",
+    "DiscTech",
+    "cheapestssd.com",
+    "TradingKey",
+    "Businesskorea",
+    "SBS",
+    "MoneyToday",
+    "CNBC",
+    "MarketWatch",
+    "en.gamegpu",
+    "BigGo Finance",
+    "Reuters"
+  ],
+  "newSourcesWithUsefulData": [
+    "TradingKey",
+    "MoneyToday",
+    "Businesskorea",
+    "SBS",
+    "CNBC",
+    "Motley Fool",
+    "Seeking Alpha",
+    "MarketWatch",
+    "BigGo Finance",
+    "Reuters",
+    "cheapestssd.com"
+  ],
+  "keyChangesVsYesterday": [
+    "KOSPI 9/3 收盘修正为 6,579.48（+0.26%）——昨日日报'约 6,643'系盘中口径；9/4 收 6,687.21（+1.64%），Samsung +2.20%（255,500 KRW）、SK Hynix +3.20%（1,647,000 KRW）",
+    "博通 Q3 FY26 财报落地：营收 $29.6B（+86%）、AI 收入 $16.7B（+221%）、Q4 AI 指引 $21.7B、FY26→FY28 AI $58B→$230B——AI 资本开支双引擎验证",
+    "CDW 64GB 5600 Backordered Ad $2,685.99→$2,819.99（+5.0%）——DDR5 旁证序列首次上行变动，缺货溢价走阔（较主值 +24.2%）",
+    "CDW 全锚点零回调第三日确认：9550 Pro 30.72TB Day 40（跳涨后第十七天）、7450 PRO Day 63（连续第六日价格提取成功）、3.84/15.36TB Day 34",
+    "QLC Solidigm P5336 4/4 第三观察日维持",
+    "Micron 加倍押注 AI 存储（MarketWatch 9/5）；Nvidia NVHBM 传闻（未证实）；韩散户 3 倍杠杆 ETF；华尔街转防御；中美 9 月中旬 AI 安全谈判",
+    "DatacenterDisk 连续第三日不可达（HTTP 000）；CDW 32GB 6400 Discontinued 第三日确认"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "CDW 128GB 6400 In Stock $6,712.99 连续第三日高于主值 +4.4%；32GB SKU 停产第三日、源收缩；博通 AI 指引验证资本开支上行；TrendForce Q3 server DRAM +13-18%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "CDW 64GB 5600 Backordered 首次上行 +5.0%（较主值 +24.2%），缺货溢价连续第三日走阔；主值 stale，执行前建议换源复核"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 63 底部稳固（连续第六日提取成功，零变动）；TrendForce Q3 NAND +10-15%；Micron 押注 AI 存储背书"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 40 新价格层级不可逆（跳涨后第十七天维持）；3.84/15.36TB 均不变，紧迫度历史最高"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "4/4 第三观察日维持；30.72TB P5336 In Stock $16,247.99（¥133,071）近期低位现货可执行，建议立即分批锁定；61.44/122.88TB 仅 4-6+ 周，应急预订"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源尝试无公开价；CDW 32GB SKU 第三日确认 Discontinued，源进一步收缩"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32GB/64GB/128GB 主值",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值仍为陈旧重复样本；CDW 旁证高于主值 +24~37%（64GB 首次上行 +5.0%），待跨源验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "查过多源仍无公开现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "查过多源仍无公开现货价"
+    }
+  ],
+  "fxRate": 8.19,
+  "mainValues": {
+    "DDR5-6400 32GB": 11294,
+    "DDR5-6400 64GB": 18608,
+    "DDR5-6400 128GB": 52651,
+    "DDR5-5600 32GB": 9190,
+    "DDR5-5600 64GB": 18595,
+    "DDR5-5600 128GB": 46600,
+    "PCIe4 TLC 3.84TB": 18705,
+    "PCIe4 TLC 7.68TB": 26866,
+    "PCIe4 TLC 15.36TB": 43739,
+    "PCIe4 TLC 30.72TB": 113896,
+    "PCIe5 TLC 3.84TB": 26699,
+    "PCIe5 TLC 7.68TB": 39271,
+    "PCIe5 TLC 15.36TB": 54292,
+    "PCIe5 TLC 30.72TB": 207772,
+    "PCIe4 QLC 15.36TB": 68247,
+    "PCIe4 QLC 30.72TB": 133071,
+    "PCIe4 QLC 61.44TB": 258165,
+    "PCIe4 QLC 122.88TB": 426126
+  },
+  "executionNote": "🗓️周日Day135·巩固日·主值全列carry(09-05未落盘·锚点按自然日顺延)。✅CDW全锚点零回调第三日:9550Pro30.72TB Day40·7450PRO Day63(连续第六日提取成功)·3.84/15.36TB Day34。✅QLC P5336 4/4第三观察日。⚠️CDW 64GB5600 Backordered首次上行+5.0%·DDR5旁证首次变动。📌KOSPI 9/3收盘修正6,579.48·9/4收6,687.21(+1.64%)。✅博通Q3 AI$16.7B(+221%)·FY28$230B。🆕Micron押注AI存储·NVHBM传闻·韩散户杠杆ETF·华尔街防御。⚠️DatacenterDisk第三日不可达。五品类buy_now(QLC split_buy)。"
+}
