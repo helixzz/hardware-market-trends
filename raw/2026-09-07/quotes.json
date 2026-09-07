@@ -1,0 +1,50 @@
+{
+  "date": "2026-09-07",
+  "fetchedAt": "2026-09-07T09:09:00+08:00",
+  "fxRate": 8.19,
+  "sources": {
+    "cdw": {
+      "9550 Pro 30.72TB #8215733": {"price": 25368.99, "msrp": 28273.99, "note": "跳涨后第十八天维持 Day41(9/5未落盘·按自然日顺延)"},
+      "9550 Pro 3.84TB E3.S #8215732": {"msrp": 5347.99, "ad": 3259.99, "note": "Day35 不变"},
+      "9550 Pro 15.36TB U.2 #8215730": {"msrp": 15504.99, "ad": 13521.99, "note": "Day35 不变"},
+      "7450 PRO 7.68TB #7085698": {"list": 11317.39, "ad": 3279.99, "note": "Day64 连续第七日价格字段成功提取"},
+      "Solidigm P5336 15.36TB #7741004": {"price": 8332.99, "stock": "In Stock(83)"},
+      "Solidigm P5336 30.72TB #7785180": {"price": 16247.99, "stock": "In Stock(19)"},
+      "Solidigm P5336 61.44TB #7785193": {"price": 31521.99, "stock": "4-6+ Weeks"},
+      "Solidigm P5336 61.44TB #7822348": {"price": 31521.99, "stock": "4-6+ Weeks"},
+      "Solidigm P5336 122.88TB #8455168": {"price": 52029.99, "stock": "4-6+ Weeks"},
+      "Micron 6500 ION 30.72TB #7467127": {"msrp": 23739.99, "ad": 20547.99, "stock": "1-3+ Days"},
+      "Micron DDR5 128GB 6400 #8439578": {"msrp": 6970.8, "ad": 6712.99, "stock": "In Stock", "note": "第四日旁证·较主值+4.4%"},
+      "Micron DDR5 64GB 5600 #7825825": {"ad": 2819.99, "stock": "Backordered", "note": "Backordered维持·上行后第二日"},
+      "Micron DDR5 128GB 5600 #7946438": {"ad": 7797.99},
+      "Micron DDR5 32GB 6400 #8505971": {"stock": "Discontinued", "note": "第四日确认"}
+    },
+    "datacenterdisk": {
+      "status": "RECOVERED",
+      "ddr5_median_per_gb": 38.48,
+      "note": "恢复可达(HTTP 200)·DDR5中位$38.48/GB ▲+3.9% WoW·49模块跟踪/41现货·32GB DDR5-5600 Kingston $999.99(¥8,190)·64GB DDR5-5600 Kingston $2,064.00(¥16,904)·96GB DDR5-6400 NEMIX $4,082.99(¥33,440)"
+    },
+    "cheapestssd": {"gen4_per_tb_usd": 105.0, "sata_per_tb_usd": 94.2, "note": "消费级参考·非企业级口径"},
+    "corewavelabs": {"status": "200", "note": "DDR5-6400/5600 筛选页可达但价格字段经JS渲染·未提取到新企业级公开价"},
+    "disctech": {"status": "200", "note": "主页可达·今日未提取到新企业级报价"}
+  },
+  "marketData": {
+    "kospi_2026-09-07": {"note": "OpenAI GPT-6 Astra(9/3发布)点燃芯片股:早盘Samsung +3.72~3.91%(265,500KRW)·SK Hynix +4.43~5.46%(1,737,000KRW)·KOSPI盘中大涨近3%·SK Hynix ADR +8.14%/Micron +6.10%(Chosun/SEDaily/Bloomingbit/ICO-Optics)"},
+    "kospi_2026-09-04": {"close": 6687.21, "change_pct": 1.64, "note": "已计入昨日日报"},
+    "samsung_skhynix_inventory": "Samsung/SK Hynix记忆体库存降至10天以下·KB证券预测明年史上最紧供给(SEDaily 9/7)",
+    "nand_asp": "NAND ASP Q3/Q4 2026 同比+250%以上预期(storagediskprices/Pomegra)",
+    "trendforce_q2_essd": "Top5企业级SSD厂商2Q26营收近$37.59B·量价齐升(TrendForce/DRAMeXchange)"
+  },
+  "newsSignals": {
+    "openai_gpt6_astra": "OpenAI GPT-6 Astra 9/3发布·1M context·$10/$50每百万token·带动全球存储/芯片股大涨·AGI预期+40万Nvidia GPU部署叙事",
+    "chip_diplomacy": "WSJ:美国以英伟达芯片采购许可为筹码促成亚美尼亚-阿塞拜疆初步和平协议·'芯片外交'·出口管制交易化",
+    "korea_power_merge": "Nikkei:韩国2027年10月合并5家电力公司·为AI/芯片用电铺路·电力成算力第一约束",
+    "amd_threadripper_halo": "AMD Threadripper Halo Station:96核+576GB HBM3E工作站·HBM需求长尾化(IFA/TechSpot)",
+    "us_cpi_week": "本周五美国8月CPI+ECB加息预期·FOMC静默期·数据主导风险偏好(WSJ)",
+    "vmware_ai_factory": "博通VMware Explore:私有AI云+AI工厂·企业本地化推理(验证Nemotron3/Gemma4/Qwen3.7/GLM-5.2)",
+    "china_ai_strategy": "北京将前沿AI定位为战略资产·投资者转向中国AI衍生品"
+  },
+  "run_notes": [
+    "🗓️周一Day136·巩固日·主值全列carry。✅CDW全锚点零回调第四日:9550Pro30.72TB$25,368.99跳涨后第十八天维持Day41·7450PRO连续第七日价格字段成功提取Day64(追踪史绝对最长)·3.84/15.36TB Day35·QLC P5336 4/4第四观察日。✅DatacenterDisk恢复可达(连续三日不可达后):DDR5中位$38.48/GB▲+3.9% WoW·32GB 5600 Kingston $999.99·64GB 5600 Kingston $2,064.00——与主值方向一致。🚀OpenAI GPT-6 Astra(9/3发布)点燃芯片股:KOSPI盘中大涨近3%·Samsung+3.72~3.91%/SK Hynix+4.43~5.46%·SKHynix ADR+8.14%/Micron+6.10%。🔴Samsung/SKHynix记忆体库存降至10天以下·KB证券预测明年史上最紧供给。🆕WSJ芯片外交(亚美尼亚-阿塞拜疆)·韩国电力整合·AMD 576GB HBM工作站·本周五美CPI。⚠️CDW 32GB6400 Discontinued第四日·64GB5600 Backordered上行后第二日维持。五品类buy_now(QLC split_buy)。"
+  ]
+}
