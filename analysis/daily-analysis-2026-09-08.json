@@ -1,0 +1,100 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "Yahoo Finance Chart API",
+    "memory.net (403)",
+    "ServerSupply (403)",
+    "CoreWaveLabs",
+    "DiscTech",
+    "cheapestssd",
+    "DatacenterDisk retry"
+  ],
+  "newSourcesWithUsefulData": [
+    "Yahoo Finance chart (KOSPI 9/7 close 6995.39 +4.61%; 9/8 7069.76 >7000; Samsung 270000 +5.67%; SK Hynix 1783000 +8.26%)"
+  ],
+  "keyChangesVsYesterday": [
+    "KOSPI 9/7 close 6995.39 (+4.61%)；9/8 intraday 7069.76 突破 7000——2026 年来首次；昨日「盘中 +3%」为口径修正",
+    "DatacenterDisk 恢复一日后二次失效（HTTP 000），Kingston 独立校验缺失",
+    "CDW 全锚点零回调第五日：9550 Pro 30.72TB Day 42、7450 PRO Day 65（连续第八日提取）、QLC P5336 4/4 第五观察日",
+    "三星推动 3Q26 DRAM 合约价 QoQ 最多 +20%（ZDNet 转述，未官方确认）",
+    "Fusion：64GB DDR5-5600 开放市场 $2,841，与 CDW Backorder $2,819.99 互证"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB 6400 In Stock 第五日 +4.4%；32GB Discontinued 第五日源收缩；三星 3Q26 DRAM +20% 预期"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB 5600 Backordered 第三日维持 +24.2%；Fusion $2,841 互证；KOSPI 破 7000"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 65 零回调（连续第八日提取成功）；NAND ASP 预期延续"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 42 新价格层级不可逆；3.84/15.36TB 零回调"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "4/4 第五观察日；30.72TB In Stock ¥133,071 分批锁定；61.44/122.88TB 4-6+ 周应急预订"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源仍无公开企业级现货价；CDW 32GB 6400 SKU Discontinued 第五日"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32/64/128GB 主值",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值全列 carry；CDW 旁证 +24~37% 与 Fusion 开放市场互证缺货溢价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    }
+  ]
+}
