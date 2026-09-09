@@ -1,22 +1,22 @@
 {
-  "generatedAt": "2026-09-08T09:00:00+08:00",
-  "previousGeneratedAt": "2026-09-07T09:15:00+08:00",
+  "generatedAt": "2026-09-09T09:00:00+08:00",
+  "previousGeneratedAt": "2026-09-08T09:00:00+08:00",
   "cutoffDate": null,
-  "trackingRows": 155,
-  "executionNote": "Day137(2026-09-08) 巩固日：主值全列 carry。CDW 全锚点零回调第五日：9550Pro 30.72TB Day42、7450PRO 连续第八日提取成功 Day65、3.84/15.36TB Day36、QLC P5336 4/4 第五观察日。KOSPI 9/7 收盘 6,995.56(+4.61%)、9/8 盘中 7,069.76 破 7,000（2026 首次）；Samsung 270,000(+5.67%)、SK Hynix 1,783,000(+8.26%)。新增 Yahoo Finance Chart API。Fusion 64GB DDR5-5600 开放市场 $2,841 互证。三星 3Q26 DRAM 合约 +20%QoQ（未证实）。DatacenterDisk 二次失效。五品类建议维持（QLC split_buy）。",
+  "trackingRows": 156,
+  "executionNote": "Day138(2026-09-09) 巩固日：主值全列 carry。CDW 全锚点零回调第六日：9550Pro 30.72TB Day43（跳涨后第二十天）、7450PRO 连续第九日提取成功 Day66（追踪史绝对最长）、3.84/15.36TB Day37、QLC P5336 4/4 第六观察日。KOSPI 9/9 收盘 7,013.15(+0.84%)——首次收盘站上 7,000（2026 级）：Samsung 270,500(+0.37%)、SK Hynix 1,830,000(+2.06%)。CDW 128GB 5600 库存 Backorder→2-4+Days（价格不变）。DatacenterDisk 连续第二日 DNS 不可达，Kingston 独立校验缺失。五品类建议维持（QLC split_buy）。",
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-09-08",
+      "latestDate": "2026-09-09",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "Day137 3/5 carry。CDW 旁证第五日：128GB6400 $6,712.99 InStock(+4.4%)·32GB6400 SKU Discontinued 第五日（源收缩）。16GB no_public_sample。三星 3Q26 +20% 预期（未证实）。"
+        "note": "Day138 3/5 carry。CDW旁证第六日：128GB6400 $6,712.99 1-3+Days(+4.4%)·32GB6400 SKU Discontinued第六日（源收缩）。16GB no_public_sample。三星3Q26 +20% 预期（未证实）。KOSPI收盘破7000。"
       },
       "averageCoverage14d": 2.1,
       "trend": "up",
-      "trendNote": "128GB 6400 InStock +4.4% 第五日；32GB 停产第五日；三星 3Q26 合约 +20% 预期；GPT-6 Astra 需求叙事延续。",
-      "sourceHealthNote": "CDW 旁证第五日。DatacenterDisk 二次失效（HTTP 000）。Yahoo Finance API 新增。",
+      "trendNote": "128GB 6400 1-3+Days 第六日维持 +4.4%；32GB Discontinued 第六日；三星 3Q26 合约 +20% 预期；KOSPI 首次收盘站上 7,000。",
+      "sourceHealthNote": "CDW 旁证第六日。DatacenterDisk 连续第二日不可达。Yahoo Finance API 稳定。",
       "latestValues": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
@@ -39,16 +39,16 @@
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-09-08",
+      "latestDate": "2026-09-09",
       "latestCoverage": {
         "filled": 3,
         "total": 5,
-        "note": "Day137 3/5 carry，主值全列 stale_repeated_sample。CDW 64GB 5600 Backordered $2,819.99 第三日维持(+24.2%)、128GB $7,797.99(+37.0%)。Fusion 市场 $2,841 互证。DatacenterDisk 二次失效，Kingston 独立校验缺失。"
+        "note": "Day138 3/5 carry，主值全列 stale_repeated_sample。CDW 64GB 5600 Backordered 第四日维持 $2,819.99(+24.0%)；128GB 5600 库存 Backorder→2-4+Days（价格 $7,797.99 不变）。DatacenterDisk 二次失效后连续第二日不可达，Kingston 独立校验缺失。"
       },
       "averageCoverage14d": 2.1,
       "trend": "up",
-      "trendNote": "Backordered 溢价第三日维持；Fusion $2,841 互证；三星 3Q26 +20% 预期；KOSPI 破 7,000。",
-      "sourceHealthNote": "DatacenterDisk 二次失效（HTTP 000），Kingston 独立校验缺失；CDW 旁证 + Fusion 互证维持。",
+      "trendNote": "Backordered 溢价第四日维持；128GB 5600 库存微改善但价格不变；Fusion $2,841 互证；KOSPI 收盘破 7,000。",
+      "sourceHealthNote": "DatacenterDisk 连续第二日不可达（DNS 失败），Kingston 独立校验缺失；CDW 旁证 + Fusion 互证维持。",
       "latestValues": {
         "DDR5-5600 32GB": 9190,
         "DDR5-5600 64GB": 18595,
@@ -69,15 +69,15 @@
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-09-08",
+      "latestDate": "2026-09-09",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "Day137 4/5 carry。7450PRO 7.68TB 连续第八日价格字段成功提取 $3,279.99(Ad)/$11,317.39(List) Day65 零回调，追踪史绝对最长纪录延续。1.92TB no_public_sample。"
+        "note": "Day138 4/5 carry。7450PRO 7.68TB 连续第九日价格字段成功提取 $3,279.99(Ad)/$11,317.39(List) Day66 零回调，追踪史绝对最长纪录延续。1.92TB no_public_sample。"
       },
       "averageCoverage14d": 3.0,
       "trend": "flat_or_mixed",
-      "trackingLagWarning": "7450 PRO 7.68TB CDW $3,279.99 Ad 连续第八日提取成功——Day65 零回调，追踪史绝对最长单一连续锚点纪录延续。",
+      "trackingLagWarning": "7450 PRO 7.68TB CDW $3,279.99 Ad 连续第九日提取成功——Day66 零回调，追踪史绝对最长单一连续锚点纪录延续。",
       "latestValues": {
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 26866,
@@ -101,27 +101,27 @@
           "low": 26866,
           "high": 26866,
           "median": 26866,
-          "note": "CDW Micron 7450 PRO #7085698 Ad $3,279.99 / List $11,317.39——Day65 零回调，连续第八日提取成功。"
+          "note": "CDW Micron 7450 PRO #7085698 Ad $3,279.99 / List $11,317.39——Day66 零回调，连续第九日提取成功。"
         }
       },
       "missingColumns": [
         "1.92TB"
       ],
-      "sourceHealthNote": "7450PRO 连续第八日提取成功 · Day65 零回调延续。NAND ASP 上行叙事延续。",
-      "trendNote": "7450PRO Day65 零回调延续。BUY_NOW 维持。",
+      "sourceHealthNote": "7450PRO 连续第九日提取成功 · Day66 零回调延续。NAND ASP 上行叙事延续。",
+      "trendNote": "7450PRO Day66 零回调延续。BUY_NOW 维持。",
       "coverage14d": 3
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-09-08",
+      "latestDate": "2026-09-09",
       "latestCoverage": {
         "filled": 4,
         "total": 5,
-        "note": "Day137。9550 Pro 30.72TB $25,368.99 跳涨后第十九天维持 Day42——不可逆。3.84TB Ad $3,259.99 不变 Day36。15.36TB U.2 Ad $13,521.99 不变 Day36。1.92TB no_public_sample。"
+        "note": "Day138。9550 Pro 30.72TB $25,368.99 跳涨后第二十天维持 Day43——不可逆。3.84TB Ad $3,259.99(2-4+Days) 不变 Day37。15.36TB U.2 Ad $13,521.99(In Stock) 不变 Day37。1.92TB no_public_sample。"
       },
       "averageCoverage14d": 4.3,
       "trend": "up",
-      "trendNote": "9550Pro 30.72TB 跳涨后第十九天维持 $25,368.99——新价格层级不可逆（Day42）。3.84/15.36TB 不变。",
+      "trendNote": "9550Pro 30.72TB 跳涨后第二十天维持 $25,368.99——新价格层级不可逆（Day43）。3.84/15.36TB 不变。",
       "latestValues": {
         "PCIe5 TLC 3.84TB": 26699,
         "PCIe5 TLC 7.68TB": 39271,
@@ -143,16 +143,16 @@
       "missingColumns": [
         "1.92TB"
       ],
-      "sourceHealthNote": "CDW 全锚点零回调第五日。9550Pro Day42、3.84/15.36TB Day36。",
+      "sourceHealthNote": "CDW 全锚点零回调第六日。9550Pro Day43、3.84/15.36TB Day37。",
       "coverage14d": 5
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-09-08",
+      "latestDate": "2026-09-09",
       "latestCoverage": {
         "filled": 4,
         "total": 4,
-        "note": "Day137 · 4/4 第五观察日维持。CDW Solidigm P5336：15.36TB $8,332.99(InStock 83)/30.72TB $16,247.99(InStock 19)/61.44TB $31,521.99 双SKU(4-6+周)/122.88TB $52,029.99(4-6+周)。"
+        "note": "Day138 · 4/4 第六观察日维持。CDW Solidigm P5336：15.36TB $8,332.99(In Stock 83)/30.72TB $16,247.99(In Stock 19)/61.44TB $31,521.99 双SKU(4-6+周)/122.88TB $52,029.99(4-6+周)。"
       },
       "averageCoverage14d": 4.3,
       "trend": "flat_or_mixed",
@@ -175,9 +175,9 @@
         "PCIe4 QLC 122.88TB": 426126
       },
       "missingColumns": [],
-      "trendNote": "QLC 4/4 第五观察日维持。30.72TB 口径 Solidigm P5336(¥133,071·InStock 19)。采购建议维持 split_buy·建议锁定 30.72TB 现货。",
+      "trendNote": "QLC 4/4 第六观察日维持。30.72TB 口径 Solidigm P5336(¥133,071·In Stock 19)。采购建议维持 split_buy·建议锁定 30.72TB 现货。",
       "coverage14d": 5,
-      "sourceHealthNote": "CDW Solidigm P5336 全系公开价第五观察日维持。6500 ION 30.72TB Ad $20,547.99 旁证。"
+      "sourceHealthNote": "CDW Solidigm P5336 全系公开价第六观察日维持。6500 ION 30.72TB Ad $20,547.99 旁证。"
     }
   },
   "recentRunNotes": {

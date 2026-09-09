@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "CDW full anchor set (13 SKUs, direct curl + product pages)",
+    "Yahoo Finance Chart API (KOSPI/Samsung/SK Hynix daily closes)",
+    "DatacenterDisk retry (DNS dead, day 2)",
+    "memory.net (403)",
+    "ServerSupply (403)",
+    "ShopBLT (403)",
+    "Provantage (403)",
+    "CoreWaveLabs (200, no new prices)",
+    "DiscTech (200, no new prices)",
+    "cheapestssd (consumer reference)",
+    "TrendForce / storagediskprices / tech-insider / techtimes (narrative)"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW product-page stock_status fields (new: 9550 Pro 30.72TB 4-6+ Weeks, 128GB 5600 2-4+ Days, 9550 Pro 3.84TB 2-4+ Days)",
+    "Yahoo Finance daily closes: KOSPI 9/9 close 7013.15 (+0.84%) first close above 7000"
+  ],
+  "keyChangesVsYesterday": [
+    "KOSPI 9/9 收盘 7,013.15（+0.84%）——首次收盘站稳 7,000 上方；Samsung 270,500 / SK Hynix 1,830,000（+2.06%）",
+    "CDW 全锚点零回调第六日：9550 Pro 30.72TB Day 43、7450 PRO Day 66（连续第九日提取）、3.84/15.36TB Day 37",
+    "QLC P5336 4/4 第六观察日维持",
+    "CDW 128GB 5600 库存状态 Backorder → 2-4+ Days（价格 $7,797.99 不变）；64GB 5600 Backordered 第四日维持",
+    "DatacenterDisk DNS 不可达连续第二日，Kingston 独立校验继续缺失",
+    "三星 3Q26 DRAM 合约 +20% QoQ 传闻仍未官方确认"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB 6400 In Stock 第六日高于主值 +4.4%；32GB 6400 SKU Discontinued 第六日源收缩；三星 3Q26 DRAM 合约 +20% 预期（未证实）"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB 5600 Backordered 第四日维持（较主值 +24.2%）；128GB 5600 2-4+ Days（较主值 +37%）；KOSPI 收盘破 7000 金融侧继续向上"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 66 零回调（连续第九日提取）；NAND ASP 上行叙事延续"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 43 新价格层级不可逆；3.84/15.36TB 零回调"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "4/4 第六观察日；30.72TB In Stock ¥133,071 分批锁定；61.44/122.88TB 仅 4-6+ 周应急预订"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB/64GB/128GB 主源",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值连续 carry；CDW 旁证 128GB 6400 第六日 +4.4%"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源仍无公开企业级现货价；CDW 32GB SKU Discontinued 第六日"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32/64/128GB 主值",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值全列 carry；CDW 旁证 +24~37% 与 Fusion 开放市场互证缺货溢价"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    }
+  ]
+}
