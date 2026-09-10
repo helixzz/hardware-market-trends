@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T09:25:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "CDW full anchor set (14 SKUs, direct curl product pages)",
+    "Yahoo Finance Chart API 7d candles (KOSPI/Samsung/SK Hynix revision)",
+    "frankfurter.dev FX API (USDCNY reference, new)",
+    "Exxact (200, no new prices)",
+    "Wiredzone (200, no new prices)",
+    "Zones (403)",
+    "Tech-America (403)",
+    "MemoryC (403)",
+    "DatacenterDisk retry (DNS dead, day 3)",
+    "memory.net / ServerSupply / ShopBLT / Provantage (403)",
+    "CoreWaveLabs / DiscTech (200, no new prices)",
+    "TrendForce / CTOL / SeekingAlpha / The Register / Motley Fool (narrative)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Yahoo Finance Chart API 7d K线: 修正KOSPI 9/9破7000误读 (9/9无收盘bar, 最新确认收盘9/8=6954.52)",
+    "frankfurter.dev: USDCNY=6.7078 (2026-09-09) 汇率参考",
+    "CDW P5336 15.36TB stock_inventory 83→57 (库存微降观察)"
+  ],
+  "keyChangesVsYesterday": [
+    "🚨 数据订正: 昨日KOSPI 9/9收盘7,013.15破7,000为盘中读数误读——9/9无完整收盘bar, 最新确认收盘9/8=6,954.52; 今日KST盘中约6,964-6,978(-1.0%上下)仍在7,000下方, 7,000上方收盘记录仍为空",
+    "CDW 全锚点零回调第七日: 9550 Pro 30.72TB Day 44 (跳涨后第二十一天), 7450 PRO Day 67 (连续第十日提取, 追踪史绝对最长), 3.84/15.36TB Day 38",
+    "QLC P5336 4/4 第七观察日维持; 15.36TB 现货库存 83→57 微降",
+    "Samsung/SK Hynix 今日盘中 -1.2% 左右小幅回落, GPT-6 Astra 行情后高位整固",
+    "GF Securities (09-10): NAND 供应开始趋稳 (首个SSD侧降温信号, 尚未传导至现货报价)",
+    "DatacenterDisk DNS 不可达连续第三日, Kingston 独立校验继续缺失"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB 6400 CDW旁证第七日 +4.4%; 32GB 6400 Discontinued 第七日源收缩; TrendForce 3Q26 server DRAM合约+13-18%·全年约+270%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB 5600 Backordered 第五日(+24.2%); 128GB 5600 2-4+天(+37.0%); Kingston独立校验缺失下以CDW旁证为准"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 67 连续第十日提取(底部稳定); NAND ASP上行叙事延续, GF Securities趋稳信号仅背景参考"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 44 新价格层级不可逆; 3.84/15.36TB Day 38 零回调"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "4/4 第七观察日; 30.72TB In Stock ¥133,071 分批锁定; 15.36TB库存83→57微降; 61.44/122.88TB仅4-6+周应急预订"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源仍无公开企业级现货价; CDW 32GB SKU Discontinued 第七日"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32/64/128GB 主值",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值全列carry; CDW旁证+24~37%; DatacenterDisk三连失·Kingston独立校验缺失"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    }
+  ],
+  "corrections": [
+    {
+      "dateAffected": "2026-09-09",
+      "field": "KOSPI 收盘",
+      "was": "7,013.15 (+0.84%) 首次收盘站上7,000",
+      "now": "9/9无完整收盘bar (盘中读数误读); 最新确认收盘 9/8=6,954.52; 今日盘中约6,964-6,978仍在7,000下方",
+      "note": "Yahoo Chart API 7日K线复核, 序列表7,000上方收盘记录为空"
+    }
+  ]
+}
