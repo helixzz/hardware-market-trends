@@ -1,0 +1,193 @@
+{
+  "date": "2026-09-11",
+  "fetchedAt": "2026-09-11T09:15:00+08:00",
+  "fxRate": 8.18,
+  "fxNote": "含税估算口径沿用(序列一致)。原始汇率参考: frankfurter 2026-09-10 USDCNY=6.7063",
+  "sources": {
+    "cdw": {
+      "9550 Pro 30.72TB #8215733": {
+        "price": 25368.99,
+        "msrp": 28273.99,
+        "stock": "4-6+ Weeks",
+        "note": "跳涨后第二十二天维持 跳涨Day45"
+      },
+      "9550 Pro 3.84TB E3.S #8215732": {
+        "msrp": 5347.99,
+        "ad": 3259.99,
+        "stock": "2-4+ Days",
+        "note": "Day39 不变"
+      },
+      "9550 Pro 15.36TB U.2 #8215730": {
+        "msrp": 15504.99,
+        "ad": 13521.99,
+        "stock": "In Stock",
+        "stockQty": 78,
+        "note": "Day39 不变·新增stockQty字段(78)"
+      },
+      "7450 PRO 7.68TB #7085698": {
+        "list": 11317.39,
+        "ad": 3279.99,
+        "stock": "1-3+ Days",
+        "note": "Day68 连续第十一日价格字段成功提取"
+      },
+      "Solidigm P5336 15.36TB #7741004": {
+        "price": 8332.99,
+        "stock": "In Stock",
+        "stockQty": 75,
+        "note": "HTML stock_inventory=75; 昨日quotes.json记75/日报正文记57——发现前后不一致,以HTML原始值75为准"
+      },
+      "Solidigm P5336 30.72TB #7785180": {
+        "price": 16247.99,
+        "stock": "In Stock",
+        "stockQty": 19
+      },
+      "Solidigm P5336 61.44TB #7785193": {
+        "price": 31521.99,
+        "stock": "4-6+ Weeks"
+      },
+      "Solidigm P5336 61.44TB #7822348": {
+        "price": 31521.99,
+        "stock": "4-6+ Weeks"
+      },
+      "Solidigm P5336 122.88TB #8455168": {
+        "price": 52029.99,
+        "stock": "4-6+ Weeks"
+      },
+      "Micron 6500 ION 30.72TB #7467127": {
+        "msrp": 23739.99,
+        "ad": 20547.99,
+        "stock": "1-3+ Days",
+        "note": "高价替代线旁证维持"
+      },
+      "Micron DDR5 128GB 6400 #8439578": {
+        "msrp": 6970.8,
+        "ad": 6712.99,
+        "stock": "1-3+ Days",
+        "note": "第八日旁证·较主值+4.4%"
+      },
+      "Micron DDR5 64GB 5600 #7825825": {
+        "ad": 2954.99,
+        "stock": "Item Backordered",
+        "note": "🚨价格上行$2,819.99→$2,954.99(+4.8%)·Backordered第六日·较主值+24.2%→+30.2%——9/6以来DDR5旁证首次再上行"
+      },
+      "Micron DDR5 128GB 5600 #7946438": {
+        "ad": 7797.99,
+        "stock": "2-4+ Days",
+        "note": "第三日维持2-4+天·较主值+37.0%"
+      },
+      "Micron DDR5 32GB 6400 #8505971": {
+        "stock": "Discontinued",
+        "note": "第八日确认"
+      }
+    },
+    "datacenterdisk": {
+      "status": "UNREACHABLE",
+      "note": "连续第四日DNS不可达(HTTP 000)·Kingston独立校验缺失"
+    },
+    "yahoo_finance": {
+      "status": "OK_BUT_INCONSISTENT",
+      "note": "不同range返回不一致: 5d/7d: 9/9 close=7051.64·9/10无bar·9/11盘中6834-6837(-2.8%); 1mo: 9/10 close=6869.83·9/11盘中6471.17。两区间9/11读数相差~363点——数据可靠性问题,今日以5d/7d的meta regularMarketPrice=6836为准并标注分歧"
+    },
+    "frankfurter_fx": {
+      "status": "OK",
+      "note": "USDCNY=6.7063(2026-09-10)·汇率校验源"
+    },
+    "corewavelabs": {
+      "status": "200",
+      "note": "可达·无新企业级公开价"
+    },
+    "disctech": {
+      "status": "200",
+      "note": "可达·无新企业级公开价"
+    },
+    "exxact": {
+      "status": "200",
+      "note": "可达·搜索页无新企业级公开价"
+    },
+    "cheapestssd": {
+      "status": "200",
+      "note": "消费级对照可达"
+    },
+    "memory_net": {
+      "status": "403",
+      "note": "反爬拦截"
+    },
+    "serversupply": {
+      "status": "403",
+      "note": "反爬拦截"
+    },
+    "shopblt": {
+      "status": "403",
+      "note": "反爬拦截"
+    },
+    "provantage": {
+      "status": "403",
+      "note": "反爬拦截"
+    },
+    "zones": {
+      "status": "403",
+      "note": "反爬拦截"
+    },
+    "memoryc": {
+      "status": "403",
+      "note": "反爬拦截"
+    },
+    "connection": {
+      "status": "403",
+      "note": "反爬拦截(新增尝试)"
+    },
+    "wiredzone": {
+      "status": "404",
+      "note": "搜索页404(新增尝试)"
+    },
+    "techamerica": {
+      "status": "000",
+      "note": "连接失败(新增尝试)"
+    },
+    "saitech": {
+      "status": "000",
+      "note": "连接失败(新增尝试)"
+    }
+  },
+  "marketData": {
+    "kospi_2026-09-09": {
+      "close": 7051.64,
+      "note": "Yahoo 5d/7d今日回填显示9/9有收盘bar=7051.64(昨日报'9/9无bar'或为当日拉取时点问题); 但1mo区间给9/9=6977.94——两区间分歧,收盘破7000结论仍存疑,谨慎标注"
+    },
+    "kospi_2026-09-10": {
+      "close": 6869.83,
+      "note": "1mo区间值(-2.6% vs 7051.64)·5d区间无bar·高位回落"
+    },
+    "kospi_2026-09-11_intraday": {
+      "price": 6836.35,
+      "change_pct": -2.84,
+      "note": "KST盘中/最新·risk-off延续·两区间高分歧(1mo 6471)"
+    },
+    "samsung_2026-09-10": {
+      "close": 269000,
+      "change_pct": -0.19
+    },
+    "samsung_2026-09-11": {
+      "close": 258750,
+      "change_pct": -3.81,
+      "note": "自9/7高点270,000回落-4.2%"
+    },
+    "skhynix_2026-09-10": {
+      "close": 1853000
+    },
+    "skhynix_2026-09-11": {
+      "close": 1775000,
+      "change_pct": -4.21,
+      "note": "自9/7高点1,830,000回落-3.0%"
+    },
+    "smic_2026-09-10": {
+      "a_close": 119.18,
+      "h_close": 63.45,
+      "note": "Yahoo数据·A股/H股均回落(9/11盘中A-1.1%/H-2.4%)"
+    },
+    "trendforce_q3_server_dram": "3Q26 server DRAM合约+13-18% QoQ·NAND +10-15%·全年约+270%(沿用)"
+  },
+  "run_notes": [
+    "🗓️周五Day139·巩固日·主值全列carry。✅CDW全锚点零回调第八日:9550Pro 30.72TB跳涨后第二十二天维持Day45·7450PRO连续第十一日价格字段成功提取Day68(追踪史绝对最长)·3.84/15.36TB Day39。✅QLC P5336 4/4第八观察日维持(15.36TB InStock75/30.72TB InStock19)。⚠️DDR5 64GB 5600 CDW旁证价格首次再上行$2,819.99→$2,954.99(+4.8%·较主值+30.2%·Backordered第六日)——9/6以来DDR5旁证首次变动,买压信号强化。🔴金融侧risk-off:KOSPI盘中~-2.8%·Samsung -3.81%·SKHynix -4.21%——GPT-6行情高位回落,金融实物反向背离。⚠️Yahoo不同区间KOSPI数据分歧(5d与1mo差~360点)·可靠性存疑已标注。⚠️DatacenterDisk DNS不可达第四日。📌昨日QLC库存口径不一致(日报57 vs quotes.json 75)已订正为75(HTML原始值)。五品类建议维持:buy_now/DDR5-5600强化(QLC split_buy·锁定30.72TB现货)。"
+  ]
+}

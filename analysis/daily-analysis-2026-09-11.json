@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T09:25:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "CDW full anchor set (14 SKUs, direct curl product pages)",
+    "Yahoo Finance Chart API (KOSPI/Samsung/SK Hynix/SMIC multi-range cross-check)",
+    "frankfurter.dev FX API (USDCNY=6.7063, 2026-09-10)",
+    "Connection (403)",
+    "Wiredzone search (404)",
+    "TechAmerica (000 connection fail)",
+    "Saitech (000 connection fail)",
+    "Exxact search (200, no new prices)",
+    "CoreWaveLabs / DiscTech (200, no new prices)",
+    "DatacenterDisk retry (DNS dead, day 4)",
+    "memory.net / ServerSupply / ShopBLT / Provantage / Zones / MemoryC (403)",
+    "cheapestssd (consumer benchmark, 200)"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW 14 SKU 直连复核: 全锚点零回调第八日 (9550Pro Day45 / 7450PRO Day68 连续第十一日提取 / 3.84·15.36 Day39)",
+    "🚨 CDW 64GB 5600 Backordered 价格再上行 $2,819.99→$2,954.99 (+4.8%, 较主值+30.2%)——9/6以来DDR5旁证首次变动",
+    "CDW 15.36TB 9550 Pro stockQty=78 新增可见库存字段",
+    "Yahoo 多区间交叉: KOSPI 9/9收盘数据分歧 (5d=7,051.64 vs 1mo=6,977.94), 9/11盘中约-2.8%"
+  ],
+  "keyChangesVsYesterday": [
+    "DDR5-5600买压强化: CDW 64GB 5600 Backordered 第六日价格再上行 +4.8% ($2,819.99→$2,954.99), 较主值溢价+24.2%→+30.2% — 9/6以来DDR5旁证首次变动",
+    "金融侧risk-off: KOSPI盘中~-2.8% (Yahoo区间分歧已标注), Samsung -3.81%, SKHynix -4.21% — GPT-6行情高位回落, 金融实物再次反向背离",
+    "CDW全锚点零回调第八日: 9550Pro 30.72TB Day45, 7450PRO Day68 (连续第十一日提取, 追踪史绝对最长), 3.84/15.36TB Day39",
+    "QLC P5336 4/4 第八观察日维持 (15.36TB In Stock 75, 30.72TB In Stock 19)",
+    "数据订正: 昨日QLC 15.36TB库存口径(日报57 vs quotes.json 75)统一为75 (HTML stock_inventory=75)",
+    "DatacenterDisk DNS不可达连续第四日, Kingston独立校验继续缺失"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB 6400 CDW旁证第八日 +4.4%; 32GB 6400 Discontinued 第八日源收缩; TrendForce 3Q26 server DRAM合约+13-18%·全年约+270%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "🚨64GB 5600 Backordered第六日价格再上行+4.8%($2,954.99·较主值+30.2%)——9/6以来DDR5旁证首次变动, 买压信号强化; 128GB 5600 2-4+天(+37.0%); Kingston独立校验缺失下以CDW旁证+方向为准"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day 68 连续第十一日提取(底部稳定); NAND ASP上行叙事延续, GF Securities趋稳信号仅背景参考"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB Day 45 新价格层级不可逆; 3.84/15.36TB Day 39 零回调; 15.36TB 现货库存78可见"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "4/4 第八观察日; 30.72TB In Stock ¥133,071 建议分批锁定; 15.36TB In Stock 75; 61.44/122.88TB 仅4-6+周应急预订"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "多源仍无公开企业级现货价; CDW 32GB SKU Discontinued第八日"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "32/64/128GB 主值",
+      "reasonCode": "stale_repeated_sample",
+      "note": "主值全列carry; CDW旁证64GB再上行(+30.2%)·128GB(+37.0%); DatacenterDisk四连失, Kingston独立校验缺失"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "长期无公开企业级现货价"
+    }
+  ],
+  "corrections": [
+    {
+      "dateAffected": "2026-09-10",
+      "field": "QLC P5336 15.36TB 现货库存",
+      "was": "日报/正文 In Stock 57 (quotes.json 75)",
+      "now": "75 (HTML原始 stock_inventory=75; 昨日quotes.json口径正确, 日报正文误写57)",
+      "note": "以HTML原始值统一口径"
+    },
+    {
+      "dateAffected": "2026-09-09/10",
+      "field": "KOSPI 收盘/盘中",
+      "was": "9/9 收盘 7,013.15 破7,000; 9/10 无收盘bar",
+      "now": "今日拉取5d/7d显示9/9有收盘bar=7,051.64, 但1mo区间给9/9=6,977.94及9/10=6,869.83——两区间点位系统性差异~350-360点, 破7,000存疑; 数据供应商区间不一致问题已被记录在案, 待稳定来源确认",
+      "note": "Yahoo Finance 数据区间不一致, 谨慎处理"
+    }
+  ],
+  "kospiDataReliability": "⚠️ Yahoo Finance 不同 range 参数返回不一致: 5d/7d: 9/9 close=7, 051.64·9/10无bar·9/11盘中6,834-6,836(-2.8%); 1mo: 9/9=6,977.94·9/10=6,869.83·9/11=6,471.17。两区间9/11读数相差~360点。今日以meta regularMarketPrice=6,836.35为准并明确标注分歧; KOSPI收盘破7,000的最终判定待稳定数据源。"
+}
