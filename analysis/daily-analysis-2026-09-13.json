@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T09:18:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "CDW 14 SKU direct curl product pages (all HTTP 200, tenth consecutive zero-change day)",
+    "Newegg search — DDR5 16GB RDIMM & 1.92TB enterprise NVMe (parser_gap RESOLVED, SSR restored)",
+    "Yahoo Finance Chart API (KOSPI/Samsung/SK Hynix — weekend, no new bars, 9/11 close carried)",
+    "frankfurter.dev FX (USDCNY=6.7082, 2026-09-11, reference)",
+    "DatacenterDisk retry (DNS dead, day 6)",
+    "Provantage / Zones (403 bot-block)",
+    "Saitech / TechAmerica (000 connection fail)",
+    "Wiredzone (200 home, search page previously 404)",
+    "CoreWaveLabs / DiscTech / Exxact (200, no new enterprise prices)",
+    "cheapestssd (consumer benchmark, 200)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Newegg search pages: SSR recovered — DDR5-5600 16GB Samsung RDIMM $599.00 (first public sample ever for this slot); PCIe4 1.92TB PM9A3 $1,450 / D7-P5520 $1,575; PCIe5 1.92TB CM7-R U.2 $2,795 / E3.S $2,999 / PM1743 $2,399–3,999 / 7600 Pro $2,232",
+    "CDW tenth consecutive day all-anchor zero change (9550Pro spike Day47 / 7450PRO Day70 / 3.84-15.36TB Day41)"
+  ],
+  "keyChangesVsYesterday": [
+    "Newegg search SSR recovered: yesterday's parser_gap on 16GB DDR5 & 1.92TB NVMe RESOLVED — DDR5-5600 16GB first public price ($599 Samsung RDIMM), PCIe4/5 1.92TB first public reference prices",
+    "DDR5 64GB 5600 Backordered day 8 held $2,954.99 (+30.2% over main value), 128GB 5600 +37.0% day 5",
+    "CDW full-anchor zero-change day 10 (9550Pro spike Day47; 7450PRO day 13 consecutive extraction, Day70 record)",
+    "QLC P5336 4/4 day 10 observation (15.36TB In Stock 75 / 30.72TB In Stock 19)",
+    "DatacenterDisk unreachable day 6 (Kingston cross-check still missing)",
+    "Weekend: no new KOSPI bars (9/11 close 6,909.91 carried)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB 6400 CDW 旁证第十日 +4.4%; 32GB Discontinued 第十日（源收缩）; 16GB 仅 OEM 离群无合格样本"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backordered 第八日 +30.2%; 128GB +37.0%（买压持续）; 16GB $599 现货补充（Newegg 解析恢复）; Kingston 独立校验第六日缺失"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 零回调 Day70（连续第13日提取·追踪史最长）; 1.92TB 参考 PM9A3 $1,450 开放"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB 跳涨 Day47 新层级不可逆; 3.84/15.36TB Day41 零回调"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "4/4 第十观察日; 30.72TB In Stock ¥133,071 分批锁定; 61.44/122.88TB 4-6+ 周应急"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "Newegg IEM Micron $1,599.99 单样本严重偏离 32GB 锚点（+150%），不入主值"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "长期未获 96GB 主源样本"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "长期未获 96GB 主源样本"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "今日转旁证（PM9A3 $1,450 / D7-P5520 $1,575）· tracking-table 无此主值列"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "今日转旁证（CM7-R U.2 $2,795 / E3.S $2,999）· 无主值列"
+    }
+  ],
+  "corrections": [
+    {
+      "dateAffected": "2026-09-12",
+      "field": "Newegg parser_gap",
+      "was": "搜索页 200 但 item-title 结构缺失，16GB/1.92TB 无法解析",
+      "now": "2026-09-13 服务端渲染恢复，两搜索页成功解析并产出公开价格（16GB $599、1.92TB 多型号）",
+      "note": "parser_gap → resolved；需连续两日再确认渲染稳定"
+    }
+  ],
+  "kospiDataReliability": "周末无交易：沿用 9/11 收盘（KOSPI 6,909.91 / Samsung 259,500 / SKHynix 1,812,000），无新数据可核验。",
+  "unfinishedItems": [
+    "DatacenterDisk 连续第六日 DNS 不可达 — Kingston 独立 DDR5 校验仍缺失",
+    "DDR5-6400 16GB 仍无合格样本（仅 Micron OEM 离群）",
+    "Newegg 渲染稳定性需连续两日确认（今日首次恢复）",
+    "DDR5 96GB（6400/5600）主源样本长期缺失（口径未设）",
+    "三星 3Q26 DRAM 合约 +20% QoQ 传闻未官方确认"
+  ]
+}
