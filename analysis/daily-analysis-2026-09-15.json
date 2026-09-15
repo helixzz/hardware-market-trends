@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T09:35:00+08:00",
+  "day": 144,
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; 16GB outlier_only(Newegg仅Micron OEM $1,599.99); 96GB no_public_sample; 32GB CDW Discontinued 第十二日"
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; Newegg 16GB Samsung $599 第三日确认; 96GB no_public_sample; 128GB CDW库存改善In Stock(qty5)价未变"
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 1.92TB 旁证第三日: Newegg PM9A3 $1,450+$600起"
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 1.92TB 旁证 Newegg CM7-R $2,795 等"
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4,
+      "note": "P5336 4/4 第十二观察日(75/19库存不变)"
+    }
+  },
+  "newSourcesTried": [
+    "Memory.net(403反爬)",
+    "DiscTech(403反爬)",
+    "TechAmerica(000连接失败)",
+    "frankfurter(恢复: USDCNY=6.7084)",
+    "DatacenterDisk(二次失联复测)"
+  ],
+  "newSourcesWithUsefulData": [
+    "frankfurter(恢复)",
+    "Newegg(第三日稳定: 16GB $599/PM9A3 $1,450三验)"
+  ],
+  "keyChangesVsYesterday": [
+    "128GB DDR5-5600 CDW库存 2-4+天→In Stock(qty5)·价格未变$7,797.99——DDR5线数周来首个库存缓解信号(量小)",
+    "金融侧9/14收盘全面兑现risk-off: SKHynix 1,697,000(-6.35%)·Samsung 249,000(-4.05%)·KOSPI 6,691.09(-3.17%)；9/15早盘小幅修复尝试(SKH +1.10%/Samsung +0.90%)",
+    "DatacenterDisk恢复仅一天后二次失联(HTTP 000)",
+    "CDW全锚点零回调进入第十二日: 9550Pro 30.72TB 跳涨Day49、7450PRO Day72",
+    "frankfurter恢复(USDCNY=6.7084); Newegg 16GB/PM9A3 第三日三验"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证12日+4.4%; 32GB Discontinued 12日(源收缩); 16GB仅离群样本"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "128GB库存改善但价格未降(+37.0%)·仅5件; 64GB Backordered +30.2%(10日); 16GB现货$599 第三日确认"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day72 零回调; 1.92TB PM9A3 $1,450 双档旁证"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550Pro 30.72TB 跳涨Day49 不可逆; 3.84/15.36TB Day43"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB现货¥133,071分批锁定; 15.36TB现货; 61/122 4-6+周应急"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "Newegg 仅 Micron OEM $1,599.99 单样本离群, 不可入主值"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "序列始终未设 96GB 主源; CDW 无 SKU"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "序列未设 96GB 主源"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg PM9A3 $1,450+$600起 第三日旁证; 无主值列, 若连续4日可考虑升主"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg CM7-R $2,795 旁证; 覆盖仍单源"
+    }
+  ]
+}
