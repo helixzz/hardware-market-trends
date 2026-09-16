@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T09:15:00+08:00",
+  "day": 145,
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; 16GB outlier_only(Newegg仅Micron OEM $1,599.99); 96GB: DCD+NEMIX 6400 96GB $4,368.99 现货首见→旁证(outlier待多源); 32GB CDW Discontinued 第十三日"
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; Newegg 16GB Samsung $599 第四日确认; 96GB: DCD NEMIX DDR5-5600 96GB $4,250.99 现货首见→旁证; 128GB CDW In Stock(qty5) 第二日"
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 1.92TB 旁证第四日: Newegg PM9A3 $1,450+$600起·DCD PM9A3 1.92TB 30d avg 可见"
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 1.92TB 旁证 Newegg CM7-R $2,795 等"
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4,
+      "note": "P5336 4/4 第十三观察日; 15.36 InStock75/30.72 InStock19→44(库存上升)"
+    }
+  },
+  "newSourcesTried": [
+    "DatacenterDisk(恢复第二日验证·server-ram/nvme-u2/单SKU详情页)",
+    "frankfurter(OK 9/15=6.7115)",
+    "Provantage(403 Cloudflare挑战)",
+    "Zones(403 AccessDenied)",
+    "DiscTech(403)",
+    "Memory.net(Cloudflare 403)",
+    "TechAmerica(000)",
+    "Newegg(第四日·四验)",
+    "TradingEconomics/SeoulEconomicDaily(KOSPI替代源·Yahoo限流)"
+  ],
+  "newSourcesWithUsefulData": [
+    "DatacenterDisk(Kingston 64GB 5600 $2,064·96GB DDR5 5600/6400现货·PM9A3系列30d avg)",
+    "Newegg(第四日稳定)",
+    "frankfurter(USDCNY=6.7115)"
+  ],
+  "keyChangesVsYesterday": [
+    "DatacenterDisk 二次失联后恢复第二日持续在线: Kingston 64GB 5600 $2,064现货 vs CDW Backordered $2,954.99(-30%价差·大容量缺货溢价被双源拆解)",
+    "96GB DDR5 长期缺口首获公开现货旁证: NEMIX 96GB DDR5-5600 $4,250.99 / DDR5-6400 $4,368.99(双SKU, InStock)",
+    "P5336 30.72TB 库存19→44(第二日上升·现货供给略松)",
+    "CDW 128GB DDR5-5600 In Stock(qty5) 第二日延续·DDR5线库存缓解信号持续观察",
+    "金融: KOSPI 9/15收6,611(-0.85%)·盘中一度翻红(SKH+0.65%/Samsung+0.40%)·尾盘承压; 隔夜美股芯片重挫(Micron-5.3%/NVDA-3.4%/SNDK-5.0%)·今日FOMC",
+    "Yahoo Finance Chart API 限流(19B)不可用→改用TradingEconomics/新闻交叉"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证13日+4.4%; 32GB Disco 13日; 96GB现货首见($4,368.99·单源待验)不改变方向"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "128GB库存缓解(2日)但价格未降(+37.0%); 64GB CDW Backordered+30.2% vs DCD现货$2,064——现货价差大, 需按渠道比价; 16GB$599四验"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO Day73零回调底部稳定; 1.92TB PM9A3双源旁证(DCD+Newegg)"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550Pro 30.72TB 跳涨Day50不可逆; 3.84/15.36TB Day44"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB现货¥133,071分批锁定(库存19→44改善); 15.36TB现货; 61/122TB 4-6+周应急"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "Newegg 仅 Micron OEM $1,599.99 单样本离群"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD NEMIX 96GB 6400 $4,368.99 现(首见·旁证) — 价格口径偏离锚点高层级, 需第二源验证后转主"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD NEMIX 96GB 5600 $4,250.99 首见现货(旁证)·单源未验"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "PM9A3 $1,450(Newegg) + DCD 30d avg 双源旁证·仍无主值列"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg CM7-R $2,795 旁证·单源"
+    }
+  ]
+}
