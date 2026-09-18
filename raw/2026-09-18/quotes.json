@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-18",
+  "fetchedAt": "2026-09-18T09:30:00+08:00",
+  "fxRate": 8.18,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-09-17 USDCNY=6.7075",
+  "sources": {
+    "cdw": {
+      "status": "OK",
+      "note": "14 SKU全部HTTP 200(slug直连)。全锚点零回调第十五日(周一继续验证)。",
+      "9550 Pro 30.72TB #8215733": {
+        "price": 25368.99,
+        "msrp": 28273.99,
+        "stock": "4-6+ Weeks",
+        "note": "跳涨后第二十九天维持 跳涨Day52"
+      },
+      "9550 Pro 3.84TB E3.S #8215732": {
+        "ad": 3259.99,
+        "msrp": 5347.99,
+        "stock": "2-4+ Days",
+        "note": "Day46 不变"
+      },
+      "9550 Pro 15.36TB U.2 #8215730": {
+        "ad": 13521.99,
+        "msrp": 15504.99,
+        "stock": "In Stock",
+        "note": "Day46 不变"
+      },
+      "7450 PRO 7.68TB #7085698": {
+        "ad": 3279.99,
+        "list": 11317.39,
+        "stock": "1-3+ Days",
+        "note": "连续第十八日价格提取 零回调Day75"
+      },
+      "Solidigm P5336 15.36TB #7741004": {
+        "price": 8332.99,
+        "stock": "In Stock",
+        "note": "QLC观察Day15"
+      },
+      "Solidigm P5336 30.72TB #7785180": {
+        "price": 16247.99,
+        "stock": "In Stock",
+        "note": "QLC观察Day15"
+      },
+      "Solidigm P5336 61.44TB #7785193": {
+        "price": 31521.99,
+        "stock": "4-6+ Weeks",
+        "note": "QLC观察Day15"
+      },
+      "Solidigm P5336 122.88TB #8455168": {
+        "price": 52029.99,
+        "stock": "4-6+ Weeks",
+        "note": "QLC观察Day15"
+      },
+      "Micron 6500 ION 30.72TB #7467127": {
+        "msrp": 23739.99,
+        "ad": 20547.99,
+        "stock": "1-3+ Days",
+        "note": "旁证维持"
+      },
+      "128GB 6400 #8439578": {
+        "price": 6712.99,
+        "msrp": 6970.8,
+        "stock": "1-3+ Days",
+        "note": "第十五日旁证 较主值+4.4%"
+      },
+      "64GB 5600 #7825825": {
+        "price": 2954.99,
+        "stock": "Item Backordered",
+        "note": "维持 较主值+30.2% 第十三日"
+      },
+      "128GB 5600 #7946438": {
+        "price": 7797.99,
+        "stock": "In Stock",
+        "note": "In Stock 第四日·DDR5库存缓解信号延续(量小)"
+      },
+      "32GB 6400 #8505971": {
+        "stock": "Discontinued",
+        "note": "第十五日Discontinued; 残留价$1,544.99不采用"
+      }
+    },
+    "newegg": {
+      "status": "OK",
+      "note": "第六日持续可解析。16GB DDR5-5600 Samsung: 双Item(9S7MKVH6911/9S7MKB06228) UnitCost均$723.22·'More options $599-$1,799.99'——昨日$599→$723.22上行第二日确认(两SKU同价·非瞬时页面抖动)。96GB DDR5-6400 NEMIX $4,368.99(9SI7S6M4U8828)第三日新egg确认; 96GB 2x48GB 5600 KIT条目存在(KIT口径不采)。PM9A3 1.92TB $1,450/$1,428/$1,495(翻新) 稳定。P5336第三方: 61.44TB $33,249/$34,912/$35,908/$35,999·122.88TB $64,168/$67,381·30.72TB E1.L $17,137-20,199·15.36TB $8,468-9,312——带内稳定。"
+    },
+    "datacenterdisk": {
+      "status": "DOWN",
+      "note": "第四次失联(HTTP 000)。9/16为最近可用日; Kingston独立校验/96GB 5600单条价暂停第四日。"
+    },
+    "yahoo_finance": {
+      "status": "RATE_LIMITED",
+      "note": "Chart API 今日429(反复重试仍限流)。改用 Naver Finance API 成功(新源)。"
+    },
+    "naver_finance": {
+      "status": "OK_NEW",
+      "note": "🆕新源 Naver Finance API: Samsung(005930) 2026-09-18盘中 258,500(+6,000·+2.38%); SKHynix(000660) 1,819,000(+74,000·+4.24%)——韩股存储双雄第二日强势反弹(10:18 KST)。"
+    },
+    "fx_frankfurter": {
+      "status": "OK",
+      "note": "2026-09-17 USDCNY=6.7075(基本持平6.7071)"
+    },
+    "macro": {
+      "note": "半导体三连阳(AMD +7%/博通 +3%/英伟达走高·24/7 Wall St 09-18): 通胀回落预期+油价受控·资金回流AI股(WSJ)。华为 Ascend 960 提前至2027 Q1(Dealroom)——国产算力时间表明确。能源+地缘为反弹上头悬剑(Barron's); AI算力扩张外溢物流仓储(Supply Chain Dive)。"
+    },
+    "other": {
+      "note": "Provantage 403·Zones 403·Memory.net 403·ShopBLT 403·ServerSupply 000(DNS)·TechAmerica 000·Saitech 000·DiscTech 200(无公开价)·Exxact 200(无公开价)·CoreWaveLabs 200(无可见价格——沿用)"
+    }
+  },
+  "run_notes": [
+    "Day147(2026-09-18·周五) 巩固日: 主值全列不动·CDW全锚点零回调第十五日。9550Pro30.72TB跳涨后第二十九天维持(跳涨Day52)·7450PRO连续第十八日提取(零回调Day75·追踪史绝对最长)·3.84/15.36TB Day46。QLC P5336 4/4第十五观察日。⚠️Newegg 16GB 5600 $723.22 连续第二日(双Item同价·$599-$1,799.99范围)——首上行信号获第二日确认,仍需第三方源校验。🟢96GB 6400 NEMIX $4,368.99 第三日。🔴DatacenterDisk第四次失联(000)。🆕Naver API接入(替代Yahoo限流): 韩股9/18盘中 Samsung+2.38%/SKH+4.24% 连续第二日反弹; KOSPI 9/17收6,715.41(-0.04%)。🆕新闻: 半导体三连阳(AMD+7%)·华为Ascend 960提前2027Q1·油价通胀回落资金回AI股。🔁frankfurter USDCNY=6.7075。五品类buy_now(QLC split_buy·锁30.72现货)维持。"
+  ]
+}
