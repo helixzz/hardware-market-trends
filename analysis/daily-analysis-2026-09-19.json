@@ -1,0 +1,120 @@
+{
+  "date": "2026-09-19",
+  "generatedAt": "2026-09-19T09:30:00+08:00",
+  "day": 148,
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; 16GB outlier_only(Micron OEM单样本); 96GB: Newegg NEMIX $4,368.99 第四日 = DCD 9/16同价→双源旁证(未设主值列); 32GB CDW Discontinued 第十六日"
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; ⚠️16GB Samsung M321R2GA3PB0-CWM $723.22 连续第三日(三SKU同价 9SIAMBVK7H6911/KB06228/KVB0836)·More options低端$599→$625.16 +4.4%价带上移——小容量现货涨价信号增强(仍待三方校验); 96GB: DCD停更第五日·Newegg仅2x48GB KIT(不采); 128GB In Stock 第五日(+37.0%价未变)"
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 7450 PRO第19日提取 零回调Day76; 1.92TB旁证第七日 PM9A3 $1,450/$1,428/$1,495 稳定"
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 9550Pro 30.72TB 跳涨Day53: 3.84/15.36 Day47; 1.92TB旁证(CM7-R等)单源"
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4,
+      "note": "P5336 4/4 第十六观察日; 15.36/30.72 In Stock维持; 61.44/122.88 4-6+周; Newegg第三方带内稳定"
+    }
+  },
+  "newSourcesTried": [
+    "Naver Finance siseJson API(新接口·韩股日线)",
+    "TradingEconomics KOSPI",
+    "frankfurter USDCNY",
+    "CoreWaveLabs(今日000·昨200)",
+    "serverdiskdr(000)",
+    "DiscTech/Exxact(200无公开价)",
+    "Provantage/Zones/Memory.net/ShopBLT/ServerSupply/TechAmerica(403反爬)",
+    "Saitech(000)",
+    "CDW 14 SKU slug直连",
+    "Newegg 搜索(第七日)",
+    "DatacenterDisk(第五次失联)",
+    "Yahoo Chart(第二日429)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Naver siseJson 9/17-9/18日线(Samsung 260,000 +1.56% / SKH 1,849,000 +4.70%)",
+    "TradingEconomics KOSPI 9/18收6,894.23(+2.66%)",
+    "Newegg 16GB 三SKU $723.22(第三日)+价带低端上移$625.16"
+  ],
+  "keyChangesVsYesterday": [
+    "Newegg 16GB DDR5-5600 Samsung: $723.22 第三日确认(三SKU同价,昨日两SKU)·More options低端$599→$625.16(+4.4%)——价带整体上移,小容量现货涨价信号增强",
+    "96GB DDR5-6400 NEMIX $4,368.99 双源旁证第四日(Newegg=DCD 9/16)",
+    "DatacenterDisk 第五次失联(HTTP 000)·Yahoo Chart第二日429→Naver siseJson承接",
+    "韩股存储双雄第三日反弹: Samsung 260,000(+1.56%)/SKH 1,849,000(+4.70%)·KOSPI 6,894.23(+2.66%)——Intel警告挑战'记忆见顶'叙事(invezz 09-18)",
+    "news: 记忆超循环未触顶(SeekingAlpha 09-18)·DRAM短缺推动扩产",
+    "fx: frankfurter 2026-09-18 USDCNY=6.6976(较前日6.7075微回落·美元走弱)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证16日+4.4%; 32GB Discontinued 16日; 96GB双源旁证第4日确认; 长期收紧结构未变"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "16GB $723.22 三日确认+价带低端上移——小容量现货涨价信号增强; 64GB Backorder+30.2%(14日); 128GB库存缓解但价格未降"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO零回调Day76底部稳定(追踪史最长); 1.92TB PM9A3旁证带稳定"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550Pro 30.72TB跳升Day53不可逆; 3.84/15.36 Day47"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB现货¥133,071分批锁定(库存维持); 15.36TB In Stock; 61/122TB 4-6+周应急"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "Newegg仅Micron OEM $1,599.99单样本离群·不入主值"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "双源旁证(NEMIX $4,368.99 Newegg=DCD 9/16)·仍高于锚点层级·未设主值列"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD单条价$4,250.99因源失联暂停第五日; Newegg仅2x48GB KIT(KIT口径不采)"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "PM9A3 $1,450/$1,428(Newegg)旁证·无主值列"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg CM7-R旁证单源·无主值列"
+    }
+  ]
+}
