@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-19T09:36:21.588607",
+  "generatedAt": "2026-09-20T09:22:27.695122",
   "cutoffDate": null,
-  "trackingRows": 43,
+  "trackingRows": 44,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-20",
       "latestCoverage": {
         "filled": 3,
-        "total": 3
+        "total": 5
       },
       "averageCoverage14d": 3.0,
       "trend": "flat_or_mixed",
       "latestValues": {
-        "DDR5-6400 32GB": 11294,
-        "DDR5-6400 64GB": 18608,
-        "DDR5-6400 128GB": 52651
+        "32GB": 11294,
+        "64GB": 18608,
+        "128GB": 52651
       },
       "previousValues": {
         "DDR5-6400 32GB": 11294,
@@ -25,7 +25,10 @@
       "rollingMedians14d": {
         "DDR5-6400 32GB": 11294,
         "DDR5-6400 64GB": 18608,
-        "DDR5-6400 128GB": 52651
+        "DDR5-6400 128GB": 52651,
+        "32GB": 11294,
+        "64GB": 18608,
+        "128GB": 52651
       },
       "missingColumns": [],
       "columns": {
@@ -49,22 +52,40 @@
           "rollingMedian14d": 52651,
           "lastSeenDate": "2026-09-19",
           "consecutiveMissingDays": 0
+        },
+        "32GB": {
+          "previousValue": 11294,
+          "latestValue": 11294,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "64GB": {
+          "previousValue": 18608,
+          "latestValue": 18608,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "128GB": {
+          "previousValue": 52651,
+          "latestValue": 52651,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
         }
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-20",
       "latestCoverage": {
         "filled": 3,
-        "total": 3
+        "total": 5
       },
       "averageCoverage14d": 3.0,
       "trend": "flat_or_mixed",
       "latestValues": {
-        "DDR5-5600 32GB": 9190,
-        "DDR5-5600 64GB": 18595,
-        "DDR5-5600 128GB": 46600
+        "32GB": 9190,
+        "64GB": 18595,
+        "128GB": 46600
       },
       "previousValues": {
         "DDR5-5600 32GB": 9190,
@@ -74,7 +95,10 @@
       "rollingMedians14d": {
         "DDR5-5600 32GB": 9190,
         "DDR5-5600 64GB": 18595,
-        "DDR5-5600 128GB": 46600
+        "DDR5-5600 128GB": 46600,
+        "32GB": 9190,
+        "64GB": 18595,
+        "128GB": 46600
       },
       "missingColumns": [],
       "columns": {
@@ -98,23 +122,41 @@
           "rollingMedian14d": 46600,
           "lastSeenDate": "2026-09-19",
           "consecutiveMissingDays": 0
+        },
+        "32GB": {
+          "previousValue": 9190,
+          "latestValue": 9190,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "64GB": {
+          "previousValue": 18595,
+          "latestValue": 18595,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "128GB": {
+          "previousValue": 46600,
+          "latestValue": 46600,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-20",
       "latestCoverage": {
         "filled": 4,
-        "total": 4
+        "total": 5
       },
       "averageCoverage14d": 4.0,
       "trend": "flat_or_mixed",
       "latestValues": {
-        "PCIe4 TLC 3.84TB": 18705,
-        "PCIe4 TLC 7.68TB": 26866,
-        "PCIe4 TLC 15.36TB": 43739,
-        "PCIe4 TLC 30.72TB": 113896
+        "3.84TB": 18705,
+        "7.68TB": 26866,
+        "15.36TB": 43739,
+        "30.72TB": 113896
       },
       "previousValues": {
         "PCIe4 TLC 3.84TB": 18705,
@@ -126,7 +168,11 @@
         "PCIe4 TLC 3.84TB": 18705,
         "PCIe4 TLC 7.68TB": 26866,
         "PCIe4 TLC 15.36TB": 43739,
-        "PCIe4 TLC 30.72TB": 178977
+        "PCIe4 TLC 30.72TB": 178977,
+        "3.84TB": 18705,
+        "7.68TB": 26866,
+        "15.36TB": 43739,
+        "30.72TB": 113896
       },
       "missingColumns": [],
       "columns": {
@@ -157,23 +203,47 @@
           "rollingMedian14d": 178977,
           "lastSeenDate": "2026-09-19",
           "consecutiveMissingDays": 0
+        },
+        "3.84TB": {
+          "previousValue": 18705,
+          "latestValue": 18705,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "7.68TB": {
+          "previousValue": 26866,
+          "latestValue": 26866,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "15.36TB": {
+          "previousValue": 43739,
+          "latestValue": 43739,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "30.72TB": {
+          "previousValue": 113896,
+          "latestValue": 113896,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-20",
       "latestCoverage": {
         "filled": 4,
-        "total": 4
+        "total": 5
       },
       "averageCoverage14d": 4.0,
       "trend": "flat_or_mixed",
       "latestValues": {
-        "PCIe5 TLC 3.84TB": 26699,
-        "PCIe5 TLC 7.68TB": 39271,
-        "PCIe5 TLC 15.36TB": 54292,
-        "PCIe5 TLC 30.72TB": 207772
+        "3.84TB": 26699,
+        "7.68TB": 39271,
+        "15.36TB": 54292,
+        "30.72TB": 207772
       },
       "previousValues": {
         "PCIe5 TLC 3.84TB": 26699,
@@ -185,7 +255,11 @@
         "PCIe5 TLC 3.84TB": 68247,
         "PCIe5 TLC 7.68TB": 168284,
         "PCIe5 TLC 15.36TB": 213071,
-        "PCIe5 TLC 30.72TB": 426126
+        "PCIe5 TLC 30.72TB": 426126,
+        "3.84TB": 26699,
+        "7.68TB": 39271,
+        "15.36TB": 54292,
+        "30.72TB": 207772
       },
       "missingColumns": [],
       "columns": {
@@ -216,12 +290,36 @@
           "rollingMedian14d": 426126,
           "lastSeenDate": "2026-09-19",
           "consecutiveMissingDays": 0
+        },
+        "3.84TB": {
+          "previousValue": 26699,
+          "latestValue": 26699,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "7.68TB": {
+          "previousValue": 39271,
+          "latestValue": 39271,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "15.36TB": {
+          "previousValue": 54292,
+          "latestValue": 54292,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "30.72TB": {
+          "previousValue": 207772,
+          "latestValue": 207772,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-09-19",
+      "latestDate": "2026-09-20",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -229,10 +327,10 @@
       "averageCoverage14d": 1.71,
       "trend": "flat_or_mixed",
       "latestValues": {
-        "PCIe4 QLC 15.36TB": 68247,
-        "PCIe4 QLC 30.72TB": 133071,
-        "PCIe4 QLC 61.44TB": 258165,
-        "PCIe4 QLC 122.88TB": 426126
+        "15.36TB": 68247,
+        "30.72TB": 133071,
+        "61.44TB": 258165,
+        "122.88TB": 426126
       },
       "previousValues": {
         "PCIe4 QLC 15.36TB": 68247,
@@ -244,7 +342,11 @@
         "PCIe4 QLC 15.36TB": 68247,
         "PCIe4 QLC 30.72TB": 133071,
         "PCIe4 QLC 61.44TB": 258165,
-        "PCIe4 QLC 122.88TB": 426126
+        "PCIe4 QLC 122.88TB": 426126,
+        "15.36TB": 68247,
+        "30.72TB": 133071,
+        "61.44TB": 258165,
+        "122.88TB": 426126
       },
       "missingColumns": [],
       "columns": {
@@ -275,6 +377,30 @@
           "rollingMedian14d": 426126,
           "lastSeenDate": "2026-09-19",
           "consecutiveMissingDays": 0
+        },
+        "15.36TB": {
+          "previousValue": 68247,
+          "latestValue": 68247,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "30.72TB": {
+          "previousValue": 133071,
+          "latestValue": 133071,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "61.44TB": {
+          "previousValue": 258165,
+          "latestValue": 258165,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
+        },
+        "122.88TB": {
+          "previousValue": 426126,
+          "latestValue": 426126,
+          "lastSeenDate": "2026-09-20",
+          "consecutiveMissingDays": 0
         }
       }
     }
@@ -298,6 +424,9 @@
     ],
     "2026-09-19": [
       "Day148(2026-09-19·周六) 巩固日: 主值全列不动·CDW全锚点零回调第十六日。9550Pro30.72TB跳涨后第三十天维持(跳涨Day53)·7450PRO连续第十九日提取(零回调Day76·追踪史绝对最长)·3.84/15.35TB Day47。QLC P5336 4/4第十六观察日。⚠️Newegg 16GB 5600 $723.22 第三日确认(三SKU同价)·More options低端$599→$625.16(+4.4%·价带上移)——小容量现货涨价信号增强。🟢96GB 6400 NEMIX $4,368.99 第四日。🔴DatacenterDisk第五次失联(000)·Yahoo Chart第二日429。🟢Naver/KOSPI: Samsung 260,00+1.56%/SKH 1,849,000+4.70%/KOSPI 6,894.23+2.66% 连续第三日反弹·Intel警告挑战'见顶'叙事。🔁frankfurter USDCNY=6.6976(微回落)。周末零售平静·下周一继续验证锚点。五品类buy_now(QLC split_buy·锁30TB现货)维持。"
+    ],
+    "2026-09-20": [
+      "Day149(2026-09-20·周日) 巩固日: 主值全列carry·CDW全锚点零回调第十七日。9550Pro30.72TB跳涨后第三十一天维持Day54·7450PRO连续第二十日提取成功(零回调Day77·追踪史绝对最长)·3.84/15.44TB Day48。QLC P5336 4/4第十七观察。⚠️Newegg 16GB 5600 $723.22 第四日确认(三SKU轮换同价)·页内$709.99档多条(第三方待验)——小容量现货高位无回落。🟢96GB 6400 NEMIX $4,368.99 双SKU第五日。🔴DatacenterDisk第六次失联(连续四日DNS exit)·Yahoo第三日429(Naver承接)。🟢韩股周末休市沿9/18收盘: Samsung 260,000(+1.56%)/SKHynix 1,849,000(+4.70%)/KOSPI 6,894.23(+2.66%)。📝TrendForce重申Q3合约价(DRAM+13~18%/企业NAND+10~15%)·IDC内存危机。fx 6.6976。五品类建议: DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货。周日晚继续验证。"
     ]
   }
 }

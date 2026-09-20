@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T09:20:07+08:00",
+  "day": 149,
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; 16GB outlier_only(Micron OEM单样本); 96GB: Newegg NEMIX $4,368.99 第五日双SKU = DCD 9/16同价→双源旁证(未设主值列); 另见$3,586.99档(待核验); 32GB CDW Discontinued 第十七日"
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5,
+      "note": "32/64/128GB carry; ⚠️16GB Samsung $723.22 连续第四日(三SKU同价轮换 9SIAMBVKVB0832/7H6911/719951)·页内另见$709.99档多条(第三方待核验)——小容量现货高位、无回落迹象; 96GB: DCD停更第六日·Newegg仅2x48GB KIT(不采); 128GB In Stock 第六日(+37.0%价未变)"
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 7450 PRO第十日提取 零回调Day77; 1.92TB旁证第八日 PM9A3 $1,450/(低$899-1,045/翻新$1,428) 稳定"
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5,
+      "note": "3.84/7.68/15.36/30.72 carry; 9550Pro 30.72TB 跳涨Day54; 3.84/15.36 Day48; 1.92TB旁证(CM7-R等)单源"
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4,
+      "note": "P5336 4/4 第十七观察日; 15.36/30.72 In Stock维持; 61.44/122.88 4-6+周; Newegg第三方带内稳定"
+    }
+  },
+  "newSourcesTried": [
+    "CDW 13 SKU slug直连(13/13 HTTP 200)",
+    "Newegg 搜索(第八日)",
+    "Naver Finance siseJson API(韩股收盘)",
+    "TradingEconomics KOSPI",
+    "frankfurter USDCNY",
+    "Yahoo Chart(第三日429)",
+    "DatacenterDisk(DNS失败 exit 6·连续第四日)",
+    "Provantage/Zones/Memory.net/ShopBLT/ServerSupply(403)",
+    "TechAmerica(000)",
+    "DiscTech/Exxact(200无公开价)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Naver siseJson 9/18收盘(Samsung 260,000 ✓/SKH 1,849,000✓) 周末休市",
+    "Newegg 16GB 三SKU $723.22(第四日)+$709.99档位(三方待核验)",
+    "96GB NEMIX $4,368.99 双SKU第五日"
+  ],
+  "keyChangesVsYesterday": [
+    "Newegg 16GB DDR5-5600: $723.22 第四日确认(SKU组合同日轮换·价格不变); 页内新增$709.99档位多条(第三方·待核验)——小容量现货高位延续",
+    "96GB DDR5-6400 NEMIX $4,368.99 双源旁证第五日(双SKU)",
+    "DatacenterDisk 第六次失联(DNS exit)·Yahoo Chart第三日429→Naver siseJson承接",
+    "韩股周末休市·沿9/18收盘(Samsung 260,000 +1.56%/SKH 1,849,000 +4.70%/KOSPI 6,894.23 +2.66%)",
+    "新闻: TrendForce重申Q3合约价(常规DRAM +13~18%·企业NAND +10~15%)·IDC'内存危机'警告·Samsung库存'显著低位'(Q2财报口径)",
+    "fx: frankfurter 2026-09-18 USDCNY=6.6976(周末无新报价)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "up",
+    "DDR5-5600": "up",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证17日+4.4%; 32GB Discontinued 17日; 96GB双源旁证第5日; 长期收紧结构未变(周末无变动日)"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "16GB $723.22 四日+$709档位出现·小容量现货高位无回落; 64GB Backorder +30.2%(15日); 128GB库存缓解但价格未降"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO零回调Day77底部稳定(追踪史绝对最长); 1.92TB旁证带稳定"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 30.72TB跳涨Day54不可逆; 15.36TB In Stock"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB现货低价锁仓; 61.44/122.88为应急4-6+周供货"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "仅Micron. OES单样本"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "双源旁证(Newegg=DCD)·未设主值列"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD失联第六日·单条价暂停"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "旁证第八日·无主值列"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "旁证单源"
+    }
+  ]
+}
