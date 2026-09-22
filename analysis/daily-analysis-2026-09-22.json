@@ -1,0 +1,76 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T09:40:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 5},
+    "DDR5-5600": {"filled": 3, "total": 5},
+    "PCIe4 TLC": {"filled": 4, "total": 5},
+    "PCIe5 TLC": {"filled": 4, "total": 5},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["Yahoo Chart (恢复)", "Naver m.stock price (新端点)", "Kioxia CM7 官方页", "Exxact", "Wiredzone"],
+  "newSourcesWithUsefulData": ["Yahoo Chart (恢复·KOSPI盘中)", "Naver m.stock price (新端点)"],
+  "keyChangesVsYesterday": [
+    "Yahoo Chart 429解除恢复，KOSPI 9/22盘中7,148.27(+2.0%)",
+    "KOSPI 9/21收7,008(+1.65%)突破7,000关口",
+    "韩股双雄连续第五日反弹：Samsung 9/21 +5.36%、SKH +1.18%；9/22盘中续涨",
+    "Newegg 16GB 5600 $723.22第五日确认，$709.99档28处，低端$599/$625档轮换未见",
+    "DatacenterDisk第八次失联（连续第六日）",
+    "fx USDCNY 6.6976→6.6954",
+    "AMD市值破1万亿美元、提价10%传闻（未证实）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证较主值+4.4%；32GB连续十九日Discontinued；现货价格维持高位无回落，供给收缩风险持续"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "16GB现货$723.22第五日确认且$709.99档上移，64GB旁证Backorder(+30.2%)；小容量现货高位无回落"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO零回调79日（追踪史绝对最长），价格字段连续22日成功提取，来源可信"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB跳涨Day56不可逆，3.84/15.36TB Ad维持"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB In Stock现货建议锁仓；61.44/122.88TB 4-6周订货周期，分批执行降低敞口"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "仅Micron OEM单样本偏离主流锚点过大，不入主值"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD失联第六日，单条公开价暂停；Newegg仅2×48GB套（口径不符）"
+    },
+    {
+      "category": "PCIe4 TLC / PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "仅旁证（Newegg PM9A3 $1,450等），无独立公开主价"
+    }
+  ],
+  "notes": [
+    "09-21(周一) raw已抓取但未落盘，今日核验09-21 CDW全锚点与09-20一致，按零回调第十九日连续记录",
+    "全锚点零回调：9550Pro 30.72TB跳涨Day56、7450PRO零回调Day79、QLC P5336 4/4第十九观察日",
+    "未完成：DatacenterDisk恢复、16GB第三方校验、96GB 5600单条、Provantage等四源反爬(403)"
+  ]
+}
