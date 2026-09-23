@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "Yahoo Chart (429复限流)",
+    "DatacenterDisk (000第九日)",
+    "Memory.net (403)",
+    "ShopBLT (403)",
+    "ServerSupply (403)",
+    "Provantage (403)"
+  ],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "CDW 产品页 URL 结构变化：旧 /product/{id} 直连 404 → slug 模式 301/200，13 SKU 全部改道核验，锚点价格与昨日一致（零回调第二十日）",
+    "Newegg 16GB 5600 Samsung $723.22 第六日确认，$709.99 档 17 条目，低端 $573.99/$625.16 档在位",
+    "96GB 6400 NEMIX $4,368.99 第七日（双 SKU + 同价 3 条目）",
+    "KOSPI 9/22 收 7,017.91(+0.15%) 稳于 7,000 上方；Samsung 9/23 +2.35%、SKH +0.82%",
+    "DatacenterDisk 第九次失联（连续第七日）",
+    "Yahoo Chart 429 复发（昨日恢复一日）",
+    "fx USDCNY 6.6954→6.7001"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证较主值+4.4%；32GB连续二十日Discontinued；现货价格维持高位无回落，供给收缩风险持续"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "16GB现货$723.22第六日确认且$709.99档17条、64GB旁证Backorder(+30.2%)；小容量现货高位无回落"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO零回调80日（追踪史绝对最长），价格字段连续23日成功提取，来源可信"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB跳涨Day57不可逆，3.84/15.36TB Ad维持"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB In Stock现货建议锁仓；61.44/122.88TB 4-6周订货周期，分批执行降低敞口"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "仅Micron OEM单样本偏离主流锚点过大，不入主值"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD失联第七日，单条公开价暂停；Newegg仅2×48GB套（口径不符）"
+    },
+    {
+      "category": "PCIe4 TLC / PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "仅旁证（Newegg PM9A3 $1,450等），无独立公开主价"
+    }
+  ],
+  "notes": [
+    "CDW URL结构变化修复：旧直连404，切换slug模式13/13核验同价，零回调第二十日",
+    "全锚点零回调：9550Pro 30.72TB跳涨Day57、7450PRO零回调Day80、QLC P5336 4/4第二十观察日",
+    "未完成：DatacenterDisk恢复、16GB第三方校验、96GB 5600单条、Yahoo 429复现、四源反爬(403)"
+  ]
+}
