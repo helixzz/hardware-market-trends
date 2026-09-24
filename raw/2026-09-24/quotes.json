@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-24",
+  "fetchedAt": "2026-09-24T09:00:00+08:00",
+  "fxRate": 8.18,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-09-23 USDCNY=6.7074(较9/22的6.7001走强+0.11%)",
+  "sources": {
+    "cdw": {
+      "status": "OK",
+      "note": "13 SKU全部HTTP 200(slug模式)。全锚点零回调第二十一日。",
+      "9550 Pro 30.72TB #8215733": {
+        "price": 25368.99,
+        "msrp": 28273.99,
+        "stock": "Item Backordered/4-6+周",
+        "note": "跳涨后第三十五天维持 跳涨Day58"
+      },
+      "9550 Pro 3.84TB E3.S #8215732": {
+        "ad": 3259.99,
+        "msrp": 5347.99,
+        "stock": "2-4+ Days",
+        "note": "Day52 不变"
+      },
+      "9550 Pro 15.36TB U.2 #8215730": {
+        "ad": 13521.99,
+        "msrp": 15504.99,
+        "stock": "In Stock",
+        "note": "Day52 不变"
+      },
+      "7450 PRO 7.68TB #7085698": {
+        "ad": 3279.99,
+        "list": 11317.39,
+        "stock": "1-3+ Days",
+        "note": "连续第二十四日价格提取 零回调Day81"
+      },
+      "Solidigm P5336 15.36TB #7741004": {
+        "price": 8332.99,
+        "stock": "In Stock",
+        "note": "QLC观察Day21"
+      },
+      "Solidigm P5336 30.72TB #7785180": {
+        "price": 16247.99,
+        "stock": "In Stock",
+        "note": "QLC观察Day21"
+      },
+      "Solidigm P5336 61.44TB #7785193": {
+        "price": 31521.99,
+        "stock": "4-6+ Weeks",
+        "note": "QLC观察Day21"
+      },
+      "Solidigm P5336 122.88TB #8455168": {
+        "price": 52029.99,
+        "stock": "4-6+ Weeks",
+        "note": "QLC观察Day21"
+      },
+      "Micron 6500 ION 30.72TB #7467127": {
+        "msrp": 44720.04,
+        "ad": 20547.99,
+        "stock": "1-3+ Days",
+        "note": "旁证维持"
+      },
+      "128GB 6400 #8439578": {
+        "price": 6712.99,
+        "msrp": 6970.8,
+        "stock": "1-3+ Days",
+        "note": "第二十一日旁证 较主值+4.4%"
+      },
+      "32GB 6400 #8505971": {
+        "stock": "Discontinued",
+        "note": "第二十一日Discontinued; 残留价不采用"
+      },
+      "64GB 5600 #7825825": {
+        "price": 2954.99,
+        "stock": "Item Backordered",
+        "note": "维持 较主值+30.2%"
+      },
+      "128GB 5600 #7946438": {
+        "price": 7797.99,
+        "stock": "In Stock",
+        "note": "In Stock 维持 较主值+37.0%"
+      }
+    },
+    "newegg": {
+      "status": "OK",
+      "note": "16GB DDR5-5600 Samsung: 主条目UnitCost $723.22第七日确认(3条目同价)·页内$709.99档58处(昨17处·第三方NEMIX批量同价)·$625.16档2处——Samsung现货档高位无回落。🆕16GB DDR5-6400 RDIMM首次见公开现货: NEMIX单条$744.99多SKU(Micron兼容条$787.02·A-Tech $786.23)——长期缺口转旁证·单源第三方·暂不入主值。96GB DDR5-6400 NEMIX $4,368.99今日SKU未出现在新抓页面(list轮换·观察中断·待明日复核): $4,250.99档为5600单条。PM9A3 1.92TB $1,450旁证维持(翻新$1,420-$1,428·低$899起)·7.68TB带$4,245-$4,536。QLC第三方带: 61.44TB $33,249-$35,999维持·30.72TB E3.S/E1.L $17,137·15.36TB $8,468-$8,868·122.88TB $64,168-$67,381(高于主值·不入主值)。"
+    },
+    "datacenter": {
+      "status": "DOWN",
+      "note": "第十次失联(curl exit 6·连续第八日·9/17起)。Kingston独立校验/96GB 5600单条价暂停第八日。"
+    },
+    "yahoo_finance": {
+      "status": "OK",
+      "note": "429解除恢复: ^KS11常规价7,080.92·005930.KS 9/23收285,500(+2.35%)·9/22收276,500。"
+    },
+    "naver_finance": {
+      "status": "OK",
+      "note": "m.stock price API: Samsung 9/23收286,500(+3.62%)·9/22收277,500(+1.28%); SKH 9/23收1,863,000(+1.25%)·9/22收1,841,000(-1.45%)。"
+    },
+    "kospi": {
+      "status": "OK",
+      "note": "TradingEconomics: KOSPI 9/23收7,080.92(+0.88%)——高位续涨(Yahoo常规价一致)。"
+    },
+    "fx_frankfurter": {
+      "status": "OK",
+      "note": "2026-09-23 USDCNY=6.7074"
+    },
+    "news": {
+      "note": "芯片股集体下挫(WSJ: AI领袖公开提示增长放缓·Barron's: 英伟达谷歌自研芯片两难·Reuters: 能源地缘压制)·Anthropic IPO=AI估值试金石(Reuters Breakingviews)·Modal Labs洽谈融资150亿美元(Reuters/Bloomberg)·美联储通胀重燃加息预期抬头(Reuters)·特朗普-习近平会谈AI核心议题(Barron's·今日最大事件变量)·AI领袖联合国安全分歧(Reuters)·算力扩张外溢物流仓储(Bloomberg)。"
+    },
+    "probes": {
+      "note": "Provantage Cloudflare拦截·Exxact 200无价·Wiredzone 404(结构变化)·Saitech超时·Solidigm官方页200规格页无价——今日除Newegg 16GB 6400页外无新公开价来源。"
+    }
+  },
+  "run_notes": [
+    "Day153(2026-09-24·周四) 巩固日: 主值全列carry(连续第十三日)·CDW全锚点零回调第二十一日。9550Pro 30.72TB跳涨后第三十五天维持(跳涨Day58)·7450PRO连续第二十四日提取(零回调Day81·追踪史绝对最长)·3.84/15.36TB Day52。QLC P5336 4/4第二十一观察日(15.36/30.72 InStock维持)。⚠️Newegg 16GB 5600 Samsung $723.22第七日确认·$709.99档58处(昨17处·第三方批量同价)——Samsung现货档高位无回落。🆕16GB 6400 RDIMM首次见公开现货(NEMIX $744.99多SKU·单源第三方·暂不入主值)——长期缺口转旁证。🔍96GB 6400 NEMIX $4,368.99今日SKU未出现(list轮换·观察中断·待明日复核·非价格回调)。🟢Yahoo Chart恢复(429解除)·KOSPI 9/23收7,080.92(+0.88%)·Samsung 9/23收286,500(+3.62%)/SKH 1,863,000(+1.25%)。🆕新闻:芯片股集体下挫(AI领袖放缓警示/英伟达谷歌两难)·Anthropic IPO估值试金石·Modal Labs融资150亿·美联储加息预期·特朗普-习近平会谈AI核心议题。🔴DatacenterDisk第十次失联(连续第八日)。fx 6.7074。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
+  ]
+}

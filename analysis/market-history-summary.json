@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-23T09:09:18.333351",
-  "cutoffDate": null,
-  "trackingRows": 46,
+  "generatedAt": "2026-09-24T09:10:14.534817",
+  "cutoffDate": "",
+  "trackingRows": 47,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-09-23",
+      "latestDate": "2026-09-24",
       "latestCoverage": {
         "filled": 3,
         "total": 3
@@ -33,28 +33,28 @@
           "latestValue": 11294,
           "previousValue": 11294,
           "rollingMedian14d": 11294,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
           "previousValue": 52651,
           "rollingMedian14d": 52651,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         }
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-09-23",
+      "latestDate": "2026-09-24",
       "latestCoverage": {
         "filled": 3,
         "total": 3
@@ -82,28 +82,28 @@
           "latestValue": 9190,
           "previousValue": 9190,
           "rollingMedian14d": 9190,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "DDR5-5600 64GB": {
           "latestValue": 18595,
           "previousValue": 18595,
           "rollingMedian14d": 18595,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "DDR5-5600 128GB": {
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-09-23",
+      "latestDate": "2026-09-24",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -134,35 +134,35 @@
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 26866,
           "previousValue": 26866,
           "rollingMedian14d": 26866,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 15.36TB": {
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 30.72TB": {
           "latestValue": 113896,
           "previousValue": 113896,
           "rollingMedian14d": 113896,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-09-23",
+      "latestDate": "2026-09-24",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -193,40 +193,40 @@
           "latestValue": 26699,
           "previousValue": 26699,
           "rollingMedian14d": 26699,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 39271,
           "previousValue": 39271,
           "rollingMedian14d": 39271,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 15.36TB": {
           "latestValue": 54292,
           "previousValue": 54292,
           "rollingMedian14d": 54292,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 30.72TB": {
           "latestValue": 207772,
           "previousValue": 207772,
           "rollingMedian14d": 207772,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-09-23",
+      "latestDate": "2026-09-24",
       "latestCoverage": {
         "filled": 4,
         "total": 4
       },
-      "averageCoverage14d": 2.57,
+      "averageCoverage14d": 2.86,
       "trend": "flat_or_mixed",
       "latestValues": {
         "PCIe4 QLC 15.36TB": 68247,
@@ -252,37 +252,34 @@
           "latestValue": 68247,
           "previousValue": 68247,
           "rollingMedian14d": 68247,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
           "latestValue": 133071,
           "previousValue": 133071,
           "rollingMedian14d": 133071,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 61.44TB": {
           "latestValue": 258165,
           "previousValue": 258165,
           "rollingMedian14d": 258165,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 122.88TB": {
           "latestValue": 426126,
           "previousValue": 426126,
           "rollingMedian14d": 426126,
-          "lastSeenDate": "2026-09-23",
+          "lastSeenDate": "2026-09-24",
           "consecutiveMissingDays": 0
         }
       }
     }
   },
   "recentRunNotes": {
-    "2026-09-17": [
-      "Day146(2026-09-17) 巩固日: 主值全列不动·CDW全锚点零回调第十四日。9550Pro30.72TB跳涨后第二十八天维持(跳涨Day51)·7450PRO连续第十七日提取(零回调Day74追踪史最长)·3.84/15.36TB Day45。QLC P5336 4/4第十四观察日。⚠️Newegg 16GB 5600 Samsung主条目$599→$723.22(+20.7%·首上行·待验口径)。🟢96GB 6400 NEMIX $4,368.99 Newegg=DCD双源一致确认(昨单源)。🔴DatacenterDisk第三次失联(000)。🟢Yahoo恢复: 韩股9/16反弹(Samsung+2.0%/SKH+4.1%/KOSPI+1.37%·FOMC落地)·9/17早盘小幅回落——金融实物背离收敛。🆕SK hynix拟在美生产存储(与Intel洽谈)。五品类buy_now(QLC split_buy·锁30.72现货)维持。"
-    ],
     "2026-09-18": [
       "Day147(2026-09-18·周五) 巩固日: 主值全列不动·CDW全锚点零回调第十五日。9550Pro30.72TB跳涨后第二十九天维持(跳涨Day52)·7450PRO连续第十八日提取(零回调Day75·追踪史绝对最长)·3.84/15.36TB Day46。QLC P5336 4/4第十五观察日。⚠️Newegg 16GB 5600 $723.22 连续第二日(双Item同价·$599-$1,799.99范围)——首上行信号获第二日确认,仍需第三方源校验。🟢96GB 6400 NEMIX $4,368.99 第三日。🔴DatacenterDisk第四次失联(000)。🆕Naver API接入(替代Yahoo限流): 韩股9/18盘中 Samsung+2.38%/SKH+4.24% 连续第二日反弹; KOSPI 9/17收6,715.41(-0.04%)。🆕新闻: 半导体三连阳(AMD+7%)·华为Ascend 960提前2027Q1·油价通胀回落资金回AI股。🔁frankfurter USDCNY=6.7075。五品类buy_now(QLC split_buy·锁30.72现货)维持。"
     ],
@@ -297,6 +294,9 @@
     ],
     "2026-09-23": [
       "Day152(2026-09-23·周三) 巩固日: 主值全列carry·CDW全锚点零回调第二十日(URL结构变化: 旧/product/{id}直连404·已切slug模式13/13核验同价)。9550Pro30.72TB跳涨后第三十四天维持(跳涨Day57)·7450PRO连续第二十三日提取(零回调Day80·追踪史绝对最长)·3.84/15.36TB Day51。QLC P5336 4/4第二十观察日(15.36/30.72 InStock维持)。⚠️Newegg 16GB 5600 Samsung $723.22第六日确认(主条目UnitCost维持)·$709.99档17条目·低端$573.99/$625.16档在位——Samsung现货档高位无回落。🟢96GB 6400 NEMIX $4,368.99第七日(双SKU+同价3条目)·$3,586.99档3条恢复(待核验)。🟢PM9A3 1.92TB $1,450旁证维持。🟢金融: KOSPI 9/22收7,017.91(+0.15%·稳7,000上方)·Samsung 9/22收277,500(+1.28%)/9/23收283,000(+2.35%)·SKH 9/22收1,841,000(-1.45%)/9/23收1,855,000(+0.82%)——高位震荡续涨。🔴DatacenterDisk第九次失联(连续第七日)·🔴Yahoo Chart复429。fx 6.7001。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
+    ],
+    "2026-09-24": [
+      "Day153(2026-09-24·周四) 巩固日: 主值全列carry(连续第十三日)·CDW全锚点零回调第二十一日。9550Pro 30.72TB跳涨后第三十五天维持(跳涨Day58)·7450PRO连续第二十四日提取(零回调Day81·追踪史绝对最长)·3.84/15.36TB Day52。QLC P5336 4/4第二十一观察日(15.36/30.72 InStock维持)。⚠️Newegg 16GB 5600 Samsung $723.22第七日确认·$709.99档58处(昨17处·第三方批量同价)——Samsung现货档高位无回落。🆕16GB 6400 RDIMM首次见公开现货(NEMIX $744.99多SKU·单源第三方·暂不入主值)——长期缺口转旁证。🔍96GB 6400 NEMIX $4,368.99今日SKU未出现(list轮换·观察中断·待明日复核·非价格回调)。🟢Yahoo Chart恢复(429解除)·KOSPI 9/23收7,080.92(+0.88%)·Samsung 9/23收286,500(+3.62%)/SKH 1,863,000(+1.25%)。🆕新闻:芯片股集体下挫(AI领袖放缓警示/英伟达谷歌两难)·Anthropic IPO估值试金石·Modal Labs融资150亿·美联储加息预期·特朗普-习近平会谈AI核心议题。🔴DatacenterDisk第十次失联(连续第八日)。fx 6.7074。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
     ]
   }
 }

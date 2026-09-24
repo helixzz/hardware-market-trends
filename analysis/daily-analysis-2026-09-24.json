@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 5
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 5
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 5
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "Newegg 16GB DDR5-6400 搜索页 (首次见公开现货 NEMIX $744.99)",
+    "Yahoo Chart (429解除·恢复200)",
+    "DatacenterDisk (curl exit 6·第十次失联)",
+    "Provantage (Cloudflare拦截)",
+    "Exxact (200无价)",
+    "Wiredzone (404·结构变化)",
+    "Saitech (超时)",
+    "Solidigm官方页 (200规格页无价)"
+  ],
+  "newSourcesWithUsefulData": [
+    "Newegg 16GB DDR5-6400 搜索页"
+  ],
+  "keyChangesVsYesterday": [
+    "Newegg 16GB 5600 Samsung $723.22 第七日确认；$709.99档升至58处(昨17处·第三方批量同价)",
+    "16GB DDR5-6400 RDIMM 首次见公开现货：NEMIX $744.99(多SKU·单源第三方·暂不入主值)",
+    "96GB DDR5-6400 NEMIX $4,368.99 今日SKU未出现(list轮换/观察中断·待明日复核·非价格回调)",
+    "Yahoo Chart 429解除恢复(200·韩股双源Yahoo+Naver)",
+    "KOSPI 9/23收7,080.92(+0.88%)；Samsung 9/23收286,500(+3.62%)；SKH 1,863,000(+1.25%)",
+    "DatacenterDisk 第十次失联(连续第八日)",
+    "市场新闻：芯片股集体下挫(AI领袖放缓警示/英伟达谷歌两难/美联储加息预期/特朗普-习近平会谈AI议题)",
+    "fx USDCNY 6.7001→6.7074"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证较主值+4.4%；32GB连续二十一日Discontinued；16GB首见现货$744.99(单源待核验)；现货价格高位无回落，供给收缩风险持续"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "16GB现货$723.22第七日确认且$709.99档58条(昨17条)、64GB旁证Backorder(+30.2%)；小容量现货高位无回落，价带上移持续"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO零回调81日(追踪史绝对最长)，价格字段连续24日成功提取，来源可信"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB跳涨Day58不可逆，3.84/15.36TB Ad维持"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "30.72TB In Stock现货建议锁仓；61.44/122.88TB 4-6周订货周期，分批执行降低敞口"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "outlier_only",
+      "note": "首见Newegg NEMIX $744.99公开现货(旁证·单源第三方)，Micron兼容条$787.02/A-Tech $786.23；仍需第二独立源校验后转主值"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "NEMIX $4,368.99今日SKU未出现在新抓96GB页(昨日第七日确认·今日观察中断)；DCD仍失联无法交叉验证，明日复核是否回位"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD失联第八日，单条公开价暂停；Newegg仅2×48GB套(口径不符)"
+    },
+    {
+      "category": "PCIe4 TLC / PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "仅旁证(Newegg PM9A3 $1,450等)，无独立公开主价"
+    }
+  ],
+  "notes": [
+    "CDW全锚点零回调第二十一日：9550Pro 30.72TB跳涨Day58、7450PRO零回调Day81(追踪史绝对最长)、QLC P5336 4/4第二十一观察日",
+    "16GB 6400缺口由outlier_only转旁证样本：Newegg NEMIX $744.99首次公开现货",
+    "96GB 6400旁证观察中断(非价格回调·SKU轮换)：待明日复核",
+    "Yahoo Chart恢复(429解除)，韩股双源可用；DatacenterDisk第十次失联(连续第八日)",
+    "未完成：DCD恢复、16GB 6400第三方校验、96GB 6400 SKU复核、96GB 5600单条、Provantage反爬(Cloudflare)"
+  ]
+}
