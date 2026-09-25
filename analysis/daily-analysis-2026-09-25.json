@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T09:12:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3, "note": "tracking口径为32/64/128GB三列; 16GB为旁证、96GB为旁证观察中断"},
+    "DDR5-5600": {"filled": 3, "total": 3, "note": "tracking口径为32/64/128GB三列; 16GB旁证$723.22第八日; 96GB单条缺口(DCD失联)"},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["Memory.net", "ShopBLT", "Zones", "Connection", "Yahoo query2", "Naver 005930/000660 API"],
+  "newSourcesWithUsefulData": ["Naver 005930/000660 API(成功但休市carry)", "Newegg 16GB 6400页第二日(NEMIX $744.99旁证巩固)"],
+  "keyChangesVsYesterday": [
+    "主值全列carry(连续第十四日); CDW全锚点零回调第二十二日",
+    "Newegg 16GB 5600 Samsung $723.22第八日确认, 本页Samsung条目3→7同价; $709.99档29→12处(第三方带内轮换)",
+    "16GB 6400 NEMIX $744.99第二日(旁证巩固)",
+    "96GB 6400 NEMIX $4,368.99连续第二日未出现(观察中断维持)",
+    "韩股9/24-9/25休市(秋夕假期窗口), 金融面carry于9/23收盘",
+    "Yahoo Chart复429(query1/query2); DatacenterDisk第十一次失联(连续第九日)",
+    "fx 6.7074→6.7126"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "128GB旁证+4.4%; 32GB停产; 16GB首现公开现货$744.99(单源第三方旁证); 供给收缩信号持续"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "16GB Samsung $723.22第八日高位无回落+$709档; 64GB Backorder+30.2%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO零回调82日(追踪史绝对最长), 无任何回落信号"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "9550 Pro 30.72TB跳涨Day59维持不可逆, 3.84/15.36TB Day53"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "价格平稳但30.72TB现货In Stock建议锁仓; 61.44/122.88TB为4-6+周货期"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "NEMIX $4,368.99连续第二日未出现在页面(list轮换), DCD失联第九日无法交叉验证, 观察中断维持"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "DCD失联第九日, 单条价暂停"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "NEMIX $744.99第二日旁证, 单源第三方, 暂不入主值"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "PM9A3 $1,450旁证维持, 不入主值"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "1.92TB",
+      "reasonCode": "no_public_sample",
+      "note": "无公开现货价, 旁证稳定"
+    }
+  ],
+  "structuralGapEscalation": {
+    "note": "DDR5-5600 96GB单条与DDR5-6400 96GB连续多日缺新样本, DCD(唯一单条价源)连续九日失联为根因; 若DCD再失联两日(连续十一日)将按SOURCES_REGISTRY规则升级为结构性缺口并寻找替代源方向"
+  }
+}
