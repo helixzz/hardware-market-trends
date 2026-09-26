@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-26",
+  "fetchedAt": "2026-09-26T09:00:00+08:00",
+  "fxRate": 8.18,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-09-25 USDCNY=6.7132(较9/24的6.7126微走强+0.01%)",
+  "sources": {
+    "cdw": {
+      "status": "OK",
+      "note": "13 SKU全部HTTP 200(slug模式)。全锚点零回调第二十三日, 价格与昨日完全一致。库存变化: 9550Pro 30.72TB由Item Backordered转为In Stock(价格不变$25,368.99·跳涨Day60)·P5336 61.44TB由4-6+ Weeks转Item Backordered(标签口径变化·价格不变)。",
+      "9550 Pro 30.72TB #8215733": {
+        "price": 25368.99,
+        "msrp": 28273.99,
+        "stock": "In Stock",
+        "note": "跳涨后第三十七天维持 跳涨Day60; 库存Backordered→In Stock(首个库存缓解信号·量待观察)"
+      },
+      "9550 Pro 3.84TB E3.S #8215732": {
+        "ad": 3259.99,
+        "msrp": 5347.99,
+        "stock": "2-4+ Days",
+        "note": "Day54 不变"
+      },
+      "9550 Pro 15.36TB U.2 #8215730": {
+        "ad": 13521.99,
+        "msrp": 15504.99,
+        "stock": "In Stock",
+        "note": "Day54 不变"
+      },
+      "7450 PRO 7.68TB #7085698": {
+        "ad": 3279.99,
+        "list": 11317.39,
+        "stock": "1-3+ Days",
+        "note": "连续第二十六日价格提取 零回调Day83"
+      },
+      "Solidigm P5336 15.36TB #7741004": {
+        "price": 8332.99,
+        "stock": "In Stock",
+        "note": "QLC观察Day23"
+      },
+      "Solidigm P5336 30.72TB #7785180": {
+        "price": 16247.99,
+        "stock": "In Stock",
+        "note": "QLC观察Day23"
+      },
+      "Solidigm P5336 61.44TB #7785193": {
+        "price": 31521.99,
+        "stock": "Item Backordered",
+        "note": "QLC观察Day23; 库存4-6+Weeks→Item Backordered(标签变化·价格不变)"
+      },
+      "Solidigm P5336 122.88TB #8455168": {
+        "price": 52029.99,
+        "stock": "4-6+ Weeks",
+        "note": "QLC观察Day23"
+      },
+      "Micron 6500 ION 30.72TB #7467127": {
+        "msrp": 44720.04,
+        "ad": 20547.99,
+        "stock": "1-3+ Days",
+        "note": "旁证维持"
+      },
+      "128GB 6400 #8439578": {
+        "price": 6712.99,
+        "msrp": 6970.8,
+        "stock": "1-3+ Days",
+        "note": "第二十三日旁证 较主值+4.4%"
+      },
+      "32GB 6400 #8505971": {
+        "stock": "Discontinued",
+        "note": "第二十三日Discontinued; 残留价不采用"
+      },
+      "64GB 5600 #7825825": {
+        "price": 2954.99,
+        "stock": "Item Backordered",
+        "note": "维持 较主值+30.2%"
+      },
+      "128GB 5600 #7946438": {
+        "price": 7797.99,
+        "stock": "In Stock",
+        "note": "In Stock 维持 较主值+37.0%"
+      }
+    },
+    "newegg": {
+      "status": "OK",
+      "note": "16GB DDR5-5600: Samsung主条目$723.22第九日确认(本页Samsung/Kingston兼容/A-Tech 3条目同价·昨7条目·带内轮换)·页内$709.99档30处(昨12处·第三方带内轮换)——Samsung现货档高位无回落。16GB DDR5-6400 RDIMM NEMIX单条$744.99第三日(22条目·Micron兼容$787.02/A-Tech $786.23维持)——单源第三方旁证。96GB页: 6400 NEMIX $4,368.99第三日未出现(观察中断维持)·🆕96GB 5600单条NEMIX $4,250.99×6(5600单条公开价·长期缺口转旁证·单源第三方不入主值)·$4,030.99档10处(4800/其他)。PM9A3 1.92TB $1,450旁证维持(2条目)。QLC第三方带维持: 61.44TB $33,249-$35,999·30.72TB E3.S/E1.L $17,137·15.36TB $8,868-$9,312·122.88TB $64,168-$67,381(高于主值·不入主值)。"
+    },
+    "datacenter": {
+      "status": "DOWN",
+      "note": "第十二次失联(curl exit 6·连续第十日·9/17起)。Kingston独立校验/96GB 5600单条价交叉验证暂停第十日。"
+    },
+    "yahoo_finance": {
+      "status": "DOWN",
+      "note": "429复现(query1/query2均429·连续第二日)。韩股数据由Naver/TE承接。"
+    },
+    "naver_finance": {
+      "status": "OK",
+      "note": "m.stock price API(005930/000660): 最新仍9/23收盘——Samsung 286,500(+3.62%)·SKH 1,863,000(+1.25%); 9/24-9/26无新交易日(秋夕假期·9/28恢复交易)。"
+    },
+    "kospi": {
+      "status": "OK",
+      "note": "TradingEconomics: KOSPI 9/23收7,080.92(+0.90%·TE文本口径7,081); 页内明确\"market will remain closed for the Chuseok holiday and resume trading on September 28\"——休市确认。"
+    },
+    "fx_frankfurter": {
+      "status": "OK",
+      "note": "2026-09-25 USDCNY=6.7132"
+    },
+    "news": {
+      "note": "今日头条: 玻璃基板风口再起(英伟达/AMD/英特尔被曝评估·SCHMID大涨近20%·TradingView/Seoul Economic Daily)。Reuters: 美两党议员提案禁止联邦敏感系统用中国数据中心组件(点名Eoptolink/中际旭创)——脱钩延伸至光互连。HPCwire: 西门子×台积电AI驱动芯片设计自动化。IBD: 芯片股止跌反弹(Tower领涨·前两日存储股回调)。Barron's: SpaceX(含xAI)采购英伟达芯片测算·约占收入5%·Colossus 2翻倍计划。Reuters: 联储Schmid称AI生态或'大到不能倒'。Nikkei: 日本生命拟投~$12.7B数据中心融资(亚洲长期资金进入AI基建债务端)。"
+    },
+    "probes": {
+      "note": "Memory.net 403·ShopBLT 403·Zones 403·Connection 403·ServerSupply 403·Provantage 403(反爬未变)·Wiredzone搜索404(结构变化)·Exxact 200无价。今日无新公开价来源。"
+    }
+  },
+  "run_notes": [
+    "Day155(2026-09-26·周六) 巩固日: 主值全列carry(连续第十五日)·CDW全锚点零回调第二十三日。✅9550Pro 30.72TB跳涨后第三十七天维持(跳涨Day60)·库存由Item Backordered转In Stock(价格不变·PCIe5线首个库存缓解信号·量待观察)·7450PRO连续第二十六日提取(零回调Day83·追踪史绝对最长)·3.84/15.36TB Day54。✅QLC P5336 4/4第二十三观察日(15.36/30.72 InStock维持·61.44TB标签4-6+Weeks→Item Backordered价格不变)。⚠️Newegg 16GB 5600 Samsung $723.22第九日确认(Samsung/Kingston兼容/A-Tech 3条目同价·昨7条·带内轮换)·$709.99档30处(昨12处)——Samsung现货档高位无回落。🟢16GB 6400 NEMIX $744.99第三日(22条目·单源第三方旁证)。🆕96GB 5600单条NEMIX $4,250.99×6首次提取(长期缺口转单源第三方旁证·不入主值)。🔍96GB 6400 NEMIX $4,368.99第三日未出现(观察中断·DCD失联无法交叉验证)。🟢PM9A3 1.92TB $1,450旁证维持。🔴韩股9/24-9/28休市(秋夕·TE明确9/28恢复交易·最新9/23收盘: Samsung 286,500 +3.62%/SKH 1,863,000 +1.25%/KOSPI 7,080.92)——金融面carry。🆕新闻: 玻璃基板风口(SCHMID大涨20%·英伟达/AMD/英特尔评估)·美两党中国数据中心组件禁令(光模块)·芯片股止跌反弹·SpaceX占英伟达收入约5%·联储AI'大到不能倒'关注·日本生命$12.7B数据中心融资。🔴DatacenterDisk第十二次失联(连续第十日)·🔴Yahoo Chart连续第二日429。fx 6.7132。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
+  ]
+}
