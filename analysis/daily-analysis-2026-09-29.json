@@ -1,0 +1,53 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T09:15:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["DatacenterDisk", "Yahoo query1", "Yahoo query2", "Memory.net", "ShopBLT", "Zones", "Connection", "ServerSupply", "Wiredzone"],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "主值全列 carry（连续第十八日），CDW 全锚点零回调第二十六日",
+    "QLC 库存标签全线持平（今日零变化）：61.44TB 1-3+ Days 昨日改善守住，30.72TB 2-4+ Days 锁仓逻辑维持",
+    "金融面显著变化：KOSPI 9/28 收 6,889.74（-2.70%·秋夕复市首日重挫），Samsung 9/28 收 270,000 / 9/29 盘中 271,500（+0.56%），SKH 9/28 收 1,768,000 / 9/29 盘中 1,763,000（-0.28%）——大盘暴跌后个股企稳",
+    "Newegg 16GB DDR5-5600 Samsung $723.22 第十二日确认（3 条目同价），$709.99 档 30 处持平",
+    "96GB 6400 NEMIX $4,368.99 连续第六日未出现（观察中断维持）；96GB 5600 单条 $4,250.99 第四日",
+    "fx 更新至 9/28 新价 USDCNY=6.7105（较 9/25 的 6.7132 微降）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {"recommendation": "buy_now", "reason": "128GB 旁证 +4.1%、32GB 停产第 26 日、16GB 现货 $744.99 第六日；主值长期零回调，短期无更好等待理由"},
+    "DDR5-5600": {"recommendation": "buy_now", "reason": "16GB Samsung $723.22 第十二日确认 + $709.99 档 30 处，64GB Backorder，价带上移持续"},
+    "PCIe4 TLC": {"recommendation": "buy_now", "reason": "7450 PRO 零回调 Day 86（追踪史绝对最长），现货样本可信、来源分散"},
+    "PCIe5 TLC": {"recommendation": "buy_now", "reason": "9550 Pro 30.72TB 跳涨 Day 63 不可逆，库存 In Stock 第四日但价格未动，供给风险偏上行"},
+    "PCIe4 QLC": {"recommendation": "split_buy", "reason": "价格平稳但 30.72TB 仍 2-4 天货期；61.44TB 现货改善守住，适合拆分执行"}
+  },
+  "gaps": [
+    {"category": "DDR5-6400", "spec": "16GB", "reasonCode": "out_of_scope", "note": "NEMIX $744.99 第六日，单源第三方旁证，口径匹配但暂不入主值"},
+    {"category": "DDR5-6400", "spec": "96GB", "reasonCode": "no_public_sample", "note": "NEMIX $4,368.99 连续六日未出现（list 轮换/parser 覆盖变化），DCD 失联第十三日无法交叉验证"},
+    {"category": "DDR5-5600", "spec": "96GB", "reasonCode": "out_of_scope", "note": "NEMIX 单条 $4,250.99 第四日，单源第三方旁证，不入主值"},
+    {"category": "PCIe4 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "仅 PM9A3 $1,450 旁证（2 条目），无企业级主源公开现货价"},
+    {"category": "PCIe5 TLC", "spec": "1.92TB", "reasonCode": "no_public_sample", "note": "仍无公开现货样本"}
+  ],
+  "sourceHealth": {
+    "cdw": "OK (13/13 HTTP 200, 零回调第26日)",
+    "newegg": "OK (5 页 HTTP 200)",
+    "naver_finance": "OK (盘中 9/29 10:00 KST)",
+    "tradingeconomics": "OK (KOSPI 9/28 收 6,889.74 -2.70%)",
+    "frankfurter": "OK (fx 6.7105)",
+    "yahoo_finance": "DOWN (429 连续第五日)",
+    "datacenterdisk": "DOWN (HTTP 000 连续第十三日)",
+    "backup_probes": "Memory.net/ShopBLT/Zones/Connection/ServerSupply 403; Wiredzone 404"
+  },
+  "notes": "Day158 周二巩固日。主值全列 carry 第十八日。CDW 全锚点零回调第二十六日，库存标签今日零变化。今日无新公开价来源；唯一实质新信息为韩股 9/28 秋夕复市首日 KOSPI 重挫 -2.70%，双雄个股次日企稳。DatacenterDisk 连续第十三日失联、Yahoo 连续第五日 429。"
+}
