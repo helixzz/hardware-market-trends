@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-01T09:05:30+08:00",
+  "generatedAt": "2026-10-02T09:13:41.357973",
   "cutoffDate": null,
-  "trackingRows": 54,
+  "trackingRows": 55,
   "categories": {
     "DDR5-6400": {
       "category": "DDR5-6400",
-      "latestDate": "2026-10-01",
+      "latestDate": "2026-10-02",
       "latestCoverage": {
         "filled": 3,
         "total": 3
@@ -33,28 +33,28 @@
           "latestValue": 11294,
           "previousValue": 11294,
           "rollingMedian14d": 11294,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 64GB": {
           "latestValue": 18608,
           "previousValue": 18608,
           "rollingMedian14d": 18608,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "DDR5-6400 128GB": {
           "latestValue": 52651,
           "previousValue": 52651,
           "rollingMedian14d": 52651,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         }
       }
     },
     "DDR5-5600": {
       "category": "DDR5-5600",
-      "latestDate": "2026-10-01",
+      "latestDate": "2026-10-02",
       "latestCoverage": {
         "filled": 3,
         "total": 3
@@ -82,28 +82,28 @@
           "latestValue": 9190,
           "previousValue": 9190,
           "rollingMedian14d": 9190,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "DDR5-5600 64GB": {
           "latestValue": 18595,
           "previousValue": 18595,
           "rollingMedian14d": 18595,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "DDR5-5600 128GB": {
           "latestValue": 46600,
           "previousValue": 46600,
           "rollingMedian14d": 46600,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 TLC": {
       "category": "PCIe4 TLC",
-      "latestDate": "2026-10-01",
+      "latestDate": "2026-10-02",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -134,35 +134,35 @@
           "latestValue": 18705,
           "previousValue": 18705,
           "rollingMedian14d": 18705,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 7.68TB": {
           "latestValue": 26866,
           "previousValue": 26866,
           "rollingMedian14d": 26866,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 15.36TB": {
           "latestValue": 43739,
           "previousValue": 43739,
           "rollingMedian14d": 43739,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe4 TLC 30.72TB": {
           "latestValue": 113896,
           "previousValue": 113896,
           "rollingMedian14d": 113896,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe5 TLC": {
       "category": "PCIe5 TLC",
-      "latestDate": "2026-10-01",
+      "latestDate": "2026-10-02",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -193,35 +193,35 @@
           "latestValue": 26699,
           "previousValue": 26699,
           "rollingMedian14d": 26699,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 7.68TB": {
           "latestValue": 39271,
           "previousValue": 39271,
           "rollingMedian14d": 39271,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 15.36TB": {
           "latestValue": 54292,
           "previousValue": 54292,
           "rollingMedian14d": 54292,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe5 TLC 30.72TB": {
           "latestValue": 207772,
           "previousValue": 207772,
           "rollingMedian14d": 207772,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         }
       }
     },
     "PCIe4 QLC": {
       "category": "PCIe4 QLC",
-      "latestDate": "2026-10-01",
+      "latestDate": "2026-10-02",
       "latestCoverage": {
         "filled": 4,
         "total": 4
@@ -252,40 +252,34 @@
           "latestValue": 68247,
           "previousValue": 68247,
           "rollingMedian14d": 68247,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 30.72TB": {
           "latestValue": 133071,
           "previousValue": 133071,
           "rollingMedian14d": 133071,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 61.44TB": {
           "latestValue": 258165,
           "previousValue": 258165,
           "rollingMedian14d": 258165,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         },
         "PCIe4 QLC 122.88TB": {
           "latestValue": 426126,
           "previousValue": 426126,
           "rollingMedian14d": 426126,
-          "lastSeenDate": "2026-10-01",
+          "lastSeenDate": "2026-10-02",
           "consecutiveMissingDays": 0
         }
       }
     }
   },
   "recentRunNotes": {
-    "2026-09-24": [
-      "Day153(2026-09-24·周四) 巩固日: 主值全列carry(连续第十三日)·CDW全锚点零回调第二十一日。9550Pro 30.72TB跳涨后第三十五天维持(跳涨Day58)·7450PRO连续第二十四日提取(零回调Day81·追踪史绝对最长)·3.84/15.36TB Day52。QLC P5336 4/4第二十一观察日(15.36/30.72 InStock维持)。⚠️Newegg 16GB 5600 Samsung $723.22第七日确认·$709.99档58处(昨17处·第三方批量同价)——Samsung现货档高位无回落。🆕16GB 6400 RDIMM首次见公开现货(NEMIX $744.99多SKU·单源第三方·暂不入主值)——长期缺口转旁证。🔍96GB 6400 NEMIX $4,368.99今日SKU未出现(list轮换·观察中断·待明日复核·非价格回调)。🟢Yahoo Chart恢复(429解除)·KOSPI 9/23收7,080.92(+0.88%)·Samsung 9/23收286,500(+3.62%)/SKH 1,863,000(+1.25%)。🆕新闻:芯片股集体下挫(AI领袖放缓警示/英伟达谷歌两难)·Anthropic IPO估值试金石·Modal Labs融资150亿·美联储加息预期·特朗普-习近平会谈AI核心议题。🔴DatacenterDisk第十次失联(连续第八日)。fx 6.7074。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
-    ],
-    "2026-09-25": [
-      "Day154(2026-09-25·周五) 巩固日: 主值全列carry(连续第十四日)·CDW全锚点零回调第二十二日。✅9550Pro 30.72TB跳涨后第三十六天维持(跳涨Day59)·7450PRO连续第二十五日提取(零回调Day82·追踪史绝对最长)·3.84/15.36TB Day53。✅QLC P5336 4/4第二十二观察日(15.36/30.72 InStock维持)。⚠️Newegg 16GB 5600 Samsung $723.22第八日确认(本页7条目同价·昨3条)·$709.99档12处(昨29处·第三方带内轮换)——Samsung现货档高位无回落。🟢16GB 6400 NEMIX $744.99第二日(22条目·单源第三方旁证)。🔍96GB 6400 NEMIX $4,368.99第二日未出现(list轮换·观察中断·DCD失联无法交叉验证)。🟢PM9A3 1.92TB $1,450旁证维持。🔴韩股9/24-9/25无新交易数据(秋夕假期窗口·Naver/TE/Yahoo最新均9/23收盘: Samsung 286,500 +3.62%/SKH 1,863,000 +1.25%/KOSPI 7,080.92)——金融面carry。🆕新闻: WSJ美国存储落后论+关税威胁·软银加注AI半导体·Akamai×Anthropic $11.6B云交易·特朗普9/29会科技CEO谈AI·算力外溢物流仓储(双源互证)。🔴DatacenterDisk第十一次失联(连续第九日)·🔴Yahoo Chart复429(query1/query2)。fx 6.7126。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
-    ],
     "2026-09-26": [
       "Day155(2026-09-26·周六) 巩固日: 主值全列carry(连续第十五日)·CDW全锚点零回调第二十三日。✅9550Pro 30.72TB跳涨后第三十七天维持(跳涨Day60)·库存由Item Backordered转In Stock(价格不变·PCIe5线首个库存缓解信号·量待观察)·7450PRO连续第二十六日提取(零回调Day83·追踪史绝对最长)·3.84/15.36TB Day54。✅QLC P5336 4/4第二十三观察日(15.36/30.72 InStock维持·61.44TB标签4-6+Weeks→Item Backordered价格不变)。⚠️Newegg 16GB 5600 Samsung $723.22第九日确认(Samsung/Kingston兼容/A-Tech 3条目同价·昨7条·带内轮换)·$709.99档30处(昨12处)——Samsung现货档高位无回落。🟢16GB 6400 NEMIX $744.99第三日(22条目·单源第三方旁证)。🆕96GB 5600单条NEMIX $4,250.99×6首次提取(长期缺口转单源第三方旁证·不入主值)。🔍96GB 6400 NEMIX $4,368.99第三日未出现(观察中断·DCD失联无法交叉验证)。🟢PM9A3 1.92TB $1,450旁证维持。🔴韩股9/24-9/28休市(秋夕·TE明确9/28恢复交易·最新9/23收盘: Samsung 286,500 +3.62%/SKH 1,863,000 +1.25%/KOSPI 7,080.92)——金融面carry。🆕新闻: 玻璃基板风口(SCHMID大涨20%·英伟达/AMD/英特尔评估)·美两党中国数据中心组件禁令(光模块)·芯片股止跌反弹·SpaceX占英伟达收入约5%·联储AI'大到不能倒'关注·日本生命$12.7B数据中心融资。🔴DatacenterDisk第十二次失联(连续第十日)·🔴Yahoo Chart连续第二日429。fx 6.7132。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
     ],
@@ -302,7 +296,10 @@
       "Day159(2026-09-30·周三) 巩固日: 主值全列carry(连续第十九日)·CDW全锚点零回调第二十七日。✅9550Pro 30.72TB跳涨后第四十一天维持(跳涨Day64·库存InStock第五日)·7450PRO连续第三十日提取(零回调Day87·追踪史绝对最长)·3.84/15.36TB Day58。✅QLC P5336 4/4第二十七观察日(价格与库存标签全部持平: 15.36TB 3-5+Days/30.72TB 2-4+Days/61.44TB 1-3+Days(改善守住第三日)/122.88TB 4-6+Weeks)。⚠️Newegg 16GB 5600 Samsung $723.22第十三日确认(3条目同价)·$709.99档30处持平——Samsung现货档高位无回落。🟢16GB 6400 NEMIX $744.99第七日(22条目·单源第三方旁证)·96GB 5600单条$4,250.99第五日(档位回升至7条目)。🔍96GB 6400 NEMIX $4,368.99第七日未出现(观察中断·DCD失联无法交叉验证)。🟢PM9A3 1.92TB $1,450旁证维持。🟢金融面转向修复尝试(今日头条·实物未动): KOSPI 9/29收6,870.81(-0.27%·TE确认·秋夕复市两连跌)·Samsung 9/30盘中274,000(+0.55%·较9/29收272,500)·SKH 1,812,000(+2.66%·较9/29收1,765,000)@10:01KST——大盘弱势中个股同步反弹·SKH领涨·实物零回调第十九日。🆕新增来源Brave web_search首次接入(背景级): 伯恩斯坦Q3传统DRAM/NAND ASP环比+15~20%(DRAM由+12%上调)·新浪科技HBM挤压通用服务器DRAM/企业SSD供给。🆕新闻: WSJ存储股市与AI周期·Navitas走强·中国AI智能体对齐风险·Accelevation赴美IPO·特朗普AI新政·算力外溢物流仓储(双源互证)·Anthropic IPO估值。🔴DatacenterDisk第十六次失联(连续第十四日)·🔴Yahoo Chart连续第六日429·🆕Provantage/Exxact/ServerSupply/Saitech新增尝试均未获公开价。fx 6.7034(9/29新价·续降)。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
     ],
     "2026-10-01": [
-      "Day160(2026-10-01·周四) 假期巩固日: 主值全列carry(连续第二十日)。🔴🔴CDW价格可见性收窄(今日头条): 13 SKU仅6个可见data-price且与昨日完全一致(零回调Day28)·7个SKU(7450 PRO 7.68/9550Pro 3.84·15.36/6500 ION/64GB 5600/P5336 122.88)今日转'Request Pricing'隐藏价格——该7个SKU当日主值无法直接验证·保守carry·标记parser_gap·多UA/URL重试均0价。🟢🟢Newegg 96GB DDR5-6400 NEMIX $4,368.99重新出现(6条目·连续7日未出现后回归·观察中断结束)——96GB 6400回到'单源第三方旁证在场'; 96GB 5600单条$4,250.99第六日(10条目·较昨7回升)。🟢16GB 5600 Samsung $723.22第十四日(3条目)·$709.99档30处持平·低档$599/$625条目级零命中(轮换)。🟢16GB 6400 NEMIX $744.99第八日(22条目)。🟢PM9A3 1.92TB $1,450旁证维持。🟢金融季末: KOSPI 9/30收6,838.04(-0.48%)·Q3累计约-19%(2020Q1以来最差季度)·双雄9/30收 Samsung 268,500/SKH 1,776,000·10/1盘中温和企稳(Samsung 269,300 +0.19%/SKH 1,787,000 +0.62%)@10:02-10:03 KST——实物零回调第二十日·金融季末重挫后企稳·背离延续。🆕背景证据(不入主价): Fusion Greensheet企业SSD Q3环比+28~29%($0.503/GB)·TrendForce 9/30 DRAM合约'持稳'·Q4 NAND +15~20%/企业SSD +23~30%·datacenterdisk H2 2026报告页: HBM4 2026全预定·AI消耗高端DRAM约70%——涨价动能延续。🔴DatacenterDisk第十七次不可达(性质变: /ddr5-rdimm/404结构变更+域名间歇ENOTFOUND)·🔴Yahoo Chart第七日429。fx 6.7045(9/30新价·基本持平)。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
+      "Day160(2026-10-01·周四) 假期巩固日: 主值全列carry(连续第二十日)。🔴🔴CDW价格可见性收窄(今日头条): 13 SKU仅6个可见data-price且与昨日完全一致(零回调Day28)·7个SKU(7450 PRO 7.68/9550Pro 3.84·15.36/6500 ION/64GB 5600/P5336 122.88)今日转'Request Pricing'隐藏价格——该7个SKU当日主值无法直接验证·保守carry·标记parser_gap·多UA/URL变体重试均为0价。🟢🟢Newegg 96GB DDR5-6400 NEMIX $4,368.99重新出现(6条目·连续7日未出现后回归·观察中断结束)——96GB 6400返回'单源第三方旁证在场'; 96GB 5600单条$4,250.99第六日(10条目·较昨7回升)。🟢16GB 5600 Samsung $723.22第十四日(3条目)·$709.99档30处持平·低档$599/$625条目级零命中(轮换)。🟢16GB 6400 NEMIX $744.99第八日(22条目)·96GB页重现。🟢PM9A3 1.92TB $1,450旁证维持。🟢金融季末: KOSPI 9/30收6,838.04(-0.48%)·Q3累计约-19%(2020Q1以来最差季度)·双雄9/30收 Samsung 268,500/SKH 1,776,000·10/1盘中温和企稳(Samsung 269,000 +0.19%/SKH 1,787,000 +0.62%)@10:02-10:03 KST——实物零回调第二十日·金融季末重挫后企稳·背离延续。🆕背景证据(不入主价): Fusion Greensheet企业SSD Q3环比+28~29%($0.503/GB)·TrendForce 9/30 DRAM合约'持稳'·Q4 NAND +15~20%/企业SSD +23~30%·DCD H2 2026报告页: HBM4 2026全预定·AI消耗高端DRAM约70%——供给紧约束与涨价动能延续。🔴DatacenterDisk第十七次不可达(性质变化: 404结构变更45/域名间歇ENOTFOUND)·🔴Yahoo Chart第七日429。fx 6.7045(9/30新价·基本持平)。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
+    ],
+    "2026-10-02": [
+      "Day161(2026-10-02·周五·国庆假期) 巩固日: 主值全列carry(连续第二十一日)。🟢CDW价格可见性部分恢复(今日头条): 昨日隐藏的7450 PRO 7.68TB今日重新可见$3,279.99(与隐藏前完全一致·零回调Day89复核成功·连续第三十二日提取·追踪史绝对最长)·隐藏SKU 7→5(6500 ION/9550Pro 3.84·15.36/64GB 5600/P5336 122.88仍Request Pricing·parser_gap)·6个可见价与昨日完全一致(零回调Day29)。⚠️库存标签变化: 9550Pro 30.72 In Stock→2-4+ Days(跳涨Day66价格不变·现货标签松动)·P5336 15.36 3-5+Days→In Stock/30.72 2-4+Days→In Stock(QLC现货可及性改善·锁仓逻辑缓解)·122.88 4-6+Weeks维持。🟢Newegg条目倍增: 16GB 5600 Samsung $723.22第十五日(3→6条目)·$709.99档30→60; 16GB 6400 NEMIX $744.99第九日(22→44条目); 96GB 6400 $4,368.99回归第二日(6→12条目)·96GB 5600 $4,250.99第七日(10→20条目); PM9A3 $1,450旁证(2→6条目)。🟢🟢金融面显著修复(今日头条): KOSPI 10/1收6,971.35(+1.95%·TE确认·季末重挫后首个大反弹)·Samsung 10/1收276,000(+2.79%)/SKH 10/1收1,833,000(+3.21%)·10/2早盘Samsung平/SKH+0.65%@10:02KST——实物零回调第二十一日·金融连续两日修复·背离收敛。🔴DatacenterDisk第十八次不可达(DNS级·报告页今日也ENOTFOUND)·🔴Yahoo Chart第八日429。fx 6.7045(carry·国庆假期)。🆕背景: TrendForce 9/30正式稿4Q26 DRAM合约+10~15%/NAND+15~20%/企业SSD+23~28%唯一加速类·Chosun DRAM/NAND创新高。五品类建议维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy)。"
     ]
   }
 }
