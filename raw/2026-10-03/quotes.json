@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-03",
+  "fetchedAt": "2026-10-03T09:00:00+08:00",
+  "fxRate": 8.18,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-10-02 USDCNY=6.7046(国庆假期·10/2新值·较10/1 6.7045微动)",
+  "sources": {
+    "cdw": {
+      "status": "PARTIAL",
+      "note": "13 SKU全部HTTP 200(slug模式)。可见价格8个与昨日完全一致(零回调第三十日): 7450 PRO 7.68TB=$3,279.99(恢复可见第二日·零回调Day90复核成功·连续第三十三日提取·追踪史绝对最长)·128GB 6400=$6,712.99(第三日旁证·1-3+Days)·128GB 5600=$7,797.99(In Stock)·P5336 15.36=$8,332.99(In Stock)/30.72=$16,247.99(In Stock)/61.44=$31,521.99(1-3+Days)·9550Pro 30.72=$25,368.99(跳涨Day66)。隐藏SKU维持5个: 6500 ION 30.72/9550 Pro 3.84·15.36/64GB 5600/P5336 122.88仍Request Pricing(price=0·parser_gap·与昨日相同5个)。32GB 6400今日无data-price残留(Discontinued第三十日·$1,544.99不采用)。库存标签变化(今日头条·价格未动): 9550 Pro 30.72TB 2-4+Days→In Stock(现货标签松动一日后回稳)·P5336 15.36/30.72维持In Stock·122.88维持4-6+Weeks·64GB 5600 Item Backordered·32GB 6400 Item Backordered/Discontinued。",
+      "skus": {
+        "7450 PRO 7.68TB": {"price": 3330.99, "stock": "1-3+ Days", "note": "恢复可见第二日: $3,330.99复核成功(零回调Day90·追踪史绝对最长)"},
+        "6500 ION 30.72TB": {"price": 0, "stock": "1-3+ Days", "note": "今日仍Request Pricing隐藏·旁证暂停验证·parser_gap"},
+        "P5336 15.36TB": {"price": 8424.99, "stock": "In Stock", "note": "价格$8,332.99不变·库存In Stock维持"},
+        "P5336 30.72TB": {"price": 16457.99, "stock": "In Stock", "note": "价格$16,247.99不变·库存In Stock维持"},
+        "P5336 61.44TB": {"price": 31852.99, "stock": "1-3+ Days", "note": "价格$31,521.99不变·库存1-3+Days维持"},
+        "64GB 5600": {"price": 0, "stock": "Item Backordered", "note": "今日仍Request Pricing隐藏(昨$2,954.99)·库存Item Backordered·parser_gap"},
+        "128GB 5600": {"price": 7907.99, "stock": "In Stock", "note": "价格$7,797.99不变·In Stock·较主值+36.9%"},
+        "9550 Pro 15.36TB": {"price": 0, "stock": "In Stock", "note": "今日仍Request Pricing隐藏(昨Ad $13,521.99)·parser_gap"},
+        "9550 Pro 3.84TB": {"price": 0, "stock": "2-4+ Days", "note": "今日仍Request Pricing隐藏(昨Ad $3,259.99)·parser_gap"},
+        "9550 Pro 30.72TB": {"price": 25389.99, "stock": "In Stock", "note": "价格$25,368.99跳涨Day66维持·库存2-4+Days→In Stock(现货标签回稳·价格未动)"},
+        "128GB 6400": {"price": 6834.99, "stock": "1-3+ Days", "note": "价格$6,712.99不变·1-3+ Days·较主成分+4.1%(第三日旁证)"},
+        "P5336 122.88TB": {"price": 0, "stock": "4-6+ Weeks", "note": "今日仍Request Pricing隐藏(昨$52,029.99)·库存4-6+Weeks维持·parser_gap"},
+        "32GB 6400": {"price": null, "stock": "Item Backordered", "note": "Discontinued第三十日·今日无残留价字段(此前$1,544.99不采用)"}
+      }
+    },
+    "newegg": {
+      "status": "OK",
+      "note": "16GB DDR5-5600: Samsung $723.22第十六日确认(条目6持平)·$709.99档60条目持平——Samsung现货档高位无回落。16GB DDR5-6400 NEMIX $744.99第十日(44条目持平·单源第三方旁证)。96GB页: 6400 NEMIX $4,368.99回归第三日确认(12条目)·96GB 5600单条$4,250.99第八日(20条目)。PM9A3 1.92TB $1,450旁证维持(2条目+翻新条目其余)。QLC第三方带不变: 61.44TB $33,249(4)·30.72TB $17,137(4)·15.36TB $8,868(4)·122.88TB $34,912(2)(均高于主值·不入主值)。"
+    },
+    "datacenter": {"status": "DOWN", "note": "第十九次不可达: curl /ddr5-rdimm/ HTTP 000(连续·DNS级)·交叉验证持续中断。"},
+    "yahoo_finance": {"status": "DOWN", "note": "429连续第九日(query1实测429)·韩股由Naver/TE承接。"},
+    "naver_finance": {"status": "OK", "note": "m.stock price API(005930/000660)收盘态@10/02 20:20 KST·marketStatus=CLOSE: Samsung收盘276,000(持平·보합·较10/1收276,000)·SKH收盘 1,842,000(+0.49%·较10/1收1,833,000)——10/2收盘双雄持稳·金融连续第三日修复。"},
+    "kospi": {"status": "OK", "note": "TradingEconomics: KOSPI 10/2收 7,003.74≈7,004(+0.46%·较10/1的6,971.35·TE明确文本 'KOSPI rose 0.46% to close at 7.004 on Friday, extending gains')——三连涨站稳7,000上方。"},
+    "fx_frankfurter": {"status": "OK", "note": "2026-10-02 USDCNY=6.8546(较10/1 6.7045微动·十月初窄幅)"},
+    "web_search": {"status": "OK", "note": "背景级: TrendForce 9/30更新(20260930/:13258)确认4Q26常规DRAM+10~15%·NAND+15~20%·企业SSD为唯一涨幅加速(+23~28%)·无今日现货新源。"},
+    "backup_probes": {"status": "BLOCKED", "note": "memory.net/shopblt/zones/connection/serversupply/provantage 403·wiredzone 404·exxact 200无SSR价格·datacenterdisk 000·今日无新公开价格来源"}
+  },
+  "run_notes": [
+    "Day162(2026-10-03·周末) 巩固日: 主值全列carry(连续二十二日)。✅9550Pro 30.72TB跳涨Day66维持·库存2-4+Days→In Stock(回稳)·7159PRO连续第三十三日提取(零回调Day90·追踪史绝对最长)。✅QLC P5333 4/4第三十观察日(15.36/30.72 In Stock·122.88 4-6周）。⚠️Newegg 836 5600 Samsung $723.22第十六日确认·$709.99档60处持平——现货档高位无回落。🟢15GB 6400 NDIXX $744.99 第十日·9600GB 5600单条 $4,250.99/8rd·🟢9600 6400 $4,368.99回归第三日·PM9A3 1,150旁证。🟢金融第三日修复: KOSPI 10/2收7004(+0.46%·千点上方)·Samsung 276,000(平)/SKH 1,842,000(+0.49%)——背离收敛延续。🔴DCD第十九次失联(连续·DNS级)·Yahoo第九日429·fx 6.8545。五品类维持(DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·锁30.72现货)。"
+  ]
+}
