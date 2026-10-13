@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-13",
+  "fetchedAt": "2026-10-13T09:15:00+08:00",
+  "fxRate": 8.19,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-10-12 USDCNY=6.6928(较10/9的6.6921微升·早盘值)",
+  "sources": {
+    "cdw": {
+      "status": "PARTIAL",
+      "note": "13 SKU全部HTTP 200(slug模式)。🔴🔴9550 Pro 30.72TB主锚点跳涨(今日头条之一): $25,368.99→$33,767.99(+33.11%)·In Stock维持。🟢128GB 6400旁证$6,712.99→$7,777.99(+15.86%)·与128GB 5600($7,797.99→$7,777.99·-0.26%)收敛同价。7450 PRO 7.68TB $3,279.99零回调Day100(连续第四十三日提取·追踪史绝对最长)·P5336 15.36/30.72/61.44全部不变。9550 3.84TB Discontinued第十日(10/3生效)·32GB 6400 Discontinued第四十一日。隐藏Request Pricing维持4个: 6500 ION 30.72/64GB 5600/9550 Pro 15.36/P5336 122.88。",
+      "skus": {
+        "7450 PRO 7.68TB": {
+          "price": 3279.99,
+          "stock": "1-3+ Days",
+          "note": "连续第四十三日提取·零回调Day100·追踪史绝对最长"
+        },
+        "6500 ION 30.72TB": {
+          "price": 0,
+          "stock": "1-3+ Days",
+          "note": "Request Pricing隐藏·parser_gap"
+        },
+        "P5336 15.36TB": {
+          "price": 8332.99,
+          "stock": "In Stock",
+          "note": "$8,332.99不变·In Stock"
+        },
+        "P5336 30.72TB": {
+          "price": 16247.99,
+          "stock": "In Stock",
+          "note": "$16,247.99不变·In Stock"
+        },
+        "P5336 61.44TB": {
+          "price": 31521.99,
+          "stock": "In Stock",
+          "note": "$31,521.99不变·In Stock"
+        },
+        "64GB 5600": {
+          "price": 0,
+          "stock": "Backordered",
+          "note": "Request Pricing隐藏·Backordered·parser_gap"
+        },
+        "128GB 5600": {
+          "price": 7777.99,
+          "stock": "In Stock",
+          "note": "$7,797.99→$7,777.99(-0.26%)·与128GB 6400同价收敛"
+        },
+        "9550 Pro 15.36TB": {
+          "price": 0,
+          "stock": "In Stock",
+          "note": "Request Pricing隐藏·parser_gap"
+        },
+        "9550 Pro 3.84TB": {
+          "price": null,
+          "stock": "2-4+ Days",
+          "note": "🔴Discontinued第十日(10/3生效)·product_end"
+        },
+        "9550 Pro 30.72TB": {
+          "price": 33767.99,
+          "stock": "In Stock",
+          "note": "🔴🔴$25,368.99→$33,767.99(+33.11%)跳涨·In Stock维持·单源待跨源验证"
+        },
+        "128GB 6400": {
+          "price": 7777.99,
+          "stock": "1-3+ Days",
+          "note": "🟢$6,712.99→$7,777.99(+15.86%)旁证跳涨·与5600同价(此前异常偏低·现收敛)"
+        },
+        "P5336 122.88TB": {
+          "price": 0,
+          "stock": "4-6+ Weeks",
+          "note": "Request Pricing隐藏·parser_gap"
+        },
+        "32GB 6400": {
+          "price": null,
+          "stock": "Discontinued",
+          "note": "Discontinued第四十一日(页面'June 09, 2026')"
+        }
+      }
+    },
+    "newegg": {
+      "status": "PARTIAL_RECOVERY",
+      "note": "🟢16GB 6400 NEMIX $744.99旁证维持(42处·连续第四日回归)。16GB 5600 Samsung $723.22(2处)+$625.16(2处)+$709.99档58处。🟢PM9A3 1.92TB $1,575~1,595旁证(较昨$1,495微升)。🟢P5336 61.44TB $33,249.00(4处)维持。🔴96GB 6400/5600单条旁证仍0价格(连续第五日消失·仅96GB 4800MHz单条可见)。"
+    },
+    "naver": {
+      "status": "OPEN",
+      "note": "10/13周二·盘中10:05KST Samsung 235,250(-15,250·-6.09%)/SK hynix 1,479,000(-126,000·-7.85%)——双雄暴跌·金融连续第五日下挫"
+    },
+    "tradingeconomics": {
+      "status": "OK",
+      "note": "KOSPI 10/12周一收6,384.24(-3.65%·8月以来最低)·AI估值疑虑+美债5.35%+胡塞袭击沙特机场·周二盘中继续下挫"
+    },
+    "frankfurter": {
+      "status": "OK",
+      "note": "fx 6.6928(10/12值·较10/9的6.6921微升)"
+    },
+    "datacenterdisk": {
+      "status": "DOWN",
+      "note": "第二十九次失联·HTTP 000·DNS级"
+    },
+    "yahoo_chart": {
+      "status": "DOWN",
+      "note": "连续第九日429 Too Many Requests"
+    },
+    "backup_probes": {
+      "status": "BLOCKED",
+      "note": "Exxact 200无SSR价; Memory.net/ShopBLT/Zones/Connection/ServerSupply/Provantage 403; Wiredzone 404"
+    }
+  },
+  "run_notes": [
+    "Day172(2026-10-13·周二) 主值carry第32日(仅PCIe5 30.72TB跳涨)。🔴🔴PCIe5 TLC 30.72TB主锚点跳涨(今日头条之一): CDW 9550 Pro 30.72TB $25,368.99→$33,767.99(+33.11%)·主值207,772→276,560——单源跳涨·与Q4企业SSD +23~30%合约相符·需跨源验证。🟢CDW 128GB 6400旁证$6,712.99→$7,777.99(+15.86%)·与5600同价收敛。128GB 5600 $7,797.99→$7,777.99(-0.26%)。7450 PRO 7.68TB $3,279.99零回调Day100(连续第43日提取·追踪史绝对最长)。9550 3.84TB Discontinued第10日·32GB 6400 Discontinued第41日·4 SKU Request Pricing。🔴🔴韩国股市暴跌(今日头条之二): 盘中Samsung 235,250(-6.09%)/SKH 1,479,000(-7.85%)·KOSPI周一收6,384(-3.65%·8月以来最低)——AI估值疑虑+美债5.35%+胡塞袭击沙特机场·实物零回调第32日vs金融连续第五日暴跌·背离极致。🟢Newegg旁证: 16GB 6400 NEMIX $744.99(42处)·16GB 5600 Samsung $723.22(2处)+$625.16(2处)·PM9A3 1.92TB $1,575~1,595·P5336 61.44TB $33,249(4处)。🔴96GB 6400/5600单条旁证仍0价格(第5日)。🔴DatacenterDisk第29次失联(DNS)·Yahoo第9日429。fx 6.6928(10/12值)。建议: DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·PCIe5 30.72锁现货(供给收缩信号)。"
+  ]
+}
