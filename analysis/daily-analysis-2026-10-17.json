@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T09:05:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": ["CDW", "Newegg", "Naver", "TradingEconomics", "frankfurter", "Exxact", "Memory.net", "ShopBLT", "Zones", "Connection", "ServerSupply", "Provantage", "Wiredzone", "DatacenterDisk", "Yahoo"],
+  "newSourcesWithUsefulData": ["CDW", "Naver", "TradingEconomics", "frankfurter"],
+  "keyChangesVsYesterday": [
+    "PCIe5 TLC 30.72TB 跳涨维持第五日($33,767.99未回落·主值276,560五级确认)",
+    "KOSPI 10/16收5,668.05(+2.05%·较10/15的5,554反弹); Samsung收217,000(+3.33%)/SKH收1,265,000(+0.24%·盘中+3.01%收盘大幅回吐)——个股分化加大",
+    "Newegg全部5页403 CAPTCHA(Cloudflare 'Just a moment')连续第四日(反爬未解除·企业级旁证持续中断)",
+    "7450 PRO 7.68TB零回调Day104(追踪史绝对最长)"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB停产第45日; 128GB旁证$7,777.99维持; 主值零回调; Q4合约+10~15%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder; 128GB旁证维持; Q4合约+10~15%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 7.68TB零回调Day104(追踪史绝对最长)"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB +33.11%跳涨后连续第五日未回落(供给收缩信号五级确认); 3.84TB Discontinued第十四日"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "价格横盘; P5336 15.36/30.72/61.44全部In Stock; 122.88仍4-6周"
+    }
+  },
+  "gaps": [
+    {
+      "category": "Newegg企业级旁证(全线)",
+      "spec": "16GB 6400/16GB 5600/PM9A3/P5336 61.44",
+      "reasonCode": "stale_repeated_sample",
+      "note": "source_collapse(403 CAPTCHA·Cloudflare 'Just a moment'·连续第四日): 反爬未解除, 旁证持续中断"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "旁证连续第九日消失; Newegg 403无法验证"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "旁证连续第九日消失; 同上"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "product_end(Discontinued第十四日): 9550 3.84TB CDW 10/3下架, 需跨源复核替代SKU"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB跳涨验证",
+      "reasonCode": "stale_repeated_sample",
+      "note": "连续第五日维持(五级确认), 但仍仅CDW单源; 备源403/404无法跨源验证"
+    },
+    {
+      "category": "CDW 4 SKU",
+      "spec": "6500 ION 30.72/64GB 5600/9550 15.36/P5336 122.88",
+      "reasonCode": "parser_gap",
+      "note": "仍Request Pricing"
+    }
+  ]
+}
