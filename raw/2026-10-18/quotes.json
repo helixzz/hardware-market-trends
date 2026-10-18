@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-18",
+  "fetchedAt": "2026-10-18T09:05:00+08:00",
+  "fxRate": 8.19,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-10-16 USDCNY=6.6862(周末carry·与10/16值一致)",
+  "sources": {
+    "cdw": {
+      "status": "DOWN",
+      "note": "🔴🔴全部13 SKU HTTP 503 'Site Maintenance'(今日头条)·含首页均503——CDW主值锚点源整站维护·追踪序列以来首次整站级不可用·13 SKU全部无法当日重新提取·主值全列carry(连续第三十七日)。",
+      "skus": {}
+    },
+    "newegg": {
+      "status": "DOWN",
+      "note": "全部5页403 CAPTCHA(Cloudflare 'Just a moment'·连续第五日·反爬未解除)·16GB 6400/16GB 5600/PM9A3/P5336旁证持续中断"
+    },
+    "naver": {
+      "status": "CLOSE",
+      "note": "周日休市·返回10/16周五收盘: Samsung 217,000(+3.33%)/SK hynix 1,265,000(+0.24%)——周末无新交易·carry"
+    },
+    "tradingeconomics": {
+      "status": "OK",
+      "note": "KOSPI 10/16收盘5,668.05(+2.05%)·周日休市·无新值"
+    },
+    "frankfurter": {
+      "status": "OK",
+      "note": "fx 6.6862(10/16值·周末carry·与昨日一致)"
+    },
+    "datacenterdisk": {
+      "status": "DOWN",
+      "note": "第三十四次失联·HTTP 000·DNS级"
+    },
+    "yahoo_chart": {
+      "status": "DOWN",
+      "note": "连续第十四日429 Too Many Requests"
+    },
+    "backup_probes": {
+      "status": "BLOCKED",
+      "note": "Provantage Cloudflare 'Just a moment'挑战页; Exxact 200无SSR价; Wiredzone 404; Saitech SSL_ERROR_SYSCALL; Solidigm/Micron(404)/Samsung官方页无公开价; Memory.net/ShopBLT/Zones/Connection/ServerSupply 403"
+    }
+  },
+  "run_notes": [
+    "Day177(2026-10-18·周日) 🔴🔴CDW主值锚点源整站503 'Site Maintenance'(今日头条·追踪序列首次整站级不可用): 13 SKU全部503(含首页)·无法当日重新提取——主值全列carry(连续第三十七日)·PCIe5 30.72TB跳涨(276,560)第五日确认状态今日因主源维护无法复核。🔴Newegg全部5页403 CAPTCHA连续第五日(反爬未解除·旁证持续中断)。🟢韩国周日休市·Naver返回10/16收盘Samsung 217,000(+3.33%)/SKH 1,265,000(+0.24%)·TE KOSPI 10/16收5,668.05(+2.05%)——实物零回调第37日vs金融暴跌后反弹·背离收敛但个股分化。7450 PRO 7.68TB零回调Day104主值(今日因CDW维护无法复核·记为carry)。9550 3.84TB Discontinued第十四日(10/3生效·今日无法复核)·32GB 6400 Discontinued第四十五日。4 SKU Request Pricing无法复核。🔴DatacenterDisk第34次失联(DNS)·Yahoo第14日429·fx 6.6862(10/16值·周末carry)。建议维持: DDR5x2/PCIe4/PCIe5 buy_now·QLC split_buy·PCIe5 30.72锁现货——但CDW主源维护导致今日所有主值未获新证据·明日需优先恢复CDW复核。"
+  ]
+}
