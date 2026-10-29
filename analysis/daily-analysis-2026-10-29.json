@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T09:05:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [
+    "Exxact", "Wiredzone", "Memory.net", "ShopBLT", "Zones", "Connection", "ServerSupply", "Provantage"
+  ],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "主值全列 carry 第四十六日（无价格变动）",
+    "PCIe5 TLC 30.72TB（9550 Pro）公开价撤回：$33,767.99 → Call（call for pricing），结束十四日跳涨站稳，库存仍 In Stock 26 件，供给收缩信号升级为「报价撤回」",
+    "KOSPI 10/28 单日大涨收 6,012（+374.10，+6.64%）",
+    "今日 10/29 盘中韩股双雄分化：Samsung 238,750（-1.34%）回调 / SKH 1,543,000（+3.77%）续涨",
+    "PCIe4 QLC P5336 15.36TB $9,235.99 / 61.44TB $40,556.99 跳涨第八日站稳（30.72TB 平盘，非对称）",
+    "7450 PRO 7.68TB 零回调 Day115（追踪史绝对最长）",
+    "Newegg 403 CAPTCHA 连续第十六日（来源塌缩持续）",
+    "fx 6.6664（10/28 值，较 10/27 的 6.6675 续降）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "upward",
+    "PCIe4 QLC": "upward"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB 停产第56日；主值零回调；Q4 合约 +10~15%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；Q4 合约 +10~15%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 零回调 Day115（追踪史绝对最长），主源复核成功"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 公开报价撤回（$33,767.99→Call），供给收缩信号升级；3.84TB Discontinued 第二十五日；建议锁 30.72 现货"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第八日确认，供给风险上升；30.72TB 平盘（非对称），建议锁 61.44/15.36 现货、30.72 待确认"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "旁证连续第二十一日消失（Newegg 403 CAPTCHA 无法验证）"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "旁证连续第二十一日消失（Newegg 403 CAPTCHA 无法验证）"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "out_of_scope",
+      "note": "9550 3.84TB CDW 10/3 下架，Discontinued 第二十五日"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "parser_gap",
+      "note": "9550 Pro 30.72TB 公开报价撤回（$33,767.99 → Call），价格不再公开，单源 CDW，待跨源验证"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "122.88TB",
+      "reasonCode": "parser_gap",
+      "note": "P5336 122.88TB 仍 Request Pricing（4-6+ Weeks）"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘（非对称），单源 CDW，跳涨待跨源验证"
+    }
+  ]
+}
