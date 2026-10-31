@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T09:10:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "newSourcesTried": [],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "PCIe5 TLC 30.72TB (9550 Pro) 公开价再度撤回：昨日恢复 $33,767.99，今日 price-amount 字段为空（无价格、无 Call 文案），仍 In Stock + Add To Cart，供给收缩信号重新升级",
+    "韩国半导体股周五大跌收在更低点：Samsung 220,500 (-4.96%) / SKH 1,391,000 (-8.85%)，KOSPI 10/30 收 5,731 (-3.48%)",
+    "PCIe4 QLC P5336 15.36/61.44TB 跳涨第十日站稳，30.72TB 平盘（非对称延续）",
+    "7450 PRO 7.68TB 零回调 Day117（追踪史绝对最长）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB 停产第58日；主值零回调；Q4 合约 +10~15%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；Q4 合约 +10~15%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 零回调 Day117（追踪史绝对最长）"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 公开价再度撤回（price-amount 字段为空），供给收缩信号重新升级；3.84TB Discontinued 第二十七日"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第十日确认，供给风险上升；30.72TB 平盘待确认"
+    }
+  },
+  "gaps": [
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB 跳涨跨源验证",
+      "reasonCode": "parser_gap",
+      "note": "公开价再度撤回（price-amount 字段为空），价格不再公开，单源 CDW，待跨源验证"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘，单源 CDW 待验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "9550 3.84TB Discontinued 第二十七日（10/3 下架）"
+    },
+    {
+      "category": "DDR5",
+      "spec": "96GB 旁证（6400/5600）",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 403 CAPTCHA 连续第十八日，96GB 单条旁证连续第二十三日无法验证"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-31",
+  "fetchedAt": "2026-10-31T09:05:00+08:00",
+  "fxRate": 8.19,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-10-30 USDCNY=6.6529(10/30值·较10/29的6.6616续降)",
+  "sources": {
+    "cdw": {
+      "status": "OK",
+      "note": "CDW主源13 SKU全部HTTP 200。🟢🟢9550Pro 30.72TB公开价再度撤回(今日头条): 昨日恢复$33,767.99今日price-amount字段为空(无价格·无'Call'文案)·仍In Stock·Add To Cart在·疑似登录后可见价或再度隐藏·供给收缩信号自'跳涨站稳'重新升级·仍单源·待明日确认。🟢PCIe4 QLC P5336 15.36TB $9,235.99/61.44TB $40,556.99跳涨第十日站稳·30.72TB $16,247.99平盘(非对称)。✅7450 PRO 7.68TB $3,279.99零回调Day117(追踪史绝对最长)。128GB 6400/5600均$7,777.99(5600 list $11,199.10)。9550 3.84TB Discontinued第二十七日·32GB 6400 Discontinued第五十八日·4 SKU Request Pricing(6500 ION 30.72/64GB 5600/9550 15.36/P5336 122.88)。",
+      "skus": {
+        "7450 PRO 7.68TB": {"price": 3279.99, "stock": "3-5+ Days", "note": "零回调Day117·追踪史绝对最长"},
+        "6500 ION 30.72TB": {"price": 0, "stock": "In Stock", "note": "Request Pricing隐藏·parser_gap"},
+        "P5336 15.36TB": {"price": 9235.99, "stock": "In Stock", "note": "$9,235.99跳涨第十日站稳"},
+        "P5336 30.72TB": {"price": 16247.99, "stock": "In Stock", "note": "$16,247.99平盘(非对称未动)"},
+        "P5336 61.44TB": {"price": 40556.99, "stock": "In Stock", "note": "$40,556.99跳涨第十日站稳"},
+        "64GB 5600": {"price": 0, "stock": "Item Backordered", "note": "Request Pricing隐藏·parser_gap"},
+        "128GB 5600": {"price": 7777.99, "stock": "In Stock", "note": "$7,777.99维持(list $11,199.10)"},
+        "9550 Pro 15.36TB": {"price": 0, "stock": "In Stock", "note": "Request Pricing隐藏·parser_gap"},
+        "9550 Pro 3.84TB": {"price": null, "stock": "Discontinued", "note": "Discontinued第二十七日(10/3生效)·product_end"},
+        "9550 Pro 30.72TB": {"price": null, "stock": "In Stock", "note": "🟢🟢公开价再度撤回(price-amount字段为空·无价格无'Call'文案·仍In Stock·Add To Cart在)·疑似登录后可见价或再度隐藏·供给收缩信号重新升级·仍单源"},
+        "128GB 6400": {"price": 7777.99, "stock": "1-3+ Days", "note": "$7,777.99维持·与5600同价"},
+        "P5336 122.88TB": {"price": 0, "stock": "4-6+ Weeks", "note": "Request Pricing隐藏·parser_gap"},
+        "32GB 6400": {"price": null, "stock": "Discontinued", "note": "Discontinued第五十八日(6/9生效)"}
+      }
+    },
+    "newegg": {"status": "DOWN", "note": "全部5页403 CAPTCHA(Cloudflare·连续第十八日·反爬未解除)·16GB 6400/16GB 5600/PM9A3/P5336旁证持续中断"},
+    "naver": {"status": "OPEN", "note": "周五收盘(10/30·周六休市返回前值): Samsung 220,500(-4.96%)/SK hynix 1,391,000(-8.85%)——较昨日盘中(222,000/1,406,500)进一步走弱·韩股周五大跌收在更低点"},
+    "tradingeconomics": {"status": "OK", "note": "KOSPI 10/30收5,731(-3.48%·前日-1.24%续跌·过去一月累计-17.80%·同比仍+39.52%)"},
+    "frankfurter": {"status": "OK", "note": "fx 6.6529(10/30值·较10/29的6.6616续降)"},
+    "datacenterdisk": {"status": "DOWN", "note": "本轮第45次失联(DNS·000)"},
+    "yahoo_chart": {"status": "DOWN", "note": "第25日429"},
+    "backup_probes": {"status": "BLOCKED", "note": "Memory.net/ShopBLT/Zones/Connection/ServerSupply/Provantage 403; Wiredzone 404; Exxact 200无SSR价; Saitech 域名停放失效(上日确认)"}
+  },
+  "run_notes": [
+    "Day190(2026-10-31·周六) 主值全列carry(连续第四十八日)。🟢🟢PCIe5 TLC 30.72TB(9550 Pro)公开价再度撤回(今日头条): CDW昨日恢复$33,767.99今日price-amount字段为空(无价格·无'Call'文案)·仍In Stock·Add To Cart在·疑似登录后可见价或再度隐藏·供给收缩信号自'跳涨站稳(第十五日)'重新升级·仍单源·待明日确认。🟢韩国半导体股周五大跌收在低点: Naver周五收盘Samsung 220,500(-4.96%)/SKH 1,391,000(-8.85%)——较昨日盘中进一步走弱·KOSPI 10/30收5,731(-3.48%·过去一月累计-17.80%)。🟢PCIe4 QLC P5336 15.36TB $9,235.99/61.44TB $40,556.99跳涨第十日站稳(30.72TB $16,247.99平盘·非对称)。✅7450 PRO 7.68TB $3,279.99零回调Day117(追踪史绝对最长)。🔴Newegg全部5页403 CAPTCHA连续第十八日。9550 3.84TB Discontinued第二十七日(10/3生效)·32GB 6400 Discontinued第五十八日(6/9生效)·4 SKU Request Pricing(6500 ION 30.72/64GB 5600/9550 15.36/P5336 122.88)。fx 6.6529(10/30值·较10/29的6.6616续降)。建议: DDR5x2/PCIe4 buy_now·PCIe5 buy_now(30.72公开价再度撤回·供给收缩升级)·QLC split_buy(锁61.44/15.36现货·30.72平盘待确认)。"
+  ]
+}
