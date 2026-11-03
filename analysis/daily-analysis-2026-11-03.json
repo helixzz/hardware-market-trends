@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T09:07:56.210142",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 3
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 3
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "韩国半导体股周二盘中大跌：Naver 盘中 Samsung 219,500(-4.15%) / SK hynix 1,402,500(-4.72%)，周一反弹(+KOSPI 2.24%)后重挫回吐",
+    "fx 更新至 6.6483（11/2 值），较 10/30 的 6.6529 续降",
+    "PCIe5 TLC 30.72TB (9550 Pro) 公开价维持 $33,767.99，跳涨站稳第十八日，无再度撤回",
+    "PCIe4 QLC P5336 15.36/61.44TB 跳涨第十三日站稳，30.72TB 平盘（非对称延续）",
+    "7450 PRO 7.68TB 零回调 Day120（追踪史绝对最长）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB 停产第61日；主值零回调；Q4 合约 +10~15%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；Q4 合约 +10~15%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 零回调 Day120（追踪史绝对最长）"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 公开价 $33,767.99 维持高位，跳涨站稳第十八日；3.84TB Discontinued 第三十日"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第十三日确认，供给风险上升；30.72TB 平盘待确认"
+    }
+  },
+  "gaps": [
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB 跳涨跨源验证",
+      "reasonCode": "stale_repeated_sample",
+      "note": "公开价维持 $33,767.99 但跳涨十八级仍单源，待跨源验证"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘，单源 CDW 待验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "9550 3.84TB Discontinued 第三十日（10/3 下架）"
+    },
+    {
+      "category": "DDR5",
+      "spec": "96GB 旁证（6400/5600）",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 403 CAPTCHA 连续第二十一日，96GB 单条旁证连续第二十六日无法验证"
+    },
+    {
+      "category": "PCIe4 TLC",
+      "spec": "DiscTech 企业级 SSD 口径",
+      "reasonCode": "parser_gap",
+      "note": "站点可访问但本轮返回 Netsuite 搜索壳、无 JSON-LD 产品数据，未提取到单 SKU 企业级口径价格"
+    }
+  ]
+}
