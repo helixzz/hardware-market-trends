@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T09:12:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 3
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 3
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "DiscTech",
+    "CoreWaveLabs",
+    "Provantage",
+    "Tech-America",
+    "Memory.net",
+    "ShopBLT",
+    "Zones",
+    "Connection",
+    "ServerSupply",
+    "Wiredzone",
+    "DatacenterDisk",
+    "Yahoo"
+  ],
+  "newSourcesWithUsefulData": [
+    "DiscTech",
+    "Yahoo"
+  ],
+  "keyChangesVsYesterday": [
+    "韩国半导体股周四再度重挫：Naver 盘中 Samsung 206,000(-5.50%) / SK hynix 1,296,000(-7.16%)，周三反弹后跳空低开回吐",
+    "KOSPI 11/4 收 5,684（较 11/3 的 5,648.79 回升 +0.62%）",
+    "DiscTech parser_gap 解除：7.68TB 容量页返回 JSON-LD 16 条企业级 SSD 价格",
+    "新增 PCIe5 TLC 7.68TB 跨源样本：Micron 9550 PRO $6,279.99（≈¥51,433，较 carry 主值 39,271 高约 +31%，待跨源验证）",
+    "新增 PCIe4 TLC 7.68TB 旁证：PM1733a $4,395 / D7-P5510 $3,299 / PS1010 $4,199（与 7450 PRO $3,279.99 锚点一致）",
+    "PCIe5 TLC 30.72TB (9550 Pro) 公开价维持 $33,767.99，跳涨站稳第二十日，无再度撤回",
+    "PCIe4 QLC P5336 15.36/61.44TB 跳涨第十五日站稳，30.72TB 平盘（非对称延续）",
+    "7450 PRO 7.68TB 零回调 Day122（追踪史绝对最长）",
+    "Yahoo Chart 429 解除恢复；fx 6.6723（11/4 值，与 11/3 持平）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB 停产第63日；主值零回调；Q4 合约 +10~15%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；Q4 合约 +10~15%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 零回调 Day122（追踪史绝对最长）；DiscTech 旁证印证"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 公开价 $33,767.99 维持高位，跳涨站稳第二十日；7.68TB 新跨源样本高 +31% 待验证"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第十五日确认，供给风险上升；30.72TB 平盘待确认"
+    }
+  },
+  "gaps": [
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB 跳涨跨源验证",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech $6,279.99 较 carry 主值 39,271 高约 +31%，单源新样本待二次验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB 跳涨跨源验证",
+      "reasonCode": "stale_repeated_sample",
+      "note": "公开价维持 $33,767.99 但跳涨二十级仍单源 CDW，待跨源验证"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘，单源 CDW 待验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "9550 3.84TB Discontinued 第三十二日（10/3 下架）"
+    },
+    {
+      "category": "DDR5",
+      "spec": "96GB 旁证（6400/5600）",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 403 CAPTCHA 连续第二十三日，96GB 单条旁证连续第二十八日无法验证"
+    },
+    {
+      "category": "DDR5",
+      "spec": "CoreWaveLabs 企业级 RDIMM 口径",
+      "reasonCode": "parser_gap",
+      "note": "WooCommerce 通用价单，无逐 SKU 企业级 DDR5 RDIMM 映射"
+    }
+  ]
+}
