@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {"filled": 3, "total": 3},
+    "DDR5-5600": {"filled": 3, "total": 3},
+    "PCIe4 TLC": {"filled": 4, "total": 4},
+    "PCIe5 TLC": {"filled": 4, "total": 4},
+    "PCIe4 QLC": {"filled": 4, "total": 4}
+  },
+  "attemptedSources": ["CDW", "Newegg", "DiscTech", "CoreWaveLabs", "Exxact", "Saitech", "Provantage", "Tech-America", "Memory.net", "ShopBLT", "Zones", "Connection", "ServerSupply", "Wiredzone", "DatacenterDisk", "Yahoo", "Naver", "TradingEconomics", "frankfurter"],
+  "newSourcesTried": ["Exxact", "Saitech", "CDW 站内搜索 96GB DDR5 RDIMM"],
+  "newSourcesWithUsefulData": [],
+  "keyChangesVsYesterday": [
+    "PCIe5 TLC 30.72TB (9550 Pro) 二次跳涨第二日站稳：$37,135.99 未回落，昨日 +9.97% 跳涨由单日扰动升级为连续确认，供给收缩信号二级确认",
+    "DiscTech parser_gap 恢复：7.68TB 容量页 JSON-LD 恢复 16 条企业级 SSD 价格，9550 PRO 7.68TB $6,279.99 跨源样本恢复可复核（较 carry 高约 +31%）",
+    "PCIe4 QLC P5336 15.36TB / 61.44TB 跳涨第十八日站稳，30.72TB 平盘（非对称延续）",
+    "7450 PRO 7.68TB 零回调 Day125（追踪史绝对最长）",
+    "韩国周日休市：无新交易，周五收盘 Samsung -3.97% / SKH -6.96%，KOSPI 11/6 收 5,059.69（-6.02%，九个月低点）",
+    "Newegg 403 CAPTCHA 连续第二十六日",
+    "新增备源尝试：Exxact（无价格）、Saitech（403）、CDW 站内搜索 96GB（无匹配）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "up",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB Backorder 挂价第三日；主值零回调；Q4 合约 +10~15%"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；Q4 合约 +10~15%"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 零回调 Day125（追踪史绝对最长）"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 二次跳涨 +9.97% 第二日站稳，供给收缩二级确认；7.68TB 跨源样本 $6,279.99 恢复可复核（较主值高 +31%）"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第十八日确认，供给风险上升；30.72TB 平盘待确认"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5",
+      "spec": "32GB 6400 新挂价",
+      "reasonCode": "outlier_only",
+      "note": "$1,929.99 偏离锚点 +86%、Backorder 挂价，高偏差暂不纳入主值（第三日）"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB 二次跳涨跨源验证",
+      "reasonCode": "stale_repeated_sample",
+      "note": "二次跳涨 $37,135.99 第二日站稳但仍单源 CDW，待跨源验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB 跨源验证",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech $6,279.99 恢复可复核但较主值高 +31%，待二次确认"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘，单源 CDW 待验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "9550 3.84TB Discontinued 第三十五日（10/3 下架）"
+    },
+    {
+      "category": "DDR5",
+      "spec": "96GB 旁证（6400/5600）",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 403 CAPTCHA 连续第二十六日，96GB 单条旁证连续第三十一日无法验证；CDW 站内搜索无匹配"
+    },
+    {
+      "category": "DDR5",
+      "spec": "CoreWaveLabs 企业级 RDIMM 口径",
+      "reasonCode": "parser_gap",
+      "note": "WooCommerce 通用价单，无逐 SKU 企业级 DDR5 RDIMM 映射"
+    },
+    {
+      "category": "DDR5",
+      "spec": "Exxact / Saitech 备源",
+      "reasonCode": "no_public_sample",
+      "note": "Exxact 无可解析价格（parser_gap）；Saitech 403 阻断"
+    }
+  ]
+}
