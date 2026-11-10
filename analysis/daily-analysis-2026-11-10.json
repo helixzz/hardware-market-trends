@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T09:15:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 3
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 3
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "CDW 96GB DDR5 RDIMM 站内搜索",
+    "Kingston Server Premier 官方页",
+    "ServerSupply DDR5 RDIMM 目录页"
+  ],
+  "newSourcesWithUsefulData": [
+    "CDW 96GB DDR5 RDIMM 站内搜索（96GB 6400 首次公开价 $4,471.99）"
+  ],
+  "keyChangesVsYesterday": [
+    "韩国半导体股周二加速反弹：Samsung +4.87% / SKH +6.95%（周一 +2.33%/+3.18% 后加速，连续第二日回升）",
+    "96GB DDR5-6400 RDIMM 首次公开价：CDW Samsung M321RYGA0PB2-CCP $4,471.99 In Stock（填补约 32 天缺口）",
+    "DiscTech JSON-LD parser_gap 回归：9550 PRO 7.68TB $6,279.99 本轮无法复核（前两日有效后消失）",
+    "KOSPI 11/9 收 5,018.85（-0.81%），过去一月 -21.39%",
+    "fx 6.6728（11/9 值，ECB 已发布，较 11/6 的 6.6713 微升）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB Backorder 挂价第五日；96GB 6400 首次公开价 $4,471.99 供给信号出现；主值零回调"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；96GB 5600 仍 Backordered 无价；主值零回调"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 7.68TB 零回调 Day127（追踪史绝对最长），主值稳定"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 二次跳涨 +9.97% 第四日站稳，供给收缩保持；7.68TB 跨源样本本轮 parser_gap 无法复核"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第二十日确认，供给风险上升；30.72TB 平盘待确认"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "Samsung M321RYGA0PB0-CWM Backordered 无价（Request Pricing），今日首现产品页但无公开价"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "首现公开价 $4,471.99（≈¥36,626，In Stock）但较锚点 ¥29,000 高 +26%，单源 CDW 高偏差，暂不纳入主值，待跨源二次验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "9550 3.84TB Discontinued 第三十七日（10/3 生效，product_end）"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "二次跳涨 $37,135.99 第四日站稳但仍单源 CDW，待跨源验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech 跨源样本 $6,279.99 本轮 parser_gap 无法复核（较主值高 +31%），单源待二次确认"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘（非对称），单源 CDW 待验证"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "32GB",
+      "reasonCode": "outlier_only",
+      "note": "Backorder 挂价 $1,929.99 偏离锚点 +86%，暂不纳入主值（第五日）"
+    },
+    {
+      "category": "Newegg 企业级旁证",
+      "spec": "16GB 6400/16GB 5600/PM9A3/P5336",
+      "reasonCode": "stale_repeated_sample",
+      "note": "Newegg 5 页 403 CAPTCHA 连续第二十八日，来源塌缩（source_collapse）"
+    }
+  ]
+}
