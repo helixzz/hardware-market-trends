@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-12",
+  "fetchedAt": "2026-11-12T09:05:00+08:00",
+  "fxRate": 8.19,
+  "fxNote": "含税估算口径沿用(序列一致); frankfurter 2026-11-11 USDCNY=6.6707(11/11值·较11/10的6.6703微升)",
+  "sources": {
+    "cdw": {
+      "status": "OK",
+      "note": "CDW主源13 SKU全部HTTP 200·无新价格变化·全列carry。🟢9550Pro 30.72TB二次跳涨第六日站稳: $37,135.99未回落(11/7 $33,767.99→$37,135.99·+9.97%·第六日)·供给收缩信号·In Stock·仍单源。🟢PCIe4 QLC P5336 15.36TB $9,235.99/61.44TB $40,556.99跳涨第二十二日站稳·30.72TB $16,247.99平盘(非对称)。✅7450 PRO 7.68TB $3,279.99零回调Day129(追踪史绝对最长)。128GB 6400/5600均$7,777.99。32GB 6400(8505971)仍Backordered挂价$1,929.99(高偏差·不纳入主值·第七日)。96GB 6400(8458582)$4,471.99第三日In Stock(单源高偏差待验证)。9550 3.84TB Discontinued第三十九日(10/3生效)·4 SKU Request Pricing(6500 ION 30.72/64GB 5600/9550 15.36/P5336 122.88)。",
+      "skus": {
+        "7450 PRO 7.68TB": {"price": 3279.99, "stock": "3-5+ Days", "note": "零回调Day129·追踪史绝对最长"},
+        "6500 ION 30.72TB": {"price": 0, "stock": "In Stock", "note": "Request Pricing隐藏·parser_gap"},
+        "P5336 15.36TB": {"price": 9235.99, "stock": "In Stock", "note": "$9,235.99跳涨第二十二日站稳"},
+        "P5336 30.72TB": {"price": 16247.99, "stock": "In Stock", "note": "$16,247.99平盘(非对称未动)"},
+        "P5336 61.44TB": {"price": 40556.99, "stock": "In Stock", "note": "$40,556.99跳涨第二十二日站稳"},
+        "64GB 5600": {"price": 0, "stock": "Item Backordered", "note": "Request Pricing隐藏·parser_gap"},
+        "128GB 5600": {"price": 7777.99, "stock": "In Stock", "note": "$7,777.99维持(现挂MSRP划线$15,592.98)"},
+        "9550 Pro 15.36TB": {"price": 0, "stock": "In Stock", "note": "Request Pricing隐藏·parser_gap"},
+        "9550 Pro 3.84TB": {"price": 0, "stock": "Discontinued", "note": "Discontinued第三十九日(10/3生效)·product_end"},
+        "9550 Pro 30.72TB": {"price": 37135.99, "stock": "In Stock", "note": "🟢二次跳涨第六日站稳$37,135.99·未回落·仍单源"},
+        "128GB 6400": {"price": 7777.99, "stock": "1-3+ Days", "note": "$7,777.99维持·与5600同价"},
+        "P5336 122.88TB": {"price": 0, "stock": "4-6+ Weeks", "note": "Request Pricing隐藏·parser_gap"},
+        "32GB 6400": {"price": 1929.99, "stock": "Item Backordered", "note": "Backorder挂价$1,929.99·高偏差不纳入主值(第七日)"}
+      }
+    },
+    "cdw96": {
+      "status": "OK",
+      "note": "96GB 6400(Samsung M321RYGA0PB2-CCP·cdw-8458582)$4,471.99 In Stock(1-3+ Days·≈¥36,626·较锚点29,000高+26%·单源高偏差待验证·第三日)。96GB 5600(Samsung M321RYGA0PB0-CWM·cdw-8194577)Backordered无价(Request Pricing)。"
+    },
+    "newegg": {
+      "status": "DOWN",
+      "note": "5页403 CAPTCHA(Cloudflare·连续第三十日·反爬未解除)·16GB 6400/16GB 5600/96GB/PM9A3/P5336旁证持续中断"
+    },
+    "naver": {
+      "status": "OK",
+      "note": "🟢周四盘中分化: Samsung 211,000(+2.43%·RISING)连续第四日反弹/SKH 1,277,000(UNCHANGED 0.00%·反弹停滞平盘)——盘中~10:03KST"
+    },
+    "tradingeconomics": {
+      "status": "OK",
+      "note": "KOSPI 11/11收5,375.36(+2.60%·连续第二日反弹)·科技股收盘回落Samsung -0.96%/SKH -0.99%(美国10月CPI超预期·美联储或维持更久紧缩)"
+    },
+    "frankfurter": {
+      "status": "OK",
+      "note": "fx 6.6707(11/11值·较11/10的6.6703微升·ECB已发布)"
+    },
+    "disctech": {
+      "status": "OK",
+      "note": "🟢JSON-LD恢复: 7.68TB容量页302KB返回16条企业级SSD价格·9550 PRO 7.68TB $6,279.99跨源样本恢复可复核(较carry主值39,271高约+31%·待跨源验证)·PCIe4旁证PS1010 $4,199/PM1733a $4,395/D7-P5510 $3,299稳定"
+    },
+    "corewavelabs": {
+      "status": "OK",
+      "note": "2MB WooCommerce通用价单·无逐SKU企业级DDR5 RDIMM映射·parser_gap/RFQ"
+    },
+    "provantage": {
+      "status": "DOWN",
+      "note": "403(昨日首次恢复200后今日再度阻断·恢复仅持续一日)"
+    },
+    "kingston": {
+      "status": "DOWN",
+      "note": "🆕403(新增DDR5校验源尝试·阻断)"
+    },
+    "samsung_rdimm": {
+      "status": "OK",
+      "note": "🆕官方RDIMM规格页200(602KB)·仅规格无公开价·out_of_scope(校验源)"
+    },
+    "skhynix_dram": {
+      "status": "DOWN",
+      "note": "🆕404(新增校验源·失败)"
+    },
+    "wiredzone_ddr5": {
+      "status": "DOWN",
+      "note": "🆕404(DDR5分类页·失败)"
+    },
+    "datacenterdisk": {
+      "status": "DOWN",
+      "note": "第57次失联(DNS·000)"
+    },
+    "yahoo_chart": {
+      "status": "DOWN",
+      "note": "429限流(Too Many Requests)·第35日429"
+    },
+    "backup_probes": {
+      "status": "DOWN",
+      "note": "Memory.net/ShopBLT/Zones/Connection/ServerSupply/Provantage/Tech-America 403·Wiredzone 404"
+    }
+  },
+  "run_notes": [
+    "cdw-7085698: OK (7450 PRO 7.68TB $3,279.99 零回调Day129)",
+    "cdw-8215733: OK (9550 Pro 30.72TB 二次跳涨第六日站稳 $37,135.99)",
+    "cdw-7741004: OK (P5336 15.36TB $9,235.99 跳涨第二十二日)",
+    "cdw-7785193: OK (P5336 61.44TB $40,556.99 跳涨第二十二日)",
+    "cdw-8505971: OK (32GB 6400 Backordered $1,929.99·高偏差·第七日)",
+    "cdw-8458582: OK (96GB 6400 RDIMM $4,471.99 In Stock·第三日)",
+    "cdw-8194577: OK (96GB 5600 RDIMM Backordered·无价)",
+    "disctech-7.68TB: OK (HTTP 200·302KB·JSON-LD恢复·9550 PRO $6,279.99可复核)",
+    "corewave-6400: OK (parser_gap·WooCommerce通用价单)",
+    "provantage: FAIL (403·昨日恢复200后今日再度阻断)",
+    "kingston: FAIL (🆕403)",
+    "samsung-rdimm: OK (🆕官方页200·无公开价)",
+    "skhynix-dram: FAIL (🆕404)",
+    "wiredzone-ddr5: FAIL (🆕404)",
+    "newegg: FAIL (5页403 CAPTCHA 第三十日)",
+    "datacenterdisk: FAIL (DNS 000·第57次失联)",
+    "naver: OK (周四盘中 Samsung +2.43% / SKH 0.00%)",
+    "tradingeconomics: OK (KOSPI 11/11收5,375.36 +2.60%)",
+    "frankfurter: OK (fx 6.6707 11/11值)"
+  ]
+}
