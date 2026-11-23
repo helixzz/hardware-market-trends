@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T09:00:00+08:00",
+  "coverage": {
+    "DDR5-6400": {
+      "filled": 3,
+      "total": 3
+    },
+    "DDR5-5600": {
+      "filled": 3,
+      "total": 3
+    },
+    "PCIe4 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe5 TLC": {
+      "filled": 4,
+      "total": 4
+    },
+    "PCIe4 QLC": {
+      "filled": 4,
+      "total": 4
+    }
+  },
+  "newSourcesTried": [
+    "Capital & Compute",
+    "ServerSupply (16GB 6400 产品页)",
+    "Esaitech"
+  ],
+  "newSourcesWithUsefulData": [
+    "Capital & Compute"
+  ],
+  "keyChangesVsYesterday": [
+    "新增背景校验源 Capital & Compute（今日头条）：独立 RDIMM 口径 $29.37–$43.69/GB（中位 $42.29/GB），64GB 约 $2,561、128GB 约 $4,990；TrendForce 预计 4Q26 常规 DRAM 合约价环比 +10–15%（美云厂商多年长约抑制提价落地）",
+    "韩国半导体股周一开盘续跌：Samsung 174,800(-4.53%)/SKH 1,074,000(-3.50%)，较周五收盘 -8.13%/-7.02% 收窄但仍下探；KOSPI 11/20 收 4,869.96(-5.21%)，周一盘中值未更新",
+    "CDW 主源 15 SKU 全列 carry（连续第六十八日），9550 Pro 30.72TB 二次跳涨第十七日站稳 $37,135.99",
+    "96GB DDR5-6400 第十四日：$3,935.99 价格维持，交期维持 4-6+ Weeks，供给信号仍紧",
+    "DiscTech JSON-LD 稳定（18 条），9550 PRO 7.68TB $6,279.99 跨源样本连续第二日可复核（高 +31% 待二次确认）",
+    "7450 PRO 7.68TB 零回调 Day140；fx 维持 6.6777（11/20 值，周一 carry）"
+  ],
+  "trendJudgement": {
+    "DDR5-6400": "flat_or_mixed",
+    "DDR5-5600": "flat_or_mixed",
+    "PCIe4 TLC": "flat_or_mixed",
+    "PCIe5 TLC": "flat_or_mixed",
+    "PCIe4 QLC": "flat_or_mixed"
+  },
+  "procurementView": {
+    "DDR5-6400": {
+      "recommendation": "buy_now",
+      "reason": "32GB Backorder 挂价第十八日；96GB 6400 交期 4-6+ Weeks（供给仍紧）单源；主值零回调；Capital & Compute 独立口径确认 4Q26 合约价上行"
+    },
+    "DDR5-5600": {
+      "recommendation": "buy_now",
+      "reason": "64GB Backorder；96GB 5600 仍无公开价，供给紧张信号延续"
+    },
+    "PCIe4 TLC": {
+      "recommendation": "buy_now",
+      "reason": "7450 PRO 7.68TB 零回调 Day140（追踪史绝对最长），价格长期企稳"
+    },
+    "PCIe5 TLC": {
+      "recommendation": "buy_now",
+      "reason": "30.72TB 二次跳涨 +9.97% 第十七日站稳，供给收缩保持；7.68TB 跨源样本 $6,279.99（高 +31% 待确认）"
+    },
+    "PCIe4 QLC": {
+      "recommendation": "split_buy",
+      "reason": "15.36TB +10.84%、61.44TB +28.66% 跳涨连续第三十三日确认，供给风险上升；30.72TB 平盘待确认，宜分批锁现货"
+    }
+  },
+  "gaps": [
+    {
+      "category": "DDR5-6400",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 403 CAPTCHA 连续第四十一日；今日 ServerSupply 16GB 产品页 403、Esaitech 429 均失败"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "16GB",
+      "reasonCode": "no_public_sample",
+      "note": "Newegg 403 CAPTCHA 连续第四十一日，16GB 5600 旁证持续中断"
+    },
+    {
+      "category": "DDR5-5600",
+      "spec": "96GB",
+      "reasonCode": "no_public_sample",
+      "note": "Samsung M321RYGA0PB0-CWM Backordered 无价（Request Pricing，未公开）"
+    },
+    {
+      "category": "DDR5-6400",
+      "spec": "96GB",
+      "reasonCode": "outlier_only",
+      "note": "$3,935.99 较锚点 ¥29,000 高 +11%，单源 CDW 第十四日，交期 4-6+ Weeks 待跨源验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "3.84TB",
+      "reasonCode": "no_public_sample",
+      "note": "9550 3.84TB Discontinued 第五十日（CDW 10/3 下架，product_end）"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "30.72TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "二次跳涨 $37,135.99 第十七日站稳但仍单源 CDW，待跨源验证"
+    },
+    {
+      "category": "PCIe5 TLC",
+      "spec": "7.68TB",
+      "reasonCode": "stale_repeated_sample",
+      "note": "DiscTech $6,279.99 较主值高 +31%，待二次确认"
+    },
+    {
+      "category": "PCIe4 QLC",
+      "spec": "30.72TB",
+      "reasonCode": "outlier_only",
+      "note": "15.36/61.44TB 跳涨而 30.72TB 平盘，非对称，单源 CDW 待验证"
+    }
+  ]
+}
