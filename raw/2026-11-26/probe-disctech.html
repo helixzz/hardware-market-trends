@@ -1,0 +1,1365 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<script>
+		window.applicationStartTime = Date.now();
+	</script>
+
+
+
+
+
+    
+            <link id="shopping-css-audit-original-0.0" data-shopping-css-audit="original" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://www.disctech.com/secure/extensions/shopping_3.css?t=1788472029084">
+    
+
+
+
+    <script>
+    (function () {
+        var root = '/shopping-css/sca/8f1476f66461/';
+        var version = '1788472029084';
+        var initialPageType = 'other';
+        var splitTypes = ['home', 'plp', 'pdp'];
+        var bundles = {
+            main: root + 'shopping-main-shared.css?t=' + version,
+            home: root + 'shopping-home.delta.css?t=' + version,
+            plp: root + 'shopping-plp.delta.css?t=' + version,
+            pdp: root + 'shopping-pdp.delta.css?t=' + version,
+            dynamicUi: root + 'shopping-dynamic-ui.css?t=' + version,
+            rest: root + 'shopping-rest.css?t=' + version
+        };
+        var originalStylesheets = [
+            
+                'https://www.disctech.com/secure/extensions/shopping_3.css?t=1788472029084'
+            
+        ];
+        var loaded = {
+            main: initialPageType !== 'other',
+            home: initialPageType === 'home',
+            plp: initialPageType === 'plp',
+            pdp: initialPageType === 'pdp',
+            original: initialPageType === 'other',
+            dynamicUi: initialPageType !== 'other',
+            rest: false
+        };
+        var promises = {};
+        var replaying = false;
+        var activePageType = initialPageType;
+
+        function trimSlashes(value) {
+            value = String(value || '');
+            while (value.length && value.charAt(0) === '/') { value = value.substring(1); }
+            while (value.length && value.charAt(value.length - 1) === '/') { value = value.substring(0, value.length - 1); }
+            return value;
+        }
+
+        function hasFileExtension(value) {
+            return /.(?:html?|aspx?|css|js|mjs|map|json|xml|txt|pdf|zip|jpe?g|png|gif|webp|svg|ico|woff2?|ttf|eot|otf)$/i.test(String(value || ''));
+        }
+
+        function getPageTypeByUrl(path) {
+            var cleanPath = trimSlashes(path || '/');
+            var parts = cleanPath ? cleanPath.split('/') : [];
+            var nonPdpRootPaths = {
+                '2-5-inch-mobile-hard-drive-ordering-list': true,
+                'condition-levels': true,
+                'dell-e3s-compatibility-matrix': true,
+                'dell-laptop-ac-power-adapter-compatibility': true,
+                'dell-poweredge-server-ssd-hard-drive-compatibility-matrix': true,
+                'disctechs-extremely-discounted-international-shipping-rates': true,
+                'disctechs-hard-drive-recertification-program': true,
+                'fanless-case-design-for-netegriti-dvr-upgrades': true,
+                'government-gsa-sales-contractor-vendor-registration': true,
+                'guide-to-network-module-wics-for-cisco-routers': true,
+                'how-long-does-it-take-us-to-ship-a-package': true,
+                'how-to-mount-2-5-inch-small-form-factor-hard-drive-in-3-5-inch-large-form-factor-chassis': true,
+                'ibm-3rd-party-kit-explained': true,
+                'ibm-server-raid-manager-alert-vendor-unsupported': true,
+                'ibm-thinkpad-laptops-mini-pci-bios-restriction': true,
+                'job-listings': true,
+                'macbook-pro-compatibility-with-g-force': true,
+                'netegriti-mini-pci-wireless-card-drivers': true,
+                'netscreen-5gt-manual': true,
+                'payment-options-for-international-customers': true,
+                'powerdisable': true,
+                'product-warranties-explained': true,
+                'rohs-directive-restriction-of-hazardous-substances': true,
+                'sas-serial-attached-scsi-hard-drive-overview': true,
+                'scsi-id-jumper-block-settings': true,
+                'selecting-correct-interface-type': true,
+                'stock': true,
+                'support-ac-adapters-laptop-notebook': true,
+                'support-hard-drives': true,
+                'support-networking': true,
+                'support-rail-kits': true,
+                'support-software-drivers': true,
+                'what-is-a-nas-server': true,
+                'what-is-an-oem-product': true,
+                'white-label-hard-drives-explained': true,
+                'address': true,
+                '': true,
+                'about-us': true,
+                'adapters-cables': true,
+                'av': true,
+                'brands': true,
+                'cart': true,
+                'checkout': true,
+                'computer-networking': true,
+                'contact': true,
+                'condition-warranty': true,
+                'contact-us': true,
+                'customer-service': true,
+                'customized-it-hardware-solutions': true,
+                'data-storage': true,
+                'disctech-technology-refurbishing-process': true,
+                'green-initiative': true,
+                'holidays': true,
+                'international-orders-customs-duties-taxes': true,
+                'itad': true,
+                'legal': true,
+                'my_account': true,
+                'payment': true,
+                'privacy': true,
+                'privacy-policy': true,
+                'returns': true,
+                'rma': true,
+                'search': true,
+                'secure-data-erasure-and-disk-destruction': true,
+                'services': true,
+                'shipping': true,
+                'specials': true,
+                'support': true,
+                'system-design-architecture': true,
+                'systems': true,
+                'tech-support': true,
+                'terms': true,
+                'terms-and-conditions': true,
+                'warranty': true,
+                'testimonials': true
+            };
+
+            if (!cleanPath) { return 'home'; }
+            if (parts.length === 1 && !nonPdpRootPaths[parts[0]] && !hasFileExtension(parts[0])) { return 'pdp'; }
+            // Match the server classification: PLPs retain native compiled CSS.
+            if (parts.length > 1 && parts[0] !== 'checkout' && parts[0] !== 'my_account') { return 'other'; }
+            return 'other';
+        }
+
+        function getFragmentPathFromSearch() {
+            var params;
+            var fragment;
+            try {
+                params = new URLSearchParams(window.location.search || '');
+                fragment = params.get('fragment') || '';
+            } catch (e) {
+                fragment = '';
+            }
+            if (!fragment) { return ''; }
+            return String(fragment).split('?')[0] || '';
+        }
+
+        function getCurrentPathForPageType() {
+            return getFragmentPathFromSearch() || window.location.pathname || '/';
+        }
+
+        function getCurrentPageType() {
+            return getPageTypeByUrl(getCurrentPathForPageType());
+        }
+
+        function getCssPolicy(type) {
+            return type === 'home' || type === 'pdp' ? 'split' : 'native';
+        }
+
+        function crossesCssPolicyBoundary(type) {
+            return getCssPolicy(type) !== getCssPolicy(getCurrentPageType());
+        }
+
+        function markLoaded(link, type) {
+            loaded[type] = true;
+            if (link) { link.setAttribute('data-shopping-css-audit-loaded', 'T'); }
+        }
+
+        function isStylesheetReady(link) {
+            if (!link || link.getAttribute('data-shopping-css-audit-loaded') === 'T') { return true; }
+            try {
+                if (link.sheet && (link.sheet.cssRules || link.sheet.rules || link.sheet.href)) { return true; }
+            } catch (e) {
+                if (link.sheet) { return true; }
+            }
+            return false;
+        }
+
+        function waitForLink(link, type) {
+            return new Promise(function (resolve) {
+                var doneCalled = false;
+                var poll;
+                var timeout;
+
+                function done() {
+                    if (doneCalled) { return; }
+                    doneCalled = true;
+                    window.clearInterval(poll);
+                    window.clearTimeout(timeout);
+                    markLoaded(link, type);
+                    resolve();
+                }
+
+                if (isStylesheetReady(link)) { done(); return; }
+                link.addEventListener('load', done);
+                link.addEventListener('error', done);
+                poll = window.setInterval(function () { if (isStylesheetReady(link)) { done(); } }, 50);
+                timeout = window.setTimeout(done, 5000);
+            });
+        }
+
+        function appendStylesheet(id, auditType, href) {
+            var link = document.getElementById(id);
+            if (!link) {
+                link = document.createElement('link');
+                link.id = id;
+                link.setAttribute('data-shopping-css-audit', auditType);
+                link.rel = 'stylesheet';
+                link.href = href;
+                // Fetch without applying. activateCssPolicy switches the complete target
+                // policy only after every required stylesheet is ready.
+                link.media = 'not all';
+                document.head.appendChild(link);
+            }
+            return link;
+        }
+
+        function setStylesheetActive(link, active) {
+            if (link) { link.media = active ? 'all' : 'not all'; }
+        }
+
+        function activateCssPolicy(type) {
+            var useNative = getCssPolicy(type) === 'native';
+            var nativeLinks = document.querySelectorAll('link[data-shopping-css-audit="original"]');
+            var i;
+            var routeType;
+
+            // SuiteScript renders numeric template IDs as `0.0`, while browser-created
+            // links use `0`. Select by policy marker so both forms switch together.
+            for (i = 0; i < nativeLinks.length; i++) {
+                setStylesheetActive(nativeLinks[i], useNative);
+            }
+            setStylesheetActive(document.getElementById('shopping-css-audit-main'), !useNative);
+            setStylesheetActive(document.getElementById('shopping-css-audit-dynamic-ui'), !useNative);
+            for (i = 0; i < splitTypes.length; i++) {
+                routeType = splitTypes[i];
+                setStylesheetActive(
+                    document.getElementById('shopping-css-audit-' + routeType),
+                    !useNative && routeType === type
+                );
+            }
+            setStylesheetActive(document.getElementById('shopping-css-audit-rest'), false);
+            activePageType = type;
+        }
+
+        function movePageDeltaToEnd(type) {
+            var link;
+            if (splitTypes.indexOf(type) === -1) { return; }
+            link = document.getElementById('shopping-css-audit-' + type);
+            if (link && link.parentNode === document.head) {
+                document.head.appendChild(link);
+            }
+        }
+
+        var pendingPageDeltaActivations = {};
+
+        function isElementVisible(element) {
+            if (!element) { return false; }
+            if (element.offsetWidth || element.offsetHeight || element.getClientRects().length) { return true; }
+            return false;
+        }
+
+        function hasVisibleElement(selector) {
+            var nodes = document.querySelectorAll(selector);
+            var i;
+            for (i = 0; i < nodes.length; i++) {
+                if (isElementVisible(nodes[i])) { return true; }
+            }
+            return false;
+        }
+
+        function isPageTypeDomPresent(type) {
+            if (type === 'home') { return hasVisibleElement('.home, .home-cms'); }
+            if (type === 'plp') { return hasVisibleElement('.facets-facet-browse, .facets-category-browse'); }
+            if (type === 'pdp') { return hasVisibleElement('.product-details-full'); }
+            return false;
+        }
+
+        function activatePageDeltaWhenReady(type) {
+            var observer;
+            var interval;
+            var fallback;
+            var key = 'activate:' + type;
+
+            if (splitTypes.indexOf(type) === -1) { return; }
+            if (pendingPageDeltaActivations[key]) { return; }
+
+            function cleanup() {
+                pendingPageDeltaActivations[key] = false;
+                if (observer) { observer.disconnect(); }
+                window.clearInterval(interval);
+                window.clearTimeout(fallback);
+            }
+
+            function check() {
+                if (getCurrentPageType() === type && isPageTypeDomPresent(type)) {
+                    movePageDeltaToEnd(type);
+                    activateCssPolicy(type);
+                    cleanup();
+                    return true;
+                }
+                return false;
+            }
+
+            if (check()) { return; }
+            pendingPageDeltaActivations[key] = true;
+            observer = new MutationObserver(check);
+            observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
+            interval = window.setInterval(check, 100);
+            fallback = window.setTimeout(function () {
+                if (getCurrentPageType() === type) {
+                    movePageDeltaToEnd(type);
+                    activateCssPolicy(type);
+                }
+                cleanup();
+            }, 6000);
+        }
+
+        function activateNativePolicyWhenReady(sourceType) {
+            var observer;
+            var interval;
+            var fallback;
+            var key = 'activate:native';
+
+            if (pendingPageDeltaActivations[key]) { return; }
+
+            function cleanup() {
+                pendingPageDeltaActivations[key] = false;
+                if (observer) { observer.disconnect(); }
+                window.clearInterval(interval);
+                window.clearTimeout(fallback);
+            }
+
+            function check() {
+                // Keep the source split policy active while its DOM is still visible.
+                // MutationObserver callbacks run before paint, so the native policy can
+                // be applied in the same frame that replaces the source route DOM.
+                if (getCurrentPageType() === 'other' &&
+                    (getCssPolicy(sourceType) === 'native' || !isPageTypeDomPresent(sourceType))) {
+                    activateCssPolicy('other');
+                    cleanup();
+                    return true;
+                }
+                return false;
+            }
+
+            if (check()) { return; }
+            pendingPageDeltaActivations[key] = true;
+            observer = new MutationObserver(check);
+            observer.observe(document.body || document.documentElement, { childList: true, subtree: true });
+            interval = window.setInterval(check, 100);
+            fallback = window.setTimeout(function () {
+                if (getCurrentPageType() === 'other') { activateCssPolicy('other'); }
+                cleanup();
+            }, 6000);
+        }
+
+        function activateTargetPolicyWhenReady(type, sourceType) {
+            if (getCssPolicy(type) === 'native') {
+                activateNativePolicyWhenReady(sourceType);
+                return;
+            }
+            activatePageDeltaWhenReady(type);
+        }
+
+        function ensureCurrentPageSplit() {
+            var type = getCurrentPageType();
+            var sourceType = activePageType;
+            if (type === 'other') {
+                loadOriginal().then(function () { activateNativePolicyWhenReady(sourceType); });
+                return;
+            }
+            loadSplit(type, false).then(function () { activatePageDeltaWhenReady(type); });
+        }
+
+        function reprioritizeCurrentPageTypeSoon() {
+            window.setTimeout(ensureCurrentPageSplit, 0);
+            window.setTimeout(ensureCurrentPageSplit, 250);
+        }
+
+        function installHistoryReprioritizer() {
+            var originalPushState = window.history && window.history.pushState;
+            var originalReplaceState = window.history && window.history.replaceState;
+
+            if (!window.history || window.history.__shoppingCssAuditPatched) { return; }
+            window.history.__shoppingCssAuditPatched = true;
+
+            if (originalPushState) {
+                window.history.pushState = function () {
+                    var result = originalPushState.apply(this, arguments);
+                    reprioritizeCurrentPageTypeSoon();
+                    return result;
+                };
+            }
+            if (originalReplaceState) {
+                window.history.replaceState = function () {
+                    var result = originalReplaceState.apply(this, arguments);
+                    reprioritizeCurrentPageTypeSoon();
+                    return result;
+                };
+            }
+        }
+
+        function loadSplit(type, prioritize) {
+            var link;
+            if (prioritize !== false) { prioritize = true; }
+            if (type === 'other') { return loadOriginal(); }
+            loadDynamicUi();
+            if (loaded.main && loaded[type] && loaded.dynamicUi) {
+                if (prioritize) { movePageDeltaToEnd(type); }
+                return Promise.resolve();
+            }
+            if (promises['split:' + type]) {
+                return promises['split:' + type].then(function () {
+                    if (prioritize) { movePageDeltaToEnd(type); }
+                });
+            }
+
+            link = appendStylesheet('shopping-css-audit-main', 'main', bundles.main);
+            promises.main = promises.main || waitForLink(link, 'main');
+
+            link = appendStylesheet('shopping-css-audit-' + type, type, bundles[type]);
+            promises[type] = promises[type] || waitForLink(link, type);
+
+            promises['split:' + type] = Promise.all([promises.main, promises[type], loadDynamicUi()]);
+            return promises['split:' + type].then(function () {
+                if (prioritize) { movePageDeltaToEnd(type); }
+            });
+        }
+
+        function loadRest() {
+            var link;
+            if (loaded.rest) { return Promise.resolve(); }
+            if (promises.rest) { return promises.rest; }
+            link = appendStylesheet('shopping-css-audit-rest', 'rest', bundles.rest);
+            promises.rest = waitForLink(link, 'rest');
+            return promises.rest;
+        }
+
+        function loadDynamicUi() {
+            var link;
+            if (loaded.dynamicUi) { return Promise.resolve(); }
+            if (promises.dynamicUi) { return promises.dynamicUi; }
+            link = appendStylesheet('shopping-css-audit-dynamic-ui', 'dynamic-ui', bundles.dynamicUi);
+            promises.dynamicUi = waitForLink(link, 'dynamicUi');
+            return promises.dynamicUi;
+        }
+
+        function loadOriginal() {
+            var waits = [];
+            var i;
+            var link;
+            if (loaded.original) { return Promise.resolve(); }
+            if (promises.original) { return promises.original; }
+
+            for (i = 0; i < originalStylesheets.length; i++) {
+                link = appendStylesheet('shopping-css-audit-original-' + i, 'original', originalStylesheets[i]);
+                waits.push(waitForLink(link, 'original'));
+            }
+
+            promises.original = Promise.all(waits).then(function () { loaded.original = true; });
+            return promises.original;
+        }
+
+        function closestAnchor(node) {
+            while (node && node !== document) {
+                if (node.tagName && String(node.tagName).toLowerCase() === 'a') { return node; }
+                node = node.parentNode;
+            }
+            return null;
+        }
+
+        function shouldHandleClick(event, link) {
+            var url;
+            if (replaying || !link || event.defaultPrevented) { return false; }
+            if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) { return false; }
+            if (link.target && link.target !== '_self') { return false; }
+            if (link.getAttribute('download') !== null) { return false; }
+            url = new URL(link.href, window.location.href);
+            return url.origin === window.location.origin;
+        }
+
+        function onClick(event) {
+            var link = closestAnchor(event.target);
+            var url;
+            var type;
+            var wait;
+            var crossingPolicy;
+            var sourceType;
+            if (!shouldHandleClick(event, link)) { return; }
+
+            url = new URL(link.href, window.location.href);
+            type = getPageTypeByUrl(url.pathname);
+            sourceType = activePageType;
+            crossingPolicy = crossesCssPolicyBoundary(type);
+            if (type !== 'other') { movePageDeltaToEnd(getCurrentPageType()); }
+            if (!crossingPolicy && type !== 'other' && loaded.main && loaded[type]) {
+                reprioritizeCurrentPageTypeSoon();
+                return;
+            }
+            if (!crossingPolicy && type === 'other' && loaded.original) { return; }
+
+            wait = type === 'other' ? loadOriginal() : loadSplit(type, false);
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            wait.then(function () {
+                var replayed;
+                var wasCancelled;
+                if (type !== 'other') { movePageDeltaToEnd(getCurrentPageType()); }
+                replaying = true;
+                replayed = new MouseEvent('click', {
+                    bubbles: true,
+                    cancelable: true,
+                    view: window,
+                    button: event.button,
+                    buttons: event.buttons,
+                    clientX: event.clientX,
+                    clientY: event.clientY,
+                    screenX: event.screenX,
+                    screenY: event.screenY
+                });
+                wasCancelled = !link.dispatchEvent(replayed);
+                replaying = false;
+                // Do not apply target CSS to the source route. Keep the source policy
+                // until target DOM exists, then switch in a pre-paint mutation callback.
+                activateTargetPolicyWhenReady(type, sourceType);
+                if (type !== 'other') { reprioritizeCurrentPageTypeSoon(); }
+                if (!wasCancelled) { window.location.href = link.href; }
+            });
+        }
+
+        document.addEventListener('click', onClick, true);
+        installHistoryReprioritizer();
+        window.addEventListener('popstate', reprioritizeCurrentPageTypeSoon);
+        window.addEventListener('hashchange', reprioritizeCurrentPageTypeSoon);
+
+        // Do not inject unused route/rest CSS on a timer. Late cascade changes can
+        // resize an already-painted LCP candidate. Route transitions load on demand.
+    }());
+    </script>
+
+
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="https://www.disctech.com/secure//img/favicon.ico" />
+	<title></title>
+
+
+<link rel="preconnect" href="https://www.shopperapproved.com" crossorigin>
+<link rel="preconnect" href="https://consent.cookiebot.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+<link rel="preconnect" href="https://stats.g.doubleclick.net" crossorigin>
+<link rel="preconnect" href="https://td.doubleclick.net" crossorigin>
+<link rel="preconnect" href="https://analytics.google.com" crossorigin>
+<link rel="preconnect" href="https://www.disctech.com" crossorigin>
+
+<link rel="dns-prefetch" href="//www.shopperapproved.com">
+<link rel="dns-prefetch" href="//consent.cookiebot.com">
+<link rel="dns-prefetch" href="//www.googletagmanager.com">
+<link rel="dns-prefetch" href="//stats.g.doubleclick.net">
+<link rel="dns-prefetch" href="//td.doubleclick.net">
+<link rel="dns-prefetch" href="//analytics.google.com">
+<link rel="dns-prefetch" href="//www.disctech.com">
+
+<!-- Preload Assets -->
+<link rel="preload" href="https://www.disctech.com/DiscTechIconFont.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="preload" href="https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+<style>
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVSwiPGQ.woff2') format('woff2');
+}
+
+@font-face {font-family: "DiscTechIconFont";
+  src: url("/DiscTechIconFont.woff2") format("woff2");
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+<noscript>
+	<div class="shopping-layout-no-javascript-msg" data-nosnippet>
+		<strong>Javascript is disabled on your browser.</strong><br>
+		To view this site, you must enable JavaScript or upgrade to a JavaScript-capable browser.
+	</div>
+</noscript>
+
+<div id="main" class="main">...</div>
+
+
+<script>
+function Deferred(){this.status="started",this.data=void 0,this.doneCb=[]}function loadJSON(e,o){window.loadedResourcesPromises=window.loadedResourcesPromises||{};var n=new Deferred;window.loadedResourcesPromises[o]=n;var t=new XMLHttpRequest;return t.open("GET",e),t.onreadystatechange=function(){4===t.readyState&&200===t.status&&n.resolve(JSON.parse(t.responseText))},t.send(null),n}function loadScript(e){window.loadedResourcesPromises=window.loadedResourcesPromises||{};var o=window.loadedResourcesPromises[e]=new Deferred,n=document.createElement("script");function t(){o.resolve()}return n.src=e,n.onerror=t,n.onload=t,document.head.appendChild(n),o}function isObject(e){return e&&"object"==typeof e&&!Array.isArray(e)}function merge(e,o){if(isObject(e)&&isObject(o))for(var n,t=Object.keys(o),r=0;r<t.length;r++)!isObject(o[n=t[r]])||void 0===e[n]?e[n]=o[n]:merge(e[n],o[n]);return e}function _each(e,o){for(var n=0;n<e.length;n++)o(e[n],n)}Deferred.prototype.done=function(e){"resolved"===this.status?e(this.data):this.doneCb.push(e)},Deferred.prototype.resolve=function(e){this.data=e,this.status="resolved";for(var o=0;o<this.doneCb.length;o++)this.doneCb[o](this.data);return this},Deferred.all=function(e){for(var o=Object.keys(e),n=0,t=new Deferred,r=0;r<o.length;r++)e[o[r]].done(function(){++n===o.length&&t.resolve()});return t};var hash,googletagmanager_cookie,value,parts,SC=window.SC={ENVIRONMENT:{jsEnvironment:"undefined"==typeof nsglobal?"browser":"server"},isCrossOrigin:function(){return"www.disctech.com"!==document.location.hostname},isPageGenerator:function(){return"undefined"!=typeof nsglobal},getSessionInfo:function(e){var o=SC.SESSION||SC.DEFAULT_SESSION||{};return e?o[e]:o},getPublishedObject:function(e){return SC.ENVIRONMENT&&SC.ENVIRONMENT.published&&SC.ENVIRONMENT.published[e]?SC.ENVIRONMENT.published[e]:null}};history.pushState||"browser"!==SC.ENVIRONMENT.jsEnvironment||"/"===location.pathname&&""===location.search||""!==location.hash||("/"===location.pathname?(hash=(RegExp("fragment=(.+?)(&|$)").exec(location.search)||[,""])[1],location.replace(location.pathname+location.search+"/#"+unescape(hash))):location.replace("/#"+location.pathname+location.search),document.write("")),SC.isCrossOrigin()||(navigator.userAgent.match(/googlebot/i)||(document.getElementById("main").style.display=""),SC.isPageGenerator()&&(document.body.className=document.body.className+" seo-support"),SC.ENVIRONMENT.seoSupport=!!~document.body.className.indexOf("seo-support"),SC.isPageGenerator()&&(SC.ENVIRONMENT.PROFILE={}),"browser"!==SC.ENVIRONMENT.jsEnvironment||SC.isCrossOrigin()||((googletagmanager_cookie="")||2===(parts=(value="; "+document.cookie).split("; _gid=")).length&&(googletagmanager_cookie="&_ga="+parts.pop().split(";").shift()),window.loadedResourcesPromises=window.loadedResourcesPromises||{},loadJSON('https://www.disctech.com/secure/services/ShoppingUserEnvironment.Service.ss?lang=en_US&cur=&X-SC-Touchpoint=shopping'+googletagmanager_cookie,"shoppingUserEnvironment").done(function(e){merge(SC,e),SC.PROFILE_PROMISE&&SC.PROFILE_PROMISE.resolve(SC.ENVIRONMENT.PROFILE)})));
+</script>
+<!-- DT-079 EARLY HOME SHELL START -->
+<script data-cookieconsent="ignore">
+(function () {
+    if (typeof nsglobal !== 'undefined') return;
+    if (location.hostname !== 'www.disctech.com') return;
+    if (location.pathname !== '/' || (location.hash && location.hash !== '#')) return;
+    if (new URLSearchParams(location.search).has('fragment')) return;
+    // The native starter keeps nonempty #main for Googlebot; do not fill its raw frame.
+    if (navigator.userAgent.toLowerCase().indexOf('googlebot') !== -1) return;
+
+    function isPristine(main) {
+        // Fail closed: never replace a prerender, an error, or another route.
+        return main.children.length === 0 && main.textContent.trim() === '';
+    }
+
+    function mount() {
+        if (window.SC && SC.isPageGenerator()) return;
+        if (location.pathname !== '/' || (location.hash && location.hash !== '#')) return;
+        if (new URLSearchParams(location.search).has('fragment')) return;
+        var main = document.getElementById('main');
+        if (!main || !isPristine(main)) return;
+        var shell = document.createElement('section');
+        shell.id = 'dt079-early-home';
+        shell.setAttribute('aria-busy', 'true');
+        shell.setAttribute('aria-label', 'Loading homepage');
+        shell.innerHTML = '<style>' + ('/* Initial Home frame. All rules disappear when SCA replaces #main. */'
+ + String.fromCharCode(10)
+ + '#dt079-early-home, #dt079-early-home * { box-sizing: border-box; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home { width:100%; min-height:100vh; overflow:hidden; background:linear-gradient(#fff,#f2f2f2); color:#333; font:13.02px/19.53px Lato,Helvetica,Arial,sans-serif; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home a { color:inherit; text-decoration:none; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home img { max-width:100%; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-container { width:100%; margin:0 auto; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-promo { height:36px; display:flex; align-items:center; justify-content:center; background:#ff9100; color:#00546d; font-weight:700; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-core { background:#333; color:#fff; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-utility { height:61px; display:flex; align-items:center; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-mobile-controls { width:40%; display:flex; gap:8px; padding-left:15px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-button { width:44px; height:44px; display:flex; align-items:center; justify-content:center; background:#666; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-glyph { font-family:DiscTechIconFont; font-size:20px; line-height:1; font-style:normal; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-mobile-controls .dt079-glyph { font-size:24px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-contact { width:15%; display:flex; align-items:center; justify-content:center; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-mini-logo { flex:none; width:48px; height:33px; overflow:hidden; position:relative; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-mini-logo img { position:absolute; top:-60px; left:-287px; width:441px; height:107px; max-width:none; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-contact-copy, #dt079-early-home .dt079-support { display:none; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-actions { width:140px; margin-left:auto; padding-right:15px; display:flex; align-items:center; justify-content:flex-end; gap:8px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-account, #dt079-early-home .dt079-cart { min-width:36px; height:44px; display:flex; align-items:center; justify-content:center; gap:6px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-account { order:3; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-account-label { display:none; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-brand, #dt079-early-home .dt079-nav { display:none; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-ship { height:46px; display:flex; align-items:center; justify-content:center; background:#fff; border:1px solid #ddd; color:#777; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-content { padding:20px 15px 40px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-carousel { display:none; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-tiles { display:flex; flex-wrap:wrap; margin:0 -15px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-tile { display:block; width:100%; padding:0 15px; margin-bottom:20px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-tile-placeholder { display:block; width:100%; height:auto; aspect-ratio:159/89; background:#e5e9ea; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-featured-heading { margin:20px 0 15px; padding:10px 20px; background:#ff9100; color:#fff; font-size:16px; font-weight:700; line-height:17.6px; text-transform:uppercase; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-products { display:grid; grid-template-columns:1fr; gap:42px; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-product { min-width:0; padding:15px; border:1px solid #e4e4e4; background:#fff; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-product-image { width:270px; max-width:100%; height:270px; margin:0 auto 28px; border-radius:4px; background:#eaeaea; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-product-line { height:22px; margin:10px 0; border-radius:2px; background:#e5e5e5; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-product-line.short { width:65%; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-product-button { height:36px; margin-top:25px; border-radius:2px; background:#eaeaea; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-status { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); }'
+ + String.fromCharCode(10)
+ + '@media(min-width:768px) {'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-mobile-controls { width:16.6667%; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact { width:33.3333%; padding:0 15px; justify-content:flex-start; gap:8px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact-copy { display:flex; align-items:center; gap:8px; white-space:nowrap; font-size:14px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact-phone { display:none; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-support { width:33.3333%; display:block; padding:0 15px; font-size:12px; line-height:19.53px; align-self:flex-start; margin-top:16px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-actions { width:16.6667%; padding:0 15px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-phone { display:none; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-ship { height:28px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-content { padding-top:15px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-carousel { display:block; width:100%; aspect-ratio:1335/525; overflow:hidden; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-hero { display:block; position:relative; margin-top:20px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-hero img { display:block; width:100%; height:auto; aspect-ratio:1575/575; background:#e5e9ea; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-dots { position:absolute; right:15px; bottom:15px; display:flex; gap:6px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-dots span { width:10px; height:10px; border-radius:50%; background:#fff; opacity:.25; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-dots span:first-child { opacity:1; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-tile { width:33.333333333%; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-products { grid-template-columns:repeat(2,minmax(0,1fr)); }'
+ + String.fromCharCode(10)
+ + '}'
+ + String.fromCharCode(10)
+ + '@media(min-width:992px) {'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-promo { height:24px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-utility { height:46.53125px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-mobile-controls, #dt079-early-home .dt079-mini-logo { display:none; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact { width:25%; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact-phone { display:inline; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-support { width:33.3333%; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-actions { width:41.6667%; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-account { order:0; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-account-label { display:block; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-brand { height:86px; display:flex; align-items:center; padding:15px; background:#fff; color:#888; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-wordmark { flex:none; display:block; width:441px; height:56px; overflow:hidden; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-wordmark img { width:441px; height:107px; max-width:none; display:block; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-search { display:flex; align-items:center; width:600px; height:52px; margin-left:auto; align-self:flex-start; border:1px solid #ddd; background:#f1f1f1; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-search-icon { width:39px; padding-left:10px; color:#59bbdb; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-search-text { flex:1; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-search-go { width:50px; height:51px; display:flex; align-items:center; justify-content:center; background:#16738d; color:#fff; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-nav { display:block; height:44px; background:linear-gradient(#237790 50%,#146b85 50%); color:#fff; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-nav-inner { height:44px; display:flex; align-items:center; padding:0 6px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-nav a { display:block; height:44px; padding:0 15px; border-right:1px solid #125b74; border-left:1px solid #2c7a94; font-size:18px; line-height:44px; }'
+ + String.fromCharCode(10)
+ + '}'
+ + String.fromCharCode(10)
+ + '@media(min-width:1366px) { #dt079-early-home .dt079-container { width:1366px; } }'
+ + String.fromCharCode(10)
+ + '@media(min-width:1375px) { #dt079-early-home .dt079-products { grid-template-columns:repeat(4,minmax(0,1fr)); } }'
+ + String.fromCharCode(10)
+ + '@media(min-width:1600px) { #dt079-early-home .dt079-container { width:1600px; } }'
+ + String.fromCharCode(10)
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-support > * { display:inline-block; padding-left:20px; white-space:nowrap; }'
+ + String.fromCharCode(10)
+ + '#dt079-early-home .dt079-utility > * { flex-shrink:0; }'
+ + String.fromCharCode(10)
+ + '@media(min-width:768px) and (max-width:991px) {'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact-copy { font-size:12.25px; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact-us { display:none; }'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-contact { padding-left:21px; }'
+ + String.fromCharCode(10)
+ + '}'
+ + String.fromCharCode(10)
+ + '@media(min-width:992px) {'
+ + String.fromCharCode(10)
+ + ' #dt079-early-home .dt079-support { margin-top:12px; }'
+ + String.fromCharCode(10)
+ + '}'
+ + String.fromCharCode(10)) + '</style>' + ('<div class="dt079-promo">Buy Now Dell SAS SSD or Dell SATA SSD</div>'
+ + String.fromCharCode(10)
+ + '<div class="dt079-core"><div class="dt079-utility dt079-container">'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-mobile-controls" aria-hidden="true"><span class="dt079-button"><i class="dt079-glyph">&#xea07;</i></span><span class="dt079-button"><i class="dt079-glyph">&#xea38;</i></span></div>'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-contact"><span class="dt079-mini-logo"><img src="/secure/img/DT_logo_sprite.svg" alt="DiscTech" width="441" height="107"></span><span class="dt079-contact-copy"><i class="dt079-glyph dt079-contact-phone">&#xea32;</i><a href="tel:+16195501900">+1 (619) 550-1900</a><a href="/contact">CONTACT<span class="dt079-contact-us"> US</span></a></span></div>'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-support"><a href="/support">Support</a><a href="/services">Services</a><a href="/about-us">Who We Are</a><span aria-hidden="true">Chat With Us</span></div>'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-actions" aria-hidden="true"><span class="dt079-button dt079-phone"><i class="dt079-glyph">&#xea32;</i></span><span class="dt079-account"><i class="dt079-glyph">&#xea47;</i><span class="dt079-account-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="dt079-cart"><i class="dt079-glyph">&#xea3b;</i></span></div>'
+ + String.fromCharCode(10)
+ + '</div></div>'
+ + String.fromCharCode(10)
+ + '<div class="dt079-brand dt079-container"><a href="/" class="dt079-wordmark"><img src="/secure/img/DT_logo_sprite.svg" alt="DiscTech — Storage-Centric Solutions" width="441" height="107"></a><div class="dt079-search" aria-hidden="true"><i class="dt079-glyph dt079-search-icon">&#xea38;</i><span class="dt079-search-text">SEARCH BRAND, MODEL #, OR KEYWORD(S)...</span><span class="dt079-search-go">GO</span></div></div>'
+ + String.fromCharCode(10)
+ + '<div class="dt079-nav"><div class="dt079-nav-inner dt079-container"><a href="/data-storage">Data Storage</a><a href="/systems">Systems</a><a href="/computer-networking">Networking</a><a href="/adapters-cables">Cables &amp; Adapters</a><a href="/av">Audio &amp; Video</a><a href="/specials">Specials</a></div></div>'
+ + String.fromCharCode(10)
+ + '<div class="dt079-ship">Loading shipping options…</div>'
+ + String.fromCharCode(10)
+ + '<div class="dt079-content dt079-container">'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-carousel"><a class="dt079-hero" href="/data-storage/internal-storage/ssd-solid-state-drives"><picture><source media="(max-width:767px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><img src="/c.394358/SCASite/content_delivery/home_banners/Banner-DiscTech_SSD.jpg" width="1575" height="575" fetchpriority="high" alt="DiscTech Solid State Drives"></picture><span class="dt079-dots" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></span></a></div>'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-tiles" aria-hidden="true">'
+ + String.fromCharCode(10)
+ + '  <span class="dt079-tile"><span class="dt079-tile-placeholder"></span></span>'
+ + String.fromCharCode(10)
+ + '  <span class="dt079-tile"><span class="dt079-tile-placeholder"></span></span>'
+ + String.fromCharCode(10)
+ + '  <span class="dt079-tile"><span class="dt079-tile-placeholder"></span></span>'
+ + String.fromCharCode(10)
+ + ' </div>'
+ + String.fromCharCode(10)
+ + ' <h3 class="dt079-featured-heading">Featured Items</h3>'
+ + String.fromCharCode(10)
+ + ' <div class="dt079-products" aria-hidden="true"><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div><div class="dt079-product"><div class="dt079-product-image"></div><div class="dt079-product-line"></div><div class="dt079-product-line short"></div><div class="dt079-product-button"></div></div></div>'
+ + String.fromCharCode(10)
+ + ' <p class="dt079-status" role="status">Loading homepage…</p>'
+ + String.fromCharCode(10)
+ + '</div>'
+ + String.fromCharCode(10));
+        main.innerHTML = '';
+        main.appendChild(shell);
+        // ApplicationLayout.appendToDom replaces #main with its real layout.
+    }
+
+    if (document.getElementById('main')) mount();
+    else document.addEventListener('DOMContentLoaded', mount, { once: true });
+})();
+</script>
+<!-- DT-079 EARLY HOME SHELL END -->
+<!-- DT-052 EARLY PDP SHELL START -->
+<script data-cookieconsent="ignore">
+(function () {
+    var slug = location.pathname;
+    while (slug.charAt(0) === '/') slug = slug.slice(1);
+    while (slug.charAt(slug.length - 1) === '/') slug = slug.slice(0, -1);
+    slug = decodeURIComponent(slug);
+    if (!slug || slug.indexOf('/') !== -1) return;
+
+    var params = [
+        'fieldset=details',
+        'include=facets',
+        'url=' + encodeURIComponent(slug)
+    ].join('&');
+
+    function firstImage(value) {
+        var index;
+        var keys;
+        var found;
+        if (!value || typeof value !== 'object') return '';
+        if (Object.prototype.toString.call(value) === '[object Array]') {
+            for (index = 0; index < value.length; index++) {
+                found = firstImage(value[index]);
+                if (found) return found;
+            }
+            return '';
+        }
+        if (typeof value.url === 'string' && value.url) return value.url;
+        keys = ['1000', 'media', 'urls', 'thumbnail'];
+        for (index = 0; index < keys.length; index++) {
+            found = firstImage(value[keys[index]]);
+            if (found) return found;
+        }
+        keys = Object.keys(value);
+        for (index = 0; index < keys.length; index++) {
+            found = firstImage(value[keys[index]]);
+            if (found) return found;
+        }
+        return '';
+    }
+
+    function imageUrls(value) {
+        var entries = value && value['1000'] && value['1000'].urls;
+        var urls = [];
+        var index;
+        if (Object.prototype.toString.call(entries) !== '[object Array]') return urls;
+        for (index = 0; index < entries.length; index++) {
+            if (entries[index] && typeof entries[index].url === 'string' && entries[index].url) {
+                urls.push(entries[index].url);
+            }
+        }
+        return urls;
+    }
+
+    function requestItem() {
+        var request = new XMLHttpRequest();
+        if (typeof nsglobal !== 'undefined') return;
+        if (window.SC && SC.isPageGenerator()) return;
+        if (document.querySelector('.product-details-full,.product-details-image-gallery')) return;
+        request.open('GET', '/api/cacheable/items?' + params, true);
+        request.onreadystatechange = function () {
+            var data;
+            var item;
+            var title;
+            var images;
+            var image;
+            var main;
+            var shell;
+            var hero;
+            var thumbs;
+            var thumbIndex;
+            var heading;
+            var status;
+
+            if (request.readyState !== 4 || request.status !== 200) return;
+            try {
+                data = JSON.parse(request.responseText);
+                item = data && data.items && data.items[0];
+                if (!item) return;
+                title = item.storedisplayname2 || item.storedisplayname || item.displayname || item.itemid || '';
+                images = imageUrls(item.itemimages_detail);
+                image = images[0] || firstImage(item.itemimages_detail) || '/nophoto.jpg';
+                if (!title) return;
+
+                image = new URL(image, location.origin).href;
+                if (!/nophoto/i.test(image)) {
+                    image += (image.indexOf('?') === -1 ? '?' : '&') + 'resizeid=9&resizeh=650&resizew=650';
+                }
+
+                main = document.getElementById('main');
+                if (!main || document.querySelector('.product-details-full,.product-details-image-gallery')) return;
+
+                shell = document.createElement('section');
+                shell.id = 'dt052-early-pdp';
+                shell.setAttribute('aria-busy', 'true');
+                shell.setAttribute('aria-label', 'Loading product details');
+                shell.innerHTML =
+                    '<style>' +
+                    '#dt052-early-pdp,#dt052-early-pdp *{box-sizing:border-box}' +
+                    '#dt052-early-pdp{width:100%;min-height:100vh;overflow:hidden;background:#f7f7f7;color:#333;font-family:inherit}' +
+                    '#dt052-early-pdp .dt052-promo{height:36px;display:flex;align-items:center;justify-content:center;background:#ff9100;color:#333;font-size:13px;font-weight:600}' +
+                    '#dt052-early-pdp .dt052-core{height:61px;background:#333;color:#fff}' +
+                    '#dt052-early-pdp .dt052-utility{height:61px;display:flex;align-items:stretch}' +
+                    '#dt052-early-pdp .dt052-mobile-controls{width:40%;display:flex;align-items:center;gap:8px;padding-left:15px}' +
+                    '#dt052-early-pdp .dt052-icon-button{width:44px;height:44px;display:flex;align-items:center;justify-content:center;background:#666;color:#fff}' +
+                    '#dt052-early-pdp .dt052-glyph{font-family:DiscTechIconFont;font-style:normal;font-weight:400;font-size:20px;line-height:1}' +
+                    '#dt052-early-pdp .dt052-mobile-controls .dt052-glyph{font-size:24px}' +
+                    '#dt052-early-pdp .dt052-contact{width:15%;display:flex;align-items:center;justify-content:center}' +
+                    '#dt052-early-pdp .dt052-mini-brand{position:relative;flex:0 0 auto;width:48px;height:33px;margin:5px auto;overflow:hidden;color:transparent;font-size:0}' +
+                    '#dt052-early-pdp .dt052-mini-brand img{position:absolute;top:-60px;left:-287px;width:441px;height:107px;max-width:none}' +
+                    '#dt052-early-pdp .dt052-contact-copy,#dt052-early-pdp .dt052-support{display:none}' +
+                    '#dt052-early-pdp .dt052-utility-actions{width:140px;margin-left:auto;padding-right:15px;display:flex;align-items:center;justify-content:flex-end}' +
+                    '#dt052-early-pdp .dt052-utility-action{position:relative;min-width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;line-height:16px}' +
+                    '#dt052-early-pdp .dt052-phone-action{margin-right:8px;background:#666}' +
+                    '#dt052-early-pdp .dt052-action-label{display:none}' +
+                    '#dt052-early-pdp .dt052-cart-count{position:absolute;top:-6px;right:0;min-width:22px;height:18px;padding:2px;border:2px solid #333;border-radius:10px;background:#ff9100;color:#fff;font-size:11px;font-weight:600;line-height:10px;text-align:center}' +
+                    '#dt052-early-pdp .dt052-brand-row,#dt052-early-pdp .dt052-nav{display:none}' +
+                    '#dt052-early-pdp .dt052-ship-wrap{background:#fff;border-bottom:1px solid #ddd}' +
+                    '#dt052-early-pdp .dt052-ship{height:45px;display:flex;align-items:center;justify-content:center;background:#fff;color:#555;font-size:12px}' +
+                    '#dt052-early-pdp .dt052-crumb{display:none}' +
+                    '#dt052-early-pdp .dt052-content{width:100%}' +
+                    '#dt052-early-pdp .dt052-stage{width:100%;margin-top:20px;background:#fff}' +
+                    '#dt052-early-pdp .dt052-left{background:#fff}' +
+                    '#dt052-early-pdp .dt052-title{min-height:19px;margin:0 0 5px;padding:0 15px;color:#156e8c;font-size:16px;line-height:19.2px;font-weight:600}' +
+                    '#dt052-early-pdp .dt052-primary{display:block}' +
+                    '#dt052-early-pdp .dt052-media{height:156px;display:flex;align-items:flex-start;justify-content:center}' +
+                    '#dt052-early-pdp .dt052-hero{display:block;flex:0 0 auto;width:206px;height:155.28125px;max-width:none;object-fit:contain;margin:0;background:#eef2f3}' +
+                    '#dt052-early-pdp .dt052-thumbs{display:none}' +
+                    '#dt052-early-pdp .dt052-facts{min-height:190px;padding:14px 15px;display:flex;flex-direction:column;align-items:flex-start}' +
+                    '#dt052-early-pdp .dt052-status{order:2;min-height:20px;margin:10px 0 9px;color:#59bbdb;font-size:13px;line-height:19px;font-weight:600}' +
+                    '#dt052-early-pdp .dt052-fact-line{order:3;width:205px;height:13px;margin:4px 0;border-radius:2px;background:#dfe7ea}' +
+                    '#dt052-early-pdp .dt052-fact-line.short{width:145px}' +
+                    '#dt052-early-pdp .dt052-fact-value{order:1;width:90px;height:25px;border-radius:2px;background:#f0a13b}' +
+                    '#dt052-early-pdp .dt052-pill{order:4;width:90px;height:26px;margin-top:9px;border-radius:3px;background:#f3a13d}' +
+                    '#dt052-early-pdp .dt052-actions{order:5;display:none;gap:8px;margin-top:12px}' +
+                    '#dt052-early-pdp .dt052-actions span{display:block;width:76px;height:34px;border-radius:2px;background:#dfe7ea}' +
+                    '#dt052-early-pdp .dt052-actions span:last-child{width:148px;background:linear-gradient(to bottom,#1a718e 0%,#2c7b95 49%,#156c89 50%,#146a87 100%)}' +
+                    '#dt052-early-pdp .dt052-specs{height:111px;margin:0 15px 20px;padding:10px 7px;background:#f1f8fb}' +
+                    '#dt052-early-pdp .dt052-spec-row{height:17px;margin:4px 0;background:linear-gradient(90deg,#c9d7dc 0 34%,transparent 34% 68%,#6c94a2 68% 100%);opacity:.72}' +
+                    '#dt052-early-pdp .dt052-summary{display:none}' +
+                    '#dt052-early-pdp .dt052-description{height:250px;margin:14px 15px;background:#fff;border:1px solid #e5e5e5;padding:18px}' +
+                    '#dt052-early-pdp .dt052-description span{display:block;height:13px;margin:12px 0;border-radius:2px;background:#e1e7e9}' +
+                    '#dt052-early-pdp .dt052-description span:first-child{width:145px;height:20px;background:#4c7d8e;opacity:.6}' +
+                    '#dt052-early-pdp .dt052-description span:nth-child(3){width:83%}' +
+                    '#dt052-early-pdp .dt052-mobile-bar{position:fixed;z-index:2;right:10px;bottom:0;left:0;height:70px;display:flex;align-items:center;justify-content:center;gap:10px;border-top:1px solid #ddd;background:#fff}' +
+                    '#dt052-early-pdp .dt052-mobile-bar span{display:block;height:40px;border-radius:3px;background:#e2e8ea}' +
+                    '#dt052-early-pdp .dt052-mobile-bar span:first-child{width:72px}' +
+                    '#dt052-early-pdp .dt052-mobile-bar span:last-child{width:148px;background:linear-gradient(to bottom,#1a718e 0%,#2c7b95 49%,#156c89 50%,#146a87 100%)}' +
+                    '@media(min-width:768px){' +
+                    '#dt052-early-pdp .dt052-ship{height:28px}' +
+                    '#dt052-early-pdp .dt052-mobile-controls{width:16.6667%}' +
+                    '#dt052-early-pdp .dt052-contact{width:33.3333%;justify-content:flex-start;padding:0 15px}' +
+                    '#dt052-early-pdp .dt052-mini-brand{margin:5px 8px 0 0}' +
+                    '#dt052-early-pdp .dt052-contact-copy{display:flex;align-items:center;margin-top:6px;color:#fff;font-size:14px;line-height:19.5px;text-transform:uppercase;white-space:nowrap}' +
+                    '#dt052-early-pdp .dt052-contact-separator{margin-left:8px}' +
+                    '#dt052-early-pdp .dt052-contact-phone-icon{display:none;margin-right:5px}' +
+                    '#dt052-early-pdp .dt052-support{width:33.3333%;display:flex;align-items:flex-start;padding:0 15px;color:#fff;font-size:12px;line-height:19.5px}' +
+                    '#dt052-early-pdp .dt052-support-inner{width:100%;margin-top:6px;display:block;white-space:nowrap}' +
+                    '#dt052-early-pdp .dt052-support-inner span{display:inline-block;padding-left:20px}' +
+                    '#dt052-early-pdp .dt052-utility-actions{width:16.6667%;padding:0 15px}' +
+                    '#dt052-early-pdp .dt052-phone-action{display:none}' +
+                    '#dt052-early-pdp .dt052-stage{width:66%;margin-top:15px;border:1px solid #e5e5e5}' +
+                    '#dt052-early-pdp .dt052-primary{display:grid;grid-template-columns:50% 50%}' +
+                    '#dt052-early-pdp .dt052-media{height:245px;padding-top:0}' +
+                    '#dt052-early-pdp .dt052-hero{width:126px;height:95px}' +
+                    '#dt052-early-pdp .dt052-facts{height:245px;min-height:0;padding:14px}' +
+                    '#dt052-early-pdp .dt052-specs{grid-column:1/-1;height:113px;margin:14px}' +
+                    '#dt052-early-pdp .dt052-description{width:66%;height:400px;margin:14px 0}' +
+                    '#dt052-early-pdp .dt052-mobile-bar{display:none}' +
+                    '#dt052-early-pdp .dt052-actions{display:flex}' +
+                    '}' +
+                    '@media(min-width:992px){' +
+                    '#dt052-early-pdp{min-height:calc(100vh + 1px)}' +
+                    '#dt052-early-pdp .dt052-promo{height:24px}' +
+                    '#dt052-early-pdp .dt052-core{height:132px;background:linear-gradient(to bottom,#333 0,#333 46px,#fff 46px,#fff 100%)}' +
+                    '#dt052-early-pdp .dt052-utility{width:100%;height:46px;margin:0 auto;background:transparent}' +
+                    '#dt052-early-pdp .dt052-mobile-controls,#dt052-early-pdp .dt052-mini-brand{display:none}' +
+                    '#dt052-early-pdp .dt052-contact{width:25%;padding:0 15px}' +
+                    '#dt052-early-pdp .dt052-contact-copy{position:relative;margin-top:12px;padding-left:16px;font-size:14px}' +
+                    '#dt052-early-pdp .dt052-contact-phone-icon{position:absolute;left:0;display:inline;font-size:20px;line-height:16px}' +
+                    '#dt052-early-pdp .dt052-contact-number{margin-left:9px}' +
+                    '#dt052-early-pdp .dt052-support{width:33.3333%;font-size:14px}' +
+                    '#dt052-early-pdp .dt052-support-inner{margin-top:12px}' +
+                    '#dt052-early-pdp .dt052-utility-actions{width:41.6667%;padding:0 15px}' +
+                    '#dt052-early-pdp .dt052-action-label{display:inline;margin-left:6px;text-transform:uppercase}' +
+                    '#dt052-early-pdp .dt052-login-action{order:2}' +
+                    '#dt052-early-pdp .dt052-cart-action{order:3}' +
+                    '#dt052-early-pdp .dt052-brand-row{width:100%;height:86px;margin:0 auto;display:flex;align-items:center;padding:15px;background:#fff}' +
+                    '#dt052-early-pdp .dt052-wordmark{display:block;flex:0 0 auto;width:441px;height:56px;overflow:hidden;color:transparent;font-size:0}' +
+                    '#dt052-early-pdp .dt052-wordmark img{display:block;width:441px;height:107px;max-width:none}' +
+                    '#dt052-early-pdp .dt052-search{width:600px;height:50px;margin-left:auto;display:flex;align-items:center;border:1px solid #ddd;background:#f8f8f8;color:#8f8f8f;font-size:12px}' +
+                    '#dt052-early-pdp .dt052-search-icon{width:35px;padding-left:10px;color:#59bbdb;font-size:18px}' +
+                    '#dt052-early-pdp .dt052-search-text{flex:1}' +
+                    '#dt052-early-pdp .dt052-search b{height:50px;width:55px;display:flex;align-items:center;justify-content:center;background:linear-gradient(to bottom,#1a718e 0%,#2c7b95 49%,#156c89 50%,#146a87 100%);color:#fff;font-size:12px}' +
+                    '#dt052-early-pdp .dt052-nav{height:44px;display:block;background:linear-gradient(to bottom,#1a718e 0%,#2c7b95 49%,#156c89 50%,#146a87 100%);color:#fff}' +
+                    '#dt052-early-pdp .dt052-nav-inner{width:100%;height:44px;margin:0 auto;display:flex;align-items:center}' +
+                    '#dt052-early-pdp .dt052-nav span{height:44px;display:flex;align-items:center;padding:0 15px;border-left:1px solid #2c7a94;border-right:1px solid #125b74;color:#fff;font-size:18px;line-height:44px}' +
+                    '#dt052-early-pdp .dt052-ship{width:100%;height:27px;margin:0 auto}' +
+                    '#dt052-early-pdp .dt052-crumb{width:100%;height:55px;margin:0 auto;display:flex;align-items:center;padding:0 15px;gap:8px;background:#f7f7f7}' +
+                    '#dt052-early-pdp .dt052-crumb span{display:block;height:11px;border-radius:2px;background:#d7dde0}' +
+                    '#dt052-early-pdp .dt052-crumb span:nth-child(1){width:42px}' +
+                    '#dt052-early-pdp .dt052-crumb span:nth-child(2){width:68px}' +
+                    '#dt052-early-pdp .dt052-crumb span:nth-child(3){width:93px}' +
+                    '#dt052-early-pdp .dt052-content{width:100%;margin:0 auto}' +
+                    '#dt052-early-pdp .dt052-stage{width:100%;margin-top:0;display:grid;grid-template-columns:75% 25%;border:0;background:#f7f7f7}' +
+                    '#dt052-early-pdp .dt052-left{height:355px;margin:0 7px 0 15px;border:1px solid #e3e3e3}' +
+                    '#dt052-early-pdp .dt052-title{min-height:44px;margin:0;padding:15px 15px 5px;font-size:20px;line-height:24px}' +
+                    '#dt052-early-pdp .dt052-primary{height:310px;display:grid;grid-template-columns:25% 39% 36%}' +
+                    '#dt052-early-pdp .dt052-media{height:310px;justify-content:flex-start;padding:20px 0 0 15px}' +
+                    '#dt052-early-pdp .dt052-hero{width:244px;height:184px}' +
+                    '#dt052-early-pdp .dt052-facts{height:310px;padding:20px 15px}' +
+                    '#dt052-early-pdp .dt052-status{order:1;margin:0 0 8px}' +
+                    '#dt052-early-pdp .dt052-fact-line{order:2}' +
+                    '#dt052-early-pdp .dt052-fact-value{order:3;margin-top:10px}' +
+                    '#dt052-early-pdp .dt052-pill{order:4}' +
+                    '#dt052-early-pdp .dt052-actions{order:5}' +
+                    '#dt052-early-pdp .dt052-specs{grid-column:auto;height:113px;margin:20px 15px 0}' +
+                    '#dt052-early-pdp .dt052-summary{display:block;margin-right:15px}' +
+                    '#dt052-early-pdp .dt052-review{height:67px;border:1px solid #e3e3e3;background:linear-gradient(110deg,#347b95 0 52%,#fff 52%)}' +
+                    '#dt052-early-pdp .dt052-summary-card{height:273px;margin-top:14px;padding:20px;border:1px solid #e3e3e3;background:#fff}' +
+                    '#dt052-early-pdp .dt052-summary-card strong{display:block;margin-bottom:24px;font-size:15px}' +
+                    '#dt052-early-pdp .dt052-summary-card span{display:block;width:82%;height:12px;margin:11px 0;background:#dfe6e8}' +
+                    '#dt052-early-pdp .dt052-description{width:calc(75% - 22px);height:250px;margin:14px 7px 0 15px}' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-media{flex-direction:column}' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-thumbs{width:244px;height:35px;margin-top:17px;display:flex;justify-content:center;gap:10px}' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-thumbs span{display:block;flex:0 0 45px;height:35px;border:1px solid #d7dde0;background:#eef2f3}' +
+                    '}' +
+                    '@media(min-width:1366px){#dt052-early-pdp .dt052-utility,#dt052-early-pdp .dt052-brand-row,#dt052-early-pdp .dt052-nav-inner,#dt052-early-pdp .dt052-ship,#dt052-early-pdp .dt052-crumb,#dt052-early-pdp .dt052-content{width:1366px}}' +
+                    '@media(min-width:1600px){#dt052-early-pdp .dt052-utility,#dt052-early-pdp .dt052-brand-row,#dt052-early-pdp .dt052-nav-inner,#dt052-early-pdp .dt052-ship,#dt052-early-pdp .dt052-crumb,#dt052-early-pdp .dt052-content{width:1600px}}' +
+                    '#dt052-early-pdp{min-height:calc(100vh + 1px)}' +
+                    '#dt052-early-pdp .dt052-description{width:calc(100% - 15px);margin:14px 0 0 15px}' +
+                    '@media(min-width:768px) and (max-width:991px){' +
+                    '#dt052-early-pdp .dt052-stage{width:100%;height:auto;margin-top:14px;display:grid;grid-template-columns:66.6667% 33.3333%;border:0}' +
+                    '#dt052-early-pdp .dt052-left{width:auto;height:auto;margin:0;border:0;padding-bottom:0}' +
+                    '#dt052-early-pdp .dt052-title{width:calc(100% - 17px);min-height:0;margin:1px 0 5px 16px;padding:0}' +
+                    '#dt052-early-pdp .dt052-primary{width:calc(100% - 17px);height:839.25px;margin-left:16px;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:606.25px 233px}' +
+                    '#dt052-early-pdp .dt052-media{grid-column:span 6;width:auto;height:305px;padding:0;justify-content:flex-start;flex-direction:column}' +
+                    '#dt052-early-pdp .dt052-hero{width:100%;height:auto}' +
+                    '#dt052-early-pdp .dt052-facts{grid-column:span 6;width:auto;height:606.25px}' +
+                    '#dt052-early-pdp .dt052-specs{grid-column:span 12;width:auto;height:233px;margin:0;padding:14px}' +
+                    '#dt052-early-pdp .dt052-summary{display:block;margin:0 15px}' +
+                    '#dt052-early-pdp .dt052-summary-card{height:558px}' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-thumbs{width:100%;height:48.33px;margin-top:0;display:flex;align-items:flex-end;justify-content:center;gap:9.594px}' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-thumbs span{flex:0 0 50px;width:50px;height:38px;max-width:50px;max-height:38px;aspect-ratio:auto}' +
+                    '#dt052-early-pdp .dt052-description{margin-top:31px}' +
+                    '}' +
+                    '@media(min-width:992px) and (max-width:1199px){' +
+                    '#dt052-early-pdp .dt052-core{height:164px}' +
+                    '#dt052-early-pdp .dt052-utility{height:78px}' +
+                    '#dt052-early-pdp .dt052-crumb{height:76px}' +
+                    '#dt052-early-pdp .dt052-stage{height:auto;grid-template-columns:69.109% 30.891%}' +
+                    '#dt052-early-pdp .dt052-left{width:auto;height:auto;margin:0;border:0;padding-bottom:0}' +
+                    '#dt052-early-pdp .dt052-title{width:calc(100% - 17px);min-height:0;margin:16px 0 25px 16px;padding:0}' +
+                    '#dt052-early-pdp .dt052-primary{width:calc(100% - 17px);height:858.8px;margin-left:16px;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:606px 252.8px}' +
+                    '#dt052-early-pdp .dt052-media{grid-column:span 6;width:auto;height:330px;padding:0;justify-content:flex-start}' +
+                    '#dt052-early-pdp .dt052-hero{width:100%;height:auto}' +
+                    '#dt052-early-pdp .dt052-facts{grid-column:span 4;width:auto;height:606px}' +
+                    '#dt052-early-pdp .dt052-specs{grid-column:span 5;width:auto;height:253px;margin:0;padding:14px}' +
+                    '#dt052-early-pdp .dt052-summary{display:block;margin:0 15px}' +
+                    '#dt052-early-pdp .dt052-summary-card{height:542px}' +
+                    '#dt052-early-pdp .dt052-description{margin-top:31px}' +
+                    '}' +
+                    '@media(min-width:992px){' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-thumbs{width:100%;height:51.2px;margin-top:0;display:flex;align-items:flex-end;justify-content:center;gap:9.594px}' +
+                    '#dt052-early-pdp.dt052-has-thumbs .dt052-thumbs span{flex:0 0 calc(22.5% - 9.59px);width:auto;height:auto;max-width:50px;max-height:38px;aspect-ratio:1.316}' +
+                    '}' +
+                    '@media(min-width:1200px){' +
+                    '#dt052-early-pdp .dt052-stage{height:auto;grid-template-columns:75% 25%}' +
+                    '#dt052-early-pdp .dt052-left{width:auto;height:auto;margin:0;border:0;padding-bottom:0}' +
+                    '#dt052-early-pdp .dt052-title{width:calc(100% - 47px);min-height:0;margin:16px 0 25px 31px;padding:0}' +
+                    '#dt052-early-pdp .dt052-primary{width:calc(100% - 47px);height:411.9px;margin-left:31px;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:411.9px}' +
+                    '#dt052-early-pdp .dt052-media{grid-column:span 3;width:auto;height:100%;padding:0;justify-content:flex-start}' +
+                    '#dt052-early-pdp .dt052-hero{width:100%;height:auto}' +
+                    '#dt052-early-pdp .dt052-facts{grid-column:span 5;width:auto;height:100%}' +
+                    '#dt052-early-pdp .dt052-specs{grid-column:span 4;width:auto;height:100%;margin:0;padding:14px}' +
+                    '#dt052-early-pdp .dt052-summary{display:block;margin:0 15px}' +
+                    '#dt052-early-pdp .dt052-summary-card{height:542px}' +
+                    '#dt052-early-pdp .dt052-description{margin-top:31px}' +
+                    '}' +
+                    '@media(min-width:1200px) and (max-width:1359px){#dt052-early-pdp .dt052-crumb{height:76.6px}}' +
+                    '@media(min-width:1360px){#dt052-early-pdp .dt052-crumb{height:56px}}' +
+                    '@media(min-width:1600px){#dt052-early-pdp .dt052-primary{height:370.35px;grid-template-rows:370.35px}}' +
+                    '@media(prefers-reduced-motion:no-preference){#dt052-early-pdp .dt052-fact-line,#dt052-early-pdp .dt052-description span,#dt052-early-pdp .dt052-summary-card span{animation:dt052-pulse 1.4s ease-in-out infinite alternate}@keyframes dt052-pulse{to{opacity:.45}}}' +
+                    '</style>' +
+                    '<div class="dt052-frame" aria-hidden="true">' +
+                    '<div class="dt052-promo">Buy Now Dell SAS SSD or Dell SATA SSD</div>' +
+                    '<div class="dt052-core"><div class="dt052-utility"><div class="dt052-mobile-controls"><span class="dt052-icon-button"><i class="dt052-glyph">&#xea07;</i></span><span class="dt052-icon-button"><i class="dt052-glyph">&#xea38;</i></span></div><div class="dt052-contact"><span class="dt052-mini-brand"><img src="/secure/img/DT_logo_sprite.svg" width="441" height="107" fetchpriority="high" alt=""></span><div class="dt052-contact-copy"><i class="dt052-glyph dt052-contact-phone-icon">&#xea32;</i><span class="dt052-contact-number">+1 (619) 550-1900</span><span class="dt052-contact-separator">CONTACT US</span></div></div><div class="dt052-support"><div class="dt052-support-inner"><span>Support</span><span>Services</span><span>Who We Are</span><span>Chat With Us</span></div></div><div class="dt052-utility-actions"><span class="dt052-utility-action dt052-phone-action"><i class="dt052-glyph">&#xea32;</i></span><span class="dt052-utility-action dt052-cart-action"><i class="dt052-glyph">&#xea3b;</i><em class="dt052-cart-count">0</em><b class="dt052-action-label">Cart</b></span><span class="dt052-utility-action dt052-login-action"><i class="dt052-glyph">&#xea47;</i><b class="dt052-action-label">Login</b></span></div></div><div class="dt052-brand-row"><span class="dt052-wordmark"><img src="/secure/img/DT_logo_sprite.svg" width="441" height="107" fetchpriority="high" alt=""></span><div class="dt052-search"><i class="dt052-glyph dt052-search-icon">&#xea38;</i><span class="dt052-search-text">SEARCH BRAND, MODEL #, OR KEYWORD(S)…</span><b>GO</b></div></div></div>' +
+                    '<div class="dt052-nav"><div class="dt052-nav-inner"><span>Data Storage</span><span>Systems</span><span>Networking</span><span>Cables &amp; Adapters</span><span>Audio &amp; Video</span><span>Specials</span></div></div>' +
+                    '<div class="dt052-ship-wrap"><div class="dt052-ship">Loading shipping options…</div></div>' +
+                    '<div class="dt052-crumb"><span></span><span></span><span></span></div>' +
+                    '</div>' +
+                    '<div class="dt052-content"><div class="dt052-stage"><div class="dt052-left"><h1 class="dt052-title"></h1><div class="dt052-primary"><div class="dt052-media"><img class="dt052-hero"><div class="dt052-thumbs"></div></div><div class="dt052-facts"><span class="dt052-fact-value"></span><p class="dt052-status" role="status">Loading price and availability…</p><span class="dt052-fact-line"></span><span class="dt052-fact-line short"></span><span class="dt052-pill"></span><div class="dt052-actions"><span></span><span></span></div></div><div class="dt052-specs"><div class="dt052-spec-row"></div><div class="dt052-spec-row"></div><div class="dt052-spec-row"></div><div class="dt052-spec-row"></div></div></div><div class="dt052-description" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div></div><aside class="dt052-summary" aria-hidden="true"><div class="dt052-review"></div><div class="dt052-summary-card"><strong>Product Summary</strong><span></span><span></span><span></span><span></span><span></span></div></aside></div></div>' +
+                    '<div class="dt052-mobile-bar" aria-hidden="true"><span></span><span></span></div>';
+
+                if (images.length > 1) {
+                    shell.classList.add('dt052-has-thumbs');
+                    thumbs = shell.querySelector('.dt052-thumbs');
+                    for (thumbIndex = 0; thumbIndex < Math.min(images.length, 4); thumbIndex++) {
+                        thumbs.appendChild(document.createElement('span'));
+                    }
+                }
+
+                hero = shell.querySelector('.dt052-hero');
+                hero.src = image;
+                hero.alt = title;
+                hero.width = 650;
+                hero.height = 489;
+                hero.setAttribute('fetchpriority', 'high');
+
+                heading = shell.querySelector('.dt052-title');
+                heading.textContent = title;
+
+                status = shell.querySelector('.dt052-status');
+                main.innerHTML = '';
+                main.appendChild(shell);
+            } catch (error) {
+                // Fail closed: the existing three-dot shell and normal SCA startup remain authoritative.
+            }
+        };
+        request.send(null);
+    }
+
+    if (document.getElementById('main')) requestItem();
+    else document.addEventListener('DOMContentLoaded', requestItem, { once: true });
+})();
+</script>
+<!-- DT-052 EARLY PDP SHELL END -->
+
+<script>
+function convertToRegex(pattern) {
+  // Escape . and /
+  pattern = pattern.split(".").join("\.").split("/").join("\/");
+
+  // Replace * with .*
+  pattern = pattern.split("*").join(".*");
+
+  // Handle $ at the end
+  if (pattern.charAt(pattern.length - 1) === "$") {
+    pattern = pattern.substring(0, pattern.length - 1) + "$";
+  } else {
+    pattern = pattern + ".*";
+  }
+
+  // Return RegExp, case-insensitive
+  return new RegExp("^" + pattern, "i");
+}
+
+
+function updateRobotsTag() {
+  var patterns = SC.CONFIGURATION.noindex.table || [];
+  // Use Backbone.history.getFragment() to get current path
+  var path = "/" + Backbone.history.getFragment();
+
+  var matched = false;
+  for (var i = 0; i < patterns.length; i++) {
+    var regex = convertToRegex(patterns[i]);
+    if (regex.test(path)) {
+      matched = true;
+      break;
+    }
+  }
+
+  var meta = document.querySelector('meta[name="robots"]');
+  if (matched) {
+    if (!meta) {
+      meta = document.createElement("meta");
+      meta.setAttribute("name", "robots");
+      document.getElementsByTagName("head")[0].appendChild(meta);
+    }
+    meta.setAttribute("content", "noindex, nofollow");
+  } else if (meta && meta.parentNode) {
+    meta.parentNode.removeChild(meta);
+  }
+}
+
+
+</script>
+
+
+
+<script>
+
+
+	var loadScripts = function(event) {
+  		console.log("DOM fully loaded and parsed");
+		var counter = 0;
+		function onLoad() {
+			counter++;
+			if (counter === 9) {
+					console.log('Starting')
+					if (SC.isPageGenerator()) {
+						_.each(document.querySelectorAll('script.remove-script'), function (node) { node.remove() })
+
+try{var startApplication=function(){require(["Loggers","Loggers.Configuration.SCA"],function(e,t){e.Loggers.setConfiguration(t.configuration)}),require(["SC.Shopping.Starter"])};window.loadedResourcesPromises?Deferred.all(window.loadedResourcesPromises).done(function(){try{startApplication()}catch(e){document.getElementById("main").style.display="block"}}):startApplication()}catch(e){document.getElementById("main")&&(document.getElementById("main").style.display="block")}
+					} else {
+						setTimeout(function () {
+
+try{var startApplication=function(){require(["Loggers","Loggers.Configuration.SCA"],function(e,t){e.Loggers.setConfiguration(t.configuration)}),require(["SC.Shopping.Starter"])};window.loadedResourcesPromises?Deferred.all(window.loadedResourcesPromises).done(function(){try{startApplication()}catch(e){document.getElementById("main").style.display="block"}}):startApplication()}catch(e){document.getElementById("main")&&(document.getElementById("main").style.display="block")}
+
+try {
+  var Backbone = require('Backbone');
+  Backbone.history.on('route', function() {
+    updateRobotsTag();
+  });
+} catch (err) {
+
+}
+
+
+						}, 1)
+					}
+
+					console.log('Started')
+			}
+		}
+
+		
+
+    if(!SC.isPageGenerator()){
+        var NLRUM = NLRUM || {};
+        NLRUM.bSendBeacon = 0;
+        NLRUM.bResourceTimingDataCollection = 1;
+        NLRUM.autorun = false;
+        loadScript('/nlrum/nlRUM.js');
+    }
+
+
+		var promises = [];
+		[
+"https://www.disctech.com/secure/javascript/jquery-3.5.1.min.js",
+"https://www.disctech.com/secure/javascript/underscore-min.js",
+"https://www.disctech.com/secure/javascript/backbone-standalone.js",
+			"https://www.disctech.com/secure/public/shopping.environment.ssp?lang=en_US&cur=&X-SC-Touchpoint=shopping&t=1730412314624",
+			"https://www.disctech.com/secure/public/shopping.environment.shortcache.ssp?X-SC-Touchpoint=shopping&t=1730412314624",
+			"https://www.disctech.com/secure/extensions/shopping-templates_3.js?t=1730412314624",
+			"https://www.disctech.com/secure/javascript/shopping.js?t=1730412314624",
+			"https://www.disctech.com/secure/extensions/shopping_3.js?t=1730412314624",
+      "https://www.disctech.com/cms.js"
+
+            	].forEach(function(src) {
+            	    var script = document.createElement('script');
+            	    script.src = src;
+            	    script.async = false;
+		    script.classList.add('remove-script');
+            	    document.head.appendChild(script);
+		    script.onload = onLoad
+            	});
+
+
+
+	}
+
+	if (document.body.classList.contains('seo-support') && !SC.isPageGenerator()) {
+		document.addEventListener("DOMContentLoaded", function () {
+            loadScripts()
+         });
+	} else {
+		loadScripts()
+	}
+</script>
+
+
+
+</body>
+
+</html>
+
+<!-- SuiteCommerce Advanced [ prodbundle_id "572916" ] [ baselabel "SCA_2025.2.0" ] [ version "2025.2.0" ] [ datelabel "2025.09.23" ] [ buildno "0" ] -->
+
+<!-- 490 s: 41% #52 cache: 16% #35 -->
+<!-- Host [ sh.fa.9.prod.phx.na9 ] App Version [ 2026.2.15.30067 ] -->
+<!-- COMPID [ 394358 ] URL [ /s.nl ] Time [ Wed Nov 25 17:08:29 PST 2026 ] -->
+<!-- All SQL was faster than 100 ms -->
