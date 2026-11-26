@@ -16,3 +16,8 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# 原始抓取快照不进 git（含第三方网页公开 token，会触发 secret scanning）
+raw/*/*.html
+raw/*/*.log
+raw/*/*.sh
